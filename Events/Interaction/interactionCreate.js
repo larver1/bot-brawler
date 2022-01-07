@@ -1,4 +1,5 @@
 const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
+const { dbAccess } = require("../../dbAccess.js");
 
 module.exports = {
     name: "interactionCreate",
@@ -8,6 +9,7 @@ module.exports = {
      * @param {Client} client 
      */
     async execute(interaction, client) {
+        console.log(dbAccess);
         if(interaction.isCommand() || interaction.isContextMenu()) {
             const command = client.commands.get(interaction.commandName);
             if(!command)
@@ -17,17 +19,8 @@ module.exports = {
                         .setDescription("❌ An error occured while running this command.")
                 ]}) && client.commands.delete(interaction.commandName);
 
-            //Check if DMs are on
-            if(!interaction.user.createDM())
-                return interaction.reply({ embeds: [
-                    new MessageEmbed()
-                        .setColor("RED")
-                        .setDescription("❌ Your DMs are turned off, so the bot cannot work.")
-                    ]});
+            command.execute(interaction, client, dbAccess);
 
-            command.execute(interaction, client);
-
-            
         }
     }
 }

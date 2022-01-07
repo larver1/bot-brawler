@@ -1,5 +1,4 @@
 const { Client, MessageEmbed } = require("discord.js");
-require("../../Events/Client/ready");
 
 module.exports = {
     name: "status",
@@ -16,26 +15,4 @@ module.exports = {
         interaction.reply({ embeds: [Response] });
 
     }
-}
-
-function switchTo(val) {
-    let status = " ";
-    switch(val) {
-        case 0:
-            status = "DISCONNECTED";
-            break;
-        case 1:
-            status = "CONNECTED";
-            break;
-        case 2: 
-            status = "CONNECTING";
-            break;
-        case 3:
-            status = "DISCONNECTING";
-            break;
-        default:
-            break;
-    }
-
-    return status;
 }

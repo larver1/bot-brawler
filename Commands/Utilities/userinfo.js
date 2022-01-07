@@ -6,9 +6,13 @@ module.exports = {
     permission: "",
     /***
      * @param {ContextMenuInteraction} interaction
+     * @param {Client} client
+     * @param {db} db
      */
-    async execute(interaction){
+    async execute(interaction, client, db){
         const target = await interaction.guild.members.fetch(interaction.targetId);
+
+        console.log(await db.findUser(interaction.user.id));
 
         const Response = new MessageEmbed()
             .setColor("AQUA")

@@ -1,6 +1,7 @@
 const fs = require("fs");
 const { Client, Collection, Intents } = require("discord.js");
 const { token } = require("./config.json");
+const { dbAccess } = require("./dbAccess.js");
 
 //Create discord client
 const client = new Client({ intents: [
@@ -14,5 +15,7 @@ client.commands = new Collection();
 require("./Database/dbStatus")(client);
 require("./Handlers/Events")(client);
 require("./Handlers/Commands")(client);
+console.log(dbAccess);
+
 
 client.login(token);
