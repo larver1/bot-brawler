@@ -1,7 +1,8 @@
 const fs = require("fs");
 const { Client, Collection, Intents } = require("discord.js");
 const { token } = require("./config.json");
-const { dbAccess } = require("./dbAccess.js");
+const { default: logger } = require("consola");
+
 
 //Create discord client
 const client = new Client({ intents: [
@@ -9,13 +10,11 @@ const client = new Client({ intents: [
     Intents.FLAGS.GUILD_MESSAGES, 
     Intents.FLAGS.GUILD_MESSAGE_REACTIONS]
 });
-
 client.commands = new Collection();
 
+//Setup handlers
 require("./Database/dbStatus")(client);
 require("./Handlers/Events")(client);
 require("./Handlers/Commands")(client);
-console.log(dbAccess);
-
 
 client.login(token);

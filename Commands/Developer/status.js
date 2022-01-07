@@ -5,14 +5,14 @@ module.exports = {
     description: "Displays status of client.",
     /**
      * @param {CommandInteraction} CommandInteraction
-     * @param {Client} client
+     * @param {Object} executeObj
      */
-    async execute(interaction, client) {
+    async execute(interaction, exec) {
         const Response = new MessageEmbed()
             .setColor("AQUA")
-            .setDescription(`**Client**: \`✅ ONLINE\` - \`${client.ws.ping}ms\`\n **Uptime**: <t:${parseInt(client.readyTimestamp / 1000)}:R>\n`)
-    
-        interaction.reply({ embeds: [Response] });
+            .setDescription(`**Client**: \`✅ ONLINE\` - \`${exec.client.ws.ping}ms\`\n **Uptime**: <t:${parseInt(exec.client.readyTimestamp / 1000)}:R>\n`)
+
+        return interaction.reply({ embeds: [Response] });
 
     }
 }
