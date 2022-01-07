@@ -8,11 +8,9 @@ module.exports = {
      * @param {Object} executeObj
      */
     async execute(interaction, exec) {
-        const Response = new MessageEmbed()
-            .setColor("AQUA")
-            .setDescription(`**Client**: \`✅ ONLINE\` - \`${exec.client.ws.ping}ms\`\n **Uptime**: <t:${parseInt(exec.client.readyTimestamp / 1000)}:R>\n`)
-
-        return interaction.reply({ embeds: [Response] });
+        return interaction.editReply({ embeds: [
+            new exec.embed(interaction)
+                .setDescription(`**Client**: \`✅ ONLINE\` - \`${exec.client.ws.ping}ms\`\n **Uptime**: <t:${parseInt(exec.client.readyTimestamp / 1000)}:R>\n`)] });
 
     }
 }

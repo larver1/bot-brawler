@@ -21,6 +21,6 @@ module.exports = {
             .addField("Member Since", `<t:${parseInt(target.joinedTimestamp / 1000)}:R>`, true)
             .addField("Discord User Since", `<t:${parseInt(target.user.createdTimestamp / 1000)}:R>`, true)
 
-        interaction.reply({ embeds: [Response] });
+        interaction.editReply({ embeds: [Response] });
     }
 }

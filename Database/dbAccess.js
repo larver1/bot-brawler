@@ -1,6 +1,7 @@
 const { Users, CurrencyShop } = require('./dbObjects');
 const fs = require('fs');
 const consola = require("consola");
+const sampleEmbed = require("../Helpers/sampleEmbed.js");
 
 module.exports = class dbAccess
 {
@@ -9,14 +10,15 @@ module.exports = class dbAccess
 		if(!user) {
 			let err = new Error(`${interaction.user.tag}(${interaction.user.id}) does not have a user account.\nIf this is your first time using Bot Brawler, please use \`/register\`.`);
 			consola.error(err);
-			await interaction.reply({ content: `__❌An error has occurred!__\n${err}`, ephemeral: true});
+			await interaction.editReply({ 
+				embed: new sampleEmbed(interaction).setDescription(`__❌An error has occurred!__\n${err}`), ephemeral: true});
 		}
 
 		return user;
     }
 
-    static async getData(id, type) {
-		const user = await this.findUser(id);
+    static async getData(interaction, type) {
+		const user = await this.findUser(interaction);
 
 		if(!user)
 			return;
@@ -25,7 +27,10 @@ module.exports = class dbAccess
 			case "username":
 				return user.username;
 			default:
-				console.log("Not a valid type specified. " + type);
+				let err = new Error(`Invalid type '${type}' called on getData()`);
+				consola.error(err);
+				await interaction.editReply({ 
+					embed: new sampleEmbed(interaction).setDescription(`__❌An error has occurred!__\n${err}`), ephemeral: true});
 				break;
 		}
 

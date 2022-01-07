@@ -1,5 +1,6 @@
 const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
 const dbAccess = require("../../Database/dbAccess.js");
+const sampleEmbed = require("../../Helpers/sampleEmbed.js");
 const consola = require("consola");
 
 module.exports = {
@@ -10,13 +11,15 @@ module.exports = {
      * @param {Client} client 
      */
     async execute(interaction, client) {
+		if(interaction.user.bot) return;
         if(interaction.isCommand() || interaction.isContextMenu()) {
             const command = client.commands.get(interaction.commandName);
+
+            //If the command couldn't be found
             if(!command)
                 return interaction.reply({ embeds: [
-                    new MessageEmbed()
-                        .setColor("RED")
-                        .setDescription("❌ An error occured while running this command.")
+                    new sampleEmbed(interaction)
+                        .setDescription("❌ An error occured while running this command.\nThe command couldn't be found!")
                 ]}) && client.commands.delete(interaction.commandName);
 
             if(command.name != "register") {
@@ -27,12 +30,18 @@ module.exports = {
                 }
             }
 
+            //Bot respond with "loading" state
+            await interaction.deferReply().catch(e => {console.log(e)});
+
             //Pass execution object to command
             command.execute(interaction, {
                 client: client,
                 db: dbAccess,
-                consola: consola
+                consola: consola,
+                embed: sampleEmbed
             });
+
+            consola.info(`${interaction.user.tag} performed ${command.name}.`);
 
         }
     }

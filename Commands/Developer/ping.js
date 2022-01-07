@@ -7,6 +7,6 @@ module.exports = {
      * @param {CommandInteraction} interaction
      */
     execute(interaction) {
-        interaction.reply({ content: "PONG" });
+        interaction.editReply({ content: "PONG" });
     }
 }

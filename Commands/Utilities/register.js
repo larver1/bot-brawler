@@ -20,10 +20,15 @@ module.exports = {
         let user = await Users.findOne({ where: { user_id: interaction.user.id }});
 
         if(user)
-            return interaction.reply({ content: `You already have an account with username: \`${user.username}\`!`});
+            return interaction.editReply({ embeds: [ 
+                new exec.embed(interaction)
+                    .setDescription(`You already have an account with username: \`${user.username}\`!`)] });
 
 		user = await Users.create({ user_id: interaction.user.id, username: username });
-        return interaction.reply({ content: `You have successfully registered with the name \`${username}\``});
+        
+        return interaction.editReply({ embeds: [
+            new exec.embed(interaction)
+                .setDescription(`You have successfully registered with the name \`${username}\``)] });
 
     }
 }
