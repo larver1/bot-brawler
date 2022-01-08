@@ -33,13 +33,20 @@ module.exports = {
             //Bot respond with "loading" state
             await interaction.deferReply().catch(e => {console.log(e)});
 
-            //Pass execution object to command
-            command.execute(interaction, {
-                client: client,
-                db: dbAccess,
-                consola: consola,
-                embed: sampleEmbed
-            });
+            //Pass execution utilities to command
+            try {
+                await command.execute(interaction, {
+                    client: client,
+                    db: dbAccess,
+                    consola: consola,
+                    embed: sampleEmbed
+                });
+            } catch(e) {
+                consola.error(e);
+                return interaction.editReply({ embeds: [
+                    new sampleEmbed(interaction).setDescription(`__❌An error has occurred!__\n${e}`)], ephemeral: true})
+                        .catch((e2) => consola.error(e2));   
+            };
 
             consola.info(`${interaction.user.tag} performed ${command.name}.`);
 

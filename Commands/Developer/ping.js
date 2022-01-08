@@ -6,7 +6,9 @@ module.exports = {
     /**
      * @param {CommandInteraction} interaction
      */
-    execute(interaction) {
-        interaction.editReply({ content: "PONG" });
+    execute(interaction, utils) {
+        interaction.editReply({ contents: "PONG" })
+            .catch((e) => utils.consola.error(e));
+
     }
 }

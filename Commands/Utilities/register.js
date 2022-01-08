@@ -14,21 +14,23 @@ module.exports = {
      * @param {CommandInteraction} CommandInteraction
      * @param {Object} executeObj
      */
-    async execute(interaction, exec) {
+    async execute(interaction, utils) {
 
         let username = interaction.options.getString("username");
         let user = await Users.findOne({ where: { user_id: interaction.user.id }});
 
         if(user)
             return interaction.editReply({ embeds: [ 
-                new exec.embed(interaction)
-                    .setDescription(`You already have an account with username: \`${user.username}\`!`)] });
+                new utils.embed(interaction)
+                    .setDescription(`You already have an account with username: \`${user.username}\`!`)] })
+                        .catch((e) => utils.consola.error(e));
 
 		user = await Users.create({ user_id: interaction.user.id, username: username });
         
         return interaction.editReply({ embeds: [
-            new exec.embed(interaction)
-                .setDescription(`You have successfully registered with the name \`${username}\``)] });
+            new utils.embed(interaction)
+                .setDescription(`You have successfully registered with the name \`${username}\``)] })
+                    .catch((e) => utils.consola.error(e));
 
     }
 }
