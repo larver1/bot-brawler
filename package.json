@@ -38,7 +38,8 @@
     "sequelize": "^6.6.5",
     "timers": "^0.1.1",
     "topgg-autoposter": "^2.0.0",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "eslint": "^7.32.0"

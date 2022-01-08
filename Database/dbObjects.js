@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize');
+const { v4: uuidv4 } = require('uuid');
 const { dbName, dbUser, dbPass } = require('../config.json');
 
 const sequelize = new Sequelize(dbName, dbUser, dbPass, {
@@ -9,6 +10,7 @@ const sequelize = new Sequelize(dbName, dbUser, dbPass, {
 const Users = require('./models/Users.js')(sequelize, Sequelize.DataTypes);
 const CurrencyShop = require('./models/CurrencyShop.js')(sequelize, Sequelize.DataTypes);
 const UserItems = require('./models/UserItems.js')(sequelize, Sequelize.DataTypes);
+const Messages = require('./models/Messages.js')(sequelize, Sequelize.DataTypes);
 
 UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
@@ -67,4 +69,30 @@ Users.prototype.getItem = function(item) {
 	});
 };
 
-module.exports = { Users, CurrencyShop, UserItems };
+Users.prototype.getIncomingMessages = function() {
+	return Messages.findAll({
+		where: { recipient_id: this.user_id },
+	});
+};
+
+Users.prototype.getOutgoingMessages = function() {
+	return Messages.findAll({
+		where: { sender_id: this.user_id },
+	});
+};
+
+Users.prototype.createMessage = async function(message) {
+
+	return Messages.create({ message_id: uuidv4(), sender_id: this.user_id, recipient_id: message.recipient_id, message_type: message.message_type, message_content: message.message_content });
+};
+
+Users.prototype.removeMessage = async function(message) {
+	const userItem = await Messages.findOne({
+		where: { sender_id: this.user_id, recipient_id: message.recipient_id, message_id: message.message_id },
+	});
+
+	userItem.destroy();
+
+};
+
+module.exports = { Users, CurrencyShop, UserItems, Messages };

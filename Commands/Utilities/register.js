@@ -3,7 +3,7 @@ const { Users } = require('../../Database/dbObjects');
 
 module.exports = {
     name: "register",
-    description: "Cnoose a username to start your adventure.",
+    description: "Choose a username to start your adventure.",
     options: [{
         name: "username",
         description: "Enter a username, this cannot be changed!",
@@ -25,7 +25,7 @@ module.exports = {
                     .setDescription(`You already have an account with username: \`${user.username}\`!`)] })
                         .catch((e) => utils.consola.error(e));
 
-		user = await Users.create({ user_id: interaction.user.id, username: username });
+		user = await Users.create({ user_id: interaction.user.id, username: username, friends: "|" });
         
         return interaction.editReply({ embeds: [
             new utils.embed(interaction)
