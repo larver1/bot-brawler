@@ -1,16 +1,20 @@
 module.exports = (sequelize, DataTypes) => {
 	return sequelize.define('users', {
-		user_id: {
+		username: {
 			type: DataTypes.STRING,
 			primaryKey: true,
 		},
-		username: {
+		user_id: {
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
 		friends: {
 			type: DataTypes.STRING,
 			allowNull: false,
+		},
+		privacy: {
+			type: DataTypes.STRING,
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

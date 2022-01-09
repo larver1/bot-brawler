@@ -26,9 +26,10 @@ module.exports = {
 
             //Bot respond with "loading" state
             await interaction.deferReply().catch(e => {console.log(e)});
+            let user;
 
             if(command.name != "register") {
-                const user = await dbAccess.findUser(interaction);
+                user = await dbAccess.findUser(interaction);
                 //User can only use commands if they are registered to DB
                 if(!user) {
                     return;
@@ -42,7 +43,8 @@ module.exports = {
                     db: dbAccess,
                     consola: consola,
                     embed: sampleEmbed,
-                    handler: ErrorHandler
+                    handler: ErrorHandler,
+                    user: user,
                 });
             } catch(e) {
                 ErrorHandler.handle(interaction, e);  

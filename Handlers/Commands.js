@@ -5,6 +5,7 @@ const { glob } = require("glob");
 const PG = promisify(glob);
 const Ascii = require("ascii-table");
 const consola = require("consola");
+const { guildId } = require("../config.json");
 
 /**
  * @param {Client} client
@@ -45,7 +46,7 @@ module.exports = async (client) => {
     //Permissions check
 
     client.on("ready", async () => {
-        const MainGuild = await client.guilds.cache.get("900112392975949824");
+        const MainGuild = await client.guilds.cache.get("835204177990254672");
         MainGuild.commands.set(CommandsArray).then(async (command) => {
             const Roles = (commandName) => {
                 const cmdPerms = CommandsArray.find((c) => c.name === commandName).permission;

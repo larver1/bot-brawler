@@ -32,6 +32,28 @@ module.exports = {
         }],
     },
     {
+        name: "accept",
+        description: "Accept a friend request.",
+        type: "SUB_COMMAND",
+        options: [{
+            name: "username",
+            description: "Enter the person's Bot Brawler username.",
+            required: true,
+            type: "STRING"
+        }],
+    },
+    {
+        name: "reject",
+        description: "Reject a friend request.",
+        type: "SUB_COMMAND",
+        options: [{
+            name: "username",
+            description: "Enter the person's Bot Brawler username.",
+            required: true,
+            type: "STRING"
+        }],
+    },
+    {
         name: "requests",
         description: "View all incoming + outgoing friend requests.",
         type: "SUB_COMMAND",
@@ -44,35 +66,31 @@ module.exports = {
     async execute(interaction, utils) {
 
         let subCommand = interaction.options.getSubcommand();
-        const user = await utils.db.findUser(interaction);
+        let requests = await utils.user.getIncomingMessages();
+        requests = requests.filter((req) => req.message_type == "friend");
 
-        if(!user)
+        if(!utils.user)
             return;
 
         //Display list of friends
         if(subCommand == "list") {
             return interaction.editReply({ embeds: [
-                new utils.embed(interaction)
-                    .setTitle(`${user.username}'s Friend List`)
-                    .setDescription(`${user.friends}`)] })
+                new utils.embed(interaction, utils.user)
+                    .setTitle(`${utils.user.username}'s Friend List`)
+                    .setDescription(`${utils.user.friends}`)] })
                         .catch((e) => utils.consola.error(e));
         } else if(subCommand == "requests") {
-            let requests = await user.getIncomingMessages();
             let message = ``;
 
             //Searches for all requests
-            for(const req of requests) {
-                const senderUser = await utils.db.findUser(interaction, req.sender_id);
-                if(!senderUser)
-                    return;
-                message += `-> Friend Request from: \`${senderUser.username}\`\n\n`;
-            }
+            for(const req of requests) 
+                message += `-> ${req.message_content}\n\n`;
 
-            message += "\n`/friend request accept username`\n`/friend request reject username`";
+            message += "\n`/friend accept username`\n`/friend reject username`";
 
             return interaction.editReply({ embeds: [
-                new utils.embed(interaction)
-                    .setTitle(`${user.username}'s Friend Requests`)
+                new utils.embed(interaction, utils.user)
+                    .setTitle(`${utils.user.username}'s Friend Requests`)
                     .setDescription(`${message}`)] })
                         .catch((e) => utils.consola.error(e));
         }
@@ -84,7 +102,49 @@ module.exports = {
         if(!otherUser)
             return;
 
-        if(subCommand == "add") {
+        if(subCommand == "accept" || subCommand == "reject") {
+
+            let found = false;
+
+            for(const req of requests) {
+
+                //If friend request is found, delete message and add each other if necessary
+                if(req.sender_username.toLowerCase() == username.toLowerCase()) {
+                    if(subCommand == "accept") {
+                        if(!await utils.db.add(interaction, "friend", req.sender_username, utils.user.user_id))
+                            return;
+                        if(!await utils.db.add(interaction, "friend", req.recipient_username, otherUser.user_id))
+                            return;
+                    }
+
+                    //Remove message and finish searching
+                    await utils.user.removeMessage(req);
+                    found = true;
+                    break;
+                }
+
+            }
+
+            let outgoingRequests = await otherUser.getIncomingMessages();
+            outgoingRequests = outgoingRequests.filter((req) => req.message_type == "friend");    
+
+            //If other user ALSO sent a request, delete it
+            for(const req of outgoingRequests) {
+                if(req.recipient_username == utils.user.username)
+                    await otherUser.removeMessage(req);
+            }
+
+            if(!found) 
+                return utils.handler.handle(interaction, new Error(`A request from \`${otherUser.username}\` does not exist.`));
+            
+            //Display results
+            return interaction.editReply({ embeds: [
+                new utils.embed(interaction, utils.user)
+                    .setTitle(`${otherUser.username}'s Friend Request`)
+                    .setDescription(`You have ${subCommand}ed \`${otherUser.username}\`'s friend request.`)] })
+                        .catch((e) => utils.consola.error(e));
+
+        } else if(subCommand == "add") {
             if(await utils.db.findFriend(interaction, otherUser.username) == true)
                 return utils.handler.handle(interaction, new Error("This friend has already been added."));
 
@@ -92,7 +152,7 @@ module.exports = {
             let otherMessages = await otherUser.getIncomingMessages();
             let valid = true;
             for(const request of otherMessages) {
-                if(request.sender_id == user.user_id) {
+                if(request.sender_username == utils.user.username) {
                     valid = false;
                 }
             }
@@ -101,20 +161,18 @@ module.exports = {
                 return utils.handler.handle(interaction, new Error("You can only send this person one request at a time."));
 
             //Send message to other user
-            user.createMessage({
-                recipient_id: otherUser.user_id,
+            utils.user.createMessage({
+                recipient_username: otherUser.username,
                 message_type: "friend",
-                message_content: `Friend Request to ${otherUser.username} from ${user.username}.`
+                message_content: `Friend Request to ${otherUser.username} from ${utils.user.username}.`
             });
 
             return interaction.editReply({ embeds: [
-                new utils.embed(interaction)
-                    .setTitle(`${user.username}'s Friend Request`)
+                new utils.embed(interaction, utils.user)
+                    .setTitle(`${utils.user.username}'s Friend Request`)
                     .setDescription(`A friend request has been sent to \`${otherUser.username}\`.`)] })
                         .catch((e) => utils.consola.error(e));
-        }
-
-        if(subCommand == "remove") {
+        } else if(subCommand == "remove") {
             if(await utils.db.findFriend(interaction, otherUser.username) == false)
                 return utils.handler.handle(interaction, new Error(`The username ${otherUser.username} is not in your friends list.`));
 
@@ -123,8 +181,8 @@ module.exports = {
                 return;
 
             return interaction.editReply({ embeds: [
-                new utils.embed(interaction)
-                    .setTitle(`${user.username}'s Sworn Enemy`)
+                new utils.embed(interaction, utils.user)
+                    .setTitle(`${utils.user.username}'s Sworn Enemy`)
                     .setDescription(`\`${otherUser.username}\` has been removed as a friend.`)] })
                         .catch((e) => utils.consola.error(e));
 

@@ -71,7 +71,7 @@ Users.prototype.getItem = function(item) {
 
 Users.prototype.getIncomingMessages = function() {
 	return Messages.findAll({
-		where: { recipient_id: this.user_id },
+		where: { recipient_username: this.username },
 	});
 };
 
@@ -83,12 +83,12 @@ Users.prototype.getOutgoingMessages = function() {
 
 Users.prototype.createMessage = async function(message) {
 
-	return Messages.create({ message_id: uuidv4(), sender_id: this.user_id, recipient_id: message.recipient_id, message_type: message.message_type, message_content: message.message_content });
+	return Messages.create({ message_id: uuidv4(), sender_username: this.username, recipient_username: message.recipient_username, message_type: message.message_type, message_content: message.message_content });
 };
 
 Users.prototype.removeMessage = async function(message) {
 	const userItem = await Messages.findOne({
-		where: { sender_id: this.user_id, recipient_id: message.recipient_id, message_id: message.message_id },
+		where: { sender_username: this.username, recipient_username: message.recipient_username, message_id: message.message_id },
 	});
 
 	userItem.destroy();

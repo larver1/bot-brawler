@@ -21,14 +21,14 @@ module.exports = {
 
         if(user)
             return interaction.editReply({ embeds: [ 
-                new utils.embed(interaction)
+                new utils.embed(interaction, user)
                     .setDescription(`You already have an account with username: \`${user.username}\`!`)] })
                         .catch((e) => utils.consola.error(e));
 
 		user = await Users.create({ user_id: interaction.user.id, username: username, friends: "|" });
         
         return interaction.editReply({ embeds: [
-            new utils.embed(interaction)
+            new utils.embed(interaction, user)
                 .setDescription(`You have successfully registered with the name \`${username}\``)] })
                     .catch((e) => utils.consola.error(e));
 

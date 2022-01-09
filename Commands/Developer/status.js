@@ -9,7 +9,7 @@ module.exports = {
      */
     async execute(interaction, utils) {
         return interaction.editReply({ embeds: [
-            new utils.embed(interaction)
+            new utils.embed(interaction, utils.user)
                 .setDescription(`**Client**: \`✅ ONLINE\` - \`${utils.client.ws.ping}ms\`\n **Uptime**: <t:${parseInt(utils.client.readyTimestamp / 1000)}:R>\n`)] })
                     .catch((e) => utils.consola.error(e));
 

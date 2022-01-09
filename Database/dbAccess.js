@@ -6,13 +6,13 @@ const ErrorHandler = require("../Helpers/ErrorHandler.js");
 
 module.exports = class dbAccess
 {
-    static async findUser(interaction, id) {
+    static async findUser(interaction, differentID) {
 		let idToFind = interaction.user.id;
-		if(id) idToFind = id;
+		if(differentID) idToFind = differentID;
 		const user = await Users.findOne({ where: { user_id: idToFind } });
 		if(!user) {
-			let err = new Error(`\`${interaction.user.tag}(${idToFind})\` does not have a user account.${!id ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
-			ErrorHandler.handle(interaction, err);
+			let err = new Error(`\`${interaction.user.tag}(${idToFind})\` does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+			await ErrorHandler.handle(interaction, err);
 		}
 
 		return user;
@@ -22,7 +22,7 @@ module.exports = class dbAccess
 		const user = await Users.findOne({ where: { username: username } });
 		if(!user) {
 			let err = new Error(`An account with the username \`${username}\` does not exist.`);
-			ErrorHandler.handle(interaction, err);
+			await ErrorHandler.handle(interaction, err);
 		}
 
 		return user;
@@ -63,25 +63,30 @@ module.exports = class dbAccess
 				return user.username;
 			default:
 				let err = new Error(`Invalid type '${type}' called on getData()`);
-				ErrorHandler.handle(interaction, err);
+				await ErrorHandler.handle(interaction, err);
 				break;
 		}
 
 	}
 
-	static async add(interaction, type, toAdd) {
-		const user = await this.findUser(interaction);
+	static async add(interaction, type, toAdd, differentID) {
+		const user = await this.findUser(interaction, differentID);
 
 		if(!user)
 			return;
 
 		switch(type) {
 			case "friend":
+				if(user.friends.includes(toAdd + "|")) {
+					let err = new Error(`Friend ${toAdd} already added called on add()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
 				user.friends += (toAdd + "|");
 				break;
 			default:
 				let err = new Error(`Invalid type '${type}' called on add()`);
-				ErrorHandler.handle(interaction, err);
+				await ErrorHandler.handle(interaction, err);
 				return false;
 		}
 
@@ -101,14 +106,14 @@ module.exports = class dbAccess
 				//If friend isn't there
 				if(!user.friends.includes(toRemove)) {
 					let err = new Error(`Invalid value '${toRemove}' called on remove()`);
-					ErrorHandler.handle(interaction, err);
+					await ErrorHandler.handle(interaction, err);
 					return false;
 				}
 				user.friends = user.friends.replace((toRemove + "|"), "");
 				break;
 			default:
 				let err = new Error(`Invalid type '${type}' called on remove()`);
-				ErrorHandler.handle(interaction, err);
+				await ErrorHandler.handle(interaction, err);
 				return false;
 		}
 

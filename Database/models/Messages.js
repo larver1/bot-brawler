@@ -4,11 +4,11 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.STRING,
 			primaryKey: true,
 		},
-		sender_id: {
+		sender_username: {
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
-		recipient_id: {
+		recipient_username: {
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
