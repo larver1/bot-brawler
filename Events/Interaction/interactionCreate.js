@@ -49,7 +49,7 @@ module.exports = {
                     user: user,
                 });
             } catch(e) {
-                ErrorHandler.handle(interaction, e);  
+                await ErrorHandler.handle(interaction, e);  
             };
 
             consola.info(`${interaction.user.tag} performed ${command.name}.`);

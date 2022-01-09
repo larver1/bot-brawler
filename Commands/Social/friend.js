@@ -108,7 +108,6 @@ module.exports = {
             let found = false;
 
             for(const req of requests) {
-
                 //If friend request is found, delete message and add each other if necessary
                 if(req.sender_username.toLowerCase() == username.toLowerCase()) {
                     if(subCommand == "accept") {
@@ -131,7 +130,7 @@ module.exports = {
             await clearMessages(interaction, otherUser, utils.user, "friend");
 
             if(!found) 
-                return utils.handler.handle(interaction, new Error(`A request from \`${otherUser.username}\` does not exist.`));
+                return utils.handler.info(interaction, new Error(`A request from \`${otherUser.username}\` does not exist.`));
 
             //Notify the recipient if they have been accepted
             if(subCommand == "accept") 
@@ -148,11 +147,11 @@ module.exports = {
 
         } else if(subCommand == "add") {
             if(await utils.db.findFriend(interaction, otherUser.username) == true)
-                return utils.handler.handle(interaction, new Error("This friend has already been added."));
+                return utils.handler.info(interaction, new Error("This friend has already been added."));
 
             //Checks if recipient has already been sent a message by this user
             if(await utils.messenger.checkMessages(interaction, otherUser, utils.user))
-                return utils.handler.handle(interaction, new Error("You can only send this person one request at a time."));
+                return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
 
             //Send message to other user
             if(!utils.messenger.sendFriendRequest(interaction, utils.user, otherUser))
@@ -164,7 +163,7 @@ module.exports = {
 
         } else if(subCommand == "remove") {
             if(await utils.db.findFriend(interaction, otherUser.username) == false)
-                return utils.handler.handle(interaction, new Error(`The username ${otherUser.username} is not in your friends list.`));
+                return utils.handler.info(interaction, new Error(`The username \`${otherUser.username}\` is not in your friends list.`));
 
             //If error occurred, return
             if(!await utils.db.remove(interaction, "friend", otherUser.username))

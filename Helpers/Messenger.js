@@ -14,7 +14,7 @@ module.exports = class Messenger
 
         if(recipient.privacy == "locked") {
             let err = new Error(`\`${recipient.username}\` is not accepting friend requests at the moment...`);
-            await ErrorHandler.handle(interaction, err);
+            await ErrorHandler.info(interaction, err);
             return;
         }
 
@@ -70,16 +70,22 @@ module.exports = class Messenger
     static async sendDM(interaction, client, recipient, message) {
         //Fetch the client user
         let userToSend = await client.users.fetch(recipient.user_id);
+        let success = true;
 
-        if(recipient.privacy == "locked") 
-            return consola.error(new Error(`\`${recipient.username}\` is not accepting DMs from the bot.`));
+        if(recipient.privacy == "locked") {
+            consola.warn(new Error(`\`${recipient.username}\` is not accepting DMs from the bot.`));
+            return false;
+        }
         
         //Send user the message
         await userToSend.send(`${message}\n\nIf you would like to opt out of Bot DMs, use \`/privacy set level:Locked\``)
             .catch(() => {
                 //Not an urgent error, so just log it
-                return consola.error(new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
+                consola.warn(new Error(`Failed to send a message to user \`${recipient.username}\`. They may have their Discord DMs disabled.`)); 
+                success = false;
             });
+
+        return success;
     }
 
 

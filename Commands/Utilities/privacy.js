@@ -63,7 +63,7 @@ module.exports = {
 
         //Cancel if privacy level is the same
         if(privacyLevel == utils.user.privacy)
-            return utils.handler.handle(interaction, new Error(`Your privacy setting is already set to \`${utils.user.privacy}\`.\n${privacySettings[utils.user.privacy]}`)); 
+            return utils.handler.info(interaction, new Error(`Your privacy setting is already set to \`${utils.user.privacy}\`.\n${privacySettings[utils.user.privacy]}`)); 
 
         //Change the privacy level
         if(!await utils.db.add(interaction, "privacy", privacyLevel))
