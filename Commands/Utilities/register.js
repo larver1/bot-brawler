@@ -25,7 +25,7 @@ module.exports = {
                     .setDescription(`You already have an account with username: \`${user.username}\`!`)] })
                         .catch((e) => utils.consola.error(e));
 
-		user = await Users.create({ user_id: interaction.user.id, username: username, friends: "|" });
+		user = await Users.create({ user_id: interaction.user.id, username: username, friends: "|", privacy: "public" });
         
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, user)

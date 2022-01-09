@@ -1,5 +1,6 @@
 const { Client, MessageEmbed } = require("discord.js");
 const { Users } = require('../../Database/dbObjects');
+const { clearMessages } = require("../../Helpers/Messenger");
 
 module.exports = {
     name: "friend",
@@ -125,17 +126,17 @@ module.exports = {
 
             }
 
-            let outgoingRequests = await otherUser.getIncomingMessages();
-            outgoingRequests = outgoingRequests.filter((req) => req.message_type == "friend");    
-
-            //If other user ALSO sent a request, delete it
-            for(const req of outgoingRequests) {
-                if(req.recipient_username == utils.user.username)
-                    await otherUser.removeMessage(req);
-            }
+            //Clear all other friend requests which will be made redundant
+            await clearMessages(interaction, utils.user, otherUser, "friend");
+            await clearMessages(interaction, otherUser, utils.user, "friend");
 
             if(!found) 
                 return utils.handler.handle(interaction, new Error(`A request from \`${otherUser.username}\` does not exist.`));
+
+            //Notify the recipient if they have been accepted
+            if(subCommand == "accept") 
+                await utils.messenger.sendDM(interaction, utils.client, otherUser, 
+                    `${utils.user.username} has accepted your friend request!`);
             
             //Display results
             return interaction.editReply({ embeds: [
@@ -144,34 +145,23 @@ module.exports = {
                     .setDescription(`You have ${subCommand}ed \`${otherUser.username}\`'s friend request.`)] })
                         .catch((e) => utils.consola.error(e));
 
+
         } else if(subCommand == "add") {
             if(await utils.db.findFriend(interaction, otherUser.username) == true)
                 return utils.handler.handle(interaction, new Error("This friend has already been added."));
 
-            //Checks recipient's messages
-            let otherMessages = await otherUser.getIncomingMessages();
-            let valid = true;
-            for(const request of otherMessages) {
-                if(request.sender_username == utils.user.username) {
-                    valid = false;
-                }
-            }
-
-            if(!valid)
+            //Checks if recipient has already been sent a message by this user
+            if(await utils.messenger.checkMessages(interaction, otherUser, utils.user))
                 return utils.handler.handle(interaction, new Error("You can only send this person one request at a time."));
 
             //Send message to other user
-            utils.user.createMessage({
-                recipient_username: otherUser.username,
-                message_type: "friend",
-                message_content: `Friend Request to ${otherUser.username} from ${utils.user.username}.`
-            });
+            if(!utils.messenger.sendFriendRequest(interaction, utils.user, otherUser))
+                return;
 
-            return interaction.editReply({ embeds: [
-                new utils.embed(interaction, utils.user)
-                    .setTitle(`${utils.user.username}'s Friend Request`)
-                    .setDescription(`A friend request has been sent to \`${otherUser.username}\`.`)] })
-                        .catch((e) => utils.consola.error(e));
+            //Inform recipient of friend request
+            await utils.messenger.sendDM(interaction, utils.client, otherUser, 
+                `${utils.user.username} has sent you a friend request.\nTo accept: \`/friend accept ${utils.user.username}\`\nTo reject: \`/friend reject ${utils.user.username}\``);
+
         } else if(subCommand == "remove") {
             if(await utils.db.findFriend(interaction, otherUser.username) == false)
                 return utils.handler.handle(interaction, new Error(`The username ${otherUser.username} is not in your friends list.`));

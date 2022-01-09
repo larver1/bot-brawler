@@ -2,6 +2,7 @@ const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
 const dbAccess = require("../../Database/dbAccess.js");
 const sampleEmbed = require("../../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../../Helpers/ErrorHandler.js");
+const Messenger = require("../../Helpers/Messenger.js");
 
 const consola = require("consola");
 
@@ -44,6 +45,7 @@ module.exports = {
                     consola: consola,
                     embed: sampleEmbed,
                     handler: ErrorHandler,
+                    messenger: Messenger,
                     user: user,
                 });
             } catch(e) {

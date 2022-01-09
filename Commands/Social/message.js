@@ -46,7 +46,7 @@ module.exports = {
         let success = true;
 
         //Send user the message
-        await userToSend.send(`${utils.user.username} said: ${message}.`)
+        await userToSend.send(`${utils.user.username} said: ${message}`)
             .catch(() => {
                 success = false;
                 return utils.handler.handle(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 

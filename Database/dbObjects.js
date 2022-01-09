@@ -87,11 +87,11 @@ Users.prototype.createMessage = async function(message) {
 };
 
 Users.prototype.removeMessage = async function(message) {
-	const userItem = await Messages.findOne({
+	const userMessage = await Messages.findOne({
 		where: { sender_username: this.username, recipient_username: message.recipient_username, message_id: message.message_id },
 	});
 
-	userItem.destroy();
+	if(userMessage) userMessage.destroy();
 
 };
 
