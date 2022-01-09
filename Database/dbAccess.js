@@ -77,12 +77,22 @@ module.exports = class dbAccess
 
 		switch(type) {
 			case "friend":
+				//You can't add the same friend more than once
 				if(user.friends.includes(toAdd + "|")) {
 					let err = new Error(`Friend ${toAdd} already added called on add()`);
 					await ErrorHandler.handle(interaction, err);
 					return false;
 				}
 				user.friends += (toAdd + "|");
+				break;
+			case "privacy":
+				//Privacy setting can only have four distinct values, or its erroneous
+				if(!["public", "moderate", "private", "locked"].includes(toAdd)) {
+					let err = new Error(`Tried to set invalid privacy setting ${toAdd} on add()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.privacy = toAdd;
 				break;
 			default:
 				let err = new Error(`Invalid type '${type}' called on add()`);

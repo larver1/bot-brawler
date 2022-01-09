@@ -46,7 +46,7 @@ module.exports = async (client) => {
     //Permissions check
 
     client.on("ready", async () => {
-        const MainGuild = await client.guilds.cache.get("835204177990254672");
+        const MainGuild = await client.guilds.cache.get(guildId);
         MainGuild.commands.set(CommandsArray).then(async (command) => {
             const Roles = (commandName) => {
                 const cmdPerms = CommandsArray.find((c) => c.name === commandName).permission;
