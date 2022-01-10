@@ -169,7 +169,7 @@ module.exports = {
             if(await utils.db.findFriend(interaction, otherUser.username) == false)
                 return utils.handler.info(interaction, new Error(`The username \`${otherUser.username}\` is not in your friends list.`));
 
-            //If error occurred, return
+            //Try removing friend from both lists, if failed - return
             if(!await utils.db.remove(interaction, "friend", otherUser.username))
                 return;
             if(!await utils.db.remove(interaction, "friend", utils.user.username, otherUser.user_id))

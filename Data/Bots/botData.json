@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Bostrom",
+        "basePower": 20,
+        "baseLifespan": 50,
+        "baseViral": 40,
+        "baseFirewall": 100,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "Bostrom's box is said to contain the world's most intelligent AI. When its creators learnt of this power and the danger it could bring, they sealed it in a sturdy box which prevents the AI from transmitting radio waves to the outside world. It now lives its life as a mechanical bug, only being able to crawl around and snip with its sharp claws."
+    },
+    {
+        "name": "Diskus",
+        "basePower": 25,
+        "baseLifespan": 40,
+        "baseViral": 70,
+        "baseFirewall": 80,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. His consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions and empathy are still intact, so he prefers not to fight."
+    },
+    {
+        "name": "Riskus",
+        "basePower": 85,
+        "baseLifespan": 40,
+        "baseViral": 40,
+        "baseFirewall": 60,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. His consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions did not carry over to his digital form and has since become fixated on causing mass destruction with no restraints towards the feelings of others."
+    },
+    {
+        "name": "Memnesia",
+        "basePower": 100,
+        "baseLifespan": 40,
+        "baseViral": 50,
+        "baseFirewall": 20,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "A rather self-destructive bot who will make any sacrifice to increase its power output. Such actions have caused hardware malfunctions such as Random Access Memory Loss, this allows Memnesia to wipe all of its short-term memories to make space for more combat data."
+    },
+    {
+        "name": "Constant",
+        "basePower": 80,
+        "baseLifespan": 70,
+        "baseViral": 40,
+        "baseFirewall": 40,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "A brutal and cruel battle bot who exists only to coerce and obliterate enemies. She was designed and acted as an accomplice of the Mother Bot, specifically aiding the operation of releasing the 1st Generation Battle Bots to the outside world."
+    },
+    {
+        "name": "Ramselle",
+        "basePower": 50,
+        "baseLifespan": 50,
+        "baseViral": 50,
+        "baseFirewall": 50,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "A trained Battle Bot who was given biased training data consisting only of beauty articles. This prompted her to become obsessed with being attractive to other bots. Although, the more she tries to optimise her perfume to garner attention, it ends up being more destructive to firewalls instead."
+    },
+    {
+        "name": "Trojo",
+        "basePower": 70,
+        "baseLifespan": 30,
+        "baseViral": 60,
+        "baseFirewall": 50,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "An outlaw bot who took upon the task to analyse all accessible prison inmate data. In an attempt to better understand the motives behind human evil, Trojo built a strong distate for humans and their ideals. He now acts as a deluded vigilante and destroys all traces of humans in his sight."
+    },
+    {
+        "name": "Buddy & Lila",
+        "basePower": 65,
+        "baseLifespan": 50,
+        "baseViral": 40,
+        "baseFirewall": 65,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "Lila is a human who once owned a dog called Buddy. After learning of the dog's unfortunate passing, Professor Diriski performed an experiment on Buddy and uploaded its consciousness to a bot resembling a dog. Upon booting him up, Buddy instinctively left the lab and ran back to Lila. In this dystopian world caused by the Technological Singularity, Buddy protects his owner from any aggressive Battle Bots who wish to eliminate the human race."
+    },
+    {
+        "name": "Dungware",
+        "basePower": 125,
+        "baseLifespan": 50,
+        "baseViral": 0,
+        "baseFirewall": 0,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "It would be wrong to say that Dungware is even a bot. To be precise, it is a dung beetle who organically became super-intelligent from feeding on a famous researcher's feces. It then infiltrated a factory and acquired a metal coat and weapons to enhance its power. Dungware now wields the power and intelligence to take down other Battle Bots, but luckily has no machinery to be hacked into."
+    },
+    {
+        "name": "Chip Champ",
+        "basePower": 20,
+        "baseLifespan": 20,
+        "baseViral": 110,
+        "baseFirewall": 70,
+        "image": "",
+        "imageGoldPlated": "",
+        "description": "A puzzle-solving AI who once beat the world champion of chess. It has since been re-purposed by the Mother Bot to solve security firewall puzzles. Following the success of Operation: Battle Bots, Chip Champ now explores the world of video games and has achieved Rank #1 player in every competitive game."
+    }
+]

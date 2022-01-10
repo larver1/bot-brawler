@@ -11,6 +11,7 @@ var CurrencyShop = require('./models/CurrencyShop')(sequelize, Sequelize.DataTyp
 require('./models/Users')(sequelize, Sequelize.DataTypes);
 require('./models/UserItems')(sequelize, Sequelize.DataTypes);
 require('./models/Messages')(sequelize, Sequelize.DataTypes);
+require('./models/Bots')(sequelize, Sequelize.DataTypes);
 
 const force = process.argv.includes('--force') || process.argv.includes('-f');
 

@@ -11,6 +11,8 @@ const Users = require('./models/Users.js')(sequelize, Sequelize.DataTypes);
 const CurrencyShop = require('./models/CurrencyShop.js')(sequelize, Sequelize.DataTypes);
 const UserItems = require('./models/UserItems.js')(sequelize, Sequelize.DataTypes);
 const Messages = require('./models/Messages.js')(sequelize, Sequelize.DataTypes);
+const Bots = require('./models/Bots.js')(sequelize, Sequelize.DataTypes);
+
 
 UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
@@ -91,10 +93,8 @@ Users.prototype.removeMessage = async function(message) {
 		where: { sender_username: this.username, recipient_username: message.recipient_username, message_id: message.message_id },
 	});
 
-	console.log(message);
-
 	userMessage.destroy();
 
 };
 
-module.exports = { Users, CurrencyShop, UserItems, Messages };
+module.exports = { Users, CurrencyShop, UserItems, Messages, Bots };

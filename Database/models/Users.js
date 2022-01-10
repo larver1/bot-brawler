@@ -8,6 +8,10 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
+		balance: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+		},
 		friends: {
 			type: DataTypes.STRING,
 			allowNull: false,
