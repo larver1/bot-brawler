@@ -1,6 +1,5 @@
 const { Client, MessageEmbed } = require("discord.js");
 const { Users } = require('../../Database/dbObjects');
-const { clearMessages } = require("../../Helpers/Messenger");
 
 module.exports = {
     name: "friend",
@@ -107,8 +106,10 @@ module.exports = {
 
             let found = false;
 
-            for(const req of requests) {
+            for(let i = 0; i < requests.length; i++) {
                 //If friend request is found, delete message and add each other if necessary
+                const req = requests[i];
+                
                 if(req.sender_username.toLowerCase() == username.toLowerCase()) {
                     if(subCommand == "accept") {
                         if(!await utils.db.add(interaction, "friend", req.sender_username, utils.user.user_id))
@@ -118,7 +119,7 @@ module.exports = {
                     }
 
                     //Remove message and finish searching
-                    await utils.user.removeMessage(req);
+                    await otherUser.removeMessage(req);
                     found = true;
                     break;
                 }
@@ -126,8 +127,8 @@ module.exports = {
             }
 
             //Clear all other friend requests which will be made redundant
-            await clearMessages(interaction, utils.user, otherUser, "friend");
-            await clearMessages(interaction, otherUser, utils.user, "friend");
+            await utils.messenger.clearMessages(interaction, utils.user, otherUser, "friend");
+            await utils.messenger.clearMessages(interaction, otherUser, utils.user, "friend");
 
             if(!found) 
                 return utils.handler.info(interaction, new Error(`A request from \`${otherUser.username}\` does not exist.`));
@@ -150,8 +151,11 @@ module.exports = {
                 return utils.handler.info(interaction, new Error("This friend has already been added."));
 
             //Checks if recipient has already been sent a message by this user
-            if(await utils.messenger.checkMessages(interaction, otherUser, utils.user))
+            if(await utils.messenger.checkMessages(interaction, utils.user, otherUser))
                 return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
+
+            if(await utils.messenger.checkMessages(interaction, otherUser, utils.user, "friend"))
+                return utils.handler.info(interaction, new Error("This user has already sent you a friend request, so you can't send your own."));
 
             //Send message to other user
             if(!utils.messenger.sendFriendRequest(interaction, utils.user, otherUser))
@@ -167,6 +171,8 @@ module.exports = {
 
             //If error occurred, return
             if(!await utils.db.remove(interaction, "friend", otherUser.username))
+                return;
+            if(!await utils.db.remove(interaction, "friend", utils.user.username, otherUser.user_id))
                 return;
 
             return interaction.editReply({ embeds: [

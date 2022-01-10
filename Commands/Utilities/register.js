@@ -1,6 +1,38 @@
 const { Client, MessageEmbed } = require("discord.js");
 const { findUsername } = require("../../Database/dbAccess");
 const { Users } = require('../../Database/dbObjects');
+var badWords = [];
+
+async function getBadWords()
+{
+	const fileReadWrite = require('../../Helpers/fileReadWrite.js');
+    var file = new fileReadWrite('./Helpers/badwords.txt');
+	badWords = await file.processLineByLine();
+}
+
+getBadWords();
+
+function checkValid(nickname) {
+    if(nickname.length > 20 || nickname.length == 0) return false;
+
+    for(let i = 0; i < nickname.length; i++) {
+        let currentChar = nickname.charCodeAt(i);
+        if(currentChar != 32 && (currentChar > 122 || currentChar < 48 || currentChar == 96))
+            return false;
+    }
+
+    let checkNick = nickname.toLowerCase().replace(/ /g,'');
+    checkNick = checkNick.replace(/1/g,'i');
+    checkNick = checkNick.replace(/3/g,'e');
+    checkNick = checkNick.replace(/0/g,'o');
+
+    for(let i = 0; i < badWords.length; i++) {
+        if(checkNick.includes(badWords[i])) 
+            return false;   
+    }
+    
+    return true;
+}
 
 module.exports = {
     name: "register",
@@ -25,6 +57,13 @@ module.exports = {
             return interaction.editReply({ embeds: [ 
                 new utils.embed(interaction, user)
                     .setDescription(`You already have an account with username: \`${user.username}\`!`)] })
+                        .catch((e) => utils.consola.error(e));
+
+        //If nickname is invalid
+        if(!checkValid(username)) 
+            return interaction.editReply({ embeds: [ 
+                new utils.embed(interaction, user)
+                    .setDescription(`Your username is invalid, please use up to 20 A-Z + 0-9 characters, and do not use any inappropriate words!`)] })
                         .catch((e) => utils.consola.error(e));
 
         //Attempts to register user to DB

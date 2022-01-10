@@ -33,7 +33,7 @@ module.exports = class Messenger
 
     //Check for messages from sender to recipient
     static async checkMessages(interaction, sender, recipient, messageType) {
-        let messages = await sender.getIncomingMessages();
+        let messages = await sender.getOutgoingMessages();
         let found = false;
 
         if(messageType) 
@@ -42,9 +42,12 @@ module.exports = class Messenger
         if(!messages)
             return false;
 
-        for(const msg of messages) {
-            if(msg && msg.recipient_username == recipient.username)
+        for(let i = 0; i < messages.length; i++) {
+            const msg = messages[i];
+            if(msg && msg.recipient_username == recipient.username) {
                 found = true;
+                break;
+            }
         }
 
         return found;
@@ -52,7 +55,7 @@ module.exports = class Messenger
 
     //Clear all messages from sender to recipient
     static async clearMessages(interaction, sender, recipient, messageType) {
-        let messages = await sender.getIncomingMessages();
+        let messages = await sender.getOutgoingMessages();
 
         if(messageType) 
             messages = messages.filter((msg) => msg.message_type == messageType);
@@ -60,9 +63,11 @@ module.exports = class Messenger
         if(!messages)
             return;
 
-        for(const msg of messages) {
-            if(msg && msg.recipient_username == recipient.username)
-                await recipient.removeMessage(msg);
+        for(let i = 0; i < messages.length; i++) {
+            const msg = messages[i];
+            if(msg && msg.recipient_username == recipient.username) {
+                await sender.removeMessage(msg);
+            }
         }
 
     }

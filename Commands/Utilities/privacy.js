@@ -24,7 +24,7 @@ module.exports = {
             options: [{
                 name: "level",
                 description: "Select a privacy level.",
-                required: false,
+                required: true,
                 type: "STRING",
                 choices: [
                     {

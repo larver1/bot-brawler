@@ -77,7 +77,7 @@ Users.prototype.getIncomingMessages = function() {
 
 Users.prototype.getOutgoingMessages = function() {
 	return Messages.findAll({
-		where: { sender_id: this.user_id },
+		where: { sender_username: this.username },
 	});
 };
 
@@ -91,7 +91,9 @@ Users.prototype.removeMessage = async function(message) {
 		where: { sender_username: this.username, recipient_username: message.recipient_username, message_id: message.message_id },
 	});
 
-	if(userMessage) userMessage.destroy();
+	console.log(message);
+
+	userMessage.destroy();
 
 };
 

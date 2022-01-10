@@ -105,8 +105,8 @@ module.exports = class dbAccess
 
 	}
 
-	static async remove(interaction, type, toRemove) {
-		const user = await this.findUser(interaction);
+	static async remove(interaction, type, toRemove, differentID) {
+		const user = await this.findUser(interaction, differentID);
 
 		if(!user)
 			return;
