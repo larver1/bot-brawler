@@ -133,6 +133,15 @@ module.exports = class dbAccess
 				}
 				user.friends = user.friends.replace((toRemove + "|"), "");
 				break;
+			case "parts":
+			case "balance":
+				if(typeof toRemove != "number" || toRemove < 0 || toRemove > user.balance) {
+					let err = new Error(`Invalid value '${toRemove}' called on remove()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.balance -= toRemove;
+				break;
 			default:
 				let err = new Error(`Invalid type '${type}' called on remove()`);
 				await ErrorHandler.handle(interaction, err);

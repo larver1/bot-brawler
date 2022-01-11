@@ -84,7 +84,6 @@ Users.prototype.getOutgoingMessages = function() {
 };
 
 Users.prototype.createMessage = async function(message) {
-
 	return Messages.create({ message_id: uuidv4(), sender_username: this.username, recipient_username: message.recipient_username, message_type: message.message_type, message_content: message.message_content });
 };
 
@@ -94,6 +93,19 @@ Users.prototype.removeMessage = async function(message) {
 	});
 
 	userMessage.destroy();
+
+};
+
+Users.prototype.createBot = async function(bot) {
+	return Bots.create({ bot_id: uuidv4(), bot_type: bot.bot_type, owner_username: bot.owner_username, owner_original_username: bot.owner_original_username, exp: bot.exp, alive: bot.alive, powerBoost: bot.powerBoost, lifespanBoost: bot.lifespanBoost, viralBoost: bot.viralBoost, firewallBoost: bot.firewallBoost, goldPlated: bot.goldPlated, extras: bot.extras, isSelling: bot.isSelling });
+};
+
+Users.prototype.removeBot = async function(bot) {
+	const userBot = await Bots.findOne({
+		where: { bot_id: bot.id },
+	});
+
+	userBot.destroy();
 
 };
 
