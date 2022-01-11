@@ -94,6 +94,18 @@ module.exports = class dbAccess
 				}
 				user.privacy = toAdd;
 				break;
+			case "parts":
+			case "balance":
+				if(typeof toAdd != "number" || toAdd <= 0) {
+					let err = new Error(`Tried to add invalid money ${toAdd} on add()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.balance += toAdd;
+				break;
+			case "daily":
+				user.daily = Date.now();
+				break;
 			default:
 				let err = new Error(`Invalid type '${type}' called on add()`);
 				await ErrorHandler.handle(interaction, err);

@@ -19,6 +19,14 @@ module.exports = (sequelize, DataTypes) => {
 		privacy: {
 			type: DataTypes.STRING,
 			allowNull: false
+		},
+		daily: {
+			type: DataTypes.DATE,
+			allowNull: false
+		},
+		spawn: {
+			type: DataTypes.DATE,
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

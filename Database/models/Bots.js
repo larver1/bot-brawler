@@ -43,6 +43,14 @@ module.exports = (sequelize, DataTypes) => {
 		goldPlated: {
 			type: DataTypes.BOOLEAN,
 			allowNull: false,
+		},
+		extras: {
+			type: DataTypes.STRING,
+			allowNull: false,			
+		},
+		isSelling: {
+			type: DataTypes.BOOLEAN,
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

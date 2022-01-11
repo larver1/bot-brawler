@@ -17,7 +17,7 @@
         "baseFirewall": 80,
         "image": "",
         "imageGoldPlated": "",
-        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. His consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions and empathy are still intact, so he prefers not to fight."
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. A version of his consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions and empathy are still intact, so he prefers not to fight."
     },
     {
         "name": "Riskus",
@@ -27,7 +27,7 @@
         "baseFirewall": 60,
         "image": "",
         "imageGoldPlated": "",
-        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. His consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions did not carry over to his digital form and has since become fixated on causing mass destruction with no restraints towards the feelings of others."
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. A version of his consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions did not carry over to his digital form and has since become fixated on causing mass destruction with no restraints towards the feelings of others."
     },
     {
         "name": "Memnesia",
@@ -57,7 +57,7 @@
         "baseFirewall": 50,
         "image": "",
         "imageGoldPlated": "",
-        "description": "A trained Battle Bot who was given biased training data consisting only of beauty articles. This prompted her to become obsessed with being attractive to other bots. Although, the more she tries to optimise her perfume to garner attention, it ends up being more destructive to firewalls instead."
+        "description": "A trained Battle Bot who was given biased training data consisting only of beauty articles. This prompted her to become obsessed with being attractive to other bots. Although, the more she tries to optimise her perfume to garner attention, the more destructive it becomes to firewalls."
     },
     {
         "name": "Trojo",
