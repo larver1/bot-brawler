@@ -5,29 +5,29 @@
         "baseLifespan": 50,
         "baseViral": 40,
         "baseFirewall": 100,
-        "image": "",
-        "imageGoldPlated": "",
+        "image": "https://i.imgur.com/TNDATUD.png",
+        "imageGoldPlated": "https://i.imgur.com/TvgN5f7.png",
         "description": "Bostrom's box is said to contain the world's most intelligent AI. When its creators learnt of this power and the danger it could bring, they sealed it in a sturdy box which prevents the AI from transmitting radio waves to the outside world. It now lives its life as a mechanical bug, only being able to crawl around and snip with its sharp claws."
     },
     {
-        "name": "Diskus",
+        "name": "Compactisk",
         "basePower": 25,
         "baseLifespan": 40,
         "baseViral": 70,
         "baseFirewall": 80,
         "image": "",
         "imageGoldPlated": "",
-        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. A version of his consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions and empathy are still intact, so he prefers not to fight."
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The compassionate half of his consciousness now exists inside this bot, and he takes upon a rather panicky form of his old self - who knows so much from his previous life that he has all the more to worry about as a super-intelligent machine. He typically avoids fighting and wishes for peace in the Technological Singularity."
     },
     {
-        "name": "Riskus",
+        "name": "Greedisk",
         "basePower": 85,
         "baseLifespan": 40,
         "baseViral": 40,
         "baseFirewall": 60,
         "image": "",
         "imageGoldPlated": "",
-        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. A version of his consciousness now exists inside this bot, and he takes upon a super-intelligent form of his old self. His emotions did not carry over to his digital form and has since become fixated on causing mass destruction with no restraints towards the feelings of others."
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The egocentric half of his consciousness now exists inside this bot, and he acts as a vicious and cruel specimen who will destroy other bots and humans for his owwn personal gain. He is driven solely by greed for power, making him an unstoppable force if his ego is not dealt with."
     },
     {
         "name": "Memnesia",

@@ -1,5 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const fs = require('fs');
+const { isGeneratorFunction } = require("util/types");
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 
 module.exports = {
@@ -16,8 +17,14 @@ module.exports = {
      * @param {Object} utils
      */
     async execute(interaction, utils){
-        let searchedBot = interaction.options.getString("bot"); 
+        let searchedBot = interaction.options.getString("bot").toLowerCase(); 
         let foundBot;
+        let goldPlated = false;
+
+        if(searchedBot.includes(" gold plated")) {
+            searchedBot = searchedBot.replace(" gold plated", "");
+            goldPlated = true;
+        }
 
         //Search for the bot by name
         for(let i = 0; i < bots.length; i++) {
@@ -33,10 +40,17 @@ module.exports = {
 
         //Display the Battle Bot info
         const Info = new utils.embed(interaction)
-            .setTitle(`${foundBot.name}`)
+            .setTitle(`${foundBot.name} ${goldPlated ? "Gold Plated" : ""}`)
             .setDescription(`Power Output: **${foundBot.basePower}**\nLifespan: **${foundBot.baseLifespan}**\nViral: **${foundBot.baseViral}**\nFirewall: **${foundBot.baseFirewall}**\n\n${foundBot.description}`)
 
+        if(foundBot.image.length) {
+            if(goldPlated)
+                Info.setImage(foundBot.imageGoldPlated)
+            else
+                Info.setImage(foundBot.image);
+        } 
+
         interaction.editReply({ embeds: [Info] })
-            .catch((e) => utils.consola.error(e));;
+            .catch((e) => utils.consola.error(e));
     }
 }
