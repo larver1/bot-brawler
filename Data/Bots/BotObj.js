@@ -12,7 +12,7 @@ module.exports = class BotObj {
         //If incorrect arguments were given
         if(!interaction || !interaction.user || !botObj) {
             let err = new Error(`Invalid arguments (${interaction},${botObj}) passed to botObj.constructor()`);
-			return ErrorHandler.error(interaction, err);
+			return ErrorHandler.handle(interaction, err);
         }
 
         this.botObj = botObj;
@@ -20,7 +20,7 @@ module.exports = class BotObj {
 
         if(!this.obj) {
             let err = new Error(`Invalid bot name (${botObj.bot_type}) passed to botObj.constructor()`);
-			return ErrorHandler.error(interaction, err);
+			return ErrorHandler.handle(interaction, err);
         }
 
         //Misc info
@@ -49,6 +49,7 @@ module.exports = class BotObj {
         this.lifespan = Math.ceil((this.baseLifespan + this.lifespanBoost) * this.multiplier);
         this.viral = Math.ceil((this.baseViral + this.viralBoost) * this.multiplier);
         this.firewall = Math.ceil((this.baseFirewall + this.firewallBoost) * this.multiplier);
+        this.stats = this.power + this.lifespan + this.viral + this.firewall;
 
         this.investmentPoints = this.power + this.lifespan + this.viral + this.firewall;
         this.battleStats = {

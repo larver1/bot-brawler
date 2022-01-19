@@ -96,6 +96,12 @@ Users.prototype.removeMessage = async function(message) {
 
 };
 
+Users.prototype.getBots = async function() {
+	return Bots.findAll({ 
+		where: { owner_username: this.username }
+	});
+}
+
 Users.prototype.createBot = async function(bot) {
 	return Bots.create({ bot_id: uuidv4(), bot_type: bot.bot_type, owner_username: bot.owner_username, owner_original_username: bot.owner_original_username, exp: bot.exp, alive: bot.alive, powerBoost: bot.powerBoost, lifespanBoost: bot.lifespanBoost, viralBoost: bot.viralBoost, firewallBoost: bot.firewallBoost, goldPlated: bot.goldPlated, extras: bot.extras, isSelling: bot.isSelling });
 };

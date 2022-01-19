@@ -27,8 +27,12 @@ module.exports = {
         botObj.battle(opponentObj);
         opponentObj.battle(botObj);
 
+        let collection = await utils.user.getBots();
+
+        //If card fails to create, return
         const card = await new utils.card(interaction, botObj);
-        await card.createCard();
+        if(!await card.createCard())
+            return;
 
         await interaction.editReply({ files: [card.getCard()], content: `${utils.user.username} built a *PROTOTYPE:${botObj.bot_type.toUpperCase()}*` });
 
