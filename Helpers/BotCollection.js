@@ -1,5 +1,7 @@
 const botObj = require('../Data/Bots/botObj');
 const ErrorHandler = require("./ErrorHandler.js");
+const fs = require('fs');
+const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 
 module.exports = class BotCollection {
 	constructor(collection, interaction){
@@ -52,7 +54,7 @@ module.exports = class BotCollection {
                 label: `${objects[i].bot_type} ${objects[i].goldPlated ? "Gold Plated" : ""}`,
                 description: `${objects[i].power}/${objects[i].lifespan}/${objects[i].viral}/${objects[i].firewall}`,
                 value: `${i}`,
-                emoji: `🤖`,
+                emoji: `${cardData[objects[i].findLevel()].emoji}`,
             });
         }
 
