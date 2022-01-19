@@ -11,18 +11,26 @@ module.exports = {
      */
     async execute(interaction, utils) {
 
+
+        let botsToChoose = ["Bostrom", "Compactisk", "Greedisk"];
+        let botChoice = botsToChoose[Math.floor(Math.random() * botsToChoose.length)];
+
         //Displays amount of money
-        let bot = await BotBuilder.build(interaction, {}, utils.user);
+        let bot = await BotBuilder.build(interaction, {bot_type: botChoice, exp: Math.ceil(Math.random() * 100)}, utils.user);
         console.log(bot);
         let botObj = await new BotObj(interaction, bot); 
-        console.log(botObj);
+        let opponentObj = await new BotObj(interaction, bot);
 
-        await interaction.editReply({ embeds: [ 
-            new utils.embed(interaction, utils.user)
-                .setTitle(`${utils.user.username} built Prototype:${bot.bot_type}`)
-                .setImage(`${botObj.image}`)
-                .setDescription(`Power: **${botObj.power}** (${botObj.powerBoost})\nLifespan: **${botObj.lifespan}** (${botObj.lifespanBoost})\nViral: **${botObj.viral}**(${botObj.viralBoost})\nFirewall: **${botObj.firewall}**(${botObj.firewallBoost})\n\nTrain it well, ${utils.user.username}!`)] })
-                    .catch((e) => utils.consola.error(e));
+        botObj.setChip("power");
+        opponentObj.setChip("lifespan");
+
+        botObj.battle(opponentObj);
+        opponentObj.battle(botObj);
+
+        const card = await new utils.card(interaction, botObj);
+        await card.createCard();
+
+        await interaction.editReply({ files: [card.getCard()], content: `${utils.user.username} built a *PROTOTYPE:${botObj.bot_type.toUpperCase()}*` });
 
         return utils.user.createBot(bot);
 

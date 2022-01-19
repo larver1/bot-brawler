@@ -1,0 +1,37 @@
+[
+    {
+        "colour": "Green",
+        "name": "PROTOTYPE:1",
+        "exp": 0
+    },
+    {
+        "colour": "Yellow",
+        "name": "PROTOTYPE:2",
+        "exp": 5
+    },
+    {
+        "colour": "Orange",
+        "name": "PROTOTYPE:3",
+        "exp": 15
+    },
+    {
+        "colour": "Pink",
+        "name": "TESTING:1",
+        "exp": 35
+    },
+    {
+        "colour": "Purple",
+        "name": "TESTING:2",
+        "exp": 75
+    },
+    {
+        "colour": "Grey",
+        "name": "TESTING:3",
+        "exp": 155
+    },
+    {
+        "colour": "Black",
+        "name": "ALPHA:1",
+        "exp": 315
+    }
+]

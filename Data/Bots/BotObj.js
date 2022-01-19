@@ -1,7 +1,9 @@
 const ErrorHandler = require("../../Helpers/ErrorHandler.js");
 const fs = require('fs');
+const consola = require("consola");
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const CPM = JSON.parse(fs.readFileSync('./Data/Bots/CPM.json'));
+const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 
 
 module.exports = class BotObj {
@@ -41,18 +43,106 @@ module.exports = class BotObj {
         this.firewallBoost = this.botObj.firewallBoost;
         
         //Calculated stats
-        this.level = this.findLevel(this.exp);
-        console.log(CPM);
+        this.level = this.findLevel();
         this.multiplier = CPM[this.level];
         this.power = Math.ceil((this.basePower + this.powerBoost) * this.multiplier);
         this.lifespan = Math.ceil((this.baseLifespan + this.lifespanBoost) * this.multiplier);
         this.viral = Math.ceil((this.baseViral + this.viralBoost) * this.multiplier);
         this.firewall = Math.ceil((this.baseFirewall + this.firewallBoost) * this.multiplier);
+
         this.investmentPoints = this.power + this.lifespan + this.viral + this.firewall;
+        this.battleStats = {
+            power: this.power,
+            lifespan: this.lifespan,
+            viral: this.viral,
+            firewall: this.firewall
+        }
+
+        this.chip = "";
 
         //Appearance
         this.goldPlated = this.botObj.goldPlated;
         this.image = this.findImage(this.goldPlated, this.obj);
+
+    }
+
+    calcAdvantage(stat1, stat2) {
+        let advantage = stat1 / stat2;
+        if(advantage > 1)
+            return advantage;
+        
+        return -advantage;
+    }
+
+    battle(opponent) {
+        //Add extra stats to each pokemon
+        this.investStats();
+        opponent.investStats();
+
+        console.log(this.battleStats);
+        console.log(opponent.battleStats);
+
+        let powerAdvantage = this.calcAdvantage(this.battleStats.power, opponent.battleStats.lifespan);
+        let viralAdvantage = this.calcAdvantage(this.battleStats.viral, opponent.battleStats.firewall);
+
+        console.log(`Power Advantage: ${powerAdvantage} -> ${this.battleStats.power} vs ${opponent.battleStats.lifespan}`);
+        console.log(`Viral Advantage: ${viralAdvantage} -> ${this.battleStats.viral} vs ${opponent.battleStats.firewall}`);
+
+        let opponentPowerAdvantage = this.calcAdvantage(opponent.battleStats.power, this.battleStats.lifespan);
+        let opponentViralAdvantagae = this.calcAdvantage(opponent.battleStats.viral, this.battleStats.firewall);
+
+        let total = powerAdvantage + viralAdvantage;
+        let opponentTotal = opponentPowerAdvantage + opponentViralAdvantagae;
+
+        console.log(`Final scores: ${total} vs ${opponentTotal}\nFinal advantage: ${total / opponentTotal}.`);
+
+        let ratio = total / opponentTotal;
+        let percent = 100 / total;
+        let otherPercent = 100 / opponentTotal;
+
+        console.log(`Percent: ${ratio * 100}%`);
+
+    }
+
+    setChip(name) {
+        if(!["power", "lifespan", "viral", "firewall"].includes(name)) {
+            let err = new Error(`Invalid chip name (${name}) passed to botObj.setChip()`);
+            consola.error(err);
+            return false;
+        }
+
+        this.chip = name;
+        return;
+
+    }
+
+    investStats(input) {
+
+        let value = input || this.chip;
+
+        switch(value) {
+            case "power":
+                this.battleStats.power = (this.power + this.investmentPoints);
+                break;
+            case "lifespan":
+                this.battleStats.lifespan = (this.lifespan + this.investmentPoints);
+                break;
+            case "viral":
+                this.battleStats.viral = (this.viral + this.investmentPoints);
+                break;
+            case "firewall":
+                this.battleStats.firewall = (this.firewall + this.investmentPoints);
+                break;
+            default:
+                //No stat specified, then use balanced chip
+                this.battleStats.power = this.power + Math.round(this.investmentPoints / 4);
+                this.battleStats.lifespan = this.lifespan + Math.round(this.investmentPoints / 4);
+                this.battleStats.viral = this.viral + Math.round(this.investmentPoints / 4);
+                this.battleStats.firewall = this.firewall + Math.round(this.investmentPoints / 4);
+                break;
+        }
+
+        return true;
 
     }
 
@@ -73,8 +163,13 @@ module.exports = class BotObj {
             return obj.image;
     }
 
-    findLevel(bot_exp) {
-        return Math.floor(bot_exp / 10);
+    findLevel() {
+        for(let i = 0; i < cardData.length; i++) {
+            if(!cardData[i + 1] || 
+                (cardData[i + 1].exp > this.exp && cardData[i].exp <= this.exp)) {
+                    return i;  
+            }
+        }
     }
 
 }

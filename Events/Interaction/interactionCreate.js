@@ -3,6 +3,7 @@ const dbAccess = require("../../Database/dbAccess.js");
 const sampleEmbed = require("../../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../../Helpers/ErrorHandler.js");
 const Messenger = require("../../Helpers/Messenger.js");
+const Card = require("../../Helpers/Card.js");
 
 const consola = require("consola");
 
@@ -46,6 +47,7 @@ module.exports = {
                     embed: sampleEmbed,
                     handler: ErrorHandler,
                     messenger: Messenger,
+                    card: Card,
                     user: user,
                 });
             } catch(e) {

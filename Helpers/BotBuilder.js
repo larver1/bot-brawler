@@ -20,7 +20,7 @@ module.exports = class BotBuilder
 		botObj.lifespanBoost = info.lifespanBoost ? info.lifespanBoost : Math.ceil(Math.random() * 20);
 		botObj.viralBoost = info.viralBoost ? info.viralBoost : Math.ceil(Math.random() * 20);
 		botObj.firewallBoost = info.firewallBoost ? info.firewallBoost : Math.ceil(Math.random() * 20);
-		botObj.goldPlated = info.goldPlated ? info.goldPlated : 0.001 < Math.random();
+		botObj.goldPlated = info.goldPlated ? info.goldPlated : 0.001 > Math.random();
 		botObj.extras = info.extras ? info.extras : "";
 		botObj.isSelling = info.isSelling ? info.isSelling : false;
 
