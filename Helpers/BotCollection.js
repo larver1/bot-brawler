@@ -62,6 +62,48 @@ module.exports = class BotCollection {
 
     }
 
+    compareAscending(a, b) {
+        if (a.exp < b.exp)
+            return -1;
+        if (a.exp > b.exp)
+            return 1;
+        return 0;
+    }
+
+    compareDescending(a, b) {
+        if (a.exp > b.exp)
+            return -1;
+        if (a.exp < b.exp)
+            return 1;
+        return 0;
+    }
+      
+    sortCollection(sort){
+        /*
+            highestExp: BOOLEAN
+            lowestExp: BOOLEAN
+        */
+
+        let collection = this.objs;
+
+        if(typeof collection != "object") {
+            let err = new Error(`Invalid collection passed to botCollection.filterCollection()`);
+            return ErrorHandler.handle(this.interaction, err);
+        }
+
+        //Order by highest exp
+        if(sort) {
+            if(sort.exp) {
+                if(sort.exp == "highest")
+                    this.objs = collection.sort(this.compareDescending);
+                else if(sort.exp == "lowest")
+                    this.objs = collection.sort(this.compareAscending);
+                return this.objs;
+            }
+        }
+
+    }
+
     //Filter a list of pokemon objects
     filterCollection(filters){
         /*

@@ -10,7 +10,10 @@ Canvas.registerFont('./Data/Cards/Code.ttf', { family: 'Code' });
 
 module.exports = class BotObj {
     constructor(interaction, botObj) {
-        this.canvas = Canvas.createCanvas(1280, 2048);
+        this.scale = 0.25
+        this.width = 1280;
+        this.height = 2048;
+        this.canvas = Canvas.createCanvas(1280 * this.scale, 2048 * this.scale);
         this.ctx = this.canvas.getContext('2d');
         this.bgImage = "./Data/Cards/CardTemplate.png";
         this.botObj = botObj;
@@ -23,14 +26,15 @@ module.exports = class BotObj {
     async createCard(){
 
         //Apply card background
-        this.background = await Canvas.loadImage(this.bgImage);
         let chosen = await this.getCardLevel();
         this.success = true;
         
+        this.ctx.scale(this.scale, this.scale);
+
         await this.addColour(chosen.colour);
 
         //Apply progress bar
-        await this.addProgressBar(132, 1902, 1020, 50);
+        await this.addProgressBar();
 
         //Apply card template overlay
         await this.addCardTemplate();
@@ -39,7 +43,7 @@ module.exports = class BotObj {
         await this.addTextElements(chosen.name);
 
         //90% scale on the image
-        await this.addImage(0.9, 0.9);
+        await this.addImage();
 
         if(!this.success)
             return false;
@@ -50,7 +54,7 @@ module.exports = class BotObj {
     
     }
 
-    async addImage(scaleX, scaleY){
+    async addImage(){
 
         //No image found
         if(!this.botObj || !this.botObj.image) {
@@ -60,8 +64,8 @@ module.exports = class BotObj {
         }
 
         let img = await Canvas.loadImage(this.botObj.image);
-        this.ctx.drawImage(img, this.canvas.width / 2 - img.width / 2 + 50, 180, Math.round(1024 * scaleX), Math.round(1024 * scaleY));
 
+        this.ctx.drawImage(img, (this.width / 2) - (img.width / 2) + 50, 180, Math.round(img.width * 0.9), Math.round(img.height * 0.9));
     }
 
     async addTextElements(name){
@@ -77,8 +81,8 @@ module.exports = class BotObj {
         }
 
         //Name and card type
-        this.ctx.fillText(`${this.botObj.bot_type}`.toUpperCase(), this.canvas.width / 2 - this.ctx.measureText(`${this.botObj.bot_type}`.toUpperCase()).width / 2, 170);
-        this.ctx.fillText(`${name}`, this.canvas.width / 2 - this.ctx.measureText(`${name}`).width / 2, 1180);
+        this.ctx.fillText(`${this.botObj.bot_type}`.toUpperCase(), this.width / 2 - this.ctx.measureText(`${this.botObj.bot_type}`.toUpperCase()).width / 2, 170);
+        this.ctx.fillText(`${name}`, this.width / 2 - this.ctx.measureText(`${name}`).width / 2, 1180);
 
         //Stats
         this.ctx.fillText(`${this.botObj.power}`, 635 - this.ctx.measureText(`${this.botObj.power}`).width - 20, 1460);
@@ -89,22 +93,23 @@ module.exports = class BotObj {
     }
 
     async addCardTemplate(){
-        this.ctx.drawImage(this.background, 0, 0, this.canvas.width, this.canvas.height); 
+        this.background = await Canvas.loadImage(this.bgImage);
+        this.ctx.drawImage(this.background, 0, 0, this.width, this.height); 
     }
 
     async addColour(colour){
         this.cardColour = await Canvas.loadImage(`./Data/Cards/${colour}Card.png`);
-        this.ctx.drawImage(this.cardColour, 0, 0, this.canvas.width, this.canvas.height);
+        this.ctx.drawImage(this.cardColour, 0, 0, this.width, this.height);
     }
 
-    async addProgressBar(x, y, width, height){
+    async addProgressBar(){
         //Background bar
         this.ctx.fillStyle = 'rgba(64,68,75,1)';
-        this.ctx.fillRect(x, y, width, height);
+        this.ctx.fillRect(132, 1902, 1020, 50);
 
         //Foreground bar which varies in width depending on percentage
-        this.ctx.fillStyle = 'rgba(100,0,0,1)';
-        this.ctx.fillRect(x, y, Math.floor(width * (this.progressPercentage / 100)), height);
+        this.ctx.fillStyle = 'rgba(59,165,93,1)';
+        this.ctx.fillRect(132, 1902, Math.floor(1020 * (this.progressPercentage / 100)), 50);
     }
 
     async getCardLevel(){

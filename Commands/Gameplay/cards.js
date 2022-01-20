@@ -7,6 +7,23 @@ const { v4: uuidv4 } = require('uuid');
 module.exports = {
     name: "cards",
     description: "Check all of your cards.",
+    options: [{
+        name: "exp",
+        description: "Sorts your card collection based on EXP.",
+        required: false,
+        type: "STRING",
+        choices: [
+            {
+                name: "Highest",
+                value: "highest",
+            }, 
+            {
+                name: "Lowest",
+                value: "lowest",
+            },
+        ]
+    },
+    ],
     /**
      * @param {CommandInteraction} CommandInteraction
      * @param {Object} executeObj
@@ -22,6 +39,11 @@ module.exports = {
 
         if(!collection)
             return;
+
+        //Sort parameters
+        collection.sortCollection({
+            exp: interaction.options.getString("exp"),
+        });
 
         //All the pages to view
         let selectionList = collection.getSelectionList();
@@ -56,7 +78,7 @@ module.exports = {
         await interaction.editReply({ content: 'Select a bot: ', components: [selectList, nextPage] });
 
 		const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId)); 
-		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
+		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
 		
         collector.on('collect', async i => { 
 

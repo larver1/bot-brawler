@@ -16,7 +16,7 @@ module.exports = {
         let botChoice = botsToChoose[Math.floor(Math.random() * botsToChoose.length)];
 
         //Displays amount of money
-        let bot = await BotBuilder.build(interaction, {bot_type: botChoice, exp: Math.ceil(Math.random() * 100)}, utils.user);
+        let bot = await BotBuilder.build(interaction, {bot_type: botChoice, exp: Math.ceil(Math.random() * 400)}, utils.user);
         console.log(bot);
         let botObj = await new BotObj(interaction, bot); 
         let opponentObj = await new BotObj(interaction, bot);
