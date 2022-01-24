@@ -2,11 +2,10 @@ const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton
 const BotBuilder = require("../../Helpers/BotBuilder");
 const BotObj = require("../../Data/Bots/BotObj");
 const BotCollection = require("../../Helpers/BotCollection");
-const { v4: uuidv4 } = require('uuid');
 
 module.exports = {
-    name: "cards",
-    description: "Check all of your cards.",
+    name: "train",
+    description: "Train a card for more EXP.",
     options: [{
         name: "exp",
         description: "Sorts your card collection based on EXP.",
@@ -66,16 +65,37 @@ module.exports = {
         });
 
         //Inspect the collection
-        await collection.inspectCollection(interaction);
+        await collection.inspectCollection(interaction, 1);
 
         //When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {
-            const card = await new utils.card(interaction, collection.selected);
+
+            let exp = Math.ceil(Math.random() * 10);
+            let dataEntries = exp * 15000 * Math.random();
+
+            console.log("old exp: " + collection.selected.exp);
+
+            //Find the selected bot, add XP, and save to DB
+            if(!await utils.dbBots.addExp(interaction, collection.selected.botObj.bot_id, exp))
+                return;
+
+            //Make new object and display new card
+            const botToTrain = await utils.dbBots.findBot(interaction, collection.selected.botObj.bot_id);
+            const newObj = await new BotObj(interaction, botToTrain);
+            const card = await new utils.card(interaction, newObj);
             
             if(!await card.createCard())
                 return;
 
-            await interaction.editReply({ files: [card.getCard()] })
+            let msg = `${newObj.bot_type} analysed ${dataEntries.toFixed(2)} KB of training data and gained ${exp} EXP!\n`;
+
+            //If leveled up, show extra text
+            console.log("new exp: " + newObj.exp);
+
+            if(newObj.findLevel() > collection.selected.findLevel()) 
+                msg += `${newObj.bot_type} entered the *${newObj.levelName}* development phase!`;
+
+            await interaction.editReply({ content: `${msg}`, files: [card.getCard()], components: [] })
                 .catch(e => utils.consola.error(e));
 
         });

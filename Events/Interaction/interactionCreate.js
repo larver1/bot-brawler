@@ -1,5 +1,6 @@
 const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
 const dbAccess = require("../../Database/dbAccess.js");
+const dbBots = require("../../Database/dbBots.js");
 const sampleEmbed = require("../../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../../Helpers/ErrorHandler.js");
 const Messenger = require("../../Helpers/Messenger.js");
@@ -43,6 +44,7 @@ module.exports = {
                 await command.execute(interaction, {
                     client: client,
                     db: dbAccess,
+                    dbBots: dbBots,
                     consola: consola,
                     embed: sampleEmbed,
                     handler: ErrorHandler,

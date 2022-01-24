@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.STRING,
 		allowNull: false,
 		},
-		minDex: {
+		minAchievements: {
 			type: DataTypes.INTEGER,
 		allowNull: false,
 		}

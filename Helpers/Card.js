@@ -5,8 +5,8 @@ const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 const CPM = JSON.parse(fs.readFileSync('./Data/Bots/CPM.json'));
 const Canvas = require('canvas');
 const { MessageAttachment } = require('discord.js');
-Canvas.registerFont('./Data/Cards/TravelingTypewriter.ttf', { family: 'Typewriter' });
-Canvas.registerFont('./Data/Cards/Code.ttf', { family: 'Code' });
+Canvas.registerFont('./Data/Cards/Assets/TravelingTypewriter.ttf', { family: 'Typewriter' });
+Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
 
 module.exports = class BotObj {
     constructor(interaction, botObj) {
@@ -15,7 +15,7 @@ module.exports = class BotObj {
         this.height = 2048;
         this.canvas = Canvas.createCanvas(1280 * this.scale, 2048 * this.scale);
         this.ctx = this.canvas.getContext('2d');
-        this.bgImage = "./Data/Cards/CardTemplate.png";
+        this.bgImage = "./Data/Cards/Assets/CardTemplate.png";
         this.botObj = botObj;
         this.attachment;
         this.progressPercentage = 0;
@@ -60,7 +60,7 @@ module.exports = class BotObj {
         if(!this.botObj || !this.botObj.image) {
             let err = new Error(`No bot image found on Card.addImage()`);
             this.success = false;
-            return ErrorHandler.error(this.interaction, err);
+            return ErrorHandler.handle(this.interaction, err);
         }
 
         let img = await Canvas.loadImage(this.botObj.image);
@@ -77,7 +77,7 @@ module.exports = class BotObj {
         if(!this.botObj || isNaN(this.botObj.power) || isNaN(this.botObj.lifespan) || isNaN(this.botObj.viral) || isNaN(this.botObj.firewall)) {
             let err = new Error(`No bot stats on Card.addTextElements()`);
             this.success = false;
-            return ErrorHandler.error(this.interaction, err);
+            return ErrorHandler.handle(this.interaction, err);
         }
 
         //Name and card type
@@ -98,7 +98,7 @@ module.exports = class BotObj {
     }
 
     async addColour(colour){
-        this.cardColour = await Canvas.loadImage(`./Data/Cards/${colour}Card.png`);
+        this.cardColour = await Canvas.loadImage(`./Data/Cards/Assets/${colour}Card.png`);
         this.ctx.drawImage(this.cardColour, 0, 0, this.width, this.height);
     }
 
@@ -114,10 +114,10 @@ module.exports = class BotObj {
 
     async getCardLevel(){
         //No exp found
-        if(!this.botObj || !this.botObj.exp) {
-            let err = new Error(`No bot exp found on Card.getCardLevel()`);
+        if(!this.botObj || this.botObj.exp == null || !this.botObj.exp < 0 || typeof this.botObj.exp != "number") {
+            let err = new Error(`No valid exp '${this.botObj.exp}' found on Card.getCardLevel()`);
             this.success = false;
-            return ErrorHandler.error(this.interaction, err);
+            return ErrorHandler.handle(this.interaction, err);
         }
 
         //Find the correct card level

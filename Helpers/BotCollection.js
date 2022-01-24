@@ -1,7 +1,11 @@
 const botObj = require('../Data/Bots/botObj');
-const ErrorHandler = require("./ErrorHandler.js");
+const ErrorHandler = require("./ErrorHandler");
+const Card = require("./Card");
+const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton, CommandInteraction } = require("discord.js");
 const fs = require('fs');
 const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
+const { v4: uuidv4 } = require('uuid');
+const EventEmitter = require('events');
 
 module.exports = class BotCollection {
 	constructor(collection, interaction){
@@ -10,6 +14,9 @@ module.exports = class BotCollection {
         this.collection = collection;
         this.objs = [];
         this.interaction = interaction;
+        this.id = uuidv4();
+        this.selected;
+        this.selectedEvent = new EventEmitter();
 
         if(typeof collection != 'object') {
             let err = new Error(`Invalid collection given to botCollection.constructor()`);
@@ -20,13 +27,100 @@ module.exports = class BotCollection {
 
     }
 
+    async inspectCollection(interaction, maxSelected){
+        let selectId = uuidv4();
+        let prevPageId = uuidv4();
+        let nextPageId = uuidv4();
+
+        let selectionList = this.getSelectionList();
+        let page = 0;
+        let maxPages = selectionList.length;
+        let selectCount = 0;
+
+        if(selectionList[0].length <= 0) {
+            let err = new Error(`You do not own any Bots. Try \`/build\` to get started.`);
+            return ErrorHandler.info(interaction, err);
+        }
+
+        //Selection menu
+        let selectList = new MessageActionRow()
+        .addComponents(
+            new MessageSelectMenu()
+                .setCustomId(selectId)
+                .setPlaceholder(`[Page ${page + 1}] Select a Bot: `)
+                .addOptions([selectionList[page]])
+        );
+    
+        const nextPage = new MessageActionRow()
+                .addComponents(
+                    new MessageButton()
+                        .setCustomId(prevPageId)
+                        .setLabel('Prev Page: ')
+                        .setStyle('SECONDARY'),
+                    new MessageButton()
+                        .setCustomId(nextPageId)
+                        .setLabel('Next Page: ')
+                        .setStyle('SECONDARY')
+                )
+
+        await interaction.editReply({ content: 'Select a bot: ', components: [selectList, nextPage] });
+
+        const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId)); 
+		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
+		
+        collector.on('collect', async i => { 
+
+            await i.deferUpdate().catch(e => utils.consola.error(e));
+
+			//If they switched a page
+			if(i.customId == nextPageId || i.customId == prevPageId) {
+				if(i.customId == nextPageId) {
+					if(page < maxPages - 1) page++;
+					else page = 0;
+				} else {
+					if(page > 0) page--;
+					else page = maxPages - 1;
+				}
+
+				selectList = new MessageActionRow()
+					.addComponents(
+						new MessageSelectMenu()
+							.setCustomId(selectId)
+							.setPlaceholder(`[Page ${page + 1}] Select a Bot:`)
+							.addOptions([selectionList[page]]),
+					);
+
+				return interaction.editReply({ components: [selectList, nextPage] }).catch(e => { utils.consola.error(e)});
+                
+			}
+
+            //If maximum number of selects, then finish
+            if(maxSelected) {
+                selectCount++;
+                if(selectCount >= maxSelected)
+                    collector.emit('end');
+            } 
+
+            //Create a new card image out of selected option
+            this.selected = this.objs[parseInt(i.values)];
+            this.selectedEvent.emit('selected');
+
+        });
+
+        collector.on('end', async() => {
+            await interaction.editReply({ components: [] }).catch(e => utils.consola.error(e));
+        });
+
+    }
+
     //Pass in an array of strings and turn to botObjs
-    convertToObjects(){
+    convertToObjects(dead){
         let objArray = [];
 
         for(const bot of this.collection){
             let newBot = new botObj(this.interaction, bot);
-            objArray.push(newBot); 
+            if((!dead && bot.alive == true) || dead)
+                objArray.push(newBot); 
         }
 
         this.objs = objArray;
@@ -145,9 +239,12 @@ module.exports = class BotCollection {
         if(filters.name)
             filters.name = filters.name.trim();
 
+        if(!filters.alive)
+            filters.alive = true;
+
         for(let i = 0; i < collection.length; i++){
 
-            if(filters.bot_type && collection[i].bot_type != filters.bot_type) continue;
+            if(filters.bot_type && collection[i].bot_type.toLowerCase() != filters.bot_type.toLowerCase()) continue;
             if(filters.owner_username && collection[i].owner_username != filters.owner_username) continue;
             if(filters.owner_original_username && collection[i].owner_original_username != filters.owner_original_username) continue;
             if(filters.minExp && collection[i].exp < filters.minExp) continue;

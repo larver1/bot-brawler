@@ -27,10 +27,11 @@ module.exports = class BotObj {
         this.bot_type = this.obj.name;
         this.owner_username = this.botObj.owner_username;
         this.owner_original_username = this.botObj.owner_original_username;
-        this.exp = this.botObj.exp;
+        this.exp = this.botObj.exp || 0;
         this.alive = this.botObj.alive;
         this.extras = this.botObj.extras;
         this.isSelling = this.botObj.isSelling;
+        this.item = this.botObj.item;
         
         //Combat stats
         this.basePower = this.obj.basePower;
@@ -68,11 +69,7 @@ module.exports = class BotObj {
     }
 
     calcAdvantage(stat1, stat2) {
-        let advantage = stat1 / stat2;
-        if(advantage > 1)
-            return advantage;
-        
-        return -advantage;
+        return stat1 / stat2;
     }
 
     battle(opponent) {
@@ -97,11 +94,15 @@ module.exports = class BotObj {
 
         console.log(`Final scores: ${total} vs ${opponentTotal}\nFinal advantage: ${total / opponentTotal}.`);
 
-        let ratio = total / opponentTotal;
-        let percent = 100 / total;
-        let otherPercent = 100 / opponentTotal;
+        let divisor = (total + opponentTotal) / 100;
 
-        console.log(`Percent: ${ratio * 100}%`);
+        console.log(`Percent: ${(total) / divisor}%\n vs ${(opponentTotal) / divisor}%`);
+
+        return { 
+            yourPercent: total / divisor, 
+            otherPercent: opponentTotal / divisor,
+            winner: Math.random() * 100
+        }
 
     }
 
@@ -168,6 +169,7 @@ module.exports = class BotObj {
         for(let i = 0; i < cardData.length; i++) {
             if(!cardData[i + 1] || 
                 (cardData[i + 1].exp > this.exp && cardData[i].exp <= this.exp)) {
+                    this.levelName = cardData[i].name;
                     return i;  
             }
         }

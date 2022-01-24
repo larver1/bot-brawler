@@ -102,8 +102,14 @@ Users.prototype.getBots = async function() {
 	});
 }
 
+Users.prototype.findBot = async function(bot) {
+	return Bots.findOne({ 
+		where: { owner_username: this.username, bot_id: bot.id }
+	});
+}
+
 Users.prototype.createBot = async function(bot) {
-	return Bots.create({ bot_id: uuidv4(), bot_type: bot.bot_type, owner_username: bot.owner_username, owner_original_username: bot.owner_original_username, exp: bot.exp, alive: bot.alive, powerBoost: bot.powerBoost, lifespanBoost: bot.lifespanBoost, viralBoost: bot.viralBoost, firewallBoost: bot.firewallBoost, goldPlated: bot.goldPlated, extras: bot.extras, isSelling: bot.isSelling });
+	return Bots.create({ bot_id: uuidv4(), bot_type: bot.bot_type, owner_username: bot.owner_username, owner_original_username: bot.owner_original_username, exp: bot.exp, alive: bot.alive, powerBoost: bot.powerBoost, lifespanBoost: bot.lifespanBoost, viralBoost: bot.viralBoost, firewallBoost: bot.firewallBoost, goldPlated: bot.goldPlated, extras: bot.extras, isSelling: bot.isSelling, item: "" });
 };
 
 Users.prototype.removeBot = async function(bot) {

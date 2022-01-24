@@ -23,6 +23,7 @@ module.exports = class BotBuilder
 		botObj.goldPlated = info.goldPlated ? info.goldPlated : 0.001 > Math.random();
 		botObj.extras = info.extras ? info.extras : "";
 		botObj.isSelling = info.isSelling ? info.isSelling : false;
+		botObj.item = info.item ? info.item : "";
 
 		if(!this.validate(interaction, botObj))
 			return;

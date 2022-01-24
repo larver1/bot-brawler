@@ -51,6 +51,10 @@ module.exports = (sequelize, DataTypes) => {
 		isSelling: {
 			type: DataTypes.BOOLEAN,
 			allowNull: false
+		},
+		item: {
+			type: DataTypes.STRING,
+			allowNull: true
 		}
 	}, {
 		timestamps: false,
