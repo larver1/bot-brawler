@@ -4,6 +4,10 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.STRING,
 			primaryKey: true,
 		},
+		model_no: {
+			type: DataTypes.STRING,
+			primaryKey: false,
+		},
 		bot_type: {
 			type: DataTypes.STRING,
 			allowNull: false,

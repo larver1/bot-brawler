@@ -8,13 +8,11 @@ const { MessageAttachment } = require('discord.js');
 Canvas.registerFont('./Data/Cards/Assets/TravelingTypewriter.ttf', { family: 'Typewriter' });
 Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
 
-module.exports = class BotObj {
+module.exports = class Card {
     constructor(interaction, botObj) {
         this.scale = 0.25
         this.width = 1280;
         this.height = 2048;
-        this.canvas = Canvas.createCanvas(1280 * this.scale, 2048 * this.scale);
-        this.ctx = this.canvas.getContext('2d');
         this.bgImage = "./Data/Cards/Assets/CardTemplate.png";
         this.botObj = botObj;
         this.attachment;
@@ -25,10 +23,15 @@ module.exports = class BotObj {
 
     async createCard(){
 
+        //Clear canvas
+        this.canvas = Canvas.createCanvas(this.width * this.scale, this.height * this.scale);
+        this.ctx = this.canvas.getContext('2d');
+
         //Apply card background
         let chosen = await this.getCardLevel();
         this.success = true;
         
+        //Scale according to given values
         this.ctx.scale(this.scale, this.scale);
 
         await this.addColour(chosen.colour);
@@ -70,7 +73,6 @@ module.exports = class BotObj {
 
     async addTextElements(name){
         //Set appropriate font and colour
-        this.setFont(100);
         this.ctx.fillStyle = '#ffffff';
 
         //No image found
@@ -81,15 +83,37 @@ module.exports = class BotObj {
         }
 
         //Name and card type
+        this.setFont(100);
         this.ctx.fillText(`${this.botObj.bot_type}`.toUpperCase(), this.width / 2 - this.ctx.measureText(`${this.botObj.bot_type}`.toUpperCase()).width / 2, 170);
-        this.ctx.fillText(`${name}`, this.width / 2 - this.ctx.measureText(`${name}`).width / 2, 1180);
+        
+        this.setFont(70);
+        this.ctx.fillText(`${name} ${this.botObj.model_no}`, this.width / 2 - this.ctx.measureText(`${name} ${this.botObj.model_no}`).width / 2 + 10, 1180);
+
+        //If the bot has a chip attached
+        this.ctx.fillStyle = "#ff0000";
+        this.setFont(100);
 
         //Stats
-        this.ctx.fillText(`${this.botObj.power}`, 635 - this.ctx.measureText(`${this.botObj.power}`).width - 20, 1460);
-        this.ctx.fillText(`${this.botObj.lifespan}`, 680 + 20, 1460);
+        await this.displayStat("power", `${this.botObj.battleStats.power}`, 635 - this.ctx.measureText(`${this.botObj.battleStats.power}`).width - 20, 1460);
+        await this.displayStat("lifespan", `${this.botObj.battleStats.lifespan}`, 680 + 20, 1460);
+        await this.displayStat("viral", `${this.botObj.battleStats.viral}`, 635 - this.ctx.measureText(`${this.botObj.battleStats.viral}`).width - 20, 1710);
+        await this.displayStat("firewall", `${this.botObj.battleStats.firewall}`, 680 + 20, 1710);
 
-        this.ctx.fillText(`${this.botObj.viral}`, 635 - this.ctx.measureText(`${this.botObj.viral}`).width - 20, 1710);
-        this.ctx.fillText(`${this.botObj.firewall}`, 680 + 20, 1710);
+    }
+
+    async displayStat(statName, text, x, y) {
+
+        if(!this.botObj.battling)
+            this.ctx.fillStyle = "#ffffff";
+        else if(statName == this.botObj.item)
+            this.ctx.fillStyle = "#00ff00";
+        else if(this.botObj.item == "balanced")
+            this.ctx.fillStyle = "#8AFF8A";
+        else
+            this.ctx.fillStyle = "#ffffff";
+
+        this.ctx.fillText(`${text}`, x, y);
+
     }
 
     async addCardTemplate(){

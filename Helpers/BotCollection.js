@@ -145,7 +145,7 @@ module.exports = class BotCollection {
             } 
 
             selectionList[page].push({
-                label: `${objects[i].bot_type} ${objects[i].goldPlated ? "Gold Plated" : ""}`,
+                label: `${objects[i].name} ${objects[i].goldPlated ? "Gold Plated" : ""}`,
                 description: `${objects[i].power}/${objects[i].lifespan}/${objects[i].viral}/${objects[i].firewall}`,
                 value: `${i}`,
                 emoji: `${cardData[objects[i].findLevel()].emoji}`,

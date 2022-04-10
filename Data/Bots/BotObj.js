@@ -16,6 +16,7 @@ module.exports = class BotObj {
         }
 
         this.botObj = botObj;
+        console.log(this.botObj);
         this.obj = this.findJSON(botObj.bot_type);
 
         if(!this.obj) {
@@ -25,6 +26,7 @@ module.exports = class BotObj {
 
         //Misc info
         this.bot_type = this.obj.name;
+        this.model_no = this.botObj.model_no;
         this.owner_username = this.botObj.owner_username;
         this.owner_original_username = this.botObj.owner_original_username;
         this.exp = this.botObj.exp || 0;
@@ -32,6 +34,8 @@ module.exports = class BotObj {
         this.extras = this.botObj.extras;
         this.isSelling = this.botObj.isSelling;
         this.item = this.botObj.item;
+        this.name = `${this.obj.name} ${this.model_no}`;
+        if(!this.item) this.item = "balanced";
         
         //Combat stats
         this.basePower = this.obj.basePower;
@@ -42,6 +46,7 @@ module.exports = class BotObj {
         this.lifespanBoost = this.botObj.lifespanBoost;
         this.viralBoost = this.botObj.viralBoost;
         this.firewallBoost = this.botObj.firewallBoost;
+        this.battling = false;
         
         //Calculated stats
         this.level = this.findLevel();
@@ -60,8 +65,6 @@ module.exports = class BotObj {
             firewall: this.firewall
         }
 
-        this.chip = "";
-
         //Appearance
         this.goldPlated = this.botObj.goldPlated;
         this.image = this.findImage(this.goldPlated, this.obj);
@@ -72,31 +75,36 @@ module.exports = class BotObj {
         return stat1 / stat2;
     }
 
+    getBattleText(){
+        switch(this.item) {
+            case "power":
+                return "assumes an aggressive stance!";
+            case "lifespan":
+                return "assumes a reserved stance!"
+            case "viral":
+                return "assumes a provoking stance!";
+            case "firewall":
+                return "assumes a cautious stance!";
+            default:
+                return "assumes a well-rounded stance!";
+        }
+    }
+
     battle(opponent) {
         //Add extra stats to each pokemon
         this.investStats();
         opponent.investStats();
 
-        console.log(this.battleStats);
-        console.log(opponent.battleStats);
-
         let powerAdvantage = this.calcAdvantage(this.battleStats.power, opponent.battleStats.lifespan);
         let viralAdvantage = this.calcAdvantage(this.battleStats.viral, opponent.battleStats.firewall);
-
-        console.log(`Power Advantage: ${powerAdvantage} -> ${this.battleStats.power} vs ${opponent.battleStats.lifespan}`);
-        console.log(`Viral Advantage: ${viralAdvantage} -> ${this.battleStats.viral} vs ${opponent.battleStats.firewall}`);
-
+        
         let opponentPowerAdvantage = this.calcAdvantage(opponent.battleStats.power, this.battleStats.lifespan);
         let opponentViralAdvantagae = this.calcAdvantage(opponent.battleStats.viral, this.battleStats.firewall);
 
         let total = powerAdvantage + viralAdvantage;
         let opponentTotal = opponentPowerAdvantage + opponentViralAdvantagae;
 
-        console.log(`Final scores: ${total} vs ${opponentTotal}\nFinal advantage: ${total / opponentTotal}.`);
-
         let divisor = (total + opponentTotal) / 100;
-
-        console.log(`Percent: ${(total) / divisor}%\n vs ${(opponentTotal) / divisor}%`);
 
         return { 
             yourPercent: total / divisor, 
@@ -106,21 +114,9 @@ module.exports = class BotObj {
 
     }
 
-    setChip(name) {
-        if(!["power", "lifespan", "viral", "firewall"].includes(name)) {
-            let err = new Error(`Invalid chip name (${name}) passed to botObj.setChip()`);
-            consola.error(err);
-            return false;
-        }
+    investStats() {
 
-        this.chip = name;
-        return;
-
-    }
-
-    investStats(input) {
-
-        let value = input || this.chip;
+        let value = this.item;
 
         switch(value) {
             case "power":

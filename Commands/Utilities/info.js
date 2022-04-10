@@ -34,14 +34,19 @@ module.exports = {
             }
         }
 
+        let exists = await utils.dbBotStats.getData(interaction, foundBot.name, "exists");
+        let alive = await utils.dbBotStats.getData(interaction, foundBot.name, "alive");
+        let wins = await utils.dbBotStats.getData(interaction, foundBot.name, "wins");
+        let losses = await utils.dbBotStats.getData(interaction, foundBot.name, "losses");
+
         //Name doesn't exist
         if(!foundBot)
             return utils.handler.info(interaction, new Error(`A bot of the name '${searchedBot}' does not exist.`));
 
         //Display the Battle Bot info
-        const Info = new utils.embed(interaction)
+        const Info = new utils.embed(interaction, utils.user)
             .setTitle(`${foundBot.name} ${goldPlated ? "Gold Plated" : ""}`)
-            .setDescription(`Power Output: **${foundBot.basePower}**\nLifespan: **${foundBot.baseLifespan}**\nViral: **${foundBot.baseViral}**\nFirewall: **${foundBot.baseFirewall}**\n\n${foundBot.description}`)
+            .setDescription(`Power Output: **${foundBot.basePower}**\nLifespan: **${foundBot.baseLifespan}**\nViral: **${foundBot.baseViral}**\nFirewall: **${foundBot.baseFirewall}**\n\nTotal Built: **${exists}**\nTotal Alive: **${alive}**\n\nGlobal Wins: **${wins}**\nGlobal Losses: **${losses}**\n\n${foundBot.description}`)
 
         if(foundBot.image.length) {
             if(goldPlated)

@@ -2,6 +2,7 @@
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 const ErrorHandler = require("./ErrorHandler.js");
+const BotStats = require("../Database/dbBotStats.js");
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 
 module.exports = class BotBuilder
@@ -12,6 +13,7 @@ module.exports = class BotBuilder
 
 		//Define all the bot properties
 		botObj.bot_type = info.bot_type ? info.bot_type : bots[Math.floor(Math.random()  * bots.length)].name;
+		botObj.model_no = info.model_no ? info.model_no : await this.generateModelNo(interaction, botObj.bot_type);
 		botObj.owner_username = info.owner_username ? botObj.owner_username : user.username;
 		botObj.owner_original_username = botObj.owner_username;
 		botObj.exp = info.exp ? info.exp : 0;
@@ -30,8 +32,16 @@ module.exports = class BotBuilder
 
 		return botObj;
 
-		//return user.createBot(botObj);
+	}
 
+	static async generateModelNo(interaction, name) {
+
+		// Find number of this bot in existence
+		let numExists = await BotStats.addExists(interaction, name);
+		let modelString = numExists.toString();
+
+		// Lead string with zeros
+		return "M-" + modelString.padStart(5, '0');
 	}
 
 	static async validate(interaction, botObj){
@@ -76,7 +86,6 @@ module.exports = class BotBuilder
 		}
 
 		return true;
-
 
 	}
 

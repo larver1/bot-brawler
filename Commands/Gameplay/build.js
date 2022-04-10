@@ -11,11 +11,9 @@ module.exports = {
      */
     async execute(interaction, utils) {
 
-        let botsToChoose = ["Bostrom", "Compactisk", "Greedisk"];
-        let botChoice = botsToChoose[Math.floor(Math.random() * botsToChoose.length)];
 
         //Displays amount of money
-        let bot = await BotBuilder.build(interaction, {bot_type: botChoice }, utils.user);
+        let bot = await BotBuilder.build(interaction, { item: "power" }, utils.user);
         console.log(bot);
         let botObj = await new BotObj(interaction, bot); 
 
@@ -23,6 +21,9 @@ module.exports = {
         const card = await new utils.card(interaction, botObj);
         if(!await card.createCard())
             return;
+
+        //Add bot to existence
+        await utils.dbBotStats.addExists(interaction, botObj.bot_type);
 
         await utils.user.createBot(bot);
         return interaction.editReply({ files: [card.getCard()], content: `${utils.user.username} built a *PROTOTYPE:${botObj.bot_type.toUpperCase()}*` });

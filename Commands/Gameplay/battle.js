@@ -1,7 +1,10 @@
 const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
 const BotBuilder = require("../../Helpers/BotBuilder");
 const BotObj = require("../../Data/Bots/BotObj");
+const BattleView = require("../../Helpers/BattleView");
 const BotCollection = require("../../Helpers/BotCollection");
+const { promisify } = require('util');
+const sleep = promisify(setTimeout);
 
 module.exports = {
     name: "battle",
@@ -65,9 +68,13 @@ module.exports = {
         collection.selectedEvent.on(`selected`, async () => {
 
             let yourBot = collection.selected;
+
             const yourCard = await new utils.card(interaction, yourBot);
 
-            await interaction.editReply({ content: ``, files: [yourCard.getCard()] })
+            if(!await yourCard.createCard())
+                return;
+
+            await interaction.editReply({ files: [yourCard.getCard()] })
                 .catch(e => utils.consola.error(e));
 
             await otherCollection.inspectCollection(interaction, 1);
@@ -77,13 +84,19 @@ module.exports = {
                 let otherBot = otherCollection.selected;
                 const otherCard = await new utils.card(interaction, otherBot);
 
-                console.log(`first bot selected: ${yourBot.botObj.bot_id}`);
-                console.log(`second bot selected: ${otherBot.botObj.bot_id}`);
-
                 let results = await yourBot.battle(otherBot);
-                let msg = `Your ${yourBot.bot_type} has a ${results.yourPercent}% chance of winning.\nOpponent ${otherBot.bot_type} has a ${results.otherPercent}% chance of winning.\n${results.winner <= results.yourPercent ? yourBot.bot_type + " is the winner" : yourBot.bot_type + " is the loser"}`;
+                let msg = `${yourBot.name} ${yourBot.getBattleText()}\n${otherBot.name} ${otherBot.getBattleText()}\n\nBattle commence...`;
                 let wager = interaction.options.getString("wager");
                 let loserBot, winnerBot, loserUser, winnerUser, exp;
+
+                //New battle scene
+                let scene = await new BattleView(interaction, yourBot, otherBot, results);
+                await scene.createCards();
+
+                await interaction.editReply({ content: msg, files: [scene.getScene()] });
+                await sleep(10000);
+
+                msg = `${results.winner <= results.yourPercent ? yourBot.name + " is the winner" : otherBot.name + " is the winner"}`;
 
                 //Determine winner
                 if(results.winner <= results.yourPercent){
@@ -92,11 +105,23 @@ module.exports = {
                     loserBot = otherBot;
                     loserUser = otherUser;
                 } else {
-                    loserBot = yourBot;
-                    loserUser = utils.user;
                     winnerBot = otherBot;
                     winnerUser = otherUser;
+                    loserBot = yourBot;
+                    loserUser = utils.user;
                 }
+
+                //Update global stats
+                if(!await utils.dbBotStats.addWin(interaction, winnerBot.bot_type))
+                    return;
+                if(!await utils.dbBotStats.addLoss(interaction, loserBot.bot_type))
+                    return;
+
+                winnerBot.battling = true;
+                const winnerCard = await new utils.card(interaction, winnerBot);
+
+                if(!await winnerCard.createCard())
+                    return;
 
                 switch(wager) {
                     case "destroy":
@@ -106,6 +131,8 @@ module.exports = {
                         if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
                             return;
                         if(!await utils.dbBots.destroy(interaction, loserBot.botObj.bot_id))
+                            return;
+                        if(!await utils.dbBotStats.removeAlive(interaction, loserBot.bot_type))
                             return;
                         break;
                     case "collect":
@@ -134,7 +161,13 @@ module.exports = {
                         break;
                 }
 
-                await interaction.editReply({ content: msg });
+                // If bot has unique winning image, show it
+                if(winnerBot.obj.imageWin) {
+                    winnerCard.botObj.image = winnerBot.obj.imageWin;
+                    await winnerCard.createCard();
+                }
+
+                await interaction.editReply({ files: [winnerCard.getCard()], content: msg });
 
             });
 

@@ -110,6 +110,28 @@ module.exports = class dbBots
         return true;
 
 	}
+
+    static async changeChip(interaction, botID, chip) {
+		const bot = await this.findBot(interaction, botID);
+
+        if(!bot) {
+            let err = new Error(`Invalid botID '${botID}' passed to dbBots.changeChip().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }   
+
+        if(!["power", "lifespan", "viral", "firewall", "balanced"].includes(chip)) {
+            let err = new Error(`Invalid chip ${chip} passed to dbBots.changeChip().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }     
+
+        bot.item = chip;
+        await bot.save();
+
+        return true;
+
+	}
 	
 };
 

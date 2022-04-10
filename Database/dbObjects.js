@@ -12,7 +12,7 @@ const CurrencyShop = require('./models/CurrencyShop.js')(sequelize, Sequelize.Da
 const UserItems = require('./models/UserItems.js')(sequelize, Sequelize.DataTypes);
 const Messages = require('./models/Messages.js')(sequelize, Sequelize.DataTypes);
 const Bots = require('./models/Bots.js')(sequelize, Sequelize.DataTypes);
-
+const BotStats = require('./models/BotStats.js')(sequelize, Sequelize.DataTypes);
 
 UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
@@ -84,12 +84,22 @@ Users.prototype.getOutgoingMessages = function() {
 };
 
 Users.prototype.createMessage = async function(message) {
-	return Messages.create({ message_id: uuidv4(), sender_username: this.username, recipient_username: message.recipient_username, message_type: message.message_type, message_content: message.message_content });
+	return Messages.create({ 
+		message_id: uuidv4(), 
+		sender_username: this.username, 
+		recipient_username: message.recipient_username, 
+		message_type: message.message_type, 
+		message_content: message.message_content 
+	});
 };
 
 Users.prototype.removeMessage = async function(message) {
 	const userMessage = await Messages.findOne({
-		where: { sender_username: this.username, recipient_username: message.recipient_username, message_id: message.message_id },
+		where: { 
+			sender_username: this.username, 
+			recipient_username: message.recipient_username, 
+			message_id: message.message_id 
+		},
 	});
 
 	userMessage.destroy();
@@ -109,7 +119,23 @@ Users.prototype.findBot = async function(bot) {
 }
 
 Users.prototype.createBot = async function(bot) {
-	return Bots.create({ bot_id: uuidv4(), bot_type: bot.bot_type, owner_username: bot.owner_username, owner_original_username: bot.owner_original_username, exp: bot.exp, alive: bot.alive, powerBoost: bot.powerBoost, lifespanBoost: bot.lifespanBoost, viralBoost: bot.viralBoost, firewallBoost: bot.firewallBoost, goldPlated: bot.goldPlated, extras: bot.extras, isSelling: bot.isSelling, item: "" });
+	return Bots.create({ 
+		bot_id: uuidv4(), 
+		bot_type: bot.bot_type, 
+		model_no: bot.model_no, 
+		owner_username: bot.owner_username, 
+		owner_original_username: bot.owner_original_username, 
+		exp: bot.exp, 
+		alive: bot.alive, 
+		powerBoost: bot.powerBoost, 
+		lifespanBoost: bot.lifespanBoost, 
+		viralBoost: bot.viralBoost, 
+		firewallBoost: bot.firewallBoost, 
+		goldPlated: bot.goldPlated, 
+		extras: bot.extras, 
+		isSelling: bot.isSelling, 
+		item: bot.item 
+	});
 };
 
 Users.prototype.removeBot = async function(bot) {
@@ -121,4 +147,4 @@ Users.prototype.removeBot = async function(bot) {
 
 };
 
-module.exports = { Users, CurrencyShop, UserItems, Messages, Bots };
+module.exports = { Users, CurrencyShop, UserItems, Messages, Bots, BotStats };
