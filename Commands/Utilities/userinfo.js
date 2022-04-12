@@ -17,31 +17,19 @@ module.exports = {
      */
     async execute(interaction, utils){
         const target = interaction.options.getUser("user") || interaction.user;        
-        const user = await utils.db.findUser(interaction, target.id);
-
+        const user = await utils.db.findUser(interaction, target.id,);
+        let cardsPerPage = 5;
         let bots = await user.getBots();
 
         // Sort card collection by EXP, and take first 5
-        let collection = await new BotCollection(bots, interaction);
+        let collection = await new BotCollection(bots, interaction, false);
+
+        //Sort parameters
         collection.sortCollection({
             exp: "highest",
         });
 
-        // Display top 5 cards
-        collection = collection.objs.slice(0, 5);
-        const cards = await new CardsView(interaction, collection);
-        await cards.createCards();
+        await collection.viewCollection(interaction, cardsPerPage);
 
-        // Display user info
-        const Response = new utils.embed(interaction, utils.user)
-            .setTitle("User Info")
-            .setAuthor({ name: target.tag, iconURL: target.avatarURL({ dynamic: true, size: 512 }) })
-            .setThumbnail(target.avatarURL({ dynamic: true, size: 512 }))
-            .addField("ID", `${target.id}`, true)
-            .addField("Member Since", `<t:${parseInt(target.joinedTimestamp / 1000)}:R>`, true)
-            .addField("Discord User Since", `<t:${parseInt(target.createdTimestamp / 1000)}:R>`, true)
-
-        interaction.editReply({ content: `__**${user.username}'s Stats**__`, files: [cards.getCards()] })
-            .catch((e) => utils.consola.error(e));;
     }
 }

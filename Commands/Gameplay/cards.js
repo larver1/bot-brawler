@@ -1,6 +1,4 @@
 const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
-const BotBuilder = require("../../Helpers/BotBuilder");
-const BotObj = require("../../Data/Bots/BotObj");
 const BotCollection = require("../../Helpers/BotCollection");
 const { v4: uuidv4 } = require('uuid');
 
@@ -22,6 +20,12 @@ module.exports = {
                 value: "lowest",
             },
         ]
+    },
+    {
+        name: "destroyed",
+        description: "Filters your card collection to show dead/destroyed cards.",
+        required: false,
+        type: "BOOLEAN",
     },
     {
         name: "name",
@@ -49,13 +53,16 @@ module.exports = {
     async execute(interaction, utils) {
 
         let bots = await utils.user.getBots();
-        let collection = await new BotCollection(bots, interaction);
+        let showDead = await interaction.options.getBoolean("destroyed");
+
+        let collection = await new BotCollection(bots, interaction, showDead);
 
         if(!collection)
             return;
 
         //Filter parameters
         collection.filterCollection({
+            destroyed: showDead,
             bot_type: interaction.options.getString("name"),
             specificLevel: interaction.options.getInteger("level"),
         });

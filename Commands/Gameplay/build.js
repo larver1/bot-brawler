@@ -14,7 +14,6 @@ module.exports = {
 
         //Displays amount of money
         let bot = await BotBuilder.build(interaction, { item: "power" }, utils.user);
-        console.log(bot);
         let botObj = await new BotObj(interaction, bot); 
 
         //If card fails to create, return

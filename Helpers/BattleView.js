@@ -34,40 +34,6 @@ module.exports = class BattleView {
         return;
     }
 
-    degreeToRadian(degree){
-        return degree * Math.PI / 180;
-    }
-
-    async createChart(){
-
-
-        /* 
-        -> 2 Pi = full circle
-        -> First segment uses your percentage as fraction
-        -> Second segment fills in the remainder of the circle
-        */
-
-        //Draw background circle
-        this.ctx.beginPath();
-        this.ctx.moveTo(this.canvas.width / 2, this.canvas.height / 2);
-        this.ctx.arc(this.canvas.width / 2, this.canvas.height / 2, 120, this.degreeToRadian(0), this.degreeToRadian(360));
-
-        this.ctx.fillStyle = 'red';
-        this.ctx.closePath();
-        this.ctx.fill();
-
-        //Draw your segment
-        this.ctx.beginPath();
-        this.ctx.lineTo(this.canvas.width / 2, this.canvas.height / 2);
-        this.ctx.arc(this.canvas.width / 2, this.canvas.height / 2, 150, this.degreeToRadian(0) - Math.PI / 2, this.degreeToRadian(360) * (this.results.yourPercent / 100) - Math.PI / 2, true);
-        this.ctx.lineTo(this.canvas.width / 2, this.canvas.height / 2);
-
-        this.ctx.fillStyle = 'green';
-        this.ctx.closePath();
-        this.ctx.fill();
-
-    }
-
     async createCards(){
         this.yourCard = await new Card(this.interaction, this.yourBot);
         this.otherCard = await new Card(this.interaction, this.otherBot);
@@ -82,15 +48,84 @@ module.exports = class BattleView {
         await this.createChart();
 
         this.ctx.drawImage(vs, 
-            ((this.canvas.width) / 2) - (vs.width / 6) - 20, 
-            ((this.canvas.height) / 2) - (vs.height / 6), 
-            vs.width / 3, 
-            vs.height / 3);
+            ((this.canvas.width) / 2) - (vs.width / 12), 
+            ((this.canvas.height) / 2) - (vs.height / 12), 
+            vs.width / 6, 
+            vs.height / 6);
+
+        await this.createPercentages();
 
         this.attachment = new MessageAttachment(this.canvas.toBuffer(), 'battle.png');
 
         return true;
 
+    }
+
+    degreeToRadian(degree){
+        return degree * Math.PI / 180;
+    }
+
+    async createChart(){
+
+        /* 
+        -> 2 Pi = full circle
+        -> First segment uses your percentage as fraction
+        -> Second segment fills in the remainder of the circle
+        */
+
+        //Draw background circle
+        this.ctx.beginPath();
+        this.ctx.moveTo(this.canvas.width / 2, this.canvas.height / 2);
+        this.ctx.arc(this.canvas.width / 2, this.canvas.height / 2, 120, this.degreeToRadian(0), this.degreeToRadian(360));
+
+        //Create red gradient
+        let grd = this.ctx.createRadialGradient(this.canvas.width / 2, this.canvas.height / 2, 25, this.canvas.width / 2 + 60, this.canvas.height / 2, 120)
+        grd.addColorStop(0, '#370000');
+        grd.addColorStop(1, '#DD3F1A');
+        this.ctx.fillStyle = grd;
+
+        this.ctx.closePath();
+        this.ctx.fill();
+
+        //Draw your segment
+        this.ctx.beginPath();
+        this.ctx.lineTo(this.canvas.width / 2, this.canvas.height / 2);
+        this.ctx.arc(this.canvas.width / 2, this.canvas.height / 2, 150, this.degreeToRadian(0) - Math.PI / 2, this.degreeToRadian(360) * (this.results.otherPercent / 100) - Math.PI / 2, true);
+        this.ctx.lineTo(this.canvas.width / 2, this.canvas.height / 2);
+
+        //Create green gradient
+        let grd2 = this.ctx.createRadialGradient(this.canvas.width / 2, this.canvas.height / 2, 25, this.canvas.width / 2 - 60, this.canvas.height / 2, 120)
+        grd2.addColorStop(0, '#043200');
+        grd2.addColorStop(1, '#4ECE59');
+        this.ctx.fillStyle = grd2;
+        
+        this.ctx.closePath();
+        this.ctx.fill();
+
+        this.ctx.fillStyle = '';
+
+    }
+
+    async createPercentages(){
+        this.setFont(70);
+        this.ctx.fillStyle = "#4ECE59";
+
+        //Left side percentage
+        this.ctx.fillText(`${this.results.yourPercent.toFixed()}%`, 
+            this.canvas.width / 2 - this.ctx.measureText(`${this.results.yourPercent.toFixed()}%`).width * 0.85,
+            this.canvas.height - (100 * this.scale));
+
+        this.ctx.fillStyle = "#DD3F1A";
+
+        //Right side percentage
+        this.ctx.fillText(`${this.results.otherPercent.toFixed()}%`, 
+        this.canvas.width / 2,
+        300 * this.scale);
+    }
+
+    async setFont(size){
+        //Uses specific font
+        this.ctx.font = `${size}px "Code"`;
     }
 
     getScene(){

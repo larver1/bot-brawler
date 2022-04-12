@@ -16,7 +16,6 @@ module.exports = class BotObj {
         }
 
         this.botObj = botObj;
-        console.log(this.botObj);
         this.obj = this.findJSON(botObj.bot_type);
 
         if(!this.obj) {

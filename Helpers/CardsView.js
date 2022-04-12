@@ -12,7 +12,7 @@ Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
 module.exports = class CardsView {
     constructor(interaction, botsToDisplay) {
         this.scale = 0.20;
-        this.width = 5120;
+        this.width = 6144;
         this.height = 2048;
         this.botsToDisplay = botsToDisplay;
         this.numBots = this.botsToDisplay.length;

@@ -155,7 +155,7 @@ module.exports = {
                             return;
                         break;
                     case "friendly":
-                        msg += "\nThe bots shake hands and go their separate ways.";
+                        msg += "\nThe bots shake claws and go their separate ways.";
                         break;
                     default:
                         break;

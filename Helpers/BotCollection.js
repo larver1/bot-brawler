@@ -1,14 +1,17 @@
 const botObj = require('../Data/Bots/botObj');
 const ErrorHandler = require("./ErrorHandler");
-const Card = require("./Card");
+const CardsView = require("./CardsView");
 const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton, CommandInteraction } = require("discord.js");
 const fs = require('fs');
 const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 const { v4: uuidv4 } = require('uuid');
 const EventEmitter = require('events');
+const consola = require("consola");
+const cards = require('../Commands/Gameplay/cards');
+const deadEmoji = '<:deadbot:963525067596242955>';
 
 module.exports = class BotCollection {
-	constructor(collection, interaction){
+	constructor(collection, interaction, showDead){
 
         //Convert string to an array
         this.collection = collection;
@@ -23,7 +26,74 @@ module.exports = class BotCollection {
             return ErrorHandler.handle(this.interaction, err);
         }
 
-        this.convertToObjects();
+        this.convertToObjects(showDead);
+
+    }
+
+    async viewCollection(interaction, cardsPerPage){
+
+        let sortedCollection = this.objs;
+
+        let page = 0;
+        let maxPages = Math.floor(sortedCollection.length / cardsPerPage);
+        let prevPageId = uuidv4();
+        let nextPageId = uuidv4();
+
+        let sortedSelection = sortedCollection.slice(page * cardsPerPage, page * cardsPerPage + cardsPerPage);
+
+        if(sortedCollection.length <= 0) {
+            let err = new Error(`You do not own any Bots of the specified type. Try \`/build\` to get started.`);
+            return ErrorHandler.info(interaction, err);
+        }
+    
+        const nextPage = new MessageActionRow()
+                .addComponents(
+                    new MessageButton()
+                        .setCustomId(prevPageId)
+                        .setLabel('Prev Page: ')
+                        .setStyle('SECONDARY'),
+                    new MessageButton()
+                        .setCustomId(nextPageId)
+                        .setLabel('Next Page: ')
+                        .setStyle('SECONDARY')
+                )
+
+        let cards = await new CardsView(interaction, sortedSelection);
+        await cards.createCards();
+
+        await interaction.editReply({ content: 'Your bots: ', components: [nextPage], files: [await cards.getCards()] });
+
+        const filter = i => (i.user.id === interaction.user.id && (i.customId == nextPageId || i.customId == prevPageId)); 
+		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
+		
+        collector.on('collect', async i => { 
+
+            await i.deferUpdate().catch(e => consola.error(e));
+
+			//If they switched a page
+			if(i.customId == nextPageId || i.customId == prevPageId) {
+				if(i.customId == nextPageId) {
+					if(page < maxPages - 1) page++;
+					else page = 0;
+				} else {
+					if(page > 0) page--;
+					else page = maxPages - 1;
+				}
+
+                sortedSelection = sortedCollection.slice(page * cardsPerPage, page * cardsPerPage + cardsPerPage);
+
+                cards = await new CardsView(interaction, sortedSelection);
+                await cards.createCards();
+
+				return interaction.editReply({ components: [nextPage], files: [await cards.getCards()] }).catch(e => { consola.error(e)});
+                
+			}
+
+        });
+
+        collector.on('end', async() => {
+            await interaction.editReply({ components: [] }).catch(e => utils.consola.error(e));
+        });
 
     }
 
@@ -38,7 +108,7 @@ module.exports = class BotCollection {
         let selectCount = 0;
 
         if(selectionList[0].length <= 0) {
-            let err = new Error(`You do not own any Bots. Try \`/build\` to get started.`);
+            let err = new Error(`You do not own any Bots of the specified type. Try \`/build\` to get started.`);
             return ErrorHandler.info(interaction, err);
         }
 
@@ -70,7 +140,7 @@ module.exports = class BotCollection {
 		
         collector.on('collect', async i => { 
 
-            await i.deferUpdate().catch(e => utils.consola.error(e));
+            await i.deferUpdate().catch(e => consola.error(e));
 
 			//If they switched a page
 			if(i.customId == nextPageId || i.customId == prevPageId) {
@@ -90,7 +160,7 @@ module.exports = class BotCollection {
 							.addOptions([selectionList[page]]),
 					);
 
-				return interaction.editReply({ components: [selectList, nextPage] }).catch(e => { utils.consola.error(e)});
+				return interaction.editReply({ components: [selectList, nextPage] }).catch(e => { consola.error(e)});
                 
 			}
 
@@ -114,12 +184,12 @@ module.exports = class BotCollection {
     }
 
     //Pass in an array of strings and turn to botObjs
-    convertToObjects(dead){
+    convertToObjects(showDead){
         let objArray = [];
 
         for(const bot of this.collection){
             let newBot = new botObj(this.interaction, bot);
-            if((!dead && bot.alive == true) || dead)
+            if((!showDead && bot.alive) || (showDead && !bot.alive))
                 objArray.push(newBot); 
         }
 
@@ -148,7 +218,7 @@ module.exports = class BotCollection {
                 label: `${objects[i].name} ${objects[i].goldPlated ? "Gold Plated" : ""}`,
                 description: `${objects[i].power}/${objects[i].lifespan}/${objects[i].viral}/${objects[i].firewall}`,
                 value: `${i}`,
-                emoji: `${cardData[objects[i].findLevel()].emoji}`,
+                emoji: `${objects[i].alive ? cardData[objects[i].findLevel()].emoji : deadEmoji}`,
             });
         }
 
@@ -211,7 +281,6 @@ module.exports = class BotCollection {
             minLevel: INTEGER,
             maxLevel: INTEGER
             specificLevel: INTEGER
-            alive: BOOLEAN
             minPowerBoost: INTEGER,
             maxPowerBoost: INTEGER,
             minLifespanBoost: INTEGER,
@@ -239,9 +308,6 @@ module.exports = class BotCollection {
         if(filters.name)
             filters.name = filters.name.trim();
 
-        if(!filters.alive)
-            filters.alive = true;
-
         for(let i = 0; i < collection.length; i++){
 
             if(filters.bot_type && collection[i].bot_type.toLowerCase() != filters.bot_type.toLowerCase()) continue;
@@ -252,7 +318,6 @@ module.exports = class BotCollection {
             if(filters.minLevel && collection[i].findLevel() < filters.minLevel) continue;
             if(filters.maxLevel && collection[i].findLevel() > filters.maxLevel) continue;
             if(filters.specificLevel && collection[i].findLevel() != filters.specificLevel) continue;
-            if(filters.alive && collection[i].alive != filters.alive) continue;
             if(filters.minPowerBoost && collection[i].powerBoost < filters.minPowerBoost) continue;
             if(filters.maxPowerBoost && collection[i].powerBoost > filters.maxPowerBoost) continue;
             if(filters.minLifespanBoost && collection[i].lifespanBoost < filters.minLifespanBoost) continue;

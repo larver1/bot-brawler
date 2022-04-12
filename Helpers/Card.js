@@ -1,19 +1,42 @@
 const ErrorHandler = require("./ErrorHandler.js");
 const fs = require('fs');
 const consola = require("consola");
+const botData = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 const CPM = JSON.parse(fs.readFileSync('./Data/Bots/CPM.json'));
 const Canvas = require('canvas');
 const { MessageAttachment } = require('discord.js');
 Canvas.registerFont('./Data/Cards/Assets/TravelingTypewriter.ttf', { family: 'Typewriter' });
 Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
+const assets = {}
+
+async function loadAssets(){
+    // Load card assets
+    assets["template"] = await Canvas.loadImage("./Data/Cards/Assets/CardTemplate.png");
+    assets["shine"] = await Canvas.loadImage("./Data/Cards/Assets/Shine.png");
+    assets["deadBot"] = await Canvas.loadImage("./Data/Cards/Assets/DeadBot.png");
+
+    // Load all card colours
+    for(const card of cardData) {
+        assets[card.colour] = await Canvas.loadImage(`./Data/Cards/Assets/${card.colour}Card.png`);
+    }
+
+    // Load all bot images
+    for(const bot of botData) {
+        assets[bot.name] = await Canvas.loadImage(`./Data/Bots/Assets/${bot.name}.png`);
+        assets[bot.name + "Gold"] = await Canvas.loadImage(`./Data/Bots/Assets/${bot.name}Gold.png`);
+    }
+
+}
+
+loadAssets();
+
 
 module.exports = class Card {
     constructor(interaction, botObj) {
         this.scale = 0.25
         this.width = 1280;
         this.height = 2048;
-        this.bgImage = "./Data/Cards/Assets/CardTemplate.png";
         this.botObj = botObj;
         this.attachment;
         this.progressPercentage = 0;
@@ -48,6 +71,13 @@ module.exports = class Card {
         //90% scale on the image
         await this.addImage();
 
+        //Dead icon
+        if(!this.botObj.alive)
+            await this.addDead();
+
+        //Gloss on card
+        await this.addShine();
+
         if(!this.success)
             return false;
 
@@ -55,6 +85,10 @@ module.exports = class Card {
     
         return true;
     
+    }
+
+    async addShine(){
+        this.ctx.drawImage(assets["shine"], (this.width / 2) - (assets["shine"].width / 2) - 68, 0, this.width * 0.75, this.height * 0.25);
     }
 
     async addImage(){
@@ -66,9 +100,8 @@ module.exports = class Card {
             return ErrorHandler.handle(this.interaction, err);
         }
 
-        let img = await Canvas.loadImage(this.botObj.image);
-
-        this.ctx.drawImage(img, (this.width / 2) - (img.width / 2) + 50, 180, Math.round(img.width * 0.9), Math.round(img.height * 0.9));
+        let img = assets[`${this.botObj.bot_type}${this.botObj.goldPlated ? 'Gold' : ''}`];
+        this.ctx.drawImage(img, (this.width / 2) - (4 * img.width / 2) + 50, 180, 4 * Math.round(img.width * 0.9), 4 * Math.round(img.height * 0.9));
     }
 
     async addTextElements(name){
@@ -117,13 +150,11 @@ module.exports = class Card {
     }
 
     async addCardTemplate(){
-        this.background = await Canvas.loadImage(this.bgImage);
-        this.ctx.drawImage(this.background, 0, 0, this.width, this.height); 
+        this.ctx.drawImage(assets["template"], 0, 0, this.width, this.height); 
     }
 
     async addColour(colour){
-        this.cardColour = await Canvas.loadImage(`./Data/Cards/Assets/${colour}Card.png`);
-        this.ctx.drawImage(this.cardColour, 0, 0, this.width, this.height);
+        this.ctx.drawImage(assets[colour], 0, 0, this.width, this.height);
     }
 
     async addProgressBar(){
@@ -157,6 +188,20 @@ module.exports = class Card {
                 }
         }
 
+    }
+
+    async addDead(){
+
+        //No image found
+        if(!assets["deadBot"]) {
+            let err = new Error(`No deadBot image found on Card.addDead()`);
+            this.success = false;
+            return ErrorHandler.handle(this.interaction, err);
+        }
+
+        this.ctx.globalAlpha = 0.4;
+        this.ctx.drawImage(assets["deadBot"], (this.width / 2) - (4 * assets["deadBot"].width / 2), 120, 4 * assets["deadBot"].width, 4 * assets["deadBot"].width);
+        this.ctx.globalAlpha = 1.0;
     }
 
     async setFont(size){
