@@ -12,6 +12,10 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 		},
+		exp: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+		},
 		friends: {
 			type: DataTypes.STRING,
 			allowNull: false,
@@ -27,7 +31,11 @@ module.exports = (sequelize, DataTypes) => {
 		spawn: {
 			type: DataTypes.DATE,
 			allowNull: false
-		}
+		},
+		lastCommand: {
+			type: DataTypes.DATE,
+			allowNull: false
+		},
 	}, {
 		timestamps: false,
 	});

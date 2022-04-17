@@ -1,7 +1,7 @@
 const { Client, MessageEmbed } = require("discord.js");
 
 module.exports = {
-    name: "parts",
+    name: "balance",
     description: "View your total number of Machine Parts.",
     /**
      * @param {CommandInteraction} CommandInteraction

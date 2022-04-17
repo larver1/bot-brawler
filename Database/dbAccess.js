@@ -52,15 +52,46 @@ module.exports = class dbAccess
 		return found;
 	}
 
-    static async getData(interaction, type) {
-		const user = await this.findUser(interaction);
+	static getTimeSince(date) {
+		let timeDiff = Math.abs(Date.now() - date);
+		let decimalPoints = 0;
+
+		let numDays = timeDiff / 8.64e7;
+		let numWeeks = numDays / 7;
+		let numYears = numWeeks / 52;
+		let numHours = timeDiff / 36e5;
+		let numMins = timeDiff / 60000;
+
+		// Find the best format to present the time
+		if(numYears < 1)
+			if(numWeeks < 1)
+				if(numDays < 1) 
+					if(numHours < 1) 
+						return `${numMins.toFixed(decimalPoints)} minutes ago`;
+					else
+						return `${numHours.toFixed(decimalPoints)} hours ago`;
+				else
+					return `${numDays.toFixed(decimalPoints)} days ago`;		
+			else
+				return `${numWeeks.toFixed(decimalPoints)} weeks ago`;
+		else
+			return `${numYears.toFixed(decimalPoints)} years ago`;
+
+	}
+
+    static async getData(interaction, type, differentID) {
+		const user = await this.findUser(interaction, differentID);
 
 		if(!user)
 			return;
 
 		switch(type) {
+			case "friends":
+				return user.friends.replaceAll('|', '\n').slice(1, -1).split("\n");
 			case "username":
 				return user.username;
+			case "lastCommand":
+				return this.getTimeSince(user.lastCommand);
 			default:
 				let err = new Error(`Invalid type '${type}' called on getData()`);
 				await ErrorHandler.handle(interaction, err);
@@ -76,6 +107,9 @@ module.exports = class dbAccess
 			return;
 
 		switch(type) {
+			case "lastCommand":
+				user.lastCommand = Date.now();
+				break;
 			case "friend":
 				//You can't add the same friend more than once
 				if(user.friends.includes(toAdd + "|")) {
@@ -112,7 +146,7 @@ module.exports = class dbAccess
 				return false;
 		}
 
-		user.save();
+		await user.save();
 		return true;
 
 	}
@@ -148,7 +182,7 @@ module.exports = class dbAccess
 				return false;
 		}
 
-		user.save();
+		await user.save();
 		return true;
 
 	}

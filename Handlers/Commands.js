@@ -5,7 +5,7 @@ const { glob } = require("glob");
 const PG = promisify(glob);
 const Ascii = require("ascii-table");
 const consola = require("consola");
-const { guildId } = require("../config.json");
+const { guildId, otherGuildId } = require("../config.json");
 
 /**
  * @param {Client} client
@@ -46,6 +46,11 @@ module.exports = async (client) => {
     //Permissions check
 
     client.on("ready", async () => {
+        
+        /*
+        MainGuild = test server
+        client.application = global
+        */
         const MainGuild = await client.guilds.cache.get(guildId);
         MainGuild.commands.set(CommandsArray).then(async (command) => {
             const Roles = (commandName) => {

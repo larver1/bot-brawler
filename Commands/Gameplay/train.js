@@ -70,7 +70,7 @@ module.exports = {
         //When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {
 
-            let exp = Math.ceil(Math.random() * 100);
+            let exp = Math.ceil(Math.random() * 10);
             let dataEntries = exp * 15000 * Math.random();
 
             console.log("old exp: " + collection.selected.exp);

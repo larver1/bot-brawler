@@ -1,7 +1,3 @@
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
-const BotCollection = require("../../Helpers/BotCollection");
-const { v4: uuidv4 } = require('uuid');
-
 module.exports = {
     name: "cards",
     description: "Check all of your cards.",
@@ -44,8 +40,7 @@ module.exports = {
                 value: 0,
             }, 
         ]
-    }
-    ],
+    }],
     /**
      * @param {CommandInteraction} CommandInteraction
      * @param {Object} executeObj
@@ -54,12 +49,8 @@ module.exports = {
 
         let bots = await utils.user.getBots();
         let showDead = await interaction.options.getBoolean("destroyed");
-
-        let collection = await new BotCollection(bots, interaction, showDead);
-
-        if(!collection)
-            return;
-
+        let collection = await new utils.botCollection(bots, interaction, showDead);
+        
         //Filter parameters
         collection.filterCollection({
             destroyed: showDead,

@@ -5,18 +5,59 @@ const BattleView = require("../../Helpers/BattleView");
 const BotCollection = require("../../Helpers/BotCollection");
 const { promisify } = require('util');
 const ErrorHandler = require("../../Helpers/ErrorHandler");
+const { utimesSync } = require("fs");
+const Card = require("../../Helpers/Card");
 const sleep = promisify(setTimeout);
+
+async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, moneyOffered) {
+
+    if(moneyOffered > buyingUser.balance) {
+        let err = new Error(`\`${buyingUser.username}\` does not have sufficient funds`);
+        return utils.handler.info(interaction, err);
+    }
+
+    const yourCard = await new utils.card(interaction, sellingBot);
+
+    if(!await yourCard.createCard())
+        return false;
+
+    // Exchange money from buyer to seller
+    await utils.db.add(interaction, "balance", moneyOffered, sellingUser.user_id);
+    await utils.db.remove(interaction, "balance", moneyOffered, buyingUser.user_id);
+
+    // Exchange bot ownership
+    await utils.dbBots.changeOwner(interaction, sellingBot.botObj.bot_id, buyingUser.username);
+
+    // Display confirmation message
+    await interaction.editReply({ files: [yourCard.getCard()], content: 
+        `\`${sellingUser.username}'s ${sellingBot.name}\` has been sold to \`${buyingUser.username} for ${moneyOffered}x\` Machine Parts!`
+    }).catch((e) => utils.consola.error(e));
+
+    return yourCard;
+}
 
 module.exports = {
     name: "trade",
     description: "Trade your bot with another player for Machine Parts.",
-    options: [
-    {
-        name: "buy",
-        description: "Buy a bot from another user on the server.",
+    options: [{
+        name: "user",
+        description: "Trade with another user on the server.",
         required: false,
         type: "SUB_COMMAND",
-        options: [
+        options: [{
+            name: "type",
+            description: "Choose whether to buy or sell",
+            required: true,
+            type: "STRING",
+            choices: [{
+                name: "Buy",
+                value: "buy"
+            },
+            {
+                name: "Sell",
+                value: "sell"
+            }],
+        },
         {
             name: "user",
             description: "The user you wish to buy from.",
@@ -32,25 +73,62 @@ module.exports = {
         ]
     },
     {
-        name: "sell",
-        description: "Sell a bot to another user on the server.",
+        name: "request",
+        description: "Send a battle request to send to the recipient's DMs.",
         required: false,
         type: "SUB_COMMAND",
-        options: [
-        {
-            name: "user",
-            description: "The user you wish to sell to.",
+        options: [{
+            name: "type",
+            description: "Choose whether to buy or sell",
             required: true,
-            type: "USER",
+            type: "STRING",
+            choices: [{
+                name: "Buy",
+                value: "buy"
+            },
+            {
+                name: "Sell",
+                value: "sell"
+            }],
+        },
+        {
+            name: "username",
+            description: "The recipient's Bot Brawler Username (NOT their @user).",
+            required: true,
+            type: "STRING"
         },
         {
             name: "amount",
-            description: "The amount of Machine Parts you will receive.",
+            description: "The number of Machine Parts you will offer.",
             required: true,
             type: "INTEGER",
         },
         ]
     },
+    {
+        name: "accept",
+        description: "Accept a trade request from your inbox.",
+        required: false,
+        type: "SUB_COMMAND",
+        options: [{
+            name: "number",
+            description: "The request number in your /requests list.",
+            required: true,
+            type: "INTEGER"
+        }
+    ]},
+    {
+        name: "reject",
+        description: "Reject a user's trade request from your inbox.",
+        required: false,
+        type: "SUB_COMMAND",
+        options: [{
+            name: "number",
+            description: "The request number in your /requests list",
+            required: true,
+            type: "INTEGER"
+        }
+    ]}
 
 ],
     /**
@@ -60,13 +138,82 @@ module.exports = {
     async execute(interaction, utils) {
 
         let user = utils.user;
-        let sellingUser, buyingUser;
-        let otherUser = await utils.db.findUser(interaction, interaction.options.getUser("user").id);
+        let sellingUser, buyingUser, otherUser;
         const subCommand = interaction.options.getSubcommand();
+
+        if(subCommand == "request") {
+            otherUser = await utils.db.findUsername(interaction, interaction.options.getString("username"));
+        } else if(subCommand == "user"){
+            otherUser = await utils.db.findUser(interaction, interaction.options.getUser("user").id);
+        }
+
+        // If accepting a request, find the msg
+        if(subCommand == "accept") {
+            const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade");
+            if(!msg)
+                return;
+
+            otherUser = await utils.db.findUsername(interaction, msg.sender_username);
+            if(!otherUser)
+                return;
+
+            let details = msg.message_content.split("|");
+            let sellingBot = await utils.dbBots.findBotObj(interaction, details[2]);
+            let sellingUser = await utils.db.findUsername(interaction, details[0]);
+            let buyingUser = await utils.db.findUsername(interaction, details[1]);
+            let amount = parseInt(details[3]);
+
+            if(!sellingBot || !sellingUser || !buyingUser)
+                return;
+
+            if(!interaction.channel)
+                await interaction.user.createDM();
+
+            let card = await trade(interaction, utils, buyingUser, sellingUser, sellingBot, amount);
+            if(!card)
+                return;
+
+            // Send the other user the results of the trade
+            let userToSend = await utils.client.users.fetch(otherUser.user_id);
+            let success = true;
+
+            await userToSend.send({
+                content: `Trade accepted: ${sellingUser.username}'s ${sellingBot.name} was traded to ${buyingUser.username} for x${amount} Machine Parts!`,
+                files: [card.getCard()] })
+            .catch(() => {
+                success = false;
+                return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
+            });
+
+            await utils.messenger.clearMessages(interaction, otherUser, utils.user, "trade");
+            return;
+
+        }
+
+        if(subCommand == "reject") {
+            const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade");
+            if(!msg)
+                return;
+
+            otherUser = await utils.db.findUsername(interaction, msg.sender_username);
+            if(!otherUser)
+                return;            
+                
+            if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade"))
+                return;
+
+            return interaction.editReply({ embeds: [
+                new utils.embed(interaction, utils.user)
+                    .setTitle(`${otherUser.username}'s Trade Request`)
+                    .setDescription(`You have rejected \`${otherUser.username}\`'s trade request.`)] })
+                        .catch((e) => utils.consola.error(e));
+        }
+
         let amount = interaction.options.getInteger("amount");
+        const buyOrSell = interaction.options.getString("type");
 
         // If buying, then select from other user's cards instead
-        if(subCommand == "buy") {
+        if(buyOrSell == "buy") {
             sellingUser = otherUser;
             buyingUser = user;
         } else {
@@ -87,29 +234,36 @@ module.exports = {
         }
 
         // Inspect the collection
-        await collection.inspectCollection(interaction, 1);
+        await collection.inspectCollection(interaction, 1, `Choose ${sellingUser.username}'s bot to offer.`);
 
         // When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {
 
             // Select bot to buy/sell
             let yourBot = collection.selected;
-            const yourCard = await new utils.card(interaction, yourBot);
 
-            if(!await yourCard.createCard())
+            if(subCommand == "request") {
+                if(await utils.messenger.checkMessages(interaction, utils.user, otherUser))
+                    return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
+
+                // Details that will be contained within the message
+                details = {
+                    selling_user: sellingUser,
+                    buying_user: buyingUser,
+                    bot_id: yourBot.botObj.bot_id,
+                    amount_offered: amount 
+                }
+
+                let messageNumber = await utils.messenger.sendTradeRequest(interaction, utils.user, otherUser, details);
+                if(!messageNumber)
+                    return;
+            
+                await utils.messenger.sendDM(interaction, utils.client, otherUser, 
+                    `${utils.user.username} has sent you a trade request.\nFor more info: \`/requests info ${messageNumber}\`.`);
                 return;
+            }
 
-            // Exchange money from buyer to seller
-            await utils.db.remove(interaction, "balance", amount, buyingUser.user_id);
-            await utils.db.add(interaction, "balance", amount, sellingUser.user_id);
-
-            // Exchange bot ownership
-            await utils.dbBots.changeOwner(interaction, yourBot.botObj.bot_id, buyingUser.username);
-
-            // Display confirmation message
-            await interaction.editReply({ files: [yourCard.getCard()], content: 
-                `\`${sellingUser.username}'s ${yourBot.name}\` has been sold to \`${buyingUser.username} for ${amount}x\` Machine Parts!`
-            }).catch((e) => utils.consola.error(e));
+            await trade(interaction, utils, buyingUser, sellingUser, yourBot, amount);
 
         });
 

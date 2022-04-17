@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize');
 const { v4: uuidv4 } = require('uuid');
 const { dbName, dbUser, dbPass } = require('../config.json');
+const consola = require("consola");
 
 const sequelize = new Sequelize(dbName, dbUser, dbPass, {
     dialect: 'mysql',  
@@ -89,7 +90,8 @@ Users.prototype.createMessage = async function(message) {
 		sender_username: this.username, 
 		recipient_username: message.recipient_username, 
 		message_type: message.message_type, 
-		message_content: message.message_content 
+		message_content: message.message_content,
+		message_number: message.message_number
 	});
 };
 
@@ -98,11 +100,15 @@ Users.prototype.removeMessage = async function(message) {
 		where: { 
 			sender_username: this.username, 
 			recipient_username: message.recipient_username, 
-			message_id: message.message_id 
+			message_id: message.message_id,
+			message_number: message.message_number
 		},
 	});
 
-	userMessage.destroy();
+	if(userMessage)
+		userMessage.destroy();
+	else
+		consola.error(`Message ${message.message_id} passed to dbObjects.removeMessage() is invalid.`);
 
 };
 
@@ -143,7 +149,10 @@ Users.prototype.removeBot = async function(bot) {
 		where: { bot_id: bot.id },
 	});
 
-	userBot.destroy();
+	if(userBot)
+		userBot.destroy();
+	else
+		consola.error(`Bot ${bot.id} passed to dbObjects.removeBot() is invalid.`);
 
 };
 

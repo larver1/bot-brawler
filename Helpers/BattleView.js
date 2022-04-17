@@ -22,10 +22,12 @@ module.exports = class BattleView {
         this.attachment;
         this.interaction = interaction;
 
-        yourBot.investStats();
-        yourBot.battling = true;
-        otherBot.investStats();
-        otherBot.battling = true;
+        if(this.results) {
+            yourBot.investStats();
+            yourBot.battling = true;
+            otherBot.investStats();
+            otherBot.battling = true;
+        }
 
         this.yourBot = yourBot;
         this.otherBot = otherBot;
@@ -45,7 +47,8 @@ module.exports = class BattleView {
         this.ctx.drawImage(this.yourCard.canvas, 0, 0, this.yourCard.width * this.yourCard.scale, this.yourCard.height * this.yourCard.scale);
         this.ctx.drawImage(this.otherCard.canvas, (this.width * this.scale) - (this.otherCard.width * this.otherCard.scale), 0, this.otherCard.width * this.otherCard.scale, this.otherCard.height * this.otherCard.scale);
 
-        await this.createChart();
+        if(this.results)
+            await this.createChart();
 
         this.ctx.drawImage(vs, 
             ((this.canvas.width) / 2) - (vs.width / 12), 
@@ -53,7 +56,8 @@ module.exports = class BattleView {
             vs.width / 6, 
             vs.height / 6);
 
-        await this.createPercentages();
+        if(this.results)
+            await this.createPercentages();
 
         this.attachment = new MessageAttachment(this.canvas.toBuffer(), 'battle.png');
 

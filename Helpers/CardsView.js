@@ -12,7 +12,7 @@ Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
 module.exports = class CardsView {
     constructor(interaction, botsToDisplay) {
         this.scale = 0.20;
-        this.width = 6144;
+        this.width = 6272;
         this.height = 2048;
         this.botsToDisplay = botsToDisplay;
         this.numBots = this.botsToDisplay.length;
@@ -27,6 +27,7 @@ module.exports = class CardsView {
 
     async createCards(){
 
+        console.time("creating cards");
         for(let i = this.numBots - 1; i >= 0; i--) {
 
             let bot = this.botsToDisplay[i];
@@ -41,6 +42,7 @@ module.exports = class CardsView {
         }
 
         this.attachment = new MessageAttachment(this.canvas.toBuffer(), 'cards.png');
+        console.timeEnd("creating cards");
 
         return true;
 

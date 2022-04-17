@@ -67,10 +67,20 @@ module.exports = {
                         .catch((e) => utils.consola.error(e));
 
         //Attempts to register user to DB
-		user = await Users.create({ user_id: interaction.user.id, username: username, balance: 0, friends: "|", privacy: "public", balance: 0, daily: new Date('January 10, 2022 03:24:00'), spawn:  new Date('January 10, 2022 03:24:00') })
+		user = await Users.create({ user_id: interaction.user.id,
+                                    username: username, 
+                                    balance: 0, 
+                                    exp: 0,
+                                    friends: "|",
+                                    privacy: "public", 
+                                    balance: 0, 
+                                    daily: new Date('January 10, 2022 03:24:00'), 
+                                    spawn: new Date('January 10, 2022 03:24:00'),
+                                    lastCommand: Date.now() 
+                                 })
         .catch((e) => {
             let err = new Error(`A user with the name \`${username}\` already exists! Please try again.`);
-            return utils.handler.info(interaction, err);    
+            utils.handler.info(interaction, err);    
         });
 
         if(!user)

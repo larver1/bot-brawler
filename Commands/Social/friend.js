@@ -74,11 +74,32 @@ module.exports = {
 
         //Display list of friends
         if(subCommand == "list") {
-            return interaction.editReply({ embeds: [
-                new utils.embed(interaction, utils.user)
-                    .setTitle(`${utils.user.username}'s Friend List`)
-                    .setDescription(`${utils.user.friends}`)] })
-                        .catch((e) => utils.consola.error(e));
+            // Gets friends list
+            let friends = await utils.db.getData(interaction, "friends");
+
+            if(friends.length <= 0)
+                return utils.handler.info(interaction, new Error("Your friends list is empty... 😔"));
+
+            let friendsList = ``;
+
+            // Display in a presentable form
+            for(let friendInfo of friends) {
+                let friend = await utils.db.findUsername(interaction, friendInfo);
+                if(!friend)
+                    return;
+
+                let timeSinceActive = await utils.db.getData(interaction, "lastCommand", friend.user_id);
+                friendsList += `-> **${friendInfo}**\n\tLast active: \`${timeSinceActive}\`\n`; 
+            }
+
+            // Use helper to put into multiple pages
+            await utils.messageHelper.listPages(interaction, utils.user, friendsList, {
+                title: `Friends List`,
+                linesPerPage: 10
+            });
+
+            return;
+
         } else if(subCommand == "requests") {
             let message = ``;
 

@@ -3,17 +3,29 @@ const fs = require('fs');
 const consola = require("consola");
 const sampleEmbed = require("../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
+const BotObj = require("../Data/Bots/BotObj");
 
 module.exports = class dbBots
 {
     static async findBot(interaction, botID) {
-		const user = await Bots.findOne({ where: { bot_id: botID } });
-		if(!user) {
+		const bot = await Bots.findOne({ where: { bot_id: botID } });
+		if(!bot) {
 			let err = new Error(`Bot of ID ${botID} could not be found.`);
 			return ErrorHandler.handle(interaction, err);
 		}
 
-		return user;
+        return bot;
+    }
+
+    static async findBotObj(interaction, botID) {
+		const bot = await Bots.findOne({ where: { bot_id: botID } });
+		if(!bot) {
+			let err = new Error(`Bot of ID ${botID} could not be found.`);
+			return ErrorHandler.handle(interaction, err);
+		}
+
+        let botObj = await new BotObj(interaction, bot);
+		return botObj;
     }
 
 	static async addExp(interaction, botID, toAdd) {
@@ -105,6 +117,28 @@ module.exports = class dbBots
         }    
 
         bot.alive = false;
+        await bot.save();
+
+        return true;
+
+	}
+
+    static async revive(interaction, botID) {
+		const bot = await this.findBot(interaction, botID);
+
+        if(!bot) {
+            let err = new Error(`Invalid botID '${botID}' passed to dbBots.addExp().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }   
+
+        if(bot.alive) {
+            let err = new Error(`Can't revive a destroyed bot in dbBots.revive().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }    
+
+        bot.alive = true;
         await bot.save();
 
         return true;

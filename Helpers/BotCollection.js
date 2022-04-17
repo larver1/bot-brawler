@@ -8,7 +8,6 @@ const { v4: uuidv4 } = require('uuid');
 const EventEmitter = require('events');
 const consola = require("consola");
 const cards = require('../Commands/Gameplay/cards');
-const deadEmoji = '<:deadbot:963525067596242955>';
 
 module.exports = class BotCollection {
 	constructor(collection, interaction, showDead){
@@ -30,12 +29,12 @@ module.exports = class BotCollection {
 
     }
 
-    async viewCollection(interaction, cardsPerPage){
+    async viewCollection(interaction, cardsPerPage, selectMsg){
 
         let sortedCollection = this.objs;
 
         let page = 0;
-        let maxPages = Math.floor(sortedCollection.length / cardsPerPage);
+        let maxPages = Math.ceil(sortedCollection.length / cardsPerPage);
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
 
@@ -61,7 +60,10 @@ module.exports = class BotCollection {
         let cards = await new CardsView(interaction, sortedSelection);
         await cards.createCards();
 
-        await interaction.editReply({ content: 'Your bots: ', components: [nextPage], files: [await cards.getCards()] });
+        if(!interaction.channel)
+            await interaction.user.createDM();
+
+        await interaction.editReply({ content: `Your bots [Page ${page + 1}/${maxPages}]`, components: [nextPage], files: [await cards.getCards()] });
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == nextPageId || i.customId == prevPageId)); 
 		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
@@ -85,7 +87,7 @@ module.exports = class BotCollection {
                 cards = await new CardsView(interaction, sortedSelection);
                 await cards.createCards();
 
-				return interaction.editReply({ components: [nextPage], files: [await cards.getCards()] }).catch(e => { consola.error(e)});
+				return interaction.editReply({ content: `Your bots [Page ${page + 1}/${maxPages}]`, components: [nextPage], files: [await cards.getCards()] }).catch(e => { consola.error(e)});
                 
 			}
 
@@ -97,14 +99,14 @@ module.exports = class BotCollection {
 
     }
 
-    async inspectCollection(interaction, maxSelected){
+    async inspectCollection(interaction, maxSelected, selectMsg){
         let selectId = uuidv4();
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
 
         let selectionList = this.getSelectionList();
         let page = 0;
-        let maxPages = selectionList.length;
+        let maxPages = Math.min(selectionList.length, 1);
         let selectCount = 0;
 
         if(selectionList[0].length <= 0) {
@@ -117,7 +119,7 @@ module.exports = class BotCollection {
         .addComponents(
             new MessageSelectMenu()
                 .setCustomId(selectId)
-                .setPlaceholder(`[Page ${page + 1}] Select a Bot: `)
+                .setPlaceholder(`[Page ${page + 1}] ${selectMsg ? selectMsg : 'Select a Bot: '}`)
                 .addOptions([selectionList[page]])
         );
     
@@ -132,6 +134,9 @@ module.exports = class BotCollection {
                         .setLabel('Next Page: ')
                         .setStyle('SECONDARY')
                 )
+
+        if(!interaction.channel)
+            await interaction.user.createDM();
 
         await interaction.editReply({ content: 'Select a bot: ', components: [selectList, nextPage] });
 
@@ -156,7 +161,7 @@ module.exports = class BotCollection {
 					.addComponents(
 						new MessageSelectMenu()
 							.setCustomId(selectId)
-							.setPlaceholder(`[Page ${page + 1}] Select a Bot:`)
+							.setPlaceholder(`[Page ${page + 1}] ${selectMsg ? selectMsg : 'Select a Bot: '}`)
 							.addOptions([selectionList[page]]),
 					);
 
@@ -218,7 +223,7 @@ module.exports = class BotCollection {
                 label: `${objects[i].name} ${objects[i].goldPlated ? "Gold Plated" : ""}`,
                 description: `${objects[i].power}/${objects[i].lifespan}/${objects[i].viral}/${objects[i].firewall}`,
                 value: `${i}`,
-                emoji: `${objects[i].alive ? cardData[objects[i].findLevel()].emoji : deadEmoji}`,
+                emoji: `${cardData[objects[i].findLevel()].emoji}`,
             });
         }
 

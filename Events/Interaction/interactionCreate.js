@@ -4,7 +4,9 @@ const dbBots = require("../../Database/dbBots.js");
 const dbBotStats = require("../../Database/dbBotStats.js");
 const sampleEmbed = require("../../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../../Helpers/ErrorHandler.js");
+const BotCollection = require("../../Helpers/BotCollection.js");
 const Messenger = require("../../Helpers/Messenger.js");
+const MessageHelpers = require("../../Helpers/MessageHelpers.js");
 const Card = require("../../Helpers/Card.js");
 
 const consola = require("consola");
@@ -43,6 +45,7 @@ module.exports = {
             //Pass execution utilities to command
             try {
                 await command.execute(interaction, {
+                    botCollection: BotCollection,
                     client: client,
                     db: dbAccess,
                     dbBots: dbBots,
@@ -51,6 +54,7 @@ module.exports = {
                     embed: sampleEmbed,
                     handler: ErrorHandler,
                     messenger: Messenger,
+                    messageHelper: MessageHelpers,
                     card: Card,
                     user: user,
                 });
@@ -58,6 +62,9 @@ module.exports = {
                 await ErrorHandler.handle(interaction, e);  
             };
 
+            //Update time since last command was performed
+            if(user)
+                await dbAccess.add(interaction, "lastCommand");
             consola.info(`${interaction.user.tag} performed ${command.name}.`);
 
         }
