@@ -10,7 +10,7 @@ module.exports = class Messenger
         const messages = await recipient.getIncomingMessages();
 
         // Search for a message number and find next available one
-        for(var number = 1; number < messages.length; number++) {
+        for(var number = 1; number <= messages.length; number++) {
             let found = false;
             for(const msg of messages) {
                 if((msg.message_number) == number) {
@@ -240,16 +240,29 @@ module.exports = class Messenger
         return;
     }
 
+    compareAscending(a, b) {
+        if (a.message_number < b.message_number)
+            return -1;
+        if (a.message_number > b.message_number)
+            return 1;
+        return 0;
+    }
+
     //Check all messages to recipient
-    static async readAllMessages(interaction, recipient, messageType) {
+    static async readAllMessages(interaction, recipient, messageType, sortByNum) {
         let messages = await recipient.getIncomingMessages();
         let inbox = [];
 
+        // Filter by certain message
         if(messageType) 
             messages = messages.filter((msg) => msg.message_type == messageType);
 
         if(!messages)
             return false;
+
+        // Sort with ascending ID number
+        if(sortByNum)
+            messages = messages.sort(this.compareDescending);
 
         console.log(messages);
 
@@ -298,9 +311,13 @@ module.exports = class Messenger
             consola.warn(new Error(`\`${recipient.username}\` is not accepting DMs from the bot.`));
             return false;
         }
+
+        const dm = new sampleEmbed(interaction, recipient)
+            .setTitle(`You have received a message!`)
+            .setDescription(`${message}\n\nIf you would like to opt out of Bot DMs, use \`/privacy set level:Locked\``)
         
         //Send user the message
-        await userToSend.send(`${message}\n\nIf you would like to opt out of Bot DMs, use \`/privacy set level:Locked\``)
+        await userToSend.send({ embeds: [dm] })
             .catch(() => {
                 //Not an urgent error, so just log it
                 consola.warn(new Error(`Failed to send a message to user \`${recipient.username}\`. They may have their Discord DMs disabled.`)); 
@@ -308,7 +325,7 @@ module.exports = class Messenger
             });
 
         return success;
+   
     }
-
 
 }

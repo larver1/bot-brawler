@@ -66,13 +66,14 @@ module.exports = {
             let filter = interaction.options.getString("filter");
 
             // Find all incoming messages with filters applied
-            let inbox = await utils.messenger.readAllMessages(interaction, utils.user, filter);
+            let inbox = await utils.messenger.readAllMessages(interaction, utils.user, filter, true);
             if(!inbox)
                 return;
 
             // Present all messages
             let inboxMsg = ``;
             for(const message of inbox) {
+                let otherUser = await utils.db.findUsername(interaction, message.sender_username);
                 let msgContent = message.message_content.split("|");
                 let contentMsg = ``;
 
@@ -84,7 +85,6 @@ module.exports = {
                     contentMsg += `Your \`${bot2.bot_type}\` vs \`${message.sender_username}'s ${bot1.bot_type}\`. Wager is \`${msgContent[2]}\`.`;
                 } else if(message.message_type == "trade") {
                     let sellingBot = await utils.dbBots.findBotObj(interaction, msgContent[2]);
-                    let otherUser = await utils.db.findUsername(interaction, message.sender_username);
                     let sellingUser;
                     
                     // If recipient is the selling user
@@ -95,11 +95,13 @@ module.exports = {
                     }
 
                     contentMsg += `\`x${msgContent[3]} Machine Parts\` for \`${sellingUser.username}'s ${sellingBot.name}\`.\n\n`;
+                } else if(message.message_type == "friend") {
+                    contentMsg += `Friend Request from \`${message.sender_username}\` 😄\n`;
                 }
 
                 inboxMsg += `From: \`${message.sender_username}\`\n`;
                 inboxMsg += `Request: \`${message.message_type}\`\n`;
-                inboxMsg += `Message Number: \`${message.message_number}\`\n`;
+                inboxMsg += `ID Number: \`${message.message_number}\`\n`;
                 inboxMsg += `Details: ${contentMsg}\n`;
                 inboxMsg += `More Info: \`/requests info ${message.message_number}\`\n\n`;
 
@@ -128,6 +130,7 @@ module.exports = {
         // Get more info on a request
         if(subCommand == "info") {
             console.log(msg);
+            let msgContent = ``;
             if(msg.message_type == "battle") {
 
                 let yourBot = await utils.dbBots.findBotObj(interaction, details[1]);
@@ -137,7 +140,6 @@ module.exports = {
                 if(!await scene.createCards())
                     return;
 
-                let msgContent = ``;
                 msgContent += `**__${msg.recipient_username}'s ${yourBot.name}__ VS __${msg.sender_username}'s ${otherBot.name}__.**\n\n`;
                 msgContent += `The wager is \`${details[2]}\`, this means that ${wagers[details[2]]}.\n\n`;
                 msgContent += `Like all battles, neither player will know their opponent's \`/chip\` selection until the battle commences. Be sure to keep this secret as it will influence the battle outcome.\n\n`;
@@ -164,7 +166,6 @@ module.exports = {
                 if(!await card.createCard())
                     return;
 
-                let msgContent = ``;
                 msgContent += `**__${sellingUser.username}'s ${sellingBot.name} for ${details[3]} Machine Parts!__**\n\n`;
                 msgContent += `The buyer (${buyingUser.username}) will pay the seller (${sellingUser.username}) ${details[3]} Machine Parts for their ${sellingBot.name}.\n\n`;
                 msgContent += `To accept: \`/trade accept ${msg.message_number}\`\nTo reject: \`/trade reject ${msg.message_number}\``;
@@ -174,6 +175,15 @@ module.exports = {
                     files: [card.getCard()] })
                 .catch(e => utils.consola.error(e));
 
+            } else if(msg.message_type == "friend") {
+                msgContent += `**__${otherUser.username} has sent you a friend request__**\n\n`;
+                msgContent += `If you choose to accept, this user will be able to send you battle/trade requests even if your \`/privacy\` settings are "Private" or "Moderate".\n\n`;
+                msgContent += `You may remove them at any time using \`/friend remove ${otherUser.username}\`\n\n`;
+                msgContent += `To accept: \`/friend accept ${msg.message_number}\`\nTo reject: \`/friend reject ${msg.message_number}\``;
+
+                await interaction.editReply({
+                    content: `${msgContent}`})
+                .catch(e => utils.consola.error(e));
             }
         }
 

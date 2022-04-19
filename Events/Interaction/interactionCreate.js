@@ -31,7 +31,7 @@ module.exports = {
                 ]}) && client.commands.delete(interaction.commandName);
 
             //Bot respond with "loading" state
-            await interaction.deferReply().catch(e => {console.log(e)});
+            await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
             let user;
 
             if(command.name != "register") {

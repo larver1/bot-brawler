@@ -41,10 +41,10 @@ module.exports = class BotObj {
         this.baseLifespan = this.obj.baseLifespan;
         this.baseViral = this.obj.baseViral;
         this.baseFirewall = this.obj.baseFirewall;
-        this.powerBoost = this.botObj.powerBoost;
-        this.lifespanBoost = this.botObj.lifespanBoost;
-        this.viralBoost = this.botObj.viralBoost;
-        this.firewallBoost = this.botObj.firewallBoost;
+        this.powerBoost = 0;
+        this.lifespanBoost = 0;
+        this.viralBoost = 0;
+        this.firewallBoost = 0;
         this.battling = false;
         
         //Calculated stats
@@ -56,13 +56,15 @@ module.exports = class BotObj {
         this.firewall = Math.ceil((this.baseFirewall + this.firewallBoost) * this.multiplier);
         this.stats = this.power + this.lifespan + this.viral + this.firewall;
 
-        this.investmentPoints = this.power + this.lifespan + this.viral + this.firewall;
+        this.investmentPoints = Math.ceil(this.stats / 2);
         this.battleStats = {
             power: this.power,
             lifespan: this.lifespan,
             viral: this.viral,
             firewall: this.firewall
         }
+
+        this.totalBattleStats = this.battleStats.power + this.battleStats.lifespan + this.battleStats.viral + this.battleStats.firewall;
 
         //Appearance
         this.goldPlated = this.botObj.goldPlated;
@@ -71,64 +73,142 @@ module.exports = class BotObj {
     }
 
     calcAdvantage(stat1, stat2) {
-        return stat1 / stat2;
+        return stat1 - stat2;
     }
 
     getBattleText(){
         switch(this.item) {
             case "power":
-                return "assumes an aggressive stance!";
+                return "assumes a Power Strategy!";
             case "lifespan":
-                return "assumes a reserved stance!"
+                return "assumes a Lifespan Strategy!"
             case "viral":
-                return "assumes a provoking stance!";
+                return "assumes a Viral Strategy!";
             case "firewall":
-                return "assumes a cautious stance!";
+                return "assumes a Firewall Strategy!";
             default:
-                return "assumes a well-rounded stance!";
+                return "assumes a Balanced Strategy!";
+        }
+    }
+
+    getStatTotal(){
+        return this.battleStats.power + this.battleStats.lifespan + this.battleStats.viral + this.battleStats.lifespan;
+    }
+
+    calcDamage(yourBot, otherBot, type) {
+        if(type == "power") {
+            return yourBot.battleStats.power * (100 / (100 + (otherBot.battleStats.lifespan * 2)));
+        } else if(type == "viral") {
+            return yourBot.battleStats.viral * (100 / (100 + (otherBot.battleStats.firewall * 2)));
         }
     }
 
     battle(opponent) {
-        //Add extra stats to each pokemon
+        
         this.investStats();
         opponent.investStats();
 
-        let powerAdvantage = this.calcAdvantage(this.battleStats.power, opponent.battleStats.lifespan);
-        let viralAdvantage = this.calcAdvantage(this.battleStats.viral, opponent.battleStats.firewall);
-        
-        let opponentPowerAdvantage = this.calcAdvantage(opponent.battleStats.power, this.battleStats.lifespan);
-        let opponentViralAdvantagae = this.calcAdvantage(opponent.battleStats.viral, this.battleStats.firewall);
+        console.log(`YOUR BOT`);
+        console.log(this.battleStats);
+        console.log(`OTHER BOT`);
+        console.log(opponent.battleStats);
 
-        let total = powerAdvantage + viralAdvantage;
-        let opponentTotal = opponentPowerAdvantage + opponentViralAdvantagae;
+        let total = this.battleStats.power + this.battleStats.lifespan + this.battleStats.viral + this.battleStats.firewall;
+        let opponentTotal = opponent.battleStats.power + opponent.battleStats.lifespan + opponent.battleStats.viral + opponent.battleStats.firewall;
+
+        let yourPowerAdvantage = this.calcAdvantage(this.battleStats.power, opponent.battleStats.lifespan);
+        let yourViralAdvantage = this.calcAdvantage(this.battleStats.viral, opponent.battleStats.firewall);
+        let opponentPowerAdvantage = this.calcAdvantage(opponent.battleStats.power, this.battleStats.lifespan);
+        let opponentViralAdvantage = this.calcAdvantage(opponent.battleStats.viral, this.battleStats.firewall);
+
+        console.log(`${this.name} Power ${this.battleStats.power} vs ${opponent.name} Lifespan ${opponent.battleStats.lifespan} gives advantage ${yourPowerAdvantage}`);
+        console.log(`${this.name} Viral ${this.battleStats.viral} vs ${opponent.name} Firewall ${opponent.battleStats.firewall} gives advantage ${yourViralAdvantage}`);
+
+        console.log(`${opponent.name} Power ${opponent.battleStats.power} vs ${this.name} Lifespan ${this.battleStats.lifespan} gives advantage ${opponentPowerAdvantage}`);
+        console.log(`${opponent.name} Viral ${opponent.battleStats.viral} vs ${this.name} Firewall ${this.battleStats.firewall} gives advantage ${opponentViralAdvantage}`);
+
+        let yourMsg = ``;
+        let opponentMsg = ``;
+
+        // Change odds if you or opponent get power advantage
+        if(yourPowerAdvantage > opponentPowerAdvantage) {
+            if(yourPowerAdvantage > 0) {
+                total += yourPowerAdvantage;
+                console.log(`${yourPowerAdvantage} gets added to ${this.name}'s total.`);
+                yourMsg += `${this.name} has a Power advantage over ${opponent.name}'s Lifespan!\n`;
+            }
+        } else if(opponentPowerAdvantage > yourPowerAdvantage) {
+            if(opponentPowerAdvantage > 0) {
+                opponentTotal += opponentPowerAdvantage;
+                console.log(`${opponentPowerAdvantage} gets added to ${opponent.name}'s total.`);
+                opponentMsg += `${opponent.name} has a Power advantage over ${this.name}'s Lifespan!\n`;
+            }
+        }
+
+        // Change odds if you or opponent get viral advantage
+        if(yourViralAdvantage > opponentViralAdvantage) {
+            if(yourViralAdvantage > 0) {
+                total += yourViralAdvantage;
+                console.log(`${yourViralAdvantage} gets added to ${this.name}'s total.`);
+                yourMsg += `${this.name} has a Viral advantage over ${opponent.name}'s Firewall!\n`;
+            }
+        } else if(opponentViralAdvantage > yourViralAdvantage) {
+            if(opponentViralAdvantage > 0) {
+                opponentTotal += opponentViralAdvantage;
+                console.log(`${opponentViralAdvantage} gets added to ${opponent.name}'s total.`);
+                opponentMsg += `${opponent.name} has a Viral advantage over ${this.name}'s Firewall!\n`;
+            }
+        }
+
+        if(!yourMsg)
+            yourMsg = `${this.name} has no advantages over ${opponent.name}`;
+
+        if(!opponentMsg)
+            opponentMsg = `${opponent.name} has no advantages over ${this.name}`;
 
         let divisor = (total + opponentTotal) / 100;
+
+        console.log("\n✅ your percent " + total + " / " + divisor + " = " + (total / divisor));
+        console.log("✅ opponent percent " + opponentTotal + " / " + divisor + " = " +  (opponentTotal / divisor));
 
         return { 
             yourPercent: total / divisor, 
             otherPercent: opponentTotal / divisor,
-            winner: Math.random() * 100
+            winner: Math.random() * 100,
+            yourMsg: yourMsg,
+            opponentMsg: opponentMsg
         }
 
     }
 
-    investStats() {
+    investStats(overrideChip) {
 
-        let value = this.item;
+        let value = overrideChip || this.item;
 
         switch(value) {
             case "power":
                 this.battleStats.power = (this.power + this.investmentPoints);
+                this.battleStats.lifespan = this.lifespan;
+                this.battleStats.viral = this.viral;
+                this.battleStats.firewall = this.firewall;
                 break;
             case "lifespan":
                 this.battleStats.lifespan = (this.lifespan + this.investmentPoints);
+                this.battleStats.power = this.power;
+                this.battleStats.viral = this.viral;
+                this.battleStats.firewall = this.firewall;
                 break;
             case "viral":
                 this.battleStats.viral = (this.viral + this.investmentPoints);
+                this.battleStats.lifespan = this.lifespan;
+                this.battleStats.power = this.power;
+                this.battleStats.firewall = this.firewall;
                 break;
             case "firewall":
                 this.battleStats.firewall = (this.firewall + this.investmentPoints);
+                this.battleStats.power = this.power;
+                this.battleStats.lifespan = this.lifespan;
+                this.battleStats.viral = this.viral;
                 break;
             default:
                 //No stat specified, then use balanced chip

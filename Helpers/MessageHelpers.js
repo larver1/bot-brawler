@@ -10,11 +10,81 @@ const sampleEmbed = require("./sampleEmbed");
 
 module.exports = class MessageHelpers {
     constructor() {
+    }
+
+    //Gives user a yes/no option and emits event depending on choice
+    static async confirmChoice(interaction, user, msg, img) {
+        this.replyEvent = new EventEmitter();
+
+        let acceptId = uuidv4();
+        let rejectId = uuidv4();
+
+        if(msg.length <= 0) {
+            let err = new Error(`The message given to MessageHelpers.confirmChoice() is empty.`);
+            return ErrorHandler.error(interaction, err);
+        }
+
+        const request = new sampleEmbed(interaction, user)
+            .setTitle(`Confirm your choice`)
+            .setDescription(`${msg}`)
+
+        const choices = new MessageActionRow()
+        .addComponents(
+            new MessageButton()
+                .setCustomId(acceptId)
+                .setLabel('Accept')
+                .setEmoji(`✔`)
+                .setStyle('SECONDARY'),
+            new MessageButton()
+                .setCustomId(rejectId)
+                .setLabel('Reject')
+                .setEmoji('❌')
+                .setStyle('SECONDARY')
+        )
+
+        if(!interaction.channel)
+            await interaction.user.createDM();
+
+        await interaction.editReply({ 
+            content: `${user}, please choose an option.`,
+            embeds: [request],
+            components: [choices],
+            files: [img]
+        });
+
+        const filter = i => (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
+        const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
+        let found = false;
+
+        // If user presses either button
+        collector.on('collect', async i => {
+            await i.deferUpdate().catch(e => consola.error(e));
+
+            if(i.customId == acceptId) {
+                this.replyEvent.emit('accepted');
+                found = true;
+                collector.emit('end');
+            } else if(i.customId == rejectId) {
+                this.replyEvent.emit('rejected');
+                found = true;
+                collector.emit('end');
+            }
+        });
+
+        // If button was never pressed
+        collector.on('end', async() => {
+            if(!found) {
+                await interaction.editReply({
+                    content: `${user} did not select an option in time.`,
+                    components: []
+                 });
+            }
+        });
 
     }
 
     //Provides interactive next/prev page functionality for lists of items
-    static async listPages(interaction, user, list, config){
+    static async listPages(interaction, user, list, config) {
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
 

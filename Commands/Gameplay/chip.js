@@ -8,6 +8,7 @@ const sleep = promisify(setTimeout);
 module.exports = {
     name: "chip",
     description: "Change your bot's battling chip.",
+    hidden: true,
     options: [
         {
             name: "type",

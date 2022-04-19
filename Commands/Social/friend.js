@@ -33,31 +33,28 @@ module.exports = {
     },
     {
         name: "accept",
-        description: "Accept a friend request.",
+        description: "Accept a friend request from your inbox.",
+        required: false,
         type: "SUB_COMMAND",
         options: [{
-            name: "username",
-            description: "Enter the person's Bot Brawler username.",
+            name: "number",
+            description: "The request number in your /requests list.",
             required: true,
-            type: "STRING"
-        }],
-    },
+            type: "INTEGER"
+        }
+    ]},
     {
         name: "reject",
-        description: "Reject a friend request.",
+        description: "Reject a user's friend request from your inbox.",
+        required: false,
         type: "SUB_COMMAND",
         options: [{
-            name: "username",
-            description: "Enter the person's Bot Brawler username.",
+            name: "number",
+            description: "The request number in your /requests list",
             required: true,
-            type: "STRING"
-        }],
-    },
-    {
-        name: "requests",
-        description: "View all incoming + outgoing friend requests.",
-        type: "SUB_COMMAND",
-    }
+            type: "INTEGER"
+        }
+    ]}
     ],
     /**
      * @param {CommandInteraction} CommandInteraction
@@ -100,59 +97,32 @@ module.exports = {
 
             return;
 
-        } else if(subCommand == "requests") {
-            let message = ``;
-
-            //Searches for all requests
-            for(const req of requests) 
-                message += `-> ${req.message_content}\n\n`;
-
-            message += "\n`/friend accept username`\n`/friend reject username`";
-
-            return interaction.editReply({ embeds: [
-                new utils.embed(interaction, utils.user)
-                    .setTitle(`${utils.user.username}'s Friend Requests`)
-                    .setDescription(`${message}`)] })
-                        .catch((e) => utils.consola.error(e));
-        }
+        } 
 
         //Check if both users exist and can add each other
-        let username = interaction.options.getString("username"); 
-        const otherUser = await utils.db.findUsername(interaction, username);
+        const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "friend");
+        if(!msg)
+            return;
 
+        const otherUser = await utils.db.findUsername(interaction, msg.sender_username);
         if(!otherUser)
             return;
 
         if(subCommand == "accept" || subCommand == "reject") {
 
-            let found = false;
-
-            for(let i = 0; i < requests.length; i++) {
-                //If friend request is found, delete message and add each other if necessary
-                const req = requests[i];
-                
-                if(req.sender_username.toLowerCase() == username.toLowerCase()) {
-                    if(subCommand == "accept") {
-                        if(!await utils.db.add(interaction, "friend", req.sender_username, utils.user.user_id))
-                            return;
-                        if(!await utils.db.add(interaction, "friend", req.recipient_username, otherUser.user_id))
-                            return;
-                    }
-
-                    //Remove message and finish searching
-                    await otherUser.removeMessage(req);
-                    found = true;
-                    break;
-                }
-
+            if(subCommand == "accept") {
+                if(!await utils.db.add(interaction, "friend", msg.sender_username, utils.user.user_id))
+                    return;
+                if(!await utils.db.add(interaction, "friend", msg.recipient_username, otherUser.user_id))
+                    return; 
             }
+
+            if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "friend"))
+                return;
 
             //Clear all other friend requests which will be made redundant
             await utils.messenger.clearMessages(interaction, utils.user, otherUser, "friend");
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "friend");
-
-            if(!found) 
-                return utils.handler.info(interaction, new Error(`A request from \`${otherUser.username}\` does not exist.`));
 
             //Notify the recipient if they have been accepted
             if(subCommand == "accept") 
@@ -165,7 +135,6 @@ module.exports = {
                     .setTitle(`${otherUser.username}'s Friend Request`)
                     .setDescription(`You have ${subCommand}ed \`${otherUser.username}\`'s friend request.`)] })
                         .catch((e) => utils.consola.error(e));
-
 
         } else if(subCommand == "add") {
             if(await utils.db.findFriend(interaction, otherUser.username) == true)

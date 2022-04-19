@@ -11,14 +11,37 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
     
     // Perform battle
     let results = await yourBot.battle(otherBot);
-    let msg = `${yourBot.name} ${yourBot.getBattleText()}\n${otherBot.name} ${otherBot.getBattleText()}\n\nBattle commence...`;
+    let msg = ``;
     
     let loserBot, winnerBot, loserUser, winnerUser, exp;
 
     //New battle scene
     let scene = await new BattleView(interaction, yourBot, otherBot, results);
-    await scene.createCards();
     
+    //Show left bot
+    msg = `${yourBot.name} ${yourBot.getBattleText()}\n`;
+    await scene.createCards(true, false, true);
+    await interaction.editReply({ content: msg, files: [scene.getScene()], embeds: [], components: [] });
+    await sleep(5000);
+
+    //Show right bot
+    msg = `${otherBot.name} ${otherBot.getBattleText()}\n`;
+    await scene.createCards(true, true, false);
+    await interaction.editReply({ content: msg, files: [scene.getScene()] });
+    await sleep(5000);
+
+    //Show left side advantage
+    await scene.createCards(true, false, false);
+    await interaction.editReply({ content: results.yourMsg, files: [scene.getScene()] });
+    await sleep(5000);
+
+    //Show right side advantage
+    await interaction.editReply({ content: results.opponentMsg });
+    await sleep(5000);
+
+    //Show chart
+    msg = `Battle commence...\n`;
+    await scene.createCards(false, false, false);
     await interaction.editReply({ content: msg, files: [scene.getScene()] });
     await sleep(10000);
 
@@ -213,11 +236,12 @@ module.exports = {
         let otherUser;
         let subCommand = interaction.options.getSubcommand();
         let wager = interaction.options.getString("wager");
+        let userSubCommand = await interaction.options.getUser("user");
 
         if(subCommand == "request") 
             otherUser = await utils.db.findUsername(interaction, interaction.options.getString("username"));
         else if(subCommand == "user")
-            otherUser = await utils.db.findUser(interaction, interaction.options.getUser("user").id);
+            otherUser = await utils.db.findUser(interaction, userSubCommand.id);
         
         // If accepting a request, find the msg
         if(subCommand == "accept") {
@@ -263,6 +287,9 @@ module.exports = {
                 return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
             });
 
+            if(!success)
+                return;
+
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "battle");
             return;
         }
@@ -300,9 +327,7 @@ module.exports = {
         collection.selectedEvent.on(`selected`, async () => {
 
             let yourBot = collection.selected;
-
             const yourCard = await new utils.card(interaction, yourBot);
-
             if(!await yourCard.createCard())
                 return;
 
@@ -310,7 +335,6 @@ module.exports = {
                 .catch(e => utils.consola.error(e));
 
             await otherCollection.inspectCollection(interaction, 1, `Choose ${otherUser.username}'s bot`);
-
             otherCollection.selectedEvent.on(`selected`, async() => {
 
                 let otherBot = otherCollection.selected;
@@ -337,10 +361,54 @@ module.exports = {
                     return;
 
                 } else if(subCommand == "user") {
-                    console.log("insert accept/reject logic here.");
+
+                    let scene = await new BattleView(interaction, yourBot, otherBot);
+                    await scene.createCards(true, false, false);
+
+                    await utils.messageHelper.confirmChoice(interaction, userSubCommand, `${userSubCommand}, do you accept this Battle Request from ${interaction.user}?`, scene.getScene());
+
+                    // If other user accepts
+                    utils.messageHelper.replyEvent.on(`accepted`, async () => {
+                        await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
+                    });
+
+                    // If other user rejects
+                    utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                        await interaction.editReply({ 
+                            content: `The battle was cancelled...`,
+                            components: [],
+                            embeds: []    
+                        })
+                    });                  
+                    
                 }
 
-                await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
+                /*
+
+                // BATTLE SIMULATION SCRIPT
+
+                let chips = ["power", "lifespan", "viral", "firewall", "balanced"];
+
+                let yourPercent = 0;
+                let otherPercent = 0;
+
+                for(let i = 0; i < chips.length; i++) {
+                    for(let j = 0; j < chips.length; j++) {
+                        await yourBot.investStats(chips[i]);
+                        await otherBot.investStats(chips[j]);    
+                        console.log(`${yourBot.name} (${chips[i]}) VS ${otherBot.name} (${chips[j]})`);
+                        let results = await yourBot.battle(otherBot);
+                        console.log(`\n\n`);
+
+                        yourPercent += results.yourPercent;
+                        otherPercent += results.otherPercent;
+                    }
+                }
+
+                console.log(`${yourPercent}% vs ${otherPercent}%`);
+
+                */
+
 
             });
 

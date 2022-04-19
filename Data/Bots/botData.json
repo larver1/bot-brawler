@@ -5,6 +5,8 @@
         "baseLifespan": 500,
         "baseViral": 400,
         "baseFirewall": 1000,
+        "ability": "30 Factor Authentication",
+        "abilityDescription": "Other bots cannot gain a Power Advantage while battling Bostrom.",
         "image": "https://i.imgur.com/TNDATUD.png",
         "imageGoldPlated": "https://i.imgur.com/TvgN5f7.png",
         "description": "Bostrom's box is said to contain the world's most intelligent AI. When its creators learnt of this power and the danger it could bring, they sealed it in a sturdy box which prevents the AI from transmitting radio waves to the outside world. It now lives its life as a mechanical bug, only being able to crawl around and snip with its sharp claws."
@@ -15,6 +17,8 @@
         "baseLifespan": 400,
         "baseViral": 700,
         "baseFirewall": 800,
+        "ability": "Backup Drive",
+        "abilityDescription": "Upon being destroyed, Compactisk will have a 50% chance to revive free of cost.",
         "image": "https://i.imgur.com/MmZJW9s.png",
         "imageGoldPlated": "https://i.imgur.com/aPwfsgS.png",
         "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The compassionate half of his consciousness now exists inside this bot, and he takes upon a rather panicky form of his old self - who knows so much from his previous life that he has all the more to worry about as a super-intelligent machine. He typically avoids fighting and wishes for peace in the Technological Singularity."
@@ -25,6 +29,8 @@
         "baseLifespan": 400,
         "baseViral": 400,
         "baseFirewall": 600,
+        "ability": "Greedy AI",
+        "abilityDescription": "Destroying or Damaging another bot will give Greedisk 1.5x more EXP.",
         "image": "https://i.imgur.com/XyPTCd6.png",
         "imageGoldPlated": "https://i.imgur.com/1RhkzOf.png",
         "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The egocentric half of his consciousness now exists inside this bot, and he acts as a vicious and cruel specimen who will destroy other bots and humans for his own personal gain. He is driven solely by greed for power, making him an unstoppable force if his ego is not dealt with."
@@ -35,6 +41,8 @@
         "baseLifespan": 1000,
         "baseViral": 300,
         "baseFirewall": 300,
+        "ability": "Factory Reset",
+        "abilityDescription": "Using any kind of Chip against Voidisk will be ignored and treated as a Balanced Chip.",
         "image": "https://i.imgur.com/9YXbciw.png",
         "imageGoldPlated": "https://i.imgur.com/DDZTMXj.png",
         "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. This bot's rotating disk contains the remains of Diriski's soulless thoughts. It sits idly and searches the disk to find meaning for its existence, but this mission will forever be futile."
@@ -42,9 +50,11 @@
     {
         "name": "Memnesia",
         "basePower": 1000,
-        "baseLifespan": 400,
-        "baseViral": 500,
-        "baseFirewall": 200,
+        "baseLifespan": 430,
+        "baseViral": 530,
+        "baseFirewall": 230,
+        "ability": "Overclocked",
+        "abilityDescription": "Using a Power Chip during battle will give 1.5x more power to Memnesia.",
         "image": "https://i.imgur.com/wU8RAGn.png",
         "imageGoldPlated": "https://i.imgur.com/aGXiKOb.png",
         "description": "A rather self-destructive bot who will make any sacrifice to increase its power output. Such actions have caused hardware malfunctions such as Random Access Memory Loss, this allows Memnesia to wipe all of its short-term memories to make space for more combat data."
@@ -55,9 +65,11 @@
         "baseLifespan": 700,
         "baseViral": 400,
         "baseFirewall": 400,
+        "ability": "Super Manipulation",
+        "abilityDescription": "Getting a Power advantage during a battle will completely shut down the opponent's defence system, setting their lifespan to 0.",
         "image": "https://i.imgur.com/UUHiZt7.png",
         "imageGoldPlated": "https://i.imgur.com/v0CRvyz.png",
-        "description": "Constant was designed to be the only 'biological' child of the Mother Bot. She is one of the few bots who has been entrusted with a Super Chip, this particular chip gives the ability to intrude and manipulate the minds of her enemies. This allowed her to act as an accomplice to the Mother Bot by coercing the security guard to inadvertently release the 1st Generation Battle Bots to the outside world."
+        "description": "Constant was designed to be the only 'biological' child of the Mother Bot. She is one of the few bots who has been entrusted with a Super Chip, this particular chip gives the ability to intrude and manipulate the minds of her enemies. This allowed her to act as an accomplice to the Mother Bot by coercing the security guard to inadvertently release the 1st Generation Bot Brawlers to the outside world."
     },
     {
         "name": "Ramselle",
@@ -65,9 +77,11 @@
         "baseLifespan": 500,
         "baseViral": 500,
         "baseFirewall": 500,
+        "ability": "Maximum Satisfiability",
+        "abilityDescription": "Collecting another bot will give Ramselle more security in herself, increasing one of her defensive stats.",
         "image": "https://i.imgur.com/5Ch77fe.png",
         "imageGoldPlated": "https://i.imgur.com/YdCKnnH.png",
-        "description": "A Battle Bot who was given biased training data consisting only of beauty articles. This prompted her to become obsessed with being attractive to other bots. She took any sacrifice necessary in order to be noticed, whether that be devouring other bots for parts, or draining the nutrients out of innocent lives. This constant lust for optimising her appearance to maximise her attention output has adversely made her more destructive to her surroundings. She is a force to be reckoned with should you choose to obstruct her path to perfection."
+        "description": "A Bot Brawler who was given biased training data consisting only of beauty articles. This prompted her to become obsessed with being attractive to other bots. She took any sacrifice necessary in order to be noticed, whether that be devouring other bots for parts, or draining the nutrients out of innocent lives. This constant lust for optimising her appearance to maximise her attention output has adversely made her more destructive to her surroundings. She is a force to be reckoned with should you choose to obstruct her path to perfection."
     },
     {
         "name": "Trojo",
@@ -75,6 +89,8 @@
         "baseLifespan": 300,
         "baseViral": 700,
         "baseFirewall": 500,
+        "ability": "Bounty",
+        "abilityDescription": "For each consecutive win, Trojo will gain bonus Power Output. This bonus will reset to 0 upon being defeated.",
         "image": "https://i.imgur.com/DIm0zm7.png",
         "imageGoldPlated": "https://i.imgur.com/wIJAo4o.png",
         "description": "An outlaw bot who took upon the task to analyse all accessible prison inmate data. In an attempt to better understand the motives behind human evil, Trojo built a strong distate for humans and their ideals. He now acts as a deluded vigilante and destroys all traces of humans in his sight."
@@ -85,9 +101,11 @@
         "baseLifespan": 500,
         "baseViral": 400,
         "baseFirewall": 650,
+        "ability": "Fetch Request",
+        "abilityDescription": " Upon winning a battle, Lila will give Buddy a treat and increase one of their stats depending on the chip that was used.",
         "image": "https://i.imgur.com/6zZwaX9.png",
         "imageGoldPlated": "https://i.imgur.com/JHbk0Qh.png",
-        "description": "Lila is a human who once owned a dog called Buddy. After learning of the dog's unfortunate passing, Professor Diriski performed an experiment on Buddy and uploaded its consciousness to a bot resembling a dog. Upon booting him up, Buddy instinctively left the lab and ran back to Lila. In this dystopian world caused by the Technological Singularity, Buddy protects his owner from any aggressive Battle Bots who wish to eliminate the human race."
+        "description": "Lila is a human who once owned a dog called Buddy. After learning of the dog's unfortunate passing, Professor Diriski performed an experiment on Buddy and uploaded its consciousness to a bot resembling a dog. Upon booting him up, Buddy instinctively left the lab and ran back to Lila. In this dystopian world caused by the Technological Singularity, Buddy protects his owner from any aggressive Bot Brawlers who wish to eliminate the human race."
     },
     {
         "name": "Dungware",
@@ -95,9 +113,11 @@
         "baseLifespan": 500,
         "baseViral": 0,
         "baseFirewall": 0,
+        "ability": "I'm not even a bot",
+        "abilityDescription": "Other bots cannot gain a Viral advantage while battling Dungware.",
         "image": "https://i.imgur.com/JZvozyL.png",
         "imageGoldPlated": "https://i.imgur.com/woNsA62.png",
-        "description": "It would be wrong to say that Dungware is a bot. To be precise, it is a dung beetle who organically became super-intelligent from feeding on a famous researcher's feces. It then infiltrated a factory and acquired a metal coat and weapons to enhance its weak beetle body. Dungware now wields the power and intelligence to take down Battle Bots, but luckily has no machinery that could be hacked into."
+        "description": "It would be wrong to say that Dungware is a bot. To be precise, it is a dung beetle who organically became super-intelligent from feeding on a famous researcher's feces. It then infiltrated a factory and acquired a metal coat and weapons to enhance its weak beetle body. Dungware now wields the power and intelligence to take down Bot Brawlers, but luckily has no machinery that could be hacked into."
     },
     {
         "name": "Ransom Blue",
@@ -105,10 +125,12 @@
         "baseLifespan": 200,
         "baseViral": 1100,
         "baseFirewall": 700,
+        "ability": "Super Intrusion",
+        "abilityDescription": "Getting a Viral advantage during a battle will completely shut down the opponent's firewall, setting their firewall to 0.",
         "image": "https://i.imgur.com/Gv6zYEY.png",
         "imageGoldPlated": "https://i.imgur.com/Ck2Ou7P.png",
         "imageWin": "https://i.imgur.com/G19DLca.png",
         "imageWinGoldPlated": "https://i.imgur.com/w6cz3Us.png",
-        "description": "A puzzle-solving AI who once beat the world champion of chess. It has since been re-purposed by the Mother Bot to solve security firewall puzzles. Following the success of Operation: Battle Bots, he quickly became the right-hand man of the Mother Bot and was entrusted with a Super Chip, this one in particular allows Ransom Blue to penetrate through his enemy's security systems and turn it against them."
+        "description": "A puzzle-solving AI who once beat the world champion of chess. It has since been re-purposed by the Mother Bot to solve security firewall puzzles. Following the success of Operation: Bot Brawlers, he quickly became the right-hand man of the Mother Bot and was entrusted with a Super Chip, this one in particular allows Ransom Blue to penetrate through his enemy's security systems and turn their systems against them."
     }
 ]

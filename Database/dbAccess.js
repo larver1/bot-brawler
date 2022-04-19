@@ -87,7 +87,9 @@ module.exports = class dbAccess
 
 		switch(type) {
 			case "friends":
-				return user.friends.replaceAll('|', '\n').slice(1, -1).split("\n");
+				let friends = user.friends.replaceAll('|', '\n').slice(1, -1).split("\n");
+				if(friends[0].length <= 0) return [];
+				return friends; 
 			case "username":
 				return user.username;
 			case "lastCommand":

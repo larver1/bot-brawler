@@ -35,11 +35,15 @@ module.exports = async (client) => {
         //Add valid command to array
         client.commands.set(command.name, command);
         CommandsArray.push(command);
+        
+        // If you want to delete all commands
+        //CommandsArray = [];
 
         //Command passed checks
         await Table.addRow(command.name, "✅ SUCCESSFUL");
 
     });
+
 
     consola.info(Table.toString());
 
@@ -51,8 +55,8 @@ module.exports = async (client) => {
         MainGuild = test server
         client.application = global
         */
-        const MainGuild = await client.guilds.cache.get(guildId);
-        MainGuild.commands.set(CommandsArray).then(async (command) => {
+        const MainGuild = await client.guilds.cache.get(otherGuildId);
+        client.application.commands.set(CommandsArray).then(async (command) => {
             const Roles = (commandName) => {
                 const cmdPerms = CommandsArray.find((c) => c.name === commandName).permission;
                 if(!cmdPerms) 

@@ -36,7 +36,10 @@ module.exports = class BattleView {
         return;
     }
 
-    async createCards(){
+    async createCards(hideChart, hideLeftBot, hideRightBot){
+        this.canvas = Canvas.createCanvas(this.width * this.scale, this.height * this.scale);
+        this.ctx = this.canvas.getContext('2d');
+        
         this.yourCard = await new Card(this.interaction, this.yourBot);
         this.otherCard = await new Card(this.interaction, this.otherBot);
         let vs = await Canvas.loadImage(this.vsImage);
@@ -44,10 +47,13 @@ module.exports = class BattleView {
         await this.yourCard.createCard();
         await this.otherCard.createCard();
         
-        this.ctx.drawImage(this.yourCard.canvas, 0, 0, this.yourCard.width * this.yourCard.scale, this.yourCard.height * this.yourCard.scale);
-        this.ctx.drawImage(this.otherCard.canvas, (this.width * this.scale) - (this.otherCard.width * this.otherCard.scale), 0, this.otherCard.width * this.otherCard.scale, this.otherCard.height * this.otherCard.scale);
+        if(!hideLeftBot)
+            this.ctx.drawImage(this.yourCard.canvas, 0, 0, this.yourCard.width * this.yourCard.scale, this.yourCard.height * this.yourCard.scale);
+        
+        if(!hideRightBot)
+            this.ctx.drawImage(this.otherCard.canvas, (this.width * this.scale) - (this.otherCard.width * this.otherCard.scale), 0, this.otherCard.width * this.otherCard.scale, this.otherCard.height * this.otherCard.scale);
 
-        if(this.results)
+        if(this.results && !hideChart)
             await this.createChart();
 
         this.ctx.drawImage(vs, 
@@ -56,7 +62,7 @@ module.exports = class BattleView {
             vs.width / 6, 
             vs.height / 6);
 
-        if(this.results)
+        if(this.results && !hideChart)
             await this.createPercentages();
 
         this.attachment = new MessageAttachment(this.canvas.toBuffer(), 'battle.png');

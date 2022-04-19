@@ -73,8 +73,10 @@ module.exports = {
             if(!await card.createCard())
                 return;
 
-            await interaction.editReply({ files: [card.getCard()] })
-                .catch(e => utils.consola.error(e));
+            await interaction.editReply({ 
+                files: [card.getCard()],
+                content: `*${collection.selected.obj.ability}:* ${collection.selected.obj.abilityDescription}` })
+            .catch(e => utils.consola.error(e));
 
         });
 
