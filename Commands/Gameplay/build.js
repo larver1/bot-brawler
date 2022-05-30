@@ -1,31 +1,105 @@
-const { Client, MessageEmbed } = require("discord.js");
 const BotBuilder = require("../../Helpers/BotBuilder");
 const BotObj = require("../../Data/Bots/BotObj");
 
 module.exports = {
     name: "build",
-    description: "Build your very own Battle Bot.",
+    description: "Build a Bot Brawler to use in battles.",
+    options: [{
+        name: "type",
+        description: "Choose the level the bot will start off at.",
+        type: "STRING",
+        required: true,
+        choices: [
+            {
+                name: "Regular",
+                value: "regular"
+            }, 
+            {
+                name: "Super",
+                value: "super"
+            }, 
+            {
+                name: "Extreme",
+                value: "extreme"
+            }    
+        ]},
+    ],
     /**
      * @param {CommandInteraction} CommandInteraction
      * @param {Object} executeObj
      */
     async execute(interaction, utils) {
 
+        let type = await interaction.options.getString("type");
+        let exp = 0;
+        let energyCost = 25;
+        let moneyCost = 10;
 
-        //Displays amount of money
-        let bot = await BotBuilder.build(interaction, { item: "power" }, utils.user);
-        let botObj = await new BotObj(interaction, bot); 
+        switch(type) {
+            case "regular":
+                exp = Math.round(Math.random() * 5) + 0;
+                break;
+            case "super":
+                exp = Math.round(Math.random() * 10) + 5;
+                moneyCost = 20;
+                break;
+            case "extreme":
+                exp = Math.round(Math.random() * 20) + 15;
+                moneyCost = 35;
+                break;
+        }
 
-        //If card fails to create, return
-        const card = await new utils.card(interaction, botObj);
-        if(!await card.createCard())
-            return;
+        await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost} Machine Parts\`\n\`x${energyCost} Energy\`?`);
 
-        //Add bot to existence
-        await utils.dbBotStats.addExists(interaction, botObj.bot_type);
+        utils.messageHelper.replyEvent.on(`accepted`, async () => {
+            
+            // Not enough energy
+            if(utils.user.energy < energyCost) {
+                return utils.handler.info(interaction, new Error(`You don't have enough Energy to do this. Try out \`/daily\` to get more.`));
+            }
 
-        await utils.user.createBot(bot);
-        return interaction.editReply({ files: [card.getCard()], content: `${utils.user.username} built a *PROTOTYPE:${botObj.bot_type.toUpperCase()}*` });
+            // Not enough parts
+            if(utils.user.balance < moneyCost) {
+                return utils.handler.info(interaction, new Error(`You don't have enough Machine Parts to do this. Try out \`/daily\` to get more.`));
+            }
+            
+            // Displays amount of money
+            let bot = await BotBuilder.build(interaction, { item: "balanced", exp: exp }, utils.user);
+            let botObj = await new BotObj(interaction, bot); 
+
+            // If card fails to create, return
+            const card = await new utils.card(interaction, botObj);
+            if(!await card.createCard())
+                return;
+
+            //Removes correct number of parts
+            if(!await utils.db.remove(interaction, "balance", moneyCost))
+                return;
+
+            //Removes correct number of energy
+            if(!await utils.db.remove(interaction, "energy", energyCost))
+                return;
+
+            // Add bot to existence
+            await utils.dbBotStats.addExists(interaction, botObj.bot_type);
+            await utils.user.createBot(bot);
+
+            return interaction.editReply({ 
+                files: [card.getCard()], 
+                content: `${utils.user.username} built a *PROTOTYPE:${botObj.bot_type.toUpperCase()}*`,
+                embeds: [],
+                components: []
+            }).catch(e => utils.consola.error(e));
+
+        });
+
+        utils.messageHelper.replyEvent.on(`rejected`, async() => {
+            await interaction.editReply({ 
+                content: `The build was cancelled...`,
+                components: [],
+                embeds: []    
+            }).catch((e) => utils.consola.error(e));
+        });
 
     }
 

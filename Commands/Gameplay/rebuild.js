@@ -1,7 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-const BotBuilder = require("../../Helpers/BotBuilder");
-const BotObj = require("../../Data/Bots/BotObj");
-
 module.exports = {
     name: "rebuild",
     description: "Rebuild a destroyed Battle Bot.",
@@ -25,16 +21,56 @@ module.exports = {
         //When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {
             
-            //TODO accept/cancel with cost
-            await utils.dbBots.revive(interaction, collection.selected.botObj.bot_id);
+            let energyCost = 25;
+            let moneyCost = 10 + Math.round(collection.selected.exp);
 
-            const card = await new utils.card(interaction, collection.selected);
-            
-            if(!await card.createCard())
+            const deadCard = await new utils.card(interaction, collection.selected);
+            if(!await deadCard.createCard())
                 return;
 
-            await interaction.editReply({ files: [card.getCard()], content: `\`${collection.selected.name}\` was rebuilt for \`0x Machine Parts!\`` })
-                .catch(e => utils.consola.error(e));
+            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost} Machine Parts\` and \`x${energyCost} Energy\`?`, deadCard.getCard());
+            utils.messageHelper.replyEvent.on(`accepted`, async() => {
+                
+                // Not enough energy
+                if(utils.user.energy < energyCost) {
+                    return utils.handler.info(interaction, new Error(`You don't have enough Energy to do this...`));
+                }
+
+                // Not enough parts
+                if(utils.user.balance < moneyCost) {
+                    return utils.handler.info(interaction, new Error(`You don't have enough Machine Parts to do this...`));
+                }
+
+                //Removes correct number of parts
+                if(!await utils.db.remove(interaction, "balance", moneyCost))
+                    return;
+
+                //Removes correct number of energy
+                if(!await utils.db.remove(interaction, "energy", energyCost))
+                    return;
+
+                //Revive and display
+                await utils.dbBots.revive(interaction, collection.selected.botObj.bot_id);
+                const card = await new utils.card(interaction, collection.selected);
+                if(!await card.createCard())
+                    return;
+
+                await interaction.editReply({ 
+                    files: [card.getCard()], 
+                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost} Machine Parts\` and \`x${energyCost} Energy\``,
+                    embeds: [],
+                    components: []
+                 }).catch(e => utils.consola.error(e));
+
+            });
+
+            utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                await interaction.editReply({ 
+                    content: `The rebuild was cancelled...`,
+                    components: [],
+                    embeds: []    
+                }).catch((e) => utils.consola.error(e));
+            })
 
         });
 

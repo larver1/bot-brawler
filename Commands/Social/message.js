@@ -1,6 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-const { Users } = require('../../Database/dbObjects');
-
 module.exports = {
     name: "message",
     description: "Send a message to a friend!",

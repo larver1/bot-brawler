@@ -1,9 +1,4 @@
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
-const BotBuilder = require("../../Helpers/BotBuilder");
-const BotObj = require("../../Data/Bots/BotObj");
 const BotCollection = require("../../Helpers/BotCollection");
-const { promisify } = require('util');
-const sleep = promisify(setTimeout);
 
 module.exports = {
     name: "chip",
@@ -120,7 +115,6 @@ module.exports = {
 
             await interaction.editReply({ content: `${yourBot.bot_type} changed to the ${chipType} chip!`, files: [yourCard.getCard()] })
                 .catch(e => utils.consola.error(e));
-
 
         });
 

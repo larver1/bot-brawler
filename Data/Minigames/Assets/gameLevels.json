@@ -1,0 +1,84 @@
+{
+    "date": {
+        "name": "Ramselle's Dating Simulator",
+        "levels": [
+            {
+                "label": "Greedisk",
+                "value": "Greedisk"
+            },
+            {
+                "label": "Compactisk",
+                "value": "Compactisk"
+            },
+            {
+                "label": "Ransom Blue",
+                "value": "Ransom Blue"
+            },
+            {
+                "label": "Constant",
+                "value": "Constant"
+            },
+            {
+                "label": "Trojo",
+                "value": "Trojo"
+            }
+        ],
+        "difficulty": [
+            {
+                "label": "Easy",
+                "value": "Easy",
+                "turns": 10
+            }, 
+            {
+                "label": "Normal",
+                "value": "Normal",
+                "turns": 8
+            },
+            {
+                "label": "Hard",
+                "value": "Hard",
+                "turns": 5
+            }
+        ]
+
+    },
+    "claw": {
+        "name": "Bostrom's Claw Machine",
+        "levels": [
+            {
+                "label": "3x3",
+                "value": "3x3"
+            },
+            {
+                "label": "5x5",
+                "value": "5x5"
+            },
+            {
+                "label": "7x7",
+                "value": "7x7"
+            },
+            {
+                "label": "10x10",
+                "value": "10x10"
+            },
+            {
+                "label": "14x14",
+                "value": "14x14"
+            }
+        ],
+        "difficulty": [
+            {
+                "label": "Easy",
+                "value": "Easy"
+            }, 
+            {
+                "label": "Normal",
+                "value": "Normal"
+            },
+            {
+                "label": "Hard",
+                "value": "Hard"
+            }
+        ]
+    }
+}

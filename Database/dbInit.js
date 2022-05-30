@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize');
 const { dbName, dbUser, dbPass } = require('../config.json');
 const fs = require('fs');
-const { UUIDV4 } = require('sequelize');
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const { v4: uuidv4 } = require('uuid');
 
@@ -15,6 +14,8 @@ require('./models/Users')(sequelize, Sequelize.DataTypes);
 require('./models/UserItems')(sequelize, Sequelize.DataTypes);
 require('./models/Messages')(sequelize, Sequelize.DataTypes);
 require('./models/Bots')(sequelize, Sequelize.DataTypes);
+require('./models/Market')(sequelize, Sequelize.DataTypes);
+
 var BotStats = require('./models/BotStats')(sequelize, Sequelize.DataTypes);
 
 const force = process.argv.includes('--force') || process.argv.includes('-f');

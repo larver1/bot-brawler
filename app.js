@@ -1,7 +1,5 @@
-const fs = require("fs");
-const { Client, Collection, Intents, Partials } = require("discord.js");
+const { Client, Collection, Intents } = require("discord.js");
 const { token } = require("./config.json");
-const { default: logger } = require("consola");
 
 //Create discord client
 const client = new Client({ intents: [

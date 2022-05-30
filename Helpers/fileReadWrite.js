@@ -10,7 +10,7 @@ module.exports = class fileReadWrite
         try {
             this.checkForFile();
         } catch {
-            return cconsola.error(`File ${filePath} not found.`);
+            return consola.error(`File ${filePath} not found.`);
         }
     }
 

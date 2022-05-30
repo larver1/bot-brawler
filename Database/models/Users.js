@@ -12,6 +12,10 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 		},
+		energy: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+		},
 		exp: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -34,6 +38,18 @@ module.exports = (sequelize, DataTypes) => {
 		},
 		lastCommand: {
 			type: DataTypes.DATE,
+			allowNull: false
+		},
+		isBot: {
+			type: DataTypes.BOOLEAN,
+			allowNull: false
+		},
+		currentChallenge: {
+			type: DataTypes.TEXT('long'),
+			allowNull: false
+		},
+		challengesComplete: {
+			type: DataTypes.INTEGER,
 			allowNull: false
 		},
 	}, {

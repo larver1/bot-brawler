@@ -1,5 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-const { findUsername } = require("../../Database/dbAccess");
 const { Users } = require('../../Database/dbObjects');
 var badWords = [];
 
@@ -73,12 +71,15 @@ module.exports = {
                                     exp: 0,
                                     friends: "|",
                                     privacy: "public", 
-                                    balance: 0, 
+                                    energy: 100,
                                     daily: new Date('January 10, 2022 03:24:00'), 
                                     spawn: new Date('January 10, 2022 03:24:00'),
-                                    lastCommand: Date.now() 
+                                    lastCommand: Date.now(),
+                                    isBot: false,
+                                    currentChallenge: "",
+                                    challengesComplete: 0,
                                  })
-        .catch((e) => {
+        .catch(() => {
             let err = new Error(`A user with the name \`${username}\` already exists! Please try again.`);
             utils.handler.info(interaction, err);    
         });

@@ -1,13 +1,5 @@
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
-const BotBuilder = require("../../Helpers/BotBuilder");
-const BotObj = require("../../Data/Bots/BotObj");
-const BattleView = require("../../Helpers/BattleView");
 const BotCollection = require("../../Helpers/BotCollection");
-const { promisify } = require('util');
-const ErrorHandler = require("../../Helpers/ErrorHandler");
-const { utimesSync } = require("fs");
 const Card = require("../../Helpers/Card");
-const sleep = promisify(setTimeout);
 
 async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, moneyOffered) {
 
@@ -179,13 +171,11 @@ module.exports = {
 
             // Send the other user the results of the trade
             let userToSend = await utils.client.users.fetch(otherUser.user_id);
-            let success = true;
 
             await userToSend.send({
                 content: `Trade accepted: ${sellingUser.username}'s ${sellingBot.name} was traded to ${buyingUser.username} for x${amount} Machine Parts!`,
                 files: [card.getCard()] })
             .catch(() => {
-                success = false;
                 return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
             });
 
@@ -255,8 +245,14 @@ module.exports = {
                 if(await utils.messenger.checkMessages(interaction, utils.user, otherUser))
                     return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
 
+                // If other user is a bot, instantly accept
+                if(otherUser.isBot) {
+                    await trade(interaction, utils, buyingUser, sellingUser, yourBot, amount);
+                    return;
+                }
+
                 // Details that will be contained within the message
-                details = {
+                let details = {
                     selling_user: sellingUser,
                     buying_user: buyingUser,
                     bot_id: yourBot.botObj.bot_id,
@@ -286,7 +282,7 @@ module.exports = {
                         content: `The trade was cancelled...`,
                         components: [],
                         embeds: []    
-                    })
+                    }).catch((e) => utils.consola.error(e));
                 });
 
             }

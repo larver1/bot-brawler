@@ -1,6 +1,7 @@
 const consola = require("consola");
 const sampleEmbed = require("./sampleEmbed.js");
 const ErrorHandler = require("./ErrorHandler.js");
+const dbBots = require("../Database/dbBots.js");
 
 module.exports = class Messenger
 {
@@ -66,6 +67,52 @@ module.exports = class Messenger
                     .catch((e) => consola.error(e));
     
         return messageNumber;
+
+    }
+
+    static async getBattleRequest(interaction, message) {
+        if(!message) {
+            let err = new Error(`Passed invalid message to acceptBattleRequest().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }
+
+        let details = message.message_content.split("|");
+        let yourBot = await dbBots.findBotObj(interaction, details[1]);
+        let otherBot = await dbBots.findBotObj(interaction, details[0]);
+        let wager = details[2];
+
+        if(!yourBot || !otherBot)
+            return false;
+
+        return {
+            yourBot: yourBot,
+            otherBot: otherBot,
+            wager: wager
+        }
+
+    }
+
+    static async getTradeRequest(interaction, message) {
+        if(!message) {
+            let err = new Error(`Passed invalid message to acceptBattleRequest().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }
+
+        let details = message.message_content.split("|");
+        let yourBot = await dbBots.findBotObj(interaction, details[1]);
+        let otherBot = await dbBots.findBotObj(interaction, details[0]);
+        let wager = details[2];
+
+        if(!yourBot || !otherBot)
+            return false;
+
+        return {
+            yourBot: yourBot,
+            otherBot: otherBot,
+            wager: wager
+        }
 
     }
 
@@ -249,7 +296,7 @@ module.exports = class Messenger
     }
 
     //Check all messages to recipient
-    static async readAllMessages(interaction, recipient, messageType, sortByNum) {
+    static async readAllMessages(interaction, recipient, messageType, sortByNum, hideErrors) {
         let messages = await recipient.getIncomingMessages();
         let inbox = [];
 
@@ -274,7 +321,7 @@ module.exports = class Messenger
         }
 
         // If inbox is empty
-        if(!inbox.length) {
+        if(!inbox.length && !hideErrors) {
             let err = new Error(`You have no requests of this type...`);
             await ErrorHandler.info(interaction, err);
             return false;
@@ -311,6 +358,10 @@ module.exports = class Messenger
             consola.warn(new Error(`\`${recipient.username}\` is not accepting DMs from the bot.`));
             return false;
         }
+
+        // Bot users can't receive DMs
+        if(recipient.isBot == true)
+            return true;
 
         const dm = new sampleEmbed(interaction, recipient)
             .setTitle(`You have received a message!`)

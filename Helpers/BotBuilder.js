@@ -1,5 +1,4 @@
 
-const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 const ErrorHandler = require("./ErrorHandler.js");
 const BotStats = require("../Database/dbBotStats.js");
@@ -18,10 +17,10 @@ module.exports = class BotBuilder
 		botObj.owner_original_username = botObj.owner_username;
 		botObj.exp = info.exp ? info.exp : 0;
 		botObj.alive = info.alive ? info.alive : true;
-		botObj.powerBoost = info.powerBoost ? info.powerBoost : Math.ceil(Math.random() * 20);
-		botObj.lifespanBoost = info.lifespanBoost ? info.lifespanBoost : Math.ceil(Math.random() * 20);
-		botObj.viralBoost = info.viralBoost ? info.viralBoost : Math.ceil(Math.random() * 20);
-		botObj.firewallBoost = info.firewallBoost ? info.firewallBoost : Math.ceil(Math.random() * 20);
+		botObj.powerBoost = info.powerBoost ? info.powerBoost : 0;
+		botObj.lifespanBoost = info.lifespanBoost ? info.lifespanBoost : 0;
+		botObj.viralBoost = info.viralBoost ? info.viralBoost : 0;
+		botObj.firewallBoost = info.firewallBoost ? info.firewallBoost : 0;
 		botObj.goldPlated = info.goldPlated ? info.goldPlated : 0.001 > Math.random();
 		botObj.extras = info.extras ? info.extras : "";
 		botObj.isSelling = info.isSelling ? info.isSelling : false;

@@ -1,6 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-const { Users } = require('../../Database/dbObjects');
-
 module.exports = {
     name: "friend",
     description: "Manage a list of friends who play Bot Brawler.",
@@ -63,8 +60,6 @@ module.exports = {
     async execute(interaction, utils) {
 
         let subCommand = interaction.options.getSubcommand();
-        let requests = await utils.user.getIncomingMessages();
-        requests = requests.filter((req) => req.message_type == "friend");
 
         if(!utils.user)
             return;
@@ -99,16 +94,16 @@ module.exports = {
 
         } 
 
-        //Check if both users exist and can add each other
-        const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "friend");
-        if(!msg)
-            return;
-
-        const otherUser = await utils.db.findUsername(interaction, msg.sender_username);
-        if(!otherUser)
-            return;
-
         if(subCommand == "accept" || subCommand == "reject") {
+
+            //Check if both users exist and can add each other
+            const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "friend");
+            if(!msg)
+                return;
+
+            const otherUser = await utils.db.findUsername(interaction, msg.sender_username);
+            if(!otherUser)
+                return;
 
             if(subCommand == "accept") {
                 if(!await utils.db.add(interaction, "friend", msg.sender_username, utils.user.user_id))
@@ -137,6 +132,11 @@ module.exports = {
                         .catch((e) => utils.consola.error(e));
 
         } else if(subCommand == "add") {
+
+            const otherUser = await utils.db.findUsername(interaction, await interaction.options.getString("username"));
+            if(!otherUser)
+                return;
+
             if(await utils.db.findFriend(interaction, otherUser.username) == true)
                 return utils.handler.info(interaction, new Error("This friend has already been added."));
 
@@ -148,14 +148,20 @@ module.exports = {
                 return utils.handler.info(interaction, new Error("This user has already sent you a friend request, so you can't send your own."));
 
             //Send message to other user
-            if(!utils.messenger.sendFriendRequest(interaction, utils.user, otherUser))
+            let messageNumber = await utils.messenger.sendFriendRequest(interaction, utils.user, otherUser);
+            if(!messageNumber)
                 return;
 
             //Inform recipient of friend request
             await utils.messenger.sendDM(interaction, utils.client, otherUser, 
-                `${utils.user.username} has sent you a friend request.\nTo accept: \`/friend accept ${utils.user.username}\`\nTo reject: \`/friend reject ${utils.user.username}\``);
+                `${utils.user.username} has sent you a friend request.\nTo accept: \`/friend accept ${messageNumber}\`\nTo reject: \`/friend reject ${messageNumber}\``);
 
         } else if(subCommand == "remove") {
+
+            const otherUser = await utils.db.findUsername(interaction, await interaction.options.getString("username"));
+            if(!otherUser)
+                return;
+
             if(await utils.db.findFriend(interaction, otherUser.username) == false)
                 return utils.handler.info(interaction, new Error(`The username \`${otherUser.username}\` is not in your friends list.`));
 

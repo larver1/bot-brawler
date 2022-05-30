@@ -1,10 +1,14 @@
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
-const BotBuilder = require("../../Helpers/BotBuilder");
-const BotObj = require("../../Data/Bots/BotObj");
 const BattleView = require("../../Helpers/BattleView");
 const BotCollection = require("../../Helpers/BotCollection");
 const { promisify } = require('util');
 const sleep = promisify(setTimeout);
+
+const wagers = {
+    friendly: "nothing is at stake, the loser will not give the winner anything",
+    damage: "the loser bot will lose EXP and give it to the winner bot",
+    destroy: "the loser bot will be destroyed and the winner will gain lots of EXP",
+    collect: "the loser bot will be given to the owner of the winner bot"
+}
 
 // Battle logic
 async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
@@ -19,30 +23,41 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
     let scene = await new BattleView(interaction, yourBot, otherBot, results);
     
     //Show left bot
-    msg = `${yourBot.name} ${yourBot.getBattleText()}\n`;
+    if(otherBot.ability == "Factory Reset")
+        msg = `${yourBot.name} is forced to use a Balanced Strategy due to ${otherBot.name}'s ability!`;
+    else
+        msg = `${yourBot.name} ${yourBot.getBattleText()}${otherBot.ability == "Factory Reset" ? '' : ''}\n`;
     await scene.createCards(true, false, true);
-    await interaction.editReply({ content: msg, files: [scene.getScene()], embeds: [], components: [] });
+    await interaction.editReply({ content: msg, files: [scene.getScene()], embeds: [], components: [] })
+        .catch((e) => utils.consola.error(e));
     await sleep(5000);
 
     //Show right bot
-    msg = `${otherBot.name} ${otherBot.getBattleText()}\n`;
+    if(yourBot.ability == "Factory Reset")
+        msg = `${otherBot.name} is forced to use a Balanced Strategy due to ${yourBot.name}'s ability!`;
+    else
+        msg = `${otherBot.name} ${otherBot.getBattleText()}\n`;
     await scene.createCards(true, true, false);
-    await interaction.editReply({ content: msg, files: [scene.getScene()] });
+    await interaction.editReply({ content: msg, files: [scene.getScene()] })
+            .catch((e) => utils.consola.error(e));
     await sleep(5000);
 
     //Show left side advantage
     await scene.createCards(true, false, false);
-    await interaction.editReply({ content: results.yourMsg, files: [scene.getScene()] });
+    await interaction.editReply({ content: results.yourMsg, files: [scene.getScene()] })
+        .catch((e) => utils.consola.error(e));
     await sleep(5000);
 
     //Show right side advantage
-    await interaction.editReply({ content: results.opponentMsg });
+    await interaction.editReply({ content: results.opponentMsg })
+        .catch((e) => utils.consola.error(e));
     await sleep(5000);
 
     //Show chart
     msg = `Battle commence...\n`;
     await scene.createCards(false, false, false);
-    await interaction.editReply({ content: msg, files: [scene.getScene()] });
+    await interaction.editReply({ content: msg, files: [scene.getScene()] })
+        .catch((e) => utils.consola.error(e));
     await sleep(10000);
 
     msg = `${results.winner <= results.yourPercent ? yourBot.name + " is the winner" : otherBot.name + " is the winner"}`;
@@ -83,10 +98,29 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
     switch(wager) {
         case "destroy":
             //Loser bot is destroyed and is no longer usable
-            msg += `\nLoser bot gets destroyed by winner for EXP.`;
             exp = Math.ceil(loserBot.exp);
+            if(winnerBot.ability == "Greedy AI") {
+                exp = Math.ceil(exp * 1.5);
+            }
+
             if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
                 return;
+                
+            if(loserBot.ability == "Backup Drive") {
+                msg += `\nDestruction was prevented due to ${loserBot.name}'s ability!`
+                break;
+            }
+
+            msg += `\nLoser bot gets destroyed by winner for EXP.`;
+            if(winnerBot.ability == "Greedy AI")
+                msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
+
+            if(winnerBot.ability == "Bounty Hunter") {
+                msg += `\n${winnerBot.name} gained power due to their ability.`;
+                if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, "power", 5))
+                    return;
+            }
+
             if(!await utils.dbBots.destroy(interaction, loserBot.botObj.bot_id))
                 return;
             if(!await utils.dbBotStats.removeAlive(interaction, loserBot.bot_type))
@@ -97,17 +131,46 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             msg += `\nLoser bot gets collected by winner.`;
             if(!await utils.dbBots.changeOwner(interaction, loserBot.botObj.bot_id, winnerUser.username))
                 return;
+
+            if(winnerBot.ability == "Maximum Satisfiability") {
+                let options = ["firewall", "lifespan"];
+                let option = options[Math.floor(Math.random() * options.length)];
+                msg += `\n${winnerBot.name} gained ${option} due to their ability.`;
+                if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5))
+                    return;
+            }
+
             break;
         case "damage":
             //Pass EXP over to winner
             msg += "\nLoser bot gives winner bot some EXP.";
             exp = Math.ceil(loserBot.exp / 5);
 
+            if(winnerBot.ability == "Greedy AI") {
+                exp = Math.ceil(exp * 1.5);
+                msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
+            }
+
             if(exp == 0) 
                 msg += "\nLoser had no EXP left to give, so was destroyed for scrap metal...";
 
             if(!await utils.dbBots.removeExp(interaction, loserBot.botObj.bot_id, exp)) 
                 return;
+            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
+                return;
+            break;
+        case "train":
+            if(utils.user != winnerUser) {
+                msg += "\nThe loser lost the training match and walked away with nothing...";
+                break;
+            } 
+
+            msg += "\nThe winner is rewarded with some EXP.";
+            exp = Math.max(Math.ceil(loserBot.exp / 5), 10);
+            if(winnerBot.ability == "Greedy AI") {
+                exp = Math.ceil(exp * 1.5);
+                msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
+            }
             if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
                 return;
             break;
@@ -118,13 +181,31 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             break;
     }
 
-    // If bot has unique winning image, show it
-    if(winnerBot.obj.imageWin) {
-        winnerCard.botObj.image = winnerBot.obj.imageWin;
-        await winnerCard.createCard();
+    if(winnerBot.ability == "Fetch Request") {
+        let options = ["power", "lifespan", "viral", "firewall"];
+        let option = Math.floor(Math.random() * options.length);
+        if(winnerBot.item && winnerBot.item != "balanced")
+            option = winnerBot.item;
+        else
+            option = options[option];
+        msg += `\n${winnerBot.name} gained ${option} due to their ability.`;
+        if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5))
+            return;
     }
 
-    await interaction.editReply({ files: [winnerCard.getCard()], content: msg });
+    const newWinnerBotObj = await utils.dbBots.findBotObj(interaction, winnerBot.botObj.bot_id);
+    const newWinnerCard = await new utils.card(interaction, newWinnerBotObj);
+    await newWinnerCard.createCard();
+
+    // If bot has unique winning image, show it
+    if(newWinnerBotObj.obj.imageWin) {
+        newWinnerCard.botObj.image = newWinnerBotObj.obj.imageWin;
+        await newWinnerCard.createCard();
+    }
+
+    await interaction.editReply({ files: [newWinnerCard.getCard()], content: msg })
+        .catch((e) => utils.consola.error(e));
+
     return results;
 }
 
@@ -166,6 +247,12 @@ module.exports = {
             ]
         },
         ]
+    },
+    {
+        name: "train",
+        description: "Battle with the Professor in the training lab.",
+        required: false,
+        type: "SUB_COMMAND",
     },
     {
         name: "request",
@@ -242,7 +329,13 @@ module.exports = {
             otherUser = await utils.db.findUsername(interaction, interaction.options.getString("username"));
         else if(subCommand == "user")
             otherUser = await utils.db.findUser(interaction, userSubCommand.id);
-        
+        else if(subCommand == "train") {
+            otherUser = await utils.db.findUsername(interaction, "Professor Diriski");
+            if(!utils.user.currentChallenge)
+                return utils.handler.info(interaction, new Error(`You do not have any challenges available... Try out \`/daily\` to get more.`)); 
+            console.log(utils.user.currentChallenge);
+        }
+   
         // If accepting a request, find the msg
         if(subCommand == "accept") {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle");
@@ -256,16 +349,15 @@ module.exports = {
             let details = msg.message_content.split("|");
             let yourBot = await utils.dbBots.findBotObj(interaction, details[1]);
             let otherBot = await utils.dbBots.findBotObj(interaction, details[0]);
-            wager = details[2];
-
+            let wager = details[2];
+    
             if(!yourBot || !otherBot)
-                return;
+                return false;
 
             if(!interaction.channel)
                 await interaction.user.createDM();
 
             let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
-
             if(!results)
                 return;
 
@@ -320,6 +412,12 @@ module.exports = {
         let otherBots = await otherUser.getBots();
         let otherCollection = await new BotCollection(otherBots, interaction);
 
+        if(subCommand == "train") {
+            otherCollection.filterCollection({
+                isChallenge: utils.user.currentChallenge,
+            });
+        }
+
         //Inspect the collection
         await collection.inspectCollection(interaction, 1, `Choose ${utils.user.username}'s bot`);
 
@@ -344,8 +442,18 @@ module.exports = {
                     if(await utils.messenger.checkMessages(interaction, utils.user, otherUser))
                         return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
     
+                    // If other user is a bot, instantly accept
+                    if(otherUser.isBot) {
+                        let scene = await new BattleView(interaction, yourBot, otherBot);
+                        if(!await scene.createCards(true, false, false))
+                            return;
+
+                        await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
+                        return;
+                    }
+
                     // Details that will be contained within the message
-                    details = {
+                    let details = {
                         sender_bot_id: yourBot.botObj.bot_id,
                         recipient_bot_id: otherBot.botObj.bot_id,
                         wager: wager
@@ -357,7 +465,7 @@ module.exports = {
                     
                     await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                         `${utils.user.username} has sent you a battle request.\nFor more info: \`/requests info ${messageNumber}\`.`);
-                    
+
                     return;
 
                 } else if(subCommand == "user") {
@@ -365,7 +473,7 @@ module.exports = {
                     let scene = await new BattleView(interaction, yourBot, otherBot);
                     await scene.createCards(true, false, false);
 
-                    await utils.messageHelper.confirmChoice(interaction, userSubCommand, `${userSubCommand}, do you accept this Battle Request from ${interaction.user}?`, scene.getScene());
+                    await utils.messageHelper.confirmChoice(interaction, userSubCommand, `The wager is \`${wager}\`, this means that ${wagers[wager]}.\n\n${userSubCommand}, do you accept this Battle Request from ${interaction.user}?`, scene.getScene());
 
                     // If other user accepts
                     utils.messageHelper.replyEvent.on(`accepted`, async () => {
@@ -378,9 +486,19 @@ module.exports = {
                             content: `The battle was cancelled...`,
                             components: [],
                             embeds: []    
-                        })
+                        }).catch((e) => utils.consola.error(e));
+
                     });                  
                     
+                } else if(subCommand == "train") {
+                    let scene = await new BattleView(interaction, yourBot, otherBot);
+                    await scene.createCards(true, false, false);
+                    
+                    // Remove challenge from list, and increase number of challenges complete
+                    console.log(`trying to remove ${otherBot.botObj.bot_id}|`);
+                    await utils.db.add(interaction, "currentChallenge", utils.user.currentChallenge.replace(`${otherBot.botObj.bot_id}|`, ``));
+                    await battle(interaction, utils, yourBot, otherBot, "train", otherUser);
+                    await utils.db.add(interaction, "challengesComplete");
                 }
 
                 /*

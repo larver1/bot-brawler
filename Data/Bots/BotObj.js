@@ -41,10 +41,11 @@ module.exports = class BotObj {
         this.baseLifespan = this.obj.baseLifespan;
         this.baseViral = this.obj.baseViral;
         this.baseFirewall = this.obj.baseFirewall;
-        this.powerBoost = 0;
-        this.lifespanBoost = 0;
-        this.viralBoost = 0;
-        this.firewallBoost = 0;
+        this.ability = this.obj.ability;
+        this.powerBoost = this.botObj.powerBoost;
+        this.lifespanBoost = this.botObj.lifespanBoost;
+        this.viralBoost = this.botObj.viralBoost;
+        this.firewallBoost = this.botObj.firewallBoost;
         this.battling = false;
         
         //Calculated stats
@@ -79,6 +80,8 @@ module.exports = class BotObj {
     getBattleText(){
         switch(this.item) {
             case "power":
+                if(this.ability == "Overclocked")
+                    return "assumes a Power Strategy and gets extra Power due to its ability!";
                 return "assumes a Power Strategy!";
             case "lifespan":
                 return "assumes a Lifespan Strategy!"
@@ -104,9 +107,14 @@ module.exports = class BotObj {
     }
 
     battle(opponent) {
-        
-        this.investStats();
+
+        if(this.ability == "Factory Reset")
+            opponent.item = "balanced";
+        if(opponent.ability == "Factory Reset")
+            this.item = "balanced";
+
         opponent.investStats();
+        this.investStats();
 
         console.log(`YOUR BOT`);
         console.log(this.battleStats);
@@ -133,30 +141,66 @@ module.exports = class BotObj {
         // Change odds if you or opponent get power advantage
         if(yourPowerAdvantage > opponentPowerAdvantage) {
             if(yourPowerAdvantage > 0) {
-                total += yourPowerAdvantage;
-                console.log(`${yourPowerAdvantage} gets added to ${this.name}'s total.`);
-                yourMsg += `${this.name} has a Power advantage over ${opponent.name}'s Lifespan!\n`;
+                if(opponent.ability != "30FA") {
+                    console.log(`${yourPowerAdvantage} gets added to ${this.name}'s total.`);
+                    if(this.ability == "Super Manipulation") {
+                        yourMsg += `${this.name}'s ability destroys ${opponent.name}'s Lifespan!\n`;
+                        yourPowerAdvantage = Math.ceil(yourPowerAdvantage * 1.5);
+                    } else {
+                        yourMsg += `${this.name} has a Power advantage over ${opponent.name}'s Lifespan!\n`;
+                    }
+                    total += yourPowerAdvantage;
+                } else {
+                    yourMsg += `${this.name}'s Power advantage was blocked by ${opponent.name}'s ability!\n`;
+                }
             }
         } else if(opponentPowerAdvantage > yourPowerAdvantage) {
             if(opponentPowerAdvantage > 0) {
-                opponentTotal += opponentPowerAdvantage;
-                console.log(`${opponentPowerAdvantage} gets added to ${opponent.name}'s total.`);
-                opponentMsg += `${opponent.name} has a Power advantage over ${this.name}'s Lifespan!\n`;
+                if(this.ability != "30FA") {
+                    console.log(`${opponentPowerAdvantage} gets added to ${opponent.name}'s total.`);
+                    if(opponent.ability == "Super Manipulation") {
+                        opponentMsg += `${opponent.name}'s ability destroys ${this.name}'s Lifespan!`;
+                        opponentPowerAdvantage = Math.ceil(opponentPowerAdvantage * 1.5);
+                    } else {
+                        opponentMsg += `${opponent.name} has a Power advantage over ${this.name}'s Lifespan!\n`;
+                    }
+                    opponentTotal += opponentPowerAdvantage;
+                } else {
+                    opponentMsg += `${opponent.name}'s Power advantage was blocked by ${this.name}'s ability!\n`;
+                }
             }
         }
 
         // Change odds if you or opponent get viral advantage
         if(yourViralAdvantage > opponentViralAdvantage) {
             if(yourViralAdvantage > 0) {
-                total += yourViralAdvantage;
-                console.log(`${yourViralAdvantage} gets added to ${this.name}'s total.`);
-                yourMsg += `${this.name} has a Viral advantage over ${opponent.name}'s Firewall!\n`;
+                if(opponent.ability != "I'm not even a bot") {
+                    console.log(`${yourViralAdvantage} gets added to ${this.name}'s total.`);
+                    if(this.ability == "Super Intrusion") {
+                        yourMsg += `${this.name} destroys ${opponent.name}'s Firewall!`;
+                        yourViralAdvantage = Math.ceil(yourViralAdvantage * 1.5);
+                    } else {
+                        yourMsg += `${this.name} has a Viral advantage over ${opponent.name}'s Firewall!\n`;  
+                    }
+                    total += yourViralAdvantage;  
+                } else {
+                    yourMsg += `${this.name}'s Viral Advantage was blocked by ${opponent.name}'s ability!\n`;    
+                }
             }
         } else if(opponentViralAdvantage > yourViralAdvantage) {
             if(opponentViralAdvantage > 0) {
-                opponentTotal += opponentViralAdvantage;
-                console.log(`${opponentViralAdvantage} gets added to ${opponent.name}'s total.`);
-                opponentMsg += `${opponent.name} has a Viral advantage over ${this.name}'s Firewall!\n`;
+                if(this.ability != "I'm not even a bot") {
+                    console.log(`${opponentViralAdvantage} gets added to ${opponent.name}'s total.`);
+                    if(opponent.ability == "Super Intrusion") {
+                        opponentMsg += `${opponent.name}'s ability destroys ${this.name}'s Firewall!\n`;
+                        opponentViralAdvantage = Math.ceil(opponentViralAdvantage * 1.5);
+                    } else {
+                        opponentMsg += `${opponent.name} has a Viral advantage over ${this.name}'s Firewall!\n`;
+                    }
+                    opponentTotal += opponentViralAdvantage;
+                } else {
+                    opponentMsg += `${opponent.name}'s Viral advantage was blocked by ${this.name}'s ability!\n`;
+                }
             }
         }
 
@@ -191,6 +235,8 @@ module.exports = class BotObj {
                 this.battleStats.lifespan = this.lifespan;
                 this.battleStats.viral = this.viral;
                 this.battleStats.firewall = this.firewall;
+                if(this.ability == "Overclocked") 
+                    this.battleStats.power = Math.ceil(this.power + this.investmentPoints * 1.5);
                 break;
             case "lifespan":
                 this.battleStats.lifespan = (this.lifespan + this.investmentPoints);
@@ -246,6 +292,15 @@ module.exports = class BotObj {
                 (cardData[i + 1].exp > this.exp && cardData[i].exp <= this.exp)) {
                     this.levelName = cardData[i].name;
                     return i;  
+            }
+        }
+    }
+
+    findColour() {
+        for(let i = 0; i < cardData.length; i++) {
+            if(!cardData[i + 1] || 
+                (cardData[i + 1].exp > this.exp && cardData[i].exp <= this.exp)) {
+                    return cardData[i];  
             }
         }
     }

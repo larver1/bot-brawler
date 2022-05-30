@@ -1,8 +1,3 @@
-const ErrorHandler = require("./ErrorHandler.js");
-const fs = require('fs');
-const consola = require("consola");
-const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
-const CPM = JSON.parse(fs.readFileSync('./Data/Bots/CPM.json'));
 const Canvas = require('canvas');
 const Card = require("./Card");
 const { MessageAttachment } = require('discord.js');

@@ -1,6 +1,4 @@
-const { Client, MessageEmbed } = require("discord.js");
 const BattleView = require("../../Helpers/BattleView");
-const BotCollection = require("../../Helpers/BotCollection");
 const Card = require("../../Helpers/Card");
 
 const wagers = {
@@ -149,6 +147,7 @@ module.exports = {
                     content: `${msgContent}`, 
                     files: [scene.getScene()] })
                 .catch(e => utils.consola.error(e));
+                
             } else if(msg.message_type == "trade") {
                 let sellingBot = await utils.dbBots.findBotObj(interaction, details[2]);
                 let sellingUser, buyingUser;

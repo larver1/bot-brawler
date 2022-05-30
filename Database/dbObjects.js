@@ -14,6 +14,7 @@ const UserItems = require('./models/UserItems.js')(sequelize, Sequelize.DataType
 const Messages = require('./models/Messages.js')(sequelize, Sequelize.DataTypes);
 const Bots = require('./models/Bots.js')(sequelize, Sequelize.DataTypes);
 const BotStats = require('./models/BotStats.js')(sequelize, Sequelize.DataTypes);
+const Market = require('./models/Market.js')(sequelize, Sequelize.DataTypes);
 
 UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
@@ -124,6 +125,27 @@ Users.prototype.findBot = async function(bot) {
 	});
 }
 
+Users.prototype.addToMarket = async function(bot, price) {
+	return Market.create({ 
+		bot_id: bot.botObj.bot_id,
+		colour: bot.findColour().name,
+		seller_username: this.username,
+		selling_amount: price
+	});
+};
+
+Users.prototype.removeFromMarket = async function(bot) {
+	const userBot = await Market.findOne({
+		where: { bot_id: bot.botObj.bot_id },
+	});
+
+	if(userBot)
+		userBot.destroy();
+	else
+		consola.error(`Bot ${bot.botObj.bot_id} passed to dbObjects.removeFromMarket() is invalid.`);
+
+};
+
 Users.prototype.createBot = async function(bot) {
 	return Bots.create({ 
 		bot_id: uuidv4(), 
@@ -156,4 +178,4 @@ Users.prototype.removeBot = async function(bot) {
 
 };
 
-module.exports = { Users, CurrencyShop, UserItems, Messages, Bots, BotStats };
+module.exports = { Users, CurrencyShop, UserItems, Messages, Bots, BotStats, Market };

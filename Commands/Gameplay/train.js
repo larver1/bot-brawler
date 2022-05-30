@@ -1,105 +1,47 @@
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
-const BotBuilder = require("../../Helpers/BotBuilder");
-const BotObj = require("../../Data/Bots/BotObj");
-const BotCollection = require("../../Helpers/BotCollection");
+const powerEmoji = `<:power:965731751009849406>`;
+const lifespanEmoji = `<:lifespan:965731750510727228>`;
+const viralEmoji = `<:Viral_v1:965943499801382983>`;
+const firewallEmoji = `<:firewall:965731750795935844>`;
 
 module.exports = {
     name: "train",
     description: "Train a card for more EXP.",
-    options: [{
-        name: "exp",
-        description: "Sorts your card collection based on EXP.",
-        required: false,
-        type: "STRING",
-        choices: [
-            {
-                name: "Highest",
-                value: "highest",
-            }, 
-            {
-                name: "Lowest",
-                value: "lowest",
-            },
-        ]
-    },
-    {
-        name: "name",
-        description: "Filters your card collection based on Bot Name.",
-        required: false,
-        type: "STRING",
-    },
-    {
-        name: "level",
-        description: "Filters your card collection based on Card Colour.",
-        required: false,
-        type: "INTEGER",
-        choices: [
-            {
-                name: "Green",
-                value: 0,
-            }, 
-        ]
-    }
-    ],
     /**
      * @param {CommandInteraction} CommandInteraction
      * @param {Object} executeObj
      */
     async execute(interaction, utils) {
 
-        let bots = await utils.user.getBots();
-        let collection = await new BotCollection(bots, interaction);
+        // Get user challenges
+        let userChallenge = await utils.db.getData(interaction, "currentChallenge");
+        if(!userChallenge) {
+            return utils.handler.info(interaction, new Error(`You don't have any training battles available. Try using \`/daily\` to get some.`));
+        }
 
-        if(!collection)
-            return;
+        // Find each bot from their IDs
+        let challengerBots = [];
+        let msg = `You have \`${5 - utils.user.challengesComplete} daily training battles\` left.\nUse \`/battle train\` to battle one of them.\n\n`;
 
-        //Filter parameters
-        collection.filterCollection({
-            bot_type: interaction.options.getString("name"),
-            specificLevel: interaction.options.getInteger("level"),
-        });
+        for(const id of userChallenge) {
+            let bot = await utils.dbBots.findBotObj(interaction, id);
+            challengerBots.push(bot);
+            msg += `${bot.findColour().emoji}\`${bot.name}\`\n${powerEmoji}\`${bot.battleStats.power}\`${lifespanEmoji}\`${bot.battleStats.lifespan}\`${viralEmoji}\`${bot.battleStats.viral}\`${firewallEmoji}\`${bot.battleStats.firewall}\`\n\n`;
+        }
 
-        //Sort parameters
-        collection.sortCollection({
-            exp: interaction.options.getString("exp"),
-        });
+        msg += `\nYou will gain EXP for winning a training battle, but you will not lose anything if you are defeated.`;
 
-        //Inspect the collection
-        await collection.inspectCollection(interaction, 1);
+        console.log(challengerBots);
 
-        //When a card is selected, display it
-        collection.selectedEvent.on(`selected`, async () => {
+        // Display challenges
+        const embed = new utils.embed(interaction, utils.user)
+            .setTitle(`Professor Diriski's Lab Training`)
+            .setDescription(`${msg}`)
 
-            let exp = Math.ceil(Math.random() * 10);
-            let dataEntries = exp * 15000 * Math.random();
+        await interaction.editReply({ embeds: [embed] })
+            .catch(e => utils.consola.error(e));
 
-            console.log("old exp: " + collection.selected.exp);
-
-            //Find the selected bot, add XP, and save to DB
-            if(!await utils.dbBots.addExp(interaction, collection.selected.botObj.bot_id, exp))
-                return;
-
-            //Make new object and display new card
-            const botToTrain = await utils.dbBots.findBot(interaction, collection.selected.botObj.bot_id);
-            const newObj = await new BotObj(interaction, botToTrain);
-            const card = await new utils.card(interaction, newObj);
-            
-            if(!await card.createCard())
-                return;
-
-            let msg = `${newObj.bot_type} analysed ${dataEntries.toFixed(2)} KB of training data and gained ${exp} EXP!\n`;
-
-            //If leveled up, show extra text
-            console.log("new exp: " + newObj.exp);
-
-            if(newObj.findLevel() > collection.selected.findLevel()) 
-                msg += `${newObj.bot_type} entered the *${newObj.levelName}* development phase!`;
-
-            await interaction.editReply({ content: `${msg}`, files: [card.getCard()], components: [] })
-                .catch(e => utils.consola.error(e));
-
-        });
-
+        
     }
+    
 
 }

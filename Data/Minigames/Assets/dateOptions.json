@@ -1,0 +1,22 @@
+{
+    "compliment": {
+        "0": "I like your outfit!", 
+        "1": "What's a model like you doing with me?",
+        "2": "I am so honoured to be in your presence"
+    },
+    "insult": {
+        "0": "Do they just serve anyone here now?",
+        "1": "Get a better outfit and you'd be kinda cute",
+        "2": "Your very existence makes my eyes sore"
+    },
+    "joke": {
+        "0": "Can you pay? I ran out of cache",
+        "1": "What's a bot's favourite music? Heavy metal",
+        "2": "Boy, you turn my floppy disk into a hard drive"
+    },
+    "stunt": {
+        "0": "Make a peculiar beeping noise",
+        "1": "Read their mind",
+        "2": "Spin on the table"
+    }
+}

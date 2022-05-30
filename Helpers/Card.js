@@ -1,9 +1,7 @@
 const ErrorHandler = require("./ErrorHandler.js");
 const fs = require('fs');
-const consola = require("consola");
 const botData = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
-const CPM = JSON.parse(fs.readFileSync('./Data/Bots/CPM.json'));
 const Canvas = require('canvas');
 const { MessageAttachment } = require('discord.js');
 Canvas.registerFont('./Data/Cards/Assets/TravelingTypewriter.ttf', { family: 'Typewriter' });
@@ -124,14 +122,34 @@ module.exports = class Card {
 
         //If the bot has a chip attached
         this.ctx.fillStyle = "#ff0000";
-        this.setFont(100);
 
         //Stats
-        await this.displayStat("power", `${this.botObj.battleStats.power}`, 635 - this.ctx.measureText(`${this.botObj.battleStats.power}`).width - 20, 1460);
+        this.setFont(this.checkFont(this.botObj.battleStats.power));
+        await this.displayStat("power", `${this.botObj.battleStats.power}`, 635 - this.ctx.measureText(`${this.formatStat(this.botObj.battleStats.power)}`).width - 20, 1460);
+        this.setFont(this.checkFont(this.botObj.battleStats.lifespan));
         await this.displayStat("lifespan", `${this.botObj.battleStats.lifespan}`, 680 + 20, 1460);
-        await this.displayStat("viral", `${this.botObj.battleStats.viral}`, 635 - this.ctx.measureText(`${this.botObj.battleStats.viral}`).width - 20, 1710);
+        this.setFont(this.checkFont(this.botObj.battleStats.viral));
+        await this.displayStat("viral", `${this.botObj.battleStats.viral}`, 635 - this.ctx.measureText(`${this.formatStat(this.botObj.battleStats.viral)}`).width - 20, 1710);
+        this.setFont(this.checkFont(this.botObj.battleStats.firewall));
         await this.displayStat("firewall", `${this.botObj.battleStats.firewall}`, 680 + 20, 1710);
 
+    }
+
+    checkFont(value) {
+        if(value < 1000 || (value >= 10000 && value < 100000))
+            return 100;
+        return 80;
+    }
+
+    formatStat(value) {
+        if(value < 1000)
+            return `${value}`;
+        if(value < 10000)
+            return `${(value / 1000).toFixed(1)}k`;
+        if(value < 100000)
+            return `${(value / 1000).toFixed(0)}k`;
+        if(value < 10000000)
+            return `${(value / 100000).toFixed(0)}m`;
     }
 
     async displayStat(statName, text, x, y) {
@@ -145,7 +163,7 @@ module.exports = class Card {
         else
             this.ctx.fillStyle = "#ffffff";
 
-        this.ctx.fillText(`${text}`, x, y);
+        this.ctx.fillText(`${this.formatStat(text)}`, x, y);
 
     }
 

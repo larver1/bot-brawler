@@ -1,5 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-
 module.exports = {
     name: "status",
     description: "Displays status of client.",

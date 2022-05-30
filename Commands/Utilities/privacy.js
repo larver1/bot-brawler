@@ -1,6 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-const { Users } = require('../../Database/dbObjects');
-
 const privacySettings = {
     "public": "Anyone with your username can send battle/trade requests. Your username can appear in the global leaderboard.",
     "moderate": "Only friends can send you battle/trade requests. But your username will appear in the global leaderboard.",

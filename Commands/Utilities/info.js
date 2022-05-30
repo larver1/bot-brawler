@@ -1,6 +1,4 @@
-const { MessageEmbed } = require("discord.js");
 const fs = require('fs');
-const { isGeneratorFunction } = require("util/types");
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 
 module.exports = {

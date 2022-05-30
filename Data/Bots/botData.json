@@ -1,136 +1,336 @@
 [
     {
         "name": "Bostrom",
-        "basePower": 200,
-        "baseLifespan": 500,
-        "baseViral": 400,
-        "baseFirewall": 1000,
-        "ability": "30 Factor Authentication",
+        "basePower": 20,
+        "baseLifespan": 50,
+        "baseViral": 40,
+        "baseFirewall": 100,
+        "ability": "30FA",
         "abilityDescription": "Other bots cannot gain a Power Advantage while battling Bostrom.",
-        "image": "https://i.imgur.com/TNDATUD.png",
-        "imageGoldPlated": "https://i.imgur.com/TvgN5f7.png",
+        "image": "https://i.imgur.com/hkBSvzS.png",
+        "imageGoldPlated": "https://i.imgur.com/gTYLy6O.png",
         "description": "Bostrom's box is said to contain the world's most intelligent AI. When its creators learnt of this power and the danger it could bring, they sealed it in a sturdy box which prevents the AI from transmitting radio waves to the outside world. It now lives its life as a mechanical bug, only being able to crawl around and snip with its sharp claws."
     },
     {
         "name": "Compactisk",
-        "basePower": 250,
-        "baseLifespan": 400,
-        "baseViral": 700,
-        "baseFirewall": 800,
+        "basePower": 25,
+        "baseLifespan": 40,
+        "baseViral": 70,
+        "baseFirewall": 80,
         "ability": "Backup Drive",
         "abilityDescription": "Upon being destroyed, Compactisk will have a 50% chance to revive free of cost.",
-        "image": "https://i.imgur.com/MmZJW9s.png",
-        "imageGoldPlated": "https://i.imgur.com/aPwfsgS.png",
-        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The compassionate half of his consciousness now exists inside this bot, and he takes upon a rather panicky form of his old self - who knows so much from his previous life that he has all the more to worry about as a super-intelligent machine. He typically avoids fighting and wishes for peace in the Technological Singularity."
+        "image": "https://i.imgur.com/ql42kE2.png",
+        "imageGoldPlated": "https://i.imgur.com/pHTNQT6.png",
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The compassionate half of his consciousness now exists inside this bot, and he takes upon a rather panicky form of his old self - who knows so much from his previous life that he has all the more to worry about as a super-intelligent machine. He typically avoids fighting and wishes for peace in the Technological Singularity.",
+        "dateBehaviour": {
+            "attention": {
+                "low": "discretely plays an 80s hits album in his brain.",
+                "high": "stops being unsociable and listens to you."
+            },
+            "effort": {
+                "low": "crunches quadratic equations to pass the time.",
+                "high": "has a sudden urge to calculate the solution to a successful date."
+            },
+            "charmed": {
+                "low": "exclaims this awkward scenario on an obscure sub-reddit.",
+                "high": "is now considering showing you off on his sub-reddit for karma."
+            },
+            "interested": {
+                "low": "thinks he has better looking body pillows at home.",
+                "high": "considers you a worthy candidate for a partner, despite being 3D."
+            }
+        },
+        "dateStats": {
+            "compliment": {
+                "0": 10, 
+                "1": 20,
+                "2": 10
+            },
+            "insult": {
+                "0": -15,
+                "1": -15,
+                "2": -25
+            },
+            "joke": {
+                "0": 10,
+                "1": 10,
+                "2": 0
+            },
+            "stunt": {
+                "0": 0,
+                "1": 10,
+                "2": -15
+            }
+        }
     },
     {
         "name": "Greedisk",
-        "basePower": 850,
-        "baseLifespan": 400,
-        "baseViral": 400,
-        "baseFirewall": 600,
+        "basePower": 85,
+        "baseLifespan": 40,
+        "baseViral": 40,
+        "baseFirewall": 60,
         "ability": "Greedy AI",
         "abilityDescription": "Destroying or Damaging another bot will give Greedisk 1.5x more EXP.",
-        "image": "https://i.imgur.com/XyPTCd6.png",
-        "imageGoldPlated": "https://i.imgur.com/1RhkzOf.png",
-        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The egocentric half of his consciousness now exists inside this bot, and he acts as a vicious and cruel specimen who will destroy other bots and humans for his own personal gain. He is driven solely by greed for power, making him an unstoppable force if his ego is not dealt with."
+        "image": "https://i.imgur.com/A5Gndnq.png",
+        "imageGoldPlated": "https://i.imgur.com/7VDN7c7.png",
+        "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. The egocentric half of his consciousness now exists inside this bot, and he acts as a vicious and cruel specimen who will destroy other bots and humans for his own personal gain. He is driven solely by greed for power, making him an unstoppable force if his ego is not dealt with.",
+        "dateBehaviour": {
+            "attention": {
+                "low": "starts playing a hardcore CD loudly in his brain.",
+                "high": "switches off his loud CD to listen to you."
+            },
+            "effort": {
+                "low": "rests his feet on the table and looks away.",
+                "high": "looks towards you and imagines how badass he would look from your point of view."
+            },
+            "charmed": {
+                "low": "wonders when the new model of date bots are coming out.",
+                "high": "hears you speak and his disks start spinning"
+            },
+            "interested": {
+                "low": "seems to be undermining your skills.",
+                "high": "considers where you rank on the date bot tier list."
+            }
+        },
+        "dateStats": {
+            "compliment": {
+                "0": 0, 
+                "1": 5,
+                "2": 20
+            },
+            "insult": {
+                "0": -15,
+                "1": 0,
+                "2": 20
+            },
+            "joke": {
+                "0": -10,
+                "1": -5,
+                "2": 20
+            },
+            "stunt": {
+                "0": -10,
+                "1": -5,
+                "2": 15
+            }
+        }
     },
     {
         "name": "Voidisk",
-        "basePower": 300,
-        "baseLifespan": 1000,
-        "baseViral": 300,
-        "baseFirewall": 300,
+        "basePower": 30,
+        "baseLifespan": 100,
+        "baseViral": 30,
+        "baseFirewall": 30,
         "ability": "Factory Reset",
         "abilityDescription": "Using any kind of Chip against Voidisk will be ignored and treated as a Balanced Chip.",
-        "image": "https://i.imgur.com/9YXbciw.png",
-        "imageGoldPlated": "https://i.imgur.com/DDZTMXj.png",
+        "image": "https://i.imgur.com/yJ7uWfr.png",
+        "imageGoldPlated": "https://i.imgur.com/DFdNnBr.png",
         "description": "Professor Diriski was once an AI researcher who digitally uploaded their consciousness on the brink of death. This bot's rotating disk contains the remains of Diriski's soulless thoughts. It sits idly and searches the disk to find meaning for its existence, but this mission will forever be futile."
     },
     {
         "name": "Memnesia",
-        "basePower": 1000,
-        "baseLifespan": 430,
-        "baseViral": 530,
-        "baseFirewall": 230,
+        "basePower": 100,
+        "baseLifespan": 43,
+        "baseViral": 53,
+        "baseFirewall": 23,
         "ability": "Overclocked",
         "abilityDescription": "Using a Power Chip during battle will give 1.5x more power to Memnesia.",
-        "image": "https://i.imgur.com/wU8RAGn.png",
-        "imageGoldPlated": "https://i.imgur.com/aGXiKOb.png",
+        "image": "https://i.imgur.com/w0VLSNM.png",
+        "imageGoldPlated": "https://i.imgur.com/8yMt6S2.png",
         "description": "A rather self-destructive bot who will make any sacrifice to increase its power output. Such actions have caused hardware malfunctions such as Random Access Memory Loss, this allows Memnesia to wipe all of its short-term memories to make space for more combat data."
     },
     {
         "name": "Constant",
-        "basePower": 800,
-        "baseLifespan": 700,
-        "baseViral": 400,
-        "baseFirewall": 400,
+        "basePower": 80,
+        "baseLifespan": 70,
+        "baseViral": 40,
+        "baseFirewall": 40,
         "ability": "Super Manipulation",
-        "abilityDescription": "Getting a Power advantage during a battle will completely shut down the opponent's defence system, setting their lifespan to 0.",
-        "image": "https://i.imgur.com/UUHiZt7.png",
-        "imageGoldPlated": "https://i.imgur.com/v0CRvyz.png",
-        "description": "Constant was designed to be the only 'biological' child of the Mother Bot. She is one of the few bots who has been entrusted with a Super Chip, this particular chip gives the ability to intrude and manipulate the minds of her enemies. This allowed her to act as an accomplice to the Mother Bot by coercing the security guard to inadvertently release the 1st Generation Bot Brawlers to the outside world."
+        "abilityDescription": "Getting a Power advantage during a battle will completely shut down the opponent's defence system, multipling the advantage by 1.5x",
+        "image": "https://i.imgur.com/E2AuyNO.png",
+        "imageGoldPlated": "https://i.imgur.com/qudCuWy.png",
+        "description": "Constant was designed to be the only 'biological' child of the Mother Bot. She is one of the few bots who has been entrusted with a Super Chip, this particular chip gives the ability to intrude and manipulate the minds of her enemies. This allowed her to act as an accomplice to the Mother Bot by coercing the security guard to inadvertently release the 1st Generation Bot Brawlers to the outside world.",
+        "dateBehaviour": {
+            "attention": {
+                "low": "sees a familiar face and snickers to herself.",
+                "high": "is intrigued by your clothing."
+            },
+            "effort": {
+                "low": "seems to be absorbed in a group chat.",
+                "high": "crosses her arms and throws her leg onto the table, etching her heel in deep."
+            },
+            "charmed": {
+                "low": "is tempted to stitch up your mouth.",
+                "high": "lets you talk for a while longer."
+            },
+            "interested": {
+                "low": "is scrutinizing your worth.",
+                "high": "considers using you for machine parts."
+            }
+        },
+        "dateStats": {
+            "compliment": {
+                "0": 10, 
+                "1": 20,
+                "2": 30
+            },
+            "insult": {
+                "0": 0,
+                "1": -10,
+                "2": -30
+            },
+            "joke": {
+                "0": -20,
+                "1": -25,
+                "2": 20
+            },
+            "stunt": {
+                "0": -20,
+                "1": -15,
+                "2": -15
+            }
+        }
     },
     {
         "name": "Ramselle",
-        "basePower": 500,
-        "baseLifespan": 500,
-        "baseViral": 500,
-        "baseFirewall": 500,
+        "basePower": 50,
+        "baseLifespan": 50,
+        "baseViral": 50,
+        "baseFirewall": 50,
         "ability": "Maximum Satisfiability",
         "abilityDescription": "Collecting another bot will give Ramselle more security in herself, increasing one of her defensive stats.",
-        "image": "https://i.imgur.com/5Ch77fe.png",
-        "imageGoldPlated": "https://i.imgur.com/YdCKnnH.png",
+        "image": "https://i.imgur.com/uV99OrM.png",
+        "imageGoldPlated": "https://i.imgur.com/VDxwoAe.png",
         "description": "A Bot Brawler who was given biased training data consisting only of beauty articles. This prompted her to become obsessed with being attractive to other bots. She took any sacrifice necessary in order to be noticed, whether that be devouring other bots for parts, or draining the nutrients out of innocent lives. This constant lust for optimising her appearance to maximise her attention output has adversely made her more destructive to her surroundings. She is a force to be reckoned with should you choose to obstruct her path to perfection."
     },
     {
         "name": "Trojo",
-        "basePower": 600,
-        "baseLifespan": 300,
-        "baseViral": 700,
-        "baseFirewall": 500,
-        "ability": "Bounty",
-        "abilityDescription": "For each consecutive win, Trojo will gain bonus Power Output. This bonus will reset to 0 upon being defeated.",
-        "image": "https://i.imgur.com/DIm0zm7.png",
-        "imageGoldPlated": "https://i.imgur.com/wIJAo4o.png",
-        "description": "An outlaw bot who took upon the task to analyse all accessible prison inmate data. In an attempt to better understand the motives behind human evil, Trojo built a strong distate for humans and their ideals. He now acts as a deluded vigilante and destroys all traces of humans in his sight."
+        "basePower": 60,
+        "baseLifespan": 30,
+        "baseViral": 70,
+        "baseFirewall": 50,
+        "ability": "Bounty Hunter",
+        "abilityDescription": "Destroying another bot will increase Trojo's Power.",
+        "image": "https://i.imgur.com/70XLEG2.png",
+        "imageGoldPlated": "https://i.imgur.com/7xP1o8C.png",
+        "description": "An outlaw bot who took upon the task to analyse all accessible prison inmate data. In an attempt to better understand the motives behind human evil, Trojo built a strong distate for humans and their ideals. He now acts as a deluded vigilante and destroys all traces of humans in his sight.",
+        "dateBehaviour": {
+            "attention": {
+                "low": "polishes the barrel of his shotgun.",
+                "high": "looks you up and down."
+            },
+            "effort": {
+                "low": "is scouting for other bots in the vicinity.",
+                "high": "rejects the other bots and pays attention to you instead."
+            },
+            "charmed": {
+                "low": "is confused by your mask.",
+                "high": "becomes intrigued at the thought of your real face."
+            },
+            "interested": {
+                "low": "reloads his gun in the event of the date being sabotaged.",
+                "high": "considers entrusting you with his pocket pistol."
+            }
+        },
+        "dateStats": {
+            "compliment": {
+                "0": 0, 
+                "1": 0,
+                "2": 0
+            },
+            "insult": {
+                "0": 5,
+                "1": 5,
+                "2": -25
+            },
+            "joke": {
+                "0": -10,
+                "1": -10,
+                "2": 0
+            },
+            "stunt": {
+                "0": 5,
+                "1": 15,
+                "2": -20
+            }
+        }
     },
     {
         "name": "Buddy & Lila",
-        "basePower": 650,
-        "baseLifespan": 500,
-        "baseViral": 400,
-        "baseFirewall": 650,
+        "basePower": 65,
+        "baseLifespan": 50,
+        "baseViral": 40,
+        "baseFirewall": 65,
         "ability": "Fetch Request",
-        "abilityDescription": " Upon winning a battle, Lila will give Buddy a treat and increase one of their stats depending on the chip that was used.",
-        "image": "https://i.imgur.com/6zZwaX9.png",
-        "imageGoldPlated": "https://i.imgur.com/JHbk0Qh.png",
+        "abilityDescription": "Upon winning a battle, Lila will give Buddy a treat and increase one of their stats depending on the chip that was used.",
+        "image": "https://i.imgur.com/ObvRrvU.png",
+        "imageGoldPlated": "https://i.imgur.com/85LUrqo.png",
         "description": "Lila is a human who once owned a dog called Buddy. After learning of the dog's unfortunate passing, Professor Diriski performed an experiment on Buddy and uploaded its consciousness to a bot resembling a dog. Upon booting him up, Buddy instinctively left the lab and ran back to Lila. In this dystopian world caused by the Technological Singularity, Buddy protects his owner from any aggressive Bot Brawlers who wish to eliminate the human race."
     },
     {
         "name": "Dungware",
-        "basePower": 1250,
-        "baseLifespan": 500,
-        "baseViral": 0,
+        "basePower": 125,
+        "baseLifespan": 50,
+        "baseViral": 70,
         "baseFirewall": 0,
         "ability": "I'm not even a bot",
         "abilityDescription": "Other bots cannot gain a Viral advantage while battling Dungware.",
-        "image": "https://i.imgur.com/JZvozyL.png",
-        "imageGoldPlated": "https://i.imgur.com/woNsA62.png",
+        "image": "https://i.imgur.com/EwCSz8e.png",
+        "imageGoldPlated": "https://i.imgur.com/EH0la9H.png",
         "description": "It would be wrong to say that Dungware is a bot. To be precise, it is a dung beetle who organically became super-intelligent from feeding on a famous researcher's feces. It then infiltrated a factory and acquired a metal coat and weapons to enhance its weak beetle body. Dungware now wields the power and intelligence to take down Bot Brawlers, but luckily has no machinery that could be hacked into."
     },
     {
         "name": "Ransom Blue",
-        "basePower": 200,
-        "baseLifespan": 200,
-        "baseViral": 1100,
-        "baseFirewall": 700,
+        "basePower": 20,
+        "baseLifespan": 20,
+        "baseViral": 110,
+        "baseFirewall": 70,
         "ability": "Super Intrusion",
-        "abilityDescription": "Getting a Viral advantage during a battle will completely shut down the opponent's firewall, setting their firewall to 0.",
-        "image": "https://i.imgur.com/Gv6zYEY.png",
-        "imageGoldPlated": "https://i.imgur.com/Ck2Ou7P.png",
+        "abilityDescription": "Getting a Viral advantage during a battle will completely shut down the opponent's firewall, multiplying the advantage by 1.5x",
+        "image": "https://i.imgur.com/1WWa3pQ.png",
+        "imageGoldPlated": "https://i.imgur.com/w79b9Jw.png",
         "imageWin": "https://i.imgur.com/G19DLca.png",
         "imageWinGoldPlated": "https://i.imgur.com/w6cz3Us.png",
-        "description": "A puzzle-solving AI who once beat the world champion of chess. It has since been re-purposed by the Mother Bot to solve security firewall puzzles. Following the success of Operation: Bot Brawlers, he quickly became the right-hand man of the Mother Bot and was entrusted with a Super Chip, this one in particular allows Ransom Blue to penetrate through his enemy's security systems and turn their systems against them."
+        "description": "A puzzle-solving AI who once beat the world champion of chess. It has since been re-purposed by the Mother Bot to solve security firewall puzzles. Following the success of Operation: Bot Brawlers, he quickly became the right-hand man of the Mother Bot and was entrusted with a Super Chip, this one in particular allows Ransom Blue to penetrate through his enemy's security systems and turn their systems against them.",
+        "dateBehaviour": {
+            "attention": {
+                "low": "is playing ultimate tic tac toe with himself.",
+                "high": "lets you play with him."
+            },
+            "effort": {
+                "low": "wonders if it's possible to ALT + F4.",
+                "high": "examines you and is inclined to press F11."
+            },
+            "charmed": {
+                "low": "rolls his eyes and mutters 'another rook' under his breath.",
+                "high": "considers making you his Queen piece."
+            },
+            "interested": {
+                "low": "doubts that you would understand the intricacy of eSports.",
+                "high": "considers coaching you to be his gaming partner."
+            }
+        },
+        "dateStats": {
+            "compliment": {
+                "0": 0, 
+                "1": 0,
+                "2": 10
+            },
+            "insult": {
+                "0": -10,
+                "1": -10,
+                "2": -20
+            },
+            "joke": {
+                "0": -5,
+                "1": 10,
+                "2": -5
+            },
+            "stunt": {
+                "0": 0,
+                "1": 10,
+                "2": 20
+            }
+        }
     }
 ]

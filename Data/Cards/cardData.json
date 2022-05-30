@@ -40,5 +40,18 @@
         "name": "ALPHA:1",
         "emoji": "<:Black:933490982761144350>",
         "exp": 315
+    }, 
+    {
+        "colour": "YellowStripes",
+        "name": "ALPHA:2",
+        "emoji": "<:Black:933490982761144350>",
+        "exp": 635
+    },
+    {
+        "colour": "YellowStripesRed",
+        "name": "ALPHA:3",
+        "emoji": "<:Black:933490982761144350>",
+        "exp": 1275
     }
+
 ]

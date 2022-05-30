@@ -1,13 +1,12 @@
 const botObj = require('../Data/Bots/botObj');
 const ErrorHandler = require("./ErrorHandler");
 const CardsView = require("./CardsView");
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton, CommandInteraction } = require("discord.js");
+const { MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
 const fs = require('fs');
 const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 const { v4: uuidv4 } = require('uuid');
 const EventEmitter = require('events');
 const consola = require("consola");
-const cards = require('../Commands/Gameplay/cards');
 
 module.exports = class BotCollection {
 	constructor(collection, interaction, showDead){
@@ -63,7 +62,10 @@ module.exports = class BotCollection {
         if(!interaction.channel)
             await interaction.user.createDM();
 
-        await interaction.editReply({ content: `Your bots [Page ${page + 1}/${maxPages}]`, components: [nextPage], files: [await cards.getCards()] });
+        await interaction.editReply({ 
+            content: `${selectMsg}Your bots [Page ${page + 1}/${maxPages}]`, 
+            components: [nextPage], 
+            files: [await cards.getCards()] }).catch((e) => consola.error(e));
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == nextPageId || i.customId == prevPageId)); 
 		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
@@ -87,14 +89,18 @@ module.exports = class BotCollection {
                 cards = await new CardsView(interaction, sortedSelection);
                 await cards.createCards();
 
-				return interaction.editReply({ content: `Your bots [Page ${page + 1}/${maxPages}]`, components: [nextPage], files: [await cards.getCards()] }).catch(e => { consola.error(e)});
+				return interaction.editReply({ 
+                    content: `${selectMsg}Your bots [Page ${page + 1}/${maxPages}]`, 
+                    components: [nextPage], 
+                    files: [await cards.getCards()] 
+                }).catch(e => { consola.error(e)});
                 
 			}
 
         });
 
         collector.on('end', async() => {
-            await interaction.editReply({ components: [] }).catch(e => utils.consola.error(e));
+            await interaction.editReply({ components: [] }).catch(e => consola.error(e));
         });
 
     }
@@ -106,11 +112,11 @@ module.exports = class BotCollection {
 
         let selectionList = this.getSelectionList();
         let page = 0;
-        let maxPages = Math.min(selectionList.length, 1);
+        let maxPages = Math.max(selectionList.length, 1);
         let selectCount = 0;
 
         if(selectionList[0].length <= 0) {
-            let err = new Error(`You do not own any Bots of the specified type. Try \`/build\` to get started.`);
+            let err = new Error(`You do not own any Bots of the given type. If you don't have any bots, try \`/build\` to get started.`);
             return ErrorHandler.info(interaction, err);
         }
 
@@ -138,7 +144,7 @@ module.exports = class BotCollection {
         if(!interaction.channel)
             await interaction.user.createDM();
 
-        await interaction.editReply({ content: 'Select a bot: ', components: [selectList, nextPage] });
+        await interaction.editReply({ content: 'Select a bot: ', components: [selectList, nextPage] }).catch((e) => consola.error(e));
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId)); 
 		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
@@ -157,6 +163,7 @@ module.exports = class BotCollection {
 					else page = maxPages - 1;
 				}
 
+                console.log(`changing page to ${page}/${maxPages}`);
 				selectList = new MessageActionRow()
 					.addComponents(
 						new MessageSelectMenu()
@@ -183,7 +190,7 @@ module.exports = class BotCollection {
         });
 
         collector.on('end', async() => {
-            await interaction.editReply({ components: [] }).catch(e => utils.consola.error(e));
+            await interaction.editReply({ components: [] }).catch(e => consola.error(e));
         });
 
     }
@@ -298,6 +305,7 @@ module.exports = class BotCollection {
             maxStats: INTEGER
             goldPlated: BOOLEAN,
             isSelling: BOOLEAN,
+            isChallenge: STRING
         
         */
 
@@ -335,6 +343,7 @@ module.exports = class BotCollection {
             if(filters.maxStats && collection[i].stats > filters.maxStats) continue;
             if(filters.goldPlated && collection[i].goldPlated != filters.goldPlated) continue;
             if(filters.isSelling && collection[i].isSelling != filters.isSelling) continue;
+            if(filters.isChallenge && !filters.isChallenge.includes(collection[i].botObj.bot_id)) continue;
 
             newCollection.push(collection[i]);
         }

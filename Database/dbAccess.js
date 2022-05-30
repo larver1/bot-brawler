@@ -1,7 +1,4 @@
-const { Users, CurrencyShop } = require('./dbObjects');
-const fs = require('fs');
-const consola = require("consola");
-const sampleEmbed = require("../Helpers/sampleEmbed.js");
+const { Users } = require('./dbObjects');
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
 
 module.exports = class dbAccess
@@ -87,15 +84,19 @@ module.exports = class dbAccess
 
 		switch(type) {
 			case "friends":
-				let friends = user.friends.replaceAll('|', '\n').slice(1, -1).split("\n");
+				var friends = user.friends.replaceAll('|', '\n').slice(1, -1).split("\n");
 				if(friends[0].length <= 0) return [];
 				return friends; 
 			case "username":
 				return user.username;
 			case "lastCommand":
 				return this.getTimeSince(user.lastCommand);
+			case "currentChallenge":
+				if(!user.currentChallenge)
+					return;
+				return user.currentChallenge.split("|").slice(0, -1);
 			default:
-				let err = new Error(`Invalid type '${type}' called on getData()`);
+				var err = new Error(`Invalid type '${type}' called on getData()`);
 				await ErrorHandler.handle(interaction, err);
 				break;
 		}
@@ -111,6 +112,22 @@ module.exports = class dbAccess
 		switch(type) {
 			case "lastCommand":
 				user.lastCommand = Date.now();
+				break;
+			case "challengesComplete":
+				if(user.challengesComplete >= 5) {
+					let err = new Error(`Challenges complete has already exceeded on add()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.challengesComplete++;
+				break;
+			case "currentChallenge":
+				if(typeof toAdd != "string") {
+					let err = new Error(`Tried to set invalid challenge ${toAdd} on add()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.currentChallenge = toAdd;
 				break;
 			case "friend":
 				//You can't add the same friend more than once
@@ -130,6 +147,16 @@ module.exports = class dbAccess
 				}
 				user.privacy = toAdd;
 				break;
+			case "energy":
+				if(typeof toAdd != "number" || toAdd <= 0) {
+					let err = new Error(`Tried to add invalid energy ${toAdd} on add()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.energy += toAdd;
+				if(user.energy >= 100)
+					user.energy = 100;
+				break;
 			case "parts":
 			case "balance":
 				if(typeof toAdd != "number" || toAdd <= 0) {
@@ -143,7 +170,7 @@ module.exports = class dbAccess
 				user.daily = Date.now();
 				break;
 			default:
-				let err = new Error(`Invalid type '${type}' called on add()`);
+				var err = new Error(`Invalid type '${type}' called on add()`);
 				await ErrorHandler.handle(interaction, err);
 				return false;
 		}
@@ -169,6 +196,17 @@ module.exports = class dbAccess
 				}
 				user.friends = user.friends.replace((toRemove + "|"), "");
 				break;
+			case "energy":
+				if(typeof toRemove != "number" || toRemove < 0 || toRemove > user.energy) {
+					let err = new Error(`Tried to remove invalid energy ${toRemove} on remove()`);
+					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				user.energy -= toRemove;
+				break;
+			case "challengesComplete":
+				user.challengesComplete = 0;
+				break;
 			case "parts":
 			case "balance":
 				if(typeof toRemove != "number" || toRemove < 0 || toRemove > user.balance) {
@@ -179,7 +217,7 @@ module.exports = class dbAccess
 				user.balance -= toRemove;
 				break;
 			default:
-				let err = new Error(`Invalid type '${type}' called on remove()`);
+				var err = new Error(`Invalid type '${type}' called on remove()`);
 				await ErrorHandler.handle(interaction, err);
 				return false;
 		}

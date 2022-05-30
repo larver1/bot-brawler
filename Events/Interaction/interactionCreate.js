@@ -1,4 +1,3 @@
-const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
 const dbAccess = require("../../Database/dbAccess.js");
 const dbBots = require("../../Database/dbBots.js");
 const dbBotStats = require("../../Database/dbBotStats.js");
@@ -7,6 +6,7 @@ const ErrorHandler = require("../../Helpers/ErrorHandler.js");
 const BotCollection = require("../../Helpers/BotCollection.js");
 const Messenger = require("../../Helpers/Messenger.js");
 const MessageHelpers = require("../../Helpers/MessageHelpers.js");
+const dbMarket = require("../../Database/dbMarket.js");
 const Card = require("../../Helpers/Card.js");
 
 const consola = require("consola");
@@ -50,6 +50,7 @@ module.exports = {
                     db: dbAccess,
                     dbBots: dbBots,
                     dbBotStats: dbBotStats,
+                    dbMarket: dbMarket,
                     consola: consola,
                     embed: sampleEmbed,
                     handler: ErrorHandler,
@@ -60,7 +61,7 @@ module.exports = {
                 });
             } catch(e) {
                 await ErrorHandler.handle(interaction, e);  
-            };
+            }
 
             //Update time since last command was performed
             if(user)

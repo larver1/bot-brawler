@@ -1,12 +1,11 @@
 const ErrorHandler = require("./ErrorHandler");
-const CardsView = require("./CardsView");
-const { Client, MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton, CommandInteraction } = require("discord.js");
-const fs = require('fs');
+const { MessageActionRow, MessageButton } = require("discord.js");
 const { v4: uuidv4 } = require('uuid');
 const EventEmitter = require('events');
 const consola = require("consola");
 const sampleEmbed = require("./sampleEmbed");
-
+const tickEmoji = "<a:tick:886245262169866260>";
+const crossEmoji = "<a:cross:886245292339515412>";
 
 module.exports = class MessageHelpers {
     constructor() {
@@ -18,6 +17,9 @@ module.exports = class MessageHelpers {
 
         let acceptId = uuidv4();
         let rejectId = uuidv4();
+
+        let files = [];
+        if(img) files = [img];
 
         if(msg.length <= 0) {
             let err = new Error(`The message given to MessageHelpers.confirmChoice() is empty.`);
@@ -33,12 +35,12 @@ module.exports = class MessageHelpers {
             new MessageButton()
                 .setCustomId(acceptId)
                 .setLabel('Accept')
-                .setEmoji(`✔`)
+                .setEmoji(`${tickEmoji}`)
                 .setStyle('SECONDARY'),
             new MessageButton()
                 .setCustomId(rejectId)
                 .setLabel('Reject')
-                .setEmoji('❌')
+                .setEmoji(`${crossEmoji}`)
                 .setStyle('SECONDARY')
         )
 
@@ -49,8 +51,8 @@ module.exports = class MessageHelpers {
             content: `${user}, please choose an option.`,
             embeds: [request],
             components: [choices],
-            files: [img]
-        });
+            files: files
+        }).catch((e) => consola.error(e));
 
         const filter = i => (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
         const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
@@ -77,7 +79,7 @@ module.exports = class MessageHelpers {
                 await interaction.editReply({
                     content: `${user} did not select an option in time.`,
                     components: []
-                 });
+                 }).catch((e) => consola.error(e));
             }
         });
 
@@ -99,7 +101,7 @@ module.exports = class MessageHelpers {
             pageList[page] += `${lines[line]}\n`;
 
             lineCount++;
-            if(lineCount > linesPerPage) {
+            if(lineCount >= linesPerPage) {
                 page++;
                 lineCount = 0;
                 pageList[page] = '';
@@ -130,7 +132,9 @@ module.exports = class MessageHelpers {
             .setTitle(`${config.title ? config.title : 'List'} Page [${page + 1}/${maxPages}]`)
             .setDescription(`${pageList[page]}`)
 
-        await interaction.editReply({ embeds: [display], components: [nextPage] });
+        await interaction.editReply({ 
+            embeds: [display], 
+            components: [nextPage] }).catch((e) => consola.error(e));
 
         if(!interaction.channel)
             await interaction.user.createDM();
@@ -155,14 +159,16 @@ module.exports = class MessageHelpers {
                 display.setTitle(`${config.title ? config.title : 'List'} Page [${page + 1}/${maxPages}]`)
                 display.setDescription(`${pageList[page]}`)
 
-				return interaction.editReply({ embeds: [display], components: [nextPage] }).catch(e => { consola.error(e)});
+				return interaction.editReply({ 
+                    embeds: [display], 
+                    components: [nextPage] }).catch(e => { consola.error(e)});
                 
 			}
 
         });
 
         collector.on('end', async() => {
-            await interaction.editReply({ components: [] }).catch(e => utils.consola.error(e));
+            await interaction.editReply({ components: [] }).catch(e => consola.error(e));
         });
 
     }
