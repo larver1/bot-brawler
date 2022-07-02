@@ -1,5 +1,4 @@
 const { MessageActionRow, MessageButton } = require('discord.js');
-const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 const clawEmoji = `<:claw:980019643458670633>`;
 const { promisify } = require('util');

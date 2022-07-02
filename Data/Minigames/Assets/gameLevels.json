@@ -80,5 +80,63 @@
                 "value": "Hard"
             }
         ]
+    },
+    "doll": {
+        "name": "Constant's Doll House",
+        "levels": [
+            {
+                "label": "Simple",
+                "value": "Simple"
+            },
+            {
+                "label": "Fussy",
+                "value": "Fussy"
+            },
+            {
+                "label": "Exquisite",
+                "value": "Exquisite"
+            }
+        ],
+        "difficulty": [
+            {
+                "label": "Easy",
+                "value": "Easy"
+            }, 
+            {
+                "label": "Normal",
+                "value": "Normal"
+            },
+            {
+                "label": "Hard",
+                "value": "Hard"
+            }
+        ]
+    },
+    "xo": {
+        "name": "Ransom Blue's Tic Tac Toe",
+        "levels": [
+            {
+                "label": "Regular",
+                "value": "Regular"
+            },
+            {
+                "label": "Ultimate",
+                "value": "Ultimate"
+            }
+        ],
+        "difficulty": [
+            {
+                "label": "Easy",
+                "value": "Easy"
+            }, 
+            {
+                "label": "Normal",
+                "value": "Normal"
+            },
+            {
+                "label": "Hard",
+                "value": "Hard"
+            }
+        ]
     }
 }

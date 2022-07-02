@@ -7,7 +7,6 @@ const fs = require('fs');
 const gameLevels = JSON.parse(fs.readFileSync('./Data/Minigames/Assets/gameLevels.json'));
 // Add every game to map so it can be executed
 glob.sync('./Data/Minigames/*.js').forEach(function(file) {
-    console.log("something happens");
     const game = require(path.resolve(file));
     GamesMap.set(game.name, game);
 });
@@ -28,6 +27,14 @@ module.exports = {
             {
                 name: "Bostrom's Claw Machine",
                 value: "claw",
+            },
+            {
+                name: "Constant's Doll House",
+                value: "doll",
+            },
+            {
+                name: "Ransom Blue's Tic Tac Toe",
+                value: "xo"
             }
         ]
     }],
