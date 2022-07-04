@@ -227,7 +227,7 @@ module.exports = {
 
         collector.on('end', async () => {
                         
-            let parts = (success / 10) + (turns * 2);
+            let parts = Math.ceil((success / 10) + ((turns + 1) * 2));
 
             switch(difficulty) {
                 case "Normal":

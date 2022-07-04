@@ -55,6 +55,10 @@ module.exports = (sequelize, DataTypes) => {
 		minigame: {
 			type: DataTypes.DATE,
 			allowNull: false
+		},
+		achievements: {
+			type: DataTypes.JSON,
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

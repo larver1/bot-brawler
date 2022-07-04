@@ -16,13 +16,14 @@ async function createUser(username){
         friends: "|",
         privacy: "public", 
         energy: 100,
-        balance: 0, 
         daily: new Date('January 10, 2022 03:24:00'), 
         spawn: new Date('January 10, 2022 03:24:00'),
         lastCommand: Date.now(),
         isBot: true,
         currentChallenge: "",
         challengesComplete: 0,
+        minigame: new Date('January 10, 2022 03:24:00'),
+        achievements: [{}]
     });
 
     let maxExp = Math.ceil(Math.random() * 100);
@@ -43,9 +44,9 @@ async function createManyUsers(numUsers) {
     }
 }
 
-createManyUsers(100);
+//createManyUsers(100);
 async function createOneUser(username) {
     await createUser(username);
 }
 
-//createOneUser(`Professor Diriski`);
+createOneUser(`Professor Diriski`);

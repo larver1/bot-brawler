@@ -67,7 +67,6 @@ module.exports = {
         let playX = 0;
         let playY = 0;
         let playerWon = false;
-        let draw = false;
         let turns = 0;
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == confirmId || i.customId == selectXId || i.customId == selectYId));

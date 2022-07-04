@@ -6,9 +6,7 @@ const GamesMap = new Map();
 const fs = require('fs');
 const gameLevels = JSON.parse(fs.readFileSync('./Data/Minigames/Assets/gameLevels.json'));
 const EventEmitter = require('events');
-
 const machinePartEmoji = "<:machine_parts:992728693799669801>";
-const energyEmoji = "<:energy_v1:993195219224903832>";
 
 // Add every game to map so it can be executed
 glob.sync('./Data/Minigames/*.js').forEach(function(file) {

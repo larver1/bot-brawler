@@ -79,6 +79,7 @@ module.exports = {
                                     isBot: false,
                                     currentChallenge: "",
                                     challengesComplete: 0,
+                                    achievements: [{}]
                                  })
         .catch(() => {
             let err = new Error(`A user with the name \`${username}\` already exists! Please try again.`);

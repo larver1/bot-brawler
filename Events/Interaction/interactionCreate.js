@@ -1,4 +1,5 @@
 const dbAccess = require("../../Database/dbAccess.js");
+const dbAchievements = require("../../Database/dbAchievements.js");
 const dbBots = require("../../Database/dbBots.js");
 const dbBotStats = require("../../Database/dbBotStats.js");
 const sampleEmbed = require("../../Helpers/sampleEmbed.js");
@@ -49,6 +50,7 @@ module.exports = {
                     client: client,
                     db: dbAccess,
                     dbBots: dbBots,
+                    dbAchievements: dbAchievements,
                     dbBotStats: dbBotStats,
                     dbMarket: dbMarket,
                     consola: consola,
