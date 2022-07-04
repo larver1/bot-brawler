@@ -1,3 +1,6 @@
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
+const energyEmoji = "<:energy_v1:993195219224903832>";
+
 module.exports = {
     name: "daily",
     description: "View your total number of Machine Parts.",
@@ -16,7 +19,7 @@ module.exports = {
         if(numHours < 24)
             return interaction.editReply({ embeds: [ 
                 new utils.embed(interaction, utils.user)
-                    .setDescription(`You cannot claim your daily rewards yet. You can claim 24 hours after your last claim.\n\n⏰ **${(24 - numHours).toFixed(2)} hours remaining**...`)] })
+                    .setDescription(`You cannot claim your daily rewards yet. You can claim 24 hours after your last claim.\n\n⏰ \`${(24 - numHours).toFixed(2)} hours remaining\`.`)] })
                         .catch((e) => utils.consola.error(e));
 
         //Daily command was successful
@@ -31,7 +34,7 @@ module.exports = {
         await interaction.editReply({ embeds: [ 
             new utils.embed(interaction, utils.user)
                 .setTitle(`${utils.user.username}, here are your daily rewards!`)
-                .setDescription(`\`x${numParts}\` Machine Parts!\n\`x${numEnergy}/100\` Energy!\nYou got new \`/train\` challenges!`)] })
+                .setDescription(`\`x${numParts}\` ${machinePartEmoji} Machine Parts!\n\`x${numEnergy}/100\` ${energyEmoji} Energy!\nYou got new \`/train\` challenges!`)] })
                     .catch((e) => utils.consola.error(e));
 
         //Adds correct number of parts

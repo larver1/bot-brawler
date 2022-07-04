@@ -1,4 +1,5 @@
 const BotCollection = require("../../Helpers/BotCollection");
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
 
 module.exports = {
     name: "userinfo",
@@ -53,7 +54,7 @@ module.exports = {
         });
 
         let userMsg = `__**${userToView.username}'s Profile**__\n\n`
-        userMsg += `Machine parts: \`${userToView.balance}\`\n\n`;
+        userMsg += `${machinePartEmoji} Machine parts: \`${userToView.balance}\`\n\n`;
 
         await collection.viewCollection(interaction, cardsPerPage, userMsg);
 

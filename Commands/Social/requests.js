@@ -1,5 +1,6 @@
 const BattleView = require("../../Helpers/BattleView");
 const Card = require("../../Helpers/Card");
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
 
 const wagers = {
     friendly: "nothing is at stake, the loser will not give the winner anything",
@@ -92,7 +93,7 @@ module.exports = {
                         sellingUser = otherUser;
                     }
 
-                    contentMsg += `\`x${msgContent[3]} Machine Parts\` for \`${sellingUser.username}'s ${sellingBot.name}\`.\n\n`;
+                    contentMsg += `\`x${msgContent[3]} ${machinePartEmoji} Machine Parts\` for \`${sellingUser.username}'s ${sellingBot.name}\`.\n\n`;
                 } else if(message.message_type == "friend") {
                     contentMsg += `Friend Request from \`${message.sender_username}\` 😄\n`;
                 }
@@ -165,7 +166,7 @@ module.exports = {
                 if(!await card.createCard())
                     return;
 
-                msgContent += `**__${sellingUser.username}'s ${sellingBot.name} for ${details[3]} Machine Parts!__**\n\n`;
+                msgContent += `**__${sellingUser.username}'s ${sellingBot.name} for x${details[3]} ${machinePartEmoji} Machine Parts!__**\n\n`;
                 msgContent += `The buyer (${buyingUser.username}) will pay the seller (${sellingUser.username}) ${details[3]} Machine Parts for their ${sellingBot.name}.\n\n`;
                 msgContent += `To accept: \`/trade accept ${msg.message_number}\`\nTo reject: \`/trade reject ${msg.message_number}\``;
 

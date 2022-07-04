@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 
 module.exports = {
     name: "date",
-    async execute(interaction, utils, level, difficulty) {
+    async execute(interaction, utils, level, difficulty, finishedEvent) {
 
         // Pick a bot
         let partner = bots[Math.floor(Math.random() * bots.length)];
@@ -178,7 +178,7 @@ module.exports = {
                         msg = `You grabbed ${partner.name}'s attention.\n${partner.name} ${dateBehaviour[chosenBehaviour]["high"]}`;
                         chosenBehaviour = null;
                     } else {
-                        msg = `${partner.name} isn't paying any attention to notice your ${choice}.\n\n${partner.name} ${dateBehaviour[chosenBehaviour]["low"]}`;
+                        msg = `It seems that ${choice}ing will not get their attention...\n\n${partner.name} ${dateBehaviour[chosenBehaviour]["low"]}`;
                     }
                 } else if(i2.customId != cancelId) {
 
@@ -213,8 +213,8 @@ module.exports = {
 
                 // Date is over
                 if(turns <= 0 || success >= 100 || success <= 0) {
-                    collector.emit('end');
                     timedOut = false;
+                    collector.emit('end');
                     return;
                 }
 
@@ -226,17 +226,25 @@ module.exports = {
         });
 
         collector.on('end', async () => {
-            
-            if(timedOut) {
-                Date.setDescription(`Your date got bored and left...`);
-                Date.setImage();
-            } else {
-                Date.setDescription(`Date Success: \`${Math.max(Math.min(success, 100), 0)}%\`\nTime remaining: \`${turns} turns\``)
+                        
+            let parts = (success / 10) + (turns * 2);
+
+            switch(difficulty) {
+                case "Normal":
+                    parts *= 2;
+                    break;
+                case "Hard":
+                    parts *= 3;
+                    break;
+                default:
+                    break;
             }
-            Date.setTitle(`Date Over!`)
-            
-            return interaction.editReply({ embeds: [Date], components: [] })
-                .catch((e) => utils.consola.error(e)); 
+
+            if(timedOut) {
+                parts = 0;
+            }
+
+            finishedEvent.emit('finished', parts);
         });
 
     }

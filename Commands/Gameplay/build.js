@@ -1,5 +1,7 @@
 const BotBuilder = require("../../Helpers/BotBuilder");
 const BotObj = require("../../Data/Bots/BotObj");
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
+const energyEmoji = "<:energy_v1:993195219224903832>";
 
 module.exports = {
     name: "build",
@@ -49,18 +51,18 @@ module.exports = {
                 break;
         }
 
-        await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost} Machine Parts\`\n\`x${energyCost} Energy\`?`);
+        await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost} ${machinePartEmoji} Machine Parts\`\n\`x${energyCost} ${energyEmoji} Energy\`?`);
 
         utils.messageHelper.replyEvent.on(`accepted`, async () => {
             
             // Not enough energy
             if(utils.user.energy < energyCost) {
-                return utils.handler.info(interaction, new Error(`You don't have enough Energy to do this. Try out \`/daily\` to get more.`));
+                return utils.handler.info(interaction, new Error(`You don't have enough ${energyEmoji} Energy to do this. Try out \`/daily\` to get more.`));
             }
 
             // Not enough parts
             if(utils.user.balance < moneyCost) {
-                return utils.handler.info(interaction, new Error(`You don't have enough Machine Parts to do this. Try out \`/daily\` to get more.`));
+                return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this. Try out \`/daily\` to get more.`));
             }
             
             // Displays amount of money

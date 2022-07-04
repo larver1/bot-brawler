@@ -63,7 +63,7 @@ const parts = {
 
 module.exports = {
     name: "doll",
-    async execute(interaction, utils, level, difficulty) {
+    async execute(interaction, utils, level, difficulty, finishedEvent) {
 
         let chosenHead = Math.ceil(Math.random() * 3);
         let chosenBody = Math.ceil(Math.random() * 3);
@@ -230,15 +230,31 @@ module.exports = {
                 finalScore -= stats[prohibitedRequirement];
             finalScore *= 10;
 
-            Start.setTitle(`Doll completed!`);
-            Start.setDescription(`Final score: \`${finalScore}\`\nTurns left: \`${turns}\``);
+            let parts = (finalScore / 50) + (turns * 2);
 
-            await interaction.editReply({ 
-                content: ` `,
-                embeds: [Start],
-                files: [doll.getImage()],
-                components: []
-            }).catch((e) => utils.consola.error(e));
+            switch(difficulty) {
+                case "Normal":
+                    parts *= 2;
+                    break;
+                case "Hard":
+                    parts *= 3;
+                    break;
+                default:
+                    break;
+            }
+
+            switch(level) {
+                case "Fussy":
+                    parts *= 2;
+                    break;
+                case "Exquisite":
+                    parts *= 3;
+                    break;
+                default:
+                    break;
+            }
+
+            finishedEvent.emit('finished', parts);
         });
 
     },

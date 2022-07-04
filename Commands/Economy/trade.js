@@ -1,5 +1,6 @@
 const BotCollection = require("../../Helpers/BotCollection");
 const Card = require("../../Helpers/Card");
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
 
 async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, moneyOffered) {
 
@@ -23,7 +24,7 @@ async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, mo
     // Display confirmation message
     await interaction.editReply({ 
         files: [yourCard.getCard()], 
-        content: `\`${sellingUser.username}'s ${sellingBot.name}\` has been sold to \`${buyingUser.username} for ${moneyOffered}x\` Machine Parts!`,
+        content: `\`${sellingUser.username}'s ${sellingBot.name}\` has been sold to \`${buyingUser.username} for ${moneyOffered}x\` ${machinePartEmoji} Machine Parts!`,
         embeds: [],
         components: []
     }).catch((e) => utils.consola.error(e));
@@ -173,7 +174,7 @@ module.exports = {
             let userToSend = await utils.client.users.fetch(otherUser.user_id);
 
             await userToSend.send({
-                content: `Trade accepted: ${sellingUser.username}'s ${sellingBot.name} was traded to ${buyingUser.username} for x${amount} Machine Parts!`,
+                content: `Trade accepted: ${sellingUser.username}'s ${sellingBot.name} was traded to ${buyingUser.username} for x${amount} ${machinePartEmoji} Machine Parts!`,
                 files: [card.getCard()] })
             .catch(() => {
                 return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
@@ -268,7 +269,7 @@ module.exports = {
                 return;
             } else if(subCommand == "user") {
 
-                await utils.messageHelper.confirmChoice(interaction, userSubCommand, `\`${sellingUser.username}'s ${yourBot.name}\` for \`x${amount} Machine Parts\`\n\n${userSubCommand}, you accept this Trade Request from ${interaction.user}?`, yourCard.getCard());
+                await utils.messageHelper.confirmChoice(interaction, userSubCommand, `\`${sellingUser.username}'s ${yourBot.name}\` for \`x${amount} ${machinePartEmoji} Machine Parts\`\n\n${userSubCommand}, you accept this Trade Request from ${interaction.user}?`, yourCard.getCard());
 
                 // If other user accepts
                 utils.messageHelper.replyEvent.on(`accepted`, async () => {

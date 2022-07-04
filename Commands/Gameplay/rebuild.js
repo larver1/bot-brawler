@@ -1,3 +1,6 @@
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
+const energyEmoji = "<:energy_v1:993195219224903832>";
+
 module.exports = {
     name: "rebuild",
     description: "Rebuild a destroyed Battle Bot.",
@@ -28,17 +31,17 @@ module.exports = {
             if(!await deadCard.createCard())
                 return;
 
-            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost} Machine Parts\` and \`x${energyCost} Energy\`?`, deadCard.getCard());
+            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost} ${machinePartEmoji} Machine Parts\` and \`x${energyCost} Energy\`?`, deadCard.getCard());
             utils.messageHelper.replyEvent.on(`accepted`, async() => {
                 
                 // Not enough energy
                 if(utils.user.energy < energyCost) {
-                    return utils.handler.info(interaction, new Error(`You don't have enough Energy to do this...`));
+                    return utils.handler.info(interaction, new Error(`You don't have enough ${energyEmoji} Energy to do this...`));
                 }
 
                 // Not enough parts
                 if(utils.user.balance < moneyCost) {
-                    return utils.handler.info(interaction, new Error(`You don't have enough Machine Parts to do this...`));
+                    return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this...`));
                 }
 
                 //Removes correct number of parts
@@ -57,7 +60,7 @@ module.exports = {
 
                 await interaction.editReply({ 
                     files: [card.getCard()], 
-                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost} Machine Parts\` and \`x${energyCost} Energy\``,
+                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost} ${machinePartEmoji} Machine Parts\` and \`x${energyCost} ${energyEmoji} Energy\``,
                     embeds: [],
                     components: []
                  }).catch(e => utils.consola.error(e));

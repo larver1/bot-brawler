@@ -5,14 +5,14 @@ const { promisify } = require('util');
 const sleep = promisify(setTimeout);
 
 const prizes = {
-    "t1": 100,
-    "t2": 250,
-    "t3": 500
+    "t1": 50,
+    "t2": 125,
+    "t3": 250
 }
 
 module.exports = {
     name: "claw",
-    async execute(interaction, utils, level, difficulty) {
+    async execute(interaction, utils, level, difficulty, finishedEvent) {
 
         let gridX = 5;
         let gridY = 5;
@@ -174,14 +174,21 @@ module.exports = {
 
         collector.on('end', async () => {
 
-            Status.setTitle(`Game over!`)
-            Status.setDescription(`**__Score:__** \`${score}\`\n**__Turns left__**: \`${turns}\``)
+            let parts = (score / 10) + (turns * 2);
 
-            await interaction.editReply({ 
-                content: ' ',
-                components: [],
-                embeds: [Status]
-            }).catch((e) => utils.consola.error(e));
+            switch(difficulty) {
+                case "Normal":
+                    parts *= 2;
+                    break;
+                case "Hard":
+                    parts *= 3;
+                    break;
+                default:
+                    break;
+            }
+
+            finishedEvent.emit('finished', parts);
+
         });
 
     },

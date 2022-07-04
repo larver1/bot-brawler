@@ -2,6 +2,7 @@ const powerEmoji = `<:power:965731751009849406>`;
 const lifespanEmoji = `<:lifespan:965731750510727228>`;
 const viralEmoji = `<:Viral_v1:965943499801382983>`;
 const firewallEmoji = `<:firewall:965731750795935844>`;
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
 
 module.exports = {
     name: "market",
@@ -225,10 +226,10 @@ module.exports = {
             await collection.inspectCollection(interaction, 1);
             collection.selectedEvent.on(`selected`, async () => {
                 
-                await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to buy ${collection.selected.name} for \`x${collection.selected.price}\` Machine Parts?`);
+                await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to buy ${collection.selected.name} for \`x${collection.selected.price}\` ${machinePartEmoji} Machine Parts?`);
                 utils.messageHelper.replyEvent.on(`accepted`, async () => {
                     if(utils.user.balance < collection.selected.price) {
-                        return utils.handler.info(interaction, new Error(`You don't have enough Machine Parts to do this. Try out \`/daily\` to get more.`));
+                        return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this. Try out \`/daily\` to get more.`));
                     }
 
                     const card = await new utils.card(interaction, collection.selected);

@@ -5,6 +5,11 @@ const { v4: uuidv4 } = require('uuid');
 const GamesMap = new Map();
 const fs = require('fs');
 const gameLevels = JSON.parse(fs.readFileSync('./Data/Minigames/Assets/gameLevels.json'));
+const EventEmitter = require('events');
+
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
+const energyEmoji = "<:energy_v1:993195219224903832>";
+
 // Add every game to map so it can be executed
 glob.sync('./Data/Minigames/*.js').forEach(function(file) {
     const game = require(path.resolve(file));
@@ -35,6 +40,10 @@ module.exports = {
             {
                 name: "Ransom Blue's Tic Tac Toe",
                 value: "xo"
+            },
+            {
+                name: "Trojo's Slot Machine",
+                value: "slots"
             }
         ]
     }],
@@ -53,6 +62,12 @@ module.exports = {
             return;
         }
 
+        if(utils.user.energy < 5) {
+            let err = new Error(`You do not have enough energy to play a minigame. Refresh using \`/daily\`.`);
+            await utils.handler.info(err);
+            return;
+        }
+
         let levels = gameLevels[gameName]["levels"];
         let difficulties = gameLevels[gameName]["difficulty"];
         let chosenLevel = null;
@@ -62,6 +77,7 @@ module.exports = {
         let difficultyId = uuidv4();
         let playId = uuidv4();
         let cancelId = uuidv4();
+        let finishedEvent = new EventEmitter();
         
         // Get user to choose level and difficulty
         const levelSelect = new MessageActionRow()
@@ -92,6 +108,9 @@ module.exports = {
                     .setStyle('DANGER')
             )
 
+        const finishEmbed = new utils.embed(interaction, utils.user)
+                .setTitle(`Game Over!`)
+
         if(!interaction.channel)
             await interaction.user.createDM();     
         
@@ -116,7 +135,7 @@ module.exports = {
                     break;
                 case playId:
                     collector.emit('end');
-                    await gameToPlay.execute(interaction, utils, chosenLevel, chosenDifficulty);
+                    await gameToPlay.execute(interaction, utils, chosenLevel, chosenDifficulty, finishedEvent);
                     break;
                 case cancelId:
                     collector.emit('end');
@@ -125,6 +144,32 @@ module.exports = {
                         components: [] });
                     break;
             }
+
+            // When game is finished, add parts
+            finishedEvent.on('finished', async (parts) => {
+
+                const minutesDiff = parseInt(Math.abs(utils.user.minigame - Date.now()) / (1000 * 60) % 60);
+
+                // Only give parts if it has been 10 minutes
+                if(minutesDiff < 10) {
+                    finishEmbed.setDescription(`You cannot earn any ${machinePartEmoji} from minigames for ⏰ \`${10 - minutesDiff} minutes\`.`)
+                } else {
+                    finishEmbed.setDescription(`You got: \`x${parts}\``)
+                    if(!await utils.db.add(interaction, "balance", parts))
+                        return;
+                    if(!await utils.db.add(interaction, "minigame"))
+                        return;
+                }
+ 
+                // Display ending message
+                await interaction.editReply({
+                    embeds: [finishEmbed],
+                    components: [],
+                    content: ' ',
+                    files: []
+                });
+
+            });
 
         });
 

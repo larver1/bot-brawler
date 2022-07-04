@@ -118,10 +118,37 @@
             {
                 "label": "Regular",
                 "value": "Regular"
+            }
+        ],
+        "difficulty": [
+            {
+                "label": "Easy",
+                "value": "Easy"
+            }, 
+            {
+                "label": "Normal",
+                "value": "Normal"
             },
             {
-                "label": "Ultimate",
-                "value": "Ultimate"
+                "label": "Hard",
+                "value": "Hard"
+            }
+        ]
+    },
+    "slots": {
+        "name": "Trojo's Slot Machine",
+        "levels": [
+            {
+                "label": "3 Rows",
+                "value": "3 Rows"
+            },
+            {
+                "label": "5 Rows",
+                "value": "5 Rows"
+            },
+            {
+                "label": "7 Rows",
+                "value": "7 Rows"
             }
         ],
         "difficulty": [

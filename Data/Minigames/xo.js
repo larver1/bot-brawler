@@ -5,8 +5,7 @@ const sleep = promisify(setTimeout);
 
 module.exports = {
     name: "xo",
-    async execute(interaction, utils, level, difficulty) {
-        console.log("xo game");
+    async execute(interaction, utils, level, difficulty, finishedEvent) {
         let gridX = 3;
         let gridY = 3;
         let selectXId = uuidv4();
@@ -49,15 +48,26 @@ module.exports = {
                 .setStyle('SUCCESS'),
         )
 
+        // Enemy goes first
+        if(difficulty == "Hard") {
+            let otherPlay = await this.enemyMove(grid, gridX, gridY, difficulty);
+
+            grid[otherPlay.y][otherPlay.x] = 'o';
+            msg = this.makeGrid(grid);
+            Status.setDescription(`The opponent went first!\n\nPick an X and Y co-ordinate, and press confirm.`)
+
+        }
+
         await interaction.editReply({
             content: msg,
             components: [SelectX, SelectY, confirmButton],
             embeds: [Status]
-        }).catch((e) => console.log(e));
+        }).catch(e => utils.consola.error(e));
 
         let playX = 0;
         let playY = 0;
         let playerWon = false;
+        let draw = false;
         let turns = 0;
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == confirmId || i.customId == selectXId || i.customId == selectYId));
@@ -68,14 +78,19 @@ module.exports = {
 
             switch(i.customId) {
                 case selectXId:
-                    playX = i.values;
+                    playX = parseInt(i.values[0]);
                     return;
                 case selectYId:
-                    playY = i.values;
+                    playY = parseInt(i.values[0]);
                     return;
                 case confirmId:
-                    if(grid[playY][playX] != '-')
+                    // Cannot pick same grid space twice
+                    if(grid[playY][playX] != '-') {
+                        Status.setDescription(`That spot has already been played!\nPick an X and Y co-ordinate, and press confirm.`);
+                        await interaction.editReply({ embeds: [Status]})
+                            .catch(e => utils.consola.error(e));
                         return;
+                    }
                     grid[playY][playX] = 'x';
                     break;
             }
@@ -92,19 +107,23 @@ module.exports = {
                 return;
             }
 
-            playX = 0;
-            playY = 0;
+            // If draw
+            if(((difficulty == "Normal" || difficulty == "Easy") && turns >= 5) || (difficulty == "Hard" && turns >= 4)) {
+                draw = true;
+                collector.emit(`end`);
+                return;
+            }
 
-            Status.setDescription(`You picked [${playX + 1}, ${playY + 1}]\nNow for the opponent's turn`);
+            Status.setDescription(`You picked [${playX + 1}, ${playY + 1}]\nThe opponent is thinking...`);
 
             await interaction.editReply({
                 content: msg,
                 components: [],
                 embeds: [Status]
-            }).catch((e) => console.log(e));
+            }).catch(e => utils.consola.error(e));
 
             // Other player finds a random move
-            let otherPlay = this.enemyMove(grid, gridX, gridY);
+            let otherPlay = await this.enemyMove(grid, gridX, gridY, difficulty);
 
             await sleep(5000);
             grid[otherPlay.y][otherPlay.x] = 'o';
@@ -124,23 +143,38 @@ module.exports = {
                 content: msg,
                 components: [SelectX, SelectY, confirmButton],
                 embeds: [Status]
-            }).catch((e) => console.log(e));
+            }).catch(e => utils.consola.error(e));
 
         });
 
         collector.on('end', async () => {
 
             Status.setTitle(`Game Over!`)
-            if(playerWon)
-                Status.setDescription(`You won!\nTurns: \`${turns}\``)
-            else
-                Status.setDescription(`You lost...\nTurns: \`${turns}\``)
-            
+
             await interaction.editReply({
                 content: msg,
                 components: [],
                 embeds: [Status]
-            }).catch((e) => console.log(e));
+            }).catch(e => utils.consola.error(e));
+
+            // Return amount of parts
+            let parts = turns * 5;
+            switch(difficulty) {
+                case "Normal":
+                    parts *= 2;
+                    break;
+                case "Hard":
+                    parts *= 3;
+                    break;
+                default:
+                    break;
+            }
+
+            if(!playerWon)
+                parts = 0;
+
+            finishedEvent.emit('finished', parts);
+
         });
 
     },
@@ -298,30 +332,26 @@ module.exports = {
 
         return true;
     },
-    enemyMove(grid, gridX, gridY) {
+    async enemyMove(grid, gridX, gridY, difficulty) {
         let newGrid = this.copyGrid(grid);
 
         // Make a move with random and minimax
-        let move = this.randomMove(newGrid, gridX, gridY);
+        let move;
+        let minimaxScore = await this.minimax('x', newGrid, gridX, gridY, 0);
 
-        let minimaxScore = this.minimax('x', newGrid, gridX, gridY, 0);
-
-        if(minimaxScore.moveX != -1 && minimaxScore.moveY != -1) {
+        if(minimaxScore.moveX != -1 && minimaxScore.moveY != -1 && difficulty != "Easy") {
             move.x = minimaxScore.moveX;
             move.y = minimaxScore.moveY;
         } else {
-            console.log("resorting to random");
+            move = this.randomMove(newGrid, gridX, gridY)
         }
 
         return move;
     },
-    minimax(player, grid, gridX, gridY, depth) {
+    async minimax(player, grid, gridX, gridY, depth) {
       
-        console.log(grid);
         let checkWon = this.checkWonAll(grid, player, gridX, gridY);
         let checkOtherWon = this.checkWonAll(grid, player == 'x' ? 'o' : 'x', gridX, gridY);
-        console.log(`${player} won: ` + checkWon);
-        console.log(`other won: ` + checkOtherWon + "\n\n");
 
         let moveX = -1;
         let moveY = -1;
@@ -360,7 +390,6 @@ module.exports = {
                 moveY: -1 
             };
 
-        console.log(`score: ${score}\nmoveX: ${moveX}\nmoveY: ${moveY}\n`)
         return {
             score: score,
             moveX: moveX,

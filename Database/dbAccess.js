@@ -91,6 +91,8 @@ module.exports = class dbAccess
 				return user.username;
 			case "lastCommand":
 				return this.getTimeSince(user.lastCommand);
+			case "minigame":
+				return this.getTimeSince(user.minigame);
 			case "currentChallenge":
 				if(!user.currentChallenge)
 					return;
@@ -112,6 +114,9 @@ module.exports = class dbAccess
 		switch(type) {
 			case "lastCommand":
 				user.lastCommand = Date.now();
+				break;
+			case "minigame":
+				user.minigame = Date.now();
 				break;
 			case "challengesComplete":
 				if(user.challengesComplete >= 5) {

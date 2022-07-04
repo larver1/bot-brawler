@@ -74,6 +74,7 @@ module.exports = {
                                     energy: 100,
                                     daily: new Date('January 10, 2022 03:24:00'), 
                                     spawn: new Date('January 10, 2022 03:24:00'),
+                                    minigame: new Date('January 10, 2022 03:24:00'),
                                     lastCommand: Date.now(),
                                     isBot: false,
                                     currentChallenge: "",
