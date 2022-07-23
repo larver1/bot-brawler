@@ -228,6 +228,7 @@ module.exports = {
         collector.on('end', async () => {
                         
             let parts = Math.ceil((success / 10) + ((turns + 1) * 2));
+            let won = success < 40 ? false : true;
 
             switch(difficulty) {
                 case "Normal":
@@ -244,7 +245,11 @@ module.exports = {
                 parts = 0;
             }
 
-            finishedEvent.emit('finished', parts);
+            if(success >= 100)
+                await utils.dbAchievements.checkTask(interaction, utils.user.username, "Get Lucky");
+
+
+            finishedEvent.emit('finished', { parts: parts, won: won });
         });
 
     }

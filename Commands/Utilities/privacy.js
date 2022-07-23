@@ -59,14 +59,19 @@ module.exports = {
                         .catch((e) => utils.consola.error(e));
 
         //Cancel if privacy level is the same
-        if(privacyLevel == utils.user.privacy)
+        if(privacyLevel == utils.user.privacy)  {
+            await utils.user.pause(false); 
             return utils.handler.info(interaction, new Error(`Your privacy setting is already set to \`${utils.user.privacy}\`.\n${privacySettings[utils.user.privacy]}`)); 
+        }
 
         //Change the privacy level
-        if(!await utils.db.add(interaction, "privacy", privacyLevel))
+        if(!await utils.db.add(interaction, "privacy", privacyLevel)) {
+            await utils.user.pause(false); 
             return;
+        }
 
         //Display changed privacy level
+        await utils.user.pause(false);     
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, utils.user)
                 .setTitle(`${utils.user.username}'s Privacy Settings`)

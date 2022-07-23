@@ -23,7 +23,8 @@ async function createUser(username){
         currentChallenge: "",
         challengesComplete: 0,
         minigame: new Date('January 10, 2022 03:24:00'),
-        achievements: [{}]
+        achievements: [{}],
+        tasks: [{}]
     });
 
     let maxExp = Math.ceil(Math.random() * 100);

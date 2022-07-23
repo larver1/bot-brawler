@@ -77,8 +77,10 @@ module.exports = {
         let bots = await utils.user.getBots();
         let collection = await new BotCollection(bots, interaction);
 
-        if(!collection)
+        if(!collection) {
+            await utils.user.pause(false);
             return;
+        } 
 
         //Filter parameters
         collection.filterCollection({
@@ -101,8 +103,10 @@ module.exports = {
             let yourBot = collection.selected;
             console.log(yourBot);
 
-            if(!await utils.dbBots.changeChip(interaction, yourBot.botObj.bot_id, chipType))
+            if(!await utils.dbBots.changeChip(interaction, yourBot.botObj.bot_id, chipType)) {
+                await utils.user.pause(false);
                 return;
+            } 
 
             yourBot.item = chipType;
             yourBot.investStats();
@@ -110,8 +114,10 @@ module.exports = {
 
             const yourCard = await new utils.card(interaction, yourBot);
 
-            if(!await yourCard.createCard())
+            if(!await yourCard.createCard()) {
+                await utils.user.pause(false);
                 return;
+            } 
 
             await interaction.editReply({ content: `${yourBot.bot_type} changed to the ${chipType} chip!`, files: [yourCard.getCard()] })
                 .catch(e => utils.consola.error(e));

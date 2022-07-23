@@ -70,8 +70,10 @@ module.exports = {
         collection.selectedEvent.on(`selected`, async () => {
             const card = await new utils.card(interaction, collection.selected);
             
-            if(!await card.createCard())
+            if(!await card.createCard())  {
+                await utils.user.pause(false);
                 return;
+            } 
 
             let msg = `*${collection.selected.obj.ability}:* ${collection.selected.obj.abilityDescription}`;
 
@@ -84,10 +86,13 @@ module.exports = {
             if(collection.selected.botObj.firewallBoost > 0)
                 msg += `\nBonus Firewall: ${collection.selected.botObj.firewallBoost}`;
 
+            await utils.user.pause(false);
             await interaction.editReply({ 
                 files: [card.getCard()],
                 content: msg })
             .catch(e => utils.consola.error(e));
+
+            return;
 
         });
 

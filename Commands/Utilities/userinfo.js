@@ -42,8 +42,10 @@ module.exports = {
             userToView = await utils.db.findUsername(interaction, await interaction.options.getString("username"));
         }
 
-        if(!userToView)
+        if(!userToView) {
+            await utils.user.pause(false); 
             return;
+        }
 
         // Sort card collection by EXP, and take first 5
         let cardsPerPage = 5;
@@ -57,6 +59,7 @@ module.exports = {
         userMsg += `${machinePartEmoji} Machine parts: \`${userToView.balance}\`\n\n`;
 
         await collection.viewCollection(interaction, cardsPerPage, userMsg);
+        await utils.user.pause(false);     
 
     }
 }

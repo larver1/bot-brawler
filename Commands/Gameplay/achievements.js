@@ -23,8 +23,6 @@ module.exports = {
             });
         }
 
-        await utils.dbAchievements.editAchievement(interaction, utils.username, "Conqueror", 5);
-
         let listId = uuidv4();
         const list = new MessageActionRow()
             .addComponents(
@@ -52,11 +50,14 @@ module.exports = {
                 .catch(e => utils.consola.error(e));
 
             selectedAchievement = achievementData[parseInt(i.values)];
-            
+            let userAchievementData = await utils.dbAchievements.findAchievement(interaction, utils.user.username, selectedAchievement.name);
+            console.log(userAchievementData);
+
             // Update current description information
             let descriptionMsg = `*${selectedAchievement.description}*\n\n`;
-            for(const desc of selectedAchievement.values) {
-                descriptionMsg += `❌\t${desc[1]}\n`
+            for(let i = 0; i < selectedAchievement.values.length; i++) {
+                let task = selectedAchievement.values[i];
+                descriptionMsg += `${userAchievementData[i].completed ? '✅' : '❌'}\t${task[1]}\n`;
             }
 
             information.setTitle(`Achievement Progress: ${selectedAchievement.name}`)
@@ -66,6 +67,9 @@ module.exports = {
             await interaction.editReply({
                 embeds: [information]
             }).catch((e) => utils.consola.error(e));
+            
+            await utils.user.pause(false);
+            return;
 
         });
 

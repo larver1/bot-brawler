@@ -4,7 +4,7 @@ const consola = require("consola");
 const sampleEmbed = require("../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
 
-module.exports = class dbBots
+module.exports = class dbBotStats
 {
     static async findBot(interaction, botName) {
 		const user = await BotStats.findOne({ where: { bot_type: botName } });

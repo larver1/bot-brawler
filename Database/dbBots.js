@@ -3,6 +3,7 @@ const ErrorHandler = require("../Helpers/ErrorHandler.js");
 const BotObj = require("../Data/Bots/BotObj");
 const Messenger = require("../Helpers/Messenger.js");
 const db = require("../Database/dbAccess.js");
+const dbAchievements = require("../Database/dbAchievements.js");
 
 module.exports = class dbBots
 {
@@ -97,8 +98,44 @@ module.exports = class dbBots
         const newObj = await this.findBotObj(interaction, botID);
         if(newObj.findLevel() > oldObj.findLevel()) {
             await this.cancelRequests(interaction, botID);
-        }
+        
+            // Check for achievement progress
+            let newColour = newObj.findColour();
+            const user = await dbAchievements.findUsername(interaction, newObj.owner_username);
+            if(!user)
+                return;
 
+            // Find achievement that applies
+            let achievementIndex = 0;
+            switch(newColour.name) {
+                case "TESTING:3":
+                case "TESTING:2":
+                case "TESTING:1":
+                    achievementIndex = 1;
+                    break;
+                case "ALPHA:3":
+                case "ALPHA:2":
+                case "ALPHA:1":
+                    achievementIndex = 2;
+                    break;
+                case "BETA:3":
+                case "BETA:2":
+                case "BETA:1":
+                    achievementIndex = 3;
+                    break;
+                case "COMPLETE:3":
+                case "COMPLETE:2":
+                case "COMPLETE:1":
+                    achievementIndex = 4;
+                    break;            
+                default:
+                    return true;
+            }
+
+            // Update achievement data
+            if(!await dbAchievements.editAchievement(interaction, user.username, "Conqueror", 1, achievementIndex));
+                return true;
+        }
 
         return true;
 
@@ -148,6 +185,16 @@ module.exports = class dbBots
         }    
 
         bot.owner_username = newName || "market";
+
+        // Apply achievements
+        if(!market) {
+            await dbAchievements.editAchievement(interaction, user.username, "Collector", bot.bot_type);
+            if(bot.goldPlated)
+                await dbAchievements.editAchievement(interaction, user.username, "Collector", bot.bot_type);
+            if(parseInt(bot.model_no.slice(2, bot.model_no.length)) <= 100) 
+                await dbAchievements.editAchievement(interaction, user.username, "Antique Collector", bot.bot_type);    
+        }
+
         await bot.save();
 
         return true;
@@ -238,7 +285,7 @@ module.exports = class dbBots
         }
 
         // Find all requests that involves the bot and delete them
-        let inbox = await Messenger.readAllMessages(interaction, user, null, null, true);
+        let inbox = await Messenger.readAllMessages(interaction, user, null, null, true, true);
         if(!inbox)
             return
         

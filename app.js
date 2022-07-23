@@ -1,7 +1,7 @@
 const { Client, Collection, Intents } = require("discord.js");
 const { token } = require("./config.json");
 
-//Create discord client
+// Create discord client
 const client = new Client({ intents: [
     Intents.FLAGS.GUILDS, 
     Intents.FLAGS.GUILD_MESSAGES, 
@@ -10,7 +10,7 @@ const client = new Client({ intents: [
 ]});
 client.commands = new Collection();
 
-//Setup handlers
+// Setup handlers
 require("./Database/dbStatus")(client);
 require("./Handlers/Events")(client);
 require("./Handlers/Commands")(client);

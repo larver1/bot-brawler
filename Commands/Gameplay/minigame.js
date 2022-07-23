@@ -56,12 +56,14 @@ module.exports = {
 
         if(!gameToPlay) {
             let err = new Error(`The game with name ${gameName} does not exist!`);
-            await utils.handler.handle(err);
+            await utils.handler.handle(err);  
+            await utils.user.pause(false); 
             return;
         }
 
         if(utils.user.energy < 5) {
             let err = new Error(`You do not have enough energy to play a minigame. Refresh using \`/daily\`.`);
+            await utils.user.pause(false); 
             await utils.handler.info(err);
             return;
         }
@@ -126,13 +128,15 @@ module.exports = {
 
             switch(i.customId) {
                 case levelId:
-                    chosenLevel = i.values;
+                    chosenLevel = i.values[0];
                     break;
                 case difficultyId:
                     chosenDifficulty = i.values[0];
                     break;
                 case playId:
                     collector.emit('end');
+                    if(!chosenDifficulty)
+                        chosenDifficulty = "Normal";
                     await gameToPlay.execute(interaction, utils, chosenLevel, chosenDifficulty, finishedEvent);
                     break;
                 case cancelId:
@@ -143,30 +147,57 @@ module.exports = {
                     break;
             }
 
-            // When game is finished, add parts
-            finishedEvent.on('finished', async (parts) => {
+        });
 
-                const minutesDiff = parseInt(Math.abs(utils.user.minigame - Date.now()) / (1000 * 60) % 60);
+        // When game is finished, add parts
+        finishedEvent.once('finished', async (info) => {        
+            
+            const minutesDiff = parseInt(Math.abs(utils.user.minigame - Date.now()) / (1000 * 60) % 60);
 
-                // Only give parts if it has been 10 minutes
-                if(minutesDiff < 10) {
-                    finishEmbed.setDescription(`You cannot earn any ${machinePartEmoji} from minigames for ⏰ \`${10 - minutesDiff} minutes\`.`)
-                } else {
-                    finishEmbed.setDescription(`You got: \`x${parts}\``)
-                    if(!await utils.db.add(interaction, "balance", parts))
-                        return;
-                    if(!await utils.db.add(interaction, "minigame"))
-                        return;
+            // Only give parts if it has been 10 minutes
+            if(minutesDiff < 10) {
+                finishEmbed.setDescription(`You ${info.won ? "won!" : "lost!"}\nYou cannot earn any ${machinePartEmoji} from minigames for ⏰ \`${10 - minutesDiff} minutes\`.`)
+            } else {
+                finishEmbed.setDescription(`You ${info.won ? "won!" : "lost!"}\nYou got: \`x${info.parts}\` ${machinePartEmoji} Machine Parts!`)
+                if(!await utils.db.add(interaction, "minigame")) {
+                    await utils.user.pause(false); 
+                    return;
                 }
- 
-                // Display ending message
-                await interaction.editReply({
-                    embeds: [finishEmbed],
-                    components: [],
-                    content: ' ',
-                    files: []
-                });
+                if(info.parts > 0) {
+                    if(!await utils.db.add(interaction, "balance", info.parts)) {
+                        await utils.user.pause(false);
+                        return;
+                    } 
+                }
 
+            }
+
+            // Add achievement
+            let achievementIndex = 0;
+            switch(chosenDifficulty) {
+                case "Easy":
+                    achievementIndex = 1;
+                    break;
+                case "Normal":
+                    achievementIndex = 2;
+                    break;
+                case "Hard":
+                    achievementIndex = 3;
+                    break;
+                default:
+                    achievementIndex = 2;
+                    break;
+            }
+
+            await utils.dbAchievements.editAchievement(interaction, utils.username, "Arcade Enthusiast", gameName, achievementIndex);
+            await utils.user.pause(false);
+                     
+            // Display ending message
+            await interaction.editReply({
+                embeds: [finishEmbed],
+                components: [],
+                content: ' ',
+                files: []
             });
 
         });

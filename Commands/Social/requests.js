@@ -57,8 +57,10 @@ module.exports = {
 
         let subCommand = interaction.options.getSubcommand();
 
-        if(!utils.user)
+        if(!utils.user) {
+            await utils.user.pause(false); 
             return;
+        }
 
         //Display list of requests
         if(subCommand == "list") {
@@ -66,8 +68,10 @@ module.exports = {
 
             // Find all incoming messages with filters applied
             let inbox = await utils.messenger.readAllMessages(interaction, utils.user, filter, true);
-            if(!inbox)
+            if(!inbox) {
+                await utils.user.pause(false); 
                 return;
+            }
 
             // Present all messages
             let inboxMsg = ``;
@@ -112,17 +116,22 @@ module.exports = {
                 linesPerPage: 30
             });
 
+            await utils.user.pause(false);     
             return;
             
         }
 
         const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number")); 
-        if(!msg)
-            return; 
+        if(!msg) {
+            await utils.user.pause(false); 
+            return;
+        }
         
         let otherUser = await utils.db.findUsername(interaction, msg.sender_username);
-        if(!otherUser)
+        if(!otherUser) {
+            await utils.user.pause(false); 
             return;
+        }
      
         let details = msg.message_content.split("|");
 
@@ -136,14 +145,17 @@ module.exports = {
                 let otherBot = await utils.dbBots.findBotObj(interaction, details[0]);
                 let scene = await new BattleView(interaction, yourBot, otherBot);
                 
-                if(!await scene.createCards())
+                if(!await scene.createCards()) {
+                    await utils.user.pause(false); 
                     return;
+                }
 
                 msgContent += `**__${msg.recipient_username}'s ${yourBot.name}__ VS __${msg.sender_username}'s ${otherBot.name}__.**\n\n`;
                 msgContent += `The wager is \`${details[2]}\`, this means that ${wagers[details[2]]}.\n\n`;
                 msgContent += `Like all battles, neither player will know their opponent's \`/chip\` selection until the battle commences. Be sure to keep this secret as it will influence the battle outcome.\n\n`;
                 msgContent += `To accept: \`/battle accept ${msg.message_number}\`\nTo reject: \`/battle reject ${msg.message_number}\``;
 
+                await utils.user.pause(false);                     
                 await interaction.editReply({ 
                     content: `${msgContent}`, 
                     files: [scene.getScene()] })
@@ -163,13 +175,16 @@ module.exports = {
                 }
 
                 let card = await new Card(interaction, sellingBot);
-                if(!await card.createCard())
+                if(!await card.createCard()) {
+                    await utils.user.pause(false); 
                     return;
+                }
 
                 msgContent += `**__${sellingUser.username}'s ${sellingBot.name} for x${details[3]} ${machinePartEmoji} Machine Parts!__**\n\n`;
                 msgContent += `The buyer (${buyingUser.username}) will pay the seller (${sellingUser.username}) ${details[3]} Machine Parts for their ${sellingBot.name}.\n\n`;
                 msgContent += `To accept: \`/trade accept ${msg.message_number}\`\nTo reject: \`/trade reject ${msg.message_number}\``;
 
+                await utils.user.pause(false);                     
                 await interaction.editReply({ 
                     content: `${msgContent}`, 
                     files: [card.getCard()] })
@@ -181,6 +196,7 @@ module.exports = {
                 msgContent += `You may remove them at any time using \`/friend remove ${otherUser.username}\`\n\n`;
                 msgContent += `To accept: \`/friend accept ${msg.message_number}\`\nTo reject: \`/friend reject ${msg.message_number}\``;
 
+                await utils.user.pause(false);     
                 await interaction.editReply({
                     content: `${msgContent}`})
                 .catch(e => utils.consola.error(e));

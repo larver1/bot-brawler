@@ -7,8 +7,8 @@ module.exports = {
      * Sets up client when ready is fired 
      * @param {Client} client
      */
-    execute(client) {
+    async execute(client) {
         consola.success("The client is now ready!");
-        client.user.setActivity("Beep Boop", {type: "WATCHING"})
+        client.user.setActivity("Beep Boop", {type: "WATCHING"});
     }
 }

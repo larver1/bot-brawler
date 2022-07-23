@@ -24,26 +24,25 @@ module.exports = {
         if(interaction.isCommand() || interaction.isContextMenu()) {
             const command = client.commands.get(interaction.commandName);
 
-            //If the command couldn't be found
+            // If the command couldn't be found
             if(!command)
                 return interaction.reply({ embeds: [
                     new sampleEmbed(interaction)
                         .setDescription("❌ An error occured while running this command.\nThe command couldn't be found!")
                 ]}) && client.commands.delete(interaction.commandName);
 
-            //Bot respond with "loading" state
+            // Bot respond with "loading" state
             await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
             let user;
 
             if(command.name != "register") {
-                user = await dbAccess.findUser(interaction);
-                //User can only use commands if they are registered to DB
-                if(!user) {
-                    return;
-                }
+                // If unable to pause user, then don't run command
+                user = await dbAccess.pauseUser(interaction);
+                if(!user)
+                    return interaction.editReply({ content: `Please wait until your previous command is finished.` });
             }
 
-            //Pass execution utilities to command
+            // Pass execution utilities to command
             try {
                 await command.execute(interaction, {
                     botCollection: BotCollection,

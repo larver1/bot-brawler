@@ -1,7 +1,8 @@
 const consola = require("consola");
 const sampleEmbed = require("./sampleEmbed.js");
 const ErrorHandler = require("./ErrorHandler.js");
-const dbBots = require("../Database/dbBots.js");
+const { Bots } = require("../Database/dbObjects");
+const BotObj = require("../Data/Bots/BotObj");
 
 module.exports = class Messenger
 {
@@ -28,6 +29,17 @@ module.exports = class Messenger
 
         return number;
 
+    }
+
+    static async findBotObj(interaction, botID) {
+		const bot = await Bots.findOne({ where: { bot_id: botID } });
+		if(!bot) {
+			let err = new Error(`Bot of ID ${botID} could not be found.`);
+			return ErrorHandler.handle(interaction, err);
+		}
+
+        let botObj = await new BotObj(interaction, bot);
+		return botObj;
     }
 
     //Send message to other user
@@ -78,8 +90,8 @@ module.exports = class Messenger
         }
 
         let details = message.message_content.split("|");
-        let yourBot = await dbBots.findBotObj(interaction, details[1]);
-        let otherBot = await dbBots.findBotObj(interaction, details[0]);
+        let yourBot = await this.findBotObj(interaction, details[1]);
+        let otherBot = await this.findBotObj(interaction, details[0]);
         let wager = details[2];
 
         if(!yourBot || !otherBot)
@@ -101,8 +113,8 @@ module.exports = class Messenger
         }
 
         let details = message.message_content.split("|");
-        let yourBot = await dbBots.findBotObj(interaction, details[1]);
-        let otherBot = await dbBots.findBotObj(interaction, details[0]);
+        let yourBot = await this.findBotObj(interaction, details[1]);
+        let otherBot = await this.findBotObj(interaction, details[0]);
         let wager = details[2];
 
         if(!yourBot || !otherBot)
@@ -296,8 +308,9 @@ module.exports = class Messenger
     }
 
     //Check all messages to recipient
-    static async readAllMessages(interaction, recipient, messageType, sortByNum, hideErrors) {
+    static async readAllMessages(interaction, recipient, messageType, sortByNum, hideErrors, outgoing) {
         let messages = await recipient.getIncomingMessages();
+        let outgoingMessages = await recipient.getOutgoingMessages();
         let inbox = [];
 
         // Filter by certain message
@@ -306,6 +319,9 @@ module.exports = class Messenger
 
         if(!messages)
             return false;
+
+        if(outgoing)
+            messages = [...messages, ...outgoingMessages];
 
         // Sort with ascending ID number
         if(sortByNum)
@@ -363,7 +379,9 @@ module.exports = class Messenger
         if(recipient.isBot == true)
             return true;
 
-        const dm = new sampleEmbed(interaction, recipient)
+        let otherAvatar = userToSend.avatarURL({ dynamic: true, size: 512 });
+
+        const dm = new sampleEmbed(interaction, recipient, otherAvatar)
             .setTitle(`You have received a message!`)
             .setDescription(`${message}\n\nIf you would like to opt out of Bot DMs, use \`/privacy set level:Locked\``)
         

@@ -65,7 +65,7 @@ module.exports = {
         let currentTime;
 
         // Level determines how many rows
-        switch(level[0]) {
+        switch(level) {
             case "3 Rows":
                 width = 3;
                 break;
@@ -140,6 +140,7 @@ module.exports = {
             score = this.calcScore(selection);
 
             let parts = Math.floor((score / 20) + (currentTime / maxTime));
+            let won = score < 100 ? false : true;
 
             switch(difficulty) {
                 case "Normal":
@@ -152,7 +153,20 @@ module.exports = {
                     break;
             } 
 
-            finishedEvent.emit('finished', parts);
+            if(selection.length == 7) {
+                let passedTask = true;
+                for(let i = 0; i < selection.length; i++) {
+                    if(selection[i] != 7) {
+                        passedTask = false;
+                        break;
+                    }
+                }
+                if(passedTask) {
+                    await utils.dbAchievements.checkTask(interaction, utils.user.username, "Tooty Fruity");
+                }
+            }
+
+            finishedEvent.emit('finished', { parts: parts, won: won });
 
         });
 

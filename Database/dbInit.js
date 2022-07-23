@@ -4,10 +4,16 @@ const fs = require('fs');
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const { v4: uuidv4 } = require('uuid');
 
+const conn = {};
+
 const sequelize = new Sequelize(dbName, dbUser, dbPass, {
     dialect: 'mysql',  
 	logging: false
 });
+
+conn.sequelize = sequelize;
+conn.Sequelize = Sequelize;
+module.exports = conn;
 
 var CurrencyShop = require('./models/CurrencyShop')(sequelize, Sequelize.DataTypes);
 require('./models/Users')(sequelize, Sequelize.DataTypes);
@@ -42,5 +48,4 @@ sequelize.sync({ force }).then(async () => {
 	}
 
 	console.log('Database synced');
-	sequelize.close();
 }).catch(console.error);

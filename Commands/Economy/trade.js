@@ -5,14 +5,17 @@ const machinePartEmoji = "<:machine_parts:992728693799669801>";
 async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, moneyOffered) {
 
     if(moneyOffered > buyingUser.balance) {
+        await utils.user.pause(false);
         let err = new Error(`\`${buyingUser.username}\` does not have sufficient funds`);
         return utils.handler.info(interaction, err);
     }
 
     const yourCard = await new utils.card(interaction, sellingBot);
 
-    if(!await yourCard.createCard())
-        return false;
+    if(!await yourCard.createCard()) {
+        await utils.user.pause(false);
+        return;
+    }
 
     // Exchange money from buyer to seller
     await utils.db.add(interaction, "balance", moneyOffered, sellingUser.user_id);
@@ -20,6 +23,32 @@ async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, mo
 
     // Exchange bot ownership
     await utils.dbBots.changeOwner(interaction, sellingBot.botObj.bot_id, buyingUser.username);
+
+    // Add achievement
+    let achievementIndex = 0;
+    switch(sellingBot.findColour().type) {
+        case "Prototype":
+            achievementIndex = 1;
+            break;
+        case "Testing":
+            achievementIndex = 2;
+            break;
+        case "Alpha":
+            achievementIndex = 3;
+            break;
+        case "Beta":
+            achievementIndex = 4;
+            break;
+        case "Complete":
+            achievementIndex = 5;
+            break;
+        default:
+            break;
+    }
+
+    await utils.dbAchievements.editAchievement(interaction, buyingUser.username, "Army Builder", sellingBot.botObj.bot_id, achievementIndex);
+    await utils.dbAchievements.editAchievement(interaction, buyingUser.username, "Entrepreneur", sellingBot.botObj.bot_id);
+    await utils.dbAchievements.editAchievement(interaction, sellingUser.username, "Entrepreneur", sellingBot.botObj.bot_id);             
 
     // Display confirmation message
     await interaction.editReply({ 
@@ -29,6 +58,7 @@ async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, mo
         components: []
     }).catch((e) => utils.consola.error(e));
 
+    await utils.user.pause(false);
     return yourCard;
 }
 
@@ -147,12 +177,16 @@ module.exports = {
         // If accepting a request, find the msg
         if(subCommand == "accept") {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade");
-            if(!msg)
+            if(!msg) {
+                await utils.user.pause(false);
                 return;
+            }
 
             otherUser = await utils.db.findUsername(interaction, msg.sender_username);
-            if(!otherUser)
+            if(!otherUser) {
+                await utils.user.pause(false);
                 return;
+            }
 
             let details = msg.message_content.split("|");
             let sellingBot = await utils.dbBots.findBotObj(interaction, details[2]);
@@ -160,15 +194,19 @@ module.exports = {
             let buyingUser = await utils.db.findUsername(interaction, details[1]);
             let amount = parseInt(details[3]);
 
-            if(!sellingBot || !sellingUser || !buyingUser)
+            if(!sellingBot || !sellingUser || !buyingUser) {
+                await utils.user.pause(false);
                 return;
+            }
 
             if(!interaction.channel)
                 await interaction.user.createDM();
 
             let card = await trade(interaction, utils, buyingUser, sellingUser, sellingBot, amount);
-            if(!card)
+            if(!card) {
+                await utils.user.pause(false);
                 return;
+            }
 
             // Send the other user the results of the trade
             let userToSend = await utils.client.users.fetch(otherUser.user_id);
@@ -181,22 +219,30 @@ module.exports = {
             });
 
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "trade");
+            await utils.user.pause(false);
             return;
-
+            
         }
 
         if(subCommand == "reject") {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade");
-            if(!msg)
+            if(!msg) {
+                await utils.user.pause(false);
                 return;
+            }
 
             otherUser = await utils.db.findUsername(interaction, msg.sender_username);
-            if(!otherUser)
-                return;            
-                
-            if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade"))
+            if(!otherUser) {
+                await utils.user.pause(false);
                 return;
+            }            
+                
+            if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "trade")) {
+                await utils.user.pause(false);
+                return;
+            }
 
+            await utils.user.pause(false);
             return interaction.editReply({ embeds: [
                 new utils.embed(interaction, utils.user)
                     .setTitle(`${otherUser.username}'s Trade Request`)
@@ -204,8 +250,10 @@ module.exports = {
                         .catch((e) => utils.consola.error(e));
         }
 
-        if(!otherUser)
+        if(!otherUser) {
+            await utils.user.pause(false);
             return;
+        }
 
         let amount = interaction.options.getInteger("amount");
         const buyOrSell = interaction.options.getString("type");
@@ -222,12 +270,15 @@ module.exports = {
         let bots = await sellingUser.getBots();
         let collection = await new BotCollection(bots, interaction);
 
-        if(!collection || !sellingUser)
+        if(!collection || !sellingUser) {
+            await utils.user.pause(false);
             return;
+        }
 
         // If the buying user doesn't have sufficient funds, return
         if(amount > buyingUser.balance) {
             let err = new Error(`\`${buyingUser.username}\` does not have sufficient funds`);
+            await utils.user.pause(false);
             return utils.handler.info(interaction, err);
         }
 
@@ -243,12 +294,14 @@ module.exports = {
             await yourCard.createCard();
 
             if(subCommand == "request") {
-                if(await utils.messenger.checkMessages(interaction, utils.user, otherUser))
+                if(await utils.messenger.checkMessages(interaction, utils.user, otherUser)) {
+                    await utils.user.pause(false);
                     return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
-
+                }
                 // If other user is a bot, instantly accept
                 if(otherUser.isBot) {
                     await trade(interaction, utils, buyingUser, sellingUser, yourBot, amount);
+                    await utils.user.pause(false);
                     return;
                 }
 
@@ -261,11 +314,15 @@ module.exports = {
                 }
 
                 let messageNumber = await utils.messenger.sendTradeRequest(interaction, utils.user, otherUser, details);
-                if(!messageNumber)
+                if(!messageNumber) {
+                    await utils.user.pause(false);
                     return;
+                }
             
                 await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                     `${utils.user.username} has sent you a trade request.\nFor more info: \`/requests info ${messageNumber}\`.`);
+                
+                await utils.user.pause(false);        
                 return;
             } else if(subCommand == "user") {
 
@@ -284,6 +341,7 @@ module.exports = {
                         components: [],
                         embeds: []    
                     }).catch((e) => utils.consola.error(e));
+                    await utils.user.pause(false);
                 });
 
             }

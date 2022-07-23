@@ -27,46 +27,64 @@ module.exports = {
             let energyCost = 25;
             let moneyCost = 10 + Math.round(collection.selected.exp);
 
-            const deadCard = await new utils.card(interaction, collection.selected);
-            if(!await deadCard.createCard())
-                return;
+            moneyCost = 0;
+            energyCost = 0;
 
-            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost} ${machinePartEmoji} Machine Parts\` and \`x${energyCost} Energy\`?`, deadCard.getCard());
+            const deadCard = await new utils.card(interaction, collection.selected);
+            if(!await deadCard.createCard()) {
+                await utils.user.pause(false); 
+                return;
+            }
+
+            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts and \`x${energyCost}\` ${energyEmoji} Energy?`, deadCard.getCard());
             utils.messageHelper.replyEvent.on(`accepted`, async() => {
                 
                 // Not enough energy
                 if(utils.user.energy < energyCost) {
+                    await utils.user.pause(false); 
                     return utils.handler.info(interaction, new Error(`You don't have enough ${energyEmoji} Energy to do this...`));
                 }
 
                 // Not enough parts
                 if(utils.user.balance < moneyCost) {
+                    await utils.user.pause(false); 
                     return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this...`));
                 }
 
                 //Removes correct number of parts
-                if(!await utils.db.remove(interaction, "balance", moneyCost))
+                if(!await utils.db.remove(interaction, "balance", moneyCost)) {
+                    await utils.user.pause(false); 
                     return;
+                }
 
                 //Removes correct number of energy
-                if(!await utils.db.remove(interaction, "energy", energyCost))
+                if(!await utils.db.remove(interaction, "energy", energyCost)) {
+                    await utils.user.pause(false); 
                     return;
+                }
 
                 //Revive and display
                 await utils.dbBots.revive(interaction, collection.selected.botObj.bot_id);
-                const card = await new utils.card(interaction, collection.selected);
-                if(!await card.createCard())
-                    return;
+                
+                await utils.dbAchievements.checkTask(interaction, utils.user.username, "Mechanic");
 
+                const card = await new utils.card(interaction, collection.selected);
+                if(!await card.createCard()) {
+                    await utils.user.pause(false); 
+                    return;
+                }
+
+                await utils.user.pause(false); 
                 await interaction.editReply({ 
                     files: [card.getCard()], 
-                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost} ${machinePartEmoji} Machine Parts\` and \`x${energyCost} ${energyEmoji} Energy\``,
+                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts and \`x${energyCost}\` ${energyEmoji} Energy`,
                     embeds: [],
                     components: []
                  }).catch(e => utils.consola.error(e));
 
             });
 
+            await utils.user.pause(false);             
             utils.messageHelper.replyEvent.on(`rejected`, async() => {
                 await interaction.editReply({ 
                     content: `The rebuild was cancelled...`,

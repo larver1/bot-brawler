@@ -12,10 +12,13 @@ module.exports = {
 
         //Displays amount of money
         if(utils.user)
-            return interaction.editReply({ embeds: [ 
+            await interaction.editReply({ embeds: [ 
                 new utils.embed(interaction, utils.user)
                     .setDescription(`${machinePartEmoji} Machine Parts: \`${utils.user.balance}\`\n${energyEmoji} Energy: \`${utils.user.energy}/100\`\n\nGet more resources with \`/daily\``)] })
                         .catch((e) => utils.consola.error(e));
+        
+        await utils.user.pause(false);
+        return;
 
     }
 

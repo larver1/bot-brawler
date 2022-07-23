@@ -28,17 +28,23 @@ module.exports = {
 
         const otherUser = await utils.db.findUsername(interaction, username);
 
-        if(!otherUser)
+        if(!otherUser) {
+            await utils.user.pause(false); 
             return;
+        }
 
         //Check if they are friends
-        if(!await utils.db.findFriend(interaction, otherUser.username))
+        if(!await utils.db.findFriend(interaction, otherUser.username))  {
+            await utils.user.pause(false);
             return utils.handler.info(interaction, new Error(`You must be friends with ${otherUser.username} to send a message.`));
+        }
 
         //Fetch the client user
         let userToSend = await utils.client.users.fetch(otherUser.user_id);
-        if(!userToSend)
+        if(!userToSend)  {
+            await utils.user.pause(false);
             return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. This could happen if they don't share any servers with Bot Brawler.`));
+        }
 
         let success = true;
 
@@ -49,10 +55,13 @@ module.exports = {
                 return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
             });
 
-        if(!success)
+        if(!success) {
+            await utils.user.pause(false); 
             return;
+        }
 
         //Display results
+        await utils.user.pause(false); 
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, utils.user)
                 .setTitle(`${utils.user.username}'s Message`)

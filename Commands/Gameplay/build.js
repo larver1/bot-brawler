@@ -51,17 +51,23 @@ module.exports = {
                 break;
         }
 
-        await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost} ${machinePartEmoji} Machine Parts\`\n\`x${energyCost} ${energyEmoji} Energy\`?`);
+        exp = 25000;
+        energyCost = 0;
+        moneyCost = 0;
+
+        await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost}\` ${machinePartEmoji} Machine Parts\n\`x${energyCost}\` ${energyEmoji} Energy?`);
 
         utils.messageHelper.replyEvent.on(`accepted`, async () => {
             
             // Not enough energy
             if(utils.user.energy < energyCost) {
+                await utils.user.pause(false);
                 return utils.handler.info(interaction, new Error(`You don't have enough ${energyEmoji} Energy to do this. Try out \`/daily\` to get more.`));
             }
 
             // Not enough parts
             if(utils.user.balance < moneyCost) {
+                await utils.user.pause(false);
                 return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this. Try out \`/daily\` to get more.`));
             }
             
@@ -71,21 +77,28 @@ module.exports = {
 
             // If card fails to create, return
             const card = await new utils.card(interaction, botObj);
-            if(!await card.createCard())
+            if(!await card.createCard()) {
+                await utils.user.pause(false);
                 return;
-
+            } 
             //Removes correct number of parts
-            if(!await utils.db.remove(interaction, "balance", moneyCost))
+            if(!await utils.db.remove(interaction, "balance", moneyCost)) {
+                await utils.user.pause(false);
                 return;
+            } 
 
             //Removes correct number of energy
-            if(!await utils.db.remove(interaction, "energy", energyCost))
+            if(!await utils.db.remove(interaction, "energy", energyCost)) {
+                await utils.user.pause(false);
                 return;
+            } 
 
             // Add bot to existence
             await utils.dbBotStats.addExists(interaction, botObj.bot_type);
             await utils.user.createBot(bot);
+            await utils.dbBots.changeOwner(interaction, bot.bot_id, utils.user.username);
 
+            await utils.user.pause(false);
             return interaction.editReply({ 
                 files: [card.getCard()], 
                 content: `${utils.user.username} built a *PROTOTYPE:${botObj.bot_type.toUpperCase()}*`,
@@ -96,6 +109,7 @@ module.exports = {
         });
 
         utils.messageHelper.replyEvent.on(`rejected`, async() => {
+            await utils.user.pause(false);
             await interaction.editReply({ 
                 content: `The build was cancelled...`,
                 components: [],

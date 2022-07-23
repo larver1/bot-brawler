@@ -1,8 +1,11 @@
 const { Users } = require('./dbObjects');
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
+const Messenger = require("../Helpers/Messenger.js");
 const fs = require('fs');
 const achievementData = JSON.parse(fs.readFileSync('./Data/Achievements/achievementsData.json'));
-
+const taskData = JSON.parse(fs.readFileSync('./Data/Achievements/taskData.json'));
+const { v4: uuidv4 } = require('uuid');
+const { userMention } = require('@discordjs/builders');
 
 module.exports = class dbAchievements
 {
@@ -28,12 +31,17 @@ module.exports = class dbAchievements
 		return user;
     }
 
-	static async editAchievement(interaction, username, achievementName, value) {
-		const user = await this.findUser(interaction);
+	static async editAchievement(interaction, username, achievementName, value, achievementIndex) {
+		let user;
+		if(username)
+			user = await this.findUsername(interaction, username);
+		else
+			user = await this.findUser(interaction);
+
 		let i, j = 0;
 
-		if(!user)
-			return;
+		if(!user || user.isBot)
+			return false;
 
 		// Find the achievement name
 		for(i = 0; i < achievementData.length; i++) {
@@ -41,20 +49,43 @@ module.exports = class dbAchievements
 				// For every entry in the chosen achievement
 				for(j = 0; j < user.achievements[i].length; j++) {
 					// Apply new value based on type
-					switch(typeof value) {
+					if(achievementIndex)
+						j = achievementIndex - 1;
+					else if(user.achievements[i][j].completed == "true")
+						continue;
+
+					switch(achievementData[i].type) {
 						case "number":
-							user.achievements[i][j].intProgress = value;
+							user.achievements[i][j].intProgress += value;
 							break;
 						case "string":
-							user.achievements[i][j].stringProgress = value;
+							// Value can't already exist for it to work
+							console.log(value);
+							if(!user.achievements[i][j].stringProgress.includes(`${value}|`)) {
+								user.achievements[i][j].stringProgress += `${value}|`;
+								user.achievements[i][j].intProgress += 1;
+							}
 							break;
 						case "object":
-							user.achievements[i][j].arrayProgress = value;
+							if(achievementData[i].values[j][2].includes(value) && !user.achievements[i][j].arrayProgress.includes(value)) {
+								user.achievements[i][j].arrayProgress.push(value);
+								user.achievements[i][j].intProgress += 1;
+							}
 							break;
 						default:
 							break;
 					}
 
+					// If achievement is completed, send DM to user
+					if(!user.achievements[i][j].completed && achievementData[i].values[j][0] == user.achievements[i][j].intProgress) {
+						user.achievements[i][j].completed = "true";
+						await Messenger.sendDM(interaction, interaction.client, user, `🎉 You have unlocked the achievement: \`${achievementName}:${j + 1}\`!`);
+					}
+
+					console.log(`achievement updated: ${achievementName}:${achievementIndex}`);
+
+					if(achievementIndex)
+						break;
 				}
 
 				break;
@@ -63,7 +94,9 @@ module.exports = class dbAchievements
 
 		user.changed("achievements", true);
 		await user.save();
+		return true;
 	}
+
 
 	static async findAchievement(interaction, username, achievementName) {
 		const user = await this.findUser(interaction);
@@ -80,7 +113,7 @@ module.exports = class dbAchievements
 		return;
 	}
 
-	static async setupAchievements(interaction, username) {
+	static async setupAchievements(interaction) {
 		const user = await this.findUser(interaction);
 
 		if(!user)
@@ -94,7 +127,7 @@ module.exports = class dbAchievements
 			for(const level of achievement.values) {
 				template.push({
 					stringProgress: "",
-					intProgress: -1,
+					intProgress: 0,
 					arrayProgress: []
 				});
 			}
@@ -103,8 +136,69 @@ module.exports = class dbAchievements
 
 		user.achievements = completeData;
 		await user.save();
+		return true;
 
-	}	
+	}
+
+	static async clearTasks(interaction) {
+		const user = await this.findUser(interaction);
+		if(!user)
+			return;
+
+		user.tasks = [{}];
+		await user.save();
+		return true;
+	}
+
+	static async checkTask(interaction, username, taskName) {
+		let user;
+		if(username)
+			user = await this.findUsername(interaction, username);
+		else
+			user = await this.findUser(interaction);
+		if(!user || user.tasks == [{}])
+			return;
+
+		for(let i = 0; i < user.tasks.length; i++) {
+			if(user.tasks[i].name == taskName) {
+				user.tasks[i].completed = "true";
+			}
+		}
+
+		user.changed("tasks", true);
+		await user.save();
+		return true;
+	}
+
+	static async setupTasks(interaction) {
+		const user = await this.findUser(interaction);
+
+		if(!user)
+			return;
+
+		let tasks = [];
+		let chosen = [];
+
+		// Build template so that task progress can be stored
+		for(let i = 0; i < 3; i++){
+			let newTask;
+			do {
+				newTask = taskData[Math.floor(Math.random() * taskData.length)];
+			} while(chosen.includes(newTask.name));
+
+			chosen.push(newTask.name);
+			tasks.push({
+				"name": newTask.name,
+				"description": newTask.description,
+				"completed": "false"
+			});
+		}
+
+		user.tasks = tasks;
+		await user.save();
+		return true;
+
+	}
 	
 };
 

@@ -2,56 +2,106 @@
     {
         "colour": "Green",
         "name": "PROTOTYPE:1",
+        "type": "Prototype",
         "emoji": "<:Green:933490947076022302>",
         "exp": 0
     },
     {
         "colour": "Yellow",
         "name": "PROTOTYPE:2",
+        "type": "Prototype",
         "emoji": "<:Yellow:933490982517870623>",
         "exp": 5
     },
     {
         "colour": "Orange",
         "name": "PROTOTYPE:3",
+        "type": "Prototype",
         "emoji": "<:Orange:933490982769537114>",
         "exp": 15
     },
     {
         "colour": "Pink",
         "name": "TESTING:1",
+        "type": "Testing",
         "emoji": "<:Pink:933490984094937139>",
         "exp": 35
     },
     {
         "colour": "Purple",
         "name": "TESTING:2",
+        "type": "Testing",
         "emoji": "<:Purple:933490982849232906>",
         "exp": 75
     },
     {
         "colour": "Blue",
         "name": "TESTING:3",
+        "type": "Testing",
         "emoji": "<:Grey:933490983436439592>",
         "exp": 155
     },
     {
         "colour": "Black",
         "name": "ALPHA:1",
+        "type": "Alpha",
         "emoji": "<:Black:933490982761144350>",
         "exp": 315
     }, 
     {
         "colour": "YellowStripes",
         "name": "ALPHA:2",
+        "type": "Alpha",
         "emoji": "<:Black:933490982761144350>",
         "exp": 635
     },
     {
         "colour": "YellowStripesRed",
         "name": "ALPHA:3",
+        "type": "Alpha",
         "emoji": "<:Black:933490982761144350>",
         "exp": 1275
+    },
+    {
+        "colour": "Grey",
+        "name": "BETA:1",
+        "type": "Beta",
+        "emoji": "<:Grey:995791052277559326>",
+        "exp": 2555
+    },
+    {
+        "colour": "Metal",
+        "name": "BETA:2",
+        "type": "Beta",
+        "emoji": "<:Metal:995791053636509768>",
+        "exp": 5115
+    },
+    {
+        "colour": "Metal2",
+        "name": "BETA:3",
+        "type": "Beta",
+        "emoji": "<:Metal2:995791054462791821>",
+        "exp": 10235
+    },
+    {
+        "colour": "Galaxy",
+        "name": "COMPLETE:1",
+        "type": "Complete",
+        "emoji": "<:Galaxy:995791379936596039>",
+        "exp": 20475
+    },
+    {
+        "colour": "Galaxy2",
+        "name": "COMPLETE:2",
+        "type": "Complete",
+        "emoji": "<:Galaxy2:995791381186494474>",
+        "exp": 40955
+    },
+    {
+        "colour": "Galaxy3",
+        "name": "COMPLETE:3",
+        "type": "Complete",
+        "emoji": "<:Galaxy3:995791382541250570>",
+        "exp": 81915
     }
-
 ]

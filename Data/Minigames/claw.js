@@ -31,7 +31,7 @@ module.exports = {
         }
 
         if(level) {
-            level = level[0].split("x");
+            level = level.split("x");
             gridX = parseInt(level[0]);
             gridY = parseInt(level[1]);
         }
@@ -154,7 +154,10 @@ module.exports = {
 
             if(i.customId == selectId) {
                 // Get prize and determine score
-                let treasureFound = grid[newPos.y + 1][newPos.x];
+                let treasureFound = grid[newPos.y + 1][newPos.x];            
+                if(treasureFound == "t3")
+                    await utils.dbAchievements.checkTask(interaction, utils.user.username, "Jackpot");
+
                 score += prizes[treasureFound];
                 await sleep(5000);
                 Status.setDescription(`Successfully picked prize!\n\n**__Score:__** ${score}\n**__Turns left__**: ${turns}`);
@@ -175,6 +178,7 @@ module.exports = {
         collector.on('end', async () => {
 
             let parts = (score / 10) + (turns * 2);
+            let won = score < 20 ? false : true;
 
             switch(difficulty) {
                 case "Normal":
@@ -187,7 +191,7 @@ module.exports = {
                     break;
             }
 
-            finishedEvent.emit('finished', parts);
+            finishedEvent.emit('finished', { parts: parts, won: won });
 
         });
 

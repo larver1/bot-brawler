@@ -59,6 +59,14 @@ module.exports = (sequelize, DataTypes) => {
 		achievements: {
 			type: DataTypes.JSON,
 			allowNull: false
+		},
+		tasks: {
+			type: DataTypes.JSON,
+			allowNull: false
+		},
+		paused: {
+			type: DataTypes.BOOLEAN,
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

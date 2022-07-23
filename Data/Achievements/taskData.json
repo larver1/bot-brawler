@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Underdog",
+        "description": "Win a battle with a less than 25% chance of winning."
+    },
+    {
+        "name": "Never Lucky",
+        "description": "Lose a battle with a more than 75% chance of winning."
+    },
+    {
+        "name": "Pirate",
+        "description": "Collect another user's bot in battle."
+    },
+    {
+        "name": "Terminator",
+        "description": "Destroy another user's bot in battle."
+    },
+    {
+        "name": "Tactician",
+        "description": "Win a battle using a non-balanced chip."
+    },
+    {
+        "name": "Quad Core",
+        "description": "Win a battle using a power chip."
+    },
+    {
+        "name": "Battery Saver",
+        "description": "Win a battle using a lifespan chip."
+    },
+    {
+        "name": "Security Threat",
+        "description": "Win a battle using a viral chip."
+    },
+    {
+        "name": "Inpenetrable Wall",
+        "description": "Win a battle using a firewall chip."
+    },
+    {
+        "name": "Investor",
+        "description": "Sell a bot on the global market."
+    },
+    {
+        "name": "Depleted",
+        "description": "Use up all of your daily energy."
+    },
+    {
+        "name": "Supporter",
+        "description": "Vote for Bot Brawler ❤."
+    },
+    {
+        "name": "Networking",
+        "description": "Send a request to another user."
+    },
+    {
+        "name": "Get Lucky",
+        "description": "Get a 100% date score on the Ramselle's Dating Simulator minigame."
+    },
+    {
+        "name": "Jackpot",
+        "description": "Capture an orange prize in Bostrom's Claw Machine minigame."
+    },
+    {
+        "name": "Tooty Fruity",
+        "description": "Get 7 lemons in a row in Trojo's Slot Machine minigame."
+    },
+    {
+        "name": "Spoilt Brat",
+        "description": "Get a negative score in Constant's Doll House minigame."
+    },
+    {
+        "name": "Pals",
+        "description": "Make a new friend in Bot Brawler."
+    },
+    {
+        "name": "Guinea Pig",
+        "description": "Complete all of Professor Diriski's training battles."
+    },
+    {
+        "name": "Mechanic",
+        "description": "Rebuild a destroyed bot."
+    }
+]

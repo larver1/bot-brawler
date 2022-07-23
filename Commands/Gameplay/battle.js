@@ -37,6 +37,7 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
         msg = `${otherBot.name} is forced to use a Balanced Strategy due to ${yourBot.name}'s ability!`;
     else
         msg = `${otherBot.name} ${otherBot.getBattleText()}\n`;
+
     await scene.createCards(true, true, false);
     await interaction.editReply({ content: msg, files: [scene.getScene()] })
             .catch((e) => utils.consola.error(e));
@@ -62,17 +63,27 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
 
     msg = `${results.winner <= results.yourPercent ? yourBot.name + " is the winner" : otherBot.name + " is the winner"}`;
 
+
     //Determine winner
     if(results.winner <= results.yourPercent){
         winnerBot = yourBot;
         winnerUser = utils.user;
         loserBot = otherBot;
         loserUser = otherUser;
+        if(results.yourPercent <= 0.25) {
+            await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Underdog");
+            await utils.dbAchievements.checkTask(interaction, loserUser.username, "Never Lucky");
+        }
+
     } else {
         winnerBot = otherBot;
         winnerUser = otherUser;
         loserBot = yourBot;
         loserUser = utils.user;
+        if(results.otherPercent <= 0.25) {
+            await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Underdog");
+            await utils.dbAchievements.checkTask(interaction, loserUser.username, "Never Lucky");
+        }
     }
 
     results.scene = scene.getScene();
@@ -106,10 +117,14 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
                 return;
                 
-            if(loserBot.ability == "Backup Drive") {
+            if(loserBot.ability == "Backup Drive" && Math.random() > 0.5) {
                 msg += `\nDestruction was prevented due to ${loserBot.name}'s ability!`
                 break;
             }
+
+            // Add achievement
+            await utils.dbAchievements.editAchievement(interaction, winnerUser.username, "Destroyer", 1);
+            await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Terminator");
 
             msg += `\nLoser bot gets destroyed by winner for EXP.`;
             if(winnerBot.ability == "Greedy AI")
@@ -131,6 +146,10 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             msg += `\nLoser bot gets collected by winner.`;
             if(!await utils.dbBots.changeOwner(interaction, loserBot.botObj.bot_id, winnerUser.username))
                 return;
+
+            // Add achievement
+            await utils.dbAchievements.editAchievement(interaction, winnerUser.username, "Hoarder", 1);
+            await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Pirate");
 
             if(winnerBot.ability == "Maximum Satisfiability") {
                 let options = ["firewall", "lifespan"];
@@ -154,10 +173,14 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             if(exp == 0) 
                 msg += "\nLoser had no EXP left to give, so was destroyed for scrap metal...";
 
-            if(!await utils.dbBots.removeExp(interaction, loserBot.botObj.bot_id, exp)) 
+            if(!await utils.dbBots.removeExp(interaction, loserBot.botObj.bot_id, exp)) {
+                await utils.user.pause(false);
                 return;
-            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
+            } 
+            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1)) {
+                await utils.user.pause(false);
                 return;
+            } 
             break;
         case "train":
             if(utils.user != winnerUser) {
@@ -170,9 +193,11 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             if(winnerBot.ability == "Greedy AI") {
                 exp = Math.ceil(exp * 1.5);
                 msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
-            }
-            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1))
+            } 
+            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1)) {
+                await utils.user.pause(false);
                 return;
+            } 
             break;
         case "friendly":
             msg += "\nThe bots shake claws and go their separate ways.";
@@ -181,6 +206,34 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             break;
     }
 
+    // Add achievements
+    await utils.dbAchievements.editAchievement(interaction, winnerUser.username, "Winner", 1);
+    await utils.dbAchievements.editAchievement(interaction, loserUser.username, "Loser", 1);
+
+    let taskToAdd;
+    switch(winnerBot.item) {
+        case "power":
+            taskToAdd = "Quad Core";
+            break;
+        case "lifespan":
+            taskToAdd = "Battery Saver";
+            break;
+        case "viral":
+            taskToAdd = "Security Threat";
+            break;
+        case "firewall":
+            taskToAdd = "Inpenetrable Wall";
+            break;
+        default:
+            break;
+    }
+
+    if(taskToAdd)
+        await utils.dbAchievements.checkTask(interaction, winnerUser.username, taskToAdd);
+
+    if(winnerBot.item != "balanced")
+        await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Tactician");
+    
     if(winnerBot.ability == "Fetch Request") {
         let options = ["power", "lifespan", "viral", "firewall"];
         let option = Math.floor(Math.random() * options.length);
@@ -189,8 +242,10 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
         else
             option = options[option];
         msg += `\n${winnerBot.name} gained ${option} due to their ability.`;
-        if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5))
+        if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5)) {
+            await utils.user.pause(false);
             return;
+        } 
     }
 
     const newWinnerBotObj = await utils.dbBots.findBotObj(interaction, winnerBot.botObj.bot_id);
@@ -331,16 +386,20 @@ module.exports = {
             otherUser = await utils.db.findUser(interaction, userSubCommand.id);
         else if(subCommand == "train") {
             otherUser = await utils.db.findUsername(interaction, "Professor Diriski");
-            if(!utils.user.currentChallenge)
+            if(!utils.user.currentChallenge) {
+                await utils.user.pause(false);
                 return utils.handler.info(interaction, new Error(`You do not have any challenges available... Try out \`/daily\` to get more.`)); 
+            } 
             console.log(utils.user.currentChallenge);
         }
    
         // If accepting a request, find the msg
         if(subCommand == "accept") {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle");
-            if(!msg)
+            if(!msg) {
+                await utils.user.pause(false);
                 return;
+            }
 
             otherUser = await utils.db.findUsername(interaction, msg.sender_username);
             if(!otherUser)
@@ -351,15 +410,19 @@ module.exports = {
             let otherBot = await utils.dbBots.findBotObj(interaction, details[0]);
             let wager = details[2];
     
-            if(!yourBot || !otherBot)
-                return false;
+            if(!yourBot || !otherBot) {       
+                await utils.user.pause(false);
+                return;        
+            }
 
             if(!interaction.channel)
                 await interaction.user.createDM();
 
             let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
-            if(!results)
+            if(!results) {
+                await utils.user.pause(false);
                 return;
+            }
 
             // Send the other user the progress of the battle
             let userToSend = await utils.client.users.fetch(otherUser.user_id);
@@ -368,8 +431,10 @@ module.exports = {
             // Battle from other players point of view
             let otherResults = await otherBot.battle(yourBot);
             let otherScene = await new BattleView(interaction, otherBot, yourBot, otherResults);
-            if(!await otherScene.createCards())
+            if(!await otherScene.createCards()) {
+                await utils.user.pause(false);
                 return;
+            }
 
             await userToSend.send({ 
                 content: `Battle outcome: ${results.winnerUser.username}'s ${results.winnerBot.name} won!`,
@@ -379,26 +444,37 @@ module.exports = {
                 return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
             });
 
-            if(!success)
-                return;
+            if(!success) {
+                await utils.user.pause(false);
+                return;    
+            }
 
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "battle");
+            await utils.user.pause(false);
+
             return;
         }
 
         //If rejecting a request, remove it
         if(subCommand == "reject") {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle");
-            if(!msg)
+            if(!msg) {
+                await utils.user.pause(false);
                 return;
+            }
 
             otherUser = await utils.db.findUsername(interaction, msg.sender_username);
-            if(!otherUser)
-                return;            
-                
-            if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle"))
+            if(!otherUser) {
+                await utils.user.pause(false);
                 return;
+            }            
+                
+            if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle")) {
+                await utils.user.pause(false);
+                return;
+            }
 
+            await utils.user.pause(false);            
             return interaction.editReply({ embeds: [
                 new utils.embed(interaction, utils.user)
                     .setTitle(`${otherUser.username}'s Battle Request`)
@@ -406,16 +482,30 @@ module.exports = {
                         .catch((e) => utils.consola.error(e));
         }
 
-        if(!collection || !otherUser)
+        if(!collection || !otherUser) {
+            await utils.user.pause(false);
             return;
+        }
 
         let otherBots = await otherUser.getBots();
         let otherCollection = await new BotCollection(otherBots, interaction);
+
 
         if(subCommand == "train") {
             otherCollection.filterCollection({
                 isChallenge: utils.user.currentChallenge,
             });
+        }
+
+        // Ran out of Professor Diriski challenges
+        if(!otherCollection.objs.length) {
+            if(otherUser.username == "Professor Diriski") {
+                let err = new Error(`You are out of \`/battle train\` challenges. Use \`/daily\` to refresh them.`);
+                await utils.handler.info(interaction, err);                
+            }
+            
+            await utils.user.pause(false);  
+            return;
         }
 
         //Inspect the collection
@@ -426,8 +516,10 @@ module.exports = {
 
             let yourBot = collection.selected;
             const yourCard = await new utils.card(interaction, yourBot);
-            if(!await yourCard.createCard())
+            if(!await yourCard.createCard()) {
+                await utils.user.pause(false);
                 return;
+            }
 
             await interaction.editReply({ files: [yourCard.getCard()] })
                 .catch(e => utils.consola.error(e));
@@ -439,14 +531,18 @@ module.exports = {
 
                 //Send a request for later
                 if(subCommand == "request") {
-                    if(await utils.messenger.checkMessages(interaction, utils.user, otherUser))
+                    if(await utils.messenger.checkMessages(interaction, utils.user, otherUser)) {
+                        await utils.user.pause(false);
                         return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
+                    }
     
                     // If other user is a bot, instantly accept
                     if(otherUser.isBot) {
                         let scene = await new BattleView(interaction, yourBot, otherBot);
-                        if(!await scene.createCards(true, false, false))
+                        if(!await scene.createCards(true, false, false))  {
+                            await utils.user.pause(false);
                             return;
+                        }
 
                         await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
                         return;
@@ -460,12 +556,17 @@ module.exports = {
                     }
 
                     let messageNumber = await utils.messenger.sendBattleRequest(interaction, utils.user, otherUser, details);
-                    if(!messageNumber)
+                    if(!messageNumber) {
+                        await utils.user.pause(false);
                         return;
-                    
+                    }    
+
+                    await utils.dbAchievements.checkTask(interaction, utils.user.username, "Networking");
+
                     await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                         `${utils.user.username} has sent you a battle request.\nFor more info: \`/requests info ${messageNumber}\`.`);
 
+                    await utils.user.pause(false);
                     return;
 
                 } else if(subCommand == "user") {
@@ -487,8 +588,13 @@ module.exports = {
                             components: [],
                             embeds: []    
                         }).catch((e) => utils.consola.error(e));
-
-                    });                  
+                        
+                        await utils.user.pause(false);
+                        return;
+                    }); 
+                        
+                    await utils.user.pause(false);
+                    return;
                     
                 } else if(subCommand == "train") {
                     let scene = await new BattleView(interaction, yourBot, otherBot);
@@ -499,6 +605,9 @@ module.exports = {
                     await utils.db.add(interaction, "currentChallenge", utils.user.currentChallenge.replace(`${otherBot.botObj.bot_id}|`, ``));
                     await battle(interaction, utils, yourBot, otherBot, "train", otherUser);
                     await utils.db.add(interaction, "challengesComplete");
+                    
+                    await utils.user.pause(false);
+                    return;
                 }
 
                 /*

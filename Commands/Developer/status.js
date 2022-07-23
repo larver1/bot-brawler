@@ -6,6 +6,7 @@ module.exports = {
      * @param {Object} executeObj
      */
     async execute(interaction, utils) {
+        await utils.user.pause(false);
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, utils.user)
                 .setDescription(`**Client**: \`✅ ONLINE\` - \`${utils.client.ws.ping}ms\`\n **Uptime**: <t:${parseInt(utils.client.readyTimestamp / 1000)}:R>\n`)] })

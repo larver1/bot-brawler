@@ -18,6 +18,11 @@ const Market = require('./models/Market.js')(sequelize, Sequelize.DataTypes);
 
 UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
+Users.prototype.pause = async function(value) {
+	this.paused = value;
+	return this.save();
+};
+
 Users.prototype.addItem = async function(item, freq) {
 	const userItem = await UserItems.findOne({
 		where: { user_id: this.user_id, item_id: item.id },
@@ -148,7 +153,7 @@ Users.prototype.removeFromMarket = async function(bot) {
 
 Users.prototype.createBot = async function(bot) {
 	return Bots.create({ 
-		bot_id: uuidv4(), 
+		bot_id: bot.bot_id, 
 		bot_type: bot.bot_type, 
 		model_no: bot.model_no, 
 		owner_username: bot.owner_username, 

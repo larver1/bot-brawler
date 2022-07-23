@@ -33,8 +33,10 @@ module.exports = {
         }
 
         //Name doesn't exist
-        if(!foundBot)
+        if(!foundBot)  {
+            await utils.user.pause(false); 
             return utils.handler.info(interaction, new Error(`A bot of the name '${searchedBot}' does not exist.`));
+        }
 
         let exists = await utils.dbBotStats.getData(interaction, foundBot.name, "exists");
         let alive = await utils.dbBotStats.getData(interaction, foundBot.name, "alive");
@@ -53,7 +55,8 @@ module.exports = {
                 Info.setImage(foundBot.image);
         } 
 
-        interaction.editReply({ embeds: [Info] })
+        await utils.user.pause(false);     
+        await interaction.editReply({ embeds: [Info] })
             .catch((e) => utils.consola.error(e));
     }
 }

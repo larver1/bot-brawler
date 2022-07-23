@@ -53,6 +53,30 @@ module.exports = {
                 name: "ALPHA: 3",
                 value: "8"
             },
+            {
+                name: "BETA: 1",
+                value: "9"
+            },
+            {
+                name: "BETA: 2",
+                value: "10"
+            },
+            {
+                name: "BETA: 3",
+                value: "11"
+            },
+            {
+                name: "COMPLETE: 1",
+                value: "12"
+            },
+            {
+                name: "COMPLETE: 2",
+                value: "13"
+            },
+            {
+                name: "COMPLETE: 3",
+                value: "14"
+            },
         ],
         },
     ]},
@@ -120,6 +144,30 @@ module.exports = {
                 name: "ALPHA: 3",
                 value: "8"
             },
+            {
+                name: "BETA: 1",
+                value: "9"
+            },
+            {
+                name: "BETA: 2",
+                value: "10"
+            },
+            {
+                name: "BETA: 3",
+                value: "11"
+            },
+            {
+                name: "COMPLETE: 1",
+                value: "12"
+            },
+            {
+                name: "COMPLETE: 2",
+                value: "13"
+            },
+            {
+                name: "COMPLETE: 3",
+                value: "14"
+            },
         ],
         },
         {
@@ -158,6 +206,7 @@ module.exports = {
                 linesPerPage: 30
             });
 
+            await utils.user.pause(false);
             return;
         } else if(subCommand == "sell") {
             let bots = await utils.user.getBots();
@@ -165,6 +214,7 @@ module.exports = {
             const price = await interaction.options.getInteger("price");
 
             if(!price || price <= 0) {
+                await utils.user.pause(false);
                 let err = new Error(`You cannot sell a bot for that price.`);
                 await utils.handler.info(interaction, err);
                 return;
@@ -174,21 +224,32 @@ module.exports = {
             await collection.inspectCollection(interaction);            
             collection.selectedEvent.on(`selected`, async () => {
                 const card = await new utils.card(interaction, collection.selected);
-                if(!await card.createCard())
+                if(!await card.createCard()) {
+                    await utils.user.pause(false);
                     return;
+                }
 
                 // Add bot to market and change ownership
-                if(!await utils.dbMarket.addBotToMarket(interaction, utils.user.username, collection.selected.botObj.bot_id, price))
+                if(!await utils.dbMarket.addBotToMarket(interaction, utils.user.username, collection.selected.botObj.bot_id, price)) {
+                    await utils.user.pause(false);
                     return;
-                if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, "", true))
+                }
+                if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, "", true)) {
+                    await utils.user.pause(false);
                     return;
-
+                }
+                if(!await utils.dbBots.cancelRequests) {
+                    await utils.user.pause(false);
+                    return;  
+                }
                 await interaction.editReply({ 
                     content: `Your bot is now listed on the market! If you change your mind, use \`/market withdraw\``, 
                     components: [], 
                     files: [card.getCard()] })
                 .catch((e) => utils.consola.error(e));
 
+                await utils.user.pause(false);
+                return;
             });
 
         } else if(subCommand == "withdraw") {
@@ -201,20 +262,27 @@ module.exports = {
             collection.selectedEvent.on(`selected`, async () => {
                 const card = await new utils.card(interaction, collection.selected);
             
-                if(!await card.createCard())
+                if(!await card.createCard()) {
+                    await utils.user.pause(false);
                     return;
+                }
 
                 // Remove bot from market and give user ownership
-                if(!await utils.dbMarket.removeBotFromMarket(interaction, utils.user.username, collection.selected.botObj.bot_id))
+                if(!await utils.dbMarket.removeBotFromMarket(interaction, utils.user.username, collection.selected.botObj.bot_id)) {
+                    await utils.user.pause(false);
                     return;
-                if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, utils.user.username))
+                }
+                if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, utils.user.username)) {
+                    await utils.user.pause(false);
                     return;
+                }
 
                 await interaction.editReply({ 
                     files: [card.getCard()],
                     content: `Your bot has been removed from the market, and added back to your collection!` })
                 .catch(e => utils.consola.error(e));
 
+                await utils.user.pause(false);
             })
 
         } else if(subCommand == "buy") {
@@ -229,31 +297,73 @@ module.exports = {
                 await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to buy ${collection.selected.name} for \`x${collection.selected.price}\` ${machinePartEmoji} Machine Parts?`);
                 utils.messageHelper.replyEvent.on(`accepted`, async () => {
                     if(utils.user.balance < collection.selected.price) {
+                        await utils.user.pause(false);
                         return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this. Try out \`/daily\` to get more.`));
                     }
 
                     const card = await new utils.card(interaction, collection.selected);
-                    if(!await card.createCard())
+                    if(!await card.createCard()) {
+                        await utils.user.pause(false);
                         return;
+                    }
 
                     const otherUser = await utils.db.findUsername(interaction, collection.selected.seller_username);
     
                     // Remove bot from market and give user ownership
-                    if(!await utils.db.remove(interaction, "balance", collection.selected.price))
+                    if(!await utils.db.remove(interaction, "balance", collection.selected.price)) {
+                        await utils.user.pause(false);
                         return;
-                    if(!await utils.db.add(interaction, "balance", collection.selected.price, otherUser.user_id))
+                    }
+                    if(!await utils.db.add(interaction, "balance", collection.selected.price, otherUser.user_id)) {
+                        await utils.user.pause(false);
                         return;
-                    if(!await utils.dbMarket.removeBotFromMarket(interaction, utils.user.username, collection.selected.botObj.bot_id))
+                    }
+                    if(!await utils.dbMarket.removeBotFromMarket(interaction, utils.user.username, collection.selected.botObj.bot_id)) {
+                        await utils.user.pause(false);
                         return;
-                    if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, utils.user.username))
+                    }
+                    if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, utils.user.username)) {
+                        await utils.user.pause(false);
                         return;
-    
+                    }
+
+                    await utils.dbAchievements.checkTask(interaction, otherUser.username, "Investor");
+
+                    // Add achievement
+                    let achievementIndex = 0;
+                    switch(collection.selected.findColour().type) {
+                        case "Prototype":
+                            achievementIndex = 1;
+                            break;
+                        case "Testing":
+                            achievementIndex = 2;
+                            break;
+                        case "Alpha":
+                            achievementIndex = 3;
+                            break;
+                        case "Beta":
+                            achievementIndex = 4;
+                            break;
+                        case "Complete":
+                            achievementIndex = 5;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    await utils.dbAchievements.editAchievement(interaction, utils.user.username, "Army Builder", collection.selected.botObj.bot_id, achievementIndex);
+                    await utils.dbAchievements.editAchievement(interaction, utils.user.username, "Entrepreneur", collection.selected.botObj.bot_id);
+                    await utils.dbAchievements.editAchievement(interaction, otherUser.username, "Entrepreneur", collection.selected.botObj.bot_id);
+
                     await interaction.editReply({ 
                         files: [card.getCard()],
                         content: `You have bought this bot and it has been added to your collection!`,
                         components: [],
                         embeds: [] })
                     .catch(e => utils.consola.error(e));
+                    
+                    await utils.user.pause(false);
+                    return;
 
                 });
             });

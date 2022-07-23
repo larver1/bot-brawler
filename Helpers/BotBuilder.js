@@ -2,6 +2,7 @@
 const fs = require('fs');
 const ErrorHandler = require("./ErrorHandler.js");
 const BotStats = require("../Database/dbBotStats.js");
+const { v4: uuidv4 } = require('uuid');
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 
 module.exports = class BotBuilder
@@ -11,6 +12,7 @@ module.exports = class BotBuilder
 		let botObj = {};
 
 		//Define all the bot properties
+		botObj.bot_id = info.bot_id ? info.bot_id : uuidv4();
 		botObj.bot_type = info.bot_type ? info.bot_type : bots[Math.floor(Math.random()  * bots.length)].name;
 		botObj.model_no = info.model_no ? info.model_no : await this.generateModelNo(interaction, botObj.bot_type);
 		botObj.owner_username = info.owner_username ? botObj.owner_username : user.username;

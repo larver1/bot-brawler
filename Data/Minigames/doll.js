@@ -97,7 +97,6 @@ module.exports = {
         }
 
         let firstRequirement, secondRequirement, prohibitedRequirement;
-        level = level[0];
 
         switch(level) {
             case "Fussy":
@@ -228,8 +227,10 @@ module.exports = {
                 finalScore += stats[secondRequirement];
             if(prohibitedRequirement)
                 finalScore -= stats[prohibitedRequirement];
+            
+            let won = finalScore < 15 ? false : true;
+                
             finalScore *= 10;
-
             let parts = (finalScore / 50) + (turns * 2);
 
             switch(difficulty) {
@@ -254,7 +255,11 @@ module.exports = {
                     break;
             }
 
-            finishedEvent.emit('finished', parts);
+            if(finalScore <= 0) {
+                await utils.dbAchievements.checkTask(interaction, utils.user.username, "Spoilt Brat");
+            }
+
+            finishedEvent.emit('finished', { parts: parts, won: won });
         });
 
     },

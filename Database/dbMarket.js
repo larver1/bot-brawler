@@ -95,7 +95,9 @@ module.exports = class dbMarket {
             return;
         }
 
+        await dbBots.cancelRequests(interaction, botID);
         await user.addToMarket(botObj, price);
+        
         return true;
 
     }

@@ -55,6 +55,7 @@ module.exports = {
         // Plot users on the map
         let userMap = await new Map(interaction, chosenUsers);
         await userMap.createMap();
+        await utils.user.pause(false); 
 
         // Display the map
         await interaction.editReply({ 

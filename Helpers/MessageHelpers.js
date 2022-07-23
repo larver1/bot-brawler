@@ -6,9 +6,22 @@ const consola = require("consola");
 const sampleEmbed = require("./sampleEmbed");
 const tickEmoji = "<a:tick:886245262169866260>";
 const crossEmoji = "<a:cross:886245292339515412>";
+const { Users } = require('../Database/dbObjects');
 
 module.exports = class MessageHelpers {
     constructor() {
+    }
+
+    static async findUser(interaction, differentID) {
+		let idToFind = interaction.user.id;
+		if(differentID) idToFind = differentID;
+		const user = await Users.findOne({ where: { user_id: idToFind } });
+		if(!user) {
+			let err = new Error(`\`${interaction.user.tag}\`||(${idToFind})|| does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+			await ErrorHandler.info(interaction, err);
+		}
+
+		return user;
     }
 
     //Gives user a yes/no option and emits event depending on choice
@@ -17,6 +30,7 @@ module.exports = class MessageHelpers {
 
         let acceptId = uuidv4();
         let rejectId = uuidv4();
+        let cancelId = uuidv4();
 
         let files = [];
         if(img) files = [img];
@@ -25,6 +39,9 @@ module.exports = class MessageHelpers {
             let err = new Error(`The message given to MessageHelpers.confirmChoice() is empty.`);
             return ErrorHandler.error(interaction, err);
         }
+
+        const dbUser = await this.findUser(interaction);
+        const dbOtherUser = await this.findUser(interaction, user.id);
 
         const request = new sampleEmbed(interaction, user)
             .setTitle(`Confirm your choice`)
@@ -44,38 +61,64 @@ module.exports = class MessageHelpers {
                 .setStyle('SECONDARY')
         )
 
+        const cancel = new MessageActionRow()
+        .addComponents(
+            new MessageButton()
+                .setCustomId(cancelId)
+                .setLabel('Cancel Command')
+                .setStyle('DANGER')
+        )
+
         if(!interaction.channel)
             await interaction.user.createDM();
 
         await interaction.editReply({ 
             content: `${user}, please choose an option.`,
             embeds: [request],
-            components: [choices],
+            components: [choices, cancel],
             files: files
         }).catch((e) => consola.error(e));
 
         const filter = i => (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
         const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
         let found = false;
+        let cancelled = false;
 
         // If user presses either button
         collector.on('collect', async i => {
             await i.deferUpdate().catch(e => consola.error(e));
 
-            if(i.customId == acceptId) {
-                this.replyEvent.emit('accepted');
-                found = true;
-                collector.emit('end');
-            } else if(i.customId == rejectId) {
-                this.replyEvent.emit('rejected');
-                found = true;
-                collector.emit('end');
+            switch(i.customId) {
+                case acceptId:
+                    this.replyEvent.emit('accepted');
+                    found = true;
+                    collector.emit('end');
+                    break;
+                case rejectId:
+                    this.replyEvent.emit('rejected');
+                    found = true;
+                    collector.emit('end');                   
+                    break;
+                case cancelId:
+                    cancelled = true;
+                    collector.emit('end');
+                    break;
+                default:
+                    break;
             }
+
         });
 
         // If button was never pressed
-        collector.on('end', async() => {
-            if(!found) {
+        collector.on('end', async() => {   
+             if(cancelled) {
+                await dbUser.pause(false);
+                await interaction.editReply({
+                    content: `${user} cancelled the command.`,
+                    components: []
+                 }).catch((e) => consola.error(e));
+            } else if(!found) {
+                await dbUser.pause(false);
                 await interaction.editReply({
                     content: `${user} did not select an option in time.`,
                     components: []

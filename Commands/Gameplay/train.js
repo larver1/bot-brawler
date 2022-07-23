@@ -15,6 +15,7 @@ module.exports = {
         // Get user challenges
         let userChallenge = await utils.db.getData(interaction, "currentChallenge");
         if(!userChallenge) {
+            await utils.user.pause(false); 
             return utils.handler.info(interaction, new Error(`You don't have any training battles available. Try using \`/daily\` to get some.`));
         }
 
@@ -36,7 +37,8 @@ module.exports = {
         const embed = new utils.embed(interaction, utils.user)
             .setTitle(`Professor Diriski's Lab Training`)
             .setDescription(`${msg}`)
-
+    
+        await utils.user.pause(false);             
         await interaction.editReply({ embeds: [embed] })
             .catch(e => utils.consola.error(e));
 

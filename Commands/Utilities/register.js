@@ -79,25 +79,37 @@ module.exports = {
                                     isBot: false,
                                     currentChallenge: "",
                                     challengesComplete: 0,
-                                    achievements: [{}]
+                                    achievements: [{}],
+                                    tasks: [{}],
+                                    paused: false
                                  })
         .catch(() => {
-            let err = new Error(`A user with the name \`${username}\` already exists! Please try again.`);
+            let err = new Error(`Cannot create a user with name \`${username}\`! It may have already been taken.`);
             utils.handler.info(interaction, err);    
         });
 
-        if(!user)
+        if(!user) {
+            await utils.user.pause(false); 
             return;
+        }
+
+        // Setup achievements template
+        if(!await utils.dbAchievements.setupAchievements(interaction)) {
+            await utils.user.pause(false); 
+            return;
+        }
 
         //Tries to send DM, if failed, then cancel
         if(!await utils.messenger.sendDM(interaction, utils.client, user, `Welcome to Bot Brawler. This game relies on Direct Messages to notify you about requests from other players (such as battling, trading). Please keep your Server DMs on for your server with Bot Brawler in order to play the game. Thanks, and enjoy!`)) {
             let err = new Error(`Bot Brawler requires Server DMs to be turned on in order to play. Please toggle the 'Server DMs' option in this server's Privacy Settings, and try again.`);
             await user.destroy();
+            await utils.user.pause(false);
             await utils.handler.info(interaction, err);
             return;
         }
         
         //Successful signup message
+        await utils.user.pause(false); 
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, user)
                 .setDescription(`You have successfully registered with the name \`${username}\``)] })

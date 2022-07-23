@@ -116,7 +116,7 @@ module.exports = class BotCollection {
         let selectCount = 0;
 
         if(selectionList[0].length <= 0) {
-            let err = new Error(`You do not own any Bots of the given type. If you don't have any bots, try \`/build\` to get started.`);
+            let err = new Error(`No bots could be found.`);
             return ErrorHandler.info(interaction, err);
         }
 

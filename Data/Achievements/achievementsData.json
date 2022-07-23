@@ -3,11 +3,12 @@
         "name": "Conqueror",
         "description": "Make your bots stronger by winning battles.",
         "values": [ 
-            [3, "Level up a bot to the Testing stage."], 
-            [6, "Level up a bot to the Alpha stage"],
-            [9, "Level up a bot to the Beta stage"], 
-            [12, "Level up a bot to the Complete stage"]
-        ]
+            [1, "Level up a bot to the Testing stage."], 
+            [1, "Level up a bot to the Alpha stage"],
+            [1, "Level up a bot to the Beta stage"], 
+            [1, "Level up a bot to the Complete stage"]
+        ],
+        "type": "number"
     },
     {
         "name": "Destroyer",
@@ -17,7 +18,8 @@
             [10, "Destroy 10 bots in battle."],
             [25, "Destroy 25 bots in battle."], 
             [50, "Destroy 50 bots in battle."]
-        ]
+        ],
+        "type": "number"
     },
     {
         "name": "Hoarder",
@@ -27,7 +29,8 @@
             [10, "Collect 10 bots in battle."],
             [25, "Collect 25 bots in battle."], 
             [50, "Collect 50 bots in battle."]
-        ]
+        ],
+        "type": "number"
     },
     {
         "name": "Winner",
@@ -37,7 +40,8 @@
             [25, "Win 25 battles."],
             [50, "Win 50 battles."], 
             [100, "Win 100 battles."]
-        ]
+        ],
+        "type": "number"
     },
     {
         "name": "Loser",
@@ -47,7 +51,8 @@
             [25, "Lose 25 battles."],
             [50, "Lose 50 battles."], 
             [100, "Lose 100 battles."]
-        ]
+        ],
+        "type": "number"
     },
     {
         "name": "Social Butterfly",
@@ -57,7 +62,8 @@
             [20, "Make 20 friends."],
             [50, "Make 50 friends."], 
             [100, "Make 100 friends."]
-        ]
+        ],
+        "type": "string"
     },
     {
         "name": "Army Builder",
@@ -68,49 +74,57 @@
             [5, "Buy 5 bots in the Alpha stage."],
             [5, "Buy 5 bots in the Beta stage."],
             [5, "Buy 5 bots in the Complete stage."]
-        ]
+        ],
+        "type": "string"
     },
     {
         "name": "Entrepreneur",
-        "description": "Buy/Sell bots to other users directly or through the global market.",
+        "description": "Buy/Sell bots to/from other users directly or through the global market.",
         "values": [ 
             [5, "Buy/Sell 5 bots."],
             [10, "Buy/Sell 10 bots."],
             [20, "Buy/Sell 20 bots."],
             [40, "Buy/Sell 40 bots."]
-        ]
+        ],
+        "type": "string"
     },
     {
         "name": "Collector",
         "description": "Collect all of the bot models available.",
         "values": [ 
-            [5, "Collect all of the 1st Generation Bot Brawlers."], 
-            [11, "Collect all of the original Bot Brawlers."]
-        ]
+            [5, "Collect all of the 1st Generation Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle"]], 
+            [11, "Collect all of the original Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]]
+        ],
+        "type": "object"
     },
     {
         "name": "Gold Collector",
         "description": "Collect rare, Gold Plated bots.",
-        "values": [
-            [1, "Get a Gold Plated bot."], 
-            [11, "Get all of the original bots in Gold Plated."]
-        ]
+        "values": [ 
+            [1, "Collect all of the 1st Generation Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]], 
+            [5, "Collect all of the 1st Generation Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle"]], 
+            [11, "Collect all of the original Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]]
+        ],
+        "type": "object"
     },
     {
         "name": "Antique Collector",
         "description": "Collect one of the first 100 models.",
         "values": [
-            [1, "Get bot with a Model Number of 100 or less.."], 
-            [11, "Get all of the original bots with a Model Number of 100 or less."]
-        ]
+            [1, "Collect a pre-100 model number bot.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]], 
+            [5, "Collect all of the 1st Generation Bot Brawlers as pre-100 models.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle"]], 
+            [11, "Collect all of the original Bot Brawlers as pre-100 models.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]]
+        ],
+        "type": "object"
     },
     {
         "name": "Arcade Enthusiast",
         "description": "Play and master all of the minigames available.",
         "values": [
-            [5, "Win 5 different Minigames on any difficulty."],
+            [5, "Win 5 different Minigames on Easy difficulty."],
             [5, "Win 5 different Minigames on Normal difficulty."],
             [5, "Win 5 different Minigames on Hard difficulty."]
-        ]
+        ],
+        "type": "string"
     }
 ]

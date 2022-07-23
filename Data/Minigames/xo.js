@@ -158,6 +158,8 @@ module.exports = {
 
             // Return amount of parts
             let parts = turns * 5;
+            let won = playerWon;
+
             switch(difficulty) {
                 case "Normal":
                     parts *= 2;
@@ -172,7 +174,7 @@ module.exports = {
             if(!playerWon)
                 parts = 0;
 
-            finishedEvent.emit('finished', parts);
+            finishedEvent.emit('finished', { parts: parts, won: won });
 
         });
 

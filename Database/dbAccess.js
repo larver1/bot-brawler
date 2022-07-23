@@ -1,5 +1,7 @@
 const { Users } = require('./dbObjects');
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
+const dbAchievements = require("../Database/dbAchievements.js");
+const { sequelize } = require("../Database/dbInit.js"); 
 
 module.exports = class dbAccess
 {
@@ -24,6 +26,47 @@ module.exports = class dbAccess
 
 		return user;
     }
+
+	// Return true if user was successfully paused
+	static async pauseUser(interaction, differentID) {
+		let idToFind = interaction.user.id;
+		if(differentID) 
+			idToFind = differentID;
+		
+		const getPaused = await sequelize.transaction();
+
+		try {
+
+			const user = await Users.findOne(
+				{ where: { user_id: idToFind } }, 
+				{ transaction: getPaused });
+			
+			// If no user was found, cancel
+			if(!user) {
+				await this.add(interaction, "paused", false);
+				let err = new Error(`\`${interaction.user.tag}\`||(${idToFind})|| does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+				await ErrorHandler.info(interaction, err);
+				await getPaused.rollback();
+				return;
+			}
+
+			// If user was already paused, cancel
+			if(user.paused == true) {
+				await getPaused.rollback();
+				return;
+			}
+
+			// Set user to paused, save and commit transaction
+			user.paused = true;
+			await user.save({ transaction: getPaused });
+			await getPaused.commit();
+			return user;
+			
+		} catch (err) {
+			return;
+		}
+
+	}
 
 	static async findFriend(interaction, username) {
 		const user = await this.findUser(interaction);
@@ -125,6 +168,9 @@ module.exports = class dbAccess
 					return false;
 				}
 				user.challengesComplete++;
+				if(user.challengesComplete == 5) {
+					await dbAchievements.checkTask(interaction, user.username, "Guinea Pig");
+				}
 				break;
 			case "currentChallenge":
 				if(typeof toAdd != "string") {
@@ -174,6 +220,9 @@ module.exports = class dbAccess
 			case "daily":
 				user.daily = Date.now();
 				break;
+			case "paused":
+				user.paused = toAdd;
+				break;
 			default:
 				var err = new Error(`Invalid type '${type}' called on add()`);
 				await ErrorHandler.handle(interaction, err);
@@ -208,6 +257,10 @@ module.exports = class dbAccess
 					return false;
 				}
 				user.energy -= toRemove;
+				
+				if(user.energy <= 0)
+					await dbAchievements.checkTask(interaction, user.username, "Depleted");
+
 				break;
 			case "challengesComplete":
 				user.challengesComplete = 0;
