@@ -141,6 +141,7 @@ module.exports = {
                     break;
                 case cancelId:
                     collector.emit('end');
+                    await utils.user.pause(false);
                     await interaction.editReply({ 
                         content: 'The game has been cancelled... ',
                         components: [] });
@@ -151,7 +152,7 @@ module.exports = {
 
         // When game is finished, add parts
         finishedEvent.once('finished', async (info) => {        
-            
+
             const minutesDiff = parseInt(Math.abs(utils.user.minigame - Date.now()) / (1000 * 60) % 60);
 
             // Only give parts if it has been 10 minutes

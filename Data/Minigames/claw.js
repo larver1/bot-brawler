@@ -93,7 +93,7 @@ module.exports = {
             }).catch((e) => utils.consola.error(e));
     
         const filter = i => (i.user.id === interaction.user.id && (i.customId == leftId || i.customId == rightId || i.customId == selectId || i.customId == finishId));
-        const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 600000, errors: ['time'] });
+        const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 120000, errors: ['time'] });
         
         collector.on('collect', async i => {
             await i.deferUpdate().catch(e => utils.consola.error(e));
@@ -219,6 +219,7 @@ module.exports = {
     generateGrid(gridX, gridY, clawPos) {
         let grid = [];
         let countTreasure = 0;
+        let treasureProb = 0.10;
 
         // Add blank canvas
         for(let y = 0; y < gridY; y++) {
@@ -233,17 +234,21 @@ module.exports = {
             countTreasure = 0;
             for(let x = 0; x < gridX; x++) {
                 for(let y = gridY - 1; y > 1; y--) {
-                    let treasureChance = Math.random();
-                    if(treasureChance < 0.5)
+                    if(treasureProb < Math.random()) {
+                        treasureProb = Math.max(0.2, (x + 1) / (gridX));
                         break;
-                    if(treasureChance > 0.95)
+                    }
+
+                    let treasureChance = Math.random();
+                    if(treasureChance > 0.90)
                         grid[y][x] = "t3";
-                    else if(treasureChance > 0.80)
+                    else if(treasureChance > 0.60)
                         grid[y][x] = "t2";
                     else
                         grid[y][x] = "t1";
     
                     countTreasure++;
+                    treasureProb = Math.max(0.2, (x + 1) / (gridX));
                 }
             }
         }

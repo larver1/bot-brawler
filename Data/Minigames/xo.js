@@ -1,6 +1,7 @@
 const { MessageActionRow, MessageButton, MessageSelectMenu } = require('discord.js');
 const { v4: uuidv4 } = require('uuid');
 const { promisify } = require('util');
+const { isReadable } = require('stream');
 const sleep = promisify(setTimeout);
 
 module.exports = {
@@ -68,9 +69,10 @@ module.exports = {
         let playY = 0;
         let playerWon = false;
         let turns = 0;
+        let draw;
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == confirmId || i.customId == selectXId || i.customId == selectYId));
-        const collector = interaction.channel.createMessageComponentCollector({ filter });
+        const collector = interaction.channel.createMessageComponentCollector({ filter, time: 120000 });
         collector.on('collect', async i => {
             await i.deferUpdate()
                 .catch(e => utils.consola.error(e));
@@ -193,12 +195,29 @@ module.exports = {
         return grid;
     },
     makeGrid(grid) {
-        let msg = ``;
+        let msg = `⬛1️⃣2️⃣3️⃣\n`;
 
         // Prints grid of emojis based on grid input
         for(let y = 0; y < grid.length; y++) {
-            for(let x = 0; x < grid[y].length; x++) {
-                switch(grid[y][x]) {
+            for(let x = 0; x <= grid[y].length; x++) {
+                
+                if(x == 0) {
+                    switch(y) {
+                        case 0:
+                            msg += `1️⃣`;
+                            break;
+                        case 1:
+                            msg += `2️⃣`;
+                            break;
+                        case 2:
+                            msg += `3️⃣`;
+                            break;
+                    }
+
+                    continue;
+                }
+                
+                switch(grid[y][x - 1]) {
                     case '-':
                         msg += `⬛`;
                         break;

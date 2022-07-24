@@ -10,7 +10,7 @@ module.exports = class dbAccess
 		if(differentID) idToFind = differentID;
 		const user = await Users.findOne({ where: { user_id: idToFind } });
 		if(!user) {
-			let err = new Error(`\`${interaction.user.tag}\`||(${idToFind})|| does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+			let err = new Error(`\`${interaction.user.tag}\` does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
 			await ErrorHandler.info(interaction, err);
 		}
 
@@ -43,17 +43,14 @@ module.exports = class dbAccess
 			
 			// If no user was found, cancel
 			if(!user) {
-				await this.add(interaction, "paused", false);
-				let err = new Error(`\`${interaction.user.tag}\`||(${idToFind})|| does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
-				await ErrorHandler.info(interaction, err);
 				await getPaused.rollback();
-				return;
+				return null;
 			}
 
 			// If user was already paused, cancel
 			if(user.paused == true) {
 				await getPaused.rollback();
-				return;
+				return null;
 			}
 
 			// Set user to paused, save and commit transaction

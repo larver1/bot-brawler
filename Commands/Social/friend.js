@@ -186,6 +186,7 @@ module.exports = {
             await utils.dbAchievements.checkTask(interaction, utils.user.username, "Networking");
 
             //Inform recipient of friend request
+            await utils.user.pause(false); 
             await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                 `${utils.user.username} has sent you a friend request.\nTo accept: \`/friend accept ${messageNumber}\`\nTo reject: \`/friend reject ${messageNumber}\``);
 

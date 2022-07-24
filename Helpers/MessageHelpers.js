@@ -30,7 +30,6 @@ module.exports = class MessageHelpers {
 
         let acceptId = uuidv4();
         let rejectId = uuidv4();
-        let cancelId = uuidv4();
 
         let files = [];
         if(img) files = [img];
@@ -41,7 +40,6 @@ module.exports = class MessageHelpers {
         }
 
         const dbUser = await this.findUser(interaction);
-        const dbOtherUser = await this.findUser(interaction, user.id);
 
         const request = new sampleEmbed(interaction, user)
             .setTitle(`Confirm your choice`)
@@ -61,21 +59,13 @@ module.exports = class MessageHelpers {
                 .setStyle('SECONDARY')
         )
 
-        const cancel = new MessageActionRow()
-        .addComponents(
-            new MessageButton()
-                .setCustomId(cancelId)
-                .setLabel('Cancel Command')
-                .setStyle('DANGER')
-        )
-
         if(!interaction.channel)
             await interaction.user.createDM();
 
         await interaction.editReply({ 
             content: `${user}, please choose an option.`,
             embeds: [request],
-            components: [choices, cancel],
+            components: [choices],
             files: files
         }).catch((e) => consola.error(e));
 
@@ -98,10 +88,6 @@ module.exports = class MessageHelpers {
                     this.replyEvent.emit('rejected');
                     found = true;
                     collector.emit('end');                   
-                    break;
-                case cancelId:
-                    cancelled = true;
-                    collector.emit('end');
                     break;
                 default:
                     break;

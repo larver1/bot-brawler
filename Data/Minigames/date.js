@@ -90,7 +90,7 @@ module.exports = {
             .catch((e) => utils.consola.error(e));
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == complimentId || i.customId == insultId || i.customId == jokeId || i.customId == stuntId));
-        const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 600000, errors: ['time'] });
+        const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 120000, errors: ['time'] });
 
         collector.on('collect', async i => {
             await i.deferUpdate().catch(e => utils.consola.error(e));

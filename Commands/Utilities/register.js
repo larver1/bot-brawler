@@ -109,7 +109,6 @@ module.exports = {
         }
         
         //Successful signup message
-        await utils.user.pause(false); 
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, user)
                 .setDescription(`You have successfully registered with the name \`${username}\``)] })

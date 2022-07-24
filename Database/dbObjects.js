@@ -20,6 +20,7 @@ UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
 Users.prototype.pause = async function(value) {
 	this.paused = value;
+	this.changed("paused", true);
 	return this.save();
 };
 

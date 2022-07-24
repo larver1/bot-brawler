@@ -105,10 +105,11 @@ module.exports = class BotCollection {
 
     }
 
-    async inspectCollection(interaction, maxSelected, selectMsg){
+    async inspectCollection(interaction, user, maxSelected, selectMsg){
         let selectId = uuidv4();
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
+        let cancelId = uuidv4();
 
         let selectionList = this.getSelectionList();
         let page = 0;
@@ -117,43 +118,62 @@ module.exports = class BotCollection {
 
         if(selectionList[0].length <= 0) {
             let err = new Error(`No bots could be found.`);
-            return ErrorHandler.info(interaction, err);
+            await ErrorHandler.info(interaction, err);
+            return;
         }
 
         //Selection menu
         let selectList = new MessageActionRow()
-        .addComponents(
-            new MessageSelectMenu()
-                .setCustomId(selectId)
-                .setPlaceholder(`[Page ${page + 1}] ${selectMsg ? selectMsg : 'Select a Bot: '}`)
-                .addOptions([selectionList[page]])
-        );
+            .addComponents(
+                new MessageSelectMenu()
+                    .setCustomId(selectId)
+                    .setPlaceholder(`[Page ${page + 1}] ${selectMsg ? selectMsg : 'Select a Bot: '}`)
+                    .addOptions([selectionList[page]])
+            );
     
         const nextPage = new MessageActionRow()
-                .addComponents(
-                    new MessageButton()
-                        .setCustomId(prevPageId)
-                        .setLabel('Prev Page: ')
-                        .setStyle('SECONDARY'),
-                    new MessageButton()
-                        .setCustomId(nextPageId)
-                        .setLabel('Next Page: ')
-                        .setStyle('SECONDARY')
-                )
+            .addComponents(
+                new MessageButton()
+                    .setCustomId(prevPageId)
+                    .setLabel('Prev Page: ')
+                    .setStyle('SECONDARY'),
+                new MessageButton()
+                    .setCustomId(nextPageId)
+                    .setLabel('Next Page: ')
+                    .setStyle('SECONDARY')
+            )
+        
+        const cancel = new MessageActionRow()
+            .addComponents(
+                new MessageButton()
+                    .setCustomId(cancelId)
+                    .setLabel('Cancel Command')
+                    .setStyle('DANGER')
+            )
 
         if(!interaction.channel)
             await interaction.user.createDM();
 
-        await interaction.editReply({ content: 'Select a bot: ', components: [selectList, nextPage] }).catch((e) => consola.error(e));
+        await interaction.editReply({ 
+            content: 'Select a bot: ', 
+            components: [selectList, nextPage, cancel] }).catch((e) => consola.error(e));
 
-        const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId)); 
+        const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId || i.customId == cancelId)); 
 		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
-		
+		let cancelled = false;
+
         collector.on('collect', async i => { 
 
             await i.deferUpdate().catch(e => consola.error(e));
 
-			//If they switched a page
+            // If they cancelled the command
+            if(i.customId == cancelId) {
+                cancelled = true;
+                collector.emit('end');
+                return;
+            }
+
+			// If they switched a page
 			if(i.customId == nextPageId || i.customId == prevPageId) {
 				if(i.customId == nextPageId) {
 					if(page < maxPages - 1) page++;
@@ -190,12 +210,20 @@ module.exports = class BotCollection {
         });
 
         collector.on('end', async() => {
-            await interaction.editReply({ components: [] }).catch(e => consola.error(e));
+            await user.pause(false);
+            await interaction.editReply({ 
+                embeds: [],
+                files: [],
+                components: [],
+                content: `${cancelled ? 'The command was cancelled...' : ' '} ` 
+            }).catch(e => consola.error(e));
         });
+
+        return true;
 
     }
 
-    //Pass in an array of strings and turn to botObjs
+    // Pass in an array of strings and turn to botObjs
     convertToObjects(showDead){
         let objArray = [];
 
@@ -209,8 +237,8 @@ module.exports = class BotCollection {
 
     }
 
-    //Takes pokemon objects and gives back selection options
-    getSelectionList(objs){
+    // Takes bot objects and gives back selection options
+    getSelectionList(objs) {
         let objects = this.objs;
 
         if(objs) objects = objs;
@@ -220,7 +248,7 @@ module.exports = class BotCollection {
         let page = 0;
         
         for(let i = 0; i < objects.length; i++){
-            //select menus can have a max of 25 values
+            // Select menus have a max of 25 values
             if((i + 1) % 25 == 0){
                 page++; 
                 selectionList.push([]);

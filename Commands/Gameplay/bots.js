@@ -64,7 +64,10 @@ module.exports = {
         });
 
         //Inspect the collection
-        await collection.inspectCollection(interaction);
+        if(!await collection.inspectCollection(interaction, utils.user)) {
+            await utils.user.pause(false);
+            return;
+        }
 
         //When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {

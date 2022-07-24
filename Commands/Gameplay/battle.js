@@ -261,12 +261,16 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
     await interaction.editReply({ files: [newWinnerCard.getCard()], content: msg })
         .catch((e) => utils.consola.error(e));
 
+    await winnerUser.pause(false);
+    await loserUser.pause(false);
+
     return results;
 }
 
 module.exports = {
     name: "battle",
     description: "Battle your bot with another player.",
+    usage: "`/battle user` allows you to battle another user on the same server.\n`/battle train` allows you to battle Professor Diriski in the training lab.\n`/battle request` allows you to send a battle request to a user's inbox.\n`/battle accept` allows you to accept a battle from your inbox.\n`/battle reject` allows you to reject a battle from your inbox.",
     options: [{
         name: "user",
         description: "Battle with another user on the server.",
@@ -383,7 +387,7 @@ module.exports = {
         if(subCommand == "request") 
             otherUser = await utils.db.findUsername(interaction, interaction.options.getString("username"));
         else if(subCommand == "user")
-            otherUser = await utils.db.findUser(interaction, userSubCommand.id);
+            otherUser = await utils.handler.findOtherUser(interaction, userSubCommand);
         else if(subCommand == "train") {
             otherUser = await utils.db.findUsername(interaction, "Professor Diriski");
             if(!utils.user.currentChallenge) {
@@ -391,6 +395,14 @@ module.exports = {
                 return utils.handler.info(interaction, new Error(`You do not have any challenges available... Try out \`/daily\` to get more.`)); 
             } 
             console.log(utils.user.currentChallenge);
+        }
+
+        if(otherUser) {
+            // Pause other user so that they can't exploit
+            if(!await utils.db.pauseUser(interaction, otherUser.user_id)) {
+                await utils.user.pause(false);
+                return interaction.editReply({ content: `The other user is currently busy. Try again later.` });
+            }
         }
    
         // If accepting a request, find the msg
@@ -402,8 +414,10 @@ module.exports = {
             }
 
             otherUser = await utils.db.findUsername(interaction, msg.sender_username);
-            if(!otherUser)
+            if(!otherUser) {
+                await utils.user.pause(false);
                 return;
+            }
 
             let details = msg.message_content.split("|");
             let yourBot = await utils.dbBots.findBotObj(interaction, details[1]);
@@ -412,6 +426,7 @@ module.exports = {
     
             if(!yourBot || !otherBot) {       
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;        
             }
 
@@ -421,18 +436,19 @@ module.exports = {
             let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
             if(!results) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;
             }
 
             // Send the other user the progress of the battle
             let userToSend = await utils.client.users.fetch(otherUser.user_id);
-            let success = true;
 
             // Battle from other players point of view
             let otherResults = await otherBot.battle(yourBot);
             let otherScene = await new BattleView(interaction, otherBot, yourBot, otherResults);
             if(!await otherScene.createCards()) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;
             }
 
@@ -440,17 +456,10 @@ module.exports = {
                 content: `Battle outcome: ${results.winnerUser.username}'s ${results.winnerBot.name} won!`,
                 files: [otherScene.getScene()] })
             .catch(() => {
-                success = false;
                 return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
             });
 
-            if(!success) {
-                await utils.user.pause(false);
-                return;    
-            }
-
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "battle");
-            await utils.user.pause(false);
 
             return;
         }
@@ -509,7 +518,10 @@ module.exports = {
         }
 
         //Inspect the collection
-        await collection.inspectCollection(interaction, 1, `Choose ${utils.user.username}'s bot`);
+        if(!await collection.inspectCollection(interaction, utils.user, 1, `Choose ${utils.user.username}'s bot`))  {
+            await utils.user.pause(false);
+            return;
+        }
 
         //When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {
@@ -524,7 +536,11 @@ module.exports = {
             await interaction.editReply({ files: [yourCard.getCard()] })
                 .catch(e => utils.consola.error(e));
 
-            await otherCollection.inspectCollection(interaction, 1, `Choose ${otherUser.username}'s bot`);
+            if(!await otherCollection.inspectCollection(interaction, utils.user, 1, `Choose ${otherUser.username}'s bot`)) {
+                await utils.user.pause(false);
+                return;
+            }
+
             otherCollection.selectedEvent.on(`selected`, async() => {
 
                 let otherBot = otherCollection.selected;
@@ -578,7 +594,12 @@ module.exports = {
 
                     // If other user accepts
                     utils.messageHelper.replyEvent.on(`accepted`, async () => {
-                        await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
+                        let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
+                        if(!results) {
+                            await utils.user.pause(false);
+                            await otherUser.pause(false);
+                            return;
+                        }        
                     });
 
                     // If other user rejects
@@ -590,10 +611,10 @@ module.exports = {
                         }).catch((e) => utils.consola.error(e));
                         
                         await utils.user.pause(false);
+                        await otherUser.pause(false);
                         return;
                     }); 
                         
-                    await utils.user.pause(false);
                     return;
                     
                 } else if(subCommand == "train") {

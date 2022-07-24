@@ -7,6 +7,7 @@ const machinePartEmoji = "<:machine_parts:992728693799669801>";
 module.exports = {
     name: "market",
     description: "Buy and sell Bot Brawlers on the Global Market.",
+    usage: "`/market view` allows you to choose a Bot Level and browse all of the available bots.\n`/market sell` allows you to put a bot for sale on the market.\n`/market withdraw` allows you to withdraw a bot you put up for sale.\n`/market buy` allows you to buy a bot from the market.",
     options: [{
         name: "view",
         description: "Browse Bot Brawlers on the Global Market.",
@@ -221,7 +222,11 @@ module.exports = {
             }
 
             // Add selected bot to market
-            await collection.inspectCollection(interaction);            
+            if(!await collection.inspectCollection(interaction, utils.user))  {
+                await utils.user.pause(false);
+                return;
+            }
+
             collection.selectedEvent.on(`selected`, async () => {
                 const card = await new utils.card(interaction, collection.selected);
                 if(!await card.createCard()) {
@@ -258,7 +263,11 @@ module.exports = {
             let collection = await new utils.botCollection([], interaction);
             collection.objs = sellingBots;
 
-            await collection.inspectCollection(interaction);
+            if(!await collection.inspectCollection(interaction, utils.user))  {
+                await utils.user.pause(false);
+                return;
+            }
+
             collection.selectedEvent.on(`selected`, async () => {
                 const card = await new utils.card(interaction, collection.selected);
             
@@ -291,7 +300,11 @@ module.exports = {
             let collection = await new utils.botCollection([], interaction);
             collection.objs = bots;
 
-            await collection.inspectCollection(interaction, 1);
+            if(!await collection.inspectCollection(interaction, utils.user, 1))  {
+                await utils.user.pause(false);
+                return;
+            }
+
             collection.selectedEvent.on(`selected`, async () => {
                 
                 await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to buy ${collection.selected.name} for \`x${collection.selected.price}\` ${machinePartEmoji} Machine Parts?`);

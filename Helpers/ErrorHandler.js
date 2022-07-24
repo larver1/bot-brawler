@@ -10,7 +10,17 @@ module.exports = class ErrorHandler
 		if(differentID) idToFind = differentID;
 		const user = await Users.findOne({ where: { user_id: idToFind } });
 		if(!user) {
-			let err = new Error(`\`${interaction.user.tag}\`||(${idToFind})|| does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+			let err = new Error(`\`${differentID ? differentID : interaction.user.tag}\` does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+			await ErrorHandler.info(interaction, err);
+		}
+
+		return user;
+    }
+
+    static async findOtherUser(interaction, differentUser) {
+		const user = await Users.findOne({ where: { user_id: differentUser.id } });
+		if(!user) {
+			let err = new Error(`\`${differentUser.tag}\` does not have a user account.`);
 			await ErrorHandler.info(interaction, err);
 		}
 
@@ -18,12 +28,6 @@ module.exports = class ErrorHandler
     }
 
     static async handle(interaction, error) {
-        
-        let user;
-        if((user = await this.findUser(interaction))) {
-            await user.pause(false);
-        }
-
         consola.error(error);
         return interaction.editReply({ 
             embeds: [
@@ -34,12 +38,6 @@ module.exports = class ErrorHandler
     }
 
     static async info(interaction, error) {
-        
-        let user;
-        if((user = await this.findUser(interaction))) {
-            await user.pause(false);
-        }
-
         consola.warn(error);
         return interaction.editReply({ 
             embeds: [

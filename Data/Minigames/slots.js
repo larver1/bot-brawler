@@ -7,7 +7,7 @@ const icons = [
     {
         "name": "bar",
         "emoji": "<:BAR:992735917687189514>",
-        "value": 5,
+        "value": 10,
     },
     {
         "name": "bell",
@@ -37,17 +37,17 @@ const icons = [
     {
         "name": "lemon",
         "emoji": "<:LEMON:992735927673819196>",
-        "value": 3,
+        "value": 10,
     },
     {
         "name": "watermelon",
         "emoji": "<:WATERMELON:992735930806964234>",
-        "value": 5,
+        "value": 12,
     },
     {
         "name": "cherries",
         "emoji": "<:CHERRIES:992735921168457819>",
-        "value": 10,
+        "value": 15,
     },
 ]
 

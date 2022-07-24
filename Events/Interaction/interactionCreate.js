@@ -33,12 +33,16 @@ module.exports = {
 
             // Bot respond with "loading" state
             await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
+            
             let user;
 
+            // Find the user and pause them
             if(command.name != "register") {
-                // If unable to pause user, then don't run command
-                user = await dbAccess.pauseUser(interaction);
+                user = await dbAccess.findUser(interaction);
                 if(!user)
+                    return;
+
+                if(!await dbAccess.pauseUser(interaction, interaction.user.id))
                     return interaction.editReply({ content: `Please wait until your previous command is finished.` });
             }
 

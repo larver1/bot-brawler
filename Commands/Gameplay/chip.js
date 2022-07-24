@@ -94,7 +94,11 @@ module.exports = {
         });
 
         //Inspect the collection
-        await collection.inspectCollection(interaction, 1);
+        if(!await collection.inspectCollection(interaction, utils.user, 1)) {
+            await utils.user.pause(false);
+            return;
+        }
+        
         let chipType = interaction.options.getString("type");
 
         //When a card is selected, display it
