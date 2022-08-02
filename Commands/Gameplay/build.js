@@ -6,6 +6,7 @@ const energyEmoji = "<:energy_v1:993195219224903832>";
 module.exports = {
     name: "build",
     description: "Build a Bot Brawler to use in battles.",
+    usage: "`/build type` allows you to build a Bot with a certain amount of starting EXP.",
     options: [{
         name: "type",
         description: "Choose the level the bot will start off at.",
@@ -51,14 +52,19 @@ module.exports = {
                 break;
         }
 
+        /*
         exp = 25000;
         energyCost = 0;
         moneyCost = 0;
+        */
+
 
         await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost}\` ${machinePartEmoji} Machine Parts\n\`x${energyCost}\` ${energyEmoji} Energy?`);
 
         utils.messageHelper.replyEvent.on(`accepted`, async () => {
             
+            await utils.db.checkTutorial(interaction, "build");
+
             // Not enough energy
             if(utils.user.energy < energyCost) {
                 await utils.user.pause(false);
@@ -97,6 +103,9 @@ module.exports = {
             await utils.dbBotStats.addExists(interaction, botObj.bot_type);
             await utils.user.createBot(bot);
             await utils.dbBots.changeOwner(interaction, bot.bot_id, utils.user.username);
+
+            await utils.userFile.writeUserLog(utils.user.username, `built a ${botObj.bot_type.toUpperCase()} with ID ${bot.bot_id}`);
+            await utils.dbBots.addLogs(interaction, bot.bot_id, `was built with ${bot.exp} EXP.`);
 
             await utils.user.pause(false);
             return interaction.editReply({ 

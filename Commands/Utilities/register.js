@@ -1,9 +1,10 @@
+const fs = require('fs');
 const { Users } = require('../../Database/dbObjects');
 var badWords = [];
+const fileReadWrite = require('../../Helpers/FileReadWrite.js');
 
 async function getBadWords()
 {
-	const fileReadWrite = require('../../Helpers/fileReadWrite.js');
     var file = new fileReadWrite('./Helpers/badwords.txt');
 	badWords = await file.processLineByLine();
 }
@@ -35,6 +36,7 @@ function checkValid(nickname) {
 module.exports = {
     name: "register",
     description: "Choose a username to start your adventure.",
+    usage: "`/register username` allows you to create a new user account with the given username.",
     options: [{
         name: "username",
         description: "Enter a username, this cannot be changed!",
@@ -81,7 +83,8 @@ module.exports = {
                                     challengesComplete: 0,
                                     achievements: [{}],
                                     tasks: [{}],
-                                    paused: false
+                                    paused: false,
+                                    tutorial: -1,
                                  })
         .catch(() => {
             let err = new Error(`Cannot create a user with name \`${username}\`! It may have already been taken.`);
@@ -93,6 +96,11 @@ module.exports = {
             return;
         }
 
+        // Create user file
+        await fs.writeFile(`UserLogs/${user.username}.txt`, ` `, function (err) {
+            if (err) utils.consola.error(err);
+        });   	
+            
         // Setup achievements template
         if(!await utils.dbAchievements.setupAchievements(interaction)) {
             await utils.user.pause(false); 
@@ -100,10 +108,10 @@ module.exports = {
         }
 
         //Tries to send DM, if failed, then cancel
-        if(!await utils.messenger.sendDM(interaction, utils.client, user, `Welcome to Bot Brawler. This game relies on Direct Messages to notify you about requests from other players (such as battling, trading). Please keep your Server DMs on for your server with Bot Brawler in order to play the game. Thanks, and enjoy!`)) {
+        if(!await utils.messenger.sendDM(interaction, utils.client, user, `Welcome to Bot Brawler. This game relies on Direct Messages to notify you about requests from other players (such as battling, trading). Please keep your Server DMs on for your server with Bot Brawler in order to play the game. Thanks, and enjoy!`, 
+            `https://i.imgur.com/5FceJV4.png`)) {
             let err = new Error(`Bot Brawler requires Server DMs to be turned on in order to play. Please toggle the 'Server DMs' option in this server's Privacy Settings, and try again.`);
             await user.destroy();
-            await utils.user.pause(false);
             await utils.handler.info(interaction, err);
             return;
         }

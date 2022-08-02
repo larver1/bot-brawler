@@ -4,6 +4,7 @@ const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 module.exports = {
     name: "info",
     description: "Find more information about the Battle Bots.",
+    usage: "`/info bot` allows you to get information of a certain bot name (e.g. Greedisk).",
     options: [{
         name: "bot",
         description: "The name of the Bot.",

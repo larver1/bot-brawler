@@ -3,7 +3,7 @@ const energyEmoji = "<:energy_v1:993195219224903832>";
 
 module.exports = {
     name: "rebuild",
-    description: "Rebuild a destroyed Battle Bot.",
+    description: "Rebuild a destroyed Bot.",
     /**
      * @param {CommandInteraction} CommandInteraction
      * @param {Object} executeObj
@@ -30,7 +30,6 @@ module.exports = {
             let energyCost = 25;
             let moneyCost = 10 + Math.round(collection.selected.exp);
 
-            moneyCost = 0;
             energyCost = 0;
 
             const deadCard = await new utils.card(interaction, collection.selected);
@@ -76,6 +75,9 @@ module.exports = {
                     await utils.user.pause(false); 
                     return;
                 }
+                
+                await utils.userFile.writeUserLog(utils.user.username, `rebuilt their destroyed ${collection.selected.bot_type.toUpperCase()} with ID ${collection.selected.botObj.bot_id} for ${moneyCost} parts and ${energyCost} energy.`);
+                await utils.dbBots.addLogs(interaction, collection.selected.botObj.bot_id, `was rebuilt for x${moneyCost} Machine Parts.`);
 
                 await utils.user.pause(false); 
                 await interaction.editReply({ 
@@ -87,7 +89,8 @@ module.exports = {
 
             });
 
-            await utils.user.pause(false);             
+            await utils.user.pause(false);      
+            
             utils.messageHelper.replyEvent.on(`rejected`, async() => {
                 await interaction.editReply({ 
                     content: `The rebuild was cancelled...`,

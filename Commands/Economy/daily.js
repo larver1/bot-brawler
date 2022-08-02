@@ -10,8 +10,10 @@ module.exports = {
      */
     async execute(interaction, utils) {
 
-        //Find hours since last drop
+        //Find hours since last daily
         let numHours = Math.abs(Date.now() - utils.user.daily) / 36e5;
+
+        await utils.db.checkTutorial(interaction, "daily");
 
         //Displays amount of money
         if(numHours < 24) {
@@ -28,8 +30,10 @@ module.exports = {
         let numEnergy = 100;
 
         // Set new challenge
-        let newChallenge = await utils.dbBots.setChallenge(interaction, utils.user.username, "Professor Diriski");
-        
+        let newChallenge = await utils.dbBots.setChallenge(interaction, utils.user.username, "Professor Diriski"); 
+        if(!newChallenge)
+            return;
+
         await utils.db.add(interaction, "currentChallenge", newChallenge);
         await utils.dbAchievements.setupTasks(interaction);
 
@@ -55,6 +59,7 @@ module.exports = {
         }
         
         //Resets daily to current time
+        await utils.userFile.writeUserLog(utils.user.username, `collected their daily rewards.`);
         await utils.db.add(interaction, "daily");
         await utils.user.pause(false);
 

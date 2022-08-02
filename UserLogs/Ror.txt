@@ -1,0 +1,309 @@
+ [1659280846945] Ror collected their daily rewards.
+[1659280905944] Ror built a BOSTROM with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888
+[1659281082228] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against olibot-65's Ramselle M-00620 with ID a73cf7f9-4bf0-4349-a44e-3aadc9a9933e. Bostrom M-00946 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659281082866] Ror has accepted a battle request from olibot-65. Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 versus olibot-65's Ramselle M-00620 with ID a73cf7f9-4bf0-4349-a44e-3aadc9a9933e. The wager is destroy.
+[1659281177117] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659281177507] Ror is battle training with Professor Diriski. Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659281282078] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Buddy & Lila M-00004 is the winner!
+The loser lost the training match and walked away with nothing...
+Buddy & Lila M-00004 gained power due to their ability..
+[1659281282583] Ror is battle training with Professor Diriski. Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659281337453] Ror played minigame slots with difficulty Normal and level 3 Rows. The reward was x14 Machine Parts.
+[1659281418803] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Bostrom M-00946 is the winner!
+The winner is rewarded with some EXP..
+[1659281419262] Ror is battle training with Professor Diriski. Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659281579290] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against Clunk's Voidisk M-00003 with ID 0cecf79b-7834-451f-a688-a97a73a49baf. Bostrom M-00946 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659281704963] Ror switched changed chips to balanced for Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888.
+[1659281768071] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00946 is the winner!
+The winner is rewarded with some EXP..
+[1659281768515] Ror is battle training with Professor Diriski. Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659281881145] Ror battled their Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 against olibot-40's Bostrom M-00374 with ID 6ec17890-9bb4-4dbf-844a-cb835b39c65c. Bostrom M-00374 is the winner!
+Loser bot gets collected by winner..
+[1659281882234] Ror has accepted a battle request from olibot-40. Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888 versus olibot-40's Bostrom M-00374 with ID 6ec17890-9bb4-4dbf-844a-cb835b39c65c. The wager is collect.
+[1659281909632] Ror built a TROJO with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265
+[1659281930782] Ror switched changed chips to balanced for Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265.
+[1659281989970] Ror battled their Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 against olibot-33's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a. Trojo M-00915 is the winner!
+Loser bot gets collected by winner..
+[1659281990601] Ror has accepted a battle request from olibot-33. Ror's Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 versus olibot-33's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a. The wager is collect.
+[1659282047486] Ror listed Constant on the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a with offer of 15.
+[1659282126042] Ror battled their Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Trojo M-00915 is the winner!
+The winner is rewarded with some EXP..
+[1659282126528] Ror is battle training with Professor Diriski. Ror's Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659282218414] Ror played minigame slots with difficulty Hard and level 5 Rows. The reward was x0 Machine Parts.
+[1659282298675] Ror battled their Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 against olibot-76's Ramselle M-00720 with ID cacb70af-f2cc-42e0-8226-a3f920a1a87c. Trojo M-00915 is the winner!
+Loser bot gives winner bot some EXP..
+[1659282299328] Ror has accepted a battle request from olibot-76. Ror's Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 versus olibot-76's Ramselle M-00720 with ID cacb70af-f2cc-42e0-8226-a3f920a1a87c. The wager is damage.
+[1659282349220] Ror battled their Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 against olibot-8's Constant M-00101 with ID 85c56f33-ed64-4cf4-b192-3479bdd80984. Constant M-00101 is the winner!
+Loser bot gets collected by winner..
+[1659282349972] Ror has accepted a battle request from olibot-8. Ror's Trojo M-00915 with ID 59a5c383-1730-4ba7-bf5c-a1f2c6ff3265 versus olibot-8's Constant M-00101 with ID 85c56f33-ed64-4cf4-b192-3479bdd80984. The wager is collect.
+[1659282412899] Ror played minigame slots with difficulty Normal and level 3 Rows. The reward was x0 Machine Parts.
+[1659282462048] Ror built a RAMSELLE with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6
+[1659282489318] Ror switched changed chips to balanced for Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6.
+[1659282547721] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-69's Ramselle M-00647 with ID 62902508-87e9-4af4-ab4c-30acd0e0d3db. Ramselle M-00935 is the winner!
+Loser bot gives winner bot some EXP..
+[1659282548371] Ror has accepted a battle request from olibot-69. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-69's Ramselle M-00647 with ID 62902508-87e9-4af4-ab4c-30acd0e0d3db. The wager is damage.
+[1659282648989] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-45's Ransom Blue M-00446 with ID aef3ee2a-5e85-440e-b9f7-98cf989f7336. Ransom Blue M-00446 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659282649660] Ror has accepted a battle request from olibot-45. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-45's Ransom Blue M-00446 with ID aef3ee2a-5e85-440e-b9f7-98cf989f7336. The wager is destroy.
+[1659282697612] Ror played minigame slots with difficulty Easy and level 5 Rows. The reward was x0 Machine Parts.
+[1659282730837] Ror withdrew Constant from the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a.
+[1659282752195] Ror switched changed chips to balanced for Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a.
+[1659282824809] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-45's Bostrom M-00431 with ID 1b505fc7-2b2e-4379-bf35-187b6542866a. Constant M-00313 is the winner!
+Loser bot gets collected by winner..
+[1659282825447] Ror has accepted a battle request from olibot-45. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-45's Bostrom M-00431 with ID 1b505fc7-2b2e-4379-bf35-187b6542866a. The wager is collect.
+[1659282850840] Ror built a VOIDISK with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd
+[1659282877902] Ror switched changed chips to balanced for Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd.
+[1659283037423] Ror listed Bostrom on the market with ID 1b505fc7-2b2e-4379-bf35-187b6542866a with offer of 20.
+[1659283158682] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-16's Ransom Blue M-00178 with ID bb7a9982-c371-47f5-8393-1e0304838fb5. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659283159289] Ror has accepted a battle request from olibot-16. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-16's Ransom Blue M-00178 with ID bb7a9982-c371-47f5-8393-1e0304838fb5. The wager is damage.
+[1659283265173] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-17's Voidisk M-00169 with ID ba40048d-1620-4c75-be44-cd68173fd512. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659283265904] Ror has accepted a battle request from olibot-17. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-17's Voidisk M-00169 with ID ba40048d-1620-4c75-be44-cd68173fd512. The wager is damage.
+[1659283400305] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-97's Ransom Blue M-00958 with ID 6f3889e9-d319-490a-a98c-599b2e1c39e9. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659283401104] Ror has accepted a battle request from olibot-97. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-97's Ransom Blue M-00958 with ID 6f3889e9-d319-490a-a98c-599b2e1c39e9. The wager is damage.
+[1659283510239] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-60's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61. Constant M-00313 is the winner!
+Loser bot gets collected by winner..
+[1659283510943] Ror has accepted a battle request from olibot-60. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-60's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61. The wager is collect.
+[1659283604194] Ror played minigame doll with difficulty Normal and level Simple. The reward was x10 Machine Parts.
+[1659283727979] Ror played minigame xo with difficulty Normal and level Regular. The reward was x40 Machine Parts.
+[1659283792412] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-11's Ramselle M-00119 with ID 45b66f4b-a85f-4576-971c-06432cdb6232. Voidisk M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659283793070] Ror has accepted a battle request from olibot-11. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-11's Ramselle M-00119 with ID 45b66f4b-a85f-4576-971c-06432cdb6232. The wager is destroy.
+[1659283858564] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-76's Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188. Constant M-00313 is the winner!
+Loser bot gets collected by winner..
+[1659283859172] Ror has accepted a battle request from olibot-76. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-76's Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188. The wager is collect.
+[1659283956387] Ror switched changed chips to balanced for Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188.
+[1659283999900] Ror battled their Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188 against olibot-30's Voidisk M-00292 with ID 8f8a79c6-c6d1-49ee-bb9e-1594ade0f526. Memnesia M-00689 is the winner!
+Loser bot gives winner bot some EXP..
+[1659284000585] Ror has accepted a battle request from olibot-30. Ror's Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188 versus olibot-30's Voidisk M-00292 with ID 8f8a79c6-c6d1-49ee-bb9e-1594ade0f526. The wager is damage.
+[1659284018046] Ror withdrew Bostrom from the market with ID 1b505fc7-2b2e-4379-bf35-187b6542866a.
+[1659284034106] Ror listed Bostrom on the market with ID 1b505fc7-2b2e-4379-bf35-187b6542866a with offer of 1.
+[1659284098713] Ror battled their Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 against olibot-72's Ramselle M-00679 with ID 6f091ef8-1ceb-4326-b779-b98679969a2c. Constant M-00550 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659284099337] Ror has accepted a battle request from olibot-72. Ror's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 versus olibot-72's Ramselle M-00679 with ID 6f091ef8-1ceb-4326-b779-b98679969a2c. The wager is destroy.
+[1659284218916] Ror battled their Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 against olibot-84's Buddy & Lila M-00770 with ID 57845f42-c197-41fc-bdda-c38b93b2cb12. Constant M-00550 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659284219986] Ror has accepted a battle request from olibot-84. Ror's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 versus olibot-84's Buddy & Lila M-00770 with ID 57845f42-c197-41fc-bdda-c38b93b2cb12. The wager is destroy.
+[1659284287048] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-60's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee. Voidisk M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659284287260] Ror has accepted a battle request from olibot-60. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-60's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee. The wager is collect.
+[1659284520569] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-13's Bostrom M-00144 with ID becfc7a7-2238-4a9c-be93-79f7a80fd6fb. Constant M-00313 is the winner!
+Loser bot gives winner bot some EXP..
+[1659284521339] Ror has accepted a battle request from olibot-13. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-13's Bostrom M-00144 with ID becfc7a7-2238-4a9c-be93-79f7a80fd6fb. The wager is damage.
+[1659284756341] Ror battled their Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188 against olibot-39's Memnesia M-00364 with ID 281d5196-ba82-4663-93bb-fe3c9d2ffacf. Memnesia M-00364 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659284757568] Ror has accepted a battle request from olibot-39. Ror's Memnesia M-00689 with ID 5c5e149e-350a-48db-b83f-5536040c8188 versus olibot-39's Memnesia M-00364 with ID 281d5196-ba82-4663-93bb-fe3c9d2ffacf. The wager is destroy.
+[1659284845030] Ror played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[1659284902311] Ror battled their Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 against olibot-38's Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c. Constant M-00550 is the winner!
+Loser bot gets collected by winner..
+[1659284902989] Ror has accepted a battle request from olibot-38. Ror's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 versus olibot-38's Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c. The wager is collect.
+[1659284980126] Ror switched changed chips to balanced for Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c.
+[1659285021869] Ror battled their Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c against olibot-44's Memnesia M-00409 with ID 48058994-c768-40e7-9055-34d840884e33. Memnesia M-00409 is the winner!
+Loser bot gives winner bot some EXP..
+[1659285022504] Ror has accepted a battle request from olibot-44. Ror's Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c versus olibot-44's Memnesia M-00409 with ID 48058994-c768-40e7-9055-34d840884e33. The wager is damage.
+[1659285116762] Ror battled their Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c against olibot-46's Constant M-00428 with ID e018d8b6-b22b-4c75-b826-b0f975d6d8c1. Constant M-00428 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659285117798] Ror has accepted a battle request from olibot-46. Ror's Ramselle M-00379 with ID 30a84136-3d7b-4905-bd56-385175e7959c versus olibot-46's Constant M-00428 with ID e018d8b6-b22b-4c75-b826-b0f975d6d8c1. The wager is destroy.
+[1659285140966] Ror rebuilt their destroyed RAMSELLE with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 for 38 parts and 0 energy.
+[1659285195562] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-74's Ransom Blue M-00711 with ID fe7ab9c8-e8cd-40ca-86e9-0ac629c379a9. Constant M-00313 is the winner!
+Loser bot gives winner bot some EXP..
+[1659285196214] Ror has accepted a battle request from olibot-74. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-74's Ransom Blue M-00711 with ID fe7ab9c8-e8cd-40ca-86e9-0ac629c379a9. The wager is damage.
+[1659285297682] Ror battled their Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 against olibot-92's Ransom Blue M-00908 with ID 56208f7e-b98c-4125-94f7-21119bd0c19f. Constant M-00550 is the winner!
+Loser bot gives winner bot some EXP..
+[1659285298321] Ror has accepted a battle request from olibot-92. Ror's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 versus olibot-92's Ransom Blue M-00908 with ID 56208f7e-b98c-4125-94f7-21119bd0c19f. The wager is damage.
+[1659285363956] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-13's Bostrom M-00142 with ID a1517bce-1373-4698-b791-8483af6fe405. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659285364648] Ror has accepted a battle request from olibot-13. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-13's Bostrom M-00142 with ID a1517bce-1373-4698-b791-8483af6fe405. The wager is damage.
+[1659285534479] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-50's Bostrom M-00475 with ID c100fce7-008e-4358-b7b6-5740ab7af958. Constant M-00313 is the winner!
+Loser bot gives winner bot some EXP..
+[1659285535167] Ror has accepted a battle request from olibot-50. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-50's Bostrom M-00475 with ID c100fce7-008e-4358-b7b6-5740ab7af958. The wager is damage.
+[1659285638682] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[1659285690209] Ror switched changed chips to balanced for Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee.
+[1659285730015] Ror battled their Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee against olibot-32's Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704. Voidisk M-00576 is the winner!
+Loser bot gets collected by winner..
+[1659285730714] Ror has accepted a battle request from olibot-32. Ror's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee versus olibot-32's Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704. The wager is collect.
+[1659285854369] Ror battled their Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee against olibot-22's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16. Voidisk M-00576 is the winner!
+Loser bot gets collected by winner..
+[1659285855030] Ror has accepted a battle request from olibot-22. Ror's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee versus olibot-22's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16. The wager is collect.
+[1659285954575] Ror battled their Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 against olibot-47's Memnesia M-00427 with ID 53ad2f1f-caa4-4506-963f-7adae052d4c9. Memnesia M-00427 is the winner!
+Loser bot gets collected by winner..
+[1659285955214] Ror has accepted a battle request from olibot-47. Ror's Constant M-00550 with ID 70871364-b254-4fc7-8371-651bf1b78f61 versus olibot-47's Memnesia M-00427 with ID 53ad2f1f-caa4-4506-963f-7adae052d4c9. The wager is collect.
+[1659286011342] Ror switched changed chips to balanced for Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a.
+[1659286050104] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-58's Dungware M-00526 with ID dcc609fc-ad61-4262-96e0-b6378050d6a6. Constant M-00313 is the winner!
+Loser bot gives winner bot some EXP..
+[1659286050764] Ror has accepted a battle request from olibot-58. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-58's Dungware M-00526 with ID dcc609fc-ad61-4262-96e0-b6378050d6a6. The wager is damage.
+[1659286143808] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-27's Bostrom M-00256 with ID 8c2bd4b4-2f45-43ba-bb9d-57ba7f2e7c83. Bostrom M-00256 is the winner!
+Loser bot gives winner bot some EXP..
+[1659286144565] Ror has accepted a battle request from olibot-27. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-27's Bostrom M-00256 with ID 8c2bd4b4-2f45-43ba-bb9d-57ba7f2e7c83. The wager is damage.
+[1659286292465] Ror battled their Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 against olibot-45's Compactisk M-00479 with ID ff0c4f47-9d8f-4955-9420-7e767e4ddae6. Greedisk M-00321 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00321 gets extra EXP due to their ability..
+[1659286293505] Ror has accepted a battle request from olibot-45. Ror's Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 versus olibot-45's Compactisk M-00479 with ID ff0c4f47-9d8f-4955-9420-7e767e4ddae6. The wager is damage.
+[1659286447707] Ror battled their Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee against olibot-35's Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f. Voidisk M-00576 is the winner!
+Loser bot gets collected by winner..
+[1659286448333] Ror has accepted a battle request from olibot-35. Ror's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee versus olibot-35's Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f. The wager is collect.
+[1659286627883] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-35's Ransom Blue M-00339 with ID 1c8a0572-112f-4b40-8a00-0d4373888859. Constant M-00313 is the winner!
+Loser bot gets collected by winner..
+[1659286628532] Ror has accepted a battle request from olibot-35. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-35's Ransom Blue M-00339 with ID 1c8a0572-112f-4b40-8a00-0d4373888859. The wager is collect.
+[1659286734950] Ror battled their Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f against olibot-29's Ransom Blue M-00295 with ID 089d432a-c3af-4673-94ec-9db94624b783. Ransom Blue M-00295 is the winner!
+Loser bot gives winner bot some EXP..
+[1659286735597] Ror has accepted a battle request from olibot-29. Ror's Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f versus olibot-29's Ransom Blue M-00295 with ID 089d432a-c3af-4673-94ec-9db94624b783. The wager is damage.
+[1659287642296] Ror completed their daily tasks!
+[1659287713569] Ror battled their Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 against olibot-93's Ransom Blue M-00916 with ID bdeeb5d1-4361-4574-9628-ebbdd5171085. Memnesia M-00221 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659287714229] Ror has accepted a battle request from olibot-93. Ror's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 versus olibot-93's Ransom Blue M-00916 with ID bdeeb5d1-4361-4574-9628-ebbdd5171085. The wager is destroy.
+[1659287823907] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-58's Ransom Blue M-00561 with ID f0fd90af-5aa9-423a-8666-bd1fecc01aec. Ramselle M-00935 is the winner!
+Loser bot gives winner bot some EXP..
+[1659287824558] Ror has accepted a battle request from olibot-58. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-58's Ransom Blue M-00561 with ID f0fd90af-5aa9-423a-8666-bd1fecc01aec. The wager is damage.
+[1659287941494] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-17's Trojo M-00184 with ID 0f557a4f-7217-4004-82c0-01d805f07e6f. Voidisk M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659287942210] Ror has accepted a battle request from olibot-17. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-17's Trojo M-00184 with ID 0f557a4f-7217-4004-82c0-01d805f07e6f. The wager is collect.
+[1659288191951] Ror battled their Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f against olibot-38's Greedisk M-00373 with ID 5d2b9f81-9ed6-462f-bb6a-8c206e0d1969. Ramselle M-00351 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659288202386] Ror has accepted a battle request from olibot-38. Ror's Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f versus olibot-38's Greedisk M-00373 with ID 5d2b9f81-9ed6-462f-bb6a-8c206e0d1969. The wager is destroy.
+[1659288296925] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-62's Ramselle M-00582 with ID ee2273d7-e13c-4e12-905b-e981a0474a65. Constant M-00313 is the winner!
+Loser bot gets collected by winner..
+[1659288298051] Ror has accepted a battle request from olibot-62. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-62's Ramselle M-00582 with ID ee2273d7-e13c-4e12-905b-e981a0474a65. The wager is collect.
+[1659288359134] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-53's Dungware M-00491 with ID a4a03517-f3e0-4c84-90a5-b809d1de8095. Constant M-00313 is the winner!
+Loser bot gives winner bot some EXP..
+[1659288359770] Ror has accepted a battle request from olibot-53. Ror's Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a versus olibot-53's Dungware M-00491 with ID a4a03517-f3e0-4c84-90a5-b809d1de8095. The wager is damage.
+[1659288411330] Ror battled their Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 against olibot-50's Greedisk M-00476 with ID 216ea7fc-dfa6-474d-a4ae-ecc0d89d797f. Greedisk M-00476 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00476 gets extra EXP due to their ability..
+[1659288412377] Ror has accepted a battle request from olibot-50. Ror's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 versus olibot-50's Greedisk M-00476 with ID 216ea7fc-dfa6-474d-a4ae-ecc0d89d797f. The wager is damage.
+[1659288441022] Ror listed Constant on the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a with offer of 10.
+[1659288452370] Ror listed Trojo on the market with ID 0f557a4f-7217-4004-82c0-01d805f07e6f with offer of 15.
+[1659288460573] Ror listed Ransom Blue on the market with ID 1c8a0572-112f-4b40-8a00-0d4373888859 with offer of 15.
+[1659288470166] Ror listed Voidisk on the market with ID 3c5ef833-72d8-4b27-a35a-18029e641aee with offer of 15.
+[1659288478663] Ror listed Memnesia on the market with ID 3c676de2-1319-4f63-9269-231a5f276e16 with offer of 15.
+[1659288486712] Ror listed Ramselle on the market with ID 4df8da52-091c-4d50-8daa-b5ef733d254f with offer of 15.
+[1659288503150] Ror listed Greedisk on the market with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 with offer of 14.
+[1659288512526] Ror listed Ramselle on the market with ID ee2273d7-e13c-4e12-905b-e981a0474a65 with offer of 15.
+[1659288772396] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-37's Ransom Blue M-00361 with ID 1628c5ff-c59f-4ba1-8c4e-fd8c18a3e3d0. Ramselle M-00935 is the winner!
+Loser bot gives winner bot some EXP..
+[1659288772960] Ror has accepted a battle request from olibot-37. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-37's Ransom Blue M-00361 with ID 1628c5ff-c59f-4ba1-8c4e-fd8c18a3e3d0. The wager is damage.
+[1659288831512] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-38's Ransom Blue M-00372 with ID 493516ea-1733-4aff-816f-678ed9fab910. Ransom Blue M-00372 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659288832266] Ror has accepted a battle request from olibot-38. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-38's Ransom Blue M-00372 with ID 493516ea-1733-4aff-816f-678ed9fab910. The wager is destroy.
+[1659288847994] Ror rebuilt their destroyed RAMSELLE with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 for 45 parts and 0 energy.
+[1659288919553] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[1659288981591] Ror has rejected a battle request from olibot-55. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-55's Bostrom M-00527 with ID 525a176c-57cb-4853-a7c8-d4f56773a41c. The wager is collect.
+[1659289135925] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-73's Bostrom M-00696 with ID 8d9db484-0644-4a86-89f3-7a301fa83d37. Bostrom M-00696 is the winner!
+Loser bot gives winner bot some EXP..
+[1659289136660] Ror has accepted a battle request from olibot-73. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-73's Bostrom M-00696 with ID 8d9db484-0644-4a86-89f3-7a301fa83d37. The wager is damage.
+[1659289320694] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-95's Dungware M-00879 with ID dfa93773-7e8a-4034-bc01-629b4ffed060. Dungware M-00879 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659289321545] Ror has accepted a battle request from olibot-95. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-95's Dungware M-00879 with ID dfa93773-7e8a-4034-bc01-629b4ffed060. The wager is destroy.
+[1659289335331] Ror rebuilt their destroyed RAMSELLE with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 for 38 parts and 0 energy.
+[1659289407134] Ror played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[1659289434945] Ror has rejected a battle request from olibot-22. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-22's Ransom Blue M-00233 with ID 44c17258-f1aa-4bc8-95e5-d32d3ed6865c. The wager is collect.
+[1659289601976] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-32's Dungware M-00294 with ID 55081d1f-2299-465d-aa6f-b0d7ea748d5e. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659289602633] Ror has accepted a battle request from olibot-32. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-32's Dungware M-00294 with ID 55081d1f-2299-465d-aa6f-b0d7ea748d5e. The wager is damage.
+[1659289681350] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-86's Trojo M-00786 with ID 0fcccecb-dd3b-47a5-8841-67f894b5e548. Trojo M-00786 is the winner!
+Loser bot gives winner bot some EXP..
+[1659289681954] Ror has accepted a battle request from olibot-86. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-86's Trojo M-00786 with ID 0fcccecb-dd3b-47a5-8841-67f894b5e548. The wager is damage.
+[1659289792800] Ror played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[1659289858080] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-54's Memnesia M-00487 with ID a922b5a2-9228-47c3-bcba-58bb3fe31f81. Memnesia M-00487 is the winner!
+Loser bot gives winner bot some EXP..
+[1659289858697] Ror has accepted a battle request from olibot-54. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-54's Memnesia M-00487 with ID a922b5a2-9228-47c3-bcba-58bb3fe31f81. The wager is damage.
+[1659289976789] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-54's Bostrom M-00516 with ID 0614c653-56c9-4ff8-845e-66eca9ec0f21. Ramselle M-00935 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00935 gained lifespan due to their ability..
+[1659290034143] Ror battled their Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 against olibot-35's Dungware M-00316 with ID 6846e5cd-3961-41b1-8160-2ec4440cafd6. Dungware M-00316 is the winner!
+Loser bot gets collected by winner..
+[1659290034913] Ror has accepted a battle request from olibot-35. Ror's Ramselle M-00935 with ID 3a5fb7c3-ed46-47e8-af50-f42deb6ef0b6 versus olibot-35's Dungware M-00316 with ID 6846e5cd-3961-41b1-8160-2ec4440cafd6. The wager is collect.
+[1659290112500] Ror battled their Bostrom M-00516 with ID 0614c653-56c9-4ff8-845e-66eca9ec0f21 against olibot-13's Compactisk M-00158 with ID ead466ec-d8c4-49e8-9a4e-6f6fd1e6085d. Compactisk M-00158 is the winner!
+Loser bot gets collected by winner..
+[1659290113198] Ror has accepted a battle request from olibot-13. Ror's Bostrom M-00516 with ID 0614c653-56c9-4ff8-845e-66eca9ec0f21 versus olibot-13's Compactisk M-00158 with ID ead466ec-d8c4-49e8-9a4e-6f6fd1e6085d. The wager is collect.
+[1659290295053] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-42's Compactisk M-00447 with ID 0b58cd79-4953-4554-8224-f7cd0a7d43d5. Compactisk M-00447 is the winner!
+Loser bot gives winner bot some EXP..
+[1659290295648] Ror has accepted a battle request from olibot-42. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-42's Compactisk M-00447 with ID 0b58cd79-4953-4554-8224-f7cd0a7d43d5. The wager is damage.
+[1659290442027] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-57's Greedisk M-00529 with ID fc1da4bb-7bed-4913-9a7b-dc3ec78c54d9. Greedisk M-00529 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00529 gets extra EXP due to their ability..
+[1659290442632] Ror has accepted a battle request from olibot-57. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-57's Greedisk M-00529 with ID fc1da4bb-7bed-4913-9a7b-dc3ec78c54d9. The wager is damage.
+[1659290825154] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-92's Greedisk M-00855 with ID 1a9162b1-7c2d-4ce5-96c6-90347c4d963b. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659290826003] Ror has accepted a battle request from olibot-92. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-92's Greedisk M-00855 with ID 1a9162b1-7c2d-4ce5-96c6-90347c4d963b. The wager is damage.
+[1659290946825] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-91's Bostrom M-00875 with ID a982f3cc-01b3-45aa-9f90-7be25e310755. Voidisk M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659290948102] Ror has accepted a battle request from olibot-91. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-91's Bostrom M-00875 with ID a982f3cc-01b3-45aa-9f90-7be25e310755. The wager is collect.
+[1659291006064] Ror listed Bostrom on the market with ID a982f3cc-01b3-45aa-9f90-7be25e310755 with offer of 10.
+[1659291060994] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[1659291090858] Ror has rejected a battle request from olibot-60. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-60's Memnesia M-00533 with ID dccf4c1f-61f7-40ff-8c97-2b596b008275. The wager is collect.
+[1659293985061] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-15's Ransom Blue M-00165 with ID fd4cdb24-970f-4351-a655-95d3bad652a2. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659293985758] Ror has accepted a battle request from olibot-15. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-15's Ransom Blue M-00165 with ID fd4cdb24-970f-4351-a655-95d3bad652a2. The wager is damage.
+[1659295526332] Ror has rejected a battle request from olibot-3. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-3's Voidisk M-00049 with ID 6bd8dfb8-6afd-478a-bec0-77a42005d115. The wager is collect.
+[1659295702155] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-93's Buddy & Lila M-00867 with ID 6c4e05c0-cff0-463d-a756-218d11c1f438. Buddy & Lila M-00867 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00867 gained power due to their ability..
+[1659295702849] Ror has accepted a battle request from olibot-93. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-93's Buddy & Lila M-00867 with ID 6c4e05c0-cff0-463d-a756-218d11c1f438. The wager is damage.
+[1659295770357] Ror withdrew Constant from the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a.
+[1659295841105] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[1659295915029] Ror battled their Constant M-00313 with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a against olibot-93's Trojo M-00858 with ID 17599943-11ea-473c-9f2e-39781e2bacf8. Trojo M-00858 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00858 gained power due to their ability..
+[1659295937728] Ror rebuilt their destroyed CONSTANT with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a for 19 parts and 0 energy.
+[1659295992225] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-73's Bostrom M-00700 with ID 1a5533c9-1230-4891-988f-3b30ba5a3473. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659295992965] Ror has accepted a battle request from olibot-73. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-73's Bostrom M-00700 with ID 1a5533c9-1230-4891-988f-3b30ba5a3473. The wager is damage.
+[1659296104087] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-59's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631. Voidisk M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659296105205] Ror has accepted a battle request from olibot-59. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-59's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631. The wager is collect.
+[1659296124640] Ror listed Constant on the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a with offer of 15.
+[1659296245584] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Trojo M-00563 with ID 09115231-40c2-4b89-b733-2a3e821355a2. Greedisk M-00554 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659296333546] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Constant M-00536 with ID 11e27866-a879-4299-a7de-e87179326a7c. Greedisk M-00554 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659296357176] Ror has rejected a battle request from olibot-11. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-11's Trojo M-00121 with ID da3c20d4-4e87-4c60-bd0d-9238edc4ddb5. The wager is collect.
+[1659296438778] Ror has rejected a battle request from olibot-93. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-93's Trojo M-00854 with ID 847fb772-3988-412d-a746-febd987e33a3. The wager is collect.
+[1659296522128] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Memnesia M-00532 with ID 11a1178d-8e44-491b-8b02-d1d3e194e6ca. Greedisk M-00554 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659296580078] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-48's Ransom Blue M-00473 with ID 23a52b2f-4267-443c-89f7-50ec6b256772. Voidisk M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659296581361] Ror has accepted a battle request from olibot-48. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-48's Ransom Blue M-00473 with ID 23a52b2f-4267-443c-89f7-50ec6b256772. The wager is destroy.
+[1659296675241] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-11's Trojo M-00122 with ID 1199dec6-8dbe-4afe-8910-1798d3288c55. Trojo M-00122 is the winner!
+Loser bot gives winner bot some EXP..
+[1659296735512] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-11's Trojo M-00125 with ID 0a5893f5-8f42-43d2-8cdc-62b1ac65b73f. Trojo M-00125 is the winner!
+Loser bot gives winner bot some EXP..
+[1659296755910] Ror switched changed chips to firewall for Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631.
+[1659296784424] Ror switched changed chips to power for Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631.
+[1659296851115] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-11's Trojo M-00125 with ID 0a5893f5-8f42-43d2-8cdc-62b1ac65b73f. Trojo M-00125 is the winner!
+Loser bot gives winner bot some EXP..
+[1659296874791] Ror switched changed chips to balanced for Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631.
+[1659296933171] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Memnesia M-00532 with ID 11a1178d-8e44-491b-8b02-d1d3e194e6ca. Greedisk M-00554 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659296998802] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Ramselle M-00561 with ID 1f8c7a1d-22e1-4f69-bb4a-4837b335ecfd. Greedisk M-00554 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659297058280] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-42's Compactisk M-00447 with ID 0b58cd79-4953-4554-8224-f7cd0a7d43d5. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659297059039] Ror has accepted a battle request from olibot-42. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-42's Compactisk M-00447 with ID 0b58cd79-4953-4554-8224-f7cd0a7d43d5. The wager is damage.
+[1659297123001] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Dungware M-00539 with ID 18db8416-ae2b-4f9f-ba3e-c788c5ab37d2. Greedisk M-00554 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659297195124] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Ramselle M-00558 with ID 31fb73a6-436d-43bf-8dd3-570ab43fc7d8. Ramselle M-00558 is the winner!
+Loser bot gives winner bot some EXP..
+[1659297255363] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Ramselle M-00558 with ID 31fb73a6-436d-43bf-8dd3-570ab43fc7d8. Greedisk M-00554 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659298208589] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[1659298289419] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-59's Bostrom M-00560 with ID 365e4122-deb8-484a-a90e-6353ddcaf75f. Bostrom M-00560 is the winner!
+Loser bot gives winner bot some EXP..
+[1659298388616] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-11's Buddy & Lila M-00105 with ID 2bcc6cac-c57d-42a2-a16f-cddacd83acf7. Greedisk M-00554 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[1659298745396] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-70's Trojo M-00663 with ID 023a3375-9466-4369-81cd-ffe2ab17d5a0. Voidisk M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659298746611] Ror has accepted a battle request from olibot-70. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-70's Trojo M-00663 with ID 023a3375-9466-4369-81cd-ffe2ab17d5a0. The wager is destroy.

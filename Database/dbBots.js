@@ -17,6 +17,18 @@ module.exports = class dbBots
         return bot;
     }
 
+    static async findBotObjByName(interaction, botName, botModelNo) {
+		const bot = await Bots.findOne({ where: { bot_type: botName, model_no: `M-${botModelNo}` } });
+		if(!bot) {
+			let err = new Error(`Bot of name '${botName} M-${botModelNo}' could not be found.`);
+            await ErrorHandler.handle(interaction, err);
+            return;
+        }
+
+        let botObj = await new BotObj(interaction, bot);
+        return botObj;
+    }
+
     static async findBotObj(interaction, botID) {
 		const bot = await Bots.findOne({ where: { bot_id: botID } });
 		if(!bot) {
@@ -53,7 +65,6 @@ module.exports = class dbBots
             case "power":   
                 bot.powerBoost += toAdd;
                 await bot.save();
-                console.log("adding power boost");
                 break;
             case "lifespan":
                 bot.lifespanBoost += toAdd;
@@ -341,7 +352,37 @@ module.exports = class dbBots
         
         return challengeBots;
     }
-    
+
+    static async addLogs(interaction, botID, toAdd) {
+		const bot = await this.findBot(interaction, botID);
+
+        if(!bot) {
+            let err = new Error(`Invalid botID '${botID}' passed to dbBots.addLogs().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }   
+
+        if(typeof toAdd != "string" || toAdd.length <= 0) {
+            let err = new Error(`Invalid logs '${toAdd}' passed to dbBots.addLogs().`);
+            await ErrorHandler.handle(interaction, err);
+            return false;
+        }    
+
+        var dateTime = new Date();
+        var dateString =
+            dateTime.getFullYear() + "/" +
+            ("0" + (dateTime.getMonth()+1)).slice(-2) + "/" +
+            ("0" + dateTime.getDate()).slice(-2) + " " +
+            ("0" + dateTime.getHours()).slice(-2) + ":" +
+            ("0" + dateTime.getMinutes()).slice(-2) + ":" +
+            ("0" + dateTime.getSeconds()).slice(-2);
+
+        bot.logs += `[${dateString}] ${bot.bot_type} ${bot.model_no} ${toAdd}\n`;
+        await bot.save();
+
+        return true;
+
+	}
 	
 };
 

@@ -1,0 +1,85 @@
+ [1659253272036] Hexxy1 collected their daily rewards.
+[1659253491386] Hexxy1 built a MEMNESIA with ID e0937fea-4d00-49b1-8ab7-18547edb792c
+[1659253556531] Hexxy1 built a RANSOM BLUE with ID 5e53c793-a149-4446-8cd0-03afe0dc5111
+[1659254099706] Hexxy1 battled their Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 against Clunk's Constant M-00010 with ID 10186505-d1e4-489b-a387-75d468e3cf43. Ransom Blue M-00987 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659254191464] Hexxy1 switched changed chips to balanced for Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111.
+[1659254431067] Hexxy1 played minigame date with difficulty Easy and level Compactisk. The reward was x7 Machine Parts.
+[1659254829267] Hexxy1 built a DUNGWARE with ID 4fa29f24-6a09-445e-867a-1d2690d165d0
+[1659255111430] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d. Memnesia M-00881 is the winner!
+Loser bot gives winner bot some EXP..
+[1659255112887] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d. The wager is damage.
+[1659255263611] Hexxy1 played minigame claw with difficulty Easy and level 7x7. The reward was x30 Machine Parts.
+[1659255329143] Hexxy1 played minigame doll with difficulty Easy and level Fussy. The reward was x18 Machine Parts.
+[1659255515660] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against olibot-49's Ramselle M-00467 with ID db436507-9246-4b16-ae53-46787c5ace61. Memnesia M-00881 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659255516333] Hexxy1 has accepted a battle request from olibot-49. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus olibot-49's Ramselle M-00467 with ID db436507-9246-4b16-ae53-46787c5ace61. The wager is destroy.
+[1659255588807] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against olibot-85's Ransom Blue M-00842 with ID 38c3b4f2-292e-4466-a652-5fadcfb0d95c. Ransom Blue M-00842 is the winner!
+Loser bot gives winner bot some EXP..
+[1659255589361] Hexxy1 has accepted a battle request from olibot-85. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus olibot-85's Ransom Blue M-00842 with ID 38c3b4f2-292e-4466-a652-5fadcfb0d95c. The wager is damage.
+[1659255649974] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against olibot-7's Voidisk M-00071 with ID d058d8df-8635-46a7-b30f-15027d82d99a. Dungware M-00927 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659255650642] Hexxy1 has accepted a battle request from olibot-7. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus olibot-7's Voidisk M-00071 with ID d058d8df-8635-46a7-b30f-15027d82d99a. The wager is destroy.
+[1659257740092] Hexxy1 played minigame doll with difficulty Hard and level Exquisite. The reward was x45 Machine Parts.
+[1659257803297] Hexxy1 listed Memnesia on the market with ID e0937fea-4d00-49b1-8ab7-18547edb792c with offer of 5.
+[1659257882173] Hexxy1 bought Memnesia from the market with ID e0937fea-4d00-49b1-8ab7-18547edb792c for 5.
+[1659257942857] Hexxy1 played minigame doll with difficulty Hard and level Exquisite. The reward was x54 Machine Parts.
+[1659257948501] Hexxy1 completed their daily tasks!
+[1659258534835] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. Dungware M-00929 is the winner!
+Loser bot gives winner bot some EXP..
+[1659258536383] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is damage.
+[1659258740963] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. Dungware M-00927 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659258742360] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is destroy.
+[1659259670980] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00765 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659259674984] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is destroy.
+[1659259766305] Hexxy1 battled their Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Ransom Blue M-00987 is the winner!
+Loser bot gives winner bot some EXP..
+[1659259770928] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is damage.
+[1659259862001] Hexxy1 battled their Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 against Kurreo's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a. Compactisk M-00227 is the winner!
+Loser bot gets collected by winner..
+[1659259866544] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 versus Kurreo's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a. The wager is collect.
+[1659260092230] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Dungware M-00927 is the winner!
+The bots shake claws and go their separate ways..
+[1659260095511] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is friendly.
+[1659260221953] Hexxy1 battled their Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 against olibot-68's Ransom Blue M-00653 with ID fe385ae5-e31d-4d25-92e8-9d1f03ad45b0. Ransom Blue M-00653 is the winner!
+Loser bot gets collected by winner..
+[1659260222622] Hexxy1 has accepted a battle request from olibot-68. Hexxy1's Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 versus olibot-68's Ransom Blue M-00653 with ID fe385ae5-e31d-4d25-92e8-9d1f03ad45b0. The wager is collect.
+[1659263736557] Hexxy1 rebuilt their destroyed MEMNESIA with ID e0937fea-4d00-49b1-8ab7-18547edb792c for 22 parts and 0 energy.
+[1659263791030] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against olibot-71's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6. Dungware M-00927 is the winner!
+Loser bot gets collected by winner..
+[1659263791846] Hexxy1 has accepted a battle request from olibot-71. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus olibot-71's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6. The wager is collect.
+[1659263864545] Hexxy1 battled their Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 against olibot-35's Buddy & Lila M-00332 with ID e9b38819-ae12-4763-945a-d08c51bbb36d. Buddy & Lila M-00659 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00659 gained power due to their ability..
+[1659263865194] Hexxy1 has accepted a battle request from olibot-35. Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 versus olibot-35's Buddy & Lila M-00332 with ID e9b38819-ae12-4763-945a-d08c51bbb36d. The wager is collect.
+[1659264025378] Hexxy1 battled their Buddy & Lila M-00332 with ID e9b38819-ae12-4763-945a-d08c51bbb36d against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659264026812] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Buddy & Lila M-00332 with ID e9b38819-ae12-4763-945a-d08c51bbb36d versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is damage.
+[1659264093565] Hexxy1 battled their Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659264095415] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is damage.
+[1659264168819] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659264170576] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is damage.
+[1659264238985] Hexxy1 battled their Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 against Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. Dungware M-00929 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264240682] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is destroy.
+[1659264318413] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00765 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264320030] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is destroy.
+[1659264388259] Hexxy1 rebuilt their destroyed DUNGWARE with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 for 72 parts and 0 energy.
+[1659264399018] Hexxy1 rebuilt their destroyed BUDDY & LILA with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 for 61 parts and 0 energy.
+[1659264459333] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00765 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264461268] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is destroy.
+[1659264501476] Hexxy1 rebuilt their destroyed DUNGWARE with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 for 72 parts and 0 energy.
+[1659264549601] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against olibot-41's Compactisk M-00430 with ID a957fcdd-cef7-497f-9a2b-4228ad90eff0. Memnesia M-00881 is the winner!
+Destruction was prevented due to Compactisk M-00430's ability!.
+[1659264550259] Hexxy1 has accepted a battle request from olibot-41. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus olibot-41's Compactisk M-00430 with ID a957fcdd-cef7-497f-9a2b-4228ad90eff0. The wager is destroy.
+[1659264637722] Hexxy1 battled their Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 against Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. Dungware M-00929 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264639136] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is destroy.
+[1659264695345] Hexxy1 played minigame doll with difficulty Hard and level Exquisite. The reward was x54 Machine Parts.
+[1659264817751] Hexxy1 played minigame date with difficulty Normal and level Ransom Blue. The reward was x12 Machine Parts.

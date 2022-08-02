@@ -3,21 +3,21 @@
         "colour": "Green",
         "name": "PROTOTYPE:1",
         "type": "Prototype",
-        "emoji": "<:Green:933490947076022302>",
+        "emoji": "<:Green:1003024857656725504>",
         "exp": 0
     },
     {
         "colour": "Yellow",
         "name": "PROTOTYPE:2",
         "type": "Prototype",
-        "emoji": "<:Yellow:933490982517870623>",
+        "emoji": "<:Yellow:1003025645376389254>",
         "exp": 5
     },
     {
         "colour": "Orange",
         "name": "PROTOTYPE:3",
         "type": "Prototype",
-        "emoji": "<:Orange:933490982769537114>",
+        "emoji": "<:Orange:1003024858889850960>",
         "exp": 15
     },
     {
@@ -38,7 +38,7 @@
         "colour": "Blue",
         "name": "TESTING:3",
         "type": "Testing",
-        "emoji": "<:Grey:933490983436439592>",
+        "emoji": "<:Blue:1003021995987980298>",
         "exp": 155
     },
     {
@@ -52,14 +52,14 @@
         "colour": "YellowStripes",
         "name": "ALPHA:2",
         "type": "Alpha",
-        "emoji": "<:Black:933490982761144350>",
+        "emoji": "<:YellowStripes:1003021997179142184>",
         "exp": 635
     },
     {
         "colour": "YellowStripesRed",
         "name": "ALPHA:3",
         "type": "Alpha",
-        "emoji": "<:Black:933490982761144350>",
+        "emoji": "<:YellowStripesRed:1003021998504550440>",
         "exp": 1275
     },
     {

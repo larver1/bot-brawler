@@ -4,8 +4,8 @@ const Messenger = require("../Helpers/Messenger.js");
 const fs = require('fs');
 const achievementData = JSON.parse(fs.readFileSync('./Data/Achievements/achievementsData.json'));
 const taskData = JSON.parse(fs.readFileSync('./Data/Achievements/taskData.json'));
-const { v4: uuidv4 } = require('uuid');
-const { userMention } = require('@discordjs/builders');
+const consola = require("consola");
+const machinePartEmoji = "<:machine_parts:992728693799669801>";
 
 module.exports = class dbAchievements
 {
@@ -60,7 +60,6 @@ module.exports = class dbAchievements
 							break;
 						case "string":
 							// Value can't already exist for it to work
-							console.log(value);
 							if(!user.achievements[i][j].stringProgress.includes(`${value}|`)) {
 								user.achievements[i][j].stringProgress += `${value}|`;
 								user.achievements[i][j].intProgress += 1;
@@ -79,10 +78,17 @@ module.exports = class dbAchievements
 					// If achievement is completed, send DM to user
 					if(!user.achievements[i][j].completed && achievementData[i].values[j][0] == user.achievements[i][j].intProgress) {
 						user.achievements[i][j].completed = "true";
-						await Messenger.sendDM(interaction, interaction.client, user, `🎉 You have unlocked the achievement: \`${achievementName}:${j + 1}\`!`);
+						await Messenger.sendDM(interaction, interaction.client, user, 
+							`🎉 You have unlocked the achievement: \`${achievementName}:${j + 1}\`\n\nYour reward: \`x${achievementData[i].rewards[j]}\` ${machinePartEmoji} Machine Parts!`);
+
+						// Add money to user
+						user.balance += achievementData[i].rewards[j];
+						user.changed("balance", true);
+						await user.save();
+
 					}
 
-					console.log(`achievement updated: ${achievementName}:${achievementIndex}`);
+					consola.info(`achievement updated: ${achievementName}:${achievementIndex}`);
 
 					if(achievementIndex)
 						break;
@@ -124,7 +130,7 @@ module.exports = class dbAchievements
 		// Build template so that achievement progress can be stored
 		for(const achievement of achievementData) {
 			let template = [];
-			for(const level of achievement.values) {
+			for(let i = 0; i < achievement.values.length; i++) {
 				template.push({
 					stringProgress: "",
 					intProgress: 0,

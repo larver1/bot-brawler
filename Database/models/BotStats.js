@@ -1,12 +1,8 @@
 module.exports = (sequelize, DataTypes) => {
 	return sequelize.define('bot_stats', {
-		bot_id: {
-			type: DataTypes.STRING,
-			primaryKey: true,
-		},
 		bot_type: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			primaryKey: true,
 		},
 		num_exists: {
 			type: DataTypes.INTEGER,

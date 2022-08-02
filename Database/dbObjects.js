@@ -20,6 +20,7 @@ UserItems.belongsTo(CurrencyShop, { foreignKey: 'item_id', as: 'item' });
 
 Users.prototype.pause = async function(value) {
 	this.paused = value;
+	console.log(`user being paused: ${this.username}: ${value}`);
 	this.changed("paused", true);
 	return this.save();
 };
@@ -105,10 +106,7 @@ Users.prototype.createMessage = async function(message) {
 Users.prototype.removeMessage = async function(message) {
 	const userMessage = await Messages.findOne({
 		where: { 
-			sender_username: this.username, 
-			recipient_username: message.recipient_username, 
 			message_id: message.message_id,
-			message_number: message.message_number
 		},
 	});
 
@@ -168,7 +166,8 @@ Users.prototype.createBot = async function(bot) {
 		goldPlated: bot.goldPlated, 
 		extras: bot.extras, 
 		isSelling: bot.isSelling, 
-		item: bot.item 
+		item: bot.item,
+		logs: bot.logs 
 	});
 };
 

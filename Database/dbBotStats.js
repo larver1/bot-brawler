@@ -3,6 +3,7 @@ const fs = require('fs');
 const consola = require("consola");
 const sampleEmbed = require("../Helpers/sampleEmbed.js");
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
+const { sequelize } = require('./dbInit');
 
 module.exports = class dbBotStats
 {
@@ -10,7 +11,8 @@ module.exports = class dbBotStats
 		const user = await BotStats.findOne({ where: { bot_type: botName } });
 		if(!user) {
 			let err = new Error(`Bot of name ${botName} could not be found.`);
-			return ErrorHandler.handle(interaction, err);
+            await ErrorHandler.handle(interaction, err);
+			return; 
 		}
 
 		return user;
@@ -35,7 +37,7 @@ module.exports = class dbBotStats
             case "alive":
                 return bot.num_alive;
             default:
-                let err = new Error(`Invalid type '${type}' called on dbBotStats.getData()`);
+                var err = new Error(`Invalid type '${type}' called on dbBotStats.getData()`);
 				await ErrorHandler.handle(interaction, err);
 				break;
         }
@@ -74,20 +76,31 @@ module.exports = class dbBotStats
 	}
 
     static async addExists(interaction, botName) {
-		const bot = await this.findBot(interaction, botName);
 
-        if(!bot) {
-            let err = new Error(`Invalid botName '${botName}' passed to dbBotStats.addExists().`);
+        const addBot = await sequelize.transaction();
+
+        try {
+            const bot = await BotStats.findOne({ where: { bot_type: botName }, transaction: addBot, lock: true });
+
+            console.log("starting transaction");
+
+            if(!bot) {
+                await addBot.rollback();
+                return null;
+            }     
+    
+            bot.num_exists += 1;
+            bot.num_alive += 1;
+            
+            await bot.save({ transaction: addBot });
+            await addBot.commit();
+
+            console.log("ending transaction");
+            return bot.num_exists;
+        } catch (err) {
             await ErrorHandler.handle(interaction, err);
             return false;
-        }     
-
-        bot.num_exists += 1;
-        bot.num_alive += 1;
-        await bot.save();
-
-        return bot.num_exists;
-
+        }
 	}
 
     static async addAlive(interaction, botName) {

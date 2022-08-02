@@ -1,0 +1,42 @@
+ [1659267204376] mega gyarados collected their daily rewards.
+[1659267232203] mega gyarados built a CONSTANT with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f
+[1659267348765] mega gyarados battled their Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f against Clunk's Bostrom M-00021 with ID 119bfbef-45ad-4f6f-8d4c-e1efbd842578. Constant M-00909 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267541025] mega gyarados battled their Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Constant M-00909 is the winner!
+The winner is rewarded with some EXP..
+[1659267541421] mega gyarados is battle training with Professor Diriski. mega gyarados's Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659267614075] mega gyarados switched changed chips to viral for Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f.
+[1659267663193] mega gyarados battled their Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Buddy & Lila M-00004 is the winner!
+The loser lost the training match and walked away with nothing...
+Buddy & Lila M-00004 gained firewall due to their ability..
+[1659267663800] mega gyarados is battle training with Professor Diriski. mega gyarados's Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659267722363] mega gyarados battled their Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Constant M-00909 is the winner!
+The winner is rewarded with some EXP..
+[1659267722822] mega gyarados is battle training with Professor Diriski. mega gyarados's Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659267785770] mega gyarados switched changed chips to power for Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f.
+[1659267832088] mega gyarados battled their Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Constant M-00909 is the winner!
+The winner is rewarded with some EXP..
+[1659267832671] mega gyarados is battle training with Professor Diriski. mega gyarados's Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659268008715] mega gyarados switched changed chips to balanced for Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f.
+[1659268050983] mega gyarados battled their Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f against olibot-9's Ramselle M-00089 with ID 409e06aa-e8f1-4afe-9920-4f14cf148249. Ramselle M-00089 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00089 gained lifespan due to their ability..
+[1659268051700] mega gyarados has accepted a battle request from olibot-9. mega gyarados's Constant M-00909 with ID 9bdfd3a3-bb0c-4493-be48-b1e40ca0163f versus olibot-9's Ramselle M-00089 with ID 409e06aa-e8f1-4afe-9920-4f14cf148249. The wager is collect.
+[1659268111521] mega gyarados built a RANSOM BLUE with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b
+[1659268172623] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Dungware M-00018 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659268173245] mega gyarados is battle training with Professor Diriski. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659268319594] mega gyarados switched changed chips to power for Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b.
+[1659268361906] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against olibot-98's Ramselle M-00921 with ID 63dee0de-d9d3-49e0-8fb9-c7dfe4480576. Ransom Blue M-00995 is the winner!
+Loser bot gets collected by winner..
+[1659268362848] mega gyarados has accepted a battle request from olibot-98. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus olibot-98's Ramselle M-00921 with ID 63dee0de-d9d3-49e0-8fb9-c7dfe4480576. The wager is collect.
+[1659268477901] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against olibot-81's Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e. Ransom Blue M-00995 is the winner!
+Loser bot gets collected by winner..
+[1659268478573] mega gyarados has accepted a battle request from olibot-81. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus olibot-81's Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e. The wager is collect.
+[1659268688386] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against olibot-14's Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c. Ransom Blue M-00995 is the winner!
+Loser bot gets collected by winner..
+[1659268689054] mega gyarados has accepted a battle request from olibot-14. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus olibot-14's Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c. The wager is collect.
+[1659268745772] mega gyarados switched changed chips to viral for Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b.
+[1659268820872] mega gyarados battled their Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c against olibot-95's Voidisk M-00888 with ID a22d9359-aa4b-4a25-a935-e7f48cd7077c. Voidisk M-00141 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659268821504] mega gyarados has accepted a battle request from olibot-95. mega gyarados's Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c versus olibot-95's Voidisk M-00888 with ID a22d9359-aa4b-4a25-a935-e7f48cd7077c. The wager is destroy.

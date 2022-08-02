@@ -3,6 +3,7 @@ const { dbName, dbUser, dbPass } = require('../config.json');
 const fs = require('fs');
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const { v4: uuidv4 } = require('uuid');
+const consola = require("consola");
 
 const conn = {};
 
@@ -36,15 +37,20 @@ sequelize.sync({ force }).then(async () => {
 	await CurrencyShop.upsert({ name: 'Firewall Chip', cost: 250, description: 'When equipped to a bot during battle, it boosts your bot\'s firewall stat significantly.', section: 'chips', emoji: "<:pokeball:707675041168621688>", minAchievements: 0 });
 
 	// Add all bot stats
-	for(const bot of bots) {
-		await BotStats.upsert({
-			bot_id: uuidv4(),
-			bot_type: bot.name,
-			num_exists: 0,
-			num_alive: 0,
-			wins: 0,
-			losses: 0
-		})
+	if(force) {
+		for(const bot of bots) {
+			try {
+				await BotStats.upsert({
+					bot_type: bot.name,
+					num_exists: 0,
+					num_alive: 0,
+					wins: 0,
+					losses: 0
+				})
+			} catch(e) {
+				consola.info(e);
+			}
+		}
 	}
 
 	console.log('Database synced');

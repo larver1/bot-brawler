@@ -3,6 +3,7 @@ const BotCollection = require("../../Helpers/BotCollection");
 module.exports = {
     name: "chip",
     description: "Change your bot's battling chip.",
+    usage: "`/chip type` allows you to choose the chip you would like to use on your chosen Bot.\n`/chip exp` allows you to sort your Bots by EXP.\n`/chip name` allows you to filter your Bots by name.",
     hidden: true,
     options: [
         {
@@ -54,19 +55,7 @@ module.exports = {
             description: "Filters your card collection based on Bot Name.",
             required: false,
             type: "STRING",
-        },
-        {
-            name: "level",
-            description: "Filters your card collection based on Card Colour.",
-            required: false,
-            type: "INTEGER",
-            choices: [
-                {
-                    name: "Green",
-                    value: 0,
-                }, 
-            ]
-        },
+        }
         ],
     /**
      * @param {CommandInteraction} CommandInteraction
@@ -105,7 +94,6 @@ module.exports = {
         collection.selectedEvent.on(`selected`, async () => {
 
             let yourBot = collection.selected;
-            console.log(yourBot);
 
             if(!await utils.dbBots.changeChip(interaction, yourBot.botObj.bot_id, chipType)) {
                 await utils.user.pause(false);
@@ -123,8 +111,14 @@ module.exports = {
                 return;
             } 
 
-            await interaction.editReply({ content: `${yourBot.bot_type} changed to the ${chipType} chip!`, files: [yourCard.getCard()] })
-                .catch(e => utils.consola.error(e));
+            await utils.userFile.writeUserLog(utils.user.username, `switched changed chips to ${yourBot.item} for ${yourBot.name} with ID ${yourBot.botObj.bot_id}.`);
+            await utils.db.checkTutorial(interaction, "chip");
+
+            await interaction.editReply({ 
+                content: `${yourBot.bot_type} changed to the ${chipType} chip!`, 
+                files: [yourCard.getCard()], 
+                components: [] 
+            }).catch(e => utils.consola.error(e));
 
         });
 

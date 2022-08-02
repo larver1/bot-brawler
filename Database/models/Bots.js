@@ -59,6 +59,10 @@ module.exports = (sequelize, DataTypes) => {
 		item: {
 			type: DataTypes.STRING,
 			allowNull: true
+		},
+		logs: {
+			type: DataTypes.TEXT('long'),
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

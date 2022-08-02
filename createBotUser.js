@@ -1,13 +1,15 @@
 const { Users } = require('./Database/dbObjects');
 const BotBuilder = require('./Helpers/BotBuilder');
+const { promisify } = require('util');
+const sleep = promisify(setTimeout);
 const { v4: uuidv4 } = require('uuid');
 
 let args = process.argv.slice(2);
 let givenUsername = args[0];
 
-async function createUser(username){
+async function createUser(username, maxExp){
     
-    console.log(Users);
+    /*
     let user = await Users.create({ 
         user_id: uuidv4(),
         username: username,
@@ -25,15 +27,21 @@ async function createUser(username){
         minigame: new Date('January 10, 2022 03:24:00'),
         achievements: [{}],
         tasks: [{}],
-        paused: false
+        paused: false,
+        tutorial: 0,
     });
+    */
 
-    let maxExp = Math.ceil(Math.random() * 100);
+    // Build 100 random bots of different EXP
+    let exp = 1;
 
-    // Build 10 random bots of different EXP
     for(let i = 0; i < 100; i++) {
-        let bot = await BotBuilder.build(null, { item: "balanced", exp: Math.ceil(Math.random() * maxExp) }, user);
-        await user.createBot(bot);
+        let bot = await BotBuilder.build(null, { bot_type: "Bostrom", item: "balanced", exp: exp }, null);
+        console.log(bot.model_no);
+        //await user.createBot(bot);
+        exp *= 2; 
+        if(exp >= maxExp)
+            exp = 1;
     }
 
     console.log(`Successfully created a new user with name ${username}!`);
@@ -42,13 +50,16 @@ async function createUser(username){
 
 async function createManyUsers(numUsers) {
     for(let i = 0; i < numUsers; i++) {
-        await createUser(`${givenUsername}-${i}`);
+        await createUser(`olibot-${i}`, 10000);
     }
 }
 
 //createManyUsers(100);
-async function createOneUser(username) {
-    await createUser(username);
+async function createOneUser(username, maxExp) {
+    await createUser(username, maxExp);
 }
 
-createOneUser(`Professor Diriski`);
+//createOneUser(`Professor Diriski`, 100);
+//createOneUser(`Clunk`, 10);
+createManyUsers(100);
+createManyUsers(100);

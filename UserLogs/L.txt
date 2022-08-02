@@ -1,0 +1,37 @@
+ [1659271373286] L played minigame slots with difficulty Hard and level 7 Rows. The reward was x15 Machine Parts.
+[1659271493948] L collected their daily rewards.
+[1659271578888] L built a BUDDY & LILA with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40
+[1659271672457] L played minigame date with difficulty Easy and level Greedisk. The reward was x5 Machine Parts.
+[1659271738069] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-94's Greedisk M-00879 with ID 15d87112-79f2-4ba6-9151-cd590e31b306. Buddy & Lila M-00930 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00930 gained power due to their ability..
+[1659271741123] L has accepted a battle request from olibot-94. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-94's Greedisk M-00879 with ID 15d87112-79f2-4ba6-9151-cd590e31b306. The wager is damage.
+[1659271804697] L played minigame doll with difficulty Hard and level Simple. The reward was x0 Machine Parts.
+[1659271861167] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-88's Trojo M-00796 with ID 0fdefe52-9da4-44a2-a99c-77675b3a0334. Buddy & Lila M-00930 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00930 gained lifespan due to their ability..
+[1659271861880] L has accepted a battle request from olibot-88. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-88's Trojo M-00796 with ID 0fdefe52-9da4-44a2-a99c-77675b3a0334. The wager is damage.
+[1659272928663] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-36's Compactisk M-00395 with ID 3ca1e8c0-103b-4a0b-8f37-5f34238e75d7. Buddy & Lila M-00930 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00930 gained lifespan due to their ability..
+[1659272929367] L has accepted a battle request from olibot-36. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-36's Compactisk M-00395 with ID 3ca1e8c0-103b-4a0b-8f37-5f34238e75d7. The wager is collect.
+[1659273353692] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-36's Trojo M-00333 with ID a1937676-d367-4a29-b02c-3532132011cc. Trojo M-00333 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00333 gained power due to their ability..
+[1659273354419] L has accepted a battle request from olibot-36. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-36's Trojo M-00333 with ID a1937676-d367-4a29-b02c-3532132011cc. The wager is destroy.
+[1659273531250] L battled their Compactisk M-00395 with ID 3ca1e8c0-103b-4a0b-8f37-5f34238e75d7 against olibot-88's Trojo M-00797 with ID ed4d84b4-e287-49fb-adba-1877789b701d. Trojo M-00797 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00797 gained power due to their ability..
+[1659273531914] L has accepted a battle request from olibot-88. L's Compactisk M-00395 with ID 3ca1e8c0-103b-4a0b-8f37-5f34238e75d7 versus olibot-88's Trojo M-00797 with ID ed4d84b4-e287-49fb-adba-1877789b701d. The wager is destroy.
+[1659273900075] L built a BOSTROM with ID 16aa9d49-2204-4438-948f-4011568ba15b
+[1659273966953] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against olibot-89's Ransom Blue M-00879 with ID 863649ec-1804-4b4f-92ee-84926258a0ea. Ransom Blue M-00879 is the winner!
+Loser bot gives winner bot some EXP..
+[1659273967613] L has accepted a battle request from olibot-89. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus olibot-89's Ransom Blue M-00879 with ID 863649ec-1804-4b4f-92ee-84926258a0ea. The wager is damage.
+[1659274007837] L built a BOSTROM with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27
+[1659274056197] L switched changed chips to firewall for Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27.
+[1659274274626] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Bostrom M-00942 is the winner!
+The winner is rewarded with some EXP..
+[1659274286147] L is battle training with Professor Diriski. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659286793068] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Bostrom M-00942 is the winner!
+The winner is rewarded with some EXP..
+[1659286793530] L is battle training with Professor Diriski. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.

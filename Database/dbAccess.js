@@ -2,12 +2,13 @@ const { Users } = require('./dbObjects');
 const ErrorHandler = require("../Helpers/ErrorHandler.js");
 const dbAchievements = require("../Database/dbAchievements.js");
 const { sequelize } = require("../Database/dbInit.js"); 
+const fs = require('fs');
+const tutorialData = JSON.parse(fs.readFileSync('./Data/Misc/tutorialData.json'));
 
 module.exports = class dbAccess
 {
     static async findUser(interaction, differentID) {
-		let idToFind = interaction.user.id;
-		if(differentID) idToFind = differentID;
+		let idToFind = differentID ? differentID : interaction.user.id;
 		const user = await Users.findOne({ where: { user_id: idToFind } });
 		if(!user) {
 			let err = new Error(`\`${interaction.user.tag}\` does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
@@ -37,9 +38,10 @@ module.exports = class dbAccess
 
 		try {
 
-			const user = await Users.findOne(
-				{ where: { user_id: idToFind } }, 
-				{ transaction: getPaused });
+			const user = await Users.findOne({ 
+				where: { user_id: idToFind }, 
+				transaction: getPaused 
+			});
 			
 			// If no user was found, cancel
 			if(!user) {
@@ -54,9 +56,10 @@ module.exports = class dbAccess
 			}
 
 			// Set user to paused, save and commit transaction
-			user.paused = true;
+			if(!user.isBot) user.paused = true;
 			await user.save({ transaction: getPaused });
 			await getPaused.commit();
+
 			return user;
 			
 		} catch (err) {
@@ -279,6 +282,37 @@ module.exports = class dbAccess
 
 		await user.save();
 		return true;
+
+	}
+	
+	static async checkTutorial(interaction, task, activate) {
+		const user = await this.findUser(interaction);
+		if(!user) {
+			return false;
+		}
+
+		if(user.tutorial >= tutorialData.length - 1) {
+			return false;
+		}
+
+		// When tutorials begin, this runs
+		if(user.tutorial < 0) {
+			if(activate) {
+				user.tutorial = 0;
+				user.save();
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		if(tutorialData[user.tutorial].task == task) {
+			user.tutorial++;
+			user.save();
+			return true;
+		} 
+
+		return false;
 
 	}
 	

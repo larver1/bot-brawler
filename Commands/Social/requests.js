@@ -12,9 +12,10 @@ const wagers = {
 module.exports = {
     name: "requests",
     description: "Manage all of your friend/battle/trade requests.",
+    usage: "`/requests list` allows you to view all incoming requests.\n`/reuqests info` allows you to get more information about a specific request.",
     options: [{
         name: "list",
-        description: "View all incoming + outgoing requests.",
+        description: "View all incoming requests.",
         type: "SUB_COMMAND",
         options: [{
             name: "filter",
@@ -137,7 +138,6 @@ module.exports = {
 
         // Get more info on a request
         if(subCommand == "info") {
-            console.log(msg);
             let msgContent = ``;
             if(msg.message_type == "battle") {
 

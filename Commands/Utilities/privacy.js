@@ -8,6 +8,7 @@ const privacySettings = {
 module.exports = {
     name: "privacy",
     description: "Manage your privacy settings in the bot.",
+    usage: "`/privacy options` allows you to see all of the privacy settings available.\n`/privacy set` allows you to change your privacy settings.",
     options: [ 
         {
             name: "options",
@@ -72,6 +73,8 @@ module.exports = {
 
         //Display changed privacy level
         await utils.user.pause(false);     
+        await utils.userFile.writeUserLog(utils.user.username, `changed their privacy settings to ${privacyLevel}.`);
+
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, utils.user)
                 .setTitle(`${utils.user.username}'s Privacy Settings`)

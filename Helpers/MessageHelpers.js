@@ -24,7 +24,7 @@ module.exports = class MessageHelpers {
 		return user;
     }
 
-    //Gives user a yes/no option and emits event depending on choice
+    // Gives user a yes/no option and emits event depending on choice
     static async confirmChoice(interaction, user, msg, img) {
         this.replyEvent = new EventEmitter();
 
@@ -72,7 +72,6 @@ module.exports = class MessageHelpers {
         const filter = i => (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
         const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
         let found = false;
-        let cancelled = false;
 
         // If user presses either button
         collector.on('collect', async i => {
@@ -97,13 +96,8 @@ module.exports = class MessageHelpers {
 
         // If button was never pressed
         collector.on('end', async() => {   
-             if(cancelled) {
-                await dbUser.pause(false);
-                await interaction.editReply({
-                    content: `${user} cancelled the command.`,
-                    components: []
-                 }).catch((e) => consola.error(e));
-            } else if(!found) {
+            if(!found) {
+                this.replyEvent.emit('timeOut');
                 await dbUser.pause(false);
                 await interaction.editReply({
                     content: `${user} did not select an option in time.`,
@@ -114,7 +108,7 @@ module.exports = class MessageHelpers {
 
     }
 
-    //Provides interactive next/prev page functionality for lists of items
+    // Provides interactive next/prev page functionality for lists of items
     static async listPages(interaction, user, list, config) {
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();

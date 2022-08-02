@@ -116,11 +116,6 @@ module.exports = class BotObj {
         opponent.investStats();
         this.investStats();
 
-        console.log(`YOUR BOT`);
-        console.log(this.battleStats);
-        console.log(`OTHER BOT`);
-        console.log(opponent.battleStats);
-
         let total = this.battleStats.power + this.battleStats.lifespan + this.battleStats.viral + this.battleStats.firewall;
         let opponentTotal = opponent.battleStats.power + opponent.battleStats.lifespan + opponent.battleStats.viral + opponent.battleStats.firewall;
 
@@ -129,12 +124,6 @@ module.exports = class BotObj {
         let opponentPowerAdvantage = this.calcAdvantage(opponent.battleStats.power, this.battleStats.lifespan);
         let opponentViralAdvantage = this.calcAdvantage(opponent.battleStats.viral, this.battleStats.firewall);
 
-        console.log(`${this.name} Power ${this.battleStats.power} vs ${opponent.name} Lifespan ${opponent.battleStats.lifespan} gives advantage ${yourPowerAdvantage}`);
-        console.log(`${this.name} Viral ${this.battleStats.viral} vs ${opponent.name} Firewall ${opponent.battleStats.firewall} gives advantage ${yourViralAdvantage}`);
-
-        console.log(`${opponent.name} Power ${opponent.battleStats.power} vs ${this.name} Lifespan ${this.battleStats.lifespan} gives advantage ${opponentPowerAdvantage}`);
-        console.log(`${opponent.name} Viral ${opponent.battleStats.viral} vs ${this.name} Firewall ${this.battleStats.firewall} gives advantage ${opponentViralAdvantage}`);
-
         let yourMsg = ``;
         let opponentMsg = ``;
 
@@ -142,7 +131,6 @@ module.exports = class BotObj {
         if(yourPowerAdvantage > opponentPowerAdvantage) {
             if(yourPowerAdvantage > 0) {
                 if(opponent.ability != "30FA") {
-                    console.log(`${yourPowerAdvantage} gets added to ${this.name}'s total.`);
                     if(this.ability == "Super Manipulation") {
                         yourMsg += `${this.name}'s ability destroys ${opponent.name}'s Lifespan!\n`;
                         yourPowerAdvantage = Math.ceil(yourPowerAdvantage * 1.5);
@@ -157,7 +145,6 @@ module.exports = class BotObj {
         } else if(opponentPowerAdvantage > yourPowerAdvantage) {
             if(opponentPowerAdvantage > 0) {
                 if(this.ability != "30FA") {
-                    console.log(`${opponentPowerAdvantage} gets added to ${opponent.name}'s total.`);
                     if(opponent.ability == "Super Manipulation") {
                         opponentMsg += `${opponent.name}'s ability destroys ${this.name}'s Lifespan!`;
                         opponentPowerAdvantage = Math.ceil(opponentPowerAdvantage * 1.5);
@@ -175,7 +162,6 @@ module.exports = class BotObj {
         if(yourViralAdvantage > opponentViralAdvantage) {
             if(yourViralAdvantage > 0) {
                 if(opponent.ability != "I'm not even a bot") {
-                    console.log(`${yourViralAdvantage} gets added to ${this.name}'s total.`);
                     if(this.ability == "Super Intrusion") {
                         yourMsg += `${this.name} destroys ${opponent.name}'s Firewall!`;
                         yourViralAdvantage = Math.ceil(yourViralAdvantage * 1.5);
@@ -190,7 +176,6 @@ module.exports = class BotObj {
         } else if(opponentViralAdvantage > yourViralAdvantage) {
             if(opponentViralAdvantage > 0) {
                 if(this.ability != "I'm not even a bot") {
-                    console.log(`${opponentViralAdvantage} gets added to ${opponent.name}'s total.`);
                     if(opponent.ability == "Super Intrusion") {
                         opponentMsg += `${opponent.name}'s ability destroys ${this.name}'s Firewall!\n`;
                         opponentViralAdvantage = Math.ceil(opponentViralAdvantage * 1.5);
@@ -211,10 +196,7 @@ module.exports = class BotObj {
             opponentMsg = `${opponent.name} has no advantages over ${this.name}`;
 
         let divisor = (total + opponentTotal) / 100;
-
-        console.log("\n✅ your percent " + total + " / " + divisor + " = " + (total / divisor));
-        console.log("✅ opponent percent " + opponentTotal + " / " + divisor + " = " +  (opponentTotal / divisor));
-
+        
         return { 
             yourPercent: total / divisor, 
             otherPercent: opponentTotal / divisor,

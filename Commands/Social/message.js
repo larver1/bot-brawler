@@ -1,6 +1,7 @@
 module.exports = {
     name: "message",
     description: "Send a message to a friend!",
+    usage: "`/message username message` allows you to send a message to a username given that they are your friend.",
     options: [ {
         name: "send",
         description: "Send a message to a friend.",
@@ -62,6 +63,8 @@ module.exports = {
 
         //Display results
         await utils.user.pause(false); 
+        await utils.userFile.writeUserLog(utils.user.username, `has sent a message to ${otherUser.username}: "${message}".`);
+
         return interaction.editReply({ embeds: [
             new utils.embed(interaction, utils.user)
                 .setTitle(`${utils.user.username}'s Message`)

@@ -9,6 +9,7 @@ const Messenger = require("../../Helpers/Messenger.js");
 const MessageHelpers = require("../../Helpers/MessageHelpers.js");
 const dbMarket = require("../../Database/dbMarket.js");
 const Card = require("../../Helpers/Card.js");
+const FileReadWrite = require("../../Helpers/FileReadWrite.js");
 
 const consola = require("consola");
 
@@ -34,7 +35,13 @@ module.exports = {
             // Bot respond with "loading" state
             await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
             
-            let user;
+            // Dev only
+            if(interaction.user.id != "184717700239589377") {
+                interaction.editReply({ content: `The bot is not currently open for testing :(`})
+                    .catch((e) => consola.error(e));
+            }
+
+            let user, userFile;
 
             // Find the user and pause them
             if(command.name != "register") {
@@ -43,7 +50,9 @@ module.exports = {
                     return;
 
                 if(!await dbAccess.pauseUser(interaction, interaction.user.id))
-                    return interaction.editReply({ content: `Please wait until your previous command is finished.` });
+                    return interaction.editReply({ content: `Please wait until your previous command is finished.` }).catch(e => {console.log(e)});
+           
+                userFile = new FileReadWrite(`./UserLogs/${user.username}.txt`);
             }
 
             // Pass execution utilities to command
@@ -63,6 +72,7 @@ module.exports = {
                     messageHelper: MessageHelpers,
                     card: Card,
                     user: user,
+                    userFile: userFile
                 });
             } catch(e) {
                 await ErrorHandler.handle(interaction, e);  

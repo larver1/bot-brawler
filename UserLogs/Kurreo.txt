@@ -1,0 +1,215 @@
+ [1659253253554] Kurreo collected their daily rewards.
+[1659253284254] Kurreo built a GREEDISK with ID c8cf8b65-2fe6-4672-89ee-48e022066084
+[1659253843181] Kurreo battled their Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 against Clunk's Buddy & Lila M-00024 with ID 0620afc2-e205-4fe3-acf5-8dea06d65947. Greedisk M-00914 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00914 gets extra EXP due to their ability..
+[1659253933674] Kurreo switched changed chips to viral for Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084.
+[1659254091453] Kurreo battled their Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 against olibot-10's Bostrom M-00117 with ID ad12641d-65e1-4492-bb94-c13a4a911954. Greedisk M-00914 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00914 gets extra EXP due to their ability..
+[1659254092082] Kurreo has accepted a battle request from olibot-10. Kurreo's Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 versus olibot-10's Bostrom M-00117 with ID ad12641d-65e1-4492-bb94-c13a4a911954. The wager is destroy.
+[1659254161497] Kurreo battled their Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 against olibot-86's Ransom Blue M-00850 with ID 9b802e42-9657-4c07-b6f5-698386911a63. Ransom Blue M-00850 is the winner!
+Loser bot gives winner bot some EXP..
+[1659254162119] Kurreo has accepted a battle request from olibot-86. Kurreo's Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 versus olibot-86's Ransom Blue M-00850 with ID 9b802e42-9657-4c07-b6f5-698386911a63. The wager is damage.
+[1659254295999] Kurreo switched changed chips to power for Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084.
+[1659254338407] Kurreo battled their Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 against olibot-38's Ramselle M-00382 with ID 15cbb16c-9585-497c-8396-8cb700ee3371. Greedisk M-00914 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00914 gets extra EXP due to their ability..
+[1659254339013] Kurreo has accepted a battle request from olibot-38. Kurreo's Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 versus olibot-38's Ramselle M-00382 with ID 15cbb16c-9585-497c-8396-8cb700ee3371. The wager is destroy.
+[1659254385475] Kurreo built a MEMNESIA with ID ad965646-e77c-4c04-b2df-35657501552d
+[1659254419031] Kurreo switched changed chips to power for Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084.
+[1659254517290] Kurreo switched changed chips to power for Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d.
+[1659254526793] Kurreo switched changed chips to power for Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084.
+[1659254573052] Kurreo battled their Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 against olibot-97's Ransom Blue M-00958 with ID 6f3889e9-d319-490a-a98c-599b2e1c39e9. Ransom Blue M-00958 is the winner!
+Loser bot gets collected by winner..
+[1659254573686] Kurreo has accepted a battle request from olibot-97. Kurreo's Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084 versus olibot-97's Ransom Blue M-00958 with ID 6f3889e9-d319-490a-a98c-599b2e1c39e9. The wager is collect.
+[1659254620897] Kurreo built a CONSTANT with ID 61db49ae-8068-4715-b6e7-242e9d5c680d
+[1659254665590] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against olibot-22's Ramselle M-00211 with ID 1dc5434d-6869-4873-8213-791fe7b2164d. Memnesia M-00885 is the winner!
+Loser bot gives winner bot some EXP..
+[1659254666279] Kurreo has accepted a battle request from olibot-22. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus olibot-22's Ramselle M-00211 with ID 1dc5434d-6869-4873-8213-791fe7b2164d. The wager is damage.
+[1659254833411] Kurreo switched changed chips to lifespan for Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d.
+[1659254864378] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c. The wager is damage.
+[1659254985825] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Memnesia M-00885 is the winner!
+The winner is rewarded with some EXP..
+[1659254986328] Kurreo is battle training with Professor Diriski. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659255000731] Kurreo completed their daily tasks!
+[1659255052806] Kurreo built a DUNGWARE with ID 4c117e12-4242-491a-9a51-6c870aa972d6
+[1659255208202] Kurreo switched changed chips to power for Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d.
+[1659255254398] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659255254872] Kurreo is battle training with Professor Diriski. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659255305170] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Memnesia M-00885 is the winner!
+The winner is rewarded with some EXP..
+[1659255305622] Kurreo is battle training with Professor Diriski. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659255444440] Kurreo switched changed chips to power for Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6.
+[1659255488936] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Dungware M-00929 is the winner!
+The winner is rewarded with some EXP..
+[1659255489481] Kurreo is battle training with Professor Diriski. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659255540708] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Dungware M-00929 is the winner!
+The winner is rewarded with some EXP..
+[1659255541227] Kurreo is battle training with Professor Diriski. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659255617398] Kurreo switched changed chips to power for Constant M-00905 with ID 61db49ae-8068-4715-b6e7-242e9d5c680d.
+[1659255657549] Kurreo battled their Constant M-00905 with ID 61db49ae-8068-4715-b6e7-242e9d5c680d against olibot-58's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65. Constant M-00905 is the winner!
+Loser bot gets collected by winner..
+[1659255658125] Kurreo has accepted a battle request from olibot-58. Kurreo's Constant M-00905 with ID 61db49ae-8068-4715-b6e7-242e9d5c680d versus olibot-58's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65. The wager is collect.
+[1659255774302] Kurreo played minigame date with difficulty Normal and level Greedisk. The reward was x12 Machine Parts.
+[1659255862388] Kurreo played minigame slots with difficulty Easy and level 7 Rows. The reward was x6 Machine Parts.
+[1659255903524] Kurreo switched changed chips to power for Constant M-00905 with ID 61db49ae-8068-4715-b6e7-242e9d5c680d.
+[1659255942127] Kurreo battled their Constant M-00905 with ID 61db49ae-8068-4715-b6e7-242e9d5c680d against olibot-1's Buddy & Lila M-00030 with ID a9618db5-cc63-414d-a91d-f35e0ca1ef9a. Buddy & Lila M-00030 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00030 gained firewall due to their ability..
+[1659255942785] Kurreo has accepted a battle request from olibot-1. Kurreo's Constant M-00905 with ID 61db49ae-8068-4715-b6e7-242e9d5c680d versus olibot-1's Buddy & Lila M-00030 with ID a9618db5-cc63-414d-a91d-f35e0ca1ef9a. The wager is destroy.
+[1659256082282] Kurreo has rejected a battle request from olibot-80. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-80's Buddy & Lila M-00741 with ID 74a30de1-a014-4d06-b1b8-fb6b76602794. The wager is collect.
+[1659256118051] Kurreo has sent a battle request to Hexxy1. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is damage.
+[1659256572943] Kurreo switched changed chips to power for Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6.
+[1659256619624] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-76's Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5. Dungware M-00929 is the winner!
+Loser bot gets collected by winner..
+[1659256620336] Kurreo has accepted a battle request from olibot-76. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-76's Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5. The wager is collect.
+[1659256694811] Kurreo listed Memnesia on the market with ID 7543af65-488d-45ae-af47-21a54fce8ee5 with offer of 150.
+[1659256801613] Kurreo switched changed chips to power for Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6.
+[1659256841121] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-52's Trojo M-00493 with ID 272fc467-4271-4562-94e4-1d8e74981da5. Dungware M-00929 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659256842017] Kurreo has accepted a battle request from olibot-52. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-52's Trojo M-00493 with ID 272fc467-4271-4562-94e4-1d8e74981da5. The wager is destroy.
+[1659256962144] Kurreo switched changed chips to power for Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d.
+[1659257000425] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against olibot-86's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Memnesia M-00885 is the winner!
+Loser bot gets collected by winner..
+[1659257001072] Kurreo has accepted a battle request from olibot-86. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus olibot-86's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is collect.
+[1659257086643] Kurreo switched changed chips to power for Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6.
+[1659257144515] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-19's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a. Dungware M-00929 is the winner!
+Loser bot gets collected by winner..
+[1659257145147] Kurreo has accepted a battle request from olibot-19. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-19's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a. The wager is collect.
+[1659257250613] Kurreo played minigame slots with difficulty Easy and level 7 Rows. The reward was x45 Machine Parts.
+[1659257344968] Kurreo played minigame xo with difficulty Easy and level Regular. The reward was x20 Machine Parts.
+[1659257674199] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against olibot-89's Dungware M-00817 with ID 00cfe9d9-0b20-4090-98fa-316788a3447d. Dungware M-00817 is the winner!
+Loser bot gives winner bot some EXP..
+[1659257674407] Kurreo has accepted a battle request from olibot-89. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus olibot-89's Dungware M-00817 with ID 00cfe9d9-0b20-4090-98fa-316788a3447d. The wager is damage.
+[1659257815040] Kurreo bought Memnesia from the market with ID e0937fea-4d00-49b1-8ab7-18547edb792c for 5.
+[1659257828591] Kurreo listed Memnesia on the market with ID e0937fea-4d00-49b1-8ab7-18547edb792c with offer of 5.
+[1659257923818] Kurreo battled their Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d against olibot-8's Greedisk M-00086 with ID 00790384-810d-4fd4-974f-76550d0d390c. Greedisk M-00086 is the winner!
+Loser bot gets collected by winner..
+[1659257924454] Kurreo has accepted a battle request from olibot-8. Kurreo's Memnesia M-00885 with ID ad965646-e77c-4c04-b2df-35657501552d versus olibot-8's Greedisk M-00086 with ID 00790384-810d-4fd4-974f-76550d0d390c. The wager is collect.
+[1659258287208] Kurreo has sent a battle request to Jeira. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Jeira's Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5. The wager is destroy.
+[1659258572509] Kurreo has sent a battle request to Hexxy1. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is destroy.
+[1659259586520] Kurreo has rejected a battle request from olibot-82. Kurreo's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a versus olibot-82's Dungware M-00760 with ID 34043222-1fb3-4754-bcfe-84eaaf361be8. The wager is collect.
+[1659259612333] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c. The wager is destroy.
+[1659259623834] Kurreo switched changed chips to power for Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee.
+[1659259714125] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111. The wager is damage.
+[1659259818453] Kurreo has sent a battle request to Hexxy1. Kurreo's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a versus Hexxy1's Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111. The wager is collect.
+[1659259826717] Kurreo switched changed chips to balanced for Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a.
+[1659260005465] Kurreo has requested a trade to Hexxy1. Kurreo's Ransom Blue M-00987 with ID 5e53c793-a149-4446-8cd0-03afe0dc5111 was traded to Hexxy1 for x1 Machine Parts.
+[1659260048837] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is friendly.
+[1659260211944] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Voidisk M-00598 with ID 91f1a46e-a472-45c1-ba4a-e1d257c21604. Memnesia M-00765 is the winner!
+Loser bot gets collected by winner..
+[1659260212640] Kurreo has accepted a battle request from olibot-63. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus olibot-63's Voidisk M-00598 with ID 91f1a46e-a472-45c1-ba4a-e1d257c21604. The wager is collect.
+[1659260479268] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-0's Ramselle M-00001 with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b. Memnesia M-00765 is the winner!
+Loser bot gets collected by winner..
+[1659260479908] Kurreo has accepted a battle request from olibot-0. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus olibot-0's Ramselle M-00001 with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b. The wager is collect.
+[1659260569409] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Compactisk M-00646 with ID 1dd2726a-cf7d-458d-9390-fdd84e9fb1dc. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260599104] Kurreo has rejected a battle request from olibot-16. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-16's Ransom Blue M-00178 with ID bb7a9982-c371-47f5-8393-1e0304838fb5. The wager is damage.
+[1659260696935] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Bostrom M-00597 with ID 32992d4a-2f59-4617-91cd-02511b28bfd3. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260697534] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Bostrom M-00597 with ID 32992d4a-2f59-4617-91cd-02511b28bfd3. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260781551] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Greedisk M-00584 with ID 2281caf7-45d8-4d88-a87c-fd30eaca943c. Memnesia M-00765 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659260842293] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Compactisk M-00644 with ID 010f000d-a4e0-4755-a1ad-3924b385a987. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260894466] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Compactisk M-00644 with ID 010f000d-a4e0-4755-a1ad-3924b385a987. Memnesia M-00765 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659260954331] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Voidisk M-00594 with ID 036b51d0-115c-41e8-9339-e2f56dad40c6. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659261011163] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Voidisk M-00594 with ID 036b51d0-115c-41e8-9339-e2f56dad40c6. Voidisk M-00594 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659261086442] Kurreo battled their Ramselle M-00001 with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b against olibot-63's Bostrom M-00591 with ID 1510c73a-0568-440b-88e1-173d1e06e451. Bostrom M-00591 is the winner!
+Loser bot gives winner bot some EXP..
+[1659261713596] Kurreo rebuilt their destroyed MEMNESIA with ID 8755b35a-8661-411d-a702-c872204164ee for 161 parts and 0 energy.
+[1659261727059] Kurreo rebuilt their destroyed DUNGWARE with ID 4c117e12-4242-491a-9a51-6c870aa972d6 for 82 parts and 0 energy.
+[1659261806686] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-63's Trojo M-00600 with ID 23c42fbd-20f2-4c21-8c2f-5b5eed248760. Trojo M-00600 is the winner!
+Loser bot gives winner bot some EXP..
+[1659261874040] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-63's Memnesia M-00576 with ID 1ea7cefb-71c9-4df7-a769-d345be94abe9. Dungware M-00929 is the winner!
+Loser bot gives winner bot some EXP..
+[1659261931435] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-63's Memnesia M-00576 with ID 1ea7cefb-71c9-4df7-a769-d345be94abe9. Memnesia M-00576 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262049509] Kurreo rebuilt their destroyed MEMNESIA with ID 8755b35a-8661-411d-a702-c872204164ee for 161 parts and 0 energy.
+[1659262138287] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-23's Compactisk M-00268 with ID 22a4c450-b419-4293-ba27-53c413a45998. Compactisk M-00268 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262211815] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-23's Ramselle M-00213 with ID 047a561c-af0d-4822-8116-914200b6e9ab. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262269991] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-23's Ramselle M-00213 with ID 047a561c-af0d-4822-8116-914200b6e9ab. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262337699] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-23's Compactisk M-00268 with ID 22a4c450-b419-4293-ba27-53c413a45998. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262421650] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Voidisk M-00594 with ID 036b51d0-115c-41e8-9339-e2f56dad40c6. Memnesia M-00765 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262476006] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-63's Voidisk M-00594 with ID 036b51d0-115c-41e8-9339-e2f56dad40c6. Voidisk M-00594 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262519561] Kurreo has sent a battle request to Jeira. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe. The wager is destroy.
+[1659262586363] Kurreo has rejected a battle request from olibot-21. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-21's Compactisk M-00251 with ID 8736a487-cdc2-46b7-93db-993d7152c0c6. The wager is damage.
+[1659262700761] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-25's Voidisk M-00252 with ID f6145c6a-df72-4b17-b5b6-3b921e101f98. Dungware M-00929 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262702295] Kurreo has accepted a battle request from olibot-25. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-25's Voidisk M-00252 with ID f6145c6a-df72-4b17-b5b6-3b921e101f98. The wager is destroy.
+[1659262773264] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-25's Compactisk M-00297 with ID 102e6943-578f-4caa-aa30-e17b42c6c28b. Compactisk M-00297 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262837012] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-25's Ransom Blue M-00263 with ID 087c00d3-9b01-4da1-b376-86ab0aa0bbfe. Ransom Blue M-00263 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262929589] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-59's Ramselle M-00558 with ID 31fb73a6-436d-43bf-8dd3-570ab43fc7d8. Ramselle M-00558 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262959562] Kurreo has rejected a battle request from olibot-59. Kurreo's Voidisk M-00598 with ID 91f1a46e-a472-45c1-ba4a-e1d257c21604 versus olibot-59's Ramselle M-00560 with ID 584fe601-c4ff-4742-aed4-699e6d7dd70e. The wager is destroy.
+[1659263819601] Kurreo battled their Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 against olibot-15's Buddy & Lila M-00146 with ID ad10d201-b67c-4628-b38b-d9c888bd8193. Ramselle M-00549 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00549 gained lifespan due to their ability..
+[1659263820340] Kurreo has accepted a battle request from olibot-15. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-15's Buddy & Lila M-00146 with ID ad10d201-b67c-4628-b38b-d9c888bd8193. The wager is collect.
+[1659263860498] Kurreo switched changed chips to power for Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65.
+[1659263870522] Kurreo switched changed chips to power for Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65.
+[1659263911827] Kurreo battled their Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 against olibot-13's Dungware M-00124 with ID bb110875-4820-4cb2-8091-3bceed906bc0. Ramselle M-00549 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263912512] Kurreo has accepted a battle request from olibot-13. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-13's Dungware M-00124 with ID bb110875-4820-4cb2-8091-3bceed906bc0. The wager is destroy.
+[1659263949107] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Buddy & Lila M-00332 with ID e9b38819-ae12-4763-945a-d08c51bbb36d. The wager is damage.
+[1659264004809] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-7's Constant M-00096 with ID b62cd74a-f86b-4835-a988-b66059ae0e91. Dungware M-00929 is the winner!
+Loser bot gets collected by winner..
+[1659264005828] Kurreo has accepted a battle request from olibot-7. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-7's Constant M-00096 with ID b62cd74a-f86b-4835-a988-b66059ae0e91. The wager is collect.
+[1659264053149] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6. The wager is damage.
+[1659264124623] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is damage.
+[1659264196112] Kurreo has sent a battle request to Hexxy1. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6. The wager is destroy.
+[1659264274586] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is destroy.
+[1659264417370] Kurreo has sent a battle request to Hexxy1. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is destroy.
+[1659264551824] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-95's Compactisk M-00900 with ID 02590225-5b39-465a-aa84-7da2ba06af6c. Dungware M-00929 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264552555] Kurreo has accepted a battle request from olibot-95. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-95's Compactisk M-00900 with ID 02590225-5b39-465a-aa84-7da2ba06af6c. The wager is destroy.
+[1659264591852] Kurreo has sent a battle request to Hexxy1. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6. The wager is destroy.
+[1659264694078] Kurreo played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[1659294923662] Kurreo battled their Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 against olibot-32's Trojo M-00297 with ID 0e2e8d60-e84c-42d6-84d0-82420023ceb6. Ramselle M-00549 is the winner!
+Loser bot gives winner bot some EXP..
+[1659294924305] Kurreo has accepted a battle request from olibot-32. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-32's Trojo M-00297 with ID 0e2e8d60-e84c-42d6-84d0-82420023ceb6. The wager is damage.
+[1659295011878] Kurreo played minigame xo with difficulty Normal and level Regular. The reward was x0 Machine Parts.
+[1659295056654] Kurreo played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[1659295114942] Kurreo battled their Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a against olibot-57's Dungware M-00521 with ID c1fa3512-fe51-4d2e-8c0b-1f54689b6678. Dungware M-00521 is the winner!
+Loser bot gets collected by winner..
+[1659295115729] Kurreo has accepted a battle request from olibot-57. Kurreo's Compactisk M-00227 with ID 9c745f19-78a8-4bbf-8e35-dca2ccbaf12a versus olibot-57's Dungware M-00521 with ID c1fa3512-fe51-4d2e-8c0b-1f54689b6678. The wager is collect.
+[1659295199257] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-26's Bostrom M-00249 with ID 87b25b53-d847-4aca-8b25-3ddc01f5a2ec. Memnesia M-00765 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659295199878] Kurreo has accepted a battle request from olibot-26. Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee versus olibot-26's Bostrom M-00249 with ID 87b25b53-d847-4aca-8b25-3ddc01f5a2ec. The wager is destroy.
+[1659296598507] Kurreo battled their Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 against olibot-65's Trojo M-00619 with ID bc8ba5f4-39eb-448a-b3ea-5c7be880966e. Dungware M-00929 is the winner!
+Loser bot gets collected by winner..
+[1659296599643] Kurreo has accepted a battle request from olibot-65. Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6 versus olibot-65's Trojo M-00619 with ID bc8ba5f4-39eb-448a-b3ea-5c7be880966e. The wager is collect.
+[1659296680006] Kurreo switched changed chips to balanced for Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65.
+[1659296722448] Kurreo battled their Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 against olibot-58's Compactisk M-00602 with ID 686ae713-9985-4e27-8fb2-a3e52099234d. Compactisk M-00602 is the winner!
+Loser bot gets collected by winner..
+[1659296723447] Kurreo has accepted a battle request from olibot-58. Kurreo's Ramselle M-00549 with ID 1938dda4-f9e6-4524-9c76-4f5edb539b65 versus olibot-58's Compactisk M-00602 with ID 686ae713-9985-4e27-8fb2-a3e52099234d. The wager is collect.
+[1659296790080] Kurreo switched changed chips to power for Constant M-00096 with ID b62cd74a-f86b-4835-a988-b66059ae0e91.
+[1659296830932] Kurreo battled their Constant M-00096 with ID b62cd74a-f86b-4835-a988-b66059ae0e91 against olibot-14's Memnesia M-00157 with ID 22ee55eb-d834-4292-8137-0286514e4bcf. Memnesia M-00157 is the winner!
+Loser bot gets collected by winner..
+[1659296832160] Kurreo has accepted a battle request from olibot-14. Kurreo's Constant M-00096 with ID b62cd74a-f86b-4835-a988-b66059ae0e91 versus olibot-14's Memnesia M-00157 with ID 22ee55eb-d834-4292-8137-0286514e4bcf. The wager is collect.
+[1659297098542] Kurreo has rejected a battle request from olibot-43. Kurreo's Trojo M-00619 with ID bc8ba5f4-39eb-448a-b3ea-5c7be880966e versus olibot-43's Dungware M-00394 with ID 34911ec2-cb53-4546-b538-834022e520c7. The wager is collect.
+[1659297276098] Kurreo battled their Buddy & Lila M-00146 with ID ad10d201-b67c-4628-b38b-d9c888bd8193 against olibot-83's Buddy & Lila M-00764 with ID 3f9ef065-3850-4bd0-8da6-837472e8ef55. Buddy & Lila M-00764 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00764 gained power due to their ability..
+[1659297278320] Kurreo has accepted a battle request from olibot-83. Kurreo's Buddy & Lila M-00146 with ID ad10d201-b67c-4628-b38b-d9c888bd8193 versus olibot-83's Buddy & Lila M-00764 with ID 3f9ef065-3850-4bd0-8da6-837472e8ef55. The wager is damage.
+[1659297467267] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-83's Bostrom M-00796 with ID 36e7608a-643f-4c63-9998-9e47f88c6fad. Bostrom M-00796 is the winner!
+Loser bot gives winner bot some EXP..
+[1659297555730] Kurreo battled their Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee against olibot-83's Voidisk M-00788 with ID 38aa3747-bda5-4f8c-820e-3a4c18df9203. Voidisk M-00788 is the winner!
+Loser bot gives winner bot some EXP..
+[1659297628591] Kurreo battled their Trojo M-00619 with ID bc8ba5f4-39eb-448a-b3ea-5c7be880966e against olibot-55's Memnesia M-00877 with ID dfbef255-bcb6-494a-836b-f96bb1015588. Memnesia M-00877 is the winner!
+Loser bot gives winner bot some EXP..
+[1659297629395] Kurreo has accepted a battle request from olibot-55. Kurreo's Trojo M-00619 with ID bc8ba5f4-39eb-448a-b3ea-5c7be880966e versus olibot-55's Memnesia M-00877 with ID dfbef255-bcb6-494a-836b-f96bb1015588. The wager is damage.

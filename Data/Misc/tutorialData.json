@@ -1,0 +1,22 @@
+[
+    {
+        "text": "Nice to meetcha. Name's Clunk, but you can call me Master...\n\nOr not... Eheh. The year is 2939, humans are wearing thin in this climate, so you will need to be well-equipped with some Bot Brawlers to survive.\n\nTo start off, try using `/daily`, this will get you equipped with <:machine_parts:992728693799669801> Machine Parts, and <:energy_v1:993195219224903832> Energy, which are needed to build bots.\n\nOnce you've done that, run `/tutorial` for your next task.",
+        "task": "daily"
+    },
+    {
+        "text": "Welcome back, my ~~servant~~ friend! 😄 \n\nA bit more about resources: <:machine_parts:992728693799669801> Machine Parts are the source of income for this game, you use it to buy, sell and build bots. <:energy_v1:993195219224903832> Energy is a finite resource that tops up whenever you use `/daily` or `/vote`, it is only needed whenever you `/build` a new bot, or `/rebuild` a bot that was destroyed in battle.\n\nNow that you have said resources, let's go and `/build` a bot! It is your choice which one to use, but I would recommend a Regular one at this stage. Why? You're poor, that's why.",
+        "task": "build"
+    },
+    {
+        "text": "That's a fine lookin' piece of junk you got there. ||😋|| If you use `/bots`, you can see your collection of bots and their special abilities. To learn more about a certain bot, feel free to try out `/info botName`.\n\nAs you can see from your card, your bot has four stats. <:power:965731751009849406> Power and <:Viral_v1:965943499801382983> Viral are **Offensive Stats**. If your <:power:965731751009849406> Power is greater than the opponent's <:lifespan:965731750510727228> Lifespan, you will gain a **Power Advantage**, which increases your odds of winning. Similarly, if your <:Viral_v1:965943499801382983> Viral is higher than the opponent's <:firewall:965731750795935844> Firewall, that will also increase your odds through a **Viral Advantage**. Try to get both advantages at once to maximise your odds, if possible.\n\nAll this talking is making my lightbulbs sore, let's get a battle going! If you use `/battle request username:Clunk wager:Destroy`, I will show you how it's done.",
+        "task": "battle destroy"
+    },
+    {
+        "text": "Y-you won? Oh - I mean, of course. I *let* you win. I don't want you rage quitting so soon now, right? Eheh. 😅\n\nAs you may have noticed, the colour of your Bot's card indicates its power level. The EXP gauge at the bottom indicates how close it is to levelling up to the next stage. Your bot gets stronger the more it Destroys or Damages other bots.\n\nThat brings me onto my next topic: wagers. `Destroy` means the loser bot will be destroyed and the winner will get all of their EXP. `Damage` is similar, but the loser will only hand over a bit of their EXP and will not be destroyed. If you choose `Collect`, the loser bot will be added to the winner's collection. Finally, if you're a wuss, you can use `Friendly`, this will initiate a battle with no consequences. Only use this if you're a real baby.\n\nYou can manipulate a battle's odds by choosing the correct strategy. Try using `/chip` on one of your bots, this will invest a lot of points into one stat to make it strong. Luckily, this command is kept private, so nobody else can know what chip you chose! If you can predict what chip your opponent will use and counter it, chances are you will win the battle!",
+        "task": "chip"
+    },
+    {
+        "text": "Don't get cocky, your brand new bot is still a *total* weakling. But if you win enough battles, you may even acquire a super-intelligent Bot!\n\nTo do that, you will need to make connections with users. Bot Brawler has an inbox `/requests` system so that you can send `/battle request`s and `/trade request`s to other users from all over Discord! If you want to check out another user's bots, you can use `/userinfo username`, or `/userinfo user` if the user is on the same server. If you've ran out of users to pest, use `/map` to see recently active users.\n\nKeep in mind that not all users will want random requests from strangers, you may have to send a `/friend add` first. If you are one of those players who wish for privacy, you can check out `/privacy` and configure your exposure to other users.\n\nThat's all for the basics! If you want a full list of commands, use `/commands`. Try not to die out there, see ya.",
+        "task": ""
+    }
+]

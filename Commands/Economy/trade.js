@@ -51,6 +51,8 @@ async function trade(interaction, utils, buyingUser, sellingUser, sellingBot, mo
     await utils.dbAchievements.editAchievement(interaction, buyingUser.username, "Entrepreneur", sellingBot.botObj.bot_id);
     await utils.dbAchievements.editAchievement(interaction, sellingUser.username, "Entrepreneur", sellingBot.botObj.bot_id);             
 
+    await utils.dbBots.addLogs(interaction, sellingBot.botObj.bot_id, `has been sold to ${buyingUser.username} for x${moneyOffered} Machine Parts.`);
+
     // Display confirmation message
     await interaction.editReply({ 
         files: [yourCard.getCard()], 
@@ -231,6 +233,8 @@ module.exports = {
             });
 
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "trade");
+            await utils.userFile.writeUserLog(utils.user.username, `accepted a trade from ${otherUser.username}. ${sellingUser.username}'s ${sellingBot.name} with ID ${sellingBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
+
             await utils.user.pause(false);
             await otherUser.pause(false);
             return;
@@ -256,6 +260,8 @@ module.exports = {
             }
 
             await utils.user.pause(false);
+
+            await utils.userFile.writeUserLog(utils.user.username, `rejected a trade from ${otherUser.username}.`);
             return interaction.editReply({ embeds: [
                 new utils.embed(interaction, utils.user)
                     .setTitle(`${otherUser.username}'s Trade Request`)
@@ -326,10 +332,19 @@ module.exports = {
                 }
                 // If other user is a bot, instantly accept
                 if(otherUser.isBot) {
+                    /*
                     if(!await trade(interaction, utils, buyingUser, sellingUser, yourBot, amount)) {
                         await utils.user.pause(false);
                         await otherUser.pause(false);
                     }
+                    */
+                    await utils.user.pause(false);
+                    await otherUser.pause(false);
+                    await interaction.editReply({ 
+                        content: `You cannot send Trade Requests to bot users.`,
+                        embeds: [],
+                        components: [],
+                    }).catch((e) => utils.consola.error(e));
                     return;
                 }
 
@@ -353,14 +368,17 @@ module.exports = {
                 
                 await utils.user.pause(false);
                 await otherUser.pause(false);   
+
                 return;
             } else if(subCommand == "user") {
 
                 await utils.messageHelper.confirmChoice(interaction, userSubCommand, `\`${sellingUser.username}'s ${yourBot.name}\` for \`x${amount} ${machinePartEmoji} Machine Parts\`\n\n${userSubCommand}, you accept this Trade Request from ${interaction.user}?`, yourCard.getCard());
+                await utils.userFile.writeUserLog(utils.user.username, `has requested a trade to ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
 
                 // If other user accepts
                 utils.messageHelper.replyEvent.on(`accepted`, async () => {
                     if(!await trade(interaction, utils, buyingUser, sellingUser, yourBot, amount)) {
+                        await utils.userFile.writeUserLog(utils.user.username, `server trade accepted by ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
                         await utils.user.pause(false);
                         await otherUser.pause(false);
                         return;
@@ -370,6 +388,9 @@ module.exports = {
 
                 // If other user rejects
                 utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                    
+                    await utils.userFile.writeUserLog(utils.user.username, `server trade rejected by ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
+
                     await interaction.editReply({ 
                         content: `The trade was cancelled...`,
                         components: [],
@@ -380,6 +401,14 @@ module.exports = {
                     await otherUser.pause(false);
                     return;
                 });
+
+                utils.messageHelper.replyEvent.on(`timeOut`, async() => {
+                    await utils.userFile.writeUserLog(utils.user.username, `server trade ignored by ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
+                 
+                    await utils.user.pause(false);
+                    await otherUser.pause(false);
+                    return;
+                }); 
 
             }
 

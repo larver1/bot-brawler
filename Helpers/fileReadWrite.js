@@ -57,6 +57,28 @@ module.exports = class fileReadWrite
         });   
     }
 
+    async appendToFile(data)
+    {
+        await fs.appendFile(`${this.fileName}`, `${data}`, function (err) {
+            if (err) consola.error(err);
+        });   
+    }
+
+    async writeUserLog(username, message)
+    {
+        var dateTime = new Date();
+        var dateString =
+            dateTime.getFullYear() + "/" +
+            ("0" + (dateTime.getMonth()+1)).slice(-2) + "/" +
+            ("0" + dateTime.getDate()).slice(-2) + " " +
+            ("0" + dateTime.getHours()).slice(-2) + ":" +
+            ("0" + dateTime.getMinutes()).slice(-2) + ":" +
+            ("0" + dateTime.getSeconds()).slice(-2);
+    
+        await this.appendToFile(`[${dateString}] ${username} ${message}\n`);
+    
+    }
+
     /* Writes to file with data at the given line number */
     async updateFileLine(lineNo, newData)
     {

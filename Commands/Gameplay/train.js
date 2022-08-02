@@ -31,8 +31,6 @@ module.exports = {
 
         msg += `\nYou will gain EXP for winning a training battle, but you will not lose anything if you are defeated.`;
 
-        console.log(challengerBots);
-
         // Display challenges
         const embed = new utils.embed(interaction, utils.user)
             .setTitle(`Professor Diriski's Lab Training`)

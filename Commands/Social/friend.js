@@ -1,6 +1,7 @@
 module.exports = {
     name: "friend",
     description: "Manage a list of friends who play Bot Brawler.",
+    usage: "`/friend list` allows you to see your list of friends.\n`/friend add` allows you to send a friend request to another user on the same server.\n`/friend remove` allows you to remove a friend from your friends list.\n`/friend request` allows you to send a friend request to a user's inbox.\n`/friend accept` allows you to accept a friend request from your inbox.\n`/friend reject` allows you to reject a friend request from your inbox.",
     options: [{
         name: "list",
         description: "Show your friends list.",
@@ -140,12 +141,17 @@ module.exports = {
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "friend");
 
             //Notify the recipient if they have been accepted
-            if(subCommand == "accept") 
+            if(subCommand == "accept") {
                 await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                     `${utils.user.username} has accepted your friend request!`);
-            
+                await utils.userFile.writeUserLog(utils.user.username, `is now friends with ${otherUser.username}.`);
+            } else {
+                await utils.userFile.writeUserLog(utils.user.username, `rejected ${otherUser.username}'s friend request.`);
+            }
+
             //Display results
             await utils.user.pause(false); 
+
             return interaction.editReply({ embeds: [
                 new utils.embed(interaction, utils.user)
                     .setTitle(`${otherUser.username}'s Friend Request`)
@@ -187,6 +193,8 @@ module.exports = {
 
             //Inform recipient of friend request
             await utils.user.pause(false); 
+
+            await utils.userFile.writeUserLog(utils.user.username, `has sent a friend request to ${otherUser.username}.`);
             await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                 `${utils.user.username} has sent you a friend request.\nTo accept: \`/friend accept ${messageNumber}\`\nTo reject: \`/friend reject ${messageNumber}\``);
 
@@ -213,7 +221,9 @@ module.exports = {
                 return;
             }
 
+            await utils.userFile.writeUserLog(utils.user.username, `has removed ${otherUser.username} as a friend.`);
             await utils.user.pause(false); 
+
             return interaction.editReply({ embeds: [
                 new utils.embed(interaction, utils.user)
                     .setTitle(`${utils.user.username}'s Sworn Enemy`)

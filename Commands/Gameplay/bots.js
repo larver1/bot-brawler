@@ -1,6 +1,7 @@
 module.exports = {
     name: "bots",
     description: "Check all of your bots.",
+    usage: "`/bots exp` allows you to sort your Bots by EXP.\n`/bots destroyed` allows you to view all of your destroyed Bots.\n`/bots name` allows you to filter your Bots by name.",
     options: [{
         name: "exp",
         description: "Sorts your bot collection based on EXP.",
@@ -28,18 +29,6 @@ module.exports = {
         description: "Filters your bot collection based on Bot Name.",
         required: false,
         type: "STRING",
-    },
-    {
-        name: "level",
-        description: "Filters your bot collection based on Level.",
-        required: false,
-        type: "INTEGER",
-        choices: [
-            {
-                name: "Green",
-                value: 0,
-            }, 
-        ]
     }],
     /**
      * @param {CommandInteraction} CommandInteraction

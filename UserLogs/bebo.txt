@@ -1,0 +1,65 @@
+ [1659273924494] bebo collected their daily rewards.
+[1659273960420] bebo built a BUDDY & LILA with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732
+[1659274136248] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659274136673] bebo is battle training with Professor Diriski. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659274237819] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Buddy & Lila M-00932 is the winner!
+The winner is rewarded with some EXP.
+Buddy & Lila M-00932 gained viral due to their ability..
+[1659274238285] bebo is battle training with Professor Diriski. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659274570324] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Buddy & Lila M-00004 is the winner!
+The loser lost the training match and walked away with nothing...
+Buddy & Lila M-00004 gained lifespan due to their ability..
+[1659274570904] bebo is battle training with Professor Diriski. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659274652563] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Trojo M-00020 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659274653019] bebo is battle training with Professor Diriski. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659274745407] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against olibot-97's Voidisk M-00903 with ID 7c39f5f2-be1c-44bd-8200-2e988fc21fbc. Buddy & Lila M-00932 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00932 gained firewall due to their ability..
+[1659274746054] bebo has accepted a battle request from olibot-97. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus olibot-97's Voidisk M-00903 with ID 7c39f5f2-be1c-44bd-8200-2e988fc21fbc. The wager is damage.
+[1659274838879] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Dungware M-00018 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659274839354] bebo is battle training with Professor Diriski. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659274982852] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against olibot-51's Ramselle M-00485 with ID 4f4db9f2-8764-4cfb-ae93-59d853147afd. Buddy & Lila M-00932 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00932 gained lifespan due to their ability..
+[1659274983589] bebo has accepted a battle request from olibot-51. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus olibot-51's Ramselle M-00485 with ID 4f4db9f2-8764-4cfb-ae93-59d853147afd. The wager is collect.
+[1659275090187] bebo battled their Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 against olibot-36's Buddy & Lila M-00342 with ID 4abd32bf-35b9-4644-a8c9-a6523cc99625. Buddy & Lila M-00342 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00342 gained firewall due to their ability..
+[1659275090895] bebo has accepted a battle request from olibot-36. bebo's Buddy & Lila M-00932 with ID 4143f0fb-940f-4d47-b469-ee9d09ec8732 versus olibot-36's Buddy & Lila M-00342 with ID 4abd32bf-35b9-4644-a8c9-a6523cc99625. The wager is collect.
+[1659275153530] bebo battled their Ramselle M-00485 with ID 4f4db9f2-8764-4cfb-ae93-59d853147afd against olibot-82's Dungware M-00760 with ID 34043222-1fb3-4754-bcfe-84eaaf361be8. Dungware M-00760 is the winner!
+Loser bot gets collected by winner..
+[1659275154268] bebo has accepted a battle request from olibot-82. bebo's Ramselle M-00485 with ID 4f4db9f2-8764-4cfb-ae93-59d853147afd versus olibot-82's Dungware M-00760 with ID 34043222-1fb3-4754-bcfe-84eaaf361be8. The wager is collect.
+[1659275198077] bebo built a RANSOM BLUE with ID e79b1eb5-f443-400d-8adc-6838747aff22
+[1659275267527] bebo built a DUNGWARE with ID e217f269-876a-493d-a3a1-8563d8928c98
+[1659275375231] bebo battled their Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 against olibot-42's Voidisk M-00395 with ID 7debd10f-a92f-421d-a6eb-989398ec786c. Ransom Blue M-00997 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275375920] bebo has accepted a battle request from olibot-42. bebo's Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 versus olibot-42's Voidisk M-00395 with ID 7debd10f-a92f-421d-a6eb-989398ec786c. The wager is damage.
+[1659275468825] bebo battled their Dungware M-00937 with ID e217f269-876a-493d-a3a1-8563d8928c98 against olibot-3's Memnesia M-00047 with ID 331fe9ec-2f35-40b2-88d1-f5c0ce0152c7. Dungware M-00937 is the winner!
+Loser bot gets collected by winner..
+[1659275469451] bebo has accepted a battle request from olibot-3. bebo's Dungware M-00937 with ID e217f269-876a-493d-a3a1-8563d8928c98 versus olibot-3's Memnesia M-00047 with ID 331fe9ec-2f35-40b2-88d1-f5c0ce0152c7. The wager is collect.
+[1659275572038] bebo played minigame claw with difficulty Normal and level 5x5. The reward was x120 Machine Parts.
+[1659275634379] bebo battled their Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 against olibot-14's Ransom Blue M-00156 with ID c5696c75-f869-4d25-8bb4-1a9fa639e9cc. Ransom Blue M-00997 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659275635027] bebo has accepted a battle request from olibot-14. bebo's Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 versus olibot-14's Ransom Blue M-00156 with ID c5696c75-f869-4d25-8bb4-1a9fa639e9cc. The wager is destroy.
+[1659275724911] bebo battled their Memnesia M-00047 with ID 331fe9ec-2f35-40b2-88d1-f5c0ce0152c7 against olibot-76's Buddy & Lila M-00697 with ID d3926705-d393-4747-ae1b-c03b9aad83cc. Buddy & Lila M-00697 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00697 gained power due to their ability..
+[1659275725641] bebo has accepted a battle request from olibot-76. bebo's Memnesia M-00047 with ID 331fe9ec-2f35-40b2-88d1-f5c0ce0152c7 versus olibot-76's Buddy & Lila M-00697 with ID d3926705-d393-4747-ae1b-c03b9aad83cc. The wager is destroy.
+[1659275818146] bebo battled their Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 against olibot-94's Greedisk M-00877 with ID 08447a87-c1aa-4f20-aba3-36d5ed3423ae. Greedisk M-00877 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00877 gets extra EXP due to their ability..
+[1659275818740] bebo has accepted a battle request from olibot-94. bebo's Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 versus olibot-94's Greedisk M-00877 with ID 08447a87-c1aa-4f20-aba3-36d5ed3423ae. The wager is damage.
+[1659275874969] bebo battled their Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 against olibot-12's Voidisk M-00125 with ID 2680149c-cc04-4241-b47e-6107a6334762. Ransom Blue M-00997 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659275875589] bebo has accepted a battle request from olibot-12. bebo's Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 versus olibot-12's Voidisk M-00125 with ID 2680149c-cc04-4241-b47e-6107a6334762. The wager is destroy.
+[1659275928461] bebo battled their Dungware M-00937 with ID e217f269-876a-493d-a3a1-8563d8928c98 against olibot-63's Dungware M-00580 with ID f93c163c-b763-4552-9410-9de9d96408d7. Dungware M-00937 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275929112] bebo has accepted a battle request from olibot-63. bebo's Dungware M-00937 with ID e217f269-876a-493d-a3a1-8563d8928c98 versus olibot-63's Dungware M-00580 with ID f93c163c-b763-4552-9410-9de9d96408d7. The wager is damage.
+[1659276004786] bebo battled their Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 against olibot-90's Ramselle M-00856 with ID 94e16fb4-0ddb-44f1-95c3-f880537365a6. Ramselle M-00856 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00856 gained lifespan due to their ability..
+[1659276005511] bebo has accepted a battle request from olibot-90. bebo's Ransom Blue M-00997 with ID e79b1eb5-f443-400d-8adc-6838747aff22 versus olibot-90's Ramselle M-00856 with ID 94e16fb4-0ddb-44f1-95c3-f880537365a6. The wager is collect.
+[1659276125936] bebo played minigame slots with difficulty Normal and level 5 Rows. The reward was x4 Machine Parts.

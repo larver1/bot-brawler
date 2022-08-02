@@ -1,0 +1,45 @@
+ [1659263778738] Hopper collected their daily rewards.
+[1659263865304] Hopper built a CONSTANT with ID 947786b9-224b-44e3-84c2-06d5a105c89e
+[1659263994480] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against olibot-9's Dungware M-00095 with ID 6faaedda-7336-4689-a6fa-324173ce22de. Dungware M-00095 is the winner!
+Loser bot gives winner bot some EXP..
+[1659263995108] Hopper has accepted a battle request from olibot-9. Hopper's Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e versus olibot-9's Dungware M-00095 with ID 6faaedda-7336-4689-a6fa-324173ce22de. The wager is damage.
+[1659264209151] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against Clunk's Compactisk M-00023 with ID 29f7a087-f560-4f86-8d26-a87e03a7fcf5. Constant M-00907 is the winner!
+Destruction was prevented due to Compactisk M-00023's ability!.
+[1659264748883] Hopper switched changed chips to firewall for Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e.
+[1659269950963] Hopper played minigame claw with difficulty Normal and level 5x5. The reward was x49 Machine Parts.
+[1659269981712] Hopper built a TROJO with ID 5766aba8-af46-4e83-921c-37e5b956b4db
+[1659269993179] Hopper built a TROJO with ID 0306a98a-232b-4e11-8654-d6b71468c056
+[1659270006907] Hopper built a VOIDISK with ID ed2db93d-4b13-4c95-bb27-02d334aa64e5
+[1659270060164] Hopper switched changed chips to firewall for Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e.
+[1659270148794] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Dungware M-00018 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659270149271] Hopper is battle training with Professor Diriski. Hopper's Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659270217604] Hopper battled their Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Trojo M-00913 is the winner!
+The winner is rewarded with some EXP..
+[1659270218220] Hopper is battle training with Professor Diriski. Hopper's Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659270280193] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Buddy & Lila M-00004 is the winner!
+The loser lost the training match and walked away with nothing...
+Buddy & Lila M-00004 gained power due to their ability..
+[1659270280791] Hopper is battle training with Professor Diriski. Hopper's Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659281353552] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against olibot-90's Greedisk M-00829 with ID dd95cff1-e624-4030-8c2d-2df3ad964731. Greedisk M-00829 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00829 gets extra EXP due to their ability..
+[1659281403365] Hopper rebuilt their destroyed CONSTANT with ID 947786b9-224b-44e3-84c2-06d5a105c89e for 15 parts and 0 energy.
+[1659281454833] Hopper battled their Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 against olibot-17's Buddy & Lila M-00181 with ID 3553bd49-5d80-48df-9ba6-e778008a3b55. Trojo M-00913 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00913 gained power due to their ability..
+[1659281455478] Hopper has accepted a battle request from olibot-17. Hopper's Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 versus olibot-17's Buddy & Lila M-00181 with ID 3553bd49-5d80-48df-9ba6-e778008a3b55. The wager is destroy.
+[1659281520599] Hopper battled their Trojo M-00911 with ID 5766aba8-af46-4e83-921c-37e5b956b4db against olibot-79's Ramselle M-00751 with ID 9cbf8763-72bb-43d4-b325-594c119cb771. Trojo M-00911 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00911 gained power due to their ability..
+[1659281521516] Hopper has accepted a battle request from olibot-79. Hopper's Trojo M-00911 with ID 5766aba8-af46-4e83-921c-37e5b956b4db versus olibot-79's Ramselle M-00751 with ID 9cbf8763-72bb-43d4-b325-594c119cb771. The wager is destroy.
+[1659281866339] Hopper battled their Trojo M-00911 with ID 5766aba8-af46-4e83-921c-37e5b956b4db against olibot-64's Dungware M-00589 with ID 0083533f-7a22-4e03-bae4-9faa95db54d8. Dungware M-00589 is the winner!
+Loser bot gets collected by winner..
+[1659281867053] Hopper has accepted a battle request from olibot-64. Hopper's Trojo M-00911 with ID 5766aba8-af46-4e83-921c-37e5b956b4db versus olibot-64's Dungware M-00589 with ID 0083533f-7a22-4e03-bae4-9faa95db54d8. The wager is collect.
+[1659281951492] Hopper battled their Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 against olibot-18's Greedisk M-00178 with ID 9b333598-220e-4068-8720-87fa7053f35c. Greedisk M-00178 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00178 gets extra EXP due to their ability..
+[1659281952261] Hopper has accepted a battle request from olibot-18. Hopper's Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 versus olibot-18's Greedisk M-00178 with ID 9b333598-220e-4068-8720-87fa7053f35c. The wager is damage.
+[1659282556189] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against olibot-77's Ramselle M-00731 with ID 108bebe2-0c9a-4405-b7e6-eac546dde81b. Constant M-00907 is the winner!
+Loser bot gives winner bot some EXP..
+[1659282556897] Hopper has accepted a battle request from olibot-77. Hopper's Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e versus olibot-77's Ramselle M-00731 with ID 108bebe2-0c9a-4405-b7e6-eac546dde81b. The wager is damage.

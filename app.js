@@ -15,4 +15,8 @@ require("./Database/dbStatus")(client);
 require("./Handlers/Events")(client);
 require("./Handlers/Commands")(client);
 
+// Setup bot user timers
+require("./Helpers/BotUsers")(client);
+
+
 client.login(token);

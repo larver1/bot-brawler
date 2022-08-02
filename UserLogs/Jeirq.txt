@@ -1,0 +1,29 @@
+ [1658835936617] Jeirq collected their daily rewards.
+[1658835958358] Jeirq built a GREEDISK with ID 8959d215-a874-41a6-9646-af95da5fefe9
+[1658836025616] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Memnesia M-00005 with ID 28a60cf6-82db-4cc2-a4c1-95f928eb2691. Greedisk M-00028 is the winner
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00028 gets extra EXP due to their ability..
+[1658836091243] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Ramselle M-00004 with ID 001d169a-2d34-437b-a38b-57fe56b9e340. Ramselle M-00004 is the winner
+The loser lost the training match and walked away with nothing....
+[1658836091765] Jeirq is battle training with Professor Diriski. Jeirq's Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 versus Professor Diriski's Ramselle M-00004 with ID 001d169a-2d34-437b-a38b-57fe56b9e340. The wager is null.
+[1658836130405] Jeirq played minigame slots with difficulty Normal and level 5 Rows. The reward was x0 Machine Parts.
+[1658836184471] Jeirq played minigame slots with difficulty Easy and level 5 Rows. The reward was x13 Machine Parts.
+[1658836211339] Jeirq switched changed chips to power for Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9.
+[1658836268315] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Greedisk M-00022 with ID 20574d3f-3276-455f-9d39-e7a7b5088c4d. Greedisk M-00022 is the winner
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00022 gets extra EXP due to their ability..
+[1658836280234] Jeirq rebuild their destroyed GREEDISK with ID 8959d215-a874-41a6-9646-af95da5fefe9
+[1658836329006] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Bostrom M-00014 with ID 07ffe3ce-6923-4d59-afb9-87035b687486. Bostrom M-00014 is the winner
+The loser lost the training match and walked away with nothing....
+[1658836329521] Jeirq is battle training with Professor Diriski. Jeirq's Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 versus Professor Diriski's Bostrom M-00014 with ID 07ffe3ce-6923-4d59-afb9-87035b687486. The wager is null.
+[1658836363715] Jeirq built a COMPACTISK with ID 156973e1-edfb-480f-81ea-5cd990568587
+[1658836432933] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Ransom Blue M-00003 with ID 2f76cb53-f8d6-428d-8e2b-0e66692cc835. Ransom Blue M-00003 is the winner
+Loser bot gets destroyed by winner for EXP..
+[1658836442293] Jeirq rebuild their destroyed GREEDISK with ID 8959d215-a874-41a6-9646-af95da5fefe9
+[1658836616900] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Voidisk M-00008 with ID 0f35dc5b-904f-4dbb-a5cb-1462a2c3b3ce. Voidisk M-00008 is the winner
+Loser bot gets destroyed by winner for EXP..
+[1658836633012] Jeirq rebuild their destroyed GREEDISK with ID 8959d215-a874-41a6-9646-af95da5fefe9
+[1658836721147] Jeirq battled their Greedisk M-00028 with ID 8959d215-a874-41a6-9646-af95da5fefe9 against Professor Diriski's Greedisk M-00004 with ID 0cc91603-5fb1-4afb-99da-82b57409b033. Greedisk M-00004 is the winner
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00004 gets extra EXP due to their ability..
+[1658836744823] Jeirq rebuild their destroyed GREEDISK with ID 8959d215-a874-41a6-9646-af95da5fefe9

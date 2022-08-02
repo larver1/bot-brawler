@@ -1,0 +1,132 @@
+ [1659254447526] Jaded collected their daily rewards.
+[1659254471263] Jaded built a COMPACTISK with ID fc830500-8003-4e57-97b2-58fb4cbdeda2
+[1659254549581] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Compactisk M-00947 is the winner!
+The winner is rewarded with some EXP..
+[1659254550422] Jaded is battle training with Professor Diriski. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659254644125] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Jeira's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb. Compactisk M-00947 is the winner!
+The bots shake claws and go their separate ways..
+[1659254644572] Jaded server battle accepted by Jeira. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Jeira's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb. The wager is friendly.
+[1659254769262] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Compactisk M-00947 is the winner!
+The winner is rewarded with some EXP..
+[1659254769766] Jaded is battle training with Professor Diriski. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659254964371] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Compactisk M-00947 is the winner!
+The winner is rewarded with some EXP..
+[1659254964904] Jaded is battle training with Professor Diriski. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659255087446] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Compactisk M-00947 is the winner!
+The winner is rewarded with some EXP..
+[1659255087952] Jaded is battle training with Professor Diriski. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659255134329] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659255134750] Jaded is battle training with Professor Diriski. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659255290558] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against olibot-39's Ransom Blue M-00393 with ID 5537f39c-b195-4aa7-9e51-ea38e4d46363. Compactisk M-00947 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659255291225] Jaded has accepted a battle request from olibot-39. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus olibot-39's Ransom Blue M-00393 with ID 5537f39c-b195-4aa7-9e51-ea38e4d46363. The wager is destroy.
+[1659255350150] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against olibot-28's Compactisk M-00321 with ID 8a0045e2-2d56-4ce7-b75d-b13e0928972b. Compactisk M-00947 is the winner!
+Loser bot gives winner bot some EXP..
+[1659255350889] Jaded has accepted a battle request from olibot-28. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus olibot-28's Compactisk M-00321 with ID 8a0045e2-2d56-4ce7-b75d-b13e0928972b. The wager is damage.
+[1659255457883] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against olibot-85's Greedisk M-00784 with ID 244020e9-0e27-46f4-bc9e-e1b125063721. Greedisk M-00784 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00784 gets extra EXP due to their ability..
+[1659255458489] Jaded has accepted a battle request from olibot-85. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus olibot-85's Greedisk M-00784 with ID 244020e9-0e27-46f4-bc9e-e1b125063721. The wager is destroy.
+[1659255568770] Jaded played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[1659255635366] Jaded played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[1659255827234] Jaded built a MEMNESIA with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6
+[1659255850636] Jaded built a COMPACTISK with ID f5bd3757-b9f2-43cf-8860-dc86ecedd57c
+[1659255916576] Jaded battled their Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 against olibot-70's Bostrom M-00671 with ID ef815325-126a-441f-86fe-4a94fd4e1772. Memnesia M-00887 is the winner!
+Loser bot gets collected by winner..
+[1659255917202] Jaded has accepted a battle request from olibot-70. Jaded's Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 versus olibot-70's Bostrom M-00671 with ID ef815325-126a-441f-86fe-4a94fd4e1772. The wager is collect.
+[1659256002651] Jaded battled their Compactisk M-00949 with ID f5bd3757-b9f2-43cf-8860-dc86ecedd57c against olibot-3's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234. Compactisk M-00949 is the winner!
+Loser bot gets collected by winner..
+[1659256003418] Jaded has accepted a battle request from olibot-3. Jaded's Compactisk M-00949 with ID f5bd3757-b9f2-43cf-8860-dc86ecedd57c versus olibot-3's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234. The wager is collect.
+[1659256092777] Jaded battled their Compactisk M-00949 with ID f5bd3757-b9f2-43cf-8860-dc86ecedd57c against olibot-78's Ramselle M-00738 with ID fb24a774-d1f3-4611-9981-0c441ab08ba4. Ramselle M-00738 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00738 gained lifespan due to their ability..
+[1659256093377] Jaded has accepted a battle request from olibot-78. Jaded's Compactisk M-00949 with ID f5bd3757-b9f2-43cf-8860-dc86ecedd57c versus olibot-78's Ramselle M-00738 with ID fb24a774-d1f3-4611-9981-0c441ab08ba4. The wager is collect.
+[1659256238823] Jaded switched changed chips to power for Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234.
+[1659256293006] Jaded battled their Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 against olibot-47's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83. Trojo M-00056 is the winner!
+Loser bot gets collected by winner..
+[1659256293654] Jaded has accepted a battle request from olibot-47. Jaded's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 versus olibot-47's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83. The wager is collect.
+[1659256377644] Jaded battled their Bostrom M-00671 with ID ef815325-126a-441f-86fe-4a94fd4e1772 against olibot-69's Compactisk M-00692 with ID cb2de5fc-e5ad-4dd0-957e-e36dc762400f. Bostrom M-00671 is the winner!
+Loser bot gives winner bot some EXP..
+[1659256378275] Jaded has accepted a battle request from olibot-69. Jaded's Bostrom M-00671 with ID ef815325-126a-441f-86fe-4a94fd4e1772 versus olibot-69's Compactisk M-00692 with ID cb2de5fc-e5ad-4dd0-957e-e36dc762400f. The wager is damage.
+[1659256448062] Jaded battled their Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 against olibot-6's Voidisk M-00066 with ID 1bb6f4d4-157c-4b4f-8816-032891960dae. Dungware M-00419 is the winner!
+Loser bot gives winner bot some EXP..
+[1659256448744] Jaded has accepted a battle request from olibot-6. Jaded's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 versus olibot-6's Voidisk M-00066 with ID 1bb6f4d4-157c-4b4f-8816-032891960dae. The wager is damage.
+[1659256491509] Jaded played minigame slots with difficulty Easy and level 3 Rows. The reward was x0 Machine Parts.
+[1659256551419] Jaded played minigame slots with difficulty Normal and level 7 Rows. The reward was x44 Machine Parts.
+[1659256599041] Jaded battled their Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 against olibot-27's Memnesia M-00257 with ID 51918167-e87d-459f-a072-06f28af3e180. Memnesia M-00887 is the winner!
+Loser bot gets collected by winner..
+[1659256599743] Jaded has accepted a battle request from olibot-27. Jaded's Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 versus olibot-27's Memnesia M-00257 with ID 51918167-e87d-459f-a072-06f28af3e180. The wager is collect.
+[1659256732046] Jaded battled their Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 against olibot-97's Trojo M-00883 with ID 21069852-b8c7-41da-8f73-8c49c97ffa6f. Trojo M-00056 is the winner!
+Loser bot gives winner bot some EXP..
+[1659256732673] Jaded has accepted a battle request from olibot-97. Jaded's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 versus olibot-97's Trojo M-00883 with ID 21069852-b8c7-41da-8f73-8c49c97ffa6f. The wager is damage.
+[1659256782421] Jaded battled their Bostrom M-00671 with ID ef815325-126a-441f-86fe-4a94fd4e1772 against olibot-50's Buddy & Lila M-00457 with ID 485ed59a-e884-448e-8817-2fce20e7d780. Buddy & Lila M-00457 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00457 gained firewall due to their ability..
+[1659256783115] Jaded has accepted a battle request from olibot-50. Jaded's Bostrom M-00671 with ID ef815325-126a-441f-86fe-4a94fd4e1772 versus olibot-50's Buddy & Lila M-00457 with ID 485ed59a-e884-448e-8817-2fce20e7d780. The wager is destroy.
+[1659256916461] Jaded battled their Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 against olibot-0's Bostrom M-00007 with ID 1fe5a7ba-4847-4b3f-880a-b91a84bd2781. Dungware M-00419 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659256917223] Jaded has accepted a battle request from olibot-0. Jaded's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 versus olibot-0's Bostrom M-00007 with ID 1fe5a7ba-4847-4b3f-880a-b91a84bd2781. The wager is destroy.
+[1659256953042] Jaded listed Memnesia on the market with ID 51918167-e87d-459f-a072-06f28af3e180 with offer of 5000.
+[1659260436248] Jaded battled their Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 against olibot-1's Buddy & Lila M-00036 with ID 4a586f78-a61f-4f9a-9e49-f3b9a24f7d27. Trojo M-00056 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260437410] Jaded has accepted a battle request from olibot-1. Jaded's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 versus olibot-1's Buddy & Lila M-00036 with ID 4a586f78-a61f-4f9a-9e49-f3b9a24f7d27. The wager is damage.
+[1659267176771] Jaded battled their Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 against olibot-77's Voidisk M-00733 with ID 7fb9a46c-0d9b-4057-8535-ae6cda6873b5. Memnesia M-00887 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267177369] Jaded has accepted a battle request from olibot-77. Jaded's Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 versus olibot-77's Voidisk M-00733 with ID 7fb9a46c-0d9b-4057-8535-ae6cda6873b5. The wager is destroy.
+[1659267221127] Jaded battled their Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 against olibot-38's Bostrom M-00362 with ID fb031d64-8367-48ee-8321-d949a6f6e71a. Trojo M-00056 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00056 gained power due to their ability..
+[1659267221770] Jaded has accepted a battle request from olibot-38. Jaded's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 versus olibot-38's Bostrom M-00362 with ID fb031d64-8367-48ee-8321-d949a6f6e71a. The wager is destroy.
+[1659267463904] Jaded battled their Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 against olibot-97's Memnesia M-00855 with ID 69cc3ac9-7082-4ea8-92d9-a0f6a0720789. Dungware M-00419 is the winner!
+Loser bot gets collected by winner..
+[1659267464522] Jaded has accepted a battle request from olibot-97. Jaded's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 versus olibot-97's Memnesia M-00855 with ID 69cc3ac9-7082-4ea8-92d9-a0f6a0720789. The wager is collect.
+[1659267608836] Jaded built a VOIDISK with ID 84f3106d-8a9b-478c-91fc-04898d6e34ad
+[1659267663680] Jaded battled their Memnesia M-00855 with ID 69cc3ac9-7082-4ea8-92d9-a0f6a0720789 against olibot-67's Ransom Blue M-00644 with ID c7fda9b3-505c-4788-b307-d8ed7557caac. Memnesia M-00855 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267664338] Jaded has accepted a battle request from olibot-67. Jaded's Memnesia M-00855 with ID 69cc3ac9-7082-4ea8-92d9-a0f6a0720789 versus olibot-67's Ransom Blue M-00644 with ID c7fda9b3-505c-4788-b307-d8ed7557caac. The wager is destroy.
+[1659267793448] Jaded is now friends with ML.
+[1659271260382] Jaded battled their Memnesia M-00855 with ID 69cc3ac9-7082-4ea8-92d9-a0f6a0720789 against olibot-15's Dungware M-00137 with ID b749fdce-ba50-428e-af78-d8388a53aeb1. Dungware M-00137 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659271261233] Jaded has accepted a battle request from olibot-15. Jaded's Memnesia M-00855 with ID 69cc3ac9-7082-4ea8-92d9-a0f6a0720789 versus olibot-15's Dungware M-00137 with ID b749fdce-ba50-428e-af78-d8388a53aeb1. The wager is destroy.
+[1659271359719] Jaded played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[1659273144773] Jaded battled their Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 against olibot-63's Ramselle M-00591 with ID 8676e7d9-55fc-4ccf-9cd5-5c9d3f7d9e76. Dungware M-00419 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659273145458] Jaded has accepted a battle request from olibot-63. Jaded's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 versus olibot-63's Ramselle M-00591 with ID 8676e7d9-55fc-4ccf-9cd5-5c9d3f7d9e76. The wager is destroy.
+[1659273218915] Jaded battled their Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 against olibot-43's Buddy & Lila M-00398 with ID cd1e7e2e-155f-4db1-ab03-a2c59026b50b. Buddy & Lila M-00398 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00398 gained power due to their ability..
+[1659273219710] Jaded has accepted a battle request from olibot-43. Jaded's Memnesia M-00887 with ID 4b1d2446-ad6f-4b9c-83e4-c3ab37ee00d6 versus olibot-43's Buddy & Lila M-00398 with ID cd1e7e2e-155f-4db1-ab03-a2c59026b50b. The wager is destroy.
+[1659273255637] Jaded rebuilt their destroyed COMPACTISK with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 for 101 parts and 0 energy.
+[1659279982219] Jaded battled their Voidisk M-00927 with ID 84f3106d-8a9b-478c-91fc-04898d6e34ad against olibot-91's Bostrom M-00875 with ID a982f3cc-01b3-45aa-9f90-7be25e310755. Bostrom M-00875 is the winner!
+Loser bot gets collected by winner..
+[1659279983127] Jaded has accepted a battle request from olibot-91. Jaded's Voidisk M-00927 with ID 84f3106d-8a9b-478c-91fc-04898d6e34ad versus olibot-91's Bostrom M-00875 with ID a982f3cc-01b3-45aa-9f90-7be25e310755. The wager is collect.
+[1659280060302] Jaded battled their Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 against olibot-70's Greedisk M-00653 with ID bbcdc5c8-76c3-4b99-80f6-08a42b484e2e. Trojo M-00056 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00056 gained power due to their ability..
+[1659280061266] Jaded has accepted a battle request from olibot-70. Jaded's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 versus olibot-70's Greedisk M-00653 with ID bbcdc5c8-76c3-4b99-80f6-08a42b484e2e. The wager is destroy.
+[1659281889681] Jaded battled their Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 against olibot-70's Dungware M-00644 with ID 42c5643d-bddd-4906-82b9-e7e372d92474. Trojo M-00056 is the winner!
+Loser bot gets collected by winner..
+[1659281890473] Jaded has accepted a battle request from olibot-70. Jaded's Trojo M-00056 with ID 9e0706ea-fbc6-48df-ac14-28e3fb9dd234 versus olibot-70's Dungware M-00644 with ID 42c5643d-bddd-4906-82b9-e7e372d92474. The wager is collect.
+[1659282050737] Jaded listed Dungware on the market with ID 42c5643d-bddd-4906-82b9-e7e372d92474 with offer of 50.
+[1659282222623] Jaded battled their Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 against olibot-36's Greedisk M-00357 with ID 48f22719-a39d-466b-a25f-6db3d735805a. Dungware M-00419 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659282223311] Jaded has accepted a battle request from olibot-36. Jaded's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 versus olibot-36's Greedisk M-00357 with ID 48f22719-a39d-466b-a25f-6db3d735805a. The wager is destroy.
+[1659282293179] Jaded battled their Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 against olibot-68's Voidisk M-00637 with ID 6d1a2a19-33bf-4501-823c-a7e277e13cd1. Dungware M-00419 is the winner!
+Loser bot gets collected by winner..
+[1659282293921] Jaded has accepted a battle request from olibot-68. Jaded's Dungware M-00419 with ID cf9e24e8-c9cd-413d-b5fc-b23bdfadaa83 versus olibot-68's Voidisk M-00637 with ID 6d1a2a19-33bf-4501-823c-a7e277e13cd1. The wager is collect.
+[1659282342337] Jaded battled their Voidisk M-00637 with ID 6d1a2a19-33bf-4501-823c-a7e277e13cd1 against olibot-22's Voidisk M-00219 with ID 77e774b4-20fa-43e2-b5ba-1f77fc8a72f4. Voidisk M-00219 is the winner!
+Loser bot gets collected by winner..
+[1659282343015] Jaded has accepted a battle request from olibot-22. Jaded's Voidisk M-00637 with ID 6d1a2a19-33bf-4501-823c-a7e277e13cd1 versus olibot-22's Voidisk M-00219 with ID 77e774b4-20fa-43e2-b5ba-1f77fc8a72f4. The wager is collect.
+[1659282444240] Jaded played minigame xo with difficulty Hard and level Regular. The reward was x0 Machine Parts.
+[1659282571273] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe. Compactisk M-00947 is the winner!
+Loser bot gives winner bot some EXP..
+[1659282571822] Jaded server battle accepted by Jeira. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe. The wager is damage.
+[1659282630147] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92. Compactisk M-00947 is the winner!
+Loser bot gives winner bot some EXP..
+[1659282631129] Jaded server battle accepted by nasty. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92. The wager is damage.
+[1659282690146] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against olibot-63's Greedisk M-00589 with ID 382e13b9-e9c2-45f1-9ff0-7113c1da88b0. Greedisk M-00589 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00589 gets extra EXP due to their ability..
+[1659282691283] Jaded has accepted a battle request from olibot-63. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus olibot-63's Greedisk M-00589 with ID 382e13b9-e9c2-45f1-9ff0-7113c1da88b0. The wager is destroy.
+[1659282733200] Jaded rebuilt their destroyed COMPACTISK with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 for 121 parts and 0 energy.

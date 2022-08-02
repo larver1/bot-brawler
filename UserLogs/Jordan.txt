@@ -1,0 +1,388 @@
+ [1659259297397] Jordan collected their daily rewards.
+[1659259315768] Jordan built a DUNGWARE with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f
+[1659259409389] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-90's Bostrom M-00868 with ID f32560dd-e7ee-4378-970a-1cb044548ed9. Dungware M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659259415890] Jordan has accepted a battle request from olibot-90. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus olibot-90's Bostrom M-00868 with ID f32560dd-e7ee-4378-970a-1cb044548ed9. The wager is destroy.
+[1659259504723] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-29's Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799. Dungware M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659259509363] Jordan has accepted a battle request from olibot-29. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus olibot-29's Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799. The wager is collect.
+[1659259620661] Jordan switched changed chips to power for Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f.
+[1659259677214] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-43's Constant M-00402 with ID ce043d0b-c25f-4800-a4fa-4dcfdad9204d. Dungware M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659259681654] Jordan has accepted a battle request from olibot-43. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus olibot-43's Constant M-00402 with ID ce043d0b-c25f-4800-a4fa-4dcfdad9204d. The wager is collect.
+[1659259702691] Jordan switched changed chips to viral for Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f.
+[1659259745233] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-32's Ransom Blue M-00325 with ID 441de762-912b-40c4-aa81-f975648f48be. Memnesia M-00280 is the winner!
+Loser bot gets collected by winner..
+[1659259748051] Jordan has accepted a battle request from olibot-32. Jordan's Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 versus olibot-32's Ransom Blue M-00325 with ID 441de762-912b-40c4-aa81-f975648f48be. The wager is collect.
+[1659259840017] Jordan switched changed chips to power for Ransom Blue M-00325 with ID 441de762-912b-40c4-aa81-f975648f48be.
+[1659259881909] Jordan battled their Ransom Blue M-00325 with ID 441de762-912b-40c4-aa81-f975648f48be against olibot-73's Dungware M-00680 with ID 5b671ee4-b83a-4dec-8020-78c3b87f075f. Dungware M-00680 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659259884975] Jordan has accepted a battle request from olibot-73. Jordan's Ransom Blue M-00325 with ID 441de762-912b-40c4-aa81-f975648f48be versus olibot-73's Dungware M-00680 with ID 5b671ee4-b83a-4dec-8020-78c3b87f075f. The wager is destroy.
+[1659259968992] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Dungware M-00931 is the winner!
+The winner is rewarded with some EXP..
+[1659259971945] Jordan is battle training with Professor Diriski. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659260005760] Jordan switched changed chips to firewall for Constant M-00402 with ID ce043d0b-c25f-4800-a4fa-4dcfdad9204d.
+[1659260049296] Jordan battled their Constant M-00402 with ID ce043d0b-c25f-4800-a4fa-4dcfdad9204d against olibot-27's Ramselle M-00258 with ID 1ab004bc-a160-4040-a347-2655fc48cf7f. Ramselle M-00258 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00258 gained firewall due to their ability..
+[1659260050660] Jordan has accepted a battle request from olibot-27. Jordan's Constant M-00402 with ID ce043d0b-c25f-4800-a4fa-4dcfdad9204d versus olibot-27's Ramselle M-00258 with ID 1ab004bc-a160-4040-a347-2655fc48cf7f. The wager is collect.
+[1659260113571] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Dungware M-00931 is the winner!
+The winner is rewarded with some EXP..
+[1659260115781] Jordan is battle training with Professor Diriski. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659260194638] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Dungware M-00931 is the winner!
+The winner is rewarded with some EXP..
+[1659260195097] Jordan is battle training with Professor Diriski. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659260240703] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-67's Dungware M-00614 with ID bbe6adcb-0295-4da2-a36b-e36909f2af78. Dungware M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260241364] Jordan has accepted a battle request from olibot-67. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus olibot-67's Dungware M-00614 with ID bbe6adcb-0295-4da2-a36b-e36909f2af78. The wager is damage.
+[1659260301969] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659260302438] Jordan is battle training with Professor Diriski. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659260324057] Jordan switched changed chips to power for Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f.
+[1659260369795] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Dungware M-00931 is the winner!
+The winner is rewarded with some EXP..
+[1659260370861] Jordan is battle training with Professor Diriski. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659260434770] Jordan switched changed chips to balanced for Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f.
+[1659260477006] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-58's Buddy & Lila M-00538 with ID 7f6401a1-abc8-4cbd-8283-0b73d12e8d5e. Dungware M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260477748] Jordan has accepted a battle request from olibot-58. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus olibot-58's Buddy & Lila M-00538 with ID 7f6401a1-abc8-4cbd-8283-0b73d12e8d5e. The wager is damage.
+[1659260592826] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-24's Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27. Dungware M-00931 is the winner!
+Loser bot gets collected by winner..
+[1659260593529] Jordan has accepted a battle request from olibot-24. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus olibot-24's Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27. The wager is collect.
+[1659260724414] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-88's Greedisk M-00806 with ID 2caaffdb-1733-43ac-a448-8508adfbc1c9. Memnesia M-00280 is the winner!
+Loser bot gets collected by winner..
+[1659260725143] Jordan has accepted a battle request from olibot-88. Jordan's Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 versus olibot-88's Greedisk M-00806 with ID 2caaffdb-1733-43ac-a448-8508adfbc1c9. The wager is collect.
+[1659260817954] Jordan battled their Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 against olibot-50's Memnesia M-00462 with ID c91db023-7a28-4c32-98d2-24428013f075. Bostrom M-00234 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659260818766] Jordan has accepted a battle request from olibot-50. Jordan's Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 versus olibot-50's Memnesia M-00462 with ID c91db023-7a28-4c32-98d2-24428013f075. The wager is destroy.
+[1659260849656] Jordan switched changed chips to power for Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799.
+[1659260890985] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-30's Ramselle M-00296 with ID c80331c3-a0ed-41bb-99af-a7fb89f81076. Memnesia M-00280 is the winner!
+Loser bot gives winner bot some EXP..
+[1659260891753] Jordan has accepted a battle request from olibot-30. Jordan's Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 versus olibot-30's Ramselle M-00296 with ID c80331c3-a0ed-41bb-99af-a7fb89f81076. The wager is damage.
+[1659261008767] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-35's Bostrom M-00326 with ID 5abeece6-474e-491c-b61f-cf26a65ad1cb. Memnesia M-00280 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659261009398] Jordan has accepted a battle request from olibot-35. Jordan's Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 versus olibot-35's Bostrom M-00326 with ID 5abeece6-474e-491c-b61f-cf26a65ad1cb. The wager is destroy.
+[1659261143153] Jordan played minigame slots with difficulty Easy and level 7 Rows. The reward was x10 Machine Parts.
+[1659261173596] Jordan switched changed chips to power for Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27.
+[1659261213063] Jordan battled their Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 against olibot-74's Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b. Bostrom M-00234 is the winner!
+Loser bot gets collected by winner..
+[1659261213864] Jordan has accepted a battle request from olibot-74. Jordan's Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 versus olibot-74's Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b. The wager is collect.
+[1659261244337] Jordan built a RANSOM BLUE with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba
+[1659261271947] Jordan built a COMPACTISK with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1
+[1659261292336] Jordan built a DUNGWARE with ID dc9e195e-4e7a-4009-98b5-32c5554fb69f
+[1659261721644] Jordan played minigame slots with difficulty Easy and level 3 Rows. The reward was x8 Machine Parts.
+[1659261803287] Jordan listed Greedisk on the market with ID 2caaffdb-1733-43ac-a448-8508adfbc1c9 with offer of 1.
+[1659262029536] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. Dungware M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262030059] Jordan server battle accepted by Kurreo. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is destroy.
+[1659262156932] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289. Dungware M-00925 is the winner!
+The bots shake claws and go their separate ways..
+[1659262157521] Jordan server battle accepted by Jeira. Jordan's Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f versus Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289. The wager is friendly.
+[1659262210952] Jordan battled their Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 against olibot-76's Dungware M-00708 with ID faf04bd8-cb10-414c-99d6-6e3715c2cc99. Bostrom M-00234 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262211578] Jordan has accepted a battle request from olibot-76. Jordan's Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 versus olibot-76's Dungware M-00708 with ID faf04bd8-cb10-414c-99d6-6e3715c2cc99. The wager is damage.
+[1659262302056] Jordan battled their Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 against olibot-48's Bostrom M-00460 with ID b890d3be-7654-449b-8801-7c1006c9a84f. Bostrom M-00234 is the winner!
+Loser bot gets collected by winner..
+[1659262302877] Jordan has accepted a battle request from olibot-48. Jordan's Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 versus olibot-48's Bostrom M-00460 with ID b890d3be-7654-449b-8801-7c1006c9a84f. The wager is collect.
+[1659262387106] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-76's Bostrom M-00727 with ID 1abb5ab4-c5e9-4cd1-b200-b85c9b054d89. Dungware M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262522765] Jordan battled their Bostrom M-00460 with ID b890d3be-7654-449b-8801-7c1006c9a84f against olibot-90's Buddy & Lila M-00833 with ID 71e09005-b645-4f07-b16b-ee5001209399. Buddy & Lila M-00833 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00833 gained power due to their ability..
+[1659262524334] Jordan has accepted a battle request from olibot-90. Jordan's Bostrom M-00460 with ID b890d3be-7654-449b-8801-7c1006c9a84f versus olibot-90's Buddy & Lila M-00833 with ID 71e09005-b645-4f07-b16b-ee5001209399. The wager is destroy.
+[1659262620955] Jordan battled their Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b against olibot-64's Buddy & Lila M-00588 with ID 6d459cef-8f65-400c-ad49-884815a28b1b. Ransom Blue M-00717 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262621755] Jordan has accepted a battle request from olibot-64. Jordan's Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b versus olibot-64's Buddy & Lila M-00588 with ID 6d459cef-8f65-400c-ad49-884815a28b1b. The wager is destroy.
+[1659262669359] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-90's Bostrom M-00869 with ID 11039449-49a7-4723-ab6b-7681155d25e9. Bostrom M-00869 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262753137] Jordan battled their Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba against olibot-90's Ransom Blue M-00886 with ID 08afcd0a-9dfb-43f7-8c1c-d76c88c1f82c. Ransom Blue M-00989 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262778124] Jordan switched changed chips to viral for Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba.
+[1659262846968] Jordan battled their Bostrom M-00234 with ID 3c882ea0-d23b-4e2c-af75-bbfef7bc7a27 against olibot-90's Trojo M-00828 with ID de98832f-dfe3-4f8f-95ed-75cc65426729. Trojo M-00828 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00828 gained power due to their ability..
+[1659262864331] Jordan battled their Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b against olibot-43's Constant M-00405 with ID d81080b6-2e1d-4c16-9389-c0947c67d9e2. Constant M-00405 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262865028] Jordan has accepted a battle request from olibot-43. Jordan's Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b versus olibot-43's Constant M-00405 with ID d81080b6-2e1d-4c16-9389-c0947c67d9e2. The wager is damage.
+[1659262939615] Jordan battled their Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba against olibot-90's Constant M-00802 with ID e1b14e01-88b4-47b2-ba68-ea169b25fd5b. Ransom Blue M-00989 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263075462] Jordan battled their Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba against olibot-90's Ramselle M-00850 with ID 0b3782bb-8a45-4c6b-92dd-3ced7b9e835b. Ramselle M-00850 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263414829] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-90's Buddy & Lila M-00834 with ID 45fbd7e9-030b-40eb-a939-a1bb9cf584ce. Memnesia M-00280 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263590947] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-90's Greedisk M-00836 with ID 20dc57f7-91ad-4830-9dc4-6c5528fdabb4. Memnesia M-00280 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263660755] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-90's Compactisk M-00854 with ID 421967ca-5081-4566-b1a6-979c2f045412. Memnesia M-00280 is the winner!
+Destruction was prevented due to Compactisk M-00854's ability!.
+[1659263730852] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-76's Bostrom M-00728 with ID 63744963-cb56-49d5-8b39-319e1e376991. Memnesia M-00280 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263799556] Jordan battled their Memnesia M-00280 with ID 396a44ac-52df-46ce-bc36-7ac8fddb9799 against olibot-90's Greedisk M-00833 with ID 395b8589-2569-4d3d-9fc3-a437764be2de. Greedisk M-00833 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00833 gets extra EXP due to their ability..
+[1659263873480] Jordan rebuilt their destroyed RANSOM BLUE with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba for 138 parts and 0 energy.
+[1659263891809] Jordan rebuilt their destroyed DUNGWARE with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f for 506 parts and 0 energy.
+[1659263912056] Jordan switched changed chips to balanced for Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f.
+[1659263978067] Jordan battled their Dungware M-00931 with ID e2bfc02a-d0a4-47a9-b1c7-0f17792d604f against olibot-76's Ransom Blue M-00733 with ID 82b8cca0-f447-4d86-b070-7f31adb069f1. Ransom Blue M-00733 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264065273] Jordan battled their Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba against olibot-90's Ransom Blue M-00893 with ID 47f8a5d9-61ae-4519-87ba-ab05fae92d8f. Ransom Blue M-00893 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264089467] Jordan switched changed chips to power for Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1.
+[1659264153003] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-90's Greedisk M-00840 with ID 3eb07bf7-872c-4816-9e67-54280961b53d. Compactisk M-00951 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264260812] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-90's Buddy & Lila M-00843 with ID 5f4d1a55-733d-47c1-a031-84d91345c649. Compactisk M-00951 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264350767] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-76's Constant M-00676 with ID 13834c5f-b5fe-4803-9d96-97237c795881. Constant M-00676 is the winner!
+Destruction was prevented due to Compactisk M-00951's ability!.
+[1659264394337] Jordan rebuilt their destroyed RANSOM BLUE with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba for 138 parts and 0 energy.
+[1659264412834] Jordan switched changed chips to viral for Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba.
+[1659264528303] Jordan battled their Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba against olibot-76's Memnesia M-00683 with ID 8b07c2fb-e837-4feb-b146-328d15c6fa33. Memnesia M-00683 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264598830] Jordan battled their Dungware M-00933 with ID dc9e195e-4e7a-4009-98b5-32c5554fb69f against olibot-53's Bostrom M-00507 with ID a0c08e3a-2821-4bba-9cc6-c18de09f930d. Dungware M-00933 is the winner!
+Loser bot gets collected by winner..
+[1659264599441] Jordan has accepted a battle request from olibot-53. Jordan's Dungware M-00933 with ID dc9e195e-4e7a-4009-98b5-32c5554fb69f versus olibot-53's Bostrom M-00507 with ID a0c08e3a-2821-4bba-9cc6-c18de09f930d. The wager is collect.
+[1659264714188] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-90's Bostrom M-00866 with ID d7f69616-2cc5-40b1-aaf0-97584b7665ca. Compactisk M-00951 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659264786660] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-90's Ramselle M-00850 with ID 0b3782bb-8a45-4c6b-92dd-3ced7b9e835b. Ramselle M-00850 is the winner!
+Destruction was prevented due to Compactisk M-00951's ability!.
+[1659265426456] Jordan battled their Bostrom M-00507 with ID a0c08e3a-2821-4bba-9cc6-c18de09f930d against olibot-68's Voidisk M-00644 with ID fb2f0ad5-168a-48c9-9418-b090e7c990fe. Voidisk M-00644 is the winner!
+Loser bot gets collected by winner..
+[1659265427124] Jordan has accepted a battle request from olibot-68. Jordan's Bostrom M-00507 with ID a0c08e3a-2821-4bba-9cc6-c18de09f930d versus olibot-68's Voidisk M-00644 with ID fb2f0ad5-168a-48c9-9418-b090e7c990fe. The wager is collect.
+[1659265470038] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against Jeira's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e. Ransom Blue M-00013 is the winner!
+Loser bot gives winner bot some EXP..
+[1659265472090] Jordan has accepted a battle request from Jeira. Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 versus Jeira's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e. The wager is damage.
+[1659265517405] Jordan has sent a battle request to Jeira. Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 versus Jeira's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e. The wager is destroy.
+[1659265702406] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-7's Voidisk M-00076 with ID 2b5e943c-964e-41ff-b458-ebc2fd305007. Voidisk M-00076 is the winner!
+Destruction was prevented due to Compactisk M-00951's ability!.
+[1659265769082] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-7's Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a. Memnesia M-00087 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659265860852] Jordan battled their Dungware M-00933 with ID dc9e195e-4e7a-4009-98b5-32c5554fb69f against olibot-7's Ramselle M-00073 with ID 1b139e7e-e097-4a35-9e19-d98b1ea6995a. Ramselle M-00073 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00073 gained lifespan due to their ability..
+[1659265923685] Jordan battled their Ransom Blue M-00717 with ID e2f91bbd-4fcb-4179-83b2-4e98ee4dea0b against olibot-90's Ransom Blue M-00891 with ID 361f977b-5c18-4858-b9ba-c84258046583. Ransom Blue M-00891 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659265957475] Jordan rebuilt their destroyed RANSOM BLUE with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba for 138 parts and 0 energy.
+[1659265995395] Jordan switched changed chips to viral for Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba.
+[1659266068257] Jordan battled their Ransom Blue M-00989 with ID c09bc4e9-4ddb-4cc9-a14d-e96543063fba against olibot-44's Compactisk M-00463 with ID 6f70abc7-9648-4e99-b63b-8d5c1983081b. Compactisk M-00463 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266769339] Jordan played minigame date with difficulty Easy and level Constant. The reward was x18 Machine Parts.
+[1659266829289] Jordan played minigame doll with difficulty Easy and level Simple. The reward was x12 Machine Parts.
+[1659266982337] Jordan switched changed chips to viral for Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e.
+[1659267043254] Jordan battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-44's Voidisk M-00413 with ID 49409037-c76a-4760-84e9-6b2f74165020. Ransom Blue M-00013 is the winner!
+Loser bot gets collected by winner..
+[1659267070969] Jordan switched changed chips to power for Voidisk M-00413 with ID 49409037-c76a-4760-84e9-6b2f74165020.
+[1659267160847] Jordan battled their Voidisk M-00413 with ID 49409037-c76a-4760-84e9-6b2f74165020 against olibot-44's Bostrom M-00414 with ID 49ddb4e1-df0a-4650-ab26-4607aa35b721. Bostrom M-00414 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267220726] Jordan battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-7's Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a. Ransom Blue M-00013 is the winner!
+Loser bot gets collected by winner..
+[1659267236511] Jordan switched changed chips to power for Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a.
+[1659267271043] Jordan rebuilt their destroyed COMPACTISK with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 for 204 parts and 0 energy.
+[1659267342368] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-7's Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2. Compactisk M-00951 is the winner!
+Loser bot gets collected by winner..
+[1659267365549] Jordan switched changed chips to balanced for Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2.
+[1659267424009] Jordan battled their Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2 against olibot-44's Bostrom M-00417 with ID 3663055b-d927-49a2-926c-29e2de5c6497. Ramselle M-00075 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267509076] Jordan battled their Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2 against olibot-7's Ransom Blue M-00097 with ID 3192f514-b9cf-4c6d-b56c-a3a4e6cd8d52. Ramselle M-00075 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267598015] Jordan battled their Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2 against olibot-27's Voidisk M-00273 with ID 8888d5d3-ea11-4309-aafe-9f88eeecd570. Voidisk M-00273 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267666918] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-24's Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd. Compactisk M-00951 is the winner!
+Loser bot gets collected by winner..
+[1659267667541] Jordan has accepted a battle request from olibot-24. Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 versus olibot-24's Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd. The wager is collect.
+[1659267725437] Jordan switched changed chips to balanced for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659267778227] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-60's Constant M-00551 with ID f3b640e7-b338-4adf-8a6c-90fd3bff78f7. Trojo M-00236 is the winner!
+Loser bot gets collected by winner..
+[1659267778922] Jordan has accepted a battle request from olibot-60. Jordan's Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd versus olibot-60's Constant M-00551 with ID f3b640e7-b338-4adf-8a6c-90fd3bff78f7. The wager is collect.
+[1659267812985] Jordan is now friends with Jeira.
+[1659267834842] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Ransom Blue M-00277 with ID 04b07aa3-f5f9-4165-b576-2498b685c3ee. Trojo M-00236 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00236 gained power due to their ability..
+[1659267902400] Jordan battled their Constant M-00551 with ID f3b640e7-b338-4adf-8a6c-90fd3bff78f7 against olibot-42's Buddy & Lila M-00391 with ID a1120c58-0c03-4d43-95eb-6409130b22c3. Buddy & Lila M-00391 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00391 gained lifespan due to their ability..
+[1659267903124] Jordan has accepted a battle request from olibot-42. Jordan's Constant M-00551 with ID f3b640e7-b338-4adf-8a6c-90fd3bff78f7 versus olibot-42's Buddy & Lila M-00391 with ID a1120c58-0c03-4d43-95eb-6409130b22c3. The wager is destroy.
+[1659267965801] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Ransom Blue M-00279 with ID 2dfdefc9-0a16-4c7d-8928-b6df530f42c6. Ransom Blue M-00279 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659268051109] Jordan battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-7's Dungware M-00072 with ID 85215840-5b6a-4447-a8be-a68e79edaacb. Ransom Blue M-00013 is the winner!
+Loser bot gets collected by winner..
+[1659268193868] Jordan battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-7's Buddy & Lila M-00076 with ID 276f08ac-5056-470f-9788-893de0c60299. Ransom Blue M-00013 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268252603] Jordan battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-7's Buddy & Lila M-00076 with ID 276f08ac-5056-470f-9788-893de0c60299. Buddy & Lila M-00076 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00076 gained lifespan due to their ability..
+[1659268428120] Jordan battled their Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a against olibot-7's Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686. Memnesia M-00087 is the winner!
+Loser bot gets collected by winner..
+[1659268477656] Jordan switched changed chips to balanced for Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686.
+[1659268544826] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-7's Dungware M-00068 with ID a874f96c-1c87-4825-a52a-6f04c5f8f7b3. Bostrom M-00091 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268604672] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-7's Dungware M-00068 with ID a874f96c-1c87-4825-a52a-6f04c5f8f7b3. Bostrom M-00091 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268676229] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-7's Voidisk M-00079 with ID 27b39ceb-74d7-45cc-8aeb-5f6b5c36f078. Voidisk M-00079 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268737667] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-7's Dungware M-00068 with ID a874f96c-1c87-4825-a52a-6f04c5f8f7b3. Dungware M-00068 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268753879] Jordan switched changed chips to power for Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686.
+[1659268807903] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-44's Bostrom M-00422 with ID 1a80510f-7837-4ea0-abb5-f8ada6b44ba0. Bostrom M-00422 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268884609] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-7's Compactisk M-00095 with ID cb5f2dbf-6376-4efa-a288-1ed83a0c2621. Bostrom M-00091 is the winner!
+Loser bot gives winner bot some EXP..
+[1659268948705] Jordan battled their Bostrom M-00091 with ID 01edc174-82fc-431b-a536-0309393bc686 against olibot-7's Compactisk M-00095 with ID cb5f2dbf-6376-4efa-a288-1ed83a0c2621. Compactisk M-00095 is the winner!
+Loser bot gets collected by winner..
+[1659269040951] Jordan battled their Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a against olibot-7's Compactisk M-00095 with ID cb5f2dbf-6376-4efa-a288-1ed83a0c2621. Memnesia M-00087 is the winner!
+Destruction was prevented due to Compactisk M-00095's ability!.
+[1659269137628] Jordan played minigame claw with difficulty Easy and level 5x5. The reward was x26.5 Machine Parts.
+[1659269204766] Jordan battled their Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a against olibot-7's Compactisk M-00091 with ID 20f1a470-f687-4bb6-9ace-40871ebbd26c. Compactisk M-00091 is the winner!
+Loser bot gives winner bot some EXP..
+[1659271094866] Jordan rebuilt their destroyed TROJO with ID 588d1ccb-b91b-4411-a81b-062edd0871fd for 267 parts and 0 energy.
+[1659271113714] Jordan switched changed chips to power for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659271170971] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Buddy & Lila M-00409 with ID 2f67d6c1-13c4-41e2-9f42-3e6e31114093. Buddy & Lila M-00409 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00409 gained viral due to their ability..
+[1659271195304] Jordan switched changed chips to balanced for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659271252015] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Buddy & Lila M-00409 with ID 2f67d6c1-13c4-41e2-9f42-3e6e31114093. Buddy & Lila M-00409 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00409 gained lifespan due to their ability..
+[1659271674736] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Constant M-00250 with ID 52662ba3-8b1a-475e-ab78-78f972ce4d1d. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659271741239] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Constant M-00251 with ID 8396303d-5b32-43cb-a15d-362a7c5bc309. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659271914087] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-7's Dungware M-00066 with ID af77dd7c-08ce-4296-a7af-ffca2ddb357c. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272065598] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-7's Voidisk M-00076 with ID 2b5e943c-964e-41ff-b458-ebc2fd305007. Voidisk M-00076 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272086152] Jordan switched changed chips to viral for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659272154056] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Ransom Blue M-00434 with ID 6febbf6c-55cf-4dd1-a2ab-df6bed3a259b. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272224958] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Ransom Blue M-00434 with ID 6febbf6c-55cf-4dd1-a2ab-df6bed3a259b. Ransom Blue M-00434 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272350373] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Ransom Blue M-00434 with ID 6febbf6c-55cf-4dd1-a2ab-df6bed3a259b. Ransom Blue M-00434 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272381454] Jordan switched changed chips to balanced for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659272446418] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Memnesia M-00264 with ID 50349704-615b-4d48-be93-3e566a9e59b7. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272513272] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Memnesia M-00264 with ID 50349704-615b-4d48-be93-3e566a9e59b7. Memnesia M-00264 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272580349] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Memnesia M-00259 with ID 472a1af4-d9ef-4f5e-9e04-01a06fd6dfb2. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272660159] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Memnesia M-00259 with ID 472a1af4-d9ef-4f5e-9e04-01a06fd6dfb2. Memnesia M-00259 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659272699211] Jordan rebuilt their destroyed TROJO with ID 588d1ccb-b91b-4411-a81b-062edd0871fd for 263 parts and 0 energy.
+[1659272891386] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-6's Greedisk M-00070 with ID 013e3884-10e1-4779-b7d4-9b73e544b9bb. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659272980344] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-6's Greedisk M-00070 with ID 013e3884-10e1-4779-b7d4-9b73e544b9bb. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659273398529] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-6's Constant M-00083 with ID 923801c3-e2b1-470c-b6d3-6f2e0e21443f. Constant M-00083 is the winner!
+Loser bot gives winner bot some EXP..
+[1659273417819] Jordan switched changed chips to power for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659273469460] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-6's Greedisk M-00070 with ID 013e3884-10e1-4779-b7d4-9b73e544b9bb. Greedisk M-00070 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00070 gets extra EXP due to their ability..
+[1659273511971] Jordan rebuilt their destroyed TROJO with ID 588d1ccb-b91b-4411-a81b-062edd0871fd for 288 parts and 0 energy.
+[1659273525687] Jordan switched changed chips to viral for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659273621019] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-6's Greedisk M-00068 with ID 20a5fb4a-d9cd-47b5-ac53-e0c8edde73d2. Greedisk M-00068 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00068 gets extra EXP due to their ability..
+[1659273716889] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-26's Compactisk M-00306 with ID 7a1708e3-e14f-4502-9ca4-d2b51fedd511. Compactisk M-00951 is the winner!
+Loser bot gives winner bot some EXP..
+[1659273801798] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-44's Compactisk M-00463 with ID 6f70abc7-9648-4e99-b63b-8d5c1983081b. Compactisk M-00951 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659273914195] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-27's Compactisk M-00309 with ID 68ee5a0c-9f4c-4166-be69-803917d814b4. Compactisk M-00309 is the winner!
+Loser bot gives winner bot some EXP..
+[1659273937261] Jordan switched changed chips to balanced for Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1.
+[1659274001206] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-26's Constant M-00242 with ID 5920e452-1ccd-45d9-a98a-40cd994f4578. Constant M-00242 is the winner!
+Destruction was prevented due to Compactisk M-00951's ability!.
+[1659274077712] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Voidisk M-00411 with ID 55f25aa0-f9ca-4387-959d-248620f399eb. Trojo M-00236 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00236 gained power due to their ability..
+[1659274189128] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-12's Compactisk M-00155 with ID 2f168e69-6527-4264-911a-b2a3f1762fb9. Trojo M-00236 is the winner!
+Destruction was prevented due to Compactisk M-00155's ability!.
+[1659274294611] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-2's Ransom Blue M-00040 with ID 2c65676e-a907-4230-b269-291f7550fec4. Ransom Blue M-00040 is the winner!
+Loser bot gives winner bot some EXP..
+[1659274354685] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-8's Voidisk M-00082 with ID 11119b11-73d5-4c02-949a-2c22eaa1553e. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659274480963] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-8's Voidisk M-00082 with ID 11119b11-73d5-4c02-949a-2c22eaa1553e. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659274572318] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-8's Voidisk M-00082 with ID 11119b11-73d5-4c02-949a-2c22eaa1553e. Trojo M-00236 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00236 gained power due to their ability..
+[1659274624678] Jordan battled their Dungware M-00072 with ID 85215840-5b6a-4447-a8be-a68e79edaacb against olibot-13's Greedisk M-00132 with ID 962dc841-de5a-4305-854d-e4e27fbf5851. Dungware M-00072 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659274625431] Jordan has accepted a battle request from olibot-13. Jordan's Dungware M-00072 with ID 85215840-5b6a-4447-a8be-a68e79edaacb versus olibot-13's Greedisk M-00132 with ID 962dc841-de5a-4305-854d-e4e27fbf5851. The wager is destroy.
+[1659274692521] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-8's Compactisk M-00098 with ID 0a051358-123a-4572-8c97-45845d383704. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659274770891] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-8's Compactisk M-00098 with ID 0a051358-123a-4572-8c97-45845d383704. Compactisk M-00098 is the winner!
+Loser bot gives winner bot some EXP..
+[1659274843801] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-9's Ransom Blue M-00118 with ID 55a28625-b2d7-4769-b379-24ea4c758af9. Ransom Blue M-00118 is the winner!
+Loser bot gives winner bot some EXP..
+[1659274878781] Jordan switched changed chips to power for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659274970302] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-9's Trojo M-00102 with ID 4dbfe646-0407-4e24-8829-a8f2fda5774a. Trojo M-00102 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275074801] Jordan battled their Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a against olibot-14's Compactisk M-00174 with ID ce53af00-db73-48e2-a88b-957f9a073ad6. Memnesia M-00087 is the winner!
+Loser bot gets collected by winner..
+[1659275075513] Jordan has accepted a battle request from olibot-14. Jordan's Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a versus olibot-14's Compactisk M-00174 with ID ce53af00-db73-48e2-a88b-957f9a073ad6. The wager is collect.
+[1659275163206] Jordan battled their Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a against olibot-10's Dungware M-00097 with ID 3487bb40-7a5e-4af3-add0-a3a5a913f3de. Dungware M-00097 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659275277936] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-15's Dungware M-00138 with ID 2b089533-6968-4b26-902c-bb7b9cd72a88. Trojo M-00236 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00236 gained power due to their ability..
+[1659275368380] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-10's Memnesia M-00119 with ID 6f20260c-3372-4783-b3f6-40ab00024078. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275412371] Jordan rebuilt their destroyed RAMSELLE with ID 74148567-dc27-42a2-9230-f151e78d59a2 for 1036 parts and 0 energy.
+[1659275472612] Jordan switched changed chips to balanced for Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2.
+[1659275528888] Jordan battled their Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2 against olibot-10's Trojo M-00115 with ID 42cc987d-5ecf-4ee2-9ba9-aa6540dfe97c. Ramselle M-00075 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275597858] Jordan battled their Ramselle M-00075 with ID 74148567-dc27-42a2-9230-f151e78d59a2 against olibot-10's Trojo M-00115 with ID 42cc987d-5ecf-4ee2-9ba9-aa6540dfe97c. Trojo M-00115 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00115 gained power due to their ability..
+[1659275676743] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-43's Ransom Blue M-00418 with ID 2d3ed1cb-fd35-4239-9e0e-e04bb3487d8e. Compactisk M-00951 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275677354] Jordan has accepted a battle request from olibot-43. Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 versus olibot-43's Ransom Blue M-00418 with ID 2d3ed1cb-fd35-4239-9e0e-e04bb3487d8e. The wager is damage.
+[1659275750597] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-16's Greedisk M-00165 with ID 4a9df81c-abd3-4e33-bbdd-6d37221ce60e. Greedisk M-00165 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00165 gets extra EXP due to their ability..
+[1659275822255] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-18's Bostrom M-00180 with ID 0f63e383-0339-4f5e-a2e0-cde9d7513d6f. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275877949] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-64's Bostrom M-00603 with ID d0a5e7a7-857e-4793-8a23-e4800a7e0c18. Bostrom M-00603 is the winner!
+Loser bot gives winner bot some EXP..
+[1659275878737] Jordan has accepted a battle request from olibot-64. Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 versus olibot-64's Bostrom M-00603 with ID d0a5e7a7-857e-4793-8a23-e4800a7e0c18. The wager is damage.
+[1659275952666] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-16's Voidisk M-00162 with ID 7ee07d1a-d4ce-494a-89b7-a7d418576494. Trojo M-00236 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00236 gained power due to their ability..
+[1659276065131] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-18's Voidisk M-00182 with ID 34685367-f8f1-46b2-b5a9-558c4223646f. Voidisk M-00182 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276132070] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Compactisk M-00314 with ID 154dabdc-7cec-4bb6-873f-66eb3789d558. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276189210] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-27's Compactisk M-00314 with ID 154dabdc-7cec-4bb6-873f-66eb3789d558. Trojo M-00236 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00236 gained power due to their ability..
+[1659276273475] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-28's Trojo M-00266 with ID 8005fa8f-6344-40e3-9660-d529baab7faa. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276348067] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-28's Trojo M-00266 with ID 8005fa8f-6344-40e3-9660-d529baab7faa. Trojo M-00266 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276411459] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-28's Trojo M-00266 with ID 8005fa8f-6344-40e3-9660-d529baab7faa. Trojo M-00266 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276467073] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-32's Compactisk M-00361 with ID 1d31c0e5-f97a-4cf0-8f7e-ced37b9bbe72. Compactisk M-00361 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276550330] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-42's Memnesia M-00386 with ID 0a933c41-f5bb-42e6-a2f7-89552f26ea5a. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276614915] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-41's Trojo M-00388 with ID 170b6b72-185b-48b7-887a-f92af022ea7e. Trojo M-00388 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276663036] Jordan switched changed chips to balanced for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659276721499] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-42's Bostrom M-00397 with ID 155ee66a-5e82-46ae-87d8-742526bf58b2. Bostrom M-00397 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276739327] Jordan switched changed chips to viral for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659276795970] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Dungware M-00398 with ID 48c64858-f2c9-464f-854a-d950b018f45b. Dungware M-00398 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276824043] Jordan switched changed chips to power for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659276888789] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Dungware M-00398 with ID 48c64858-f2c9-464f-854a-d950b018f45b. Trojo M-00236 is the winner!
+Loser bot gives winner bot some EXP..
+[1659276958187] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-44's Dungware M-00398 with ID 48c64858-f2c9-464f-854a-d950b018f45b. Dungware M-00398 is the winner!
+Loser bot gives winner bot some EXP..
+[1659277247818] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-6's Memnesia M-00076 with ID 246c9eb6-536f-4871-92c5-fc8fe3816340. Memnesia M-00076 is the winner!
+Loser bot gives winner bot some EXP..
+[1659277279256] Jordan switched changed chips to lifespan for Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd.
+[1659277342454] Jordan battled their Trojo M-00236 with ID 588d1ccb-b91b-4411-a81b-062edd0871fd against olibot-9's Ransom Blue M-00118 with ID 55a28625-b2d7-4769-b379-24ea4c758af9. Ransom Blue M-00118 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659287791211] Jordan switched changed chips to balanced for Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1.
+[1659287843386] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-6's Greedisk M-00070 with ID 013e3884-10e1-4779-b7d4-9b73e544b9bb. Greedisk M-00070 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00070 gets extra EXP due to their ability..

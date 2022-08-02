@@ -1,0 +1,303 @@
+ [1659205729008] Jeira collected their daily rewards.
+[1659205753140] Jeira built a COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15
+[1659205864341] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-60's Memnesia M-00538 with ID 2b7e339d-f47e-4e95-b9f5-0c7cfecd1012. Compactisk M-00945 is the winner!
+Loser bot gives winner bot some EXP..
+[1659205865004] Jeira has accepted a battle request from olibot-60. Jeira's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-60's Memnesia M-00538 with ID 2b7e339d-f47e-4e95-b9f5-0c7cfecd1012. The wager is damage.
+[1659205876415] Jeira switched changed chips to lifespan for Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15.
+[1659205934790] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Buddy & Lila M-00023 with ID 36297c4b-f14a-4fe0-9912-b2091cd59bb7. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659205996174] Jeira played minigame slots with difficulty Normal and level 5 Rows. The reward was x16 Machine Parts.
+[1659206060533] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-44's Trojo M-00410 with ID bbbf650e-9c91-4d20-997a-bfae3f38952b. Compactisk M-00945 is the winner!
+Loser bot gives winner bot some EXP..
+[1659206061167] Jeira has accepted a battle request from olibot-44. Jeira's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-44's Trojo M-00410 with ID bbbf650e-9c91-4d20-997a-bfae3f38952b. The wager is damage.
+[1659206246330] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-52's Compactisk M-00544 with ID e35cffee-8b8c-492e-8a1d-70f87efab1c0. Compactisk M-00945 is the winner!
+Loser bot gives winner bot some EXP..
+[1659206247015] Jeira has accepted a battle request from olibot-52. Jeira's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-52's Compactisk M-00544 with ID e35cffee-8b8c-492e-8a1d-70f87efab1c0. The wager is damage.
+[1659206321082] Jeira played minigame slots with difficulty Normal and level 7 Rows. The reward was x24 Machine Parts.
+[1659206389654] Jeira played minigame slots with difficulty Easy and level 7 Rows. The reward was x15 Machine Parts.
+[1659206444043] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-39's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb. Compactisk M-00945 is the winner!
+Loser bot gets collected by winner..
+[1659206444761] Jeira has accepted a battle request from olibot-39. Jeira's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-39's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb. The wager is collect.
+[1659206523968] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-10's Memnesia M-00120 with ID d9f669cb-594a-47e2-8d9f-8d7ba40918a2. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659206524583] Jeira has accepted a battle request from olibot-10. Jeira's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-10's Memnesia M-00120 with ID d9f669cb-594a-47e2-8d9f-8d7ba40918a2. The wager is destroy.
+[1659206604151] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Bostrom M-00019 with ID 22d51cf6-7a4c-4d7a-8756-257a63e6b843. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659206619623] Jeira built a MEMNESIA with ID dfbef255-bcb6-494a-836b-f96bb1015588
+[1659206711858] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Dungware M-00013 with ID 180eb96e-14ab-413b-b748-eb0156049a86. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659206948594] Jeira built a MEMNESIA with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe
+[1659206971518] Jeira listed Memnesia on the market with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe with offer of 55.
+[1659207040475] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Buddy & Lila M-00021 with ID 2b526836-ec78-466c-a9de-4a6820c5245f. Buddy & Lila M-00021 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!
+Buddy & Lila M-00021 gained firewall due to their ability..
+[1659207340107] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Buddy & Lila M-00021 with ID 2b526836-ec78-466c-a9de-4a6820c5245f. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659207363104] Jeira has rejected a battle request from olibot-81. Jeira's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb versus olibot-81's Ransom Blue M-00809 with ID 55dcaea1-6866-4b70-a632-879e9a0c990d. The wager is collect.
+[1659207472072] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-77's Voidisk M-00737 with ID 0723afd5-b208-42ac-b08d-dadd0ac8614a. Voidisk M-00737 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659207709828] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-77's Dungware M-00714 with ID 0ed86f40-ccb5-4f07-ba93-bbb60b51f10e. Dungware M-00714 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659207745212] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659207900753] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Compactisk M-00002 with ID 1387ba40-e4ef-4223-b6d0-174110337667. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208015991] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-77's Trojo M-00714 with ID 505120fc-d590-4e3c-a995-f63c5cf4626e. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208087966] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-78's Compactisk M-00758 with ID 33ffb7f2-1ebe-4c82-b4ea-7259b465640b. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208295912] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-79's Greedisk M-00726 with ID 2c6ed6ea-5384-4f39-abc5-2a67b350d735. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208393127] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-12's Greedisk M-00123 with ID 0998af39-eca7-4272-803b-3af299a05ea5. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208461923] Jeira battled their Memnesia M-00877 with ID dfbef255-bcb6-494a-836b-f96bb1015588 against olibot-12's Trojo M-00137 with ID 0e2a049c-52f7-43cc-99dc-f2868618dda6. Memnesia M-00877 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208517395] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-12's Ransom Blue M-00143 with ID 1d21efa1-2182-4e1f-bc9a-1286c6c28ca9. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208572173] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-12's Ramselle M-00123 with ID 4516dd25-4bfb-477f-a4ff-009d224eb09f. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208634851] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-13's Compactisk M-00171 with ID 7254bb4d-236a-4162-a44f-54998ed96710. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208687382] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-14's Dungware M-00128 with ID 28181bfd-ea5d-4cb3-befd-e3b4c11271d1. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208740646] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-15's Voidisk M-00150 with ID 222ab93f-89e3-4225-a309-807f882845f1. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659208789258] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-14's Dungware M-00130 with ID 29c3f196-9c59-422d-89ff-60af04ae41e0. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209068310] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-14's Constant M-00143 with ID 8bd4f4ec-6f3f-440a-9e28-55409183fa1c. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209124289] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-15's Ransom Blue M-00166 with ID 29368182-09ab-4ff7-90de-44cda8435a06. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209175273] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-15's Greedisk M-00154 with ID 56b65de2-c8c9-4503-9ded-ecc5334b8349. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209228918] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-50's Memnesia M-00460 with ID 02df10ee-e36c-4cac-bb5f-24ba594b103a. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209297323] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-33's Buddy & Lila M-00320 with ID 2f799bd5-47ae-48df-b00c-51ba239300be. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209415928] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-34's Ransom Blue M-00334 with ID 290e42e3-ac5a-454d-aee0-5c84db79055a. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209496112] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-35's Trojo M-00326 with ID 4c34d368-8bcd-4dcc-b3b1-af0842228e9b. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209619454] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-44's Constant M-00413 with ID fc7e1874-fe2f-4c28-9b75-9b7f561a197b. Constant M-00413 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659209649455] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659209890563] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-44's Trojo M-00415 with ID da17e536-00ac-4ebc-a50f-99169becc8fb. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659210108275] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-45's Voidisk M-00415 with ID 13aea198-4ce8-4f67-b856-f376bc289ba5. Voidisk M-00415 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659210118736] Jeira completed their daily tasks!
+[1659210521471] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-47's Dungware M-00424 with ID 63af4b53-943e-43fd-af50-303a0f39391e. Dungware M-00424 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659210606104] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-47's Ransom Blue M-00466 with ID 01f68fcc-c15f-4bcb-806d-3021cd8f37d3. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659210748311] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Ramselle M-00447 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659210766106] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659210823194] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-48's Bostrom M-00456 with ID 08bad473-7e1e-4448-8b10-6eb144c27ab2. Bostrom M-00456 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659210838349] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659210900879] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-47's Constant M-00444 with ID d0753f2f-4efb-4cb5-ba81-b48f4bf0de73. Constant M-00444 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659210974589] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-10's Ramselle M-00096 with ID 0d9de6e5-911f-446f-93ac-381849113f09. Ramselle M-00096 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659210993365] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659211074236] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against Professor Diriski's Constant M-00006 with ID d62fad5c-b9c6-44ef-88ae-95060395d0bd. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659211114196] Jeira battled their Memnesia M-00877 with ID dfbef255-bcb6-494a-836b-f96bb1015588 against olibot-55's Dungware M-00505 with ID 5024339a-ac81-48a3-b8bc-4c2b6e53952c. Dungware M-00505 is the winner!
+Loser bot gets collected by winner..
+[1659211114913] Jeira has accepted a battle request from olibot-55. Jeira's Memnesia M-00877 with ID dfbef255-bcb6-494a-836b-f96bb1015588 versus olibot-55's Dungware M-00505 with ID 5024339a-ac81-48a3-b8bc-4c2b6e53952c. The wager is collect.
+[1659211195158] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Voidisk M-00650 with ID 124da5c5-0d95-4115-b689-151e52a07934. Voidisk M-00650 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659211366499] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659211373619] Jeira built a DUNGWARE with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289
+[1659211428743] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Trojo M-00659 with ID 06d248da-5236-4b4b-8030-87395dd34ac2. Trojo M-00659 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659211491308] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Greedisk M-00639 with ID ef3b69e8-51cd-48bc-ab73-d98153035741. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659211621411] Jeira listed Compactisk on the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 with offer of 1500.
+[1659211904519] Jeira withdrew Compactisk from the market with ID f1906ebb-14db-4176-b648-07f0919a9e15.
+[1659212078345] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Trojo M-00659 with ID 06d248da-5236-4b4b-8030-87395dd34ac2. Trojo M-00659 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00659 gained power due to their ability..
+[1659212099667] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659212162133] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Trojo M-00659 with ID 06d248da-5236-4b4b-8030-87395dd34ac2. Trojo M-00659 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659212231859] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Trojo M-00659 with ID 06d248da-5236-4b4b-8030-87395dd34ac2. Trojo M-00659 is the winner!
+Destruction was prevented due to Compactisk M-00945's ability!.
+[1659212297432] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Trojo M-00659 with ID 06d248da-5236-4b4b-8030-87395dd34ac2. Trojo M-00659 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00659 gained power due to their ability..
+[1659212325547] Jeira rebuilt their destroyed COMPACTISK with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 0 parts and 0 energy.
+[1659212383003] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Trojo M-00659 with ID 06d248da-5236-4b4b-8030-87395dd34ac2. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659212471651] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Ransom Blue M-00667 with ID 3649ac96-c8c2-4c06-9c08-2d65d6096023. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659212529182] Jeira battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-69's Voidisk M-00650 with ID 124da5c5-0d95-4115-b689-151e52a07934. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659212587343] Jeira listed Compactisk on the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 with offer of 2500.
+[1659212684169] Jeira withdrew Compactisk from the market with ID f1906ebb-14db-4176-b648-07f0919a9e15.
+[1659212786340] Jeira listed Compactisk on the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 with offer of 2500.
+[1659212841592] Jeira battled their Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb against olibot-2's Ransom Blue M-00038 with ID f348e8ee-5b2c-4fc0-ab6a-a9181a7e401e. Voidisk M-00369 is the winner!
+Loser bot gives winner bot some EXP..
+[1659212842490] Jeira has accepted a battle request from olibot-2. Jeira's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb versus olibot-2's Ransom Blue M-00038 with ID f348e8ee-5b2c-4fc0-ab6a-a9181a7e401e. The wager is damage.
+[1659212945419] Jeira is now friends with Larva1.
+[1659212993056] Jeira has sent a message to Larva1: "new NFT come invest great opportunity".
+[1659253364692] Jeira has rejected a battle request from olibot-65. Jeira's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb versus olibot-65's Ramselle M-00621 with ID 9991c1e4-2be2-41df-a775-0074f39272a4. The wager is destroy.
+[1659253448913] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-71's Memnesia M-00646 with ID 7b2c02eb-d3f9-4c72-b3b1-9ca2147cfb60. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659253449579] Jeira has accepted a battle request from olibot-71. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus olibot-71's Memnesia M-00646 with ID 7b2c02eb-d3f9-4c72-b3b1-9ca2147cfb60. The wager is destroy.
+[1659253482927] Jeira switched changed chips to viral for Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289.
+[1659253572855] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-32's Ransom Blue M-00317 with ID c47508b5-6d80-4bfa-aaef-6f15f37fdf86. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659253573446] Jeira has accepted a battle request from olibot-32. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus olibot-32's Ransom Blue M-00317 with ID c47508b5-6d80-4bfa-aaef-6f15f37fdf86. The wager is destroy.
+[1659253715839] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-8's Compactisk M-00103 with ID d19d992f-a361-4a80-bc03-5cd6f1b429e8. Dungware M-00925 is the winner!
+Destruction was prevented due to Compactisk M-00103's ability!.
+[1659253716929] Jeira has accepted a battle request from olibot-8. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus olibot-8's Compactisk M-00103 with ID d19d992f-a361-4a80-bc03-5cd6f1b429e8. The wager is destroy.
+[1659253835853] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against Professor Diriski's Ransom Blue M-00003 with ID eedbec0c-23f4-4734-a330-b1a417bdb1e5. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659253989315] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against Professor Diriski's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e. Dungware M-00925 is the winner!
+Loser bot gets collected by winner..
+[1659254099265] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against Professor Diriski's Ramselle M-00014 with ID 4435e419-4c34-4d42-b168-ae7c69848438. Ramselle M-00014 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659254268297] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-62's Memnesia M-00565 with ID b7790fa4-69e1-4dc1-9b5e-91d4f5fd50bf. Memnesia M-00565 is the winner!
+Loser bot gives winner bot some EXP..
+[1659254269019] Jeira has accepted a battle request from olibot-62. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus olibot-62's Memnesia M-00565 with ID b7790fa4-69e1-4dc1-9b5e-91d4f5fd50bf. The wager is damage.
+[1659254455064] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against Kurreo's Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084. Dungware M-00925 is the winner!
+Loser bot gives winner bot some EXP..
+[1659254455598] Jeira server battle accepted by Kurreo. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus Kurreo's Greedisk M-00914 with ID c8cf8b65-2fe6-4672-89ee-48e022066084. The wager is damage.
+[1659254546146] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against Professor Diriski's Ramselle M-00021 with ID 1e2a5e18-c842-4165-a984-fb2eabc4ab46. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659254593905] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Dungware M-00925 is the winner!
+The winner is rewarded with some EXP..
+[1659254594504] Jeira is battle training with Professor Diriski. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659254941218] Jeira battled their Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb against olibot-1's Greedisk M-00027 with ID 39a10564-881d-4e86-a2a5-43f973f43b0f. Greedisk M-00027 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00027 gets extra EXP due to their ability..
+[1659254941878] Jeira has accepted a battle request from olibot-1. Jeira's Voidisk M-00369 with ID d2cf9ce0-88cd-4bc9-9148-d8bf0ccb6cdb versus olibot-1's Greedisk M-00027 with ID 39a10564-881d-4e86-a2a5-43f973f43b0f. The wager is destroy.
+[1659255354459] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against Professor Diriski's Trojo M-00003 with ID d041d287-bb66-4388-b664-ba76ef26e071. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659255641613] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-58's Constant M-00528 with ID 3965d08a-fbdb-4245-9166-a76232c0e83d. Constant M-00528 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659255642228] Jeira has accepted a battle request from olibot-58. Jeira's Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 versus olibot-58's Constant M-00528 with ID 3965d08a-fbdb-4245-9166-a76232c0e83d. The wager is destroy.
+[1659256073149] Jeira withdrew Memnesia from the market with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe.
+[1659256106496] Jeira switched changed chips to viral for Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe.
+[1659256268252] Jeira battled their Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe against Professor Diriski's Ramselle M-00017 with ID 20370b67-2274-498a-889c-8b35d157a16a. Ramselle M-00017 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659257103903] Jeira bought Memnesia from the market with ID 7543af65-488d-45ae-af47-21a54fce8ee5 for 150.
+[1659257746507] Jeira bought Compactisk from the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 2500.
+[1659257780552] Jeira listed Compactisk on the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 with offer of 2500.
+[1659258215521] Jeira battled their Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5 against olibot-72's Voidisk M-00680 with ID 76140c6e-23e1-476a-84d7-e5b1a55423d5. Memnesia M-00687 is the winner!
+Loser bot gives winner bot some EXP..
+[1659258216222] Jeira has accepted a battle request from olibot-72. Jeira's Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5 versus olibot-72's Voidisk M-00680 with ID 76140c6e-23e1-476a-84d7-e5b1a55423d5. The wager is damage.
+[1659258424898] Jeira battled their Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5 against Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. Dungware M-00929 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659258426047] Jeira has accepted a battle request from Kurreo. Jeira's Memnesia M-00687 with ID 7543af65-488d-45ae-af47-21a54fce8ee5 versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is destroy.
+[1659261744907] Jeira rebuilt their destroyed DUNGWARE with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 for 249 parts and 0 energy.
+[1659261768503] Jeira rebuilt their destroyed RANSOM BLUE with ID 32864578-044d-43f1-b6d9-15ecbab3478e for 42 parts and 0 energy.
+[1659261826159] Jeira rebuilt their destroyed MEMNESIA with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe for 30 parts and 0 energy.
+[1659261887004] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-47's Compactisk M-00505 with ID fd853a06-ead5-4001-a199-600984f541bf. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262231217] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-69's Greedisk M-00647 with ID 1f3aab8c-3ae5-4438-9f67-7fb0d780dbda. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262336797] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-69's Greedisk M-00649 with ID 640de133-0b27-4bda-bb82-7b4bc85f54f4. Greedisk M-00649 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00649 gets extra EXP due to their ability..
+[1659262372002] Jeira rebuilt their destroyed DUNGWARE with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 for 1019 parts and 0 energy.
+[1659262501169] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-48's Buddy & Lila M-00438 with ID 0aed56d4-63eb-46c6-a145-e3d8c6dddac6. Dungware M-00925 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262542321] Jeira has rejected a battle request from Kurreo. Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is destroy.
+[1659262650586] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-65's Compactisk M-00658 with ID 42953a07-f8e3-472b-9fb4-73e301856b81. Compactisk M-00658 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262674778] Jeira rebuilt their destroyed DUNGWARE with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 for 2044 parts and 0 energy.
+[1659262729950] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-34's Voidisk M-00325 with ID 08aef0b3-a56d-4e88-bcab-52df19bcd343. Ransom Blue M-00013 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659262797866] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-69's Greedisk M-00644 with ID 3d21db5e-ca26-48e3-9341-69db544ede20. Dungware M-00925 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262875412] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-47's Trojo M-00442 with ID 485a9498-3df6-4986-8454-a65f709934e4. Trojo M-00442 is the winner!
+Loser bot gives winner bot some EXP..
+[1659262931693] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-44's Ransom Blue M-00431 with ID 0cae99ca-d8d7-46dc-b258-a78148db468b. Dungware M-00925 is the winner!
+Loser bot gives winner bot some EXP..
+[1659263094123] Jeira battled their Dungware M-00925 with ID afc4c09a-3ae4-46ba-a991-a67ee1af5289 against olibot-34's Ransom Blue M-00335 with ID 0db4c11d-8b67-4ace-a76e-de9100de9e65. Ransom Blue M-00335 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659263698225] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-89's Trojo M-00813 with ID 1edf05cd-851f-44a5-8862-598a81b3c906. Trojo M-00813 is the winner!
+Loser bot gives winner bot some EXP..
+[1659263758313] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-87's Buddy & Lila M-00806 with ID 08c470a0-17de-4a54-bd80-e631b71cd39c. Ransom Blue M-00013 is the winner!
+Loser bot gives winner bot some EXP..
+[1659264171902] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-47's Compactisk M-00500 with ID 3ab9698c-f6f5-4417-8ddf-db876be8447b. Ransom Blue M-00013 is the winner!
+Loser bot gives winner bot some EXP..
+[1659264427753] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-41's Dungware M-00375 with ID 173164dd-20cb-47ab-bf95-db5731374a3d. Ransom Blue M-00013 is the winner!
+Loser bot gives winner bot some EXP..
+[1659265382583] Jeira has sent a battle request to Jordan. Jeira's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e versus Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1. The wager is damage.
+[1659265537014] Jeira switched changed chips to viral for Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e.
+[1659265582291] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1. Ransom Blue M-00013 is the winner!
+Destruction was prevented due to Compactisk M-00951's ability!.
+[1659265583623] Jeira has accepted a battle request from Jordan. Jeira's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e versus Jordan's Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1. The wager is destroy.
+[1659265779398] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-44's Trojo M-00416 with ID 7e593ec9-a9bd-4ed2-8441-6bf6fe63136b. Ransom Blue M-00013 is the winner!
+Loser bot gets collected by winner..
+[1659265806486] Jeira switched changed chips to power for Trojo M-00416 with ID 7e593ec9-a9bd-4ed2-8441-6bf6fe63136b.
+[1659265874787] Jeira battled their Trojo M-00416 with ID 7e593ec9-a9bd-4ed2-8441-6bf6fe63136b against olibot-48's Buddy & Lila M-00436 with ID 1d0b762d-e1b7-4c95-924d-121b5cc4a89a. Buddy & Lila M-00436 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00436 gained firewall due to their ability..
+[1659265940776] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-44's Greedisk M-00435 with ID a3c1cbca-ea22-48d8-8f63-c673019e6ee2. Ransom Blue M-00013 is the winner!
+Loser bot gets collected by winner..
+[1659265980984] Jeira switched changed chips to power for Greedisk M-00435 with ID a3c1cbca-ea22-48d8-8f63-c673019e6ee2.
+[1659266050985] Jeira battled their Greedisk M-00435 with ID a3c1cbca-ea22-48d8-8f63-c673019e6ee2 against olibot-44's Compactisk M-00467 with ID 7193a9e6-70fa-4bab-b5fd-f99cc364ed9f. Compactisk M-00467 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266141338] Jeira battled their Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e against olibot-99's Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f. Ransom Blue M-00013 is the winner!
+Loser bot gets collected by winner..
+[1659266238662] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-99's Greedisk M-00913 with ID 672c5176-6760-4cb6-aacf-d811b83db9e8. Ramselle M-00922 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00922 gained lifespan due to their ability..
+[1659266377418] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-42's Memnesia M-00385 with ID d92a251b-f7c2-47b5-8f03-3aa387023b17. Ramselle M-00922 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00922 gained lifespan due to their ability..
+[1659266445372] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-43's Voidisk M-00402 with ID 620ae0df-2e6c-4bef-b0ec-2b34c84d4c99. Ramselle M-00922 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00922 gained firewall due to their ability..
+[1659266562603] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-36's Ransom Blue M-00352 with ID 7495a732-4dcd-4324-a253-4a56da80b69b. Ramselle M-00922 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266640852] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-41's Memnesia M-00376 with ID 5bda6b02-da5c-49ca-94d3-af630c422701. Ramselle M-00922 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266721259] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-40's Trojo M-00381 with ID 56a41fb3-f598-417f-80b0-690dfc32a9b3. Ramselle M-00922 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266786955] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-39's Trojo M-00372 with ID 020ad49c-e33e-435b-bd5c-1d3307ab4488. Ramselle M-00922 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266872622] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-38's Ransom Blue M-00374 with ID 4235fc4e-b15a-441b-a95e-a5dfbe101c69. Ramselle M-00922 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659266909893] Jeira accepted a trade from Jordan. Jeira's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e was traded to Jordan for x1 Machine Parts.
+[1659267092007] Jeira battled their Ramselle M-00922 with ID 4a9d6ba9-2252-4e25-a539-51cb6523ad1f against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Ramselle M-00447 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659267237057] Jeira battled their Voidisk M-00402 with ID 620ae0df-2e6c-4bef-b0ec-2b34c84d4c99 against olibot-45's Buddy & Lila M-00413 with ID 13d27dcc-d8ba-43f6-afe4-a1e3926ffc84. Buddy & Lila M-00413 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00413 gained viral due to their ability..
+[1659267462933] Jeira played minigame date with difficulty Easy and level Compactisk. The reward was x10 Machine Parts.
+[1659267787828] Jeira has sent a friend request to Jordan.
+[1659267833691] Jeira has sent a message to Jordan: "<a:smirk_salmon:854898230478110720>".
+[1659267917054] Jeira played minigame claw with difficulty Easy and level 5x5. The reward was x47.5 Machine Parts.
+[1659268121006] Jeira battled their Memnesia M-00385 with ID d92a251b-f7c2-47b5-8f03-3aa387023b17 against Jordan's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e. Ransom Blue M-00013 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659268121483] Jeira server battle accepted by Jordan. Jeira's Memnesia M-00385 with ID d92a251b-f7c2-47b5-8f03-3aa387023b17 versus Jordan's Ransom Blue M-00013 with ID 32864578-044d-43f1-b6d9-15ecbab3478e. The wager is destroy.
+[1659268336608] Jeira battled their Greedisk M-00913 with ID 672c5176-6760-4cb6-aacf-d811b83db9e8 against Jordan's Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a. Memnesia M-00087 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659268337043] Jeira server battle accepted by Jordan. Jeira's Greedisk M-00913 with ID 672c5176-6760-4cb6-aacf-d811b83db9e8 versus Jordan's Memnesia M-00087 with ID 36fd31f5-bed0-426c-8d5f-c2a41a15701a. The wager is destroy.
+[1659271839582] Jeira switched changed chips to viral for Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe.
+[1659271893159] Jeira battled their Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe against olibot-47's Compactisk M-00494 with ID 2c887bbc-9b3c-4282-ac67-96c33e0e8cba. Memnesia M-00879 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659271997507] Jeira battled their Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe against olibot-48's Voidisk M-00450 with ID 0483dc08-b0af-43d3-8b0e-0e69ab70bd53. Memnesia M-00879 is the winner!
+Loser bot gets collected by winner..
+[1659272018246] Jeira switched changed chips to viral for Voidisk M-00450 with ID 0483dc08-b0af-43d3-8b0e-0e69ab70bd53.
+[1659272072533] Jeira battled their Voidisk M-00450 with ID 0483dc08-b0af-43d3-8b0e-0e69ab70bd53 against olibot-47's Compactisk M-00500 with ID 3ab9698c-f6f5-4417-8ddf-db876be8447b. Voidisk M-00450 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659272136262] Jeira battled their Voidisk M-00450 with ID 0483dc08-b0af-43d3-8b0e-0e69ab70bd53 against olibot-47's Dungware M-00422 with ID 454deb98-3b84-4d75-9378-00e175d20a23. Voidisk M-00450 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659272201989] Jeira battled their Voidisk M-00450 with ID 0483dc08-b0af-43d3-8b0e-0e69ab70bd53 against olibot-47's Ransom Blue M-00467 with ID 0ba9213e-1be4-414f-b738-08d789fd8ab4. Voidisk M-00450 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659272273244] Jeira battled their Voidisk M-00450 with ID 0483dc08-b0af-43d3-8b0e-0e69ab70bd53 against olibot-47's Constant M-00442 with ID 249a839c-13ab-4e17-80f3-a79a6942dd86. Constant M-00442 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659273019492] Jeira battled their Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe against olibot-31's Constant M-00292 with ID 8b1b4208-53de-42b1-87b3-785065492e03. Constant M-00292 is the winner!
+Loser bot gives winner bot some EXP..
+[1659273020476] Jeira has accepted a battle request from olibot-31. Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe versus olibot-31's Constant M-00292 with ID 8b1b4208-53de-42b1-87b3-785065492e03. The wager is damage.
+[1659273282678] Jeira battled their Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe against olibot-18's Dungware M-00162 with ID 9f7ac4e3-33f1-48b2-b6b7-6f49fc985e58. Memnesia M-00879 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[1659273283382] Jeira has accepted a battle request from olibot-18. Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe versus olibot-18's Dungware M-00162 with ID 9f7ac4e3-33f1-48b2-b6b7-6f49fc985e58. The wager is destroy.
+[1659282161482] Jeira withdrew Compactisk from the market with ID f1906ebb-14db-4176-b648-07f0919a9e15.
+[1659282179012] Jeira listed Compactisk on the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 with offer of 5000.

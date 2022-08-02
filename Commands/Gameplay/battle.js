@@ -61,30 +61,29 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
         .catch((e) => utils.consola.error(e));
     await sleep(10000);
 
-    msg = `${results.winner <= results.yourPercent ? yourBot.name + " is the winner" : otherBot.name + " is the winner"}`;
-
-
-    //Determine winner
-    if(results.winner <= results.yourPercent){
+    // You won
+    if(results.winner <= results.yourPercent || otherUser.username == "Clunk"){
         winnerBot = yourBot;
         winnerUser = utils.user;
         loserBot = otherBot;
         loserUser = otherUser;
-        if(results.yourPercent <= 0.25) {
+        if(results.otherPercent >= 74.5) {
             await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Underdog");
             await utils.dbAchievements.checkTask(interaction, loserUser.username, "Never Lucky");
         }
-
     } else {
+        // They won
         winnerBot = otherBot;
         winnerUser = otherUser;
         loserBot = yourBot;
         loserUser = utils.user;
-        if(results.otherPercent <= 0.25) {
+        if(results.yourPercent >= 74.5) {
             await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Underdog");
             await utils.dbAchievements.checkTask(interaction, loserUser.username, "Never Lucky");
         }
     }
+
+    msg = `${winnerBot.name} is the winner!`;
 
     results.scene = scene.getScene();
     results.winnerBot = winnerBot;
@@ -103,8 +102,6 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
 
     if(!await winnerCard.createCard())
         return;
-
-    console.log(wager);
 
     switch(wager) {
         case "destroy":
@@ -136,10 +133,13 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
                     return;
             }
 
-            if(!await utils.dbBots.destroy(interaction, loserBot.botObj.bot_id))
+            if(loserUser.usuername != "Clunk") {
+                if(!await utils.dbBots.destroy(interaction, loserBot.botObj.bot_id))
                 return;
             if(!await utils.dbBotStats.removeAlive(interaction, loserBot.bot_type))
                 return;
+            }
+
             break;
         case "collect":
             //The loser bot owner changes to winner username
@@ -257,6 +257,11 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
         newWinnerCard.botObj.image = newWinnerBotObj.obj.imageWin;
         await newWinnerCard.createCard();
     }
+
+    await utils.userFile.writeUserLog(utils.user.username, `battled their ${yourBot.name} with ID ${yourBot.botObj.bot_id} against ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. ${msg}.`);
+    
+    await utils.dbBots.addLogs(interaction, winnerBot.botObj.bot_id, `won in ${wager} battle against ${loserBot.botObj.bot_type} ${loserBot.botObj.model_no} and gained ${exp ? exp : 0} EXP.`);
+    await utils.dbBots.addLogs(interaction, loserBot.botObj.bot_id, `lost in ${wager} battle against ${winnerBot.botObj.bot_type} ${winnerBot.botObj.model_no} and lost ${exp ? exp : 0} EXP.`);
 
     await interaction.editReply({ files: [newWinnerCard.getCard()], content: msg })
         .catch((e) => utils.consola.error(e));
@@ -401,7 +406,7 @@ module.exports = {
             // Pause other user so that they can't exploit
             if(!await utils.db.pauseUser(interaction, otherUser.user_id)) {
                 await utils.user.pause(false);
-                return interaction.editReply({ content: `The other user is currently busy. Try again later.` });
+                return interaction.editReply({ content: `The other user is currently busy. Try again later.` }).catch(e => { utils.consola.log(e)});
             }
         }
    
@@ -410,6 +415,8 @@ module.exports = {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle");
             if(!msg) {
                 await utils.user.pause(false);
+                if(otherUser)
+                    await otherUser.pause(false);
                 return;
             }
 
@@ -441,7 +448,7 @@ module.exports = {
             }
 
             // Send the other user the progress of the battle
-            let userToSend = await utils.client.users.fetch(otherUser.user_id);
+            let userToSend;
 
             // Battle from other players point of view
             let otherResults = await otherBot.battle(yourBot);
@@ -452,13 +459,18 @@ module.exports = {
                 return;
             }
 
-            await userToSend.send({ 
-                content: `Battle outcome: ${results.winnerUser.username}'s ${results.winnerBot.name} won!`,
-                files: [otherScene.getScene()] })
-            .catch(() => {
-                return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
-            });
+            if(!otherUser.isBot) {
+                userToSend = await utils.client.users.fetch(otherUser.user_id);
 
+                await userToSend.send({ 
+                    content: `Battle outcome: ${results.winnerUser.username}'s ${results.winnerBot.name} won!`,
+                    files: [otherScene.getScene()] })
+                .catch(() => {
+                    return utils.handler.info(interaction, new Error(`Failed to send a message to user \`${otherUser.username}\`. They may have their Discord DMs disabled.`)); 
+                });
+            }
+
+            await utils.userFile.writeUserLog(utils.user.username, `has accepted a battle request from ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
             await utils.messenger.clearMessages(interaction, otherUser, utils.user, "battle");
 
             return;
@@ -469,21 +481,31 @@ module.exports = {
             const msg = await utils.messenger.getMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle");
             if(!msg) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;
             }
+            let details = msg.message_content.split("|");
 
             otherUser = await utils.db.findUsername(interaction, msg.sender_username);
             if(!otherUser) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;
             }            
                 
             if(!await utils.messenger.deleteMessageByNumber(interaction, utils.user, interaction.options.getInteger("number"), "battle")) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;
             }
 
-            await utils.user.pause(false);            
+            let yourBot = await utils.dbBots.findBotObj(interaction, details[1]);
+            let otherBot = await utils.dbBots.findBotObj(interaction, details[0]);
+            let wager = details[2];
+
+            await utils.user.pause(false);     
+            await utils.userFile.writeUserLog(utils.user.username, `has rejected a battle request from ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
+            
             return interaction.editReply({ embeds: [
                 new utils.embed(interaction, utils.user)
                     .setTitle(`${otherUser.username}'s Battle Request`)
@@ -493,6 +515,8 @@ module.exports = {
 
         if(!collection || !otherUser) {
             await utils.user.pause(false);
+            if(otherUser)
+                await otherUser.pause(false);
             return;
         }
 
@@ -520,6 +544,8 @@ module.exports = {
         //Inspect the collection
         if(!await collection.inspectCollection(interaction, utils.user, 1, `Choose ${utils.user.username}'s bot`))  {
             await utils.user.pause(false);
+            await otherUser.pause(false);
+            await interaction.editReply({ content: `Your collection is empty... `} ).catch((e) => utils.consola.error(e));
             return;
         }
 
@@ -530,14 +556,14 @@ module.exports = {
             const yourCard = await new utils.card(interaction, yourBot);
             if(!await yourCard.createCard()) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
                 return;
             }
 
-            await interaction.editReply({ files: [yourCard.getCard()] })
-                .catch(e => utils.consola.error(e));
-
             if(!await otherCollection.inspectCollection(interaction, utils.user, 1, `Choose ${otherUser.username}'s bot`)) {
                 await utils.user.pause(false);
+                await otherUser.pause(false);
+                await interaction.editReply({ content: `The opponent's collection is empty... `} ).catch((e) => utils.consola.error(e));
                 return;
             }
 
@@ -549,15 +575,55 @@ module.exports = {
                 if(subCommand == "request") {
                     if(await utils.messenger.checkMessages(interaction, utils.user, otherUser)) {
                         await utils.user.pause(false);
+                        await otherUser.pause(false);
                         return utils.handler.info(interaction, new Error("You can only send this person one request at a time."));
                     }
     
                     // If other user is a bot, instantly accept
                     if(otherUser.isBot) {
                         let scene = await new BattleView(interaction, yourBot, otherBot);
-                        if(!await scene.createCards(true, false, false))  {
+                        if(!await scene.createCards(true, false, false)) {
                             await utils.user.pause(false);
                             return;
+                        }
+
+                        // Clunk tutorial
+                        if(otherUser.username == "Clunk") {
+                            // Can't do a tutorial without destroying
+                            if(wager != "destroy") {
+                                await utils.user.pause(false);
+                                await otherUser.pause(false);
+                                await interaction.editReply({ 
+                                    content: `You cannot battle Clunk with \`${wager}\` wager.`,
+                                    embeds: [],
+                                    components: [],
+                                }).catch((e) => utils.consola.error(e));
+                                return;                                    
+                            } else {
+                                if(!await utils.db.checkTutorial(interaction, "battle destroy")) {
+                                    await utils.user.pause(false);
+                                    await otherUser.pause(false);
+                                    await interaction.editReply({ 
+                                        content: `Clunk doesn't have time to battle noobs like you.`,
+                                        embeds: [],
+                                        components: [],
+                                    }).catch((e) => utils.consola.error(e));
+                                    return;
+                                }
+                            }
+                        } else {
+                            // Bot users will only accept if its a fair fight
+                            if(yourBot.findLevel() != otherBot.findLevel()) {
+                                await utils.user.pause(false);
+                                await otherUser.pause(false);
+                                await interaction.editReply({ 
+                                    content: `This battle is too unfair to accept...`,
+                                    embeds: [],
+                                    components: [],
+                                }).catch((e) => utils.consola.error(e));
+                                return;
+                            }
+
                         }
 
                         await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
@@ -569,20 +635,23 @@ module.exports = {
                         sender_bot_id: yourBot.botObj.bot_id,
                         recipient_bot_id: otherBot.botObj.bot_id,
                         wager: wager
-                    }
+                    }     
 
                     let messageNumber = await utils.messenger.sendBattleRequest(interaction, utils.user, otherUser, details);
                     if(!messageNumber) {
                         await utils.user.pause(false);
+                        await otherUser.pause(false);
                         return;
                     }    
 
                     await utils.dbAchievements.checkTask(interaction, utils.user.username, "Networking");
 
+                    await utils.userFile.writeUserLog(utils.user.username, `has sent a battle request to ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
+                    await utils.user.pause(false);
+                    await otherUser.pause(false);
                     await utils.messenger.sendDM(interaction, utils.client, otherUser, 
                         `${utils.user.username} has sent you a battle request.\nFor more info: \`/requests info ${messageNumber}\`.`);
 
-                    await utils.user.pause(false);
                     return;
 
                 } else if(subCommand == "user") {
@@ -595,6 +664,7 @@ module.exports = {
                     // If other user accepts
                     utils.messageHelper.replyEvent.on(`accepted`, async () => {
                         let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
+                        await utils.userFile.writeUserLog(utils.user.username, `server battle accepted by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
                         if(!results) {
                             await utils.user.pause(false);
                             await otherUser.pause(false);
@@ -604,6 +674,7 @@ module.exports = {
 
                     // If other user rejects
                     utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                        await utils.userFile.writeUserLog(utils.user.username, `server battle rejected by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
                         await interaction.editReply({ 
                             content: `The battle was cancelled...`,
                             components: [],
@@ -611,6 +682,13 @@ module.exports = {
                         }).catch((e) => utils.consola.error(e));
                         
                         await utils.user.pause(false);
+                        await otherUser.pause(false);
+                        return;
+                    }); 
+
+                    // If other user rejects
+                    utils.messageHelper.replyEvent.on(`timeOut`, async() => {
+                        await utils.userFile.writeUserLog(utils.user.username, `server battle ignored by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
                         await otherUser.pause(false);
                         return;
                     }); 
@@ -622,11 +700,11 @@ module.exports = {
                     await scene.createCards(true, false, false);
                     
                     // Remove challenge from list, and increase number of challenges complete
-                    console.log(`trying to remove ${otherBot.botObj.bot_id}|`);
                     await utils.db.add(interaction, "currentChallenge", utils.user.currentChallenge.replace(`${otherBot.botObj.bot_id}|`, ``));
                     await battle(interaction, utils, yourBot, otherBot, "train", otherUser);
                     await utils.db.add(interaction, "challengesComplete");
-                    
+                    await utils.userFile.writeUserLog(utils.user.username, `is battle training with Professor Diriski. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
+
                     await utils.user.pause(false);
                     return;
                 }

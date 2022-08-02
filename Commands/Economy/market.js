@@ -192,13 +192,12 @@ module.exports = {
         if(subCommand == "view") {
             const botLevel = await interaction.options.getString("level");
             let bots = await utils.dbMarket.findBotsByLevel(interaction, parseInt(botLevel));
-            console.log(bots);
             let msg = ``;
 
             // Display each bot and their price
             for(const bot of bots) {
                 msg += `${bot.findColour().emoji}\`${bot.name}\`\n${powerEmoji}\`${bot.battleStats.power}\`${lifespanEmoji}\`${bot.battleStats.lifespan}\`${viralEmoji}\`${bot.battleStats.viral}\`${firewallEmoji}\`${bot.battleStats.firewall}\`\n`;
-                msg += `💰\`${bot.price}\`\n\n`;
+                msg += `${machinePartEmoji}\`${bot.price}\`\n\n`;
             }
 
             // Allow user to flick through
@@ -253,6 +252,9 @@ module.exports = {
                     files: [card.getCard()] })
                 .catch((e) => utils.consola.error(e));
 
+                await utils.userFile.writeUserLog(utils.user.username, `listed ${collection.selected.botObj.bot_type} on the market with ID ${collection.selected.botObj.bot_id} with offer of ${price}.`);
+                await utils.dbBots.addLogs(interaction, collection.selected.botObj.bot_id, `was put on the market with offer x${price} Machine Parts.`);
+
                 await utils.user.pause(false);
                 return;
             });
@@ -286,6 +288,9 @@ module.exports = {
                     return;
                 }
 
+                await utils.userFile.writeUserLog(utils.user.username, `withdrew ${collection.selected.botObj.bot_type} from the market with ID ${collection.selected.botObj.bot_id}.`);
+                await utils.dbBots.addLogs(interaction, collection.selected.botObj.bot_id, `was withdrawn from the market.`);
+                
                 await interaction.editReply({ 
                     files: [card.getCard()],
                     content: `Your bot has been removed from the market, and added back to your collection!` })
@@ -368,6 +373,9 @@ module.exports = {
                     await utils.dbAchievements.editAchievement(interaction, utils.user.username, "Entrepreneur", collection.selected.botObj.bot_id);
                     await utils.dbAchievements.editAchievement(interaction, otherUser.username, "Entrepreneur", collection.selected.botObj.bot_id);
 
+                    await utils.userFile.writeUserLog(utils.user.username, `bought ${collection.selected.botObj.bot_type} from the market with ID ${collection.selected.botObj.bot_id} for ${collection.selected.price}.`);
+                    await utils.dbBots.addLogs(interaction, collection.selected.botObj.bot_id, `was bought off the market for x${collection.selected.price} Machine Parts.`);
+                    
                     await interaction.editReply({ 
                         files: [card.getCard()],
                         content: `You have bought this bot and it has been added to your collection!`,
@@ -379,6 +387,18 @@ module.exports = {
                     return;
 
                 });
+
+                utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                    await interaction.editReply({ 
+                        files: [],
+                        content: `The command was cancelled.`,
+                        components: [],
+                        embeds: [] })
+                    .catch(e => utils.consola.error(e));                    
+                    await utils.user.pause(false);
+                    return;
+                }); 
+
             });
 
         }

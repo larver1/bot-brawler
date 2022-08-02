@@ -67,6 +67,10 @@ module.exports = (sequelize, DataTypes) => {
 		paused: {
 			type: DataTypes.BOOLEAN,
 			allowNull: false
+		},
+		tutorial: {
+			type: DataTypes.INTEGER,
+			allowNull: false
 		}
 	}, {
 		timestamps: false,

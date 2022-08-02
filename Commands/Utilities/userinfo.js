@@ -1,9 +1,11 @@
 const BotCollection = require("../../Helpers/BotCollection");
 const machinePartEmoji = "<:machine_parts:992728693799669801>";
+const energyEmoji = "<:energy_v1:993195219224903832>";
 
 module.exports = {
     name: "userinfo",
     description: "View a user's profile.",
+    usage: "`/userinfo user` allows you to view the profile of another user on the server.\n`/userinfo username` allows you to view the profile of any user.",
     options: [{
         name: "user",
         description: "Check a user's profile profile by @user.",
@@ -56,9 +58,9 @@ module.exports = {
         });
 
         let userMsg = `__**${userToView.username}'s Profile**__\n\n`
-        userMsg += `${machinePartEmoji} Machine parts: \`${userToView.balance}\`\n\n`;
+        userMsg += `${machinePartEmoji} Machine parts: \`${userToView.balance}\`\n${energyEmoji} Energy: \`${userToView.energy}\`\n\n`;
 
-        await collection.viewCollection(interaction, cardsPerPage, userMsg);
+        await collection.viewCollection(interaction, cardsPerPage, userMsg, true);
         await utils.user.pause(false);     
 
     }

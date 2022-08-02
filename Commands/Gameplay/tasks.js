@@ -43,6 +43,8 @@ module.exports = {
                 return;
             }
             await utils.dbAchievements.clearTasks(interaction);
+            await utils.userFile.writeUserLog(utils.user.username, `completed their daily tasks!`);
+
             information.setDescription(`🎉 Congratulations! You have completed your daily tasks and earned \`x100\` ${machinePartEmoji} Machine Parts!`);
         }
 

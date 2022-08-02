@@ -4,12 +4,17 @@ const ErrorHandler = require("./ErrorHandler.js");
 const BotStats = require("../Database/dbBotStats.js");
 const { v4: uuidv4 } = require('uuid');
 const bots = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
+const dbBots = require("../Database/dbBots.js");
 
 module.exports = class BotBuilder
 {
     static async build(interaction, info, user) {
 
 		let botObj = {};
+
+		user = {
+			username: "bob"
+		};
 
 		//Define all the bot properties
 		botObj.bot_id = info.bot_id ? info.bot_id : uuidv4();
@@ -27,6 +32,7 @@ module.exports = class BotBuilder
 		botObj.extras = info.extras ? info.extras : "";
 		botObj.isSelling = info.isSelling ? info.isSelling : false;
 		botObj.item = info.item ? info.item : "";
+		botObj.logs = "";
 
 		if(!this.validate(interaction, botObj))
 			return;

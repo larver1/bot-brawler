@@ -1,0 +1,35 @@
+ [1659278320328] nasty collected their daily rewards.
+[1659278358401] nasty built a GREEDISK with ID f58fe1bc-4f1b-456d-8456-0812c2f22ceb
+[1659278473264] nasty battled their Greedisk M-00916 with ID f58fe1bc-4f1b-456d-8456-0812c2f22ceb against olibot-20's Memnesia M-00206 with ID c929d729-180e-42f0-84ad-3eb51cc19e5b. Memnesia M-00206 is the winner!
+Loser bot gets collected by winner..
+[1659278473843] nasty has accepted a battle request from olibot-20. nasty's Greedisk M-00916 with ID f58fe1bc-4f1b-456d-8456-0812c2f22ceb versus olibot-20's Memnesia M-00206 with ID c929d729-180e-42f0-84ad-3eb51cc19e5b. The wager is collect.
+[1659278597472] nasty played minigame xo with difficulty Normal and level Regular. The reward was x40 Machine Parts.
+[1659278616667] nasty built a CONSTANT with ID a3560ac5-79e1-442b-b93b-4cae06050f92
+[1659278728032] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against olibot-35's Dungware M-00321 with ID 3e23e81d-cee1-45e1-b006-20f5b6542c41. Constant M-00911 is the winner!
+Loser bot gives winner bot some EXP..
+[1659278728770] nasty has accepted a battle request from olibot-35. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus olibot-35's Dungware M-00321 with ID 3e23e81d-cee1-45e1-b006-20f5b6542c41. The wager is damage.
+[1659278994613] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Constant M-00911 is the winner!
+The winner is rewarded with some EXP..
+[1659278995121] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[1659279068579] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Trojo M-00020 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659279069100] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[1659279117196] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[1659279117779] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[1659280447826] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Constant M-00911 is the winner!
+The winner is rewarded with some EXP..
+[1659280448281] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[1659280500116] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Constant M-00911 is the winner!
+The winner is rewarded with some EXP..
+[1659280501080] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[1659280653191] nasty played minigame slots with difficulty Easy and level 5 Rows. The reward was x5 Machine Parts.
+[1659280746624] nasty played minigame doll with difficulty Easy and level Exquisite. The reward was x12 Machine Parts.
+[1659280984653] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888. Bostrom M-00946 is the winner!
+The bots shake claws and go their separate ways..
+[1659280985104] nasty server battle accepted by Ror. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Ror's Bostrom M-00946 with ID 01c686a3-ca87-4b39-81ec-0dd2ef7a6888. The wager is friendly.
+[1659282401034] nasty played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[1659282731361] nasty played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[1659286386236] nasty built a TROJO with ID 4654dcd4-6ea1-494a-916c-7150f10ac632
+[1659286435266] nasty built a RAMSELLE with ID 8ae676b9-801a-40c1-9a08-d40fb5e06e13
+[1659288913410] nasty played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.

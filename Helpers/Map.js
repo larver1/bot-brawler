@@ -5,8 +5,9 @@ Canvas.registerFont('./Data/Cards/Assets/TravelingTypewriter.ttf', { family: 'Ty
 Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
 
 module.exports = class Map {
-    constructor(interaction, users) {
-        this.users = users;
+    constructor(interaction, chosen, type) {
+        this.chosen = chosen;
+        this.type = type;
         this.scale = 1.0;
         this.width = 1024;
         this.height = 1024;
@@ -47,9 +48,14 @@ module.exports = class Map {
         this.moneyRange = [];
         this.activityRange = [];
 
-        for(const user of this.users) {
-            this.moneyRange.push(user.balance);
-            this.activityRange.push(Math.abs(Date.now() - user.lastCommand));
+        for(const obj of this.chosen) {
+            if(this.type == "users") {
+                this.moneyRange.push(obj.balance);
+                this.activityRange.push(Math.abs(Date.now() - obj.lastCommand));
+            } else if(this.type == "bots") {
+                this.moneyRange.push(obj.exp);
+            }
+
         }
 
         this.moneyMax = Math.max(...this.moneyRange);
@@ -91,13 +97,15 @@ module.exports = class Map {
     // Find a set of coordinates that has not been occupied yet
     findCoords(coords, x, y, radiusX, radiusY) {
         let passedAll = false;
+        let attempts = 0;
         // Keep running until found co-ordinates that don't overlap with existing objects
-        while(!passedAll) {
+        while(!passedAll && attempts < 100) {
             passedAll = true;
             // Check all of the coords
             for(let i = 0; i < coords.length; i++) {
+                let innerAttempts = 0;
                 // If new coords are colliding with existing rect, change it
-                while((x + radiusX >= coords[i].xMin && x - radiusX <= coords[i].xMax) && (y + radiusY >= coords[i].yMin && y - radiusY <= coords[i].yMax)) {
+                while((x + radiusX >= coords[i].xMin && x - radiusX <= coords[i].xMax) && (y + radiusY >= coords[i].yMin && y - radiusY <= coords[i].yMax) && innerAttempts < 100) {
                     // If we have to change co-ords, it can be either x or y
                     if(Math.random() > 0.5)
                         x = Math.ceil(Math.random() * (this.width - (radiusX * 2))) + radiusX;
@@ -106,8 +114,11 @@ module.exports = class Map {
                  
                     passedAll = false;
                     i = 0;
+                    innerAttempts++;
                 }
             }
+
+            attempts++;
         }
 
         return [x, y];
@@ -118,17 +129,27 @@ module.exports = class Map {
         let moneyRange = this.moneyMax - this.moneyMin;
         let coords = [];
 
-        for(let i = 0; i < this.users.length; i++) {
+        for(let i = 0; i < this.chosen.length; i++) {
 
-            const user = this.users[i];
+            const obj = this.chosen[i];
+            let userMoneyRange, circleRadius, objName;
 
-            // Calculate size of circle
-            let userMoneyRange = user.balance - this.moneyMin;
-            let circleRadius = Math.ceil(50 * ((userMoneyRange / moneyRange) || 0.01)) + 10;
+            if(this.type == "users") {
+                // Calculate size of circle
+                userMoneyRange = obj.balance - this.moneyMin;
+                objName = obj.username;
+            } else if(this.type == "bots") {
+                userMoneyRange = obj.exp - this.moneyMin;
+                objName = `${obj.bot_type}\n${obj.model_no}`;
+            }
+
+            circleRadius = Math.ceil(50 * ((userMoneyRange / moneyRange) || 0.01)) + 10;
             
+            let longName = objName.length >= 10;
+
             // Calculate size of text
-            this.setFont(Math.min(50, circleRadius + 10));
-            let textSize = this.ctx.measureText(user.username);
+            this.setFont(Math.min(longName ? 30 : 50, circleRadius + 10));
+            let textSize = this.ctx.measureText(objName);
             
             // Calculate rectangular hitbox
             let radiusX = Math.max(circleRadius, textSize.width / 2, circleRadius) + 20;
@@ -160,7 +181,7 @@ module.exports = class Map {
             this.ctx.closePath();
 
             // Display player name
-            this.displayText(user.username, x - textSize.width / 2, y + radiusY);
+            this.displayText(objName, x - textSize.width / 2, y + radiusY - (this.type == "bots" ? (textSize.emHeightAscent) : 0));
         }
     }
 

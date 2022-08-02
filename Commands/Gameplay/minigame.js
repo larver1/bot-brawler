@@ -16,7 +16,8 @@ glob.sync('./Data/Minigames/*.js').forEach(function(file) {
 
 module.exports = {
     name: "minigame",
-    description: "Check all of your bots.",
+    description: "Play various minigames and earn Machine Parts for winning.",
+    usage: "`/minigame name` allows you to choose the minigame you wish to play.",
     options: [{
         name: "name",
         description: "The name of the game you wish to play.",
@@ -56,15 +57,8 @@ module.exports = {
 
         if(!gameToPlay) {
             let err = new Error(`The game with name ${gameName} does not exist!`);
-            await utils.handler.handle(err);  
+            await utils.handler.handle(interaction, err);  
             await utils.user.pause(false); 
-            return;
-        }
-
-        if(utils.user.energy < 5) {
-            let err = new Error(`You do not have enough energy to play a minigame. Refresh using \`/daily\`.`);
-            await utils.user.pause(false); 
-            await utils.handler.info(err);
             return;
         }
 
@@ -153,7 +147,7 @@ module.exports = {
         // When game is finished, add parts
         finishedEvent.once('finished', async (info) => {        
 
-            const minutesDiff = parseInt(Math.abs(utils.user.minigame - Date.now()) / (1000 * 60) % 60);
+            const minutesDiff = parseInt(Math.abs(Date.now() - utils.user.minigame) / 60000);
 
             // Only give parts if it has been 10 minutes
             if(minutesDiff < 10) {
@@ -193,6 +187,8 @@ module.exports = {
             await utils.dbAchievements.editAchievement(interaction, utils.username, "Arcade Enthusiast", gameName, achievementIndex);
             await utils.user.pause(false);
                      
+            await utils.userFile.writeUserLog(utils.user.username, `played minigame ${gameName} with difficulty ${chosenDifficulty} and level ${chosenLevel}. The reward was x${info.parts} Machine Parts.`);
+
             // Display ending message
             await interaction.editReply({
                 embeds: [finishEmbed],

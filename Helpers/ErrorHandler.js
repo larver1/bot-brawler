@@ -1,6 +1,8 @@
 const consola = require("consola");
 const sampleEmbed = require("./sampleEmbed.js");
 const { Users } = require('../Database/dbObjects');
+const shockedEmoji = `<:clunk_shocked:1003046346565107732>`;
+const unamusedEmoji = `<:clunk_unamused:1000774660855705670>`;
 
 module.exports = class ErrorHandler
 {
@@ -32,7 +34,7 @@ module.exports = class ErrorHandler
         return interaction.editReply({ 
             embeds: [
                 new sampleEmbed(interaction)
-                    .setTitle(`❌ An error has occurred!`)
+                    .setTitle(`${shockedEmoji} An error has occurred!`)
                     .setDescription(error.message )], components: [], files: [], content: ' ', ephemeral: true})
                         .catch((e) => consola.error(e));
     }
@@ -42,7 +44,7 @@ module.exports = class ErrorHandler
         return interaction.editReply({ 
             embeds: [
                 new sampleEmbed(interaction)
-                    .setTitle(`⚠️ Information`)
+                    .setTitle(`${unamusedEmoji} Information`)
                     .setDescription(error.message)], components: [], files: [], content: ' ', ephemeral: true})
                         .catch((e) => consola.error(e));
     }

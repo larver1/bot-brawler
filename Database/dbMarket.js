@@ -108,15 +108,12 @@ module.exports = class dbMarket {
             return;
 
         const botObj = await this.findBotByID(interaction, botID);
-        console.log(botObj);
         
         if(!botObj) {
             let err = new Error(`Bot ${botID} is not in the market.`);
             await ErrorHandler.handle(interaction, err);
             return;
         }
-
-        console.log(botObj);
 
         await user.removeFromMarket(botObj);
         return true;

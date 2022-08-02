@@ -1,7 +1,6 @@
 const { MessageActionRow, MessageButton, MessageSelectMenu } = require('discord.js');
 const { v4: uuidv4 } = require('uuid');
 const { promisify } = require('util');
-const { isReadable } = require('stream');
 const sleep = promisify(setTimeout);
 
 module.exports = {
@@ -104,14 +103,14 @@ module.exports = {
             // If player won, then finish
             if(checkWon) {
                 playerWon = true;
-                collector.emit(`end`);
+                await collector.emit(`end`);
                 return;
             }
 
             // If draw
             if(((difficulty == "Normal" || difficulty == "Easy") && turns >= 5) || (difficulty == "Hard" && turns >= 4)) {
                 draw = true;
-                collector.emit(`end`);
+                await collector.emit(`end`);
                 return;
             }
 
@@ -126,14 +125,14 @@ module.exports = {
             // Other player finds a random move
             let otherPlay = await this.enemyMove(grid, gridX, gridY, difficulty);
 
-            await sleep(5000);
+            await sleep(2000);
             grid[otherPlay.y][otherPlay.x] = 'o';
             
             // Check if other player has won
             msg = this.makeGrid(grid);
             let checkOtherWon = this.checkWon(grid, 'o', otherPlay.x, otherPlay.y, gridX, gridY);
             if(checkOtherWon) {
-                collector.emit('end');
+                await collector.emit('end');
                 return;
             }
 
@@ -150,13 +149,7 @@ module.exports = {
 
         collector.on('end', async () => {
 
-            Status.setTitle(`Game Over!`)
-
-            await interaction.editReply({
-                content: msg,
-                components: [],
-                embeds: [Status]
-            }).catch(e => utils.consola.error(e));
+            Status.setTitle(`Game Over!`);
 
             // Return amount of parts
             let parts = turns * 5;

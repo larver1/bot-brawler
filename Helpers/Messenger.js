@@ -166,12 +166,14 @@ module.exports = class Messenger
             message_number: messageNumber,
         });
 
-        await interaction.editReply({ embeds: [
-            new sampleEmbed(interaction, sender)
-                .setTitle(`${sender.username}'s Battle Request`)
-                .setDescription(`A battle request has been sent to \`${recipient.username}\`. You will be DM'd the outcome of the battle if they choose to accept.`)] })
-                    .catch((e) => consola.error(e));
-    
+        if(!sender.isBot) {
+            await interaction.editReply({ components: [], embeds: [
+                new sampleEmbed(interaction, sender)
+                    .setTitle(`${sender.username}'s Battle Request`)
+                    .setDescription(`A battle request has been sent to \`${recipient.username}\`. You will be DM'd the outcome of the battle if they choose to accept.`)] })
+                        .catch((e) => consola.error(e));
+        }
+  
         return messageNumber;
 
         }
@@ -327,8 +329,6 @@ module.exports = class Messenger
         if(sortByNum)
             messages = messages.sort(this.compareDescending);
 
-        console.log(messages);
-
         for(let i = 0; i < messages.length; i++) {
             const msg = messages[i];
             if(msg && msg.recipient_username == recipient.username) {
@@ -365,8 +365,8 @@ module.exports = class Messenger
 
     }
 
-    static async sendDM(interaction, client, recipient, message) {
-        //Fetch the client user
+    static async sendDM(interaction, client, recipient, message, image) {
+        // Fetch the client user
         let userToSend = await client.users.fetch(recipient.user_id);
         let success = true;
 
@@ -381,15 +381,18 @@ module.exports = class Messenger
 
         let otherAvatar = userToSend.avatarURL({ dynamic: true, size: 512 });
 
-        const dm = new sampleEmbed(interaction, recipient, otherAvatar)
+        const dm = new sampleEmbed(interaction, recipient, otherAvatar, userToSend)
             .setTitle(`You have received a message!`)
             .setDescription(`${message}\n\nIf you would like to opt out of Bot DMs, use \`/privacy set level:Locked\``)
         
-        //Send user the message
+        if(image)
+            dm.setImage(image);
+
+        // Send user the message
         await userToSend.send({ embeds: [dm] })
-            .catch(() => {
-                //Not an urgent error, so just log it
-                consola.warn(new Error(`Failed to send a message to user \`${recipient.username}\`. They may have their Discord DMs disabled.`)); 
+            .catch((err) => {
+                // Not an urgent error, so just log it
+                consola.warn(new Error(`Failed to send a message to user \`${recipient.username}\`.\n ${err}`)); 
                 success = false;
             });
 

@@ -28,7 +28,7 @@ module.exports = class BotCollection {
 
     }
 
-    async viewCollection(interaction, cardsPerPage, selectMsg){
+    async viewCollection(interaction, cardsPerPage, selectMsg, otherUser){
 
         let sortedCollection = this.objs;
 
@@ -40,7 +40,12 @@ module.exports = class BotCollection {
         let sortedSelection = sortedCollection.slice(page * cardsPerPage, page * cardsPerPage + cardsPerPage);
 
         if(sortedCollection.length <= 0) {
-            let err = new Error(`You do not own any Bots of the specified type. Try \`/build\` to get started.`);
+            let err;
+            if(otherUser) {
+                err = new Error(`This user does not have any Bots to view...`);
+            } else {
+                err = new Error(`You do not own any Bots of the specified type. Try \`/build\` to get started.`);
+            }
             return ErrorHandler.info(interaction, err);
         }
     
@@ -63,7 +68,7 @@ module.exports = class BotCollection {
             await interaction.user.createDM();
 
         await interaction.editReply({ 
-            content: `${selectMsg}Your bots [Page ${page + 1}/${maxPages}]`, 
+            content: `${selectMsg}Bot Collection [Page ${page + 1}/${maxPages}]`, 
             components: [nextPage], 
             files: [await cards.getCards()] }).catch((e) => consola.error(e));
 
@@ -90,7 +95,7 @@ module.exports = class BotCollection {
                 await cards.createCards();
 
 				return interaction.editReply({ 
-                    content: `${selectMsg}Your bots [Page ${page + 1}/${maxPages}]`, 
+                    content: `${selectMsg}Bot Collection [Page ${page + 1}/${maxPages}]`, 
                     components: [nextPage], 
                     files: [await cards.getCards()] 
                 }).catch(e => { consola.error(e)});
@@ -105,7 +110,7 @@ module.exports = class BotCollection {
 
     }
 
-    async inspectCollection(interaction, user, maxSelected, selectMsg){
+    async inspectCollection(interaction, user, maxSelected, selectMsg, noCancel){
         let selectId = uuidv4();
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
@@ -152,11 +157,14 @@ module.exports = class BotCollection {
             )
 
         if(!interaction.channel)
-            await interaction.user.createDM();
+            await interaction.user.createDM().catch((e) => consola.error(e));
+
+        let components = [selectList, nextPage];
+        if(!noCancel) components.push(cancel);
 
         await interaction.editReply({ 
             content: 'Select a bot: ', 
-            components: [selectList, nextPage, cancel] }).catch((e) => consola.error(e));
+            components: components }).catch((e) => consola.error(e));
 
         const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId || i.customId == cancelId)); 
 		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
@@ -183,7 +191,6 @@ module.exports = class BotCollection {
 					else page = maxPages - 1;
 				}
 
-                console.log(`changing page to ${page}/${maxPages}`);
 				selectList = new MessageActionRow()
 					.addComponents(
 						new MessageSelectMenu()
@@ -192,7 +199,8 @@ module.exports = class BotCollection {
 							.addOptions([selectionList[page]]),
 					);
 
-				return interaction.editReply({ components: [selectList, nextPage] }).catch(e => { consola.error(e)});
+				return interaction.editReply({ components: [selectList, nextPage] })
+                    .catch(e => { consola.error(e)});
                 
 			}
 
@@ -209,14 +217,16 @@ module.exports = class BotCollection {
 
         });
 
-        collector.on('end', async() => {
+        collector.once('end', async() => {
             await user.pause(false);
-            await interaction.editReply({ 
-                embeds: [],
-                files: [],
-                components: [],
-                content: `${cancelled ? 'The command was cancelled...' : ' '} ` 
-            }).catch(e => consola.error(e));
+            if(cancelled) {      
+                await interaction.editReply({ 
+                    embeds: [],
+                    files: [],
+                    components: [],
+                    content: `The command was cancelled` 
+                }).catch(e => consola.error(e));
+            }
         });
 
         return true;

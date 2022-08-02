@@ -1,0 +1,14 @@
+ [1659253337532] Invalid collected their daily rewards.
+[1659253571243] Invalid built a CONSTANT with ID 6d6dfd6c-5d2d-4416-a638-be532778189f
+[1659253726312] Invalid battled their Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f against olibot-90's Greedisk M-00830 with ID e90bb1b6-47bd-40e8-afb7-f4dcefb6c84f. Constant M-00903 is the winner!
+Loser bot gives winner bot some EXP..
+[1659253727019] Invalid has accepted a battle request from olibot-90. Invalid's Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f versus olibot-90's Greedisk M-00830 with ID e90bb1b6-47bd-40e8-afb7-f4dcefb6c84f. The wager is damage.
+[1659253807324] Invalid battled their Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f against olibot-10's Dungware M-00100 with ID 04da3378-78ec-4809-902b-04ea8128ea7f. Constant M-00903 is the winner!
+Loser bot gives winner bot some EXP..
+[1659253807914] Invalid has accepted a battle request from olibot-10. Invalid's Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f versus olibot-10's Dungware M-00100 with ID 04da3378-78ec-4809-902b-04ea8128ea7f. The wager is damage.
+[1659253930856] Invalid battled their Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f against olibot-7's Dungware M-00070 with ID d7d72adb-17aa-408c-861c-27f5ff2c07e9. Dungware M-00070 is the winner!
+Loser bot gives winner bot some EXP..
+[1659253932103] Invalid has accepted a battle request from olibot-7. Invalid's Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f versus olibot-7's Dungware M-00070 with ID d7d72adb-17aa-408c-861c-27f5ff2c07e9. The wager is damage.
+[1659254032892] Invalid battled their Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f against olibot-62's Trojo M-00588 with ID 76fce1dc-8564-40c8-99fd-0895e16af569. Trojo M-00588 is the winner!
+Loser bot gets collected by winner..
+[1659254033489] Invalid has accepted a battle request from olibot-62. Invalid's Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f versus olibot-62's Trojo M-00588 with ID 76fce1dc-8564-40c8-99fd-0895e16af569. The wager is collect.

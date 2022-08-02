@@ -18,28 +18,28 @@ module.exports = async (client) => {
         let path = file.split("/");
         command.section = path[path.length - 2];
         
-        //Command checks
+        // Command checks
         if(!command.name)
             return Table.addRow(file.split("/")[7], "❌ FAILED", "Missing a name.");
 
         if(!command.description && command.type != "USER")
             return Table.addRow(command.name, "❌ FAILED", "Missing a description.");
 
-        //Add valid command to array
+        // Add valid command to array
         client.commands.set(command.name, command);
         CommandsArray.push(command);
         
         // If you want to delete all commands
-        //CommandsArray = [];
+        // CommandsArray = [];
 
-        //Command passed checks
+        // Command passed checks
         await Table.addRow(command.name, "✅ SUCCESSFUL");
 
     });
 
     consola.info(Table.toString());
 
-    //Permissions check
+    // Permissions check
 
     client.on("ready", async () => {
         
