@@ -94,6 +94,7 @@ module.exports = {
 
         collector.on('collect', async i => {
             await i.deferUpdate().catch(e => utils.consola.error(e));
+
             let actionBehaviour = "";
             let effectiveness = "";
             let dateOption;
@@ -149,8 +150,8 @@ module.exports = {
             await interaction.editReply({ embeds: [Date], components: [Option1, Option2, Option3, Cancel] })
                 .catch((e) => utils.consola.error(e)); 
 
-            const actionFilter = i2 => (i2.user.id === interaction.user.id && (i2.customId == option1Id || i2.customId == option2Id || i2.customId == option3Id));
-            const actionCollector = interaction.channel.createMessageComponentCollector({ actionFilter });
+            const actionFilter = i2 => (i2.user.id === interaction.user.id && (i2.customId == option1Id || i2.customId == option2Id || i2.customId == option3Id || i2.customId == cancelId));
+            const actionCollector = interaction.channel.createMessageComponentCollector({ filter: actionFilter });
 
             actionCollector.on('collect', async i2 => {
                 await i2.deferUpdate().catch(e => utils.consola.error(e));
@@ -170,6 +171,8 @@ module.exports = {
                     case option3Id:
                         effect = effectiveness[2];
                         newChoice = `${choice}:2`;
+                        break;
+                    default:
                         break;
                 }
 

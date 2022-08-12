@@ -1,0 +1,595 @@
+ [2022/08/06 12:28:31] JustVibing collected their daily rewards.
+[2022/08/06 12:29:24] JustVibing built a BOSTROM with ID a8fd8af3-1b7e-4609-b95b-811ddda2bb4d
+[2022/08/06 12:31:06] JustVibing battled their Bostrom M-06471 with ID a8fd8af3-1b7e-4609-b95b-811ddda2bb4d against Clunk's Bostrom M-00005 with ID 2ed3bf2a-ea3f-4650-a6a8-14c239248964. Bostrom M-06471 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:33:02] JustVibing has rejected a battle request from olibot-23. JustVibing's Bostrom M-06471 with ID a8fd8af3-1b7e-4609-b95b-811ddda2bb4d versus olibot-23's Memnesia M-00234 with ID bde3b682-b696-4355-a768-79b1b8273f8b. The wager is damage.
+[2022/08/06 12:34:58] JustVibing played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[2022/08/06 12:35:52] JustVibing built a RANSOM BLUE with ID b74fa2ce-42af-40fb-b87a-1744969ddf03
+[2022/08/06 12:37:21] JustVibing battled their Bostrom M-06471 with ID a8fd8af3-1b7e-4609-b95b-811ddda2bb4d against olibot-86's Memnesia M-00767 with ID 60bc5602-2dcb-40f4-b7f6-9e972e203618. Memnesia M-00767 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:37:22] JustVibing has accepted a battle request from olibot-86. JustVibing's Bostrom M-06471 with ID a8fd8af3-1b7e-4609-b95b-811ddda2bb4d versus olibot-86's Memnesia M-00767 with ID 60bc5602-2dcb-40f4-b7f6-9e972e203618. The wager is collect.
+[2022/08/06 12:39:02] JustVibing battled their Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 against olibot-39's Ransom Blue M-00395 with ID 5641566d-683e-4ace-b8b5-b2dee3bf676a. Ransom Blue M-00395 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:39:02] JustVibing has accepted a battle request from olibot-39. JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 versus olibot-39's Ransom Blue M-00395 with ID 5641566d-683e-4ace-b8b5-b2dee3bf676a. The wager is destroy.
+[2022/08/06 12:40:00] JustVibing built a BOSTROM with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b
+[2022/08/06 12:40:09] JustVibing built a GREEDISK with ID 93b49001-8980-491a-94ac-87697e2ba5d6
+[2022/08/06 12:41:05] JustVibing played minigame slots with difficulty Easy and level 3 Rows. The reward was x3 Machine Parts.
+[2022/08/06 12:43:17] JustVibing played minigame date with difficulty Normal and level Compactisk. The reward was x18 Machine Parts.
+[2022/08/06 12:45:12] JustVibing played minigame slots with difficulty Normal and level 7 Rows. The reward was x46 Machine Parts.
+[2022/08/06 12:46:25] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Bostrom M-06473 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:46:25] JustVibing is battle training with Professor Diriski. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 12:48:32] JustVibing has sent a friend request to ML.
+[2022/08/06 12:49:52] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Bostrom M-06473 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:49:53] JustVibing is battle training with Professor Diriski. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 12:50:43] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Bostrom M-06473 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:50:43] JustVibing is battle training with Professor Diriski. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 12:51:34] JustVibing switched changed chips to power for Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b.
+[2022/08/06 12:52:39] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-06473 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:52:40] JustVibing is battle training with Professor Diriski. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 12:53:29] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Bostrom M-06473 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:53:30] JustVibing is battle training with Professor Diriski. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 12:53:42] JustVibing completed their daily tasks!
+[2022/08/06 12:55:58] JustVibing played minigame slots with difficulty Normal and level 7 Rows. The reward was x20 Machine Parts.
+[2022/08/06 12:57:52] JustVibing battled their Greedisk M-01835 with ID 93b49001-8980-491a-94ac-87697e2ba5d6 against olibot-5's Dungware M-00050 with ID 14103c0b-b32e-444a-8cc2-8a55a45a4b48. Dungware M-00050 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:57:53] JustVibing has accepted a battle request from olibot-5. JustVibing's Greedisk M-01835 with ID 93b49001-8980-491a-94ac-87697e2ba5d6 versus olibot-5's Dungware M-00050 with ID 14103c0b-b32e-444a-8cc2-8a55a45a4b48. The wager is collect.
+[2022/08/06 12:59:52] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-48's Memnesia M-00435 with ID 5bf98c19-c36c-49c8-8bcf-9f2d4fc82337. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:59:53] JustVibing has accepted a battle request from olibot-48. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-48's Memnesia M-00435 with ID 5bf98c19-c36c-49c8-8bcf-9f2d4fc82337. The wager is damage.
+[2022/08/06 13:00:56] JustVibing played minigame claw with difficulty Normal and level 10x10. The reward was x0 Machine Parts.
+[2022/08/06 13:01:48] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-16's Buddy & Lila M-00163 with ID 2936c29d-fdf4-4263-a76a-d620038162d9. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:01:49] JustVibing has accepted a battle request from olibot-16. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-16's Buddy & Lila M-00163 with ID 2936c29d-fdf4-4263-a76a-d620038162d9. The wager is destroy.
+[2022/08/06 13:05:14] JustVibing played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/06 13:06:24] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-87's Buddy & Lila M-00804 with ID 68c493c1-7e9d-4d62-b224-03a589eeeaae. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:06:25] JustVibing has accepted a battle request from olibot-87. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-87's Buddy & Lila M-00804 with ID 68c493c1-7e9d-4d62-b224-03a589eeeaae. The wager is destroy.
+[2022/08/06 13:08:00] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-76's Voidisk M-00724 with ID c5df67b5-b822-4790-8caf-ddb6334d77cb. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:08:01] JustVibing has accepted a battle request from olibot-76. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-76's Voidisk M-00724 with ID c5df67b5-b822-4790-8caf-ddb6334d77cb. The wager is destroy.
+[2022/08/06 13:11:56] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-43's Ramselle M-00421 with ID 031597e2-db19-4855-8883-6d62ed9d5eb9. Bostrom M-06473 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:11:57] JustVibing has accepted a battle request from olibot-43. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-43's Ramselle M-00421 with ID 031597e2-db19-4855-8883-6d62ed9d5eb9. The wager is collect.
+[2022/08/06 13:12:36] JustVibing has rejected a battle request from olibot-73. JustVibing's Ramselle M-00421 with ID 031597e2-db19-4855-8883-6d62ed9d5eb9 versus olibot-73's Greedisk M-00677 with ID 877e94b6-f75d-404a-8c76-f0d157648c47. The wager is destroy.
+[2022/08/06 13:14:27] JustVibing rebuilt their destroyed RANSOM BLUE with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 for 64 parts and 0 energy.
+[2022/08/06 13:15:21] JustVibing battled their Ramselle M-00421 with ID 031597e2-db19-4855-8883-6d62ed9d5eb9 against olibot-51's Compactisk M-00532 with ID 160d1033-6986-49e3-8344-10b4224e8d73. Compactisk M-00532 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:15:22] JustVibing has accepted a battle request from olibot-51. JustVibing's Ramselle M-00421 with ID 031597e2-db19-4855-8883-6d62ed9d5eb9 versus olibot-51's Compactisk M-00532 with ID 160d1033-6986-49e3-8344-10b4224e8d73. The wager is collect.
+[2022/08/06 13:17:07] JustVibing switched changed chips to power for Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03.
+[2022/08/06 13:17:50] JustVibing battled their Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 against olibot-51's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f. Ransom Blue M-01926 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:17:51] JustVibing has accepted a battle request from olibot-51. JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 versus olibot-51's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f. The wager is collect.
+[2022/08/06 13:19:55] JustVibing battled their Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f against olibot-65's Bostrom M-00611 with ID a2514048-d8ba-4e5d-b1df-d0fb2e6ce599. Constant M-00460 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:19:56] JustVibing has accepted a battle request from olibot-65. JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f versus olibot-65's Bostrom M-00611 with ID a2514048-d8ba-4e5d-b1df-d0fb2e6ce599. The wager is destroy.
+[2022/08/06 13:21:36] JustVibing is now friends with fiukewhfkje.
+[2022/08/06 13:23:22] JustVibing played minigame doll with difficulty Normal and level Simple. The reward was x4 Machine Parts.
+[2022/08/06 13:24:44] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef. Bostrom M-06473 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:24:46] JustVibing has accepted a battle request from fiukewhfkje. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef. The wager is friendly.
+[2022/08/06 13:25:56] JustVibing has rejected a battle request from fiukewhfkje. JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f versus fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef. The wager is friendly.
+[2022/08/06 13:27:02] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef. Bostrom M-06473 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:27:03] JustVibing has accepted a battle request from fiukewhfkje. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef. The wager is friendly.
+[2022/08/06 13:29:32] JustVibing server battle rejected by fiukewhfkje. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus fiukewhfkje's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. The wager is damage.
+[2022/08/06 13:37:06] JustVibing server battle rejected by fiukewhfkje. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus fiukewhfkje's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. The wager is damage.
+[2022/08/06 13:39:09] JustVibing played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/06 13:46:04] JustVibing played minigame claw with difficulty Normal and level 5x5. The reward was x64 Machine Parts.
+[2022/08/06 13:52:40] JustVibing played minigame claw with difficulty Hard and level 14x14. The reward was x30 Machine Parts.
+[2022/08/06 14:00:49] JustVibing bought Ransom Blue from the market with ID 1c8a0572-112f-4b40-8a00-0d4373888859 for 15.
+[2022/08/06 14:20:42] JustVibing played minigame claw with difficulty Normal and level 7x7. The reward was x20 Machine Parts.
+[2022/08/06 14:25:30] JustVibing server battle rejected by fiukewhfkje. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus fiukewhfkje's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. The wager is damage.
+[2022/08/06 14:26:41] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against fiukewhfkje's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 14:26:43] JustVibing server battle accepted by fiukewhfkje. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus fiukewhfkje's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. The wager is damage.
+[2022/08/06 14:29:24] JustVibing server battle ignored by Hexxy1. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is damage.
+[2022/08/06 14:32:22] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 14:32:23] JustVibing server battle accepted by eku7. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8. The wager is damage.
+[2022/08/06 14:37:00] JustVibing listed Ransom Blue on the market with ID 1c8a0572-112f-4b40-8a00-0d4373888859 with offer of 6969.
+[2022/08/06 14:43:16] JustVibing has requested a trade to fiukewhfkje. JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f was traded to fiukewhfkje for x69 Machine Parts.
+[2022/08/06 14:45:37] JustVibing has sent a friend request to eku7.
+[2022/08/06 14:49:10] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-56's Ransom Blue M-00542 with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401. Bostrom M-06473 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 14:49:11] JustVibing has accepted a battle request from olibot-56. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-56's Ransom Blue M-00542 with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401. The wager is collect.
+[2022/08/06 14:53:56] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-83's Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41. Bostrom M-06473 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 14:53:57] JustVibing has accepted a battle request from olibot-83. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-83's Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41. The wager is collect.
+[2022/08/06 14:54:37] JustVibing switched changed chips to power for Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41.
+[2022/08/06 14:55:14] JustVibing battled their Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 against olibot-34's Compactisk M-00375 with ID b63f3c5e-8ac2-426c-98cf-5ce866407796. Ramselle M-00793 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 14:55:15] JustVibing has accepted a battle request from olibot-34. JustVibing's Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 versus olibot-34's Compactisk M-00375 with ID b63f3c5e-8ac2-426c-98cf-5ce866407796. The wager is damage.
+[2022/08/06 14:56:41] JustVibing switched changed chips to power for Ransom Blue M-00542 with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401.
+[2022/08/06 14:57:21] JustVibing battled their Ransom Blue M-00542 with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401 against olibot-59's Memnesia M-00532 with ID 11a1178d-8e44-491b-8b02-d1d3e194e6ca. Memnesia M-00532 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 14:57:22] JustVibing has accepted a battle request from olibot-59. JustVibing's Ransom Blue M-00542 with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401 versus olibot-59's Memnesia M-00532 with ID 11a1178d-8e44-491b-8b02-d1d3e194e6ca. The wager is destroy.
+[2022/08/06 15:00:29] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-63's Memnesia M-00571 with ID 1459d0b2-4afb-49e4-a02b-b8d11fd55800. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:00:32] JustVibing has accepted a battle request from olibot-63. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-63's Memnesia M-00571 with ID 1459d0b2-4afb-49e4-a02b-b8d11fd55800. The wager is damage.
+[2022/08/06 15:02:00] JustVibing battled their Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 against olibot-20's Constant M-00191 with ID 75684a15-c2c4-4b71-9c13-1ac1abcc654b. Ramselle M-00793 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:02:00] JustVibing has accepted a battle request from olibot-20. JustVibing's Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 versus olibot-20's Constant M-00191 with ID 75684a15-c2c4-4b71-9c13-1ac1abcc654b. The wager is destroy.
+[2022/08/06 15:03:42] JustVibing has rejected a battle request from olibot-24. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-24's Compactisk M-00279 with ID 18e04c80-d84c-43d9-9d99-d9bb358930fb. The wager is collect.
+[2022/08/06 15:04:57] JustVibing server battle rejected by eku7. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0. The wager is collect.
+[2022/08/06 15:08:06] JustVibing battled their Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f against fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15. Compactisk M-00945 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:08:06] JustVibing server battle accepted by fiukewhfkje. JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f versus fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15. The wager is collect.
+[2022/08/06 15:11:49] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-30's Buddy & Lila M-00286 with ID 00cb513f-036d-44cb-bc19-4b6561cec38e. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:11:50] JustVibing has accepted a battle request from olibot-30. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-30's Buddy & Lila M-00286 with ID 00cb513f-036d-44cb-bc19-4b6561cec38e. The wager is damage.
+[2022/08/06 15:13:20] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-3's Ransom Blue M-00062 with ID 929c3f9a-2180-4b9c-96b1-d6b6bd51baf8. Ransom Blue M-00062 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:13:21] JustVibing has accepted a battle request from olibot-3. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-3's Ransom Blue M-00062 with ID 929c3f9a-2180-4b9c-96b1-d6b6bd51baf8. The wager is damage.
+[2022/08/06 15:14:36] JustVibing played minigame claw with difficulty Hard and level 5x5. The reward was x113 Machine Parts.
+[2022/08/06 15:16:04] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-23's Ransom Blue M-00245 with ID d50032b4-9790-4be7-a7b9-25f54b025913. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:16:05] JustVibing has accepted a battle request from olibot-23. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-23's Ransom Blue M-00245 with ID d50032b4-9790-4be7-a7b9-25f54b025913. The wager is damage.
+[2022/08/06 15:18:38] JustVibing has requested a trade to eku7. eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 was traded to JustVibing for x69 Machine Parts.
+[2022/08/06 15:23:08] JustVibing battled their Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 against olibot-0's Trojo M-00007 with ID 2b186fb1-11d5-43bb-b980-1d2cfd845e08. Trojo M-00007 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:30:27] JustVibing played minigame claw with difficulty Hard and level 5x5. The reward was x15 Machine Parts.
+[2022/08/06 15:33:55] JustVibing battled their Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 against olibot-36's Greedisk M-00354 with ID a0b49f11-f155-4b72-b5b8-aa588ba881a0. Greedisk M-00354 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00354 gets extra EXP due to their ability..
+[2022/08/06 15:33:55] JustVibing has accepted a battle request from olibot-36. JustVibing's Ramselle M-00793 with ID eaeeeb1f-b54e-44b1-813a-78d2dc3c5b41 versus olibot-36's Greedisk M-00354 with ID a0b49f11-f155-4b72-b5b8-aa588ba881a0. The wager is damage.
+[2022/08/06 15:37:28] JustVibing played minigame slots with difficulty Easy and level 7 Rows. The reward was x9 Machine Parts.
+[2022/08/06 15:38:03] JustVibing played minigame slots with difficulty Hard and level 3 Rows. The reward was x36 Machine Parts.
+[2022/08/06 15:42:43] JustVibing played minigame claw with difficulty Normal and level 5x5. The reward was x64 Machine Parts.
+[2022/08/06 15:44:00] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-31's Buddy & Lila M-00296 with ID 65c80454-d8e8-4793-8e62-b75a6f88e34c. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:44:00] JustVibing has accepted a battle request from olibot-31. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-31's Buddy & Lila M-00296 with ID 65c80454-d8e8-4793-8e62-b75a6f88e34c. The wager is damage.
+[2022/08/06 15:46:16] JustVibing battled their Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 against olibot-47's Bostrom M-00448 with ID d80a496a-4c99-4c65-9774-7351a1183109. Bostrom M-00448 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:46:17] JustVibing has accepted a battle request from olibot-47. JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03 versus olibot-47's Bostrom M-00448 with ID d80a496a-4c99-4c65-9774-7351a1183109. The wager is collect.
+[2022/08/06 15:46:53] JustVibing server battle rejected by eku7. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus eku7's Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb. The wager is collect.
+[2022/08/06 15:47:19] JustVibing has rejected a battle request from olibot-13. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-13's Ransom Blue M-00150 with ID 9bd78da9-accc-4a5c-b440-5c2ddb584bc0. The wager is damage.
+[2022/08/06 15:48:45] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-15's Compactisk M-00201 with ID edc3d3df-7991-449c-bd02-da7e9bf85d49. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:48:46] JustVibing has accepted a battle request from olibot-15. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-15's Compactisk M-00201 with ID edc3d3df-7991-449c-bd02-da7e9bf85d49. The wager is damage.
+[2022/08/06 15:49:21] JustVibing has rejected a battle request from olibot-11. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-11's Constant M-00127 with ID 475c069b-d4d7-4393-a004-d9e2102272ea. The wager is collect.
+[2022/08/06 15:50:33] JustVibing has rejected a battle request from olibot-47. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-47's Compactisk M-00502 with ID b386202d-9120-4750-8818-6b5db111ab14. The wager is damage.
+[2022/08/06 15:52:02] JustVibing switched changed chips to power for Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8.
+[2022/08/06 15:52:43] JustVibing battled their Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 against olibot-14's Dungware M-00132 with ID 3642a265-4d09-4c2a-99aa-a9d26566ac57. Ramselle M-00002 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:52:44] JustVibing has accepted a battle request from olibot-14. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-14's Dungware M-00132 with ID 3642a265-4d09-4c2a-99aa-a9d26566ac57. The wager is destroy.
+[2022/08/06 15:53:51] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-62's Bostrom M-00589 with ID 4b3f9aa1-3221-43ba-b7d4-cef1147b8cfb. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:53:52] JustVibing has accepted a battle request from olibot-62. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-62's Bostrom M-00589 with ID 4b3f9aa1-3221-43ba-b7d4-cef1147b8cfb. The wager is damage.
+[2022/08/06 15:54:20] JustVibing has rejected a battle request from olibot-83. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-83's Bostrom M-00805 with ID 93c47545-55f5-40ae-8bcf-a62e9cc06e02. The wager is collect.
+[2022/08/06 15:56:02] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-35's Bostrom M-00327 with ID a25b7229-0565-434c-87eb-cbb675b6b37b. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:56:02] JustVibing has accepted a battle request from olibot-35. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-35's Bostrom M-00327 with ID a25b7229-0565-434c-87eb-cbb675b6b37b. The wager is destroy.
+[2022/08/06 15:57:06] JustVibing bought Voidisk from the market with ID 3c5ef833-72d8-4b27-a35a-18029e641aee for 15.
+[2022/08/06 15:59:35] JustVibing switched changed chips to lifespan for Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee.
+[2022/08/06 16:00:12] JustVibing battled their Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee against olibot-63's Dungware M-00581 with ID 74c2bdee-26ef-43dc-8f49-5bfdb1be3860. Voidisk M-00576 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 16:00:13] JustVibing has accepted a battle request from olibot-63. JustVibing's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee versus olibot-63's Dungware M-00581 with ID 74c2bdee-26ef-43dc-8f49-5bfdb1be3860. The wager is damage.
+[2022/08/06 16:01:29] JustVibing switched changed chips to balanced for Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee.
+[2022/08/06 16:02:05] JustVibing battled their Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee against olibot-85's Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff. Voidisk M-00576 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:02:06] JustVibing has accepted a battle request from olibot-85. JustVibing's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee versus olibot-85's Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff. The wager is collect.
+[2022/08/06 16:04:26] JustVibing switched changed chips to power for Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff.
+[2022/08/06 16:05:10] JustVibing battled their Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff against olibot-11's Trojo M-00129 with ID 059e2762-6786-4311-a577-738fd58667e1. Ransom Blue M-00841 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 16:05:10] JustVibing has accepted a battle request from olibot-11. JustVibing's Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff versus olibot-11's Trojo M-00129 with ID 059e2762-6786-4311-a577-738fd58667e1. The wager is damage.
+[2022/08/06 16:07:29] JustVibing switched changed chips to power for Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee.
+[2022/08/06 16:08:06] JustVibing battled their Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee against olibot-10's Greedisk M-00104 with ID a77e9f9b-f83b-4be2-b698-5005da29112c. Voidisk M-00576 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:08:07] JustVibing has accepted a battle request from olibot-10. JustVibing's Voidisk M-00576 with ID 3c5ef833-72d8-4b27-a35a-18029e641aee versus olibot-10's Greedisk M-00104 with ID a77e9f9b-f83b-4be2-b698-5005da29112c. The wager is collect.
+[2022/08/06 16:09:53] JustVibing battled their Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff against olibot-40's Dungware M-00371 with ID 83e0f91f-b462-4de1-9bd0-d2d44f7859b2. Ransom Blue M-00841 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:09:54] JustVibing has accepted a battle request from olibot-40. JustVibing's Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff versus olibot-40's Dungware M-00371 with ID 83e0f91f-b462-4de1-9bd0-d2d44f7859b2. The wager is collect.
+[2022/08/06 16:33:50] JustVibing played minigame claw with difficulty Normal and level 7x7. The reward was x85 Machine Parts.
+[2022/08/06 16:35:01] JustVibing battled their Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff against olibot-67's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e. Ransom Blue M-00841 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:35:02] JustVibing has accepted a battle request from olibot-67. JustVibing's Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff versus olibot-67's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e. The wager is collect.
+[2022/08/06 16:36:05] JustVibing listed Voidisk on the market with ID 3c5ef833-72d8-4b27-a35a-18029e641aee with offer of 250.
+[2022/08/06 16:38:01] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-66's Compactisk M-00660 with ID e3632bd4-d059-4ac0-9f93-4879d861cc70. Memnesia M-00605 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 16:38:02] JustVibing has accepted a battle request from olibot-66. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-66's Compactisk M-00660 with ID e3632bd4-d059-4ac0-9f93-4879d861cc70. The wager is damage.
+[2022/08/06 16:40:00] JustVibing has rejected a battle request from olibot-27. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-27's Voidisk M-00272 with ID f0902eac-0682-4c24-9331-3c90ae53eaa8. The wager is collect.
+[2022/08/06 16:40:30] JustVibing switched changed chips to balanced for Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e.
+[2022/08/06 16:41:06] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-80's Buddy & Lila M-00738 with ID 47b43f0c-f7a5-4701-9634-df8637d671a6. Memnesia M-00605 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:41:07] JustVibing has accepted a battle request from olibot-80. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-80's Buddy & Lila M-00738 with ID 47b43f0c-f7a5-4701-9634-df8637d671a6. The wager is destroy.
+[2022/08/06 16:42:34] JustVibing played minigame claw with difficulty Hard and level 5x5. The reward was x38 Machine Parts.
+[2022/08/06 17:13:10] JustVibing battled their Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff against olibot-87's Greedisk M-00801 with ID 6da67614-8200-4ab8-b732-c162f6259bda. Greedisk M-00801 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00801 gets extra EXP due to their ability.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:13:10] JustVibing has accepted a battle request from olibot-87. JustVibing's Ransom Blue M-00841 with ID 136a3387-3148-404f-b804-ab6f5fa355ff versus olibot-87's Greedisk M-00801 with ID 6da67614-8200-4ab8-b732-c162f6259bda. The wager is damage.
+[2022/08/06 17:18:07] JustVibing has rejected a battle request from olibot-83. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-83's Greedisk M-00761 with ID ad813479-ccdc-4988-87bd-8cf6035180bf. The wager is collect.
+[2022/08/06 17:19:20] JustVibing bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 1.
+[2022/08/06 17:19:32] JustVibing bought Compactisk from the market with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd for 1.
+[2022/08/06 17:22:41] JustVibing played minigame claw with difficulty Hard and level 5x5. The reward was x53 Machine Parts.
+[2022/08/06 17:25:25] JustVibing has rejected a battle request from olibot-77. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-77's Compactisk M-00751 with ID c7e09637-5af9-460d-a7d1-59ed4e32b3c6. The wager is damage.
+[2022/08/06 17:40:51] JustVibing battled their Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd against olibot-4's Bostrom M-00067 with ID 84caea50-dcf7-4f56-8021-d5c8ed9f1556. Bostrom M-00067 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:40:52] JustVibing has accepted a battle request from olibot-4. JustVibing's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd versus olibot-4's Bostrom M-00067 with ID 84caea50-dcf7-4f56-8021-d5c8ed9f1556. The wager is destroy.
+[2022/08/06 17:42:03] JustVibing battled their Dungware M-00371 with ID 83e0f91f-b462-4de1-9bd0-d2d44f7859b2 against olibot-0's Ransom Blue M-00005 with ID 176b3a26-7e24-43e3-9cd0-e35e0e415e93. Dungware M-00371 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 17:43:31] JustVibing played minigame claw with difficulty Easy and level 7x7. The reward was x50 Machine Parts.
+[2022/08/06 17:49:05] JustVibing battled their Dungware M-00371 with ID 83e0f91f-b462-4de1-9bd0-d2d44f7859b2 against olibot-0's Voidisk M-00004 with ID 34f9dddd-c229-48e3-bc8b-febd50cc50d3. Voidisk M-00004 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 17:50:54] JustVibing battled their Greedisk M-00104 with ID a77e9f9b-f83b-4be2-b698-5005da29112c against olibot-0's Voidisk M-00004 with ID 34f9dddd-c229-48e3-bc8b-febd50cc50d3. Greedisk M-00104 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 17:52:24] JustVibing played minigame claw with difficulty Easy and level 7x7. The reward was x75 Machine Parts.
+[2022/08/06 17:55:55] JustVibing switched changed chips to viral for Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b.
+[2022/08/06 17:57:05] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e. Bostrom M-06473 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 17:57:06] JustVibing server battle accepted by eku7. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e. The wager is friendly.
+[2022/08/06 18:08:00] JustVibing played minigame claw with difficulty Easy and level 7x7. The reward was x73 Machine Parts.
+[2022/08/06 18:20:26] JustVibing switched changed chips to power for Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b.
+[2022/08/06 18:21:31] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-74's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e. Bostrom M-06473 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 18:21:32] JustVibing has accepted a battle request from olibot-74. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-74's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e. The wager is collect.
+[2022/08/06 18:22:38] JustVibing switched changed chips to firewall for Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e.
+[2022/08/06 18:23:14] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-91's Dungware M-00836 with ID d0d7c027-7a87-40f8-bdb1-3539c4dd6a08. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 18:23:15] JustVibing has accepted a battle request from olibot-91. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-91's Dungware M-00836 with ID d0d7c027-7a87-40f8-bdb1-3539c4dd6a08. The wager is damage.
+[2022/08/06 18:25:19] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-1's Buddy & Lila M-00033 with ID cdf805c0-575c-42f8-98b5-4fadda26410b. Memnesia M-00605 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:25:20] JustVibing has accepted a battle request from olibot-1. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-1's Buddy & Lila M-00033 with ID cdf805c0-575c-42f8-98b5-4fadda26410b. The wager is destroy.
+[2022/08/06 18:26:27] JustVibing played minigame claw with difficulty Easy and level 7x7. The reward was x57 Machine Parts.
+[2022/08/06 18:28:08] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-33's Memnesia M-00310 with ID 2bca14e6-6ae9-4336-bdab-866a521b595c. Memnesia M-00310 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 18:28:08] JustVibing has accepted a battle request from olibot-33. JustVibing's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 versus olibot-33's Memnesia M-00310 with ID 2bca14e6-6ae9-4336-bdab-866a521b595c. The wager is damage.
+[2022/08/06 18:42:20] JustVibing listed Greedisk on the market with ID a77e9f9b-f83b-4be2-b698-5005da29112c with offer of 69.
+[2022/08/06 18:50:46] JustVibing played minigame claw with difficulty Easy and level 7x7. The reward was x38 Machine Parts.
+[2022/08/06 18:59:43] JustVibing battled their Voidisk M-00004 with ID 34f9dddd-c229-48e3-bc8b-febd50cc50d3 against olibot-52's Dungware M-00485 with ID 9f4e881a-584c-4c7e-932f-7d841f0d61b4. Dungware M-00485 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 18:59:44] JustVibing has accepted a battle request from olibot-52. JustVibing's Voidisk M-00004 with ID 34f9dddd-c229-48e3-bc8b-febd50cc50d3 versus olibot-52's Dungware M-00485 with ID 9f4e881a-584c-4c7e-932f-7d841f0d61b4. The wager is collect.
+[2022/08/06 19:41:34] JustVibing played minigame claw with difficulty Hard and level 5x5. The reward was x15 Machine Parts.
+[2022/08/06 19:49:22] JustVibing played minigame doll with difficulty Hard and level Simple. The reward was x33 Machine Parts.
+[2022/08/06 19:50:55] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/06 19:51:33] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/06 19:52:28] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/06 19:55:07] JustVibing has rejected a battle request from olibot-6. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-6's Buddy & Lila M-00063 with ID 9dab885e-522d-4fa5-8bd7-694974763070. The wager is collect.
+[2022/08/06 19:56:12] JustVibing withdrew Greedisk from the market with ID a77e9f9b-f83b-4be2-b698-5005da29112c.
+[2022/08/06 19:57:27] JustVibing battled their Greedisk M-00104 with ID a77e9f9b-f83b-4be2-b698-5005da29112c against olibot-8's Bostrom M-00107 with ID 2015e938-813c-40d3-8b0b-b771c1c120f3. Bostrom M-00107 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 19:59:10] JustVibing switched changed chips to power for Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b.
+[2022/08/06 19:59:46] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-54's Ransom Blue M-00526 with ID a0a9e136-6f82-4405-8eab-2fa253841a54. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 19:59:47] JustVibing has accepted a battle request from olibot-54. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-54's Ransom Blue M-00526 with ID a0a9e136-6f82-4405-8eab-2fa253841a54. The wager is destroy.
+[2022/08/06 20:10:57] JustVibing has rejected a battle request from olibot-59. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-59's Trojo M-00562 with ID b8c08810-9e12-46b5-b550-7e42cd5a7c70. The wager is damage.
+[2022/08/06 20:12:43] JustVibing has sent a friend request to Larva1.
+[2022/08/06 20:13:08] JustVibing has rejected a battle request from olibot-6. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-6's Memnesia M-00078 with ID c56bb8e8-c46a-489a-9f97-e60cbd9089d0. The wager is collect.
+[2022/08/06 20:14:09] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/06 20:14:30] JustVibing has rejected a battle request from olibot-72. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-72's Voidisk M-00680 with ID 76140c6e-23e1-476a-84d7-e5b1a55423d5. The wager is collect.
+[2022/08/06 20:15:50] JustVibing switched changed chips to firewall for Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e.
+[2022/08/06 20:16:26] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-15's Compactisk M-00189 with ID 7682e4fe-d20a-47dd-93fe-251e12964f0d. Memnesia M-00605 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:16:26] JustVibing has accepted a battle request from olibot-15. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-15's Compactisk M-00189 with ID 7682e4fe-d20a-47dd-93fe-251e12964f0d. The wager is destroy.
+[2022/08/06 20:21:25] JustVibing listed Dungware on the market with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e with offer of 1000.
+[2022/08/06 20:21:55] JustVibing withdrew Dungware from the market with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e.
+[2022/08/06 20:22:41] JustVibing switched changed chips to balanced for Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e.
+[2022/08/06 20:23:17] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-24's Dungware M-00211 with ID dabb69bf-9d8a-49db-b0ea-028edf7b6f5f. Dungware M-00211 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:23:18] JustVibing has accepted a battle request from olibot-24. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-24's Dungware M-00211 with ID dabb69bf-9d8a-49db-b0ea-028edf7b6f5f. The wager is damage.
+[2022/08/06 20:23:41] JustVibing switched changed chips to power for Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e.
+[2022/08/06 20:24:23] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/06 20:25:11] JustVibing has rejected a battle request from olibot-79. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-79's Ramselle M-00748 with ID 83ae768c-78c3-4e2a-8e0a-a3228b5e0182. The wager is damage.
+[2022/08/06 20:26:19] JustVibing has rejected a battle request from olibot-76. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-76's Compactisk M-00749 with ID bdf09fcc-eef3-4932-b114-4832347fe87e. The wager is destroy.
+[2022/08/06 20:28:08] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-1's Buddy & Lila M-00030 with ID a9618db5-cc63-414d-a91d-f35e0ca1ef9a. Buddy & Lila M-00030 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00030 gained power due to their ability..
+[2022/08/06 20:28:09] JustVibing has accepted a battle request from olibot-1. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-1's Buddy & Lila M-00030 with ID a9618db5-cc63-414d-a91d-f35e0ca1ef9a. The wager is damage.
+[2022/08/06 20:30:18] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-3's Memnesia M-00048 with ID 90461b33-1ac5-491b-8602-2144b7cb9405. Memnesia M-00048 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:30:19] JustVibing has accepted a battle request from olibot-3. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-3's Memnesia M-00048 with ID 90461b33-1ac5-491b-8602-2144b7cb9405. The wager is damage.
+[2022/08/06 20:31:56] JustVibing server battle ignored by fiukewhfkje. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus fiukewhfkje's Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d. The wager is damage.
+[2022/08/06 20:37:21] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 20:38:39] JustVibing switched changed chips to power for Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e.
+[2022/08/06 20:40:10] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-69's Bostrom M-00658 with ID 1e4b13df-fba4-46ac-af76-deab9865fada. Dungware M-00692 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:42:04] JustVibing switched changed chips to balanced for Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e.
+[2022/08/06 20:42:40] JustVibing switched changed chips to viral for Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e.
+[2022/08/06 20:43:44] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-42's Ramselle M-00414 with ID 23abe88c-9f0d-402f-b2a1-18bb2279d426. Dungware M-00692 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:45:14] JustVibing switched changed chips to power for Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e.
+[2022/08/06 20:45:30] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x126 Machine Parts.
+[2022/08/06 20:46:46] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-32's Constant M-00298 with ID 45b98b58-c9ec-4c39-98f4-87ccd1a0149e. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:48:36] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-12's Bostrom M-00139 with ID 1b32e2d6-45f7-49e8-99ba-7048a3e1f209. Bostrom M-00139 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:49:08] JustVibing switched changed chips to viral for Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b.
+[2022/08/06 20:50:13] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-45's Ramselle M-00437 with ID 3f38a6e3-f555-43cb-9cc3-13e76545556f. Ramselle M-00437 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:50:36] JustVibing rebuilt their destroyed BOSTROM with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b for 260 parts and 0 energy.
+[2022/08/06 20:50:49] JustVibing switched changed chips to power for Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b.
+[2022/08/06 20:51:47] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-63's Trojo M-00600 with ID 23c42fbd-20f2-4c21-8c2f-5b5eed248760. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:52:42] JustVibing has rejected a battle request from olibot-8. JustVibing's Ransom Blue M-00005 with ID 176b3a26-7e24-43e3-9cd0-e35e0e415e93 versus olibot-8's Constant M-00098 with ID 4cbd41e2-65f7-41f3-92af-d42fdbedea5e. The wager is destroy.
+[2022/08/06 20:55:53] JustVibing has rejected a battle request from olibot-44. JustVibing's Ransom Blue M-00005 with ID 176b3a26-7e24-43e3-9cd0-e35e0e415e93 versus olibot-44's Ramselle M-00430 with ID e2d5c733-a8b4-43d1-b21e-bc0999ca1d76. The wager is destroy.
+[2022/08/06 20:56:10] JustVibing has rejected a battle request from olibot-26. JustVibing's Ransom Blue M-00005 with ID 176b3a26-7e24-43e3-9cd0-e35e0e415e93 versus olibot-26's Buddy & Lila M-00244 with ID 8a3b273e-0c66-42b8-b5db-92b3cfba98cf. The wager is damage.
+[2022/08/06 21:13:59] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-86's Ramselle M-00817 with ID 1be7287e-4be5-4f41-a01d-e0ec9ef8fa43. Bostrom M-06473 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 21:14:00] JustVibing has accepted a battle request from olibot-86. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus olibot-86's Ramselle M-00817 with ID 1be7287e-4be5-4f41-a01d-e0ec9ef8fa43. The wager is destroy.
+[2022/08/06 21:15:03] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-97's Dungware M-00892 with ID 6cb96700-d35e-4041-bbbc-fe5f877c6b26. Dungware M-00892 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 21:15:03] JustVibing has accepted a battle request from olibot-97. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-97's Dungware M-00892 with ID 6cb96700-d35e-4041-bbbc-fe5f877c6b26. The wager is destroy.
+[2022/08/06 21:15:17] JustVibing rebuilt their destroyed DUNGWARE with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e for 96 parts and 0 energy.
+[2022/08/06 21:15:29] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x126 Machine Parts.
+[2022/08/06 22:28:02] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/06 22:28:30] JustVibing has rejected a battle request from olibot-2. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-2's Buddy & Lila M-00041 with ID bd2594db-c0d9-4b4f-b70f-fbd789c006db. The wager is collect.
+[2022/08/06 22:30:00] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Ransom Blue M-00834 with ID 1ccb6e06-471f-4ea3-b99d-433156cb9be7. Ransom Blue M-00834 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:31:19] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Ransom Blue M-00834 with ID 1ccb6e06-471f-4ea3-b99d-433156cb9be7. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:32:53] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Compactisk M-00816 with ID 2a33906c-b05a-4825-9854-d6b07115b307. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:33:56] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Ransom Blue M-00834 with ID 1ccb6e06-471f-4ea3-b99d-433156cb9be7. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:34:54] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Memnesia M-00748 with ID 15abb0e5-9b93-45b8-8556-7dc07afedb83. Memnesia M-00748 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:35:43] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Ransom Blue M-00834 with ID 1ccb6e06-471f-4ea3-b99d-433156cb9be7. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:37:57] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Voidisk M-00797 with ID 414e3bc8-6e96-46df-828d-358cbd59570c. Voidisk M-00797 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:38:54] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Ransom Blue M-00834 with ID 1ccb6e06-471f-4ea3-b99d-433156cb9be7. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:39:51] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-84's Compactisk M-00816 with ID 2a33906c-b05a-4825-9854-d6b07115b307. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:40:15] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/06 22:50:34] JustVibing has rejected a battle request from olibot-53. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-53's Compactisk M-00555 with ID 8ceefafa-531e-4d90-85d1-77f3991d129b. The wager is destroy.
+[2022/08/06 22:51:11] JustVibing has rejected a battle request from olibot-72. JustVibing's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 versus olibot-72's Buddy & Lila M-00668 with ID 47dc8f84-e91b-4439-81ff-8c920d61c44d. The wager is collect.
+[2022/08/06 22:52:17] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against olibot-72's Voidisk M-00684 with ID 182f31bb-d550-460c-8d9e-9097777b0fcc. Bostrom M-06473 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:02:07] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-75's Constant M-00659 with ID 4eb41628-6630-4dc7-b9e3-d4e4f7799af3. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:02:08] JustVibing has accepted a battle request from olibot-75. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-75's Constant M-00659 with ID 4eb41628-6630-4dc7-b9e3-d4e4f7799af3. The wager is damage.
+[2022/08/06 23:03:29] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-7's Trojo M-00092 with ID 4a6b89e5-fa65-461f-9c1b-0304699f0292. Trojo M-00092 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:04:34] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-4's Greedisk M-00055 with ID 0b79bc9d-10b1-4014-bde9-4dce67110e6d. Memnesia M-00605 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 23:05:39] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/06 23:07:02] JustVibing rebuilt their destroyed BUDDY & LILA with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 14 parts and 0 energy.
+[2022/08/06 23:08:05] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-9's Bostrom M-00113 with ID 07dd4a76-e01c-46e6-ba68-b1e51b44791a. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:08:51] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-9's Compactisk M-00115 with ID 3d304681-1280-4fbb-ad02-dcb101ed2ec6. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:11:50] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/06 23:11:53] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-9's Bostrom M-00111 with ID 108598d0-2afa-4503-bfea-36c12c2cc623. Bostrom M-00111 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 23:12:24] JustVibing rebuilt their destroyed BUDDY & LILA with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 18 parts and 0 energy.
+[2022/08/06 23:13:14] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-9's Ramselle M-00091 with ID 49130be0-9887-4961-b270-46cb23a23b74. Ramselle M-00091 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 23:15:19] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92. Bostrom M-06473 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:15:20] JustVibing server battle accepted by nasty. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92. The wager is friendly.
+[2022/08/06 23:16:34] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-43's Ransom Blue M-00418 with ID 2d3ed1cb-fd35-4239-9e0e-e04bb3487d8e. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:16:35] JustVibing has accepted a battle request from olibot-43. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-43's Ransom Blue M-00418 with ID 2d3ed1cb-fd35-4239-9e0e-e04bb3487d8e. The wager is damage.
+[2022/08/06 23:16:49] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/06 23:17:14] JustVibing has rejected a battle request from olibot-28. JustVibing's Ransom Blue M-00005 with ID 176b3a26-7e24-43e3-9cd0-e35e0e415e93 versus olibot-28's Buddy & Lila M-00273 with ID 8cd4e678-5852-45ef-b220-c8904333ad33. The wager is destroy.
+[2022/08/06 23:17:22] JustVibing rebuilt their destroyed GREEDISK with ID a77e9f9b-f83b-4be2-b698-5005da29112c for 12 parts and 0 energy.
+[2022/08/06 23:17:29] JustVibing rebuilt their destroyed COMPACTISK with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd for 16 parts and 0 energy.
+[2022/08/06 23:17:41] JustVibing rebuilt their destroyed RANSOM BLUE with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401 for 42 parts and 0 energy.
+[2022/08/06 23:18:45] JustVibing battled their Greedisk M-00055 with ID 0b79bc9d-10b1-4014-bde9-4dce67110e6d against olibot-4's Compactisk M-00066 with ID 3a085197-fcfc-42b4-b930-7d5767bac4b8. Greedisk M-00055 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 23:18:46] JustVibing has accepted a battle request from olibot-4. JustVibing's Greedisk M-00055 with ID 0b79bc9d-10b1-4014-bde9-4dce67110e6d versus olibot-4's Compactisk M-00066 with ID 3a085197-fcfc-42b4-b930-7d5767bac4b8. The wager is collect.
+[2022/08/06 23:21:39] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against olibot-85's Ransom Blue M-00840 with ID 2d6e050c-6f9e-4742-b8b6-a1628628c0fc. Dungware M-00692 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:22:07] JustVibing rebuilt their destroyed BUDDY & LILA with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 18 parts and 0 energy.
+[2022/08/06 23:23:13] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a. Ransom Blue M-00509 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:23:14] JustVibing server battle accepted by ML. JustVibing's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 versus ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a. The wager is friendly.
+[2022/08/06 23:25:50] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against fiukewhfkje's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained lifespan due to their ability..
+[2022/08/06 23:25:50] JustVibing server battle accepted by fiukewhfkje. JustVibing's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 versus fiukewhfkje's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195. The wager is friendly.
+[2022/08/06 23:26:13] JustVibing switched changed chips to power for Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578.
+[2022/08/06 23:26:34] JustVibing server battle rejected by fiukewhfkje. JustVibing's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 versus fiukewhfkje's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195. The wager is friendly.
+[2022/08/06 23:28:45] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Bostrom M-00047 with ID 43e05782-a631-417c-af1a-9eaedbe2f92e. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:29:38] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Bostrom M-00047 with ID 43e05782-a631-417c-af1a-9eaedbe2f92e. Bostrom M-00047 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:30:29] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-69's Ransom Blue M-00655 with ID 04758bf8-4f40-40c9-b9b7-b41fb0128b13. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:31:15] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Compactisk M-00043 with ID 3cc3ed4e-6cdf-495c-8557-35dccd5bd1cd. Compactisk M-00043 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:32:04] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Compactisk M-00043 with ID 3cc3ed4e-6cdf-495c-8557-35dccd5bd1cd. Compactisk M-00043 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:33:02] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Compactisk M-00043 with ID 3cc3ed4e-6cdf-495c-8557-35dccd5bd1cd. Compactisk M-00043 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:33:48] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Compactisk M-00043 with ID 3cc3ed4e-6cdf-495c-8557-35dccd5bd1cd. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:34:37] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-3's Compactisk M-00043 with ID 3cc3ed4e-6cdf-495c-8557-35dccd5bd1cd. Compactisk M-00043 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:36:12] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-74's Ramselle M-00704 with ID 148bb23a-0fda-45c7-8dea-2f2acb289107. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:37:01] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-74's Ramselle M-00704 with ID 148bb23a-0fda-45c7-8dea-2f2acb289107. Ramselle M-00704 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:38:07] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-74's Bostrom M-00709 with ID 287cd14b-594a-46fd-87b5-1a2342e81730. Bostrom M-00709 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:39:07] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Trojo M-00843 with ID 3f3da6e8-9bbb-4e0d-b983-60c05dcc308c. Trojo M-00843 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:40:27] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-56's Constant M-00506 with ID 2b1d1913-fc8d-43b7-9654-bee89391c4ec. Constant M-00506 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:41:30] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Memnesia M-00355 with ID 13117cc0-5bf1-47d0-8a2c-8f0e0e6ca0d6. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:42:37] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-1's Compactisk M-00026 with ID a68ac4e5-c46c-4e88-81dd-7a56fe2508b9. Compactisk M-00026 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:43:45] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Compactisk M-00409 with ID 19536e75-e323-4ad9-8c76-35861da7763b. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:44:52] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:46:28] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Dungware M-00355 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:48:05] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:51:53] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:52:30] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 23:55:19] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Dungware M-00355 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:56:15] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:58:20] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/06 23:59:15] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00353 with ID f8a25e4c-c5b2-4b4e-8aa4-abc5c3b48d66. Dungware M-00353 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:00:02] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00353 with ID f8a25e4c-c5b2-4b4e-8aa4-abc5c3b48d66. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:00:59] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00353 with ID f8a25e4c-c5b2-4b4e-8aa4-abc5c3b48d66. Dungware M-00353 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:02:15] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00353 with ID f8a25e4c-c5b2-4b4e-8aa4-abc5c3b48d66. Dungware M-00353 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:03:13] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:04:54] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-38's Dungware M-00355 with ID 4d43f5fb-e5b1-4298-bed8-82cf7a7a96a0. Dungware M-00355 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:05:47] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-64's Greedisk M-00598 with ID 14840777-299c-4958-8fcc-30fc7ed7476f. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:06:42] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-64's Ransom Blue M-00611 with ID 63141798-7fdb-463f-acf6-a6e36e288d79. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:08:20] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-64's Greedisk M-00598 with ID 14840777-299c-4958-8fcc-30fc7ed7476f. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:09:30] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-64's Memnesia M-00583 with ID 43a7430a-065b-440f-8fb2-1a7f895d35e3. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:13:57] JustVibing played minigame doll with difficulty Hard and level Fussy. The reward was x96 Machine Parts.
+[2022/08/07 00:20:03] JustVibing battled their Greedisk M-00104 with ID a77e9f9b-f83b-4be2-b698-5005da29112c against olibot-85's Trojo M-00779 with ID d5d96bdd-2c26-4974-a45e-0dc881ac184f. Trojo M-00779 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 00:20:03] JustVibing has accepted a battle request from olibot-85. JustVibing's Greedisk M-00104 with ID a77e9f9b-f83b-4be2-b698-5005da29112c versus olibot-85's Trojo M-00779 with ID d5d96bdd-2c26-4974-a45e-0dc881ac184f. The wager is collect.
+[2022/08/07 00:21:21] JustVibing has rejected a battle request from olibot-75. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-75's Greedisk M-00698 with ID 785e43ba-c575-43a8-85a5-9e25be4e2f84. The wager is collect.
+[2022/08/07 00:25:20] JustVibing battled their Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e against ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9. Trojo M-01813 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 00:25:20] JustVibing server battle accepted by ML. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9. The wager is friendly.
+[2022/08/07 00:26:07] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/07 00:26:33] JustVibing has rejected a battle request from olibot-93. JustVibing's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd versus olibot-93's Buddy & Lila M-00874 with ID d31cb2c6-7542-40b7-9b31-2bd103c8fb4e. The wager is destroy.
+[2022/08/07 00:27:47] JustVibing battled their Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e against olibot-21's Greedisk M-00217 with ID 737ab5f4-e7f8-4a8e-82d4-476f38269e92. Greedisk M-00217 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00217 gets extra EXP due to their ability..
+[2022/08/07 00:27:47] JustVibing has accepted a battle request from olibot-21. JustVibing's Memnesia M-00605 with ID 703a499c-e72e-4a9e-95d9-8ee87c9ced0e versus olibot-21's Greedisk M-00217 with ID 737ab5f4-e7f8-4a8e-82d4-476f38269e92. The wager is damage.
+[2022/08/07 00:28:16] JustVibing has rejected a battle request from olibot-87. JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e versus olibot-87's Buddy & Lila M-00810 with ID ec4d4db9-c998-4b93-9d49-b998e6f9eff0. The wager is damage.
+[2022/08/07 00:33:14] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Greedisk M-00857 with ID 02b3e478-375a-4554-bcfb-100bef9fba98. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:34:01] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Greedisk M-00857 with ID 02b3e478-375a-4554-bcfb-100bef9fba98. Greedisk M-00857 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00857 gets extra EXP due to their ability..
+[2022/08/07 00:34:45] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Greedisk M-00857 with ID 02b3e478-375a-4554-bcfb-100bef9fba98. Greedisk M-00857 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00857 gets extra EXP due to their ability..
+[2022/08/07 00:35:33] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Greedisk M-00855 with ID 1a9162b1-7c2d-4ce5-96c6-90347c4d963b. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:35:52] JustVibing switched changed chips to viral for Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578.
+[2022/08/07 00:37:09] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Compactisk M-00870 with ID 5e8314f3-f950-4326-b14d-92fef53b689a. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained viral due to their ability..
+[2022/08/07 00:38:35] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Greedisk M-00861 with ID 9c0aa803-02e2-4e45-924b-1bbe46d1feb0. Greedisk M-00861 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00861 gets extra EXP due to their ability..
+[2022/08/07 00:40:04] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-92's Dungware M-00847 with ID 31dc1986-761a-4075-9aa1-f0a2381ef68c. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained viral due to their ability..
+[2022/08/07 00:42:51] JustVibing switched changed chips to power for Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578.
+[2022/08/07 00:43:01] JustVibing switched changed chips to power for Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578.
+[2022/08/07 00:44:18] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Ramselle M-00884 with ID 3f9c875e-42a1-44ca-9de2-eefe4a277355. Ramselle M-00884 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:45:43] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Constant M-00836 with ID 60ca4d74-2562-48eb-a3a7-27e35203a824. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:47:33] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Compactisk M-00890 with ID 8ed14dd2-4aba-496d-8f8b-a062ae9ec0a2. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:53:31] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Compactisk M-00890 with ID 8ed14dd2-4aba-496d-8f8b-a062ae9ec0a2. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 00:55:40] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Compactisk M-00890 with ID 8ed14dd2-4aba-496d-8f8b-a062ae9ec0a2. Compactisk M-00890 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:57:01] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Compactisk M-00890 with ID 8ed14dd2-4aba-496d-8f8b-a062ae9ec0a2. Compactisk M-00890 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:58:02] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Compactisk M-00890 with ID 8ed14dd2-4aba-496d-8f8b-a062ae9ec0a2. Compactisk M-00890 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:59:07] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Trojo M-00863 with ID 830a9a7e-4c23-490a-a921-ff8c31a61fbe. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 01:00:17] JustVibing has rejected a battle request from olibot-49. JustVibing's Ransom Blue M-00542 with ID 1e1c2d75-f2a7-4f99-83dd-b30bfdd2a401 versus olibot-49's Memnesia M-00447 with ID 074bc5a3-e1ab-4b4f-9e43-89ca68ba43fb. The wager is destroy.
+[2022/08/07 01:01:20] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/07 01:05:34] JustVibing battled their Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b against Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e. Ransom Blue M-01924 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 01:05:34] JustVibing server battle accepted by Hexxy1. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e. The wager is friendly.
+[2022/08/07 01:10:40] JustVibing accepted a trade from fiukewhfkje. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f was traded to JustVibing for x1 Machine Parts.
+[2022/08/07 01:16:20] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x126 Machine Parts.
+[2022/08/07 01:24:36] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Dungware M-00870 with ID 9a840134-4432-41ae-bff7-4da5a3985c27. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 01:25:47] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-94's Ramselle M-00887 with ID 97549c13-14f4-4633-83bf-d9ae0e86e071. Buddy & Lila M-00773 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 01:29:14] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x117 Machine Parts.
+[2022/08/07 01:37:51] JustVibing server battle ignored by Ror. JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b versus Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631. The wager is friendly.
+[2022/08/07 01:45:52] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/07 01:57:05] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 02:06:16] JustVibing has sent a friend request to nasty.
+[2022/08/07 02:07:27] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 02:16:22] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/07 02:36:58] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 03:06:57] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 03:17:30] JustVibing played minigame doll with difficulty Hard and level Exquisite. The reward was x126 Machine Parts.
+[2022/08/07 03:23:55] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Compactisk M-00591 with ID 43805f4c-d28a-4ad5-8e87-7eccd0e9a94e. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 03:24:47] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Compactisk M-00591 with ID 43805f4c-d28a-4ad5-8e87-7eccd0e9a94e. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 03:25:53] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Dungware M-00519 with ID 5c9fb706-1ddf-4221-9249-7b634e70a30d. Dungware M-00519 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 03:26:23] JustVibing switched changed chips to firewall for Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578.
+[2022/08/07 03:27:38] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Compactisk M-00588 with ID 55e4d8b8-3224-439d-aecb-438675b6f89a. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained firewall due to their ability..
+[2022/08/07 03:27:58] JustVibing switched changed chips to viral for Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578.
+[2022/08/07 03:28:52] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Compactisk M-00588 with ID 55e4d8b8-3224-439d-aecb-438675b6f89a. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained viral due to their ability..
+[2022/08/07 03:30:08] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Compactisk M-00588 with ID 55e4d8b8-3224-439d-aecb-438675b6f89a. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained viral due to their ability..
+[2022/08/07 03:31:03] JustVibing battled their Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 against olibot-57's Compactisk M-00596 with ID 66f61a9e-563f-4e51-9ffa-6988b0e40576. Buddy & Lila M-00773 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00773 gained viral due to their ability..

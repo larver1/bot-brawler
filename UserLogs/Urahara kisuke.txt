@@ -1,0 +1,14 @@
+ [2022/08/06 15:55:56] Urahara kisuke collected their daily rewards.
+[2022/08/06 15:57:39] Urahara kisuke built a MEMNESIA with ID ae19fded-5d17-4282-b750-ac5741e73a8e
+[2022/08/06 15:57:49] Urahara kisuke built a MEMNESIA with ID 4e6d1743-d2b3-4a9f-847f-62a42d203833
+[2022/08/06 15:59:11] Urahara kisuke battled their Memnesia M-01880 with ID 4e6d1743-d2b3-4a9f-847f-62a42d203833 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Trojo M-00020 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 15:59:11] Urahara kisuke is battle training with Professor Diriski. Urahara kisuke's Memnesia M-01880 with ID 4e6d1743-d2b3-4a9f-847f-62a42d203833 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 16:01:31] Urahara kisuke battled their Memnesia M-01878 with ID ae19fded-5d17-4282-b750-ac5741e73a8e against olibot-49's Bostrom M-00462 with ID ee69fb4f-6541-4c45-ac38-a2a4b8c8d365. Bostrom M-00462 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:01:32] Urahara kisuke has accepted a battle request from olibot-49. Urahara kisuke's Memnesia M-01878 with ID ae19fded-5d17-4282-b750-ac5741e73a8e versus olibot-49's Bostrom M-00462 with ID ee69fb4f-6541-4c45-ac38-a2a4b8c8d365. The wager is collect.
+[2022/08/06 16:03:04] Urahara kisuke battled their Memnesia M-01880 with ID 4e6d1743-d2b3-4a9f-847f-62a42d203833 against olibot-16's Memnesia M-00174 with ID 8f76f2d8-a385-4c8b-a41d-e939eb0930d4. Memnesia M-00174 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:03:05] Urahara kisuke has accepted a battle request from olibot-16. Urahara kisuke's Memnesia M-01880 with ID 4e6d1743-d2b3-4a9f-847f-62a42d203833 versus olibot-16's Memnesia M-00174 with ID 8f76f2d8-a385-4c8b-a41d-e939eb0930d4. The wager is destroy.
+[2022/08/06 16:07:25] Urahara kisuke played minigame date with difficulty Normal and level Compactisk. The reward was x14 Machine Parts.
+[2022/08/06 16:09:18] Urahara kisuke played minigame date with difficulty Normal and level Trojo. The reward was x8 Machine Parts.

@@ -141,3 +141,39 @@ Loser bot gives winner bot some EXP..
 [2022/08/02 21:31:52] Larva1 battled their Buddy & Lila M-00928 with ID 7052a6a8-6a95-476c-9b0c-8ab07100d3aa against olibot-22's Voidisk M-00637 with ID 6d1a2a19-33bf-4501-823c-a7e277e13cd1. Voidisk M-00637 is the winner!
 Loser bot gives winner bot some EXP..
 [2022/08/02 21:31:52] Larva1 has accepted a battle request from olibot-22. Larva1's Buddy & Lila M-00928 with ID 7052a6a8-6a95-476c-9b0c-8ab07100d3aa versus olibot-22's Voidisk M-00637 with ID 6d1a2a19-33bf-4501-823c-a7e277e13cd1. The wager is damage.
+[2022/08/03 20:23:02] Larva1 listed Buddy & Lila on the market with ID 7052a6a8-6a95-476c-9b0c-8ab07100d3aa with offer of 1.
+[2022/08/03 20:23:23] Larva1 withdrew Buddy & Lila from the market with ID 7052a6a8-6a95-476c-9b0c-8ab07100d3aa.
+[2022/08/03 20:25:07] Larva1 listed Voidisk on the market with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf with offer of 1.
+[2022/08/03 20:25:27] Larva1 withdrew Voidisk from the market with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf.
+[2022/08/03 20:28:41] Larva1 battled their Voidisk M-00933 with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/03 20:28:42] Larva1 is battle training with Professor Diriski. Larva1's Voidisk M-00933 with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/03 20:29:58] Larva1 battled their Ramselle M-00125 with ID 3be37b89-186a-4c85-b837-73bbf3bca3ed against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Ramselle M-00125 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/03 20:29:59] Larva1 is battle training with Professor Diriski. Larva1's Ramselle M-00125 with ID 3be37b89-186a-4c85-b837-73bbf3bca3ed versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 10:56:39] Larva1 battled their Voidisk M-00933 with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf against olibot-82's Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6. Voidisk M-00933 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 10:56:40] Larva1 has accepted a battle request from olibot-82. Larva1's Voidisk M-00933 with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf versus olibot-82's Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6. The wager is collect.
+[2022/08/06 17:17:54] Larva1 battled their Voidisk M-00933 with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf against olibot-52's Ramselle M-00491 with ID 404cc195-dd1d-47f7-80e1-dd795b85518e. Voidisk M-00933 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:17:55] Larva1 has accepted a battle request from olibot-52. Larva1's Voidisk M-00933 with ID 96ff71bc-1a4e-4cc2-8500-c767f923d5cf versus olibot-52's Ramselle M-00491 with ID 404cc195-dd1d-47f7-80e1-dd795b85518e. The wager is damage.
+[2022/08/06 17:18:44] Larva1 switched changed chips to power for Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6.
+[2022/08/06 17:19:23] Larva1 battled their Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6 against olibot-46's Ransom Blue M-00460 with ID 1c0ee843-30a0-48e6-912a-1a045a6c3f57. Dungware M-00757 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:19:24] Larva1 has accepted a battle request from olibot-46. Larva1's Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6 versus olibot-46's Ransom Blue M-00460 with ID 1c0ee843-30a0-48e6-912a-1a045a6c3f57. The wager is damage.
+[2022/08/06 17:20:58] Larva1 battled their Ransom Blue M-00999 with ID ce8091f2-0ba1-4906-bf26-83bd44c7a8cd against olibot-1's Buddy & Lila M-00036 with ID 4a586f78-a61f-4f9a-9e49-f3b9a24f7d27. Ransom Blue M-00999 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:20:59] Larva1 has accepted a battle request from olibot-1. Larva1's Ransom Blue M-00999 with ID ce8091f2-0ba1-4906-bf26-83bd44c7a8cd versus olibot-1's Buddy & Lila M-00036 with ID 4a586f78-a61f-4f9a-9e49-f3b9a24f7d27. The wager is damage.
+[2022/08/06 17:21:44] Larva1 has sent a friend request to toro.
+[2022/08/06 17:21:58] Larva1 battled their Ramselle M-00925 with ID 887f3673-7b74-4c03-a15e-6d92eb457a9f against olibot-90's Compactisk M-00856 with ID 4e643d7e-c4f5-42d9-8c7f-5493003478c4. Compactisk M-00856 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:21:59] Larva1 has accepted a battle request from olibot-90. Larva1's Ramselle M-00925 with ID 887f3673-7b74-4c03-a15e-6d92eb457a9f versus olibot-90's Compactisk M-00856 with ID 4e643d7e-c4f5-42d9-8c7f-5493003478c4. The wager is damage.
+[2022/08/06 17:22:57] Larva1 is now friends with EeveeUwU.
+[2022/08/06 17:25:03] Larva1 has sent a battle request to toro. Larva1's Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6 versus toro's Dungware M-01834 with ID 7e0e9627-b895-4a1b-9e6a-ab86af82c06d. The wager is destroy.
+[2022/08/06 20:05:28] Larva1 has sent a message to toro: "hi ily <:buryhugs:868999344995586129>".
+[2022/08/06 20:12:23] Larva1 is now friends with fiukewhfkje.
+[2022/08/06 20:13:10] Larva1 is now friends with JustVibing.

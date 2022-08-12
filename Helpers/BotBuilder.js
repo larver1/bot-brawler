@@ -12,10 +12,6 @@ module.exports = class BotBuilder
 
 		let botObj = {};
 
-		user = {
-			username: "bob"
-		};
-
 		//Define all the bot properties
 		botObj.bot_id = info.bot_id ? info.bot_id : uuidv4();
 		botObj.bot_type = info.bot_type ? info.bot_type : bots[Math.floor(Math.random()  * bots.length)].name;

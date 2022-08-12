@@ -33,3 +33,76 @@ The bots shake claws and go their separate ways..
 [1659286386236] nasty built a TROJO with ID 4654dcd4-6ea1-494a-916c-7150f10ac632
 [1659286435266] nasty built a RAMSELLE with ID 8ae676b9-801a-40c1-9a08-d40fb5e06e13
 [1659288913410] nasty played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/06 23:04:37] nasty collected their daily rewards.
+[2022/08/06 23:06:01] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 23:06:02] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 23:07:01] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Constant M-00911 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 23:07:02] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 23:07:48] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Constant M-00911 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 23:07:49] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 23:08:40] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 23:08:40] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 23:09:33] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Constant M-00911 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 23:09:34] nasty is battle training with Professor Diriski. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 23:10:14] nasty built a CONSTANT with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87
+[2022/08/06 23:10:24] nasty built a GREEDISK with ID dfeda569-95d9-4f6f-a5ce-8e78ed73f988
+[2022/08/06 23:10:33] nasty built a GREEDISK with ID 416f0d3e-df42-4fb5-9b32-4f30b35f9397
+[2022/08/06 23:10:50] nasty built a CONSTANT with ID 69f234d8-9d49-49f3-ab24-5c9ea821c459
+[2022/08/06 23:11:26] nasty played minigame doll with difficulty Normal and level Simple. The reward was x32 Machine Parts.
+[2022/08/06 23:12:35] nasty played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[2022/08/06 23:14:08] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e. Constant M-00911 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 23:14:09] nasty server battle accepted by JustVibing. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus JustVibing's Dungware M-00692 with ID 870384e3-be1a-49a0-b00e-12b1a244bc8e. The wager is friendly.
+[2022/08/06 23:15:43] nasty switched changed chips to power for Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92.
+[2022/08/07 01:56:28] nasty played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[2022/08/07 01:57:57] nasty battled their Constant M-01803 with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87 against JustVibing's Ramselle M-00887 with ID 97549c13-14f4-4633-83bf-d9ae0e86e071. Constant M-01803 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 01:57:57] nasty server battle accepted by JustVibing. nasty's Constant M-01803 with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87 versus JustVibing's Ramselle M-00887 with ID 97549c13-14f4-4633-83bf-d9ae0e86e071. The wager is friendly.
+[2022/08/07 01:58:24] nasty switched changed chips to balanced for Constant M-01803 with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87.
+[2022/08/07 01:58:46] nasty switched changed chips to power for Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92.
+[2022/08/07 02:00:36] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against JustVibing's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578. Buddy & Lila M-00773 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00773 gained power due to their ability..
+[2022/08/07 02:00:37] nasty server battle accepted by JustVibing. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus JustVibing's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578. The wager is friendly.
+[2022/08/07 02:05:31] nasty switched changed chips to power for Trojo M-00917 with ID 4654dcd4-6ea1-494a-916c-7150f10ac632.
+[2022/08/07 02:07:20] nasty is now friends with JustVibing.
+[2022/08/07 03:32:26] nasty battled their Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 against olibot-33's Memnesia M-00310 with ID 2bca14e6-6ae9-4336-bdab-866a521b595c. Constant M-00911 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/07 03:32:27] nasty has accepted a battle request from olibot-33. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus olibot-33's Memnesia M-00310 with ID 2bca14e6-6ae9-4336-bdab-866a521b595c. The wager is damage.
+[2022/08/07 03:33:59] nasty battled their Constant M-01803 with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87 against olibot-58's Ransom Blue M-00557 with ID 768fe0e4-af6a-42cd-8b11-a3be4fae0896. Constant M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 03:33:59] nasty has accepted a battle request from olibot-58. nasty's Constant M-01803 with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87 versus olibot-58's Ransom Blue M-00557 with ID 768fe0e4-af6a-42cd-8b11-a3be4fae0896. The wager is destroy.
+[2022/08/07 03:34:56] nasty battled their Constant M-01805 with ID 69f234d8-9d49-49f3-ab24-5c9ea821c459 against olibot-40's Dungware M-00373 with ID 4f416643-7389-4b13-9627-a4938d8b9e0a. Constant M-01805 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/07 03:34:56] nasty has accepted a battle request from olibot-40. nasty's Constant M-01805 with ID 69f234d8-9d49-49f3-ab24-5c9ea821c459 versus olibot-40's Dungware M-00373 with ID 4f416643-7389-4b13-9627-a4938d8b9e0a. The wager is damage.
+[2022/08/07 03:35:45] nasty has rejected a battle request from olibot-53. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus olibot-53's Ransom Blue M-00515 with ID b771a461-75b2-4af1-ab23-65007aaaa612. The wager is collect.
+[2022/08/07 03:36:50] nasty battled their Constant M-01805 with ID 69f234d8-9d49-49f3-ab24-5c9ea821c459 against olibot-57's Buddy & Lila M-00533 with ID d85bbf06-9888-404f-8961-badf358adc30. Buddy & Lila M-00533 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00533 gained viral due to their ability..
+[2022/08/07 03:36:51] nasty has accepted a battle request from olibot-57. nasty's Constant M-01805 with ID 69f234d8-9d49-49f3-ab24-5c9ea821c459 versus olibot-57's Buddy & Lila M-00533 with ID d85bbf06-9888-404f-8961-badf358adc30. The wager is destroy.
+[2022/08/07 03:38:19] nasty battled their Trojo M-00917 with ID 4654dcd4-6ea1-494a-916c-7150f10ac632 against olibot-38's Ramselle M-00380 with ID a7bd7b40-fa3d-4282-8efe-6c058706cb36. Trojo M-00917 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00917 gained power due to their ability..
+[2022/08/07 03:38:20] nasty has accepted a battle request from olibot-38. nasty's Trojo M-00917 with ID 4654dcd4-6ea1-494a-916c-7150f10ac632 versus olibot-38's Ramselle M-00380 with ID a7bd7b40-fa3d-4282-8efe-6c058706cb36. The wager is destroy.
+[2022/08/07 03:40:47] nasty battled their Greedisk M-01841 with ID dfeda569-95d9-4f6f-a5ce-8e78ed73f988 against olibot-65's Bostrom M-00613 with ID e1eff983-338c-49da-8668-f42a3f0e5be7. Bostrom M-00613 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 03:40:48] nasty has accepted a battle request from olibot-65. nasty's Greedisk M-01841 with ID dfeda569-95d9-4f6f-a5ce-8e78ed73f988 versus olibot-65's Bostrom M-00613 with ID e1eff983-338c-49da-8668-f42a3f0e5be7. The wager is collect.
+[2022/08/07 03:41:59] nasty battled their Greedisk M-01843 with ID 416f0d3e-df42-4fb5-9b32-4f30b35f9397 against olibot-52's Ramselle M-00495 with ID 685df27e-4d4f-4566-b7bd-26ceb63e0f77. Greedisk M-01843 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-01843 gets extra EXP due to their ability..
+[2022/08/07 03:41:59] nasty has accepted a battle request from olibot-52. nasty's Greedisk M-01843 with ID 416f0d3e-df42-4fb5-9b32-4f30b35f9397 versus olibot-52's Ramselle M-00495 with ID 685df27e-4d4f-4566-b7bd-26ceb63e0f77. The wager is destroy.
+[2022/08/07 03:42:55] nasty battled their Ramselle M-00937 with ID 8ae676b9-801a-40c1-9a08-d40fb5e06e13 against olibot-11's Voidisk M-00109 with ID 5b4bf58d-85ea-43d4-bade-db6f7b09fd49. Voidisk M-00109 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 03:42:56] nasty has accepted a battle request from olibot-11. nasty's Ramselle M-00937 with ID 8ae676b9-801a-40c1-9a08-d40fb5e06e13 versus olibot-11's Voidisk M-00109 with ID 5b4bf58d-85ea-43d4-bade-db6f7b09fd49. The wager is collect.
+[2022/08/07 03:43:34] nasty has rejected a battle request from olibot-68. nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92 versus olibot-68's Compactisk M-00683 with ID 2e86a1d2-ae71-4e45-aca9-cd66c27b1903. The wager is destroy.
+[2022/08/07 03:45:38] nasty listed Constant on the market with ID e2aae5b1-8bc7-48c7-b3b1-e1133247bf87 with offer of 500.
+[2022/08/07 03:46:54] nasty battled their Greedisk M-01843 with ID 416f0d3e-df42-4fb5-9b32-4f30b35f9397 against olibot-4's Constant M-00058 with ID 9d6f6e2d-b7be-4ada-b811-8507fa6777d9. Constant M-00058 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 03:46:55] nasty has accepted a battle request from olibot-4. nasty's Greedisk M-01843 with ID 416f0d3e-df42-4fb5-9b32-4f30b35f9397 versus olibot-4's Constant M-00058 with ID 9d6f6e2d-b7be-4ada-b811-8507fa6777d9. The wager is destroy.

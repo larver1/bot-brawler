@@ -11,7 +11,7 @@ module.exports = class dbAccess
 		let idToFind = differentID ? differentID : interaction.user.id;
 		const user = await Users.findOne({ where: { user_id: idToFind } });
 		if(!user) {
-			let err = new Error(`\`${interaction.user.tag}\` does not have a user account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
+			let err = new Error(`\`${interaction.user.tag ? interaction.user.tag : `This user`}\` does not have a Bot Brawler account.${!differentID ? `\nIf this is your first time using Bot Brawler, please use \`/register\`.` : ``}`);
 			await ErrorHandler.info(interaction, err);
 		}
 

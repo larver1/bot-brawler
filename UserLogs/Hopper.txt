@@ -43,3 +43,20 @@ Greedisk M-00178 gets extra EXP due to their ability..
 [1659282556189] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against olibot-77's Ramselle M-00731 with ID 108bebe2-0c9a-4405-b7e6-eac546dde81b. Constant M-00907 is the winner!
 Loser bot gives winner bot some EXP..
 [1659282556897] Hopper has accepted a battle request from olibot-77. Hopper's Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e versus olibot-77's Ramselle M-00731 with ID 108bebe2-0c9a-4405-b7e6-eac546dde81b. The wager is damage.
+[2022/08/06 11:02:02] Hopper collected their daily rewards.
+[2022/08/06 11:04:02] Hopper built a RANSOM BLUE with ID c880453e-2ba9-411e-8d9c-c6ad9166bdec
+[2022/08/06 11:05:46] Hopper played minigame claw with difficulty Normal and level 14x14. The reward was x0 Machine Parts.
+[2022/08/06 11:06:57] Hopper played minigame claw with difficulty Normal and level 5x5. The reward was x60 Machine Parts.
+[2022/08/06 11:07:57] Hopper battled their Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 against olibot-9's Buddy & Lila M-00091 with ID 1948a919-aff6-4325-8727-c930621aacfc. Trojo M-00913 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00913 gained power due to their ability..
+[2022/08/06 11:07:58] Hopper has accepted a battle request from olibot-9. Hopper's Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 versus olibot-9's Buddy & Lila M-00091 with ID 1948a919-aff6-4325-8727-c930621aacfc. The wager is destroy.
+[2022/08/06 11:09:13] Hopper battled their Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e against olibot-84's Greedisk M-00769 with ID 3c534798-0201-4ecf-b913-bd5ecc95eef4. Greedisk M-00769 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00769 gets extra EXP due to their ability..
+[2022/08/06 11:09:14] Hopper has accepted a battle request from olibot-84. Hopper's Constant M-00907 with ID 947786b9-224b-44e3-84c2-06d5a105c89e versus olibot-84's Greedisk M-00769 with ID 3c534798-0201-4ecf-b913-bd5ecc95eef4. The wager is destroy.
+[2022/08/06 11:09:56] Hopper rebuilt their destroyed CONSTANT with ID 947786b9-224b-44e3-84c2-06d5a105c89e for 24 parts and 0 energy.
+[2022/08/06 11:11:52] Hopper battled their Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 against olibot-45's Voidisk M-00418 with ID f7901cb5-657d-4fd0-b16b-6302dcfcc1a3. Voidisk M-00418 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 11:11:53] Hopper has accepted a battle request from olibot-45. Hopper's Trojo M-00913 with ID 0306a98a-232b-4e11-8654-d6b71468c056 versus olibot-45's Voidisk M-00418 with ID f7901cb5-657d-4fd0-b16b-6302dcfcc1a3. The wager is collect.
+[2022/08/06 11:12:12] Hopper built a GREEDISK with ID 4d3d9466-1eec-49c8-8d15-4e47ad52553e

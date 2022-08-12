@@ -83,3 +83,82 @@ Loser bot gets destroyed by winner for EXP..
 [1659264639136] Hexxy1 has accepted a battle request from Kurreo. Hexxy1's Buddy & Lila M-00659 with ID 18de362c-7611-4e1e-b2ed-9613fb9a5da6 versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is destroy.
 [1659264695345] Hexxy1 played minigame doll with difficulty Hard and level Exquisite. The reward was x54 Machine Parts.
 [1659264817751] Hexxy1 played minigame date with difficulty Normal and level Ransom Blue. The reward was x12 Machine Parts.
+[2022/08/06 11:46:18] Hexxy1 collected their daily rewards.
+[2022/08/06 11:47:34] Hexxy1 played minigame claw with difficulty Normal and level 5x5. The reward was x54 Machine Parts.
+[2022/08/06 12:00:56] Hexxy1 played minigame claw with difficulty Hard and level 10x10. The reward was x38 Machine Parts.
+[2022/08/06 12:01:32] Hexxy1 played minigame claw with difficulty Hard and level 5x5. The reward was x75 Machine Parts.
+[2022/08/06 12:11:29] Hexxy1 played minigame date with difficulty Easy and level Ransom Blue. The reward was x4 Machine Parts.
+[2022/08/06 12:14:41] Hexxy1 played minigame date with difficulty Easy and level Greedisk. The reward was x0 Machine Parts.
+[2022/08/06 12:16:32] Hexxy1 played minigame date with difficulty Easy and level Constant. The reward was x11 Machine Parts.
+[2022/08/06 12:18:29] Hexxy1 played minigame date with difficulty Easy and level Compactisk. The reward was x8 Machine Parts.
+[2022/08/06 12:19:50] Hexxy1 built a GREEDISK with ID a0266b85-5263-4144-913b-1cf8dd6b04ec
+[2022/08/06 12:20:04] Hexxy1 built a RANSOM BLUE with ID db939504-d729-4ee8-abc6-5f529737854e
+[2022/08/06 12:20:07] Hexxy1 built a VOIDISK with ID 1670b5ea-b2cf-4b92-b266-44d2fe2475dc
+[2022/08/06 12:20:43] Hexxy1 built a BOSTROM with ID da21097d-fb6d-4255-b721-ee38b77fede8
+[2022/08/06 12:21:42] Hexxy1 switched changed chips to firewall for Voidisk M-01790 with ID 1670b5ea-b2cf-4b92-b266-44d2fe2475dc.
+[2022/08/06 12:22:28] Hexxy1 battled their Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 against olibot-44's Memnesia M-00413 with ID cee09a50-fe22-41cb-a931-dc1488448f8e. Dungware M-00927 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:22:28] Hexxy1 has accepted a battle request from olibot-44. Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0 versus olibot-44's Memnesia M-00413 with ID cee09a50-fe22-41cb-a931-dc1488448f8e. The wager is collect.
+[2022/08/06 12:28:47] Hexxy1 battled their Memnesia M-00413 with ID cee09a50-fe22-41cb-a931-dc1488448f8e against olibot-64's Memnesia M-00584 with ID acfbcc87-15ea-4a7d-b8af-7b7e3f244192. Memnesia M-00413 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:28:48] Hexxy1 has accepted a battle request from olibot-64. Hexxy1's Memnesia M-00413 with ID cee09a50-fe22-41cb-a931-dc1488448f8e versus olibot-64's Memnesia M-00584 with ID acfbcc87-15ea-4a7d-b8af-7b7e3f244192. The wager is destroy.
+[2022/08/06 14:20:20] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Ransom Blue M-01924 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 14:20:20] Hexxy1 is battle training with Professor Diriski. Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 14:20:36] Hexxy1 switched changed chips to power for Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e.
+[2022/08/06 14:21:32] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Ransom Blue M-01924 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 14:21:32] Hexxy1 is battle training with Professor Diriski. Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 14:22:23] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Ransom Blue M-01924 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 14:22:24] Hexxy1 is battle training with Professor Diriski. Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 14:23:09] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Ransom Blue M-01924 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 14:23:09] Hexxy1 is battle training with Professor Diriski. Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 14:25:22] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-01924 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 14:25:23] Hexxy1 is battle training with Professor Diriski. Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 23:07:26] Hexxy1 battled their Voidisk M-01790 with ID 1670b5ea-b2cf-4b92-b266-44d2fe2475dc against olibot-5's Compactisk M-00071 with ID 7a763139-6c4c-4e04-9839-36e6bbbd64b0. Voidisk M-01790 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 23:07:28] Hexxy1 has accepted a battle request from olibot-5. Hexxy1's Voidisk M-01790 with ID 1670b5ea-b2cf-4b92-b266-44d2fe2475dc versus olibot-5's Compactisk M-00071 with ID 7a763139-6c4c-4e04-9839-36e6bbbd64b0. The wager is damage.
+[2022/08/06 23:09:05] Hexxy1 battled their Bostrom M-06469 with ID da21097d-fb6d-4255-b721-ee38b77fede8 against olibot-56's Constant M-00510 with ID 90211ff1-e3cb-4dbf-a07c-4b67a24b67dc. Bostrom M-06469 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:09:06] Hexxy1 has accepted a battle request from olibot-56. Hexxy1's Bostrom M-06469 with ID da21097d-fb6d-4255-b721-ee38b77fede8 versus olibot-56's Constant M-00510 with ID 90211ff1-e3cb-4dbf-a07c-4b67a24b67dc. The wager is damage.
+[2022/08/06 23:10:52] Hexxy1 battled their Memnesia M-00413 with ID cee09a50-fe22-41cb-a931-dc1488448f8e against olibot-40's Compactisk M-00424 with ID fcdc8d9d-2fef-49d7-ac22-47787d0a61fb. Compactisk M-00424 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 23:10:53] Hexxy1 has accepted a battle request from olibot-40. Hexxy1's Memnesia M-00413 with ID cee09a50-fe22-41cb-a931-dc1488448f8e versus olibot-40's Compactisk M-00424 with ID fcdc8d9d-2fef-49d7-ac22-47787d0a61fb. The wager is destroy.
+[2022/08/06 23:11:55] Hexxy1 battled their Voidisk M-01790 with ID 1670b5ea-b2cf-4b92-b266-44d2fe2475dc against olibot-2's Ransom Blue M-00041 with ID afc2f8fd-dc58-42c8-a0d0-11c1f207fc29. Voidisk M-01790 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 23:11:55] Hexxy1 has accepted a battle request from olibot-2. Hexxy1's Voidisk M-01790 with ID 1670b5ea-b2cf-4b92-b266-44d2fe2475dc versus olibot-2's Ransom Blue M-00041 with ID afc2f8fd-dc58-42c8-a0d0-11c1f207fc29. The wager is damage.
+[2022/08/06 23:12:41] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against olibot-36's Dungware M-00338 with ID 8d6ae8ae-e16a-4b2d-9800-3c7fdf7cab4a. Memnesia M-00881 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 23:12:41] Hexxy1 has accepted a battle request from olibot-36. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus olibot-36's Dungware M-00338 with ID 8d6ae8ae-e16a-4b2d-9800-3c7fdf7cab4a. The wager is destroy.
+[2022/08/06 23:14:06] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-19's Trojo M-00191 with ID 282bfbd7-159d-477e-aff6-61df2586c904. Ransom Blue M-01924 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:14:07] Hexxy1 has accepted a battle request from olibot-19. Hexxy1's Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e versus olibot-19's Trojo M-00191 with ID 282bfbd7-159d-477e-aff6-61df2586c904. The wager is damage.
+[2022/08/07 00:59:28] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against olibot-78's Buddy & Lila M-00714 with ID 8a434df7-8287-4893-8b1c-8d1a71a042c8. Memnesia M-00881 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 00:59:29] Hexxy1 has accepted a battle request from olibot-78. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus olibot-78's Buddy & Lila M-00714 with ID 8a434df7-8287-4893-8b1c-8d1a71a042c8. The wager is destroy.
+[2022/08/07 01:00:38] Hexxy1 battled their Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c against olibot-38's Ramselle M-00375 with ID 25820310-b0cf-43e1-87d6-9bc974ca4ad0. Memnesia M-00881 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 01:00:39] Hexxy1 has accepted a battle request from olibot-38. Hexxy1's Memnesia M-00881 with ID e0937fea-4d00-49b1-8ab7-18547edb792c versus olibot-38's Ramselle M-00375 with ID 25820310-b0cf-43e1-87d6-9bc974ca4ad0. The wager is destroy.
+[2022/08/07 01:04:17] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-38's Bostrom M-00360 with ID 2f0c30a9-942e-409f-a9f8-3a642b365559. Bostrom M-00360 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 01:07:07] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-38's Voidisk M-00360 with ID 117a11a1-60d7-4967-8c19-1ecb8b2a622c. Ransom Blue M-01924 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 01:08:10] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-38's Bostrom M-00360 with ID 2f0c30a9-942e-409f-a9f8-3a642b365559. Ransom Blue M-01924 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 01:09:13] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-38's Bostrom M-00360 with ID 2f0c30a9-942e-409f-a9f8-3a642b365559. Bostrom M-00360 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 01:09:41] Hexxy1 rebuilt their destroyed RANSOM BLUE with ID db939504-d729-4ee8-abc6-5f529737854e for 234 parts and 0 energy.
+[2022/08/07 01:10:27] Hexxy1 switched changed chips to lifespan for Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e.
+[2022/08/07 01:12:41] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-98's Ramselle M-00915 with ID 108fafe3-ad33-4103-9804-7bd271dd7840. Ramselle M-00915 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 01:13:03] Hexxy1 rebuilt their destroyed RANSOM BLUE with ID db939504-d729-4ee8-abc6-5f529737854e for 234 parts and 0 energy.
+[2022/08/07 01:14:10] Hexxy1 battled their Ransom Blue M-01924 with ID db939504-d729-4ee8-abc6-5f529737854e against olibot-99's Dungware M-00924 with ID 047d325a-8498-4185-b0a4-6ea730e4d07a. Dungware M-00924 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 01:28:55] Hexxy1 played minigame claw with difficulty Easy and level 5x5. The reward was x20 Machine Parts.
+[2022/08/07 01:29:38] Hexxy1 played minigame doll with difficulty Hard and level Exquisite. The reward was x45 Machine Parts.
+[2022/08/07 01:46:07] Hexxy1 played minigame doll with difficulty Hard and level Exquisite. The reward was x36 Machine Parts.

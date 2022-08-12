@@ -242,10 +242,6 @@ module.exports = {
                     await utils.user.pause(false);
                     return;
                 }
-                if(!await utils.dbBots.cancelRequests) {
-                    await utils.user.pause(false);
-                    return;  
-                }
                 await interaction.editReply({ 
                     content: `Your bot is now listed on the market! If you change your mind, use \`/market withdraw\``, 
                     components: [], 

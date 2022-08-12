@@ -195,7 +195,8 @@ module.exports = class dbBots
             return false;
         }    
 
-        bot.owner_username = newName || "market";
+        if(bot.owner_username != "market")
+            await this.cancelRequests(interaction, botID);
 
         // Apply achievements
         if(!market) {
@@ -206,6 +207,8 @@ module.exports = class dbBots
                 await dbAchievements.editAchievement(interaction, user.username, "Antique Collector", bot.bot_type);    
         }
 
+        bot.owner_username = newName || "market";
+        
         await bot.save();
 
         return true;

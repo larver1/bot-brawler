@@ -40,3 +40,52 @@ Loser bot gets collected by winner..
 [1659268820872] mega gyarados battled their Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c against olibot-95's Voidisk M-00888 with ID a22d9359-aa4b-4a25-a935-e7f48cd7077c. Voidisk M-00141 is the winner!
 Loser bot gets destroyed by winner for EXP..
 [1659268821504] mega gyarados has accepted a battle request from olibot-95. mega gyarados's Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c versus olibot-95's Voidisk M-00888 with ID a22d9359-aa4b-4a25-a935-e7f48cd7077c. The wager is destroy.
+[2022/08/06 12:41:41] mega gyarados switched changed chips to viral for Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c.
+[2022/08/06 12:42:28] mega gyarados battled their Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c against olibot-27's Trojo M-00258 with ID 766d26ba-678e-4939-a442-8ef60715845c. Trojo M-00258 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:42:29] mega gyarados has accepted a battle request from olibot-27. mega gyarados's Voidisk M-00141 with ID a9b47b88-8b71-4dd5-886f-d136bb4bd96c versus olibot-27's Trojo M-00258 with ID 766d26ba-678e-4939-a442-8ef60715845c. The wager is collect.
+[2022/08/06 12:44:09] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against olibot-7's Bostrom M-00098 with ID b86e4f26-dbde-4dde-8eaf-f8b2aa9ea524. Ransom Blue M-00995 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:44:10] mega gyarados has accepted a battle request from olibot-7. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus olibot-7's Bostrom M-00098 with ID b86e4f26-dbde-4dde-8eaf-f8b2aa9ea524. The wager is damage.
+[2022/08/06 12:44:19] mega gyarados collected their daily rewards.
+[2022/08/06 12:45:25] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Ransom Blue M-00995 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:45:26] mega gyarados is battle training with Professor Diriski. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 12:46:44] mega gyarados played minigame xo with difficulty Easy and level Regular. The reward was x15 Machine Parts.
+[2022/08/06 12:48:01] mega gyarados switched changed chips to balanced for Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e.
+[2022/08/06 12:49:05] mega gyarados battled their Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e against olibot-20's Constant M-00197 with ID a4ce56ba-db43-4534-ae4c-76d4151e79e9. Ramselle M-00762 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:49:06] mega gyarados has accepted a battle request from olibot-20. mega gyarados's Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e versus olibot-20's Constant M-00197 with ID a4ce56ba-db43-4534-ae4c-76d4151e79e9. The wager is damage.
+[2022/08/06 12:50:26] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00995 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:50:27] mega gyarados is battle training with Professor Diriski. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 12:51:21] mega gyarados battled their Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 12:51:22] mega gyarados is battle training with Professor Diriski. mega gyarados's Ransom Blue M-00995 with ID 0a1d21cc-bb0c-4de5-a5bd-37d82b02ac2b versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 12:52:57] mega gyarados battled their Ramselle M-00921 with ID 63dee0de-d9d3-49e0-8fb9-c7dfe4480576 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Ramselle M-00921 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:52:58] mega gyarados is battle training with Professor Diriski. mega gyarados's Ramselle M-00921 with ID 63dee0de-d9d3-49e0-8fb9-c7dfe4480576 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 12:53:48] mega gyarados battled their Ramselle M-00921 with ID 63dee0de-d9d3-49e0-8fb9-c7dfe4480576 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Ramselle M-00921 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:53:48] mega gyarados is battle training with Professor Diriski. mega gyarados's Ramselle M-00921 with ID 63dee0de-d9d3-49e0-8fb9-c7dfe4480576 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 12:55:17] mega gyarados battled their Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e against olibot-42's Voidisk M-00395 with ID 7debd10f-a92f-421d-a6eb-989398ec786c. Ramselle M-00762 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:55:17] mega gyarados has accepted a battle request from olibot-42. mega gyarados's Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e versus olibot-42's Voidisk M-00395 with ID 7debd10f-a92f-421d-a6eb-989398ec786c. The wager is damage.
+[2022/08/06 12:56:00] mega gyarados built a RAMSELLE with ID bf941709-b04d-4cf7-9741-5e144bbe161b
+[2022/08/06 12:56:10] mega gyarados built a COMPACTISK with ID 5874e3ad-3ee5-4e55-97fe-4759ae19fa1e
+[2022/08/06 12:56:20] mega gyarados built a BUDDY & LILA with ID 10106ff8-ac85-447f-bb5e-2aeb0fc90dd5
+[2022/08/06 12:56:32] mega gyarados built a BOSTROM with ID 0fa3c403-fad0-4549-9cf0-61388e161069
+[2022/08/06 12:57:38] mega gyarados battled their Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e against olibot-73's Ransom Blue M-00697 with ID 5a3b8a12-70f5-4d8c-bdb5-1839f19a3b3b. Ramselle M-00762 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:57:39] mega gyarados has accepted a battle request from olibot-73. mega gyarados's Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e versus olibot-73's Ransom Blue M-00697 with ID 5a3b8a12-70f5-4d8c-bdb5-1839f19a3b3b. The wager is destroy.
+[2022/08/06 12:58:48] mega gyarados switched changed chips to balanced for Buddy & Lila M-01805 with ID 10106ff8-ac85-447f-bb5e-2aeb0fc90dd5.
+[2022/08/06 12:59:28] mega gyarados battled their Buddy & Lila M-01805 with ID 10106ff8-ac85-447f-bb5e-2aeb0fc90dd5 against olibot-54's Constant M-00487 with ID 6cca936d-912f-4f8b-a2e4-de63a63f41ca. Buddy & Lila M-01805 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-01805 gained power due to their ability..
+[2022/08/06 12:59:29] mega gyarados has accepted a battle request from olibot-54. mega gyarados's Buddy & Lila M-01805 with ID 10106ff8-ac85-447f-bb5e-2aeb0fc90dd5 versus olibot-54's Constant M-00487 with ID 6cca936d-912f-4f8b-a2e4-de63a63f41ca. The wager is collect.
+[2022/08/06 13:01:58] mega gyarados played minigame date with difficulty Normal and level Ransom Blue. The reward was x0 Machine Parts.
+[2022/08/07 03:06:53] mega gyarados battled their Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e against olibot-3's Ransom Blue M-00061 with ID a9543133-d469-40ef-bca5-f83cdc9c6d08. Ramselle M-00762 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 03:06:53] mega gyarados has accepted a battle request from olibot-3. mega gyarados's Ramselle M-00762 with ID 72e1c608-3481-4bc2-8971-30b22663848e versus olibot-3's Ransom Blue M-00061 with ID a9543133-d469-40ef-bca5-f83cdc9c6d08. The wager is destroy.

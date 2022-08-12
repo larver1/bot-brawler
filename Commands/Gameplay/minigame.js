@@ -148,6 +148,7 @@ module.exports = {
         finishedEvent.once('finished', async (info) => {        
 
             const minutesDiff = parseInt(Math.abs(Date.now() - utils.user.minigame) / 60000);
+            info.parts = Math.ceil(info.parts);
 
             // Only give parts if it has been 10 minutes
             if(minutesDiff < 10) {

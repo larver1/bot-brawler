@@ -31,6 +31,7 @@ module.exports = class ErrorHandler
 
     static async handle(interaction, error) {
         consola.error(error);
+        console.trace();
         return interaction.editReply({ 
             embeds: [
                 new sampleEmbed(interaction)

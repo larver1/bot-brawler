@@ -439,3 +439,230 @@ Loser bot gets collected by winner.
 Ramselle M-00014 gained firewall due to their ability..
 [1659298424577] eku7 listed Bostrom on the market with ID a982f3cc-01b3-45aa-9f90-7be25e310755 with offer of 1.
 [1659298442147] eku7 listed Greedisk on the market with ID d917692f-bda7-44e1-9261-1cdba04434ab with offer of 1.
+[2022/08/06 13:22:25] eku7 collected their daily rewards.
+[2022/08/06 13:24:23] eku7 battled their Bostrom M-00001 with ID fbc27da0-81ec-4ef7-9504-ab36b235ae36 against olibot-92's Compactisk M-00874 with ID eecca95a-0b35-499f-a744-0ab21543b9ba. Bostrom M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:24:24] eku7 has accepted a battle request from olibot-92. eku7's Bostrom M-00001 with ID fbc27da0-81ec-4ef7-9504-ab36b235ae36 versus olibot-92's Compactisk M-00874 with ID eecca95a-0b35-499f-a744-0ab21543b9ba. The wager is destroy.
+[2022/08/06 13:28:02] eku7 switched changed chips to power for Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5.
+[2022/08/06 13:28:41] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-66's Bostrom M-00623 with ID 24daff0c-0532-401f-8069-7ea60a92a9b0. Dungware M-00935 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 13:28:42] eku7 has accepted a battle request from olibot-66. eku7's Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 versus olibot-66's Bostrom M-00623 with ID 24daff0c-0532-401f-8069-7ea60a92a9b0. The wager is damage.
+[2022/08/06 14:27:54] eku7 battled their Buddy & Lila M-00001 with ID 605a593d-7545-4967-a80c-1d35d33c3954 against JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f. Constant M-00460 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 14:27:54] eku7 server battle accepted by JustVibing. eku7's Buddy & Lila M-00001 with ID 605a593d-7545-4967-a80c-1d35d33c3954 versus JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f. The wager is friendly.
+[2022/08/06 14:28:12] eku7 server battle ignored by JustVibing. eku7's Buddy & Lila M-00001 with ID 605a593d-7545-4967-a80c-1d35d33c3954 versus JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f. The wager is friendly.
+[2022/08/06 14:29:46] eku7 battled their Buddy & Lila M-00001 with ID 605a593d-7545-4967-a80c-1d35d33c3954 against olibot-1's Buddy & Lila M-00027 with ID 15e50683-3711-43f6-9a74-f1e7af75fd30. Buddy & Lila M-00027 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00027 gained lifespan due to their ability..
+[2022/08/06 14:32:48] eku7 bought Ramselle from the market with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b for 5000.
+[2022/08/06 14:43:35] eku7 played minigame claw with difficulty Hard and level 7x7. The reward was x0 Machine Parts.
+[2022/08/06 14:45:22] eku7 has sent a friend request to fiukewhfkje.
+[2022/08/06 14:46:11] eku7 is now friends with JustVibing.
+[2022/08/06 14:47:55] eku7 switched changed chips to viral for Compactisk M-00001 with ID 8056e25e-fa71-41c0-934f-0aafc46469ec.
+[2022/08/06 14:48:40] eku7 battled their Compactisk M-00001 with ID 8056e25e-fa71-41c0-934f-0aafc46469ec against olibot-19's Memnesia M-00029 with ID 1efd19da-9a06-4c61-b619-bdaeac7bdd0b. Memnesia M-00029 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 14:48:41] eku7 has accepted a battle request from olibot-19. eku7's Compactisk M-00001 with ID 8056e25e-fa71-41c0-934f-0aafc46469ec versus olibot-19's Memnesia M-00029 with ID 1efd19da-9a06-4c61-b619-bdaeac7bdd0b. The wager is destroy.
+[2022/08/06 14:49:30] eku7 rebuilt their destroyed RAMSELLE with ID 41ce1855-b13e-4eed-9558-0a1838f978c8 for 14 parts and 0 energy.
+[2022/08/06 14:49:39] eku7 rebuilt their destroyed COMPACTISK with ID 8056e25e-fa71-41c0-934f-0aafc46469ec for 14 parts and 0 energy.
+[2022/08/06 14:53:08] eku7 has rejected a battle request from olibot-35. eku7's Bostrom M-00001 with ID fbc27da0-81ec-4ef7-9504-ab36b235ae36 versus olibot-35's Dungware M-00314 with ID a67ac1c7-87dc-4ba4-9a9f-96219d15e525. The wager is destroy.
+[2022/08/06 14:54:56] eku7 switched changed chips to power for Buddy & Lila M-00001 with ID be21c488-3a8a-43f4-8fdb-13d88b2eedc0.
+[2022/08/06 14:55:34] eku7 battled their Buddy & Lila M-00001 with ID be21c488-3a8a-43f4-8fdb-13d88b2eedc0 against olibot-49's Greedisk M-00473 with ID 4de6a2b7-0355-4a95-81ad-2ff7a53eb8aa. Buddy & Lila M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00001 gained power due to their ability..
+[2022/08/06 14:55:35] eku7 has accepted a battle request from olibot-49. eku7's Buddy & Lila M-00001 with ID be21c488-3a8a-43f4-8fdb-13d88b2eedc0 versus olibot-49's Greedisk M-00473 with ID 4de6a2b7-0355-4a95-81ad-2ff7a53eb8aa. The wager is destroy.
+[2022/08/06 14:57:12] eku7 switched changed chips to viral for Voidisk M-00001 with ID 6186cb56-e4b7-4d6c-a1a9-48cf631fb73a.
+[2022/08/06 14:58:06] eku7 battled their Voidisk M-00001 with ID 6186cb56-e4b7-4d6c-a1a9-48cf631fb73a against olibot-63's Greedisk M-00592 with ID 09f13555-f278-4a25-974b-52d3ad64cddc. Greedisk M-00592 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00592 gets extra EXP due to their ability..
+[2022/08/06 14:58:07] eku7 has accepted a battle request from olibot-63. eku7's Voidisk M-00001 with ID 6186cb56-e4b7-4d6c-a1a9-48cf631fb73a versus olibot-63's Greedisk M-00592 with ID 09f13555-f278-4a25-974b-52d3ad64cddc. The wager is destroy.
+[2022/08/06 14:59:46] eku7 has rejected a battle request from olibot-46. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus olibot-46's Bostrom M-00440 with ID 10b58fa2-2107-4680-b900-443e9c4c3e3f. The wager is collect.
+[2022/08/06 15:00:15] eku7 has rejected a battle request from olibot-33. eku7's Memnesia M-00001 with ID 8433ccbc-8d24-43cb-803f-ac409667d213 versus olibot-33's Memnesia M-00319 with ID 24fffb3b-1362-4889-aeba-df5fca93920e. The wager is collect.
+[2022/08/06 15:01:55] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-47's Greedisk M-00460 with ID f20997c6-80f3-48b4-b21f-c9dfccdad304. Dungware M-00935 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:01:56] eku7 has accepted a battle request from olibot-47. eku7's Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 versus olibot-47's Greedisk M-00460 with ID f20997c6-80f3-48b4-b21f-c9dfccdad304. The wager is damage.
+[2022/08/06 15:03:17] eku7 has rejected a battle request from olibot-53. eku7's Buddy & Lila M-00001 with ID 605a593d-7545-4967-a80c-1d35d33c3954 versus olibot-53's Voidisk M-00509 with ID d96c65d2-a761-43fd-8521-0f1323918e2f. The wager is collect.
+[2022/08/06 15:04:35] eku7 has rejected a battle request from olibot-33. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus olibot-33's Trojo M-00311 with ID a028cf25-48cc-4839-9425-570101f9cbd6. The wager is collect.
+[2022/08/06 15:07:03] eku7 switched changed chips to viral for Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0.
+[2022/08/06 15:07:51] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-45's Trojo M-00424 with ID 39a36d16-4e97-4812-9b01-dce2f7680c53. Dungware M-00001 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:07:52] eku7 has accepted a battle request from olibot-45. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus olibot-45's Trojo M-00424 with ID 39a36d16-4e97-4812-9b01-dce2f7680c53. The wager is damage.
+[2022/08/06 15:10:51] eku7 has rejected a battle request from olibot-7. eku7's Ramselle M-00001 with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b versus olibot-7's Memnesia M-00088 with ID f4a4689d-6ea4-4bbd-b662-cbd514f13399. The wager is damage.
+[2022/08/06 15:11:31] eku7 switched changed chips to power for Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058.
+[2022/08/06 15:12:08] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-37's Buddy & Lila M-00351 with ID 60b41e1e-4f0a-42e2-a23e-cc53b4af7693. Greedisk M-00001 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00001 gets extra EXP due to their ability..
+[2022/08/06 15:12:09] eku7 has accepted a battle request from olibot-37. eku7's Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 versus olibot-37's Buddy & Lila M-00351 with ID 60b41e1e-4f0a-42e2-a23e-cc53b4af7693. The wager is damage.
+[2022/08/06 15:14:05] eku7 switched changed chips to viral for Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5.
+[2022/08/06 15:14:42] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-91's Greedisk M-00853 with ID c58a71ae-532d-4f36-8f8a-cddb3ba808ea. Dungware M-00935 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:14:43] eku7 has accepted a battle request from olibot-91. eku7's Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 versus olibot-91's Greedisk M-00853 with ID c58a71ae-532d-4f36-8f8a-cddb3ba808ea. The wager is damage.
+[2022/08/06 15:15:31] eku7 has rejected a battle request from olibot-54. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus olibot-54's Buddy & Lila M-00499 with ID f92cb836-bc88-48c7-a2b2-de5976b4db35. The wager is collect.
+[2022/08/06 15:20:28] eku7 switched changed chips to power for Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e.
+[2022/08/06 15:21:09] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-16's Trojo M-00165 with ID 08a0d8cf-42bc-49c0-880b-08bab35eeec8. Constant M-00004 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:21:09] eku7 has accepted a battle request from olibot-16. eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e versus olibot-16's Trojo M-00165 with ID 08a0d8cf-42bc-49c0-880b-08bab35eeec8. The wager is destroy.
+[2022/08/06 15:22:26] eku7 has rejected a battle request from olibot-47. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus olibot-47's Voidisk M-00442 with ID 15096b97-deb7-4e23-b702-b8cfafcdc1ce. The wager is damage.
+[2022/08/06 15:23:16] eku7 has rejected a battle request from olibot-23. eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e versus olibot-23's Constant M-00213 with ID ef55b69e-2751-48bc-850d-a2a5766070d3. The wager is collect.
+[2022/08/06 15:24:46] eku7 has rejected a battle request from olibot-37. eku7's Buddy & Lila M-00001 with ID 605a593d-7545-4967-a80c-1d35d33c3954 versus olibot-37's Voidisk M-00348 with ID 1af179e8-e5ab-4b5e-9048-564c0cb02ed1. The wager is destroy.
+[2022/08/06 15:26:44] eku7 switched changed chips to power for Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058.
+[2022/08/06 15:27:23] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-57's Compactisk M-00591 with ID 43805f4c-d28a-4ad5-8e87-7eccd0e9a94e. Compactisk M-00591 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:27:24] eku7 has accepted a battle request from olibot-57. eku7's Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 versus olibot-57's Compactisk M-00591 with ID 43805f4c-d28a-4ad5-8e87-7eccd0e9a94e. The wager is destroy.
+[2022/08/06 15:28:17] eku7 rebuilt their destroyed GREEDISK with ID 0649d785-f28c-43ea-af7b-87e24adef058 for 64 parts and 0 energy.
+[2022/08/06 15:28:25] eku7 rebuilt their destroyed VOIDISK with ID 6186cb56-e4b7-4d6c-a1a9-48cf631fb73a for 32 parts and 0 energy.
+[2022/08/06 15:38:45] eku7 played minigame slots with difficulty Hard and level 3 Rows. The reward was x0 Machine Parts.
+[2022/08/06 15:41:17] eku7 has rejected a battle request from olibot-6. eku7's Trojo M-00002 with ID 14afcabd-d1de-4cac-a1a3-a72c7a795602 versus olibot-6's Buddy & Lila M-00069 with ID b75a32f2-054f-41b2-a7d4-4ecb486719c5. The wager is collect.
+[2022/08/06 15:44:23] eku7 switched changed chips to power for Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5.
+[2022/08/06 15:45:03] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-21's Ransom Blue M-00220 with ID 44b80449-55f1-49f3-a6c5-598e31b06c11. Dungware M-00935 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:45:04] eku7 has accepted a battle request from olibot-21. eku7's Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 versus olibot-21's Ransom Blue M-00220 with ID 44b80449-55f1-49f3-a6c5-598e31b06c11. The wager is collect.
+[2022/08/06 15:46:13] eku7 has rejected a battle request from olibot-26. eku7's Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb versus olibot-26's Constant M-00239 with ID 60470d80-6b41-4eff-aba3-cad81371dc59. The wager is collect.
+[2022/08/06 15:51:26] eku7 switched changed chips to viral for Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb.
+[2022/08/06 15:52:58] eku7 battled their Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb against olibot-69's Ramselle M-00643 with ID 780e298b-6243-432b-b331-cc2a8740a397. Ransom Blue M-00002 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:59:06] eku7 switched changed chips to firewall for Compactisk M-00001 with ID 8056e25e-fa71-41c0-934f-0aafc46469ec.
+[2022/08/06 16:00:28] eku7 battled their Compactisk M-00001 with ID 8056e25e-fa71-41c0-934f-0aafc46469ec against olibot-42's Memnesia M-00388 with ID 07810bdf-b0b4-4c26-b568-ddd24dd31680. Compactisk M-00001 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 16:06:32] eku7 switched changed chips to power for Memnesia M-00001 with ID 8433ccbc-8d24-43cb-803f-ac409667d213.
+[2022/08/06 16:07:27] eku7 battled their Memnesia M-00001 with ID 8433ccbc-8d24-43cb-803f-ac409667d213 against olibot-33's Ramselle M-00324 with ID 10292c97-a0b6-4afa-9f29-4aa27bc4628f. Memnesia M-00001 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 16:11:29] eku7 battled their Memnesia M-00001 with ID 8433ccbc-8d24-43cb-803f-ac409667d213 against olibot-44's Memnesia M-00408 with ID 77c42b8c-8eca-439a-8022-97031febe977. Memnesia M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:13:59] eku7 built a RANSOM BLUE with ID 9395d28c-08e1-4ee5-aec4-627a9693869b
+[2022/08/06 16:14:10] eku7 built a RAMSELLE with ID 9ab6be31-edb0-4b87-a91f-92e7929a51bb
+[2022/08/06 16:14:19] eku7 built a RANSOM BLUE with ID 4a382adb-d531-472d-a96a-438a0eee5d95
+[2022/08/06 16:14:28] eku7 built a BOSTROM with ID a504bbc8-c570-4d70-84f3-b3a4499df05a
+[2022/08/06 16:16:46] eku7 listed Ransom Blue on the market with ID 4a382adb-d531-472d-a96a-438a0eee5d95 with offer of 1.
+[2022/08/06 16:16:57] eku7 listed Ransom Blue on the market with ID 9395d28c-08e1-4ee5-aec4-627a9693869b with offer of 1.
+[2022/08/06 16:17:06] eku7 listed Ramselle on the market with ID 9ab6be31-edb0-4b87-a91f-92e7929a51bb with offer of 1.
+[2022/08/06 16:17:15] eku7 listed Bostrom on the market with ID a504bbc8-c570-4d70-84f3-b3a4499df05a with offer of 1.
+[2022/08/06 16:19:52] eku7 played minigame slots with difficulty Normal and level 3 Rows. The reward was x0 Machine Parts.
+[2022/08/06 17:01:27] eku7 switched changed chips to viral for Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb.
+[2022/08/06 17:02:45] eku7 battled their Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb against olibot-5's Memnesia M-00064 with ID 9e211df0-af61-4f9b-9744-459efd8a469c. Ransom Blue M-00002 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:13:53] eku7 has rejected a battle request from olibot-14. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus olibot-14's Compactisk M-00175 with ID 62a36b4b-ca83-412c-a259-0e3fd68f583d. The wager is destroy.
+[2022/08/06 17:14:39] eku7 switched changed chips to power for Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e.
+[2022/08/06 17:15:25] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-74's Dungware M-00689 with ID 381f668b-5cf4-4be0-8603-64a817f82a56. Dungware M-00689 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:15:26] eku7 has accepted a battle request from olibot-74. eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e versus olibot-74's Dungware M-00689 with ID 381f668b-5cf4-4be0-8603-64a817f82a56. The wager is damage.
+[2022/08/06 17:16:22] eku7 has rejected a battle request from olibot-75. eku7's Buddy & Lila M-00001 with ID be21c488-3a8a-43f4-8fdb-13d88b2eedc0 versus olibot-75's Memnesia M-00677 with ID c1090533-ca2d-449a-819c-2475d49ed1fc. The wager is collect.
+[2022/08/06 17:17:18] eku7 has rejected a battle request from olibot-16. eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e versus olibot-16's Bostrom M-00162 with ID ca75bd6b-b886-4b32-ac77-5beaa6cb90e6. The wager is collect.
+[2022/08/06 17:19:35] eku7 switched changed chips to power for Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058.
+[2022/08/06 17:20:11] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-44's Trojo M-00409 with ID 0b17f972-840d-4c5d-b000-2a5e034f3911. Greedisk M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00001 gets extra EXP due to their ability..
+[2022/08/06 17:20:12] eku7 has accepted a battle request from olibot-44. eku7's Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 versus olibot-44's Trojo M-00409 with ID 0b17f972-840d-4c5d-b000-2a5e034f3911. The wager is destroy.
+[2022/08/06 17:24:04] eku7 played minigame claw with difficulty Normal and level 7x7. The reward was x60 Machine Parts.
+[2022/08/06 17:25:08] eku7 played minigame claw with difficulty Normal and level 7x7. The reward was x75 Machine Parts.
+[2022/08/06 17:26:31] eku7 switched changed chips to power for Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5.
+[2022/08/06 17:27:35] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-22's Memnesia M-00233 with ID 222eac04-fe84-4afc-8701-b5cee371b0ed. Dungware M-00935 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:31:35] eku7 has rejected a battle request from olibot-32. eku7's Bostrom M-00001 with ID fbc27da0-81ec-4ef7-9504-ab36b235ae36 versus olibot-32's Ransom Blue M-00315 with ID 9dcb348b-5d30-4b0a-a336-af97cb202bc4. The wager is destroy.
+[2022/08/06 17:32:47] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-63's Constant M-00567 with ID 5d9f1318-abc5-4229-9be6-ab64cc95fb0f. Dungware M-00935 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:33:48] eku7 switched changed chips to power for Memnesia M-00001 with ID 8433ccbc-8d24-43cb-803f-ac409667d213.
+[2022/08/06 17:34:45] eku7 battled their Memnesia M-00001 with ID 8433ccbc-8d24-43cb-803f-ac409667d213 against olibot-2's Greedisk M-00038 with ID 2b6eb776-e1f0-431f-af33-afa038abb1d7. Memnesia M-00001 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:38:50] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-37's Buddy & Lila M-00352 with ID 0d2c8749-b1c5-4215-a67c-71fe0ac2aae5. Buddy & Lila M-00352 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00352 gained viral due to their ability..
+[2022/08/06 17:47:45] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-49's Ransom Blue M-00478 with ID 3dac5c57-3648-4c2c-9c4a-34dca8382191. Ransom Blue M-00478 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:51:15] eku7 battled their Ransom Blue M-00002 with ID 756f10f7-5af8-4d08-88c2-70fa7b2adfbb against olibot-49's Ransom Blue M-00478 with ID 3dac5c57-3648-4c2c-9c4a-34dca8382191. Ransom Blue M-00002 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 18:03:27] eku7 switched changed chips to power for Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5.
+[2022/08/06 18:04:42] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-42's Trojo M-00398 with ID bd746987-f1c2-48a8-9edb-f360e7c15a6d. Dungware M-00935 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:06:18] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-66's Compactisk M-00661 with ID 185ea613-0176-4420-9556-b27bea5ea81d. Dungware M-00935 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:07:15] eku7 played minigame claw with difficulty Hard and level 3x3. The reward was x27 Machine Parts.
+[2022/08/06 18:09:58] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-55's Greedisk M-00511 with ID 4fa9edae-9a1c-4ee4-b008-f9a75218cc0a. Dungware M-00935 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:11:58] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-82's Trojo M-00760 with ID c7b1b54f-31de-4d60-9954-240f603abe57. Dungware M-00935 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:13:09] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-72's Trojo M-00687 with ID 4e640a1a-e98b-495e-a93a-6017ffe5c83b. Dungware M-00935 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:14:32] eku7 battled their Dungware M-00935 with ID 06cc35ca-f94d-4772-b2ab-6ff5e2f79ac5 against olibot-44's Trojo M-00418 with ID 7e01fb12-9816-4e87-a6ff-77ba6a3bb120. Trojo M-00418 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00418 gained power due to their ability..
+[2022/08/06 18:17:52] eku7 played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/06 18:18:24] eku7 switched changed chips to power for Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e.
+[2022/08/06 18:20:47] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-69's Memnesia M-00619 with ID d9f8e1a1-f83a-4245-bea5-579eb77966c5. Constant M-00004 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:22:38] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-69's Memnesia M-00616 with ID 23136fc5-b5d4-475f-8f63-b28b95d76682. Constant M-00004 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:24:30] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-69's Memnesia M-00623 with ID 38dc700b-0621-4caa-9735-77f01966e2d0. Constant M-00004 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:25:40] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-69's Greedisk M-00648 with ID 4306b995-b067-43e7-8d12-ac1d2b67941f. Constant M-00004 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:27:12] eku7 played minigame claw with difficulty Normal and level 7x7. The reward was x50 Machine Parts.
+[2022/08/06 18:28:17] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-69's Memnesia M-00617 with ID 1e892a3a-9e46-4883-a30a-2836ff382509. Memnesia M-00617 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:29:00] eku7 rebuilt their destroyed CONSTANT with ID 90a479c9-6e10-4197-8b37-1187831da07e for 706 parts and 0 energy.
+[2022/08/06 18:30:08] eku7 played minigame claw with difficulty Easy and level 7x7. The reward was x15 Machine Parts.
+[2022/08/06 18:44:52] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-69's Buddy & Lila M-00644 with ID df1976d8-8917-4834-8a8c-b44dda02f2bd. Buddy & Lila M-00644 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00644 gained lifespan due to their ability..
+[2022/08/06 18:47:24] eku7 played minigame date with difficulty Normal and level Ransom Blue. The reward was x10 Machine Parts.
+[2022/08/06 18:49:42] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-4's Trojo M-00063 with ID 4d7af8d8-de42-4407-aa5c-a0f3fc20e5d5. Constant M-00004 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 18:51:12] eku7 battled their Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e against olibot-5's Memnesia M-00066 with ID 3c3bc644-3344-453f-b804-e8106bb95363. Memnesia M-00066 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 18:57:01] eku7 switched changed chips to viral for Trojo M-00002 with ID 14afcabd-d1de-4cac-a1a3-a72c7a795602.
+[2022/08/06 18:59:35] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-33's Ramselle M-00334 with ID 2b5a897e-74c4-4456-94ec-8587d0f87bca. Greedisk M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00001 gets extra EXP due to their ability..
+[2022/08/06 19:03:18] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-77's Greedisk M-00712 with ID 47829a4e-b3f1-4823-9072-588913e25a5b. Greedisk M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00001 gets extra EXP due to their ability..
+[2022/08/06 19:19:31] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-28's Ramselle M-00275 with ID 6ae69a8a-d445-4ba8-b88d-b772cfeef330. Greedisk M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00001 gets extra EXP due to their ability..
+[2022/08/06 19:21:18] eku7 battled their Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058 against olibot-28's Memnesia M-00273 with ID 30cb5145-d349-4a86-9e50-7b3c7b490028. Greedisk M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00001 gets extra EXP due to their ability..
+[2022/08/06 19:37:48] eku7 switched changed chips to viral for Ramselle M-00001 with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b.
+[2022/08/06 19:40:14] eku7 battled their Ramselle M-00001 with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b against olibot-6's Bostrom M-00086 with ID 41f0e643-f9bc-4837-8a2b-608eb5eb1f3f. Bostrom M-00086 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:18:03] eku7 completed their daily tasks!
+[2022/08/06 20:20:28] eku7 switched changed chips to power for Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0.
+[2022/08/06 20:21:34] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Dungware M-00001 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 20:21:35] eku7 is battle training with Professor Diriski. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 20:22:31] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Dungware M-00001 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 20:22:31] eku7 is battle training with Professor Diriski. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 20:22:58] eku7 switched changed chips to viral for Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0.
+[2022/08/06 20:23:45] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Dungware M-00001 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 20:23:46] eku7 is battle training with Professor Diriski. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 20:24:33] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 20:24:34] eku7 is battle training with Professor Diriski. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 20:25:24] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Dungware M-00001 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 20:25:24] eku7 is battle training with Professor Diriski. eku7's Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 20:25:44] eku7 switched changed chips to power for Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0.
+[2022/08/06 20:27:02] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-50's Compactisk M-00528 with ID 7b1eab1f-48ba-4ea9-be89-28f8e796e17f. Dungware M-00001 is the winner!
+Destruction was prevented due to Compactisk M-00528's ability!.
+[2022/08/06 20:29:03] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-50's Memnesia M-00455 with ID 40b4fe92-7dc3-4bd7-bda5-46851048b70e. Memnesia M-00455 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:29:17] eku7 rebuilt their destroyed DUNGWARE with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 for 174 parts and 0 energy.
+[2022/08/06 20:29:24] eku7 rebuilt their destroyed RAMSELLE with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b for 10 parts and 0 energy.
+[2022/08/06 20:29:43] eku7 played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 20:30:39] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-69's Trojo M-00654 with ID 3641979c-5112-42cf-b845-c5013e86629d. Dungware M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:31:57] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-55's Compactisk M-00569 with ID d7d4dcb3-3b02-47d2-a92e-ac56b5795330. Compactisk M-00569 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:32:08] eku7 rebuilt their destroyed DUNGWARE with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 for 304 parts and 0 energy.
+[2022/08/06 20:33:04] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-55's Compactisk M-00574 with ID e0aeb1e8-c14d-40fc-a069-fc8076c78747. Dungware M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:34:13] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-44's Compactisk M-00466 with ID ec252ef1-d675-490d-bcc1-93697cceafdf. Dungware M-00001 is the winner!
+Loser bot gets destroyed by winner for EXP..

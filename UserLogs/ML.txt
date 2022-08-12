@@ -511,3 +511,628 @@ Loser bot gives winner bot some EXP..
 [1659300315917] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-56's Voidisk M-00536 with ID 2215b5ca-7f06-4e6b-99ca-164ceece0f6c. Buddy & Lila M-00134 is the winner!
 Loser bot gives winner bot some EXP.
 Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 11:00:51] ML collected their daily rewards.
+[2022/08/06 11:04:57] ML played minigame claw with difficulty Easy and level 5x5. The reward was x68.5 Machine Parts.
+[2022/08/06 11:06:35] ML switched changed chips to power for Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5.
+[2022/08/06 11:07:41] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against olibot-35's Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1. Memnesia M-00349 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 11:07:42] ML has accepted a battle request from olibot-35. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus olibot-35's Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1. The wager is collect.
+[2022/08/06 11:08:56] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-85's Memnesia M-00759 with ID 0f2be7c3-bc0b-4423-9b3c-a8a48019254e. Ransom Blue M-00509 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 11:08:56] ML has accepted a battle request from olibot-85. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-85's Memnesia M-00759 with ID 0f2be7c3-bc0b-4423-9b3c-a8a48019254e. The wager is destroy.
+[2022/08/06 11:11:22] ML played minigame slots with difficulty Easy and level 5 Rows. The reward was x14 Machine Parts.
+[2022/08/06 11:12:47] ML battled their Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 against olibot-1's Ramselle M-00032 with ID 3fb47bf2-b710-462a-bdd8-62343638861f. Ramselle M-00032 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 11:12:48] ML has accepted a battle request from olibot-1. ML's Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 versus olibot-1's Ramselle M-00032 with ID 3fb47bf2-b710-462a-bdd8-62343638861f. The wager is destroy.
+[2022/08/06 11:13:28] ML switched changed chips to power for Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c.
+[2022/08/06 11:14:17] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-46's Ransom Blue M-00457 with ID eb7fb280-039c-4fb2-a6d5-c6328b08645f. Ransom Blue M-00509 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 11:14:18] ML has accepted a battle request from olibot-46. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-46's Ransom Blue M-00457 with ID eb7fb280-039c-4fb2-a6d5-c6328b08645f. The wager is damage.
+[2022/08/06 11:21:22] ML played minigame doll with difficulty Easy and level Simple. The reward was x5 Machine Parts.
+[2022/08/06 11:23:44] ML built a BUDDY & LILA with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76
+[2022/08/06 11:24:12] ML has rejected a battle request from olibot-28. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-28's Voidisk M-00285 with ID dafb7829-7c3f-4085-9ca8-1d42d22f5aa2. The wager is collect.
+[2022/08/06 11:26:56] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-29's Ramselle M-00288 with ID d27a535a-eb10-4b30-88cc-edec782ac32f. Ramselle M-00288 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 11:27:59] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-29's Ramselle M-00288 with ID d27a535a-eb10-4b30-88cc-edec782ac32f. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 11:30:30] ML played minigame date with difficulty Easy and level Compactisk. The reward was x0 Machine Parts.
+[2022/08/06 11:32:18] ML played minigame date with difficulty Easy and level Ransom Blue. The reward was x3 Machine Parts.
+[2022/08/06 11:35:05] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Buddy & Lila M-00134 is the winner!
+The winner is rewarded with some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 11:35:05] ML is battle training with Professor Diriski. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 11:35:56] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Buddy & Lila M-00134 is the winner!
+The winner is rewarded with some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 11:35:57] ML is battle training with Professor Diriski. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 11:36:48] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Memnesia M-00349 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 11:36:48] ML is battle training with Professor Diriski. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 11:37:47] ML battled their Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 11:37:47] ML is battle training with Professor Diriski. ML's Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 11:38:54] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-67's Constant M-00602 with ID 11bdbd55-aff8-4404-a475-b881498dc5c7. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 11:40:07] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. Dungware M-00929 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 11:40:09] ML has accepted a battle request from Kurreo. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is damage.
+[2022/08/06 11:40:27] ML has sent a battle request to Kurreo. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus Kurreo's Dungware M-00929 with ID 4c117e12-4242-491a-9a51-6c870aa972d6. The wager is damage.
+[2022/08/06 11:44:53] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-12's Memnesia M-00137 with ID 5cf61e8c-d1b1-47c4-953e-8e8853800409. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 11:45:54] ML battled their Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 against olibot-50's Buddy & Lila M-00454 with ID acf1c6ba-2034-4413-b230-73e4ba0f3a6e. Ramselle M-00353 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00353 gained firewall due to their ability..
+[2022/08/06 11:45:54] ML has accepted a battle request from olibot-50. ML's Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 versus olibot-50's Buddy & Lila M-00454 with ID acf1c6ba-2034-4413-b230-73e4ba0f3a6e. The wager is collect.
+[2022/08/06 11:45:59] ML completed their daily tasks!
+[2022/08/06 11:46:51] ML played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[2022/08/06 11:48:53] ML switched changed chips to balanced for Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a.
+[2022/08/06 11:49:34] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-23's Bostrom M-00226 with ID c2f31c39-b2c4-4029-a366-4437968e3835. Ransom Blue M-00509 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 11:49:35] ML has accepted a battle request from olibot-23. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-23's Bostrom M-00226 with ID c2f31c39-b2c4-4029-a366-4437968e3835. The wager is destroy.
+[2022/08/06 11:54:29] ML played minigame slots with difficulty Easy and level 3 Rows. The reward was x5 Machine Parts.
+[2022/08/06 11:58:17] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-75's Trojo M-00708 with ID 511f69bd-92fd-4c01-a668-29d45f9692c4. Trojo M-00708 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 11:59:13] ML switched changed chips to viral for Voidisk M-00115 with ID 575e23dd-5fe4-48a5-a9d2-f02aaba473d4.
+[2022/08/06 12:00:24] ML battled their Voidisk M-00115 with ID 575e23dd-5fe4-48a5-a9d2-f02aaba473d4 against olibot-11's Bostrom M-00127 with ID 058d2bc5-13c0-4fdc-b537-509daa795e77. Bostrom M-00127 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:08:19] ML battled their Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 against olibot-7's Greedisk M-00075 with ID d124fbb5-c872-401a-a5d2-9a6a7a2847cd. Ramselle M-00353 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:08:20] ML has accepted a battle request from olibot-7. ML's Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 versus olibot-7's Greedisk M-00075 with ID d124fbb5-c872-401a-a5d2-9a6a7a2847cd. The wager is damage.
+[2022/08/06 12:09:23] ML battled their Buddy & Lila M-00454 with ID acf1c6ba-2034-4413-b230-73e4ba0f3a6e against olibot-56's Trojo M-00533 with ID 1daa3c13-4e52-47ed-bae4-ec5893035daf. Trojo M-00533 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00533 gained power due to their ability..
+[2022/08/06 12:09:53] ML rebuilt their destroyed DUNGWARE with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 for 60 parts and 0 energy.
+[2022/08/06 12:10:47] ML played minigame slots with difficulty Normal and level 7 Rows. The reward was x10 Machine Parts.
+[2022/08/06 12:11:48] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-62's Bostrom M-00587 with ID d7b93986-0c76-4e09-97d5-974621f61de1. Bostrom M-00587 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:11:49] ML has accepted a battle request from olibot-62. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-62's Bostrom M-00587 with ID d7b93986-0c76-4e09-97d5-974621f61de1. The wager is destroy.
+[2022/08/06 12:13:05] ML played minigame date with difficulty Normal and level Ransom Blue. The reward was x8 Machine Parts.
+[2022/08/06 12:14:10] ML battled their Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 against olibot-44's Greedisk M-00426 with ID 46376c2d-484f-4697-91e3-8044c467a6d7. Greedisk M-00426 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00426 gets extra EXP due to their ability..
+[2022/08/06 12:14:23] ML rebuilt their destroyed DUNGWARE with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 for 60 parts and 0 energy.
+[2022/08/06 12:14:31] ML switched changed chips to balanced for Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5.
+[2022/08/06 12:15:48] ML battled their Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 against olibot-72's Greedisk M-00673 with ID 9c3eb3c2-f5c3-4cc3-be30-dc77f240dbba. Dungware M-00056 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:16:56] ML played minigame date with difficulty Hard and level Greedisk. The reward was x18 Machine Parts.
+[2022/08/06 12:18:06] ML battled their Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 against olibot-25's Compactisk M-00298 with ID 02e64548-9677-42e9-af01-5f4da68a13d7. Buddy & Lila M-01801 is the winner!
+Destruction was prevented due to Compactisk M-00298's ability!
+Buddy & Lila M-01801 gained lifespan due to their ability..
+[2022/08/06 12:18:07] ML has accepted a battle request from olibot-25. ML's Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 versus olibot-25's Compactisk M-00298 with ID 02e64548-9677-42e9-af01-5f4da68a13d7. The wager is destroy.
+[2022/08/06 12:20:37] ML battled their Ramselle M-00353 with ID aa3d0952-7c3e-449d-984d-18a169c63cb1 against olibot-62's Constant M-00903 with ID 6d6dfd6c-5d2d-4416-a638-be532778189f. Constant M-00903 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:22:06] ML switched changed chips to firewall for Voidisk M-00850 with ID 680c5471-b383-4b5f-adce-7133f7ab537c.
+[2022/08/06 12:23:14] ML battled their Voidisk M-00850 with ID 680c5471-b383-4b5f-adce-7133f7ab537c against olibot-66's Trojo M-00624 with ID 555e9ea5-81d7-44c9-89e8-eeeccc0a3fee. Trojo M-00624 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:24:07] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-66's Ramselle M-00626 with ID 693e9de9-2f52-4854-bc27-4c0d9ce12e55. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 12:24:07] ML has accepted a battle request from olibot-66. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-66's Ramselle M-00626 with ID 693e9de9-2f52-4854-bc27-4c0d9ce12e55. The wager is damage.
+[2022/08/06 12:25:24] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Memnesia M-00349 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 12:25:25] ML is battle training with Professor Diriski. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 12:26:44] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Greedisk M-00863 with ID 0ec5a7bb-e209-41a8-ae0b-25389e0b7fe7. Greedisk M-00863 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00863 gets extra EXP due to their ability..
+[2022/08/06 12:27:43] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-72's Memnesia M-00650 with ID 0d3fe79f-b610-4288-bb0a-5bb5b4f8da6e. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 12:28:44] ML battled their Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 against olibot-85's Memnesia M-00751 with ID fd4db297-1e63-416a-8a65-16206e9225b7. Buddy & Lila M-01801 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-01801 gained viral due to their ability..
+[2022/08/06 12:28:44] ML has accepted a battle request from olibot-85. ML's Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 versus olibot-85's Memnesia M-00751 with ID fd4db297-1e63-416a-8a65-16206e9225b7. The wager is damage.
+[2022/08/06 12:30:22] ML battled their Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 against olibot-35's Trojo M-00327 with ID 294a432c-5a2e-4ee3-8846-fd7045a80de1. Dungware M-00056 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:30:23] ML has accepted a battle request from olibot-35. ML's Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 versus olibot-35's Trojo M-00327 with ID 294a432c-5a2e-4ee3-8846-fd7045a80de1. The wager is damage.
+[2022/08/06 12:31:19] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-71's Compactisk M-00708 with ID 32b04138-be8e-4a14-adbf-0902d9994126. Compactisk M-00708 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:32:10] ML battled their Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 against olibot-28's Trojo M-00268 with ID 473cdf20-edfe-4983-b3d6-53ffb1fe61b4. Buddy & Lila M-01801 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01801 gained viral due to their ability..
+[2022/08/06 12:32:12] ML has accepted a battle request from olibot-28. ML's Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 versus olibot-28's Trojo M-00268 with ID 473cdf20-edfe-4983-b3d6-53ffb1fe61b4. The wager is destroy.
+[2022/08/06 12:33:16] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-61's Compactisk M-00636 with ID 29fba2c0-5eb1-41a0-b624-77bc47ef7d3b. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 12:34:13] ML played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[2022/08/06 12:34:48] ML built a MEMNESIA with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5
+[2022/08/06 12:35:07] ML switched changed chips to power for Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5.
+[2022/08/06 12:35:38] ML has rejected a battle request from olibot-0. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-0's Buddy & Lila M-00012 with ID eea1b208-517a-402d-9f7f-9a3ad9aa0fb0. The wager is collect.
+[2022/08/06 12:36:50] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-17's Memnesia M-00178 with ID c35aead8-72e1-4c00-ba0a-3279d6a10f39. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 12:38:35] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-88's Ramselle M-00831 with ID d6a83083-6170-4459-9204-c9d47e366ec6. Buddy & Lila M-00134 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 12:38:36] ML has accepted a battle request from olibot-88. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-88's Ramselle M-00831 with ID d6a83083-6170-4459-9204-c9d47e366ec6. The wager is destroy.
+[2022/08/06 12:42:54] ML played minigame date with difficulty Easy and level Compactisk. The reward was x10 Machine Parts.
+[2022/08/06 12:43:03] ML battled their Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 against olibot-1's Greedisk M-00025 with ID 765e88e0-937f-4dd0-bd11-1304c970a468. Greedisk M-00025 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00025 gets extra EXP due to their ability..
+[2022/08/06 12:43:04] ML has accepted a battle request from olibot-1. ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 versus olibot-1's Greedisk M-00025 with ID 765e88e0-937f-4dd0-bd11-1304c970a468. The wager is damage.
+[2022/08/06 12:44:35] ML played minigame slots with difficulty Easy and level 7 Rows. The reward was x12 Machine Parts.
+[2022/08/06 12:45:47] ML battled their Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 against olibot-28's Buddy & Lila M-00261 with ID 279895d2-599e-485c-9d5c-39a4e6bfd66b. Buddy & Lila M-00261 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00261 gained viral due to their ability..
+[2022/08/06 12:45:48] ML has accepted a battle request from olibot-28. ML's Buddy & Lila M-01801 with ID cc3a8421-b147-41ef-a3f8-69731b9e5e76 versus olibot-28's Buddy & Lila M-00261 with ID 279895d2-599e-485c-9d5c-39a4e6bfd66b. The wager is collect.
+[2022/08/06 12:47:03] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-82's Bostrom M-00786 with ID 275185f1-92b7-4266-b110-dd1143c087d8. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 12:48:05] ML played minigame claw with difficulty Normal and level 5x5. The reward was x16 Machine Parts.
+[2022/08/06 12:48:41] ML is now friends with JustVibing.
+[2022/08/06 12:49:57] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-13's Buddy & Lila M-00123 with ID 46be70fc-e5f8-45c6-a907-e041216bf0af. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 12:51:20] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against olibot-55's Dungware M-00505 with ID 5024339a-ac81-48a3-b8bc-4c2b6e53952c. Memnesia M-00349 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:51:20] ML has accepted a battle request from olibot-55. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus olibot-55's Dungware M-00505 with ID 5024339a-ac81-48a3-b8bc-4c2b6e53952c. The wager is destroy.
+[2022/08/06 12:52:10] ML played minigame claw with difficulty Normal and level 5x5. The reward was x64 Machine Parts.
+[2022/08/06 12:53:36] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-55's Memnesia M-00498 with ID c945877d-250d-4fd0-9eca-406d7ccf4104. Buddy & Lila M-00134 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 12:54:36] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-61's Greedisk M-00566 with ID 030f2f6f-0bc3-4fad-9251-e2bf6817b985. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 12:56:14] ML battled their Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 against olibot-63's Bostrom M-00595 with ID 7003af95-4160-4bb0-9924-3a6d56200ed2. Dungware M-00056 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:56:15] ML has accepted a battle request from olibot-63. ML's Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 versus olibot-63's Bostrom M-00595 with ID 7003af95-4160-4bb0-9924-3a6d56200ed2. The wager is damage.
+[2022/08/06 12:57:13] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-58's Buddy & Lila M-00541 with ID 0b03b953-ddae-4f19-b3b7-30982f9f7e07. Buddy & Lila M-00134 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 12:58:30] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-72's Bostrom M-00689 with ID 1aa09559-ba29-4e00-9da1-d2f715043987. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 12:59:42] ML played minigame claw with difficulty Normal and level 5x5. The reward was x85 Machine Parts.
+[2022/08/06 13:01:16] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-14's Memnesia M-00148 with ID b20a6e8c-4e1a-4ef1-a730-ec98dac56761. Memnesia M-00148 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:01:28] ML rebuilt their destroyed BUDDY & LILA with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d for 2844 parts and 0 energy.
+[2022/08/06 13:02:33] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-41's Greedisk M-00407 with ID 15be1f4c-3e08-492f-a431-9890834dae9c. Greedisk M-00407 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00407 gets extra EXP due to their ability..
+[2022/08/06 13:03:52] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-42's Trojo M-00402 with ID 78114366-11cf-4fd5-85dc-41ce3bdaa0b3. Trojo M-00402 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00402 gained power due to their ability..
+[2022/08/06 13:05:14] ML played minigame claw with difficulty Normal and level 5x5. The reward was x70 Machine Parts.
+[2022/08/06 13:06:24] ML battled their Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 against olibot-95's Constant M-00851 with ID 59cabd55-5299-4a4d-8fec-9c5f4ebdde3d. Constant M-00851 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:06:25] ML has accepted a battle request from olibot-95. ML's Dungware M-00056 with ID 2189b70e-f1b3-41f9-8d06-f4ed08f523f5 versus olibot-95's Constant M-00851 with ID 59cabd55-5299-4a4d-8fec-9c5f4ebdde3d. The wager is collect.
+[2022/08/06 13:08:10] ML played minigame claw with difficulty Normal and level 5x5. The reward was x108 Machine Parts.
+[2022/08/06 13:09:14] ML played minigame date with difficulty Normal and level Constant. The reward was x16 Machine Parts.
+[2022/08/06 13:10:02] ML battled their Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 against olibot-65's Greedisk M-00600 with ID ff2177b0-b830-4081-9a49-0fe55de88e6b. Memnesia M-01876 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 13:10:03] ML has accepted a battle request from olibot-65. ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 versus olibot-65's Greedisk M-00600 with ID ff2177b0-b830-4081-9a49-0fe55de88e6b. The wager is damage.
+[2022/08/06 13:11:00] ML played minigame claw with difficulty Normal and level 5x5. The reward was x64 Machine Parts.
+[2022/08/06 13:11:54] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against olibot-4's Memnesia M-00055 with ID f90b8a06-b5e2-445f-9fbd-0ed983242476. Memnesia M-00055 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:11:55] ML has accepted a battle request from olibot-4. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus olibot-4's Memnesia M-00055 with ID f90b8a06-b5e2-445f-9fbd-0ed983242476. The wager is destroy.
+[2022/08/06 13:12:19] ML rebuilt their destroyed MEMNESIA with ID 5074e67a-09aa-4f00-a752-97f48554443c for 114 parts and 0 energy.
+[2022/08/06 13:13:04] ML played minigame xo with difficulty Normal and level Regular. The reward was x30 Machine Parts.
+[2022/08/06 13:15:52] ML battled their Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c against olibot-32's Constant M-00298 with ID 45b98b58-c9ec-4c39-98f4-87ccd1a0149e. Constant M-00298 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:15:53] ML has accepted a battle request from olibot-32. ML's Memnesia M-00349 with ID 5074e67a-09aa-4f00-a752-97f48554443c versus olibot-32's Constant M-00298 with ID 45b98b58-c9ec-4c39-98f4-87ccd1a0149e. The wager is destroy.
+[2022/08/06 13:16:59] ML battled their Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 against olibot-61's Greedisk M-00570 with ID 9e04ef5c-53fb-4fc7-906e-f49caf52f803. Memnesia M-01876 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:17:00] ML has accepted a battle request from olibot-61. ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 versus olibot-61's Greedisk M-00570 with ID 9e04ef5c-53fb-4fc7-906e-f49caf52f803. The wager is collect.
+[2022/08/06 13:21:26] ML played minigame claw with difficulty Normal and level 5x5. The reward was x125 Machine Parts.
+[2022/08/06 13:25:51] ML battled their Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 against olibot-7's Ransom Blue M-00099 with ID d4ac5e10-6d75-4d91-ab05-2aa6f48e3c25. Memnesia M-01876 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 13:25:52] ML has accepted a battle request from olibot-7. ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 versus olibot-7's Ransom Blue M-00099 with ID d4ac5e10-6d75-4d91-ab05-2aa6f48e3c25. The wager is damage.
+[2022/08/06 13:30:57] ML battled their Greedisk M-00570 with ID 9e04ef5c-53fb-4fc7-906e-f49caf52f803 against olibot-69's Memnesia M-00625 with ID e14ab0b6-a008-42a4-a9fa-a01c276503fe. Memnesia M-00625 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:30:58] ML has accepted a battle request from olibot-69. ML's Greedisk M-00570 with ID 9e04ef5c-53fb-4fc7-906e-f49caf52f803 versus olibot-69's Memnesia M-00625 with ID e14ab0b6-a008-42a4-a9fa-a01c276503fe. The wager is destroy.
+[2022/08/06 13:33:18] ML played minigame claw with difficulty Normal and level 5x5. The reward was x110 Machine Parts.
+[2022/08/06 13:38:45] ML battled their Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 against olibot-56's Bostrom M-00531 with ID 43cf1d1b-ceab-4970-9be1-3e73f8a7cd75. Memnesia M-01876 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 13:38:46] ML has accepted a battle request from olibot-56. ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 versus olibot-56's Bostrom M-00531 with ID 43cf1d1b-ceab-4970-9be1-3e73f8a7cd75. The wager is damage.
+[2022/08/06 13:40:46] ML played minigame claw with difficulty Normal and level 5x5. The reward was x78 Machine Parts.
+[2022/08/06 13:44:57] ML played minigame claw with difficulty Normal and level 5x5. The reward was x89 Machine Parts.
+[2022/08/06 13:49:04] ML battled their Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 against olibot-72's Ransom Blue M-00696 with ID 9e090b97-6c59-4489-b9bf-2a8db354aa7b. Ransom Blue M-00696 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:49:04] ML has accepted a battle request from olibot-72. ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5 versus olibot-72's Ransom Blue M-00696 with ID 9e090b97-6c59-4489-b9bf-2a8db354aa7b. The wager is destroy.
+[2022/08/06 13:55:37] ML played minigame claw with difficulty Normal and level 5x5. The reward was x50 Machine Parts.
+[2022/08/06 13:57:59] ML bought Greedisk from the market with ID d917692f-bda7-44e1-9261-1cdba04434ab for 1.
+[2022/08/06 13:58:16] ML listed Greedisk on the market with ID d917692f-bda7-44e1-9261-1cdba04434ab with offer of 150.
+[2022/08/06 13:59:45] ML bought Ramselle from the market with ID ee2273d7-e13c-4e12-905b-e981a0474a65 for 15.
+[2022/08/06 14:02:13] ML played minigame claw with difficulty Normal and level 5x5. The reward was x47 Machine Parts.
+[2022/08/06 14:02:38] ML listed Ramselle on the market with ID ee2273d7-e13c-4e12-905b-e981a0474a65 with offer of 149.
+[2022/08/06 14:05:34] ML played minigame claw with difficulty Normal and level 7x7. The reward was x100 Machine Parts.
+[2022/08/06 14:06:34] ML played minigame claw with difficulty Normal and level 7x7. The reward was x89 Machine Parts.
+[2022/08/06 14:17:46] ML played minigame claw with difficulty Normal and level 5x5. The reward was x70 Machine Parts.
+[2022/08/06 14:18:05] ML rebuilt their destroyed BUDDY & LILA with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d for 1996 parts and 0 energy.
+[2022/08/06 14:19:01] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-57's Trojo M-00545 with ID 375d7814-2f61-4ff0-9cf3-c3f6a5b14703. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 14:33:52] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-67's Dungware M-00613 with ID 90f7edf4-cff6-47f8-ad3a-45c0f6e29d9c. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 14:36:23] ML switched changed chips to lifespan for Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d.
+[2022/08/06 14:37:33] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-1's Memnesia M-00038 with ID 77425aeb-ac3f-4da7-9974-9c6278f40022. Memnesia M-00038 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 14:39:16] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-73's Dungware M-00675 with ID 4061b0e4-3634-436a-b50c-c86140698bdf. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 14:39:32] ML switched changed chips to firewall for Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d.
+[2022/08/06 14:41:25] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-74's Bostrom M-00707 with ID 1f5be8ae-9268-48b0-88c9-b2c1311d39c2. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 14:42:30] ML played minigame claw with difficulty Normal and level 7x7. The reward was x45 Machine Parts.
+[2022/08/06 14:42:46] ML bought Ramselle from the market with ID 4df8da52-091c-4d50-8daa-b5ef733d254f for 15.
+[2022/08/06 14:43:39] ML bought Greedisk from the market with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 for 14.
+[2022/08/06 14:44:32] ML bought Memnesia from the market with ID 3c676de2-1319-4f63-9269-231a5f276e16 for 15.
+[2022/08/06 14:45:54] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-52's Compactisk M-00543 with ID a439e3e8-bf9f-4bc8-81c8-17c1e6138598. Compactisk M-00543 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 14:47:00] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-57's Buddy & Lila M-00532 with ID 71cbd126-eb30-4f92-81a1-e74cff970b2b. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 14:47:05] ML is now friends with fiukewhfkje.
+[2022/08/06 14:49:13] ML battled their Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f against olibot-57's Memnesia M-00515 with ID 8c7fdad2-c4f7-4a39-a87c-09b65dbf4aa7. Memnesia M-00515 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 14:49:14] ML has accepted a battle request from olibot-57. ML's Ramselle M-00351 with ID 4df8da52-091c-4d50-8daa-b5ef733d254f versus olibot-57's Memnesia M-00515 with ID 8c7fdad2-c4f7-4a39-a87c-09b65dbf4aa7. The wager is collect.
+[2022/08/06 14:53:08] ML bought Constant from the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a for 15.
+[2022/08/06 14:53:19] ML listed Constant on the market with ID f53d6ad5-41c0-4377-ae5f-55904a67f36a with offer of 350.
+[2022/08/06 14:55:29] ML battled their Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 against olibot-37's Constant M-00345 with ID 8daefc81-29f0-408b-9f19-b2e9c96c22a3. Greedisk M-00321 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00321 gets extra EXP due to their ability.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 14:55:30] ML has accepted a battle request from olibot-37. ML's Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 versus olibot-37's Constant M-00345 with ID 8daefc81-29f0-408b-9f19-b2e9c96c22a3. The wager is damage.
+[2022/08/06 14:56:28] ML played minigame doll with difficulty Normal and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/06 14:56:42] ML rebuilt their destroyed MEMNESIA with ID 5074e67a-09aa-4f00-a752-97f48554443c for 114 parts and 0 energy.
+[2022/08/06 14:57:50] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-68's Memnesia M-00614 with ID df2d7bdd-fa0b-41bd-9f67-a44499b7608e. Buddy & Lila M-00134 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 14:57:51] ML has accepted a battle request from olibot-68. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-68's Memnesia M-00614 with ID df2d7bdd-fa0b-41bd-9f67-a44499b7608e. The wager is destroy.
+[2022/08/06 15:00:28] ML switched changed chips to balanced for Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d.
+[2022/08/06 15:01:30] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-64's Constant M-00583 with ID 2946d87f-586f-44df-9513-ffe6c6abecda. Constant M-00583 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:06:47] ML played minigame slots with difficulty Normal and level 3 Rows. The reward was x6 Machine Parts.
+[2022/08/06 15:07:54] ML battled their Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 against olibot-49's Ransom Blue M-00484 with ID 7e67c24b-79bd-4b41-a618-48ff3b872142. Memnesia M-00221 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:07:55] ML has accepted a battle request from olibot-49. ML's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 versus olibot-49's Ransom Blue M-00484 with ID 7e67c24b-79bd-4b41-a618-48ff3b872142. The wager is damage.
+[2022/08/06 15:08:30] ML listed Memnesia on the market with ID 5074e67a-09aa-4f00-a752-97f48554443c with offer of 2500.
+[2022/08/06 15:08:44] ML withdrew Greedisk from the market with ID d917692f-bda7-44e1-9261-1cdba04434ab.
+[2022/08/06 15:08:47] ML withdrew Ramselle from the market with ID ee2273d7-e13c-4e12-905b-e981a0474a65.
+[2022/08/06 15:09:10] ML listed Greedisk on the market with ID d917692f-bda7-44e1-9261-1cdba04434ab with offer of 200.
+[2022/08/06 15:09:23] ML listed Ramselle on the market with ID ee2273d7-e13c-4e12-905b-e981a0474a65 with offer of 220.
+[2022/08/06 15:10:23] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-18's Compactisk M-00221 with ID 47da3a95-51e4-4e6a-956c-0841088b1aa4. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 15:11:58] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-15's Trojo M-00159 with ID 6bcdd9d1-1f72-4e6a-8e61-4763c7ba9252. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 15:26:50] ML played minigame slots with difficulty Normal and level 3 Rows. The reward was x14 Machine Parts.
+[2022/08/06 15:29:12] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-18's Greedisk M-00183 with ID 7f0f5080-fb3c-4f31-9cc1-7fdb1d45fcea. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 15:32:17] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-18's Dungware M-00160 with ID 60528e9e-f1d8-4f9f-9118-33e69d17d967. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 15:34:27] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-71's Dungware M-00657 with ID 148e9cef-cd6c-45b8-9826-24f361192b9f. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 15:37:18] ML played minigame slots with difficulty Easy and level 3 Rows. The reward was x5 Machine Parts.
+[2022/08/06 15:40:35] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-94's Constant M-00840 with ID 5871b66a-2ce4-43cb-b88a-c9fabb047ded. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 15:43:17] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-71's Memnesia M-00644 with ID 3823a754-602a-4729-b54a-f5da0f3b2481. Memnesia M-00644 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:44:08] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-81's Constant M-00719 with ID 180b07dc-925c-4d77-aeff-d89defd1829d. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 15:45:14] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-81's Buddy & Lila M-00748 with ID 186b9265-c677-4ba7-a0c6-95a9be31a9ef. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 15:47:00] ML has rejected a battle request from olibot-2. ML's Greedisk M-00321 with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 versus olibot-2's Ramselle M-00039 with ID d5d7780a-68f9-4c59-81e1-f6937c52ea8d. The wager is collect.
+[2022/08/06 15:49:07] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-72's Voidisk M-00688 with ID 48b61879-f677-4b59-8575-521a49a895f4. Voidisk M-00688 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:49:22] ML built a TROJO with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9
+[2022/08/06 15:50:23] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Trojo M-00850 with ID 3d7f6420-6a44-4ec6-995e-64d0c6024403. Trojo M-00850 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:51:17] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Trojo M-00850 with ID 3d7f6420-6a44-4ec6-995e-64d0c6024403. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 15:52:08] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Trojo M-00850 with ID 3d7f6420-6a44-4ec6-995e-64d0c6024403. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 15:53:05] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Ransom Blue M-00914 with ID 06911042-30bf-463b-8be7-86260ecf796e. Ransom Blue M-00914 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:53:56] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Trojo M-00850 with ID 3d7f6420-6a44-4ec6-995e-64d0c6024403. Trojo M-00850 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 15:56:56] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-92's Trojo M-00850 with ID 3d7f6420-6a44-4ec6-995e-64d0c6024403. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 15:57:30] ML has rejected a battle request from olibot-39. ML's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 versus olibot-39's Voidisk M-00367 with ID 943cd9ef-8e20-4087-9c10-b3bc90d108d0. The wager is collect.
+[2022/08/06 15:58:06] ML played minigame slots with difficulty Normal and level 3 Rows. The reward was x26 Machine Parts.
+[2022/08/06 15:59:03] ML battled their Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 against olibot-14's Voidisk M-00148 with ID c2198511-f149-4951-8fc2-bad0f52013da. Memnesia M-00221 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 15:59:04] ML has accepted a battle request from olibot-14. ML's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 versus olibot-14's Voidisk M-00148 with ID c2198511-f149-4951-8fc2-bad0f52013da. The wager is damage.
+[2022/08/06 15:59:20] ML has sent a friend request to EeveeUwU.
+[2022/08/06 16:00:53] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-18's Constant M-00171 with ID 0b546e78-76e3-4f92-8603-7522ad05b909. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 16:04:49] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-63's Buddy & Lila M-00583 with ID ce785807-7c1b-4185-a54b-544d16843ba7. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 16:08:01] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-84's Dungware M-00773 with ID 37f0adc1-6ab9-4f8b-9132-76c0db604260. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 16:09:48] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-94's Compactisk M-00889 with ID 11d447d5-1525-4faa-9c5b-fb41f23841da. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 16:11:03] ML built a BUDDY & LILA with ID 38973a17-bb21-45f0-8a26-35bf48282463
+[2022/08/06 16:14:10] ML has rejected a battle request from olibot-13. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-13's Constant M-00135 with ID 9f9a0049-7733-4d42-bdd8-ab5168a1b882. The wager is damage.
+[2022/08/06 16:15:38] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-74's Dungware M-00688 with ID 58e91288-03a7-403a-b649-e838ac2026b9. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 16:17:42] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-45's Greedisk M-00437 with ID 09c44ffb-f925-45d6-b0e1-37c97d48049e. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 16:18:19] ML bought Bostrom from the market with ID 52535d39-8cf6-4a1d-a1ab-d3602bf4618f for 1.
+[2022/08/06 16:18:36] ML bought Memnesia from the market with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2 for 1.
+[2022/08/06 16:18:48] ML listed Bostrom on the market with ID 52535d39-8cf6-4a1d-a1ab-d3602bf4618f with offer of 250.
+[2022/08/06 16:19:21] ML bought Ransom Blue from the market with ID 4a382adb-d531-472d-a96a-438a0eee5d95 for 1.
+[2022/08/06 16:20:16] ML bought Ramselle from the market with ID 9ab6be31-edb0-4b87-a91f-92e7929a51bb for 1.
+[2022/08/06 16:21:08] ML bought Ransom Blue from the market with ID 9395d28c-08e1-4ee5-aec4-627a9693869b for 1.
+[2022/08/06 16:21:21] ML listed Ransom Blue on the market with ID 9395d28c-08e1-4ee5-aec4-627a9693869b with offer of 650.
+[2022/08/06 16:24:37] ML played minigame claw with difficulty Normal and level 7x7. The reward was x90 Machine Parts.
+[2022/08/06 16:28:42] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-70's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec. Trojo M-01813 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:28:43] ML has accepted a battle request from olibot-70. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-70's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec. The wager is collect.
+[2022/08/06 16:30:05] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-70's Memnesia M-00639 with ID 3155211e-d4b0-4217-9ca1-3d5791dfa21a. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/06 16:31:34] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-53's Trojo M-00502 with ID 639c06ed-b266-44c6-af53-50472d1ac8d4. Buddy & Lila M-00134 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 16:31:35] ML has accepted a battle request from olibot-53. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-53's Trojo M-00502 with ID 639c06ed-b266-44c6-af53-50472d1ac8d4. The wager is destroy.
+[2022/08/06 16:32:48] ML played minigame date with difficulty Normal and level Constant. The reward was x16 Machine Parts.
+[2022/08/06 16:34:10] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-36's Trojo M-00330 with ID 3e61863d-2692-46eb-9a26-ac4748fe3dfa. Trojo M-00330 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 16:34:10] ML has accepted a battle request from olibot-36. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-36's Trojo M-00330 with ID 3e61863d-2692-46eb-9a26-ac4748fe3dfa. The wager is damage.
+[2022/08/06 16:35:09] ML listed Greedisk on the market with ID 6fa25eac-ffea-4789-8a21-4acbb02a6704 with offer of 350.
+[2022/08/06 16:38:10] ML played minigame doll with difficulty Hard and level Fussy. The reward was x72 Machine Parts.
+[2022/08/06 16:39:49] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-99's Dungware M-00914 with ID 190548f4-4da4-45d5-bac1-476576dea9f8. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 16:41:26] ML battled their Ransom Blue M-01934 with ID 4a382adb-d531-472d-a96a-438a0eee5d95 against olibot-52's Compactisk M-00544 with ID e35cffee-8b8c-492e-8a1d-70f87efab1c0. Ransom Blue M-01934 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 16:41:27] ML has accepted a battle request from olibot-52. ML's Ransom Blue M-01934 with ID 4a382adb-d531-472d-a96a-438a0eee5d95 versus olibot-52's Compactisk M-00544 with ID e35cffee-8b8c-492e-8a1d-70f87efab1c0. The wager is damage.
+[2022/08/06 16:44:55] ML battled their Ramselle M-01817 with ID 9ab6be31-edb0-4b87-a91f-92e7929a51bb against olibot-85's Ransom Blue M-00838 with ID d54fca66-055c-4ad2-9e8f-778d3dd5ef1e. Ransom Blue M-00838 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:44:56] ML has accepted a battle request from olibot-85. ML's Ramselle M-01817 with ID 9ab6be31-edb0-4b87-a91f-92e7929a51bb versus olibot-85's Ransom Blue M-00838 with ID d54fca66-055c-4ad2-9e8f-778d3dd5ef1e. The wager is collect.
+[2022/08/06 16:46:06] ML has rejected a battle request from olibot-69. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-69's Greedisk M-00641 with ID fb0fa5f9-7edd-4a69-815d-86ded5a2b659. The wager is collect.
+[2022/08/06 16:47:40] ML played minigame doll with difficulty Normal and level Fussy. The reward was x48 Machine Parts.
+[2022/08/06 16:49:02] ML played minigame doll with difficulty Normal and level Fussy. The reward was x56 Machine Parts.
+[2022/08/06 16:49:49] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-91's Ramselle M-00857 with ID fbb23595-9aca-440e-902c-02bfd7ecd15c. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/06 16:49:50] ML has accepted a battle request from olibot-91. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-91's Ramselle M-00857 with ID fbb23595-9aca-440e-902c-02bfd7ecd15c. The wager is destroy.
+[2022/08/06 16:52:51] ML battled their Buddy & Lila M-01809 with ID 38973a17-bb21-45f0-8a26-35bf48282463 against olibot-0's Ramselle M-00016 with ID 8ca5d845-28b1-41aa-b84f-58995a2abc45. Ramselle M-00016 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:52:52] ML has accepted a battle request from olibot-0. ML's Buddy & Lila M-01809 with ID 38973a17-bb21-45f0-8a26-35bf48282463 versus olibot-0's Ramselle M-00016 with ID 8ca5d845-28b1-41aa-b84f-58995a2abc45. The wager is destroy.
+[2022/08/06 16:53:14] ML rebuilt their destroyed RANSOM BLUE with ID 6203e2af-eecb-43f1-8b00-18f50531211a for 132 parts and 0 energy.
+[2022/08/06 16:53:33] ML switched changed chips to viral for Ransom Blue M-01934 with ID 4a382adb-d531-472d-a96a-438a0eee5d95.
+[2022/08/06 16:54:41] ML battled their Ransom Blue M-01934 with ID 4a382adb-d531-472d-a96a-438a0eee5d95 against olibot-12's Bostrom M-00139 with ID 1b32e2d6-45f7-49e8-99ba-7048a3e1f209. Bostrom M-00139 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:55:46] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-98's Constant M-00890 with ID 08e9629f-3652-4f78-9aa0-52800d13e116. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 16:57:27] ML switched changed chips to balanced for Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a.
+[2022/08/06 16:58:05] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-88's Trojo M-00805 with ID 55c77402-5f91-4c12-9b10-2bc0278b9f5f. Ransom Blue M-00509 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 16:58:06] ML has accepted a battle request from olibot-88. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-88's Trojo M-00805 with ID 55c77402-5f91-4c12-9b10-2bc0278b9f5f. The wager is damage.
+[2022/08/06 17:00:06] ML has rejected a battle request from olibot-8. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-8's Ransom Blue M-00109 with ID f8ca3464-930d-4b51-8e35-c5399ac24951. The wager is destroy.
+[2022/08/06 17:00:47] ML played minigame doll with difficulty Normal and level Fussy. The reward was x80 Machine Parts.
+[2022/08/06 17:18:02] ML played minigame doll with difficulty Normal and level Fussy. The reward was x28 Machine Parts.
+[2022/08/06 17:21:37] ML battled their Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2 against olibot-80's Ransom Blue M-00789 with ID 3302f5d8-461b-416b-abe7-f95c589b9bbb. Ransom Blue M-00789 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 17:21:37] ML has accepted a battle request from olibot-80. ML's Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2 versus olibot-80's Ransom Blue M-00789 with ID 3302f5d8-461b-416b-abe7-f95c589b9bbb. The wager is damage.
+[2022/08/06 17:24:13] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-21's Buddy & Lila M-00206 with ID 5ded1ded-5ccf-4366-bc2c-424b245005db. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 17:26:52] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-71's Ramselle M-00670 with ID 0b330c87-b4d6-42aa-80a4-8f90df1c3a82. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/06 17:26:53] ML has accepted a battle request from olibot-71. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-71's Ramselle M-00670 with ID 0b330c87-b4d6-42aa-80a4-8f90df1c3a82. The wager is destroy.
+[2022/08/06 17:27:41] ML played minigame doll with difficulty Normal and level Fussy. The reward was x40 Machine Parts.
+[2022/08/06 17:29:01] ML played minigame doll with difficulty Normal and level Fussy. The reward was x56 Machine Parts.
+[2022/08/06 17:30:14] ML battled their Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec against olibot-92's Bostrom M-00887 with ID 841003c7-984a-4879-8874-290d3225dffe. Bostrom M-00668 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:30:15] ML has accepted a battle request from olibot-92. ML's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec versus olibot-92's Bostrom M-00887 with ID 841003c7-984a-4879-8874-290d3225dffe. The wager is destroy.
+[2022/08/06 17:33:10] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-0's Constant M-00009 with ID 13aa1779-6fc7-46b1-97b8-a7880288ac43. Ransom Blue M-00509 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:33:11] ML has accepted a battle request from olibot-0. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-0's Constant M-00009 with ID 13aa1779-6fc7-46b1-97b8-a7880288ac43. The wager is damage.
+[2022/08/06 17:34:39] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-71's Dungware M-00657 with ID 148e9cef-cd6c-45b8-9826-24f361192b9f. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 17:38:25] ML battled their Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec against olibot-1's Compactisk M-00025 with ID 0765cc74-f1c9-430d-bc08-03d502fef328. Bostrom M-00668 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:38:26] ML has accepted a battle request from olibot-1. ML's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec versus olibot-1's Compactisk M-00025 with ID 0765cc74-f1c9-430d-bc08-03d502fef328. The wager is destroy.
+[2022/08/06 17:39:39] ML played minigame doll with difficulty Normal and level Fussy. The reward was x80 Machine Parts.
+[2022/08/06 17:41:35] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-79's Constant M-00701 with ID 227fe069-d10a-4fd6-8acb-924fc43809de. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 17:42:40] ML switched changed chips to power for Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a.
+[2022/08/06 17:43:28] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-88's Voidisk M-00829 with ID b847385d-c903-41f3-a2a1-4f33038637f5. Ransom Blue M-00509 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:43:29] ML has accepted a battle request from olibot-88. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-88's Voidisk M-00829 with ID b847385d-c903-41f3-a2a1-4f33038637f5. The wager is destroy.
+[2022/08/06 17:45:39] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-82's Buddy & Lila M-00752 with ID 4f3a1a3c-7e5d-42ae-8188-409b2ea1f2a2. Buddy & Lila M-00752 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00752 gained firewall due to their ability..
+[2022/08/06 17:46:32] ML switched changed chips to power for Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16.
+[2022/08/06 17:47:12] ML battled their Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 against olibot-69's Constant M-00615 with ID 4d9b8b50-60bc-4ba9-855e-97068448ea3b. Constant M-00615 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:47:15] ML has accepted a battle request from olibot-69. ML's Memnesia M-00221 with ID 3c676de2-1319-4f63-9269-231a5f276e16 versus olibot-69's Constant M-00615 with ID 4d9b8b50-60bc-4ba9-855e-97068448ea3b. The wager is destroy.
+[2022/08/06 17:53:32] ML played minigame doll with difficulty Normal and level Fussy. The reward was x64 Machine Parts.
+[2022/08/06 18:03:42] ML switched changed chips to power for Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9.
+[2022/08/06 18:04:20] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-95's Greedisk M-00882 with ID 1652618c-c7fd-4aec-acfa-bd1351dde2ee. Trojo M-01813 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 18:04:21] ML has accepted a battle request from olibot-95. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-95's Greedisk M-00882 with ID 1652618c-c7fd-4aec-acfa-bd1351dde2ee. The wager is damage.
+[2022/08/06 18:04:44] ML played minigame doll with difficulty Normal and level Fussy. The reward was x72 Machine Parts.
+[2022/08/06 18:08:41] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-61's Dungware M-00551 with ID 13186f2e-aafa-429e-bf9d-c1fa65e156f9. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 18:09:48] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-75's Constant M-00657 with ID 4ccab76c-b7f1-4810-90be-2dfc7dc5b89c. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 18:13:20] ML battled their Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec against olibot-90's Ransom Blue M-00887 with ID f3fb2d01-c415-42d1-a962-c1a96f71088c. Ransom Blue M-00887 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 18:13:21] ML has accepted a battle request from olibot-90. ML's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec versus olibot-90's Ransom Blue M-00887 with ID f3fb2d01-c415-42d1-a962-c1a96f71088c. The wager is damage.
+[2022/08/06 18:15:20] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-17's Dungware M-00150 with ID 6719ddf8-a2b1-4505-9cbe-fefeb34ed10f. Ransom Blue M-00509 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 18:15:21] ML has accepted a battle request from olibot-17. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-17's Dungware M-00150 with ID 6719ddf8-a2b1-4505-9cbe-fefeb34ed10f. The wager is damage.
+[2022/08/06 18:17:22] ML played minigame doll with difficulty Normal and level Fussy. The reward was x60 Machine Parts.
+[2022/08/06 18:19:10] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-99's Buddy & Lila M-00922 with ID 4b84c760-0f9d-484a-a9fa-70d065e94696. Buddy & Lila M-00922 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00922 gained firewall due to their ability..
+[2022/08/06 18:20:33] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-96's Constant M-00865 with ID 4545ef85-cbb6-4c68-ada8-ae8f86fc8373. Constant M-00865 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 18:24:14] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-82's Ramselle M-00779 with ID 0cd9d433-81a7-4da1-9b13-23df4d53802b. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 18:25:19] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-18's Dungware M-00160 with ID 60528e9e-f1d8-4f9f-9118-33e69d17d967. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 18:26:11] ML played minigame doll with difficulty Hard and level Fussy. The reward was x66 Machine Parts.
+[2022/08/06 18:43:58] ML played minigame doll with difficulty Normal and level Fussy. The reward was x72 Machine Parts.
+[2022/08/06 19:06:43] ML played minigame doll with difficulty Normal and level Fussy. The reward was x76 Machine Parts.
+[2022/08/06 19:07:05] ML played minigame doll with difficulty Normal and level Fussy. The reward was x88 Machine Parts.
+[2022/08/06 19:16:44] ML played minigame doll with difficulty Normal and level Fussy. The reward was x68 Machine Parts.
+[2022/08/06 19:28:37] ML played minigame doll with difficulty Normal and level Fussy. The reward was x76 Machine Parts.
+[2022/08/06 19:42:27] ML played minigame doll with difficulty Normal and level Fussy. The reward was x72 Machine Parts.
+[2022/08/06 19:59:08] ML played minigame doll with difficulty Normal and level Fussy. The reward was x76 Machine Parts.
+[2022/08/06 20:10:07] ML has rejected a battle request from olibot-72. ML's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec versus olibot-72's Ramselle M-00675 with ID 32965c35-a23b-41ce-9715-9de6b6caf0f9. The wager is destroy.
+[2022/08/06 20:11:03] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-62's Buddy & Lila M-00578 with ID 09497845-ca12-456c-84bd-afed286f1e07. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 20:13:36] ML played minigame doll with difficulty Normal and level Fussy. The reward was x92 Machine Parts.
+[2022/08/06 20:27:04] ML played minigame doll with difficulty Normal and level Fussy. The reward was x64 Machine Parts.
+[2022/08/06 20:37:55] ML played minigame doll with difficulty Hard and level Fussy. The reward was x90 Machine Parts.
+[2022/08/06 20:41:10] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-97's Ransom Blue M-00960 with ID 32aedf4a-9b45-4fc6-9d45-304e40701881. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 20:45:15] ML played minigame doll with difficulty Hard and level Fussy. The reward was x72 Machine Parts.
+[2022/08/06 20:46:22] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-14's Ransom Blue M-00161 with ID 0c18a9f8-b27d-4924-9ba6-9b3365c6bbd2. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 20:47:45] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-72's Memnesia M-00653 with ID 8ec8e810-b7fc-471b-b9d4-ebfa527bdf93. Memnesia M-00653 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:48:48] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-72's Voidisk M-00688 with ID 48b61879-f677-4b59-8575-521a49a895f4. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 20:49:54] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-84's Memnesia M-00741 with ID 8b945a75-1676-4981-b4b4-27352549d23e. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained lifespan due to their ability..
+[2022/08/06 20:57:52] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-34's Trojo M-00316 with ID 200557e2-3619-4feb-9b6f-b11346e223b1. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/06 20:57:53] ML has accepted a battle request from olibot-34. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-34's Trojo M-00316 with ID 200557e2-3619-4feb-9b6f-b11346e223b1. The wager is destroy.
+[2022/08/06 21:15:25] ML played minigame doll with difficulty Hard and level Fussy. The reward was x78 Machine Parts.
+[2022/08/06 21:39:41] ML played minigame doll with difficulty Hard and level Fussy. The reward was x78 Machine Parts.
+[2022/08/06 22:02:54] ML played minigame doll with difficulty Hard and level Fussy. The reward was x102 Machine Parts.
+[2022/08/06 22:17:16] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/06 22:26:58] ML has rejected a battle request from olibot-15. ML's Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec versus olibot-15's Memnesia M-00164 with ID 0256b234-913c-4800-b638-a41a98e6ef0e. The wager is collect.
+[2022/08/06 22:32:39] ML has sent a battle request to fiukewhfkje. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15. The wager is friendly.
+[2022/08/06 22:36:40] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x54 Machine Parts.
+[2022/08/06 22:39:38] ML listed Buddy & Lila on the market with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d with offer of 12000.
+[2022/08/06 22:47:40] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 22:53:54] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-94's Ramselle M-00886 with ID bdc24d20-cf3e-4295-b482-6c2e5cf02520. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/06 22:53:55] ML has accepted a battle request from olibot-94. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-94's Ramselle M-00886 with ID bdc24d20-cf3e-4295-b482-6c2e5cf02520. The wager is destroy.
+[2022/08/06 22:54:36] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/06 22:55:56] ML battled their Bostrom M-00668 with ID 97261ec9-cdd3-45ed-ae75-2e39ca7738ec against olibot-19's Trojo M-00191 with ID 282bfbd7-159d-477e-aff6-61df2586c904. Trojo M-00191 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00191 gained power due to their ability..
+[2022/08/06 22:59:19] ML switched changed chips to viral for Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9.
+[2022/08/06 23:00:19] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-71's Compactisk M-00703 with ID 38e3202e-0a06-4d03-a842-72c6972432bf. Trojo M-01813 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:01:09] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 23:04:22] ML switched changed chips to balanced for Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9.
+[2022/08/06 23:06:03] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-6's Constant M-00081 with ID 951e4166-df32-43ae-a914-97f65c0ff91f. Trojo M-01813 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:07:37] ML switched changed chips to balanced for Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9.
+[2022/08/06 23:08:16] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-24's Compactisk M-00282 with ID bd6388e6-12c7-46e5-907a-c864061bd38c. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/06 23:08:18] ML has accepted a battle request from olibot-24. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-24's Compactisk M-00282 with ID bd6388e6-12c7-46e5-907a-c864061bd38c. The wager is destroy.
+[2022/08/06 23:11:20] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-58's Memnesia M-00518 with ID 84eba1ae-ddac-4e0b-b09e-38daabcb15fe. Trojo M-01813 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:12:58] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-76's Dungware M-00711 with ID 7f71138b-73dc-42f5-b078-76e7deae875c. Ransom Blue M-00509 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:12:59] ML has accepted a battle request from olibot-76. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-76's Dungware M-00711 with ID 7f71138b-73dc-42f5-b078-76e7deae875c. The wager is damage.
+[2022/08/06 23:16:59] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 23:19:11] ML has rejected a battle request from olibot-39. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-39's Voidisk M-00368 with ID ad030db8-0c67-4b45-9c84-65510f82d89d. The wager is collect.
+[2022/08/06 23:49:19] ML withdrew Buddy & Lila from the market with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d.
+[2022/08/06 23:53:03] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/07 00:01:33] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-40's Memnesia M-01874 with ID d7a8b554-082d-4f75-b62e-22f1920356bb. Ransom Blue M-00509 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:01:34] ML has accepted a battle request from olibot-40. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-40's Memnesia M-01874 with ID d7a8b554-082d-4f75-b62e-22f1920356bb. The wager is damage.
+[2022/08/07 00:14:38] ML battled their Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a against olibot-65's Greedisk M-00600 with ID ff2177b0-b830-4081-9a49-0fe55de88e6b. Ransom Blue M-00509 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 00:14:39] ML has accepted a battle request from olibot-65. ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a versus olibot-65's Greedisk M-00600 with ID ff2177b0-b830-4081-9a49-0fe55de88e6b. The wager is collect.
+[2022/08/07 00:15:30] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/07 00:19:52] ML battled their Greedisk M-00600 with ID ff2177b0-b830-4081-9a49-0fe55de88e6b against olibot-0's Ramselle M-00010 with ID f9ba614a-d678-4b45-9767-b1edc7f09002. Ramselle M-00010 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 00:19:52] ML has accepted a battle request from olibot-0. ML's Greedisk M-00600 with ID ff2177b0-b830-4081-9a49-0fe55de88e6b versus olibot-0's Ramselle M-00010 with ID f9ba614a-d678-4b45-9767-b1edc7f09002. The wager is destroy.
+[2022/08/07 00:25:53] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/07 00:26:01] ML has rejected a battle request from olibot-86. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-86's Voidisk M-00814 with ID 710295e3-1096-4768-99e8-21d73d49aebb. The wager is collect.
+[2022/08/07 00:28:05] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-46's Voidisk M-00433 with ID 8d8d71f4-c8cd-43f0-9b2e-8b9cb2db0bc5. Trojo M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01813 gained power due to their ability..
+[2022/08/07 00:28:06] ML has accepted a battle request from olibot-46. ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 versus olibot-46's Voidisk M-00433 with ID 8d8d71f4-c8cd-43f0-9b2e-8b9cb2db0bc5. The wager is destroy.
+[2022/08/07 00:29:53] ML battled their Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 against olibot-64's Voidisk M-00612 with ID 462fbd9a-96bd-4786-95d5-98889bbabf6d. Voidisk M-00612 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:33:51] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/07 00:43:12] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/07 00:45:04] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/07 00:45:25] ML switched changed chips to power for Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d.
+[2022/08/07 00:46:20] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Ramselle M-00447 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 00:47:18] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:49:33] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:52:10] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:53:30] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:55:24] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:56:53] ML rebuilt their destroyed TROJO with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9 for 252 parts and 0 energy.
+[2022/08/07 00:57:44] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:58:49] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:59:48] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 01:00:45] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 01:01:39] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 01:02:11] ML has rejected a battle request from olibot-40. ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d versus olibot-40's Bostrom M-00370 with ID 601e38f7-259a-4c9f-b4fb-d544737079d9. The wager is damage.
+[2022/08/07 01:21:25] ML battled their Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d against olibot-47's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80. Buddy & Lila M-00134 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 01:21:44] ML listed Ramselle on the market with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80 with offer of 1200.
+[2022/08/07 01:22:31] ML played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.

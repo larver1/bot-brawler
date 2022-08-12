@@ -181,7 +181,7 @@ module.exports = class Card {
         this.ctx.fillRect(132, 1902, 1020, 50);
 
         //Foreground bar which varies in width depending on percentage
-        this.ctx.fillStyle = 'rgba(59,165,93,1)';
+        this.ctx.fillStyle = 'rgba(88,101,242,1)';
         this.ctx.fillRect(132, 1902, Math.floor(1020 * (this.progressPercentage / 100)), 50);
     }
 

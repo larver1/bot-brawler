@@ -37,7 +37,6 @@ async function createUser(username, maxExp){
 
     for(let i = 0; i < 100; i++) {
         let bot = await BotBuilder.build(null, { bot_type: "Bostrom", item: "balanced", exp: exp }, null);
-        console.log(bot.model_no);
         //await user.createBot(bot);
         exp *= 2; 
         if(exp >= maxExp)

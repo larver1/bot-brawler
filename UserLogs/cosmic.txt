@@ -6,3 +6,246 @@ The loser lost the training match and walked away with nothing....
 [1659285056317] cosmic battled their Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Ransom Blue M-00004 is the winner!
 The loser lost the training match and walked away with nothing....
 [1659285056827] cosmic is battle training with Professor Diriski. cosmic's Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 11:32:21] cosmic played minigame claw with difficulty Easy and level 3x3. The reward was x23 Machine Parts.
+[2022/08/06 11:33:33] cosmic collected their daily rewards.
+[2022/08/06 11:43:47] cosmic built a RAMSELLE with ID e665ce6d-31a9-49a3-a606-42f706098829
+[2022/08/06 11:45:46] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Ramselle M-01813 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 11:45:47] cosmic is battle training with Professor Diriski. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 11:46:52] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Ramselle M-01813 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 11:46:53] cosmic is battle training with Professor Diriski. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 11:47:56] cosmic battled their Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Memnesia M-00891 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 11:47:56] cosmic is battle training with Professor Diriski. cosmic's Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 11:49:20] cosmic battled their Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe against olibot-26's Constant M-00237 with ID af2e6738-d7ce-4042-9927-c89b6df10f75. Memnesia M-00891 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 11:49:21] cosmic has accepted a battle request from olibot-26. cosmic's Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe versus olibot-26's Constant M-00237 with ID af2e6738-d7ce-4042-9927-c89b6df10f75. The wager is damage.
+[2022/08/06 11:50:12] cosmic battled their Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Memnesia M-00891 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 11:50:13] cosmic is battle training with Professor Diriski. cosmic's Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 11:51:01] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 11:51:03] cosmic is battle training with Professor Diriski. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 11:52:00] cosmic battled their Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe against olibot-6's Ramselle M-00070 with ID 70fbd761-c458-4daf-a6d6-d5792b750ad6. Ramselle M-00070 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 11:52:01] cosmic has accepted a battle request from olibot-6. cosmic's Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe versus olibot-6's Ramselle M-00070 with ID 70fbd761-c458-4daf-a6d6-d5792b750ad6. The wager is destroy.
+[2022/08/06 11:53:15] cosmic played minigame claw with difficulty Easy and level 3x3. The reward was x32 Machine Parts.
+[2022/08/06 11:53:28] cosmic built a TROJO with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4
+[2022/08/06 11:54:13] cosmic played minigame slots with difficulty Easy and level 3 Rows. The reward was x0 Machine Parts.
+[2022/08/06 11:55:15] cosmic played minigame doll with difficulty Easy and level Simple. The reward was x4 Machine Parts.
+[2022/08/06 11:59:06] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-47's Constant M-00437 with ID 68e38c72-9ccd-4012-a9fa-93de28317029. Ramselle M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 11:59:07] cosmic has accepted a battle request from olibot-47. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-47's Constant M-00437 with ID 68e38c72-9ccd-4012-a9fa-93de28317029. The wager is destroy.
+[2022/08/06 12:00:05] cosmic played minigame xo with difficulty Easy and level Regular. The reward was x15 Machine Parts.
+[2022/08/06 12:02:05] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-95's Constant M-00856 with ID c697cb90-c69e-4054-bce0-53e3521cfe5e. Ramselle M-01813 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-01813 gained lifespan due to their ability..
+[2022/08/06 12:02:06] cosmic has accepted a battle request from olibot-95. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-95's Constant M-00856 with ID c697cb90-c69e-4054-bce0-53e3521cfe5e. The wager is collect.
+[2022/08/06 12:08:44] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-67's Greedisk M-00620 with ID ed0570f8-86cf-4742-ba86-17d3450ed4f4. Greedisk M-00620 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00620 gets extra EXP due to their ability..
+[2022/08/06 12:08:45] cosmic has accepted a battle request from olibot-67. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-67's Greedisk M-00620 with ID ed0570f8-86cf-4742-ba86-17d3450ed4f4. The wager is destroy.
+[2022/08/06 12:10:23] cosmic played minigame xo with difficulty Easy and level Regular. The reward was x25 Machine Parts.
+[2022/08/06 12:11:04] cosmic played minigame claw with difficulty Hard and level 3x3. The reward was x21 Machine Parts.
+[2022/08/06 12:11:44] cosmic battled their Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 against olibot-87's Constant M-00769 with ID 0b8a9c77-61e1-48d6-afdd-ba1503150b9f. Trojo M-01811 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-01811 gained power due to their ability..
+[2022/08/06 12:11:45] cosmic has accepted a battle request from olibot-87. cosmic's Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 versus olibot-87's Constant M-00769 with ID 0b8a9c77-61e1-48d6-afdd-ba1503150b9f. The wager is destroy.
+[2022/08/06 12:13:15] cosmic played minigame claw with difficulty Hard and level 14x14. The reward was x75 Machine Parts.
+[2022/08/06 12:16:05] cosmic battled their Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 against olibot-11's Constant M-00123 with ID 279bc092-693f-4e1c-8dc1-81aaf938ead5. Trojo M-01811 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:16:05] cosmic has accepted a battle request from olibot-11. cosmic's Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 versus olibot-11's Constant M-00123 with ID 279bc092-693f-4e1c-8dc1-81aaf938ead5. The wager is damage.
+[2022/08/06 12:17:43] cosmic built a GREEDISK with ID 34b0ed13-3e70-4302-b580-a768b977eaca
+[2022/08/06 12:18:50] cosmic battled their Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 against olibot-50's Bostrom M-00475 with ID c100fce7-008e-4358-b7b6-5740ab7af958. Trojo M-01811 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:18:50] cosmic has accepted a battle request from olibot-50. cosmic's Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 versus olibot-50's Bostrom M-00475 with ID c100fce7-008e-4358-b7b6-5740ab7af958. The wager is damage.
+[2022/08/06 12:19:43] cosmic battled their Greedisk M-01831 with ID 34b0ed13-3e70-4302-b580-a768b977eaca against olibot-5's Constant M-00070 with ID e0d5593e-db16-4e84-9c12-d3c12ebda75c. Constant M-00070 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:19:44] cosmic has accepted a battle request from olibot-5. cosmic's Greedisk M-01831 with ID 34b0ed13-3e70-4302-b580-a768b977eaca versus olibot-5's Constant M-00070 with ID e0d5593e-db16-4e84-9c12-d3c12ebda75c. The wager is destroy.
+[2022/08/06 12:20:39] cosmic rebuilt their destroyed MEMNESIA with ID 86f966cf-ce13-4e60-868d-d313cbf215fe for 114 parts and 0 energy.
+[2022/08/06 12:21:41] cosmic battled their Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe against olibot-80's Trojo M-00735 with ID cdb2827e-f07d-4595-b7ca-a8e33fdf73ce. Trojo M-00735 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:21:42] cosmic has accepted a battle request from olibot-80. cosmic's Memnesia M-00891 with ID 86f966cf-ce13-4e60-868d-d313cbf215fe versus olibot-80's Trojo M-00735 with ID cdb2827e-f07d-4595-b7ca-a8e33fdf73ce. The wager is collect.
+[2022/08/06 12:25:41] cosmic battled their Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 against olibot-50's Compactisk M-00524 with ID 7c5d49c5-3c58-45f9-a6f3-ab87f42ac2bd. Compactisk M-00524 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:25:41] cosmic has accepted a battle request from olibot-50. cosmic's Trojo M-01811 with ID 92a7de3d-24ae-40e4-92b7-4a1cf9c821b4 versus olibot-50's Compactisk M-00524 with ID 7c5d49c5-3c58-45f9-a6f3-ab87f42ac2bd. The wager is collect.
+[2022/08/06 12:26:38] cosmic battled their Constant M-00856 with ID c697cb90-c69e-4054-bce0-53e3521cfe5e against olibot-6's Bostrom M-00084 with ID 6f8dd2db-16f5-4f26-9c78-8b564854987d. Bostrom M-00084 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:26:39] cosmic has accepted a battle request from olibot-6. cosmic's Constant M-00856 with ID c697cb90-c69e-4054-bce0-53e3521cfe5e versus olibot-6's Bostrom M-00084 with ID 6f8dd2db-16f5-4f26-9c78-8b564854987d. The wager is damage.
+[2022/08/06 12:27:03] cosmic built a MEMNESIA with ID d7a8b554-082d-4f75-b62e-22f1920356bb
+[2022/08/06 12:30:24] cosmic battled their Memnesia M-01874 with ID d7a8b554-082d-4f75-b62e-22f1920356bb against olibot-66's Ransom Blue M-00624 with ID 1d51b7ef-25ef-449f-a4ed-e0fa83284772. Memnesia M-01874 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:31:44] cosmic battled their Memnesia M-01874 with ID d7a8b554-082d-4f75-b62e-22f1920356bb against olibot-40's Bostrom M-00367 with ID a80b1571-8956-4985-ae17-bb03e06ea30d. Bostrom M-00367 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:31:45] cosmic has accepted a battle request from olibot-40. cosmic's Memnesia M-01874 with ID d7a8b554-082d-4f75-b62e-22f1920356bb versus olibot-40's Bostrom M-00367 with ID a80b1571-8956-4985-ae17-bb03e06ea30d. The wager is collect.
+[2022/08/06 12:33:09] cosmic played minigame claw with difficulty Hard and level 10x10. The reward was x15 Machine Parts.
+[2022/08/06 12:33:46] cosmic played minigame claw with difficulty Hard and level 14x14. The reward was x6 Machine Parts.
+[2022/08/06 12:36:19] cosmic rebuilt their destroyed RAMSELLE with ID e665ce6d-31a9-49a3-a606-42f706098829 for 114 parts and 0 energy.
+[2022/08/06 12:37:50] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-66's Greedisk M-00611 with ID 1a621672-cc48-43f3-a87d-e3e4d38d821d. Ramselle M-01813 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-01813 gained lifespan due to their ability..
+[2022/08/06 12:39:33] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-66's Memnesia M-00595 with ID 2d747f81-e8af-4298-b361-0c8ca134af7b. Ramselle M-01813 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-01813 gained firewall due to their ability..
+[2022/08/06 12:40:31] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-19's Greedisk M-00193 with ID 506d2e82-78b5-47cd-bea8-0d125187633a. Ramselle M-01813 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 12:40:32] cosmic has accepted a battle request from olibot-19. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-19's Greedisk M-00193 with ID 506d2e82-78b5-47cd-bea8-0d125187633a. The wager is damage.
+[2022/08/06 12:42:51] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-3's Ransom Blue M-00059 with ID 526fda5c-dda3-4929-bae4-91011a1296cd. Ransom Blue M-00059 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:42:52] cosmic has accepted a battle request from olibot-3. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-3's Ransom Blue M-00059 with ID 526fda5c-dda3-4929-bae4-91011a1296cd. The wager is damage.
+[2022/08/06 12:43:39] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-52's Constant M-00468 with ID c27907ed-c437-4561-92a1-66262ae67021. Ramselle M-01813 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:43:40] cosmic has accepted a battle request from olibot-52. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-52's Constant M-00468 with ID c27907ed-c437-4561-92a1-66262ae67021. The wager is damage.
+[2022/08/06 12:44:56] cosmic battled their Memnesia M-00595 with ID 2d747f81-e8af-4298-b361-0c8ca134af7b against olibot-26's Ransom Blue M-00266 with ID 3a77f23a-82b5-46e6-8338-52e25434ab69. Ransom Blue M-00266 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 12:44:57] cosmic has accepted a battle request from olibot-26. cosmic's Memnesia M-00595 with ID 2d747f81-e8af-4298-b361-0c8ca134af7b versus olibot-26's Ransom Blue M-00266 with ID 3a77f23a-82b5-46e6-8338-52e25434ab69. The wager is damage.
+[2022/08/06 12:47:27] cosmic battled their Memnesia M-00595 with ID 2d747f81-e8af-4298-b361-0c8ca134af7b against olibot-82's Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c. Memnesia M-00595 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:48:44] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-17's Ramselle M-00166 with ID e016c511-29cd-4082-99f4-f4e6e7087ed1. Ramselle M-01813 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:48:45] cosmic has accepted a battle request from olibot-17. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-17's Ramselle M-00166 with ID e016c511-29cd-4082-99f4-f4e6e7087ed1. The wager is destroy.
+[2022/08/06 12:50:16] cosmic battled their Greedisk M-00611 with ID 1a621672-cc48-43f3-a87d-e3e4d38d821d against olibot-82's Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2. Greedisk M-00611 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:51:22] cosmic battled their Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c against olibot-65's Bostrom M-00615 with ID 36ad8f27-5e23-4711-af7b-278dfd3d735d. Ransom Blue M-00815 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:51:22] cosmic has accepted a battle request from olibot-65. cosmic's Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c versus olibot-65's Bostrom M-00615 with ID 36ad8f27-5e23-4711-af7b-278dfd3d735d. The wager is collect.
+[2022/08/06 12:52:39] cosmic battled their Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 against olibot-13's Buddy & Lila M-00125 with ID 605e47e9-bfd4-4310-b099-7544dca95676. Buddy & Lila M-00125 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00125 gained viral due to their ability..
+[2022/08/06 12:52:40] cosmic has accepted a battle request from olibot-13. cosmic's Ramselle M-01813 with ID e665ce6d-31a9-49a3-a606-42f706098829 versus olibot-13's Buddy & Lila M-00125 with ID 605e47e9-bfd4-4310-b099-7544dca95676. The wager is collect.
+[2022/08/06 12:53:39] cosmic battled their Bostrom M-00615 with ID 36ad8f27-5e23-4711-af7b-278dfd3d735d against olibot-73's Ransom Blue M-00697 with ID 5a3b8a12-70f5-4d8c-bdb5-1839f19a3b3b. Ransom Blue M-00697 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 12:53:39] cosmic has accepted a battle request from olibot-73. cosmic's Bostrom M-00615 with ID 36ad8f27-5e23-4711-af7b-278dfd3d735d versus olibot-73's Ransom Blue M-00697 with ID 5a3b8a12-70f5-4d8c-bdb5-1839f19a3b3b. The wager is destroy.
+[2022/08/06 12:54:08] cosmic rebuilt their destroyed GREEDISK with ID 34b0ed13-3e70-4302-b580-a768b977eaca for 58 parts and 0 energy.
+[2022/08/06 12:55:21] cosmic battled their Memnesia M-00595 with ID 2d747f81-e8af-4298-b361-0c8ca134af7b against olibot-13's Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654. Compactisk M-00162 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:56:35] cosmic battled their Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c against olibot-64's Buddy & Lila M-00596 with ID d1da3c70-de66-4fe7-bdd3-dbf037d9395a. Buddy & Lila M-00596 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00596 gained viral due to their ability..
+[2022/08/06 12:56:36] cosmic has accepted a battle request from olibot-64. cosmic's Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c versus olibot-64's Buddy & Lila M-00596 with ID d1da3c70-de66-4fe7-bdd3-dbf037d9395a. The wager is destroy.
+[2022/08/06 12:58:11] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-13's Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 12:59:41] cosmic battled their Greedisk M-00611 with ID 1a621672-cc48-43f3-a87d-e3e4d38d821d against olibot-82's Greedisk M-00756 with ID 2c3abe0c-67df-498f-87be-20ebcb1284b3. Greedisk M-00756 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:02:47] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-88's Dungware M-00808 with ID 0b2da0e8-0c11-4bc9-b2d3-87ab23a713c8. Dungware M-00808 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:03:56] cosmic battled their Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654 against olibot-88's Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074. Ransom Blue M-00865 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:05:28] cosmic played minigame claw with difficulty Easy and level 14x14. The reward was x5 Machine Parts.
+[2022/08/06 13:07:02] cosmic battled their Greedisk M-01831 with ID 34b0ed13-3e70-4302-b580-a768b977eaca against olibot-88's Bostrom M-00849 with ID 19053a1b-4203-4f0d-93a4-2009c4282165. Bostrom M-00849 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:08:08] cosmic battled their Greedisk M-01831 with ID 34b0ed13-3e70-4302-b580-a768b977eaca against olibot-16's Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24. Greedisk M-01831 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:08:09] cosmic has accepted a battle request from olibot-16. cosmic's Greedisk M-01831 with ID 34b0ed13-3e70-4302-b580-a768b977eaca versus olibot-16's Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24. The wager is collect.
+[2022/08/06 13:09:12] cosmic battled their Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 against olibot-66's Trojo M-00626 with ID 05f63f3f-5179-4527-975f-692af7d5d761. Bostrom M-00166 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:10:09] cosmic battled their Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 against olibot-85's Buddy & Lila M-00788 with ID 780feb6b-846c-49cf-b350-84e16b629ef0. Bostrom M-00166 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:10:10] cosmic has accepted a battle request from olibot-85. cosmic's Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 versus olibot-85's Buddy & Lila M-00788 with ID 780feb6b-846c-49cf-b350-84e16b629ef0. The wager is collect.
+[2022/08/06 13:11:50] cosmic battled their Buddy & Lila M-00788 with ID 780feb6b-846c-49cf-b350-84e16b629ef0 against olibot-66's Memnesia M-00598 with ID 107eaebf-15d9-4faf-b067-c38d6c73c310. Memnesia M-00598 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:12:31] cosmic battled their Trojo M-00626 with ID 05f63f3f-5179-4527-975f-692af7d5d761 against olibot-57's Voidisk M-00542 with ID 9324258b-5b62-4d8e-ab6e-1874d1904782. Trojo M-00626 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 13:12:32] cosmic has accepted a battle request from olibot-57. cosmic's Trojo M-00626 with ID 05f63f3f-5179-4527-975f-692af7d5d761 versus olibot-57's Voidisk M-00542 with ID 9324258b-5b62-4d8e-ab6e-1874d1904782. The wager is damage.
+[2022/08/06 13:12:46] cosmic rebuilt their destroyed RANSOM BLUE with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c for 138 parts and 0 energy.
+[2022/08/06 13:14:05] cosmic battled their Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c against olibot-88's Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2. Ransom Blue M-00815 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:15:45] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-88's Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:16:28] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-76's Compactisk M-00742 with ID 108b9488-da88-402f-95c5-2c1dc5965e7a. Compactisk M-00742 is the winner!
+Destruction was prevented due to Compactisk M-00797's ability!.
+[2022/08/06 13:16:29] cosmic has accepted a battle request from olibot-76. cosmic's Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 versus olibot-76's Compactisk M-00742 with ID 108b9488-da88-402f-95c5-2c1dc5965e7a. The wager is destroy.
+[2022/08/06 13:17:47] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-88's Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:18:38] cosmic battled their Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 against olibot-94's Greedisk M-00876 with ID 8ef1a45e-e401-456d-b919-179f202e9bc4. Ransom Blue M-00865 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 13:18:39] cosmic has accepted a battle request from olibot-94. cosmic's Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 versus olibot-94's Greedisk M-00876 with ID 8ef1a45e-e401-456d-b919-179f202e9bc4. The wager is damage.
+[2022/08/06 13:19:53] cosmic battled their Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 against olibot-14's Greedisk M-00146 with ID 4c3a4599-0413-4f98-aea1-d5c7999f0be5. Bostrom M-00166 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:19:54] cosmic has accepted a battle request from olibot-14. cosmic's Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 versus olibot-14's Greedisk M-00146 with ID 4c3a4599-0413-4f98-aea1-d5c7999f0be5. The wager is collect.
+[2022/08/06 13:20:58] cosmic played minigame slots with difficulty Hard and level 7 Rows. The reward was x30 Machine Parts.
+[2022/08/06 13:21:41] cosmic battled their Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 against olibot-47's Dungware M-00418 with ID e6f31b2e-60fe-45f7-a252-3f5ffebf4b08. Dungware M-00418 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:21:42] cosmic has accepted a battle request from olibot-47. cosmic's Bostrom M-00166 with ID 6b518065-9357-4c4e-a18d-bd476561ce24 versus olibot-47's Dungware M-00418 with ID e6f31b2e-60fe-45f7-a252-3f5ffebf4b08. The wager is collect.
+[2022/08/06 13:22:49] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-88's Voidisk M-00827 with ID 43566261-9bbf-43f0-9018-1e26dc27da2a. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:23:49] cosmic battled their Trojo M-00626 with ID 05f63f3f-5179-4527-975f-692af7d5d761 against olibot-28's Constant M-00253 with ID a47f0723-ef0e-49b6-a03c-2752d0326ed4. Constant M-00253 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 13:23:50] cosmic has accepted a battle request from olibot-28. cosmic's Trojo M-00626 with ID 05f63f3f-5179-4527-975f-692af7d5d761 versus olibot-28's Constant M-00253 with ID a47f0723-ef0e-49b6-a03c-2752d0326ed4. The wager is damage.
+[2022/08/06 13:25:01] cosmic battled their Voidisk M-00827 with ID 43566261-9bbf-43f0-9018-1e26dc27da2a against olibot-88's Dungware M-00808 with ID 0b2da0e8-0c11-4bc9-b2d3-87ab23a713c8. Dungware M-00808 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:25:42] cosmic battled their Greedisk M-00146 with ID 4c3a4599-0413-4f98-aea1-d5c7999f0be5 against olibot-77's Ramselle M-00732 with ID 9477397c-dbc3-41c5-8202-f847b42edfed. Ramselle M-00732 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00732 gained lifespan due to their ability..
+[2022/08/06 13:25:43] cosmic has accepted a battle request from olibot-77. cosmic's Greedisk M-00146 with ID 4c3a4599-0413-4f98-aea1-d5c7999f0be5 versus olibot-77's Ramselle M-00732 with ID 9477397c-dbc3-41c5-8202-f847b42edfed. The wager is collect.
+[2022/08/06 13:26:54] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-34's Trojo M-00318 with ID 21b6b47a-12fb-4e2b-96f2-d4ea7e49e805. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:27:41] cosmic battled their Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 against olibot-13's Greedisk M-00127 with ID 0ca82605-bc07-4216-972c-48de12f2497b. Ransom Blue M-00865 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 13:27:42] cosmic has accepted a battle request from olibot-13. cosmic's Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 versus olibot-13's Greedisk M-00127 with ID 0ca82605-bc07-4216-972c-48de12f2497b. The wager is damage.
+[2022/08/06 13:29:04] cosmic battled their Trojo M-00318 with ID 21b6b47a-12fb-4e2b-96f2-d4ea7e49e805 against olibot-34's Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b. Trojo M-00318 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:31:13] cosmic battled their Trojo M-00318 with ID 21b6b47a-12fb-4e2b-96f2-d4ea7e49e805 against olibot-27's Dungware M-00247 with ID 1c260d73-381f-497f-ad53-3a3d4537bd62. Dungware M-00247 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:31:14] cosmic has accepted a battle request from olibot-27. cosmic's Trojo M-00318 with ID 21b6b47a-12fb-4e2b-96f2-d4ea7e49e805 versus olibot-27's Dungware M-00247 with ID 1c260d73-381f-497f-ad53-3a3d4537bd62. The wager is destroy.
+[2022/08/06 13:32:22] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-88's Voidisk M-00827 with ID 43566261-9bbf-43f0-9018-1e26dc27da2a. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:33:03] cosmic battled their Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 against olibot-57's Memnesia M-00513 with ID 79a10714-a41d-4934-8a73-888e6aae365a. Compactisk M-00797 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:33:04] cosmic has accepted a battle request from olibot-57. cosmic's Compactisk M-00797 with ID 200a6a1a-7bae-4fe7-96b9-7b5a29b267a2 versus olibot-57's Memnesia M-00513 with ID 79a10714-a41d-4934-8a73-888e6aae365a. The wager is collect.
+[2022/08/06 13:51:29] cosmic battled their Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654 against olibot-54's Buddy & Lila M-00497 with ID 914ae55d-eff7-4fa9-a111-9a596bd4d6aa. Compactisk M-00162 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:51:30] cosmic has accepted a battle request from olibot-54. cosmic's Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654 versus olibot-54's Buddy & Lila M-00497 with ID 914ae55d-eff7-4fa9-a111-9a596bd4d6aa. The wager is destroy.
+[2022/08/06 13:53:04] cosmic battled their Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654 against olibot-53's Dungware M-00492 with ID d725dc09-219c-402e-ac79-64508c7c5452. Compactisk M-00162 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:53:04] cosmic has accepted a battle request from olibot-53. cosmic's Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654 versus olibot-53's Dungware M-00492 with ID d725dc09-219c-402e-ac79-64508c7c5452. The wager is collect.
+[2022/08/06 14:03:04] cosmic battled their Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c against olibot-62's Dungware M-00565 with ID 0b9b7ce5-25f2-4661-8b73-b831215d9cf1. Ransom Blue M-00815 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 14:03:05] cosmic has accepted a battle request from olibot-62. cosmic's Ransom Blue M-00815 with ID 2a81e3f9-1387-4211-8665-0ea0aaefa59c versus olibot-62's Dungware M-00565 with ID 0b9b7ce5-25f2-4661-8b73-b831215d9cf1. The wager is collect.
+[2022/08/06 17:52:02] cosmic battled their Memnesia M-00513 with ID 79a10714-a41d-4934-8a73-888e6aae365a against olibot-37's Bostrom M-00346 with ID 5d4afbe0-506c-4b4f-95b6-a2ee923a502b. Memnesia M-00513 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:52:03] cosmic has accepted a battle request from olibot-37. cosmic's Memnesia M-00513 with ID 79a10714-a41d-4934-8a73-888e6aae365a versus olibot-37's Bostrom M-00346 with ID 5d4afbe0-506c-4b4f-95b6-a2ee923a502b. The wager is destroy.
+[2022/08/07 02:41:47] cosmic battled their Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b against olibot-33's Dungware M-00303 with ID 1250ab8c-d779-4dfc-8a26-9c3dd6298a8c. Buddy & Lila M-00324 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00324 gained power due to their ability..
+[2022/08/07 02:41:48] cosmic has accepted a battle request from olibot-33. cosmic's Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b versus olibot-33's Dungware M-00303 with ID 1250ab8c-d779-4dfc-8a26-9c3dd6298a8c. The wager is damage.
+[2022/08/07 02:43:08] cosmic battled their Memnesia M-00513 with ID 79a10714-a41d-4934-8a73-888e6aae365a against olibot-76's Ransom Blue M-00741 with ID a7d76eeb-4e31-412d-b63b-bdc400edf31e. Ransom Blue M-00741 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 02:43:09] cosmic has accepted a battle request from olibot-76. cosmic's Memnesia M-00513 with ID 79a10714-a41d-4934-8a73-888e6aae365a versus olibot-76's Ransom Blue M-00741 with ID a7d76eeb-4e31-412d-b63b-bdc400edf31e. The wager is collect.
+[2022/08/07 02:47:02] cosmic battled their Dungware M-00492 with ID d725dc09-219c-402e-ac79-64508c7c5452 against olibot-30's Constant M-00284 with ID e41b9f0a-9c1f-468f-927b-b2b594ed0c0e. Constant M-00284 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 02:47:03] cosmic has accepted a battle request from olibot-30. cosmic's Dungware M-00492 with ID d725dc09-219c-402e-ac79-64508c7c5452 versus olibot-30's Constant M-00284 with ID e41b9f0a-9c1f-468f-927b-b2b594ed0c0e. The wager is collect.
+[2022/08/07 02:48:52] cosmic battled their Compactisk M-00162 with ID 170fa1b1-b77f-4bb5-8e9f-08ce90029654 against olibot-9's Memnesia M-00097 with ID 45aa091e-6d4c-4dc4-827b-618cdb6d0ace. Memnesia M-00097 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 02:49:42] cosmic battled their Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b against olibot-25's Ransom Blue M-00255 with ID 2ca3677b-56ea-4837-94a2-d4563a58b8a7. Ransom Blue M-00255 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 02:49:42] cosmic has accepted a battle request from olibot-25. cosmic's Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b versus olibot-25's Ransom Blue M-00255 with ID 2ca3677b-56ea-4837-94a2-d4563a58b8a7. The wager is damage.
+[2022/08/07 02:51:13] cosmic battled their Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 against olibot-1's Bostrom M-00032 with ID 07acf23b-292b-4fe9-91ab-a7799255278b. Ransom Blue M-00865 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 02:51:14] cosmic has accepted a battle request from olibot-1. cosmic's Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 versus olibot-1's Bostrom M-00032 with ID 07acf23b-292b-4fe9-91ab-a7799255278b. The wager is destroy.
+[2022/08/07 02:56:08] cosmic battled their Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b against olibot-17's Trojo M-00174 with ID aeb304ac-6e0c-40fb-bfd2-94eb8c135c16. Buddy & Lila M-00324 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00324 gained viral due to their ability..
+[2022/08/07 02:56:08] cosmic has accepted a battle request from olibot-17. cosmic's Buddy & Lila M-00324 with ID 36bc2c15-afe1-452b-a57f-f6bc68a7899b versus olibot-17's Trojo M-00174 with ID aeb304ac-6e0c-40fb-bfd2-94eb8c135c16. The wager is collect.
+[2022/08/07 03:06:09] cosmic battled their Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 against olibot-36's Trojo M-00333 with ID a1937676-d367-4a29-b02c-3532132011cc. Trojo M-00333 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 03:06:09] cosmic has accepted a battle request from olibot-36. cosmic's Ransom Blue M-00865 with ID 18e2a515-3c08-4f93-b416-4a7bbd6fd074 versus olibot-36's Trojo M-00333 with ID a1937676-d367-4a29-b02c-3532132011cc. The wager is collect.
+[2022/08/07 03:07:43] cosmic played minigame slots with difficulty Hard and level 7 Rows. The reward was x33 Machine Parts.
+[2022/08/07 03:08:29] cosmic battled their Dungware M-00565 with ID 0b9b7ce5-25f2-4661-8b73-b831215d9cf1 against olibot-97's Ramselle M-00903 with ID 8d52ffe5-9a6b-49af-b29c-d4e6365302d9. Dungware M-00565 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 03:08:30] cosmic has accepted a battle request from olibot-97. cosmic's Dungware M-00565 with ID 0b9b7ce5-25f2-4661-8b73-b831215d9cf1 versus olibot-97's Ramselle M-00903 with ID 8d52ffe5-9a6b-49af-b29c-d4e6365302d9. The wager is destroy.
+[2022/08/07 03:34:12] cosmic battled their Trojo M-00174 with ID aeb304ac-6e0c-40fb-bfd2-94eb8c135c16 against olibot-96's Constant M-00859 with ID 84124286-30d1-4f91-aeb1-d5db067fbcaa. Trojo M-00174 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 03:34:12] cosmic has accepted a battle request from olibot-96. cosmic's Trojo M-00174 with ID aeb304ac-6e0c-40fb-bfd2-94eb8c135c16 versus olibot-96's Constant M-00859 with ID 84124286-30d1-4f91-aeb1-d5db067fbcaa. The wager is collect.
+[2022/08/07 03:39:19] cosmic battled their Dungware M-00565 with ID 0b9b7ce5-25f2-4661-8b73-b831215d9cf1 against olibot-74's Voidisk M-00701 with ID f8eb0f7b-ce36-4e45-8d43-bf4dc0cdae9f. Dungware M-00565 is the winner!
+Loser bot gets collected by winner..
+[2022/08/07 03:39:20] cosmic has accepted a battle request from olibot-74. cosmic's Dungware M-00565 with ID 0b9b7ce5-25f2-4661-8b73-b831215d9cf1 versus olibot-74's Voidisk M-00701 with ID f8eb0f7b-ce36-4e45-8d43-bf4dc0cdae9f. The wager is collect.

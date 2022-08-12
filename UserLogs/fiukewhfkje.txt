@@ -1,0 +1,505 @@
+ [2022/08/06 12:47:19] fiukewhfkje collected their daily rewards.
+[2022/08/06 12:48:46] fiukewhfkje played minigame xo with difficulty Hard and level Regular. The reward was x60 Machine Parts.
+[2022/08/06 12:49:00] fiukewhfkje built a GREEDISK with ID b2845caa-1771-45b2-9624-8c4112663bef
+[2022/08/06 12:50:42] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Greedisk M-01837 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 12:50:42] fiukewhfkje is battle training with Professor Diriski. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 12:51:05] fiukewhfkje built a BUDDY & LILA with ID 41096a3b-d8be-4aeb-8596-1781522fb25f
+[2022/08/06 12:52:56] fiukewhfkje switched changed chips to power for Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef.
+[2022/08/06 12:54:04] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against olibot-40's Trojo M-00383 with ID 02a8ea67-d6c4-40ae-8b9c-ac0ea437aa33. Greedisk M-01837 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 12:54:05] fiukewhfkje has accepted a battle request from olibot-40. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus olibot-40's Trojo M-00383 with ID 02a8ea67-d6c4-40ae-8b9c-ac0ea437aa33. The wager is destroy.
+[2022/08/06 12:59:23] fiukewhfkje switched changed chips to power for Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef.
+[2022/08/06 13:00:05] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against olibot-49's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. Greedisk M-01837 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:00:06] fiukewhfkje has accepted a battle request from olibot-49. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus olibot-49's Ramselle M-00462 with ID b51c0f23-664b-4106-bffa-191a222cfcb0. The wager is collect.
+[2022/08/06 13:05:05] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Greedisk M-01837 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 13:05:05] fiukewhfkje is battle training with Professor Diriski. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 13:06:24] fiukewhfkje switched changed chips to power for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 13:07:09] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-69's Trojo M-00657 with ID c1a0a77a-0dab-4d2e-bd2a-015101148304. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 13:07:10] fiukewhfkje has accepted a battle request from olibot-69. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus olibot-69's Trojo M-00657 with ID c1a0a77a-0dab-4d2e-bd2a-015101148304. The wager is destroy.
+[2022/08/06 13:08:07] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Greedisk M-01837 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 13:08:08] fiukewhfkje is battle training with Professor Diriski. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 13:08:33] fiukewhfkje built a RANSOM BLUE with ID 61af53bc-c1cd-448c-8388-a2a476390d1d
+[2022/08/06 13:10:38] fiukewhfkje played minigame date with difficulty Normal and level Ransom Blue. The reward was x14 Machine Parts.
+[2022/08/06 13:12:32] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Greedisk M-01837 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 13:12:33] fiukewhfkje is battle training with Professor Diriski. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 13:13:21] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Greedisk M-01837 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 13:13:21] fiukewhfkje is battle training with Professor Diriski. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 13:21:21] fiukewhfkje has sent a friend request to JustVibing.
+[2022/08/06 13:23:45] fiukewhfkje has sent a battle request to JustVibing. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. The wager is friendly.
+[2022/08/06 13:25:16] fiukewhfkje switched changed chips to lifespan for Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef.
+[2022/08/06 13:25:43] fiukewhfkje has sent a battle request to JustVibing. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus JustVibing's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f. The wager is friendly.
+[2022/08/06 13:26:23] fiukewhfkje has sent a battle request to JustVibing. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. The wager is friendly.
+[2022/08/06 13:28:15] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. Bostrom M-06473 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:28:19] fiukewhfkje server battle accepted by JustVibing. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. The wager is friendly.
+[2022/08/06 13:28:48] fiukewhfkje server battle rejected by JustVibing. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. The wager is friendly.
+[2022/08/06 13:30:29] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8. Greedisk M-01837 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:30:29] fiukewhfkje server battle accepted by eku7. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8. The wager is friendly.
+[2022/08/06 13:31:35] fiukewhfkje switched changed chips to firewall for Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef.
+[2022/08/06 13:33:48] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against eku7's Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058. Greedisk M-01837 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:33:48] fiukewhfkje server battle accepted by eku7. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus eku7's Greedisk M-00001 with ID 0649d785-f28c-43ea-af7b-87e24adef058. The wager is friendly.
+[2022/08/06 13:36:41] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03. Greedisk M-01837 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:36:42] fiukewhfkje server battle accepted by JustVibing. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03. The wager is friendly.
+[2022/08/06 13:37:35] fiukewhfkje built a COMPACTISK with ID b6392fa0-b1f9-461b-b48c-836c33452626
+[2022/08/06 13:38:51] fiukewhfkje played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/06 13:40:15] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x45 Machine Parts.
+[2022/08/06 13:43:09] fiukewhfkje switched changed chips to power for Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef.
+[2022/08/06 13:44:00] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5. Greedisk M-01837 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:44:00] fiukewhfkje server battle accepted by ML. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5. The wager is friendly.
+[2022/08/06 13:46:21] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5. Memnesia M-01876 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 13:46:21] fiukewhfkje server battle accepted by ML. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus ML's Memnesia M-01876 with ID b2c438b1-9f4e-4ed7-8969-b722bdd21bb5. The wager is friendly.
+[2022/08/06 13:46:30] fiukewhfkje completed their daily tasks!
+[2022/08/06 13:48:11] fiukewhfkje played minigame claw with difficulty Hard and level 3x3. The reward was x50 Machine Parts.
+[2022/08/06 13:50:14] fiukewhfkje played minigame claw with difficulty Hard and level 14x14. The reward was x0 Machine Parts.
+[2022/08/06 13:52:48] fiukewhfkje played minigame claw with difficulty Hard and level 5x5. The reward was x75 Machine Parts.
+[2022/08/06 13:59:20] fiukewhfkje bought Bostrom from the market with ID a982f3cc-01b3-45aa-9f90-7be25e310755 for 1.
+[2022/08/06 13:59:42] fiukewhfkje listed Bostrom on the market with ID a982f3cc-01b3-45aa-9f90-7be25e310755 with offer of 150.
+[2022/08/06 14:00:05] fiukewhfkje bought Ramselle from the market with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b for 150.
+[2022/08/06 14:10:00] fiukewhfkje played minigame claw with difficulty Hard and level 14x14. The reward was x30 Machine Parts.
+[2022/08/06 14:18:15] fiukewhfkje played minigame claw with difficulty Normal and level 5x5. The reward was x45 Machine Parts.
+[2022/08/06 14:21:13] fiukewhfkje played minigame claw with difficulty Easy and level 5x5. The reward was x55 Machine Parts.
+[2022/08/06 14:22:41] fiukewhfkje switched changed chips to power for Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef.
+[2022/08/06 14:24:16] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. Greedisk M-01837 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 14:24:17] fiukewhfkje server battle accepted by Hexxy1. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is damage.
+[2022/08/06 14:27:54] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. Greedisk M-01837 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-01837 gets extra EXP due to their ability..
+[2022/08/06 14:27:54] fiukewhfkje server battle accepted by Hexxy1. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is damage.
+[2022/08/06 14:28:12] fiukewhfkje server battle ignored by Hexxy1. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus Hexxy1's Dungware M-00927 with ID 4fa29f24-6a09-445e-867a-1d2690d165d0. The wager is damage.
+[2022/08/06 14:29:51] fiukewhfkje battled their Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d against olibot-87's Ransom Blue M-00858 with ID e83e1c61-f6b4-4327-8498-bc4be5c98dfc. Ransom Blue M-01930 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 14:29:52] fiukewhfkje has accepted a battle request from olibot-87. fiukewhfkje's Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d versus olibot-87's Ransom Blue M-00858 with ID e83e1c61-f6b4-4327-8498-bc4be5c98dfc. The wager is damage.
+[2022/08/06 14:30:47] fiukewhfkje listed Ramselle on the market with ID 6258a1e8-2135-432a-9fea-2c4ce1b8b55b with offer of 5000.
+[2022/08/06 14:33:33] fiukewhfkje bought Compactisk from the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 for 5000.
+[2022/08/06 14:38:12] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Compactisk M-00945 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 14:38:12] fiukewhfkje server battle accepted by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/06 14:44:53] fiukewhfkje switched changed chips to power for Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15.
+[2022/08/06 14:45:37] fiukewhfkje is now friends with eku7.
+[2022/08/06 14:46:43] fiukewhfkje has sent a friend request to ML.
+[2022/08/06 14:49:26] fiukewhfkje battled their Compactisk M-01793 with ID b6392fa0-b1f9-461b-b48c-836c33452626 against olibot-32's Ramselle M-00323 with ID 42f7afb3-887d-46a5-a1eb-0fd0f04e979c. Ramselle M-00323 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 14:49:27] fiukewhfkje has accepted a battle request from olibot-32. fiukewhfkje's Compactisk M-01793 with ID b6392fa0-b1f9-461b-b48c-836c33452626 versus olibot-32's Ramselle M-00323 with ID 42f7afb3-887d-46a5-a1eb-0fd0f04e979c. The wager is destroy.
+[2022/08/06 14:50:18] fiukewhfkje server battle rejected by ML. fiukewhfkje's Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/06 14:50:48] fiukewhfkje battled their Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 14:50:49] fiukewhfkje server battle accepted by ML. fiukewhfkje's Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/06 14:52:44] fiukewhfkje battled their Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained firewall due to their ability..
+[2022/08/06 14:52:45] fiukewhfkje server battle accepted by ML. fiukewhfkje's Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/06 14:56:17] fiukewhfkje played minigame claw with difficulty Easy and level 14x14. The reward was x5 Machine Parts.
+[2022/08/06 15:09:30] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03. Compactisk M-00945 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 15:09:31] fiukewhfkje server battle accepted by JustVibing. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus JustVibing's Ransom Blue M-01926 with ID b74fa2ce-42af-40fb-b87a-1744969ddf03. The wager is friendly.
+[2022/08/06 15:10:37] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8. Compactisk M-00945 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 15:10:38] fiukewhfkje server battle accepted by eku7. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus eku7's Ramselle M-00002 with ID 41ce1855-b13e-4eed-9558-0a1838f978c8. The wager is friendly.
+[2022/08/06 15:14:13] fiukewhfkje played minigame claw with difficulty Normal and level 5x5. The reward was x85 Machine Parts.
+[2022/08/06 15:17:15] fiukewhfkje server battle rejected by eku7. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus eku7's Constant M-00004 with ID 90a479c9-6e10-4197-8b37-1187831da07e. The wager is destroy.
+[2022/08/06 15:21:10] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-20's Ramselle M-00188 with ID 9745ad2d-a354-488e-b329-03b364bd8f4a. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:21:11] fiukewhfkje has accepted a battle request from olibot-20. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-20's Ramselle M-00188 with ID 9745ad2d-a354-488e-b329-03b364bd8f4a. The wager is destroy.
+[2022/08/06 15:23:14] fiukewhfkje has rejected a battle request from olibot-18. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-18's Dungware M-00163 with ID f006e30b-1646-4da6-a432-195eeb7ef1f4. The wager is collect.
+[2022/08/06 15:28:42] fiukewhfkje played minigame claw with difficulty Hard and level 3x3. The reward was x81 Machine Parts.
+[2022/08/06 15:37:54] fiukewhfkje played minigame claw with difficulty Hard and level 3x3. The reward was x99 Machine Parts.
+[2022/08/06 15:39:25] fiukewhfkje played minigame claw with difficulty Hard and level 3x3. The reward was x50 Machine Parts.
+[2022/08/06 15:42:20] fiukewhfkje played minigame slots with difficulty Hard and level 3 Rows. The reward was x0 Machine Parts.
+[2022/08/06 16:05:53] fiukewhfkje played minigame claw with difficulty Hard and level 3x3. The reward was x27 Machine Parts.
+[2022/08/06 16:34:40] fiukewhfkje server battle rejected by Kurreo. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus Kurreo's Memnesia M-00765 with ID 8755b35a-8661-411d-a702-c872204164ee. The wager is friendly.
+[2022/08/06 16:35:41] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against EeveeUwU's Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809. Compactisk M-00945 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/06 16:35:42] fiukewhfkje server battle accepted by EeveeUwU. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus EeveeUwU's Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809. The wager is friendly.
+[2022/08/06 16:38:39] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against olibot-27's Voidisk M-00271 with ID 5401c9c9-352b-44b0-80df-930555e49866. Greedisk M-01837 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:38:40] fiukewhfkje has accepted a battle request from olibot-27. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus olibot-27's Voidisk M-00271 with ID 5401c9c9-352b-44b0-80df-930555e49866. The wager is collect.
+[2022/08/06 16:41:57] fiukewhfkje played minigame claw with difficulty Hard and level 5x5. The reward was x150 Machine Parts.
+[2022/08/06 17:07:25] fiukewhfkje played minigame claw with difficulty Hard and level 5x5. The reward was x15 Machine Parts.
+[2022/08/06 17:10:29] fiukewhfkje switched changed chips to power for Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f.
+[2022/08/06 17:11:10] fiukewhfkje battled their Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f against olibot-4's Buddy & Lila M-00050 with ID ee0e2698-6bba-40e4-9108-d10016fc7e1f. Buddy & Lila M-00050 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00050 gained power due to their ability..
+[2022/08/06 17:11:11] fiukewhfkje has accepted a battle request from olibot-4. fiukewhfkje's Constant M-00460 with ID beef913c-43c8-4d7e-91ae-b9e5ef63155f versus olibot-4's Buddy & Lila M-00050 with ID ee0e2698-6bba-40e4-9108-d10016fc7e1f. The wager is collect.
+[2022/08/06 17:17:32] fiukewhfkje played minigame claw with difficulty Easy and level 14x14. The reward was x18 Machine Parts.
+[2022/08/06 17:22:37] fiukewhfkje played minigame claw with difficulty Hard and level 3x3. The reward was x50 Machine Parts.
+[2022/08/06 19:38:38] fiukewhfkje played minigame claw with difficulty Hard and level 5x5. The reward was x38 Machine Parts.
+[2022/08/06 19:44:32] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/06 19:46:22] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-14's Greedisk M-00142 with ID 26884089-3d5a-4958-8e3a-82a0d0e0e1ea. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 19:46:22] fiukewhfkje has accepted a battle request from olibot-14. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-14's Greedisk M-00142 with ID 26884089-3d5a-4958-8e3a-82a0d0e0e1ea. The wager is destroy.
+[2022/08/06 19:50:31] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 19:52:26] fiukewhfkje battled their Voidisk M-00271 with ID 5401c9c9-352b-44b0-80df-930555e49866 against olibot-24's Bostrom M-00233 with ID 4a7c210d-58d4-4e5d-a03d-85206f48055a. Voidisk M-00271 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 19:52:27] fiukewhfkje has accepted a battle request from olibot-24. fiukewhfkje's Voidisk M-00271 with ID 5401c9c9-352b-44b0-80df-930555e49866 versus olibot-24's Bostrom M-00233 with ID 4a7c210d-58d4-4e5d-a03d-85206f48055a. The wager is collect.
+[2022/08/06 19:54:39] fiukewhfkje server battle ignored by ML. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a. The wager is damage.
+[2022/08/06 19:55:39] fiukewhfkje battled their Bostrom M-00233 with ID 4a7c210d-58d4-4e5d-a03d-85206f48055a against olibot-23's Ramselle M-00216 with ID 29cf6a67-fd3a-4eec-b859-7041024dbc1d. Bostrom M-00233 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 19:55:40] fiukewhfkje has accepted a battle request from olibot-23. fiukewhfkje's Bostrom M-00233 with ID 4a7c210d-58d4-4e5d-a03d-85206f48055a versus olibot-23's Ramselle M-00216 with ID 29cf6a67-fd3a-4eec-b859-7041024dbc1d. The wager is damage.
+[2022/08/06 19:57:01] fiukewhfkje battled their Voidisk M-00271 with ID 5401c9c9-352b-44b0-80df-930555e49866 against olibot-4's Dungware M-00038 with ID 40fb0d61-ab20-49f5-85e6-a86a00a807ef. Dungware M-00038 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 19:57:02] fiukewhfkje has accepted a battle request from olibot-4. fiukewhfkje's Voidisk M-00271 with ID 5401c9c9-352b-44b0-80df-930555e49866 versus olibot-4's Dungware M-00038 with ID 40fb0d61-ab20-49f5-85e6-a86a00a807ef. The wager is destroy.
+[2022/08/06 20:01:33] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-4's Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a. Compactisk M-00945 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 20:01:34] fiukewhfkje has accepted a battle request from olibot-4. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-4's Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a. The wager is collect.
+[2022/08/06 20:09:56] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-65's Constant M-00585 with ID fb01076b-a260-42f6-bf37-0d7355ad2d0b. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:09:57] fiukewhfkje has accepted a battle request from olibot-65. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus olibot-65's Constant M-00585 with ID fb01076b-a260-42f6-bf37-0d7355ad2d0b. The wager is damage.
+[2022/08/06 20:11:06] fiukewhfkje battled their Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a against olibot-52's Ransom Blue M-00507 with ID 8a6f9876-8a3c-4f7f-86ad-35fbc058aff1. Constant M-00061 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:11:07] fiukewhfkje has accepted a battle request from olibot-52. fiukewhfkje's Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a versus olibot-52's Ransom Blue M-00507 with ID 8a6f9876-8a3c-4f7f-86ad-35fbc058aff1. The wager is destroy.
+[2022/08/06 20:12:04] fiukewhfkje has sent a friend request to Larva1.
+[2022/08/06 20:12:39] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/06 20:14:00] fiukewhfkje battled their Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a against olibot-49's Trojo M-00462 with ID 6e25ca14-34c9-49c3-988e-588d543607c8. Constant M-00061 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 20:14:01] fiukewhfkje has accepted a battle request from olibot-49. fiukewhfkje's Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a versus olibot-49's Trojo M-00462 with ID 6e25ca14-34c9-49c3-988e-588d543607c8. The wager is collect.
+[2022/08/06 20:16:35] fiukewhfkje battled their Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef against olibot-31's Trojo M-00289 with ID d1352b3f-c856-4a4d-9299-05c8b7824b09. Trojo M-00289 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 20:16:35] fiukewhfkje has accepted a battle request from olibot-31. fiukewhfkje's Greedisk M-01837 with ID b2845caa-1771-45b2-9624-8c4112663bef versus olibot-31's Trojo M-00289 with ID d1352b3f-c856-4a4d-9299-05c8b7824b09. The wager is collect.
+[2022/08/06 20:18:39] fiukewhfkje battled their Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a against olibot-56's Ramselle M-00525 with ID f6cb3a0c-e4d3-4c93-be25-304fbddf8c87. Ramselle M-00525 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:18:40] fiukewhfkje has accepted a battle request from olibot-56. fiukewhfkje's Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a versus olibot-56's Ramselle M-00525 with ID f6cb3a0c-e4d3-4c93-be25-304fbddf8c87. The wager is damage.
+[2022/08/06 20:19:58] fiukewhfkje listed Bostrom on the market with ID 4a7c210d-58d4-4e5d-a03d-85206f48055a with offer of 696969.
+[2022/08/06 20:21:56] fiukewhfkje switched changed chips to power for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 20:22:47] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-98's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195. Buddy & Lila M-01803 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:22:48] fiukewhfkje has accepted a battle request from olibot-98. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus olibot-98's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195. The wager is collect.
+[2022/08/06 20:24:10] fiukewhfkje battled their Trojo M-00462 with ID 6e25ca14-34c9-49c3-988e-588d543607c8 against olibot-92's Greedisk M-00858 with ID c04bfb4f-442c-4458-8bc1-28b7cc72ef52. Greedisk M-00858 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00858 gets extra EXP due to their ability.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 20:24:10] fiukewhfkje has accepted a battle request from olibot-92. fiukewhfkje's Trojo M-00462 with ID 6e25ca14-34c9-49c3-988e-588d543607c8 versus olibot-92's Greedisk M-00858 with ID c04bfb4f-442c-4458-8bc1-28b7cc72ef52. The wager is damage.
+[2022/08/06 20:24:47] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/06 20:27:21] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-0's Buddy & Lila M-00006 with ID ee725711-2677-4259-a443-20ba013ae474. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:27:21] fiukewhfkje has accepted a battle request from olibot-0. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus olibot-0's Buddy & Lila M-00006 with ID ee725711-2677-4259-a443-20ba013ae474. The wager is destroy.
+[2022/08/06 20:29:53] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 20:35:29] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-98's Dungware M-00903 with ID 06604cf5-5fec-447c-ae79-33ff51c4df1f. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:36:33] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-92's Buddy & Lila M-00861 with ID 1458c232-096f-451c-b6d9-3b156d33cdc4. Buddy & Lila M-00861 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00861 gained lifespan due to their ability..
+[2022/08/06 20:37:12] fiukewhfkje rebuilt their destroyed BUDDY & LILA with ID 41096a3b-d8be-4aeb-8596-1781522fb25f for 158 parts and 0 energy.
+[2022/08/06 20:37:33] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/06 20:38:47] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-56's Ramselle M-00529 with ID 308ce1cd-e925-46a0-8c94-13ac2aa46570. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:39:54] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-69's Dungware M-00640 with ID 23daa4b5-d4d8-49ba-9a22-b4df6cf41219. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:41:50] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-69's Greedisk M-00643 with ID 083ec518-c8d9-4a4a-bf2b-e4b5326abef0. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:42:55] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-49's Bostrom M-00464 with ID 3f47982c-e287-4a0e-a5e5-d238f6bcf92c. Buddy & Lila M-01803 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:44:12] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-71's Ramselle M-00666 with ID 1eb137f3-7500-423d-8533-e330a38f0ba4. Ramselle M-00666 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 20:44:45] fiukewhfkje rebuilt their destroyed BUDDY & LILA with ID 41096a3b-d8be-4aeb-8596-1781522fb25f for 872 parts and 0 energy.
+[2022/08/06 20:46:34] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-79's Memnesia M-00704 with ID 1ac5318b-3611-42b7-a42d-df8b82e9e327. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:47:25] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-80's Dungware M-00738 with ID 077c2966-7444-4998-a387-b47b40b5c97d. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:49:33] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-53's Dungware M-00489 with ID 12da5a0a-e5e2-4f13-b943-6155a2d7fc34. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:50:43] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-14's Dungware M-00134 with ID 0a1e4a27-6330-440b-a473-d33eaef17bea. Dungware M-00134 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:51:42] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-96's Trojo M-00878 with ID 04ff53a6-5d0f-42ef-ad98-a13fd0f229cd. Trojo M-00878 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:52:54] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-97's Voidisk M-00902 with ID 291f2876-87d0-4b26-8c60-01c3a033623c. Voidisk M-00902 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 20:54:34] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-90's Ramselle M-00850 with ID 0b3782bb-8a45-4c6b-92dd-3ced7b9e835b. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:55:32] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Greedisk M-00068 with ID 20a5fb4a-d9cd-47b5-ac53-e0c8edde73d2. Greedisk M-00068 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00068 gets extra EXP due to their ability..
+[2022/08/06 20:56:26] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-46's Voidisk M-00426 with ID 03c12509-9667-4f0e-ad4b-7e977a083db2. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 20:56:50] fiukewhfkje has rejected a battle request from olibot-83. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-83's Voidisk M-00784 with ID 78ba0ea5-659b-441e-acd6-c547e53b9e63. The wager is damage.
+[2022/08/06 20:59:33] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-41's Trojo M-00391 with ID 1b4c0c12-61f2-4f23-81f7-b37bac8305f1. Trojo M-00391 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:00:22] fiukewhfkje switched changed chips to lifespan for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 21:01:22] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-31's Bostrom M-00292 with ID 131dec36-d48b-4d40-bbac-b371dcae3a95. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 21:02:14] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-31's Bostrom M-00292 with ID 131dec36-d48b-4d40-bbac-b371dcae3a95. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 21:03:11] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-24's Compactisk M-00281 with ID 01e3dfb1-9768-4e4e-95a8-45072d7d1da0. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 21:04:12] fiukewhfkje switched changed chips to viral for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 21:05:05] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-53's Dungware M-00489 with ID 12da5a0a-e5e2-4f13-b943-6155a2d7fc34. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 21:06:08] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-87's Buddy & Lila M-00816 with ID 0900a1c1-b3f4-4260-9634-25eeb51e98dc. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 21:07:46] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-42's Ransom Blue M-00416 with ID 251149ca-b4db-4f8e-bb15-ce80da111719. Ransom Blue M-00416 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:08:45] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-42's Ransom Blue M-00416 with ID 251149ca-b4db-4f8e-bb15-ce80da111719. Ransom Blue M-00416 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:10:34] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-24's Voidisk M-00239 with ID 15cd3138-8295-4a9e-b498-53d4748cae0b. Voidisk M-00239 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:11:32] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-32's Constant M-00299 with ID 2a2be651-e115-4c69-a85b-4e674d8f3ab7. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 21:13:04] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-99's Compactisk M-00941 with ID 3851ded6-6659-4017-888f-303f021cd6f2. Compactisk M-00941 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:14:02] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-99's Voidisk M-00919 with ID 12cc18cc-728d-43e6-8918-a1f223506e1a. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 21:14:57] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-99's Voidisk M-00919 with ID 12cc18cc-728d-43e6-8918-a1f223506e1a. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 21:16:16] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-99's Compactisk M-00941 with ID 3851ded6-6659-4017-888f-303f021cd6f2. Compactisk M-00941 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:27:56] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/06 21:30:31] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-21's Trojo M-00212 with ID 14671b74-c762-472d-98c0-2134a63aa2d0. Trojo M-00212 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 21:31:29] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-95's Constant M-00847 with ID 1cc3312a-1c3a-4d53-b063-5f186bce08d7. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:02:58] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x135 Machine Parts.
+[2022/08/06 22:03:56] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-57's Dungware M-00524 with ID 11c20f5b-8a5f-4efb-84e9-3a7e14230825. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:05:31] fiukewhfkje server battle ignored by ML. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a. The wager is friendly.
+[2022/08/06 22:08:03] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-53's Dungware M-00489 with ID 12da5a0a-e5e2-4f13-b943-6155a2d7fc34. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:08:17] fiukewhfkje switched changed chips to balanced for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 22:11:45] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-62's Memnesia M-00563 with ID 1dcfa48b-2d90-45c0-822d-ef4c7a31d1be. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:13:19] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-81's Constant M-00725 with ID 070e6555-c86f-4fe7-8828-963b82e9b811. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:19:11] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x126 Machine Parts.
+[2022/08/06 22:21:15] fiukewhfkje battled their Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195 against olibot-39's Compactisk M-00415 with ID 475bc68c-57e4-45d5-9998-b0fe06389454. Greedisk M-00901 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00901 gets extra EXP due to their ability.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/06 22:21:16] fiukewhfkje has accepted a battle request from olibot-39. fiukewhfkje's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195 versus olibot-39's Compactisk M-00415 with ID 475bc68c-57e4-45d5-9998-b0fe06389454. The wager is damage.
+[2022/08/06 22:24:36] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-1's Memnesia M-00031 with ID 0962a788-72ff-4d3e-a239-9b350f0c3c95. Memnesia M-00031 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:25:38] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-1's Memnesia M-00031 with ID 0962a788-72ff-4d3e-a239-9b350f0c3c95. Memnesia M-00031 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:26:40] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-2's Ransom Blue M-00040 with ID 2c65676e-a907-4230-b269-291f7550fec4. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:28:41] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-4's Ransom Blue M-00071 with ID 42443b2a-3654-42c2-9be6-c9c0cc90816b. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 22:30:31] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Greedisk M-00070 with ID 013e3884-10e1-4779-b7d4-9b73e544b9bb. Greedisk M-00070 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00070 gets extra EXP due to their ability..
+[2022/08/06 22:32:59] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-8's Compactisk M-00106 with ID 1938526a-96f1-4e2f-af45-f88f8352929e. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 22:34:08] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-10's Buddy & Lila M-00102 with ID 360902ba-2e09-4f76-b626-b60dc4d3a189. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 22:35:10] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-11's Memnesia M-00130 with ID 23256114-af7e-4df0-bf8a-184f811bca2b. Memnesia M-00130 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 22:36:13] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-12's Voidisk M-00124 with ID 30c4bf0f-adc9-4beb-9e52-9b7f70ed7b25. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:37:32] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-14's Dungware M-00134 with ID 0a1e4a27-6330-440b-a473-d33eaef17bea. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 22:38:47] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/06 22:38:49] fiukewhfkje has accepted a battle request from ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/06 22:39:11] fiukewhfkje switched changed chips to balanced for Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15.
+[2022/08/06 22:40:28] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x90 Machine Parts.
+[2022/08/06 22:53:47] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-0's Compactisk M-00012 with ID 16f6d941-4ad1-4451-9b15-cd3de2cdb376. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 22:54:57] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-0's Compactisk M-00012 with ID 16f6d941-4ad1-4451-9b15-cd3de2cdb376. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 22:55:57] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-1's Memnesia M-00031 with ID 0962a788-72ff-4d3e-a239-9b350f0c3c95. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 22:57:07] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-2's Voidisk M-00031 with ID 4debfced-4e6c-43a6-9be6-22d4c9c8a808. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 22:58:36] fiukewhfkje switched changed chips to lifespan for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 23:00:11] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-0's Ransom Blue M-00003 with ID 0e57404f-6e59-4487-bc49-3987863747a3. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:01:29] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-1's Trojo M-00037 with ID 44c18f60-2e5a-4d83-934a-a750d924ed6a. Trojo M-00037 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:01:56] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/06 23:03:03] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-2's Bostrom M-00044 with ID 1671aca9-10cc-416b-9d69-4bd4163d7ad8. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:04:23] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-4's Voidisk M-00054 with ID 29b31657-2504-4342-bae8-43da9795e4f2. Voidisk M-00054 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:05:22] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-5's Ransom Blue M-00082 with ID 14586b99-4ce5-4a7c-9489-743d58fcab97. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:06:23] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Ramselle M-00065 with ID 1b23867a-c565-40d0-a6ec-ba3cf80c7b8a. Ramselle M-00065 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:07:27] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Ramselle M-00065 with ID 1b23867a-c565-40d0-a6ec-ba3cf80c7b8a. Ramselle M-00065 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:08:28] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-7's Ransom Blue M-00098 with ID 10e84456-a297-4a03-a8b8-d93b50e54caf. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:09:30] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-8's Ransom Blue M-00108 with ID 13211d01-e7e6-4ae3-82f4-8b2d3aa50d62. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:11:23] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-10's Constant M-00121 with ID 1f925528-b9b6-43c3-b90f-9ff2084f9958. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:12:54] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-11's Buddy & Lila M-00110 with ID 105c6e09-c157-413b-80e9-8921ccffaaa2. Buddy & Lila M-00110 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00110 gained firewall due to their ability..
+[2022/08/06 23:13:47] fiukewhfkje switched changed chips to balanced for Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f.
+[2022/08/06 23:15:26] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-13's Voidisk M-00137 with ID 0398fd38-6494-46ba-94d8-31e840157721. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 23:17:21] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-15's Voidisk M-00155 with ID 1babea67-0f7e-4095-9d29-50444b3bed25. Voidisk M-00155 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:18:26] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-15's Voidisk M-00155 with ID 1babea67-0f7e-4095-9d29-50444b3bed25. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:19:27] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-16's Ransom Blue M-00174 with ID 07f320ae-8e58-4925-9f87-207e82189792. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 23:20:54] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-0's Memnesia M-00019 with ID 0f2d21d1-e0a9-4e01-a7b9-eb98589bcbdf. Memnesia M-00019 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:23:50] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-1's Trojo M-00037 with ID 44c18f60-2e5a-4d83-934a-a750d924ed6a. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 23:28:55] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-2's Voidisk M-00034 with ID 0d3d7e76-8d91-4f9b-bda7-41b497f3669f. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/06 23:29:48] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-3's Bostrom M-00050 with ID 2a1502a0-09b9-4edc-b3ae-5da28341f469. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/06 23:30:42] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-4's Buddy & Lila M-00048 with ID 0c8d810f-22f2-45b7-a4f5-a02bc4dbbfa4. Buddy & Lila M-00048 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00048 gained firewall due to their ability..
+[2022/08/06 23:31:51] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-5's Memnesia M-00067 with ID 0f5bf890-191d-4ab3-98ab-c5ed776b7edc. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 23:32:48] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Dungware M-00063 with ID 26ab4777-2197-4f5d-a4c2-9d86871821e3. Dungware M-00063 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:33:52] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Bostrom M-00082 with ID 47c4f682-da36-4ac1-b37e-3cc65186b6d8. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 23:34:47] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-7's Voidisk M-00067 with ID 08c31fd0-24e3-49eb-a2b2-2c957af9d2d4. Voidisk M-00067 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 23:35:43] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-7's Voidisk M-00067 with ID 08c31fd0-24e3-49eb-a2b2-2c957af9d2d4. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained viral due to their ability..
+[2022/08/06 23:36:44] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-8's Buddy & Lila M-00085 with ID 1629e737-05ff-4d96-a53d-c2b90b852ded. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained firewall due to their ability..
+[2022/08/06 23:50:23] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/06 23:50:23] fiukewhfkje server battle accepted by ML. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/06 23:52:47] fiukewhfkje played minigame doll with difficulty Hard and level Fussy. The reward was x78 Machine Parts.
+[2022/08/07 00:05:55] fiukewhfkje battled their Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195 against olibot-71's Dungware M-00653 with ID 94dab84a-684b-4b1c-a8f7-47712da72418. Dungware M-00653 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 00:05:56] fiukewhfkje has accepted a battle request from olibot-71. fiukewhfkje's Greedisk M-00901 with ID d3f3e111-b8df-417d-8b54-e646014dd195 versus olibot-71's Dungware M-00653 with ID 94dab84a-684b-4b1c-a8f7-47712da72418. The wager is destroy.
+[2022/08/07 00:11:18] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against JustVibing's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd. Buddy & Lila M-01803 is the winner!
+Destruction was prevented due to Compactisk M-00132's ability!
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/07 00:11:19] fiukewhfkje server battle accepted by JustVibing. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus JustVibing's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd. The wager is destroy.
+[2022/08/07 00:13:16] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. Buddy & Lila M-01803 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-01803 gained lifespan due to their ability..
+[2022/08/07 00:13:16] fiukewhfkje server battle accepted by JustVibing. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus JustVibing's Bostrom M-06473 with ID 3ccce3e8-f9e5-485e-8b52-8a158d025e5b. The wager is friendly.
+[2022/08/07 00:14:14] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x81 Machine Parts.
+[2022/08/07 00:34:42] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/07 00:37:16] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:37:17] fiukewhfkje server battle accepted by ML. fiukewhfkje's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is damage.
+[2022/08/07 00:38:20] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Compactisk M-00945 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 00:38:20] fiukewhfkje server battle accepted by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is damage.
+[2022/08/07 00:40:01] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00134 gained viral due to their ability..
+[2022/08/07 00:40:01] fiukewhfkje server battle accepted by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is damage.
+[2022/08/07 00:44:41] fiukewhfkje server battle ignored by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is damage.
+[2022/08/07 00:50:59] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. Buddy & Lila M-00134 is the winner!
+The bots shake claws and go their separate ways.
+Buddy & Lila M-00134 gained power due to their ability..
+[2022/08/07 00:50:59] fiukewhfkje server battle accepted by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Buddy & Lila M-00134 with ID 0cf08395-c7dc-4924-8c0c-d0894e61ba5d. The wager is friendly.
+[2022/08/07 00:54:24] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 00:54:25] fiukewhfkje server battle accepted by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Ransom Blue M-00509 with ID 6203e2af-eecb-43f1-8b00-18f50531211a. The wager is destroy.
+[2022/08/07 00:56:28] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 00:56:28] fiukewhfkje server battle accepted by ML. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus ML's Trojo M-01813 with ID 62ff602b-2f2c-4b97-9e8f-4db4ce544eb9. The wager is destroy.
+[2022/08/07 01:01:35] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 01:07:39] fiukewhfkje battled their Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f against olibot-6's Dungware M-00063 with ID 26ab4777-2197-4f5d-a4c2-9d86871821e3. Buddy & Lila M-01803 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-01803 gained power due to their ability..
+[2022/08/07 01:11:44] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against JustVibing's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 01:11:45] fiukewhfkje server battle accepted by JustVibing. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus JustVibing's Buddy & Lila M-01803 with ID 41096a3b-d8be-4aeb-8596-1781522fb25f. The wager is destroy.
+[2022/08/07 01:22:02] fiukewhfkje bought Ramselle from the market with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80 for 1200.
+[2022/08/07 02:12:00] fiukewhfkje has sent a friend request to nasty.
+[2022/08/07 02:12:28] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/07 02:25:11] fiukewhfkje battled their Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a against olibot-54's Constant M-00480 with ID 169d85db-912c-4c3c-bc01-6389a612416b. Constant M-00480 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 02:25:12] fiukewhfkje has accepted a battle request from olibot-54. fiukewhfkje's Constant M-00061 with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a versus olibot-54's Constant M-00480 with ID 169d85db-912c-4c3c-bc01-6389a612416b. The wager is damage.
+[2022/08/07 02:27:59] fiukewhfkje battled their Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d against olibot-42's Constant M-00393 with ID d9007bc4-39b6-4731-b089-61882608a224. Constant M-00393 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 02:28:00] fiukewhfkje has accepted a battle request from olibot-42. fiukewhfkje's Ransom Blue M-01930 with ID 61af53bc-c1cd-448c-8388-a2a476390d1d versus olibot-42's Constant M-00393 with ID d9007bc4-39b6-4731-b089-61882608a224. The wager is destroy.
+[2022/08/07 02:28:26] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x63 Machine Parts.
+[2022/08/07 02:32:01] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-81's Bostrom M-00763 with ID 93c61176-65fd-452b-8150-379c86098a66. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 02:32:02] fiukewhfkje has accepted a battle request from olibot-81. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-81's Bostrom M-00763 with ID 93c61176-65fd-452b-8150-379c86098a66. The wager is destroy.
+[2022/08/07 02:34:10] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against olibot-7's Buddy & Lila M-00074 with ID ea8feedf-5213-4a5e-984e-872f3a7f9bc7. Compactisk M-00945 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 02:34:11] fiukewhfkje has accepted a battle request from olibot-7. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus olibot-7's Buddy & Lila M-00074 with ID ea8feedf-5213-4a5e-984e-872f3a7f9bc7. The wager is destroy.
+[2022/08/07 02:36:24] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x108 Machine Parts.
+[2022/08/07 02:46:03] fiukewhfkje has rejected a battle request from olibot-26. fiukewhfkje's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80 versus olibot-26's Constant M-00233 with ID bf1c4323-9824-4a2e-b64b-e657bcae2549. The wager is collect.
+[2022/08/07 02:50:43] fiukewhfkje has rejected a battle request from olibot-24. fiukewhfkje's Ramselle M-00447 with ID 1c14017d-ad59-45c5-a2e9-82819a4f0e80 versus olibot-24's Bostrom M-00238 with ID 115ea91b-73ce-4e73-8262-ac175003d95c. The wager is collect.
+[2022/08/07 02:51:07] fiukewhfkje listed Constant on the market with ID fc4d45d4-7b32-4537-854d-f3b6becdfa3a with offer of 696969.
+[2022/08/07 02:58:26] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x72 Machine Parts.
+[2022/08/07 03:25:53] fiukewhfkje played minigame doll with difficulty Hard and level Exquisite. The reward was x99 Machine Parts.
+[2022/08/07 03:30:09] fiukewhfkje battled their Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 against nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92. Compactisk M-00945 is the winner!
+The bots shake claws and go their separate ways..
+[2022/08/07 03:30:09] fiukewhfkje server battle accepted by nasty. fiukewhfkje's Compactisk M-00945 with ID f1906ebb-14db-4176-b648-07f0919a9e15 versus nasty's Constant M-00911 with ID a3560ac5-79e1-442b-b93b-4cae06050f92. The wager is friendly.

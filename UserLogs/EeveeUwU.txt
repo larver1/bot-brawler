@@ -1,0 +1,93 @@
+ [2022/08/06 15:58:20] EeveeUwU collected their daily rewards.
+[2022/08/06 15:59:35] EeveeUwU built a BUDDY & LILA with ID 28895042-d2e4-48a0-8c1a-467a7b73d809
+[2022/08/06 16:00:54] EeveeUwU built a COMPACTISK with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a
+[2022/08/06 16:02:38] EeveeUwU battled their Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Compactisk M-01795 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 16:02:39] EeveeUwU is battle training with Professor Diriski. EeveeUwU's Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 16:03:46] EeveeUwU is now friends with ML.
+[2022/08/06 16:06:52] EeveeUwU played minigame slots with difficulty Easy and level null. The reward was x3 Machine Parts.
+[2022/08/06 16:07:23] EeveeUwU played minigame slots with difficulty Easy and level 3 Rows. The reward was x4 Machine Parts.
+[2022/08/06 16:08:42] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against olibot-84's Memnesia M-00749 with ID 0fdf574c-6964-4271-b3fa-2181914cd8f7. Buddy & Lila M-01807 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-01807 gained viral due to their ability..
+[2022/08/06 16:09:39] EeveeUwU played minigame slots with difficulty Easy and level 7 Rows. The reward was x20 Machine Parts.
+[2022/08/06 16:11:47] EeveeUwU played minigame xo with difficulty Easy and level Regular. The reward was x15 Machine Parts.
+[2022/08/06 16:14:46] EeveeUwU battled their Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Compactisk M-01795 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 16:14:46] EeveeUwU is battle training with Professor Diriski. EeveeUwU's Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 16:16:19] EeveeUwU battled their Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Trojo M-00020 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 16:16:19] EeveeUwU is battle training with Professor Diriski. EeveeUwU's Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 16:17:34] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Buddy & Lila M-01807 is the winner!
+The winner is rewarded with some EXP.
+Buddy & Lila M-01807 gained power due to their ability..
+[2022/08/06 16:17:35] EeveeUwU is battle training with Professor Diriski. EeveeUwU's Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 16:19:15] EeveeUwU played minigame slots with difficulty Easy and level 7 Rows. The reward was x8 Machine Parts.
+[2022/08/06 16:22:27] EeveeUwU built a TROJO with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26
+[2022/08/06 16:23:33] EeveeUwU battled their Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Compactisk M-01795 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 16:23:34] EeveeUwU is battle training with Professor Diriski. EeveeUwU's Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 16:25:39] EeveeUwU played minigame claw with difficulty Easy and level 3x3. The reward was x23 Machine Parts.
+[2022/08/06 16:28:25] EeveeUwU switched changed chips to power for Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a.
+[2022/08/06 16:28:55] EeveeUwU switched changed chips to power for Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26.
+[2022/08/06 16:30:13] EeveeUwU battled their Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a against olibot-65's Voidisk M-00620 with ID 447615b0-ac27-4a45-99e4-4a3e24b407df. Compactisk M-01795 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:30:13] EeveeUwU has accepted a battle request from olibot-65. EeveeUwU's Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a versus olibot-65's Voidisk M-00620 with ID 447615b0-ac27-4a45-99e4-4a3e24b407df. The wager is destroy.
+[2022/08/06 16:31:50] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against olibot-20's Greedisk M-00204 with ID 0c0b0cdb-377d-41e4-a32b-14f5a11b20af. Buddy & Lila M-01807 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-01807 gained lifespan due to their ability..
+[2022/08/06 16:31:51] EeveeUwU has accepted a battle request from olibot-20. EeveeUwU's Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 versus olibot-20's Greedisk M-00204 with ID 0c0b0cdb-377d-41e4-a32b-14f5a11b20af. The wager is damage.
+[2022/08/06 16:33:47] EeveeUwU played minigame claw with difficulty Easy and level 7x7. The reward was x55 Machine Parts.
+[2022/08/06 16:34:51] EeveeUwU battled their Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a against olibot-6's Voidisk M-00060 with ID e1cd9a94-dcfb-424d-94bb-f2799ef89307. Voidisk M-00060 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:34:52] EeveeUwU has accepted a battle request from olibot-6. EeveeUwU's Compactisk M-01795 with ID a3b6dab3-2b1f-44b4-ad8a-c4efd558ae0a versus olibot-6's Voidisk M-00060 with ID e1cd9a94-dcfb-424d-94bb-f2799ef89307. The wager is destroy.
+[2022/08/06 16:38:31] EeveeUwU switched changed chips to lifespan for Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26.
+[2022/08/06 16:39:22] EeveeUwU built a BOSTROM with ID 7a4aba11-64ca-4624-9180-08c06d488b3d
+[2022/08/06 16:40:43] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against olibot-12's Bostrom M-00136 with ID 03eeec10-d503-49c7-a3f5-6409c7b088bc. Buddy & Lila M-01807 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-01807 gained power due to their ability..
+[2022/08/06 16:40:44] EeveeUwU has accepted a battle request from olibot-12. EeveeUwU's Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 versus olibot-12's Bostrom M-00136 with ID 03eeec10-d503-49c7-a3f5-6409c7b088bc. The wager is destroy.
+[2022/08/06 16:41:53] EeveeUwU played minigame claw with difficulty Easy and level 10x10. The reward was x5 Machine Parts.
+[2022/08/06 16:44:30] EeveeUwU played minigame claw with difficulty Easy and level 5x5. The reward was x37 Machine Parts.
+[2022/08/06 16:47:47] EeveeUwU bought Memnesia from the market with ID 59d0ecfa-1d49-435e-9810-8d10cca1cad9 for 1.
+[2022/08/06 17:13:13] EeveeUwU switched changed chips to balanced for Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809.
+[2022/08/06 17:13:41] EeveeUwU switched changed chips to viral for Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809.
+[2022/08/06 17:16:05] EeveeUwU played minigame claw with difficulty Easy and level 5x5. The reward was x30 Machine Parts.
+[2022/08/06 17:18:28] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against olibot-9's Dungware M-00095 with ID 6faaedda-7336-4689-a6fa-324173ce22de. Dungware M-00095 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:18:29] EeveeUwU has accepted a battle request from olibot-9. EeveeUwU's Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 versus olibot-9's Dungware M-00095 with ID 6faaedda-7336-4689-a6fa-324173ce22de. The wager is destroy.
+[2022/08/06 17:22:25] EeveeUwU has sent a friend request to Larva1.
+[2022/08/06 17:23:40] EeveeUwU has sent a friend request to toro.
+[2022/08/06 17:25:33] EeveeUwU battled their Memnesia M-00220 with ID 59d0ecfa-1d49-435e-9810-8d10cca1cad9 against olibot-14's Voidisk M-00145 with ID a0ea878b-670b-4712-9a1a-664b4c3cbbb1. Voidisk M-00145 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 17:25:34] EeveeUwU has accepted a battle request from olibot-14. EeveeUwU's Memnesia M-00220 with ID 59d0ecfa-1d49-435e-9810-8d10cca1cad9 versus olibot-14's Voidisk M-00145 with ID a0ea878b-670b-4712-9a1a-664b4c3cbbb1. The wager is collect.
+[2022/08/06 17:29:33] EeveeUwU played minigame claw with difficulty Easy and level 7x7. The reward was x23 Machine Parts.
+[2022/08/06 17:35:41] EeveeUwU battled their Bostrom M-06479 with ID 7a4aba11-64ca-4624-9180-08c06d488b3d against olibot-2's Ransom Blue M-00049 with ID 05be09bd-89e7-4cb2-baaf-18ba750a42a2. Bostrom M-06479 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:35:53] EeveeUwU switched changed chips to power for Bostrom M-06479 with ID 7a4aba11-64ca-4624-9180-08c06d488b3d.
+[2022/08/06 17:37:36] EeveeUwU battled their Bostrom M-06479 with ID 7a4aba11-64ca-4624-9180-08c06d488b3d against olibot-2's Ransom Blue M-00042 with ID 0ace0c13-4303-434d-9abe-1dc6f3251443. Ransom Blue M-00042 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:38:55] EeveeUwU battled their Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26 against olibot-2's Voidisk M-00027 with ID 2d45af68-146a-4b15-92c2-80e50c34d611. Trojo M-01815 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:40:25] EeveeUwU battled their Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26 against olibot-2's Voidisk M-00027 with ID 2d45af68-146a-4b15-92c2-80e50c34d611. Trojo M-01815 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:41:23] EeveeUwU battled their Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26 against olibot-2's Voidisk M-00027 with ID 2d45af68-146a-4b15-92c2-80e50c34d611. Voidisk M-00027 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 17:42:00] EeveeUwU rebuilt their destroyed BUDDY & LILA with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 for 44 parts and 0 energy.
+[2022/08/06 17:43:00] EeveeUwU played minigame claw with difficulty Easy and level 3x3. The reward was x22 Machine Parts.
+[2022/08/06 17:45:28] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against olibot-0's Trojo M-00184 with ID 0f557a4f-7217-4004-82c0-01d805f07e6f. Buddy & Lila M-01807 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-01807 gained viral due to their ability..
+[2022/08/06 17:46:55] EeveeUwU battled their Buddy & Lila M-01807 with ID 28895042-d2e4-48a0-8c1a-467a7b73d809 against olibot-0's Dungware M-00019 with ID 010cf306-874a-4ea0-a6a0-dabc4e320f43. Buddy & Lila M-01807 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-01807 gained viral due to their ability..
+[2022/08/06 17:48:15] EeveeUwU battled their Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26 against olibot-0's Compactisk M-00004 with ID 3bdd3711-3a73-4b3a-a07b-4c1f7b15a804. Trojo M-01815 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 17:50:14] EeveeUwU switched changed chips to power for Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26.
+[2022/08/06 17:51:09] EeveeUwU battled their Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26 against olibot-14's Greedisk M-00143 with ID d69de2cf-b07b-4712-bbe8-d208a2a02b55. Greedisk M-00143 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00143 gets extra EXP due to their ability..
+[2022/08/06 17:51:10] EeveeUwU has accepted a battle request from olibot-14. EeveeUwU's Trojo M-01815 with ID 100f4de1-16b4-4fc5-a4c0-8e9a92aaea26 versus olibot-14's Greedisk M-00143 with ID d69de2cf-b07b-4712-bbe8-d208a2a02b55. The wager is destroy.
+[2022/08/06 17:54:04] EeveeUwU played minigame claw with difficulty Easy and level 7x7. The reward was x28 Machine Parts.

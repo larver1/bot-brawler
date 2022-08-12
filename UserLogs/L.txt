@@ -35,3 +35,207 @@ The winner is rewarded with some EXP..
 [1659286793068] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Bostrom M-00942 is the winner!
 The winner is rewarded with some EXP..
 [1659286793530] L is battle training with Professor Diriski. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 13:19:11] L collected their daily rewards.
+[2022/08/06 13:20:03] L played minigame claw with difficulty Hard and level 14x14. The reward was x0 Machine Parts.
+[2022/08/06 13:20:53] L played minigame claw with difficulty Normal and level 7x7. The reward was x64 Machine Parts.
+[2022/08/06 13:30:58] L built a CONSTANT with ID 072473da-6ea5-4617-becb-efdea7bb80fd
+[2022/08/06 13:32:17] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Constant M-01801 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 13:32:17] L is battle training with Professor Diriski. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/06 13:33:34] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Constant M-01801 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 13:33:35] L is battle training with Professor Diriski. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/06 13:34:38] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Constant M-01801 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 13:34:38] L is battle training with Professor Diriski. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/06 13:36:35] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Constant M-01801 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 13:36:35] L is battle training with Professor Diriski. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 13:37:23] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Constant M-01801 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 13:37:23] L is battle training with Professor Diriski. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 13:41:48] L rebuilt their destroyed BUDDY & LILA with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 for 54 parts and 0 energy.
+[2022/08/06 13:43:06] L switched changed chips to power for Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd.
+[2022/08/06 13:47:56] L battled their Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 against olibot-32's Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc. Bostrom M-00944 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:47:57] L has accepted a battle request from olibot-32. L's Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 versus olibot-32's Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc. The wager is collect.
+[2022/08/06 13:48:54] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against olibot-22's Ransom Blue M-00235 with ID a4a26100-624d-4a3e-8a81-4fb422d7e7fc. Bostrom M-00942 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:48:55] L has accepted a battle request from olibot-22. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus olibot-22's Ransom Blue M-00235 with ID a4a26100-624d-4a3e-8a81-4fb422d7e7fc. The wager is destroy.
+[2022/08/06 13:53:04] L switched changed chips to viral for Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b.
+[2022/08/06 13:53:53] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against olibot-85's Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c. Bostrom M-00942 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 13:53:54] L has accepted a battle request from olibot-85. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus olibot-85's Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c. The wager is collect.
+[2022/08/06 13:55:00] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-22's Greedisk M-00221 with ID 64ba9259-4b80-46fc-a4b6-7116c8e7eea5. Constant M-01801 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 13:55:00] L has accepted a battle request from olibot-22. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus olibot-22's Greedisk M-00221 with ID 64ba9259-4b80-46fc-a4b6-7116c8e7eea5. The wager is damage.
+[2022/08/06 13:57:06] L played minigame slots with difficulty Easy and level 7 Rows. The reward was x7 Machine Parts.
+[2022/08/06 13:58:11] L switched changed chips to power for Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40.
+[2022/08/06 13:58:59] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-53's Buddy & Lila M-00485 with ID b6abd23c-8524-4cee-bea1-e081e4137b0a. Buddy & Lila M-00485 is the winner!
+Loser bot gives winner bot some EXP.
+Buddy & Lila M-00485 gained firewall due to their ability..
+[2022/08/06 13:59:00] L has accepted a battle request from olibot-53. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-53's Buddy & Lila M-00485 with ID b6abd23c-8524-4cee-bea1-e081e4137b0a. The wager is damage.
+[2022/08/06 14:00:48] L switched changed chips to viral for Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27.
+[2022/08/06 14:01:44] L battled their Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 against olibot-32's Ramselle M-00322 with ID 027419d6-896b-4ccb-a455-060b4f7766a5. Bostrom M-00944 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 14:01:44] L has accepted a battle request from olibot-32. L's Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 versus olibot-32's Ramselle M-00322 with ID 027419d6-896b-4ccb-a455-060b4f7766a5. The wager is destroy.
+[2022/08/06 14:03:23] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-41's Bostrom M-00378 with ID 52535d39-8cf6-4a1d-a1ab-d3602bf4618f. Buddy & Lila M-00930 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00930 gained power due to their ability..
+[2022/08/06 14:03:24] L has accepted a battle request from olibot-41. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-41's Bostrom M-00378 with ID 52535d39-8cf6-4a1d-a1ab-d3602bf4618f. The wager is collect.
+[2022/08/06 14:05:17] L battled their Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 against olibot-43's Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2. Bostrom M-00944 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 14:05:18] L has accepted a battle request from olibot-43. L's Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 versus olibot-43's Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2. The wager is collect.
+[2022/08/06 14:06:20] L played minigame doll with difficulty Hard and level Exquisite. The reward was x36 Machine Parts.
+[2022/08/06 15:46:17] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-8's Ransom Blue M-00103 with ID 9f5fb5b3-04bf-468a-bd4b-d8e793dbc3c2. Constant M-01801 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 15:46:18] L has accepted a battle request from olibot-8. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus olibot-8's Ransom Blue M-00103 with ID 9f5fb5b3-04bf-468a-bd4b-d8e793dbc3c2. The wager is destroy.
+[2022/08/06 15:49:53] L switched changed chips to viral for Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40.
+[2022/08/06 15:50:36] L battled their Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 against olibot-69's Ransom Blue M-00659 with ID eb743811-d539-4bb1-b0bc-9f719630b101. Ransom Blue M-00659 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:50:36] L has accepted a battle request from olibot-69. L's Buddy & Lila M-00930 with ID 8a9e174e-aebd-4ae4-bd49-4f2915c0ed40 versus olibot-69's Ransom Blue M-00659 with ID eb743811-d539-4bb1-b0bc-9f719630b101. The wager is collect.
+[2022/08/06 15:52:37] L switched changed chips to power for Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c.
+[2022/08/06 15:53:19] L battled their Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c against olibot-84's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578. Dungware M-00786 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:53:20] L has accepted a battle request from olibot-84. L's Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c versus olibot-84's Buddy & Lila M-00773 with ID 616a97b3-a3a2-4095-ae64-8980a1c99578. The wager is collect.
+[2022/08/06 15:53:43] L switched changed chips to viral for Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c.
+[2022/08/06 15:54:49] L switched changed chips to power for Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2.
+[2022/08/06 15:55:29] L battled their Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2 against olibot-21's Memnesia M-00220 with ID 59d0ecfa-1d49-435e-9810-8d10cca1cad9. Memnesia M-00403 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:55:30] L has accepted a battle request from olibot-21. L's Memnesia M-00403 with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2 versus olibot-21's Memnesia M-00220 with ID 59d0ecfa-1d49-435e-9810-8d10cca1cad9. The wager is collect.
+[2022/08/06 15:57:37] L battled their Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 against olibot-92's Bostrom M-00879 with ID b727e47b-7294-4003-a9aa-780d64e875e1. Bostrom M-00879 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 15:57:39] L has accepted a battle request from olibot-92. L's Bostrom M-00944 with ID 6ac937f0-490a-49e2-ad78-a2c017e2ea27 versus olibot-92's Bostrom M-00879 with ID b727e47b-7294-4003-a9aa-780d64e875e1. The wager is collect.
+[2022/08/06 15:58:42] L listed Bostrom on the market with ID 52535d39-8cf6-4a1d-a1ab-d3602bf4618f with offer of 1.
+[2022/08/06 15:59:45] L listed Memnesia on the market with ID 3dbaff5d-4394-48ca-9fc1-e12a698970e2 with offer of 1.
+[2022/08/06 16:00:35] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 5.
+[2022/08/06 16:01:35] L switched changed chips to firewall for Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b.
+[2022/08/06 16:02:16] L battled their Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b against olibot-57's Ramselle M-00546 with ID 7a6e35cd-e23b-4694-a5fa-ac522236361c. Ramselle M-00546 is the winner!
+Loser bot gets collected by winner.
+Ramselle M-00546 gained firewall due to their ability..
+[2022/08/06 16:02:16] L has accepted a battle request from olibot-57. L's Bostrom M-00942 with ID 16aa9d49-2204-4438-948f-4011568ba15b versus olibot-57's Ramselle M-00546 with ID 7a6e35cd-e23b-4694-a5fa-ac522236361c. The wager is collect.
+[2022/08/06 16:04:07] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-68's Greedisk M-00632 with ID 86a82fc7-03ca-4429-a7cd-4d120b3dbcb4. Constant M-01801 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:04:08] L has accepted a battle request from olibot-68. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus olibot-68's Greedisk M-00632 with ID 86a82fc7-03ca-4429-a7cd-4d120b3dbcb4. The wager is destroy.
+[2022/08/06 16:06:01] L battled their Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c against olibot-10's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd. Dungware M-00786 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:06:02] L has accepted a battle request from olibot-10. L's Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c versus olibot-10's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd. The wager is collect.
+[2022/08/06 16:06:20] L switched changed chips to power for Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c.
+[2022/08/06 16:07:58] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-20's Memnesia M-00210 with ID 1a20097e-bd84-4cfd-9f7a-8d3c5b9a6e04. Constant M-01801 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:07:59] L has accepted a battle request from olibot-20. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus olibot-20's Memnesia M-00210 with ID 1a20097e-bd84-4cfd-9f7a-8d3c5b9a6e04. The wager is destroy.
+[2022/08/06 16:08:35] L switched changed chips to viral for Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd.
+[2022/08/06 16:09:34] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-80's Constant M-00714 with ID 6c2f66fa-3ea8-4e39-81c6-6ef910cc49ea. Constant M-00714 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 16:09:35] L has accepted a battle request from olibot-80. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus olibot-80's Constant M-00714 with ID 6c2f66fa-3ea8-4e39-81c6-6ef910cc49ea. The wager is damage.
+[2022/08/06 16:10:12] L switched changed chips to power for Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd.
+[2022/08/06 16:11:11] L switched changed chips to power for Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc.
+[2022/08/06 16:11:53] L battled their Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc against olibot-48's Ramselle M-00456 with ID ad876215-444f-4b77-894c-d2430e7fcdc9. Buddy & Lila M-00303 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00303 gained power due to their ability..
+[2022/08/06 16:11:54] L has accepted a battle request from olibot-48. L's Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc versus olibot-48's Ramselle M-00456 with ID ad876215-444f-4b77-894c-d2430e7fcdc9. The wager is destroy.
+[2022/08/06 16:13:36] L switched changed chips to viral for Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd.
+[2022/08/06 16:14:18] L battled their Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd against olibot-14's Bostrom M-00154 with ID 119a25b7-8366-4461-b3cc-f96727b3928c. Compactisk M-00132 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 16:14:19] L has accepted a battle request from olibot-14. L's Compactisk M-00132 with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd versus olibot-14's Bostrom M-00154 with ID 119a25b7-8366-4461-b3cc-f96727b3928c. The wager is destroy.
+[2022/08/06 16:16:59] L battled their Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c against olibot-7's Buddy & Lila M-00073 with ID b25dc0fb-b28f-419d-8713-259f57fce3ab. Buddy & Lila M-00073 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00073 gained viral due to their ability..
+[2022/08/06 16:17:00] L has accepted a battle request from olibot-7. L's Dungware M-00786 with ID f070c603-4302-454c-9c10-ebeb0703df7c versus olibot-7's Buddy & Lila M-00073 with ID b25dc0fb-b28f-419d-8713-259f57fce3ab. The wager is destroy.
+[2022/08/06 16:18:05] L battled their Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc against olibot-63's Compactisk M-00643 with ID c54aabe0-8f64-48be-91da-012c086e5e66. Buddy & Lila M-00303 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal...
+Buddy & Lila M-00303 gained power due to their ability..
+[2022/08/06 16:18:05] L has accepted a battle request from olibot-63. L's Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc versus olibot-63's Compactisk M-00643 with ID c54aabe0-8f64-48be-91da-012c086e5e66. The wager is damage.
+[2022/08/06 16:18:50] L built a GREEDISK with ID 977b9434-4015-4c61-92ba-ee1fabc581dc
+[2022/08/06 16:19:20] L switched changed chips to power for Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc.
+[2022/08/06 16:20:33] L battled their Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc against olibot-93's Buddy & Lila M-00874 with ID d31cb2c6-7542-40b7-9b31-2bd103c8fb4e. Buddy & Lila M-00874 is the winner!
+Loser bot gets collected by winner.
+Buddy & Lila M-00874 gained firewall due to their ability..
+[2022/08/06 16:20:34] L has accepted a battle request from olibot-93. L's Buddy & Lila M-00303 with ID 5549b560-110b-413a-8304-99b05e1ef3dc versus olibot-93's Buddy & Lila M-00874 with ID d31cb2c6-7542-40b7-9b31-2bd103c8fb4e. The wager is collect.
+[2022/08/06 16:22:56] L bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 5.
+[2022/08/06 16:24:34] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 1.
+[2022/08/06 16:24:46] L bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 1.
+[2022/08/06 16:25:06] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 1.
+[2022/08/06 16:25:17] L bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 1.
+[2022/08/06 16:25:29] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 1.
+[2022/08/06 16:25:42] L bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 1.
+[2022/08/06 16:25:54] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 1.
+[2022/08/06 16:26:04] L bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 1.
+[2022/08/06 16:27:06] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 1.
+[2022/08/06 16:27:19] L bought Buddy & Lila from the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 for 1.
+[2022/08/06 16:31:09] L listed Buddy & Lila on the market with ID 616a97b3-a3a2-4095-ae64-8980a1c99578 with offer of 1.
+[2022/08/06 16:31:17] L listed Memnesia on the market with ID 59d0ecfa-1d49-435e-9810-8d10cca1cad9 with offer of 1.
+[2022/08/06 16:31:26] L listed Compactisk on the market with ID 75d79d8a-6f45-4859-ac7d-14237d8471fd with offer of 1.
+[2022/08/06 16:32:18] L bought Bostrom from the market with ID a504bbc8-c570-4d70-84f3-b3a4499df05a for 1.
+[2022/08/06 16:32:34] L switched changed chips to firewall for Bostrom M-06477 with ID a504bbc8-c570-4d70-84f3-b3a4499df05a.
+[2022/08/06 16:35:04] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-86's Buddy & Lila M-00800 with ID ae743f6e-2461-4bb2-a7d4-52115432ebf8. Constant M-01801 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/06 16:35:05] L has accepted a battle request from olibot-86. L's Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd versus olibot-86's Buddy & Lila M-00800 with ID ae743f6e-2461-4bb2-a7d4-52115432ebf8. The wager is damage.
+[2022/08/06 16:36:59] L battled their Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc against olibot-98's Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece. Greedisk M-01839 is the winner!
+Loser bot gets collected by winner..
+[2022/08/06 16:37:00] L has accepted a battle request from olibot-98. L's Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc versus olibot-98's Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece. The wager is collect.
+[2022/08/06 16:37:15] L switched changed chips to power for Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece.
+[2022/08/06 18:06:07] L played minigame claw with difficulty Hard and level 3x3. The reward was x81 Machine Parts.
+[2022/08/06 18:07:12] L played minigame claw with difficulty Hard and level 14x14. The reward was x53 Machine Parts.
+[2022/08/06 18:09:25] L played minigame xo with difficulty Hard and level Regular. The reward was x0 Machine Parts.
+[2022/08/06 18:11:00] L played minigame claw with difficulty Hard and level 7x7. The reward was x15 Machine Parts.
+[2022/08/06 18:11:27] L played minigame claw with difficulty Easy and level 14x14. The reward was x6 Machine Parts.
+[2022/08/06 18:11:45] L played minigame claw with difficulty Easy and level 7x7. The reward was x20 Machine Parts.
+[2022/08/06 18:11:59] L played minigame claw with difficulty Easy and level 7x7. The reward was x20 Machine Parts.
+[2022/08/06 18:14:51] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-59's Trojo M-00560 with ID 161af34e-76b3-4b2f-9dae-0292fb479021. Trojo M-00560 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00560 gained power due to their ability..
+[2022/08/06 18:15:11] L rebuilt their destroyed CONSTANT with ID 072473da-6ea5-4617-becb-efdea7bb80fd for 164 parts and 0 energy.
+[2022/08/06 18:16:15] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-34's Buddy & Lila M-00323 with ID 311c5909-3a0b-49d2-ada7-fd4a0d738fdd. Constant M-01801 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:17:56] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-12's Buddy & Lila M-00115 with ID 341a7836-4349-4e28-bc08-e7f0e0ca6b8e. Buddy & Lila M-00115 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00115 gained power due to their ability..
+[2022/08/06 18:18:12] L rebuilt their destroyed CONSTANT with ID 072473da-6ea5-4617-becb-efdea7bb80fd for 294 parts and 0 energy.
+[2022/08/06 18:19:23] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-15's Compactisk M-00193 with ID 82c6ed53-937e-42d5-87e3-e36d125c1916. Compactisk M-00193 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:20:17] L switched changed chips to power for Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc.
+[2022/08/06 18:21:20] L battled their Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc against olibot-15's Trojo M-00163 with ID 73de1f57-3cda-4982-9f6a-f415effeb5af. Trojo M-00163 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00163 gained power due to their ability..
+[2022/08/06 18:21:37] L rebuilt their destroyed GREEDISK with ID 977b9434-4015-4c61-92ba-ee1fabc581dc for 80 parts and 0 energy.
+[2022/08/06 18:22:31] L battled their Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc against olibot-65's Trojo M-00620 with ID 0f59e8c1-9630-4b18-8fbd-1a32792f59a3. Greedisk M-01839 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-01839 gets extra EXP due to their ability..
+[2022/08/06 18:24:27] L battled their Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc against olibot-20's Ransom Blue M-00212 with ID 3d81fa94-a814-4e63-adaa-6826861d4461. Ransom Blue M-00212 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:25:08] L switched changed chips to firewall for Bostrom M-06477 with ID a504bbc8-c570-4d70-84f3-b3a4499df05a.
+[2022/08/06 18:26:34] L battled their Bostrom M-06477 with ID a504bbc8-c570-4d70-84f3-b3a4499df05a against olibot-12's Buddy & Lila M-00114 with ID 46caab99-1b41-4edf-aac8-b3a663b9830e. Buddy & Lila M-00114 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00114 gained lifespan due to their ability..
+[2022/08/06 18:27:13] L switched changed chips to power for Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece.
+[2022/08/06 18:28:24] L battled their Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece against olibot-15's Buddy & Lila M-00138 with ID 3540f130-4d82-4b54-8116-de578a29588e. Trojo M-00901 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00901 gained power due to their ability..
+[2022/08/06 18:29:35] L battled their Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece against olibot-62's Dungware M-00568 with ID 04c5cf9f-76c3-4083-9111-170cf54812ca. Trojo M-00901 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00901 gained power due to their ability..
+[2022/08/06 18:30:41] L played minigame claw with difficulty Hard and level 7x7. The reward was x38 Machine Parts.
+[2022/08/06 18:47:47] L battled their Trojo M-00901 with ID 0700276d-8b00-451c-97e3-a4f809ec8ece against olibot-32's Voidisk M-00300 with ID 23157253-cbdc-45a2-a7e7-d56601aa1cea. Voidisk M-00300 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:48:03] L rebuilt their destroyed GREEDISK with ID 977b9434-4015-4c61-92ba-ee1fabc581dc for 178 parts and 0 energy.
+[2022/08/06 18:49:42] L battled their Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc against olibot-18's Ransom Blue M-00188 with ID 1f67b507-6c0c-4069-92f7-37e8abdb098c. Greedisk M-01839 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-01839 gets extra EXP due to their ability..
+[2022/08/06 18:50:55] L battled their Greedisk M-01839 with ID 977b9434-4015-4c61-92ba-ee1fabc581dc against olibot-27's Memnesia M-00264 with ID 50349704-615b-4d48-be93-3e566a9e59b7. Memnesia M-00264 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:52:06] L played minigame date with difficulty Hard and level Trojo. The reward was x15 Machine Parts.
+[2022/08/06 18:52:34] L rebuilt their destroyed CONSTANT with ID 072473da-6ea5-4617-becb-efdea7bb80fd for 294 parts and 0 energy.
+[2022/08/06 18:54:13] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-15's Ramselle M-00142 with ID da78b0b4-5d62-4251-96ba-c5817de3ab3c. Constant M-01801 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:55:16] L battled their Constant M-01801 with ID 072473da-6ea5-4617-becb-efdea7bb80fd against olibot-83's Voidisk M-00788 with ID 38aa3747-bda5-4f8c-820e-3a4c18df9203. Voidisk M-00788 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 18:57:20] L rebuilt their destroyed BOSTROM with ID a504bbc8-c570-4d70-84f3-b3a4499df05a for 66 parts and 0 energy.
+[2022/08/06 18:57:30] L switched changed chips to viral for Bostrom M-06477 with ID a504bbc8-c570-4d70-84f3-b3a4499df05a.
+[2022/08/06 18:58:31] L battled their Bostrom M-06477 with ID a504bbc8-c570-4d70-84f3-b3a4499df05a against olibot-43's Buddy & Lila M-00401 with ID 23343835-80e5-45bb-a83e-d9f0361e5bbd. Bostrom M-06477 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 19:00:07] L battled their Bostrom M-06477 with ID a504bbc8-c570-4d70-84f3-b3a4499df05a against olibot-21's Constant M-00199 with ID 1b5003fc-19ce-425f-95af-e87b78e4cfd6. Constant M-00199 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 19:59:28] L played minigame date with difficulty Easy and level Trojo. The reward was x8 Machine Parts.
+[2022/08/06 20:06:05] L has sent a friend request to JustVibing.

@@ -88,7 +88,7 @@ module.exports = class dbAchievements
 
 					}
 
-					consola.info(`achievement updated: ${achievementName}:${achievementIndex}`);
+					// consola.info(`achievement updated: ${achievementName}:${achievementIndex}`);
 
 					if(achievementIndex)
 						break;

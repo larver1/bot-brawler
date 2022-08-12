@@ -82,8 +82,6 @@ module.exports = class dbBotStats
         try {
             const bot = await BotStats.findOne({ where: { bot_type: botName }, transaction: addBot, lock: true });
 
-            console.log("starting transaction");
-
             if(!bot) {
                 await addBot.rollback();
                 return null;
@@ -95,7 +93,6 @@ module.exports = class dbBotStats
             await bot.save({ transaction: addBot });
             await addBot.commit();
 
-            console.log("ending transaction");
             return bot.num_exists;
         } catch (err) {
             await ErrorHandler.handle(interaction, err);

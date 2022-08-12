@@ -106,7 +106,7 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
     switch(wager) {
         case "destroy":
             //Loser bot is destroyed and is no longer usable
-            exp = Math.ceil(loserBot.exp);
+            exp = Math.ceil(loserBot.exp / 2);
             if(winnerBot.ability == "Greedy AI") {
                 exp = Math.ceil(exp * 1.5);
             }
@@ -163,21 +163,24 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
         case "damage":
             //Pass EXP over to winner
             msg += "\nLoser bot gives winner bot some EXP.";
-            exp = Math.ceil(loserBot.exp / 5);
+            exp = Math.floor(loserBot.exp / 5);
 
             if(winnerBot.ability == "Greedy AI") {
-                exp = Math.ceil(exp * 1.5);
+                exp = Math.floor(exp * 1.5);
                 msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
             }
 
             if(exp == 0) 
-                msg += "\nLoser had no EXP left to give, so was destroyed for scrap metal...";
+                msg += "\nLoser didn't have enough EXP left to give, so was destroyed for scrap metal...";
 
             if(!await utils.dbBots.removeExp(interaction, loserBot.botObj.bot_id, exp)) {
                 await utils.user.pause(false);
                 return;
             } 
-            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp + 1)) {
+
+            exp += 1;
+
+            if(!await utils.dbBots.addExp(interaction, winnerBot.botObj.bot_id, exp)) {
                 await utils.user.pause(false);
                 return;
             } 

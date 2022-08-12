@@ -28,7 +28,7 @@ module.exports = {
         collection.selectedEvent.on(`selected`, async () => {
             
             let energyCost = 25;
-            let moneyCost = 10 + Math.round(collection.selected.exp);
+            let moneyCost = 10 + (Math.round(collection.selected.exp) * 2);
 
             energyCost = 0;
 
@@ -88,10 +88,9 @@ module.exports = {
                  }).catch(e => utils.consola.error(e));
 
             });
-
-            await utils.user.pause(false);      
             
             utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                await utils.user.pause(false);      
                 await interaction.editReply({ 
                     content: `The rebuild was cancelled...`,
                     components: [],

@@ -301,3 +301,4 @@ Loser bot gets destroyed by winner for EXP..
 [1659273283382] Jeira has accepted a battle request from olibot-18. Jeira's Memnesia M-00879 with ID b484276b-8d0e-4fb4-aff9-71e744a17ebe versus olibot-18's Dungware M-00162 with ID 9f7ac4e3-33f1-48b2-b6b7-6f49fc985e58. The wager is destroy.
 [1659282161482] Jeira withdrew Compactisk from the market with ID f1906ebb-14db-4176-b648-07f0919a9e15.
 [1659282179012] Jeira listed Compactisk on the market with ID f1906ebb-14db-4176-b648-07f0919a9e15 with offer of 5000.
+[2022/08/06 17:33:01] Jeira collected their daily rewards.

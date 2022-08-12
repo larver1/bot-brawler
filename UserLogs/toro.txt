@@ -1,0 +1,11 @@
+ [2022/08/06 17:21:58] toro is now friends with Larva1.
+[2022/08/06 17:22:47] toro collected their daily rewards.
+[2022/08/06 17:23:04] toro built a DUNGWARE with ID 7e0e9627-b895-4a1b-9e6a-ab86af82c06d
+[2022/08/06 17:24:19] toro is now friends with EeveeUwU.
+[2022/08/06 17:26:05] toro battled their Dungware M-01834 with ID 7e0e9627-b895-4a1b-9e6a-ab86af82c06d against Larva1's Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6. Dungware M-01834 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 17:26:07] toro has accepted a battle request from Larva1. toro's Dungware M-01834 with ID 7e0e9627-b895-4a1b-9e6a-ab86af82c06d versus Larva1's Dungware M-00757 with ID b2e83fac-b5d9-49d3-9d11-54d1951783b6. The wager is destroy.
+[2022/08/06 17:29:23] toro played minigame claw with difficulty Normal and level 5x5. The reward was x65 Machine Parts.
+[2022/08/06 17:30:46] toro built a MEMNESIA with ID 733b7b56-45bb-4079-ba38-2058bb499399
+[2022/08/06 17:30:59] toro built a BOSTROM with ID 4e165ee3-a1a1-4c23-86b0-0a172dd8edf2
+[2022/08/06 20:09:10] toro has sent a message to Larva1: "ilysm <:buryhugs:868999344995586129>".

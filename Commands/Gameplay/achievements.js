@@ -51,7 +51,6 @@ module.exports = {
 
             selectedAchievement = achievementData[parseInt(i.values)];
             let userAchievementData = await utils.dbAchievements.findAchievement(interaction, utils.user.username, selectedAchievement.name);
-            console.log(userAchievementData);
 
             // Update current description information
             let descriptionMsg = `*${selectedAchievement.description}*\n\n`;

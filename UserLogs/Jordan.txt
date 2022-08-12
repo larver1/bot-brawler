@@ -386,3 +386,6 @@ Loser bot gets destroyed by winner for EXP..
 [1659287843386] Jordan battled their Compactisk M-00951 with ID 81aa5084-bff0-47eb-a80d-1b79cb2e76a1 against olibot-6's Greedisk M-00070 with ID 013e3884-10e1-4779-b7d4-9b73e544b9bb. Greedisk M-00070 is the winner!
 Loser bot gets destroyed by winner for EXP.
 Greedisk M-00070 gets extra EXP due to their ability..
+[2022/08/06 18:08:38] Jordan collected their daily rewards.
+[2022/08/06 18:10:05] Jordan battled their Dungware M-00072 with ID 85215840-5b6a-4447-a8be-a68e79edaacb against olibot-7's Voidisk M-00076 with ID 2b5e943c-964e-41ff-b458-ebc2fd305007. Voidisk M-00076 is the winner!
+Loser bot gets destroyed by winner for EXP..

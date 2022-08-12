@@ -1,2 +1,13 @@
  [1659254067608] Ava collected their daily rewards.
 [1659254161409] Ava built a MEMNESIA with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3
+[2022/08/06 13:11:04] Ava collected their daily rewards.
+[2022/08/06 13:13:38] Ava battled their Memnesia M-00883 with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Memnesia M-00883 is the winner!
+The winner is rewarded with some EXP..
+[2022/08/06 13:13:38] Ava is battle training with Professor Diriski. Ava's Memnesia M-00883 with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/06 13:16:05] Ava battled their Memnesia M-00883 with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Buddy & Lila M-00004 is the winner!
+The loser lost the training match and walked away with nothing...
+Buddy & Lila M-00004 gained power due to their ability..
+[2022/08/06 13:16:05] Ava is battle training with Professor Diriski. Ava's Memnesia M-00883 with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/06 13:17:45] Ava battled their Memnesia M-00883 with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3 against olibot-39's Ransom Blue M-00390 with ID 38be014e-7f5f-49a6-a2cb-be488f866d0c. Ransom Blue M-00390 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/06 13:17:45] Ava has accepted a battle request from olibot-39. Ava's Memnesia M-00883 with ID 4f4702bb-f230-4e5e-b727-1f0b6f7d71a3 versus olibot-39's Ransom Blue M-00390 with ID 38be014e-7f5f-49a6-a2cb-be488f866d0c. The wager is destroy.

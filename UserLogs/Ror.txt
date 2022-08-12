@@ -307,3 +307,74 @@ Greedisk M-00554 gets extra EXP due to their ability..
 [1659298745396] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-70's Trojo M-00663 with ID 023a3375-9466-4369-81cd-ffe2ab17d5a0. Voidisk M-00931 is the winner!
 Loser bot gets destroyed by winner for EXP..
 [1659298746611] Ror has accepted a battle request from olibot-70. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-70's Trojo M-00663 with ID 023a3375-9466-4369-81cd-ffe2ab17d5a0. The wager is destroy.
+[2022/08/06 15:42:57] Ror has rejected a battle request from olibot-9. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-9's Constant M-00110 with ID 6574ee51-86f0-4791-9d8a-b2db8ff539f5. The wager is collect.
+[2022/08/07 00:32:43] Ror collected their daily rewards.
+[2022/08/07 00:33:35] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Greedisk M-00554 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 00:33:36] Ror is battle training with Professor Diriski. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
+[2022/08/07 00:34:27] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. Greedisk M-00554 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 00:34:27] Ror is battle training with Professor Diriski. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus Professor Diriski's Buddy & Lila M-00004 with ID 04731196-46a4-4aaa-8690-19d9b26a2630. The wager is null.
+[2022/08/07 00:35:16] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. Trojo M-00020 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/07 00:35:17] Ror is battle training with Professor Diriski. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus Professor Diriski's Trojo M-00020 with ID 05027f89-30c7-4737-9fde-48c59f571f27. The wager is null.
+[2022/08/07 00:35:41] Ror has rejected a battle request from olibot-83. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-83's Ransom Blue M-00830 with ID ad425b09-88ef-46e7-b686-7ab6fa8634f1. The wager is collect.
+[2022/08/07 00:46:18] Ror has rejected a battle request from olibot-13. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-13's Voidisk M-00135 with ID 248c04ac-20d1-4fa5-a259-a5b5b879b89e. The wager is collect.
+[2022/08/07 00:54:17] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-33's Greedisk M-00324 with ID 230df7df-2bdd-4115-9e61-6fb3e403875a. Greedisk M-00324 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00324 gets extra EXP due to their ability..
+[2022/08/07 00:54:17] Ror has accepted a battle request from olibot-33. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-33's Greedisk M-00324 with ID 230df7df-2bdd-4115-9e61-6fb3e403875a. The wager is destroy.
+[2022/08/07 00:56:40] Ror rebuilt their destroyed VOIDISK with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd for 106 parts and 0 energy.
+[2022/08/07 01:33:51] Ror has rejected a battle request from olibot-78. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-78's Buddy & Lila M-00712 with ID c00a1940-134b-4431-af02-baa02500ae34. The wager is collect.
+[2022/08/07 01:34:42] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. Greedisk M-00554 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 01:34:43] Ror is battle training with Professor Diriski. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus Professor Diriski's Ransom Blue M-00004 with ID 0db2f1ae-ee9d-424a-ab6f-5d699be1cd61. The wager is null.
+[2022/08/07 01:35:36] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. Greedisk M-00554 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 01:35:37] Ror is battle training with Professor Diriski. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus Professor Diriski's Dungware M-00018 with ID 08acd7e6-f950-468d-a43c-181233549798. The wager is null.
+[2022/08/07 03:44:11] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-8's Compactisk M-00103 with ID d19d992f-a361-4a80-bc03-5cd6f1b429e8. Greedisk M-00554 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 03:44:11] Ror has accepted a battle request from olibot-8. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-8's Compactisk M-00103 with ID d19d992f-a361-4a80-bc03-5cd6f1b429e8. The wager is destroy.
+[2022/08/07 03:44:47] Ror built a CONSTANT with ID 7f0f1c57-38f6-4378-a0df-27fbba39694e
+[2022/08/07 03:44:58] Ror listed Constant on the market with ID 7f0f1c57-38f6-4378-a0df-27fbba39694e with offer of 1.
+[2022/08/07 03:45:07] Ror built a CONSTANT with ID dd25e846-404e-4895-9977-fbef775c7014
+[2022/08/07 03:45:26] Ror listed Constant on the market with ID dd25e846-404e-4895-9977-fbef775c7014 with offer of 1.
+[2022/08/07 03:45:37] Ror built a BUDDY & LILA with ID c4f91fdb-4c81-4e0d-b4c6-07395f6d7326
+[2022/08/07 03:45:53] Ror listed Buddy & Lila on the market with ID c4f91fdb-4c81-4e0d-b4c6-07395f6d7326 with offer of 1.
+[2022/08/07 03:46:28] Ror built a RAMSELLE with ID b9c537f2-ad36-42f3-8cc1-e370920fa9ea
+[2022/08/07 03:46:43] Ror listed Ramselle on the market with ID b9c537f2-ad36-42f3-8cc1-e370920fa9ea with offer of 1.
+[2022/08/07 03:47:39] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/07 03:48:26] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-23's Bostrom M-00231 with ID 051ba418-506a-41d4-b87f-8c7608a781d3. Bostrom M-00231 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 03:48:27] Ror has accepted a battle request from olibot-23. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-23's Bostrom M-00231 with ID 051ba418-506a-41d4-b87f-8c7608a781d3. The wager is damage.
+[2022/08/07 03:50:02] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-52's Memnesia M-00471 with ID 6c8d5e10-c12e-4e34-a7b6-de738c8d9240. Voidisk M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 03:50:02] Ror has accepted a battle request from olibot-52. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-52's Memnesia M-00471 with ID 6c8d5e10-c12e-4e34-a7b6-de738c8d9240. The wager is destroy.
+[2022/08/07 03:52:24] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-13's Voidisk M-00139 with ID eac10d5e-60f4-441b-83ff-1e293088ac07. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP..
+[2022/08/07 03:52:25] Ror has accepted a battle request from olibot-13. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-13's Voidisk M-00139 with ID eac10d5e-60f4-441b-83ff-1e293088ac07. The wager is damage.
+[2022/08/07 03:53:55] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-88's Trojo M-00806 with ID 0dbfbabb-c7cb-4d27-868f-efb7eedc2686. Voidisk M-00931 is the winner!
+Loser bot gives winner bot some EXP.
+Loser didn't have enough EXP left to give, so was destroyed for scrap metal....
+[2022/08/07 03:53:55] Ror has accepted a battle request from olibot-88. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-88's Trojo M-00806 with ID 0dbfbabb-c7cb-4d27-868f-efb7eedc2686. The wager is damage.
+[2022/08/07 03:57:02] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-51's Greedisk M-00486 with ID 1015ca68-d096-49f3-a204-a2d836272e03. Greedisk M-00554 is the winner!
+Loser bot gives winner bot some EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 03:57:03] Ror has accepted a battle request from olibot-51. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-51's Greedisk M-00486 with ID 1015ca68-d096-49f3-a204-a2d836272e03. The wager is damage.
+[2022/08/07 03:59:53] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-13's Compactisk M-00168 with ID f51f10d0-6682-4091-a9b5-919f6a266d9e. Compactisk M-00168 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 03:59:54] Ror has accepted a battle request from olibot-13. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-13's Compactisk M-00168 with ID f51f10d0-6682-4091-a9b5-919f6a266d9e. The wager is destroy.
+[2022/08/07 04:00:13] Ror rebuilt their destroyed GREEDISK with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 for 432 parts and 0 energy.
+[2022/08/07 04:00:55] Ror played minigame xo with difficulty Hard and level Regular. The reward was x45 Machine Parts.
+[2022/08/07 04:01:51] Ror battled their Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 against olibot-51's Buddy & Lila M-00460 with ID ba4de9f8-cfce-4f09-908e-7b2de1d08dbe. Greedisk M-00554 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-00554 gets extra EXP due to their ability..
+[2022/08/07 04:01:52] Ror has accepted a battle request from olibot-51. Ror's Greedisk M-00554 with ID 13b1d1cf-7a94-4dce-aee3-ca74dd35f631 versus olibot-51's Buddy & Lila M-00460 with ID ba4de9f8-cfce-4f09-908e-7b2de1d08dbe. The wager is destroy.
+[2022/08/07 04:07:39] Ror battled their Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd against olibot-60's Dungware M-00543 with ID 176f0b89-2aa5-4dd1-b594-f727edfe8720. Voidisk M-00931 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/08/07 04:07:40] Ror has accepted a battle request from olibot-60. Ror's Voidisk M-00931 with ID c665d831-1ce9-4f1b-ae51-54b010b6f4fd versus olibot-60's Dungware M-00543 with ID 176f0b89-2aa5-4dd1-b594-f727edfe8720. The wager is destroy.

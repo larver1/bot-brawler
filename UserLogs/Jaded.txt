@@ -130,3 +130,9 @@ Loser bot gets destroyed by winner for EXP.
 Greedisk M-00589 gets extra EXP due to their ability..
 [1659282691283] Jaded has accepted a battle request from olibot-63. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus olibot-63's Greedisk M-00589 with ID 382e13b9-e9c2-45f1-9ff0-7113c1da88b0. The wager is destroy.
 [1659282733200] Jaded rebuilt their destroyed COMPACTISK with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 for 121 parts and 0 energy.
+[2022/08/06 11:39:53] Jaded collected their daily rewards.
+[2022/08/06 12:16:24] Jaded built a RANSOM BLUE with ID 4c95faba-2d46-4729-b501-c9a58b73099f
+[2022/08/06 12:55:22] Jaded built a RANSOM BLUE with ID a8d3f334-85ad-4926-a627-c363c0616d70
+[2022/08/06 12:56:16] Jaded battled their Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 against Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. Bostrom M-00013 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/08/06 12:56:17] Jaded is battle training with Professor Diriski. Jaded's Compactisk M-00947 with ID fc830500-8003-4e57-97b2-58fb4cbdeda2 versus Professor Diriski's Bostrom M-00013 with ID 046ad3c8-79cd-4bd4-91c7-1cf8c07d3776. The wager is null.
