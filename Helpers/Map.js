@@ -67,11 +67,8 @@ module.exports = class Map {
     }
 
     async createMap(){
-
         await this.createText();
-
         await this.findRange();
-
         await this.createUsers();
 
         this.attachment = new MessageAttachment(this.canvas.toBuffer(), 'map.png');
