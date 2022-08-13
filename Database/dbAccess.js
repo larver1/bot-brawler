@@ -215,6 +215,13 @@ module.exports = class dbAccess
 					await ErrorHandler.handle(interaction, err);
 					return false;
 				}
+				
+				if(toAdd >= Number.MAX_SAFE_INTEGER) {
+					let err = new Error(`Number of parts given is too high.`);
+					await ErrorHandler.info(interaction, err);
+					return false;
+				}
+
 				user.balance += toAdd;
 				break;
 			case "daily":
@@ -270,6 +277,11 @@ module.exports = class dbAccess
 				if(typeof toRemove != "number" || toRemove < 0 || toRemove > user.balance) {
 					let err = new Error(`Invalid value '${toRemove}' called on remove()`);
 					await ErrorHandler.handle(interaction, err);
+					return false;
+				}
+				if(toRemove >= Number.MAX_SAFE_INTEGER) {
+					let err = new Error(`Number of parts given is too high.`);
+					await ErrorHandler.info(interaction, err);
 					return false;
 				}
 				user.balance -= toRemove;

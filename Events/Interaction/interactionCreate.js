@@ -34,14 +34,12 @@ module.exports = {
 
             // Bot respond with "loading" state
             await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
-            
-            /* 
+             
             // Dev only
             if(interaction.user.id != "184717700239589377") {
                 interaction.editReply({ content: `The bot is not currently open for testing :(`})
                     .catch((e) => consola.error(e));
             }
-            */
 
             let user, userFile;
 

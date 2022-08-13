@@ -7,9 +7,8 @@ const { v4: uuidv4 } = require('uuid');
 let args = process.argv.slice(2);
 let givenUsername = args[0];
 
-async function createUser(username, maxExp){
+async function createUser(username, maxExp) {
     
-    /*
     let user = await Users.create({ 
         user_id: uuidv4(),
         username: username,
@@ -30,14 +29,13 @@ async function createUser(username, maxExp){
         paused: false,
         tutorial: 0,
     });
-    */
 
     // Build 100 random bots of different EXP
     let exp = 1;
 
     for(let i = 0; i < 100; i++) {
-        let bot = await BotBuilder.build(null, { bot_type: "Bostrom", item: "balanced", exp: exp }, null);
-        //await user.createBot(bot);
+        let bot = await BotBuilder.build(null, { item: "balanced", exp: exp }, user);
+        await user.createBot(bot);
         exp *= 2; 
         if(exp >= maxExp)
             exp = 1;
@@ -58,7 +56,7 @@ async function createOneUser(username, maxExp) {
     await createUser(username, maxExp);
 }
 
-//createOneUser(`Professor Diriski`, 100);
-//createOneUser(`Clunk`, 10);
-createManyUsers(100);
-createManyUsers(100);
+createOneUser(`Professor Diriski`, 100);
+createOneUser(`Clunk`, 10);
+//createManyUsers(100);
+//createManyUsers(100);

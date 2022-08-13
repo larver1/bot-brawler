@@ -230,7 +230,7 @@ module.exports = {
             
             let won = finalScore < 15 ? false : true;
                 
-            finalScore *= 10;
+            finalScore *= 3;
             let parts = (finalScore / 50) + (turns * 2);
 
             switch(difficulty) {

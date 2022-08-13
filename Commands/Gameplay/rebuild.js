@@ -53,19 +53,19 @@ module.exports = {
                     return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this...`));
                 }
 
-                //Removes correct number of parts
+                // Removes correct number of parts
                 if(!await utils.db.remove(interaction, "balance", moneyCost)) {
                     await utils.user.pause(false); 
                     return;
                 }
 
-                //Removes correct number of energy
+                // Removes correct number of energy
                 if(!await utils.db.remove(interaction, "energy", energyCost)) {
                     await utils.user.pause(false); 
                     return;
                 }
 
-                //Revive and display
+                // Revive and display
                 await utils.dbBots.revive(interaction, collection.selected.botObj.bot_id);
                 
                 await utils.dbAchievements.checkTask(interaction, utils.user.username, "Mechanic");

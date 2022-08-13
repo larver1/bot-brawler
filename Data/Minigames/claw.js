@@ -97,7 +97,8 @@ module.exports = {
         
         collector.on('collect', async i => {
             await i.deferUpdate().catch(e => utils.consola.error(e));
-            let newPos = { ...clawPos }
+
+            let newPos = { ...clawPos };
             let components = [Buttons, Select];
             let action = "";
 

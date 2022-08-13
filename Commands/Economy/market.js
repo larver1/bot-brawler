@@ -197,7 +197,7 @@ module.exports = {
             // Display each bot and their price
             for(const bot of bots) {
                 msg += `${bot.findColour().emoji}\`${bot.name}\`\n${powerEmoji}\`${bot.battleStats.power}\`${lifespanEmoji}\`${bot.battleStats.lifespan}\`${viralEmoji}\`${bot.battleStats.viral}\`${firewallEmoji}\`${bot.battleStats.firewall}\`\n`;
-                msg += `${machinePartEmoji}\`${bot.price}\`\n\n`;
+                msg += `${machinePartEmoji}\`x${bot.price}\`\n\n`;
             }
 
             // Allow user to flick through
@@ -289,7 +289,8 @@ module.exports = {
                 
                 await interaction.editReply({ 
                     files: [card.getCard()],
-                    content: `Your bot has been removed from the market, and added back to your collection!` })
+                    content: `Your bot has been removed from the market, and added back to your collection!`,
+                    components: [] })
                 .catch(e => utils.consola.error(e));
 
                 await utils.user.pause(false);
@@ -323,6 +324,13 @@ module.exports = {
 
                     const otherUser = await utils.db.findUsername(interaction, collection.selected.seller_username);
     
+                    if(otherUser.username == utils.user.username) {
+                        let err = new Error(`You cannot buy your own bot. If you wish to withdraw your listing, use \`/market withdraw\`.`);
+                        await utils.handler.info(interaction, err);
+                        await utils.user.pause(false);
+                        return;
+                    }
+
                     // Remove bot from market and give user ownership
                     if(!await utils.db.remove(interaction, "balance", collection.selected.price)) {
                         await utils.user.pause(false);

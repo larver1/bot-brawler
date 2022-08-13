@@ -98,6 +98,7 @@ module.exports = class Map {
     findCoords(coords, x, y, radiusX, radiusY) {
         let passedAll = false;
         let attempts = 0;
+        let success = true;
         // Keep running until found co-ordinates that don't overlap with existing objects
         while(!passedAll && attempts < 100) {
             passedAll = true;
@@ -116,12 +117,30 @@ module.exports = class Map {
                     i = 0;
                     innerAttempts++;
                 }
+
+                if(innerAttempts >= 100) {
+                    success = false;
+                    break;
+                }
+
             }
 
             attempts++;
+            if(attempts >= 100) {
+                console.log('Map object failed to show.');
+                success = false;
+                break;
+            }
+        }
+
+        if(!success
+            ) {
+            console.log('Map object failed to show.');
+            return null;
         }
 
         return [x, y];
+
     }
 
     async createUsers(){
@@ -161,6 +180,9 @@ module.exports = class Map {
 
             // Replace with new co-ordinates if the collide with another object
             let newValues = this.findCoords(coords, x, y, radiusX, radiusY);
+            if(!newValues)
+                continue;
+
             x = newValues[0];
             y = newValues[1];
             

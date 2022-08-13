@@ -95,6 +95,12 @@ module.exports = class dbMarket {
             return;
         }
 
+        if(price >= Number.MAX_SAFE_INTEGER) {
+            let err = new Error(`Price given ${price} is too high.`);
+            await ErrorHandler.info(interaction, err);
+            return;
+        }
+
         await dbBots.cancelRequests(interaction, botID);
         await user.addToMarket(botObj, price);
         
