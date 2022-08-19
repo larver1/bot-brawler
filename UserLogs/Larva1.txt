@@ -7,3 +7,8 @@
 [2022/08/13 09:14:15] Larva1 listed Compactisk on the market with ID e63314b2-535b-455a-89bd-1c8ee7a6ae95 with offer of 1.
 [2022/08/13 09:14:24] Larva1 withdrew Compactisk from the market with ID e63314b2-535b-455a-89bd-1c8ee7a6ae95.
 [2022/08/13 09:22:53] Larva1 played minigame claw with difficulty Normal and level 5x5. The reward was x64 Machine Parts.
+[2022/08/13 13:10:57] Larva1 has sent a friend request to Larva2.
+[2022/08/13 13:12:01] Larva1 has removed Larva2 as a friend.
+[2022/08/13 13:12:12] Larva1 has sent a friend request to Larva1.
+[2022/08/13 13:13:44] Larva1 is now friends with Larva2.
+[2022/08/13 13:21:49] Larva1 has removed Larva2 as a friend.

@@ -171,6 +171,11 @@ module.exports = {
                 return utils.handler.info(interaction, new Error("This friend has already been added."));
             }
 
+            if(utils.user.username == otherUser.username)  {
+                await utils.user.pause(false); 
+                return utils.handler.info(interaction, new Error("You can't add yourself as a friend... Loser."));
+            }
+
             //Checks if recipient has already been sent a message by this user
             if(await utils.messenger.checkMessages(interaction, utils.user, otherUser)) {
                 await utils.user.pause(false); 

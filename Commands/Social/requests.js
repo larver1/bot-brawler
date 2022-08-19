@@ -69,6 +69,7 @@ module.exports = {
 
             // Find all incoming messages with filters applied
             let inbox = await utils.messenger.readAllMessages(interaction, utils.user, filter, true);
+            console.log(inbox);
             if(!inbox) {
                 await utils.user.pause(false); 
                 return;

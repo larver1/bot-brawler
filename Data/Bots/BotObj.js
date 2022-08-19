@@ -10,8 +10,8 @@ module.exports = class BotObj {
     constructor(interaction, botObj) {
 
         //If incorrect arguments were given
-        if(!interaction || !interaction.user || !botObj) {
-            let err = new Error(`Invalid arguments (${interaction},${botObj}) passed to botObj.constructor()`);
+        if(!botObj) {
+            let err = new Error(`Invalid arguments (${botObj}) passed to botObj.constructor()`);
 			return ErrorHandler.handle(interaction, err);
         }
 
@@ -46,6 +46,7 @@ module.exports = class BotObj {
         this.lifespanBoost = this.botObj.lifespanBoost;
         this.viralBoost = this.botObj.viralBoost;
         this.firewallBoost = this.botObj.firewallBoost;
+        this.totalBoost = this.powerBoost + this.lifespanBoost + this.viralBoost + this.firewallBoost;
         this.battling = false;
         
         //Calculated stats
@@ -221,7 +222,7 @@ module.exports = class BotObj {
                     this.battleStats.power = Math.ceil(this.power + this.investmentPoints * 1.5);
                 break;
             case "lifespan":
-                this.battleStats.lifespan = (this.lifespan + this.investmentPoints);
+                this.battleStats.lifespan = Math.ceil(this.lifespan + this.investmentPoints * 1.75);
                 this.battleStats.power = this.power;
                 this.battleStats.viral = this.viral;
                 this.battleStats.firewall = this.firewall;
@@ -233,17 +234,17 @@ module.exports = class BotObj {
                 this.battleStats.firewall = this.firewall;
                 break;
             case "firewall":
-                this.battleStats.firewall = (this.firewall + this.investmentPoints);
+                this.battleStats.firewall = Math.ceil(this.firewall + this.investmentPoints * 1.75);
                 this.battleStats.power = this.power;
                 this.battleStats.lifespan = this.lifespan;
                 this.battleStats.viral = this.viral;
                 break;
             default:
-                //No stat specified, then use balanced chip
-                this.battleStats.power = this.power + Math.round(this.investmentPoints / 4);
-                this.battleStats.lifespan = this.lifespan + Math.round(this.investmentPoints / 4);
-                this.battleStats.viral = this.viral + Math.round(this.investmentPoints / 4);
-                this.battleStats.firewall = this.firewall + Math.round(this.investmentPoints / 4);
+                // No stat specified, then use balanced chip
+                this.battleStats.power = this.power + Math.round(this.investmentPoints / 3);
+                this.battleStats.lifespan = this.lifespan + Math.round(this.investmentPoints / 3);
+                this.battleStats.viral = this.viral + Math.round(this.investmentPoints / 3);
+                this.battleStats.firewall = this.firewall + Math.round(this.investmentPoints / 3);
                 break;
         }
 

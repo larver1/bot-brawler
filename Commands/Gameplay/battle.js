@@ -127,10 +127,32 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             if(winnerBot.ability == "Greedy AI")
                 msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
 
-            if(winnerBot.ability == "Bounty Hunter") {
-                msg += `\n${winnerBot.name} gained power due to their ability.`;
+            if(winnerBot.ability == "Bounty Hunter" && winnerBot.powerBoost < 45) {
+                msg += `\n${winnerBot.name} gained +5 Base Power due to their ability.`;
                 if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, "power", 5))
                     return;
+            }
+
+            if(winnerBot.ability == "Maximum Satisfiability" && winnerBot.totalBoost < 60) {
+                let options = ["firewall", "lifespan"];
+                let option = options[Math.floor(Math.random() * options.length)];
+                msg += `\n${winnerBot.name} gained +5 Base ${option} due to their ability.`;
+                if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5))
+                    return;
+            }
+
+            if(winnerBot.ability == "Fetch Request" && winnerBot.totalBoost < 60) {
+                let options = ["power", "lifespan", "viral", "firewall"];
+                let option = Math.floor(Math.random() * options.length);
+                if(winnerBot.item && winnerBot.item != "balanced")
+                    option = winnerBot.item;
+                else
+                    option = options[option];
+                msg += `\n${winnerBot.name} gained ${option} due to their ability.`;
+                if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5)) {
+                    await utils.user.pause(false);
+                    return;
+                } 
             }
 
             if(loserUser.usuername != "Clunk") {
@@ -150,14 +172,6 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             // Add achievement
             await utils.dbAchievements.editAchievement(interaction, winnerUser.username, "Hoarder", 1);
             await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Pirate");
-
-            if(winnerBot.ability == "Maximum Satisfiability") {
-                let options = ["firewall", "lifespan"];
-                let option = options[Math.floor(Math.random() * options.length)];
-                msg += `\n${winnerBot.name} gained ${option} due to their ability.`;
-                if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5))
-                    return;
-            }
 
             break;
         case "damage":
@@ -236,20 +250,6 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
 
     if(winnerBot.item != "balanced")
         await utils.dbAchievements.checkTask(interaction, winnerUser.username, "Tactician");
-    
-    if(winnerBot.ability == "Fetch Request") {
-        let options = ["power", "lifespan", "viral", "firewall"];
-        let option = Math.floor(Math.random() * options.length);
-        if(winnerBot.item && winnerBot.item != "balanced")
-            option = winnerBot.item;
-        else
-            option = options[option];
-        msg += `\n${winnerBot.name} gained ${option} due to their ability.`;
-        if(!await utils.dbBots.addBoost(interaction, winnerBot.botObj.bot_id, option, 5)) {
-            await utils.user.pause(false);
-            return;
-        } 
-    }
 
     const newWinnerBotObj = await utils.dbBots.findBotObj(interaction, winnerBot.botObj.bot_id);
     const newWinnerCard = await new utils.card(interaction, newWinnerBotObj);

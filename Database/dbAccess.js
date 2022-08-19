@@ -182,7 +182,7 @@ module.exports = class dbAccess
 				break;
 			case "friend":
 				//You can't add the same friend more than once
-				if(user.friends.includes(toAdd + "|")) {
+				if(user.friends.includes(`|${toAdd}|`)) {
 					let err = new Error(`Friend ${toAdd} already added called on add()`);
 					await ErrorHandler.handle(interaction, err);
 					return false;

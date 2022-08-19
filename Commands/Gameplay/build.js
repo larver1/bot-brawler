@@ -86,13 +86,13 @@ module.exports = {
                 await utils.user.pause(false);
                 return;
             } 
-            //Removes correct number of parts
+            // Removes correct number of parts
             if(!await utils.db.remove(interaction, "balance", moneyCost)) {
                 await utils.user.pause(false);
                 return;
             } 
 
-            //Removes correct number of energy
+            // Removes correct number of energy
             if(!await utils.db.remove(interaction, "energy", energyCost)) {
                 await utils.user.pause(false);
                 return;
