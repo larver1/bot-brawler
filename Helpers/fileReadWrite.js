@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const consola = require("consola");
 
-module.exports = class fileReadWrite
+module.exports = class FileReadWrite
 {
 	constructor(filePath)
 	{

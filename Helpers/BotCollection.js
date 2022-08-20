@@ -1,4 +1,4 @@
-const botObj = require('../Data/Bots/botObj');
+const BotObj = require('../Data/Bots/BotObj');
 const ErrorHandler = require("./ErrorHandler");
 const CardsView = require("./CardsView");
 const { MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js");
@@ -233,12 +233,12 @@ module.exports = class BotCollection {
 
     }
 
-    // Pass in an array of strings and turn to botObjs
+    // Pass in an array of strings and turn to BotObjs
     convertToObjects(showDead){
         let objArray = [];
 
         for(const bot of this.collection){
-            let newBot = new botObj(this.interaction, bot);
+            let newBot = new BotObj(this.interaction, bot);
             if((!showDead && bot.alive) || (showDead && !bot.alive))
                 objArray.push(newBot); 
         }
@@ -381,7 +381,7 @@ module.exports = class BotCollection {
             if(filters.maxStats && collection[i].stats > filters.maxStats) continue;
             if(filters.goldPlated && collection[i].goldPlated != filters.goldPlated) continue;
             if(filters.isSelling && collection[i].isSelling != filters.isSelling) continue;
-            if(filters.isChallenge && !filters.isChallenge.includes(collection[i].botObj.bot_id)) continue;
+            if(filters.isChallenge && !filters.isChallenge.includes(collection[i].BotObj.bot_id)) continue;
 
             newCollection.push(collection[i]);
         }

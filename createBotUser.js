@@ -58,5 +58,5 @@ async function createOneUser(username, maxExp) {
 
 createOneUser(`Professor Diriski`, 100);
 createOneUser(`Clunk`, 10);
-//createManyUsers(100);
+createManyUsers(100);
 //createManyUsers(100);

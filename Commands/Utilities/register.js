@@ -1,11 +1,11 @@
 const fs = require('fs');
 const { Users } = require('../../Database/dbObjects');
 var badWords = [];
-const fileReadWrite = require('../../Helpers/FileReadWrite.js');
+const FileReadWrite = require('../../Helpers/FileReadWrite.js');
 
 async function getBadWords()
 {
-    var file = new fileReadWrite('./Helpers/badwords.txt');
+    var file = new FileReadWrite('./Helpers/badwords.txt');
 	badWords = await file.processLineByLine();
 }
 

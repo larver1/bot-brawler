@@ -9,7 +9,7 @@ const conn = {};
 
 const sequelize = new Sequelize(dbName, dbUser, dbPass, {
     dialect: 'mysql',  
-	logging: false
+	logging: false,
 });
 
 conn.sequelize = sequelize;
