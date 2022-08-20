@@ -203,7 +203,7 @@ module.exports = class dbBots
             await dbAchievements.editAchievement(interaction, user.username, "Collector", bot.bot_type);
             if(bot.goldPlated)
                 await dbAchievements.editAchievement(interaction, user.username, "Collector", bot.bot_type);
-            if(parseInt(bot.model_no.slice(2, bot.model_no.length)) <= 100) 
+            if(bot.owner_username == "market" && parseInt(bot.model_no.slice(2, bot.model_no.length)) <= 100) 
                 await dbAchievements.editAchievement(interaction, user.username, "Antique Collector", bot.bot_type);    
         }
 

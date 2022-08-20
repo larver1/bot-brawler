@@ -242,8 +242,22 @@ module.exports = {
                     await utils.user.pause(false);
                     return;
                 }
+
+                let serviceCharge = 10 + Math.round(collection.selected.exp / 10);
+                if(utils.user.balance < serviceCharge)
+                {
+                    await utils.user.pause(false);
+                    return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to pay the service charge. Try out \`/daily\` to get more.`));
+                }
+
+                if(!await utils.db.remove(interaction, "balance", serviceCharge))
+                {
+                    await utils.user.pause(false);
+                    return;   
+                }
+
                 await interaction.editReply({ 
-                    content: `Your bot is now listed on the market! If you change your mind, use \`/market withdraw\``, 
+                    content: `You paid ${machinePartEmoji}\`x${serviceCharge}\` for the service charge and listed your bot on the market!\n If you change your mind, use \`/market withdraw\`\n\n`, 
                     components: [], 
                     files: [card.getCard()] })
                 .catch((e) => utils.consola.error(e));
@@ -287,9 +301,15 @@ module.exports = {
                 await utils.userFile.writeUserLog(utils.user.username, `withdrew ${collection.selected.botObj.bot_type} from the market with ID ${collection.selected.botObj.bot_id}.`);
                 await utils.dbBots.addLogs(interaction, collection.selected.botObj.bot_id, `was withdrawn from the market.`);
                 
+                let serviceCharge = 10 + Math.round(collection.selected.exp / 10);
+                if(!await utils.db.add(interaction, "balance", serviceCharge)){
+                    await utils.user.pause(false);
+                    return;
+                }
+
                 await interaction.editReply({ 
                     files: [card.getCard()],
-                    content: `Your bot has been removed from the market, and added back to your collection!`,
+                    content: `Your bot was removed from the market, and added back to your collection! \nYou were returned your service charge of ${machinePartEmoji}\`x${serviceCharge}\``,
                     components: [] })
                 .catch(e => utils.consola.error(e));
 

@@ -107,24 +107,24 @@
         "type": "object"
     },
     {
-        "name": "Gold Collector",
+        "name": "Struck Gold",
         "description": "Collect rare, Gold Plated bots.",
         "rewards": [1000, 5000, 10000],
         "values": [ 
-            [1, "Collect one of the original Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]], 
-            [5, "Collect all of the 1st Generation Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle"]], 
-            [11, "Collect all of the original Bot Brawlers.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]]
+            [1, "Build a Gold Plated Bot Brawler."], 
+            [3, "Build 3 Gold Plated Bot Brawlers."], 
+            [5, "Build 5 Gold Plated Bot Brawlers."]
         ],
         "type": "object"
     },
     {
         "name": "Antique Collector",
-        "description": "Collect one of the first 100 models.",
+        "description": "Buy one of the first 100 models off the global market.",
         "rewards": [100, 1000, 5000],
         "values": [
-            [1, "Collect a pre-100 model number bot.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]], 
-            [5, "Collect all of the 1st Generation Bot Brawlers as pre-100 models.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle"]], 
-            [11, "Collect all of the original Bot Brawlers as pre-100 models.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]]
+            [1, "Buy a pre-100 model number bot off the global market.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]], 
+            [5, "Buy all of the 1st Generation Bot Brawlers as pre-100 models off the global market.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle"]], 
+            [11, "Buy all of the original Bot Brawlers as pre-100 models off the global market.", ["Constant", "Ransom Blue", "Trojo", "Memnesia", "Ramselle", "Compactisk", "Greedisk", "Voidisk", "Dungware", "Buddy & Lila", "Bostrom"]]
         ],
         "type": "object"
     },

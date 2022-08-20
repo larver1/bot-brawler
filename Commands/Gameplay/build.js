@@ -80,6 +80,11 @@ module.exports = {
             let bot = await BotBuilder.build(interaction, { item: "balanced", exp: exp }, utils.user);
             let botObj = await new BotObj(interaction, bot); 
 
+            if(bot.goldPlated)
+            {
+                await utils.dbAchievements.editAchievement(interaction, utils.user.username, "Struck Gold", 1);    
+            }
+
             // If card fails to create, return
             const card = await new utils.card(interaction, botObj);
             if(!await card.createCard()) {
