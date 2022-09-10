@@ -35,8 +35,11 @@ module.exports = {
             }
 
             await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts?`, deadCard.getCard());
-            utils.messageHelper.replyEvent.on(`accepted`, async() => {
+            utils.messageHelper.replyEvent.on(`accepted`, async userId => {
                 
+                if(userId != interaction.user.id)
+                    return;
+
                 // Not enough parts
                 if(utils.user.balance < moneyCost) {
                     await utils.user.pause(false); 
@@ -73,7 +76,11 @@ module.exports = {
 
             });
             
-            utils.messageHelper.replyEvent.on(`rejected`, async() => {
+            utils.messageHelper.replyEvent.on(`rejected`, async userId => {
+                
+                if(userId != interaction.user.id)
+                    return;
+                
                 await utils.user.pause(false);      
                 await interaction.editReply({ 
                     content: `The rebuild was cancelled...`,

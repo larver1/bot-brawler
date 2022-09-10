@@ -10,6 +10,7 @@ const { Users } = require('../Database/dbObjects');
 
 module.exports = class MessageHelpers {
     constructor() {
+        this.replyEvent = new EventEmitter();
     }
 
     static async findUser(interaction, differentID) {
@@ -26,7 +27,6 @@ module.exports = class MessageHelpers {
 
     // Gives user a yes/no option and emits event depending on choice
     static async confirmChoice(interaction, user, msg, img) {
-        this.replyEvent = new EventEmitter();
 
         let acceptId = uuidv4();
         let rejectId = uuidv4();
@@ -40,6 +40,8 @@ module.exports = class MessageHelpers {
         }
 
         const dbUser = await this.findUser(interaction);
+        if(!user)
+            return;
 
         const request = new sampleEmbed(interaction, user)
             .setTitle(`Confirm your choice`)
@@ -79,12 +81,12 @@ module.exports = class MessageHelpers {
 
             switch(i.customId) {
                 case acceptId:
-                    this.replyEvent.emit('accepted');
+                    this.replyEvent.emit('accepted', i.user.id);
                     found = true;
                     collector.emit('end');
                     break;
                 case rejectId:
-                    this.replyEvent.emit('rejected');
+                    this.replyEvent.emit('rejected', i.user.id);
                     found = true;
                     collector.emit('end');                   
                     break;
@@ -95,9 +97,9 @@ module.exports = class MessageHelpers {
         });
 
         // If button was never pressed
-        collector.on('end', async() => {   
+        collector.on('end', async i => {   
             if(!found) {
-                this.replyEvent.emit('timeOut');
+                this.replyEvent.emit('timeOut', i.user.id);
                 await dbUser.pause(false);
                 await interaction.editReply({
                     content: `${user} did not select an option in time.`,
@@ -179,8 +181,8 @@ module.exports = class MessageHelpers {
 					else page = maxPages - 1;
 				}
 
-                display.setTitle(`${config.title ? config.title : 'List'} Page [${page + 1}/${maxPages}]`)
-                display.setDescription(`${pageList[page]}`)
+                display.setTitle(`${config.title ? config.title : 'List'} Page [${page + 1}/${maxPages}]`);
+                display.setDescription(`${pageList[page]}`);
 
 				return interaction.editReply({ 
                     embeds: [display], 

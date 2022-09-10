@@ -60,8 +60,11 @@ module.exports = {
 
         await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost}\` ${machinePartEmoji} Machine Parts\n\`x${energyCost}\` ${energyEmoji} Energy?`);
 
-        utils.messageHelper.replyEvent.on(`accepted`, async () => {
-            
+        utils.messageHelper.replyEvent.on(`accepted`, async userId => {
+
+            if(userId != interaction.user.id)
+                return;
+
             await utils.db.checkTutorial(interaction, "build");
 
             // Not enough energy
@@ -121,7 +124,11 @@ module.exports = {
 
         });
 
-        utils.messageHelper.replyEvent.on(`rejected`, async() => {
+        utils.messageHelper.replyEvent.on(`rejected`, async userId => {
+
+            if(userId != interaction.user.id)
+                return;
+
             await utils.user.pause(false);
             await interaction.editReply({ 
                 content: `The build was cancelled...`,

@@ -330,7 +330,11 @@ module.exports = {
             collection.selectedEvent.on(`selected`, async () => {
                 
                 await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to buy ${collection.selected.name} for \`x${collection.selected.price}\` ${machinePartEmoji} Machine Parts?`);
-                utils.messageHelper.replyEvent.on(`accepted`, async () => {
+                utils.messageHelper.replyEvent.on(`accepted`, async userId => {
+
+                    if(userId != interaction.user.id)
+                        return;
+
                     if(utils.user.balance < collection.selected.price) {
                         await utils.user.pause(false);
                         return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to do this. Try out \`/daily\` to get more.`));
@@ -412,7 +416,11 @@ module.exports = {
 
                 });
 
-                utils.messageHelper.replyEvent.on(`rejected`, async() => {
+                utils.messageHelper.replyEvent.on(`rejected`, async userId => {
+
+                    if(userId != interaction.user.id)
+                        return;
+
                     await interaction.editReply({ 
                         files: [],
                         content: `The command was cancelled.`,
