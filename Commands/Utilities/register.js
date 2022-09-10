@@ -85,6 +85,15 @@ module.exports = {
                                     tasks: [{}],
                                     paused: false,
                                     tutorial: -1,
+                                    joinDate: Date.now(),
+                                    playerLevel: 1,
+                                    playerExp: 0,
+                                    voteStreak: 0,
+                                    voteTime: new Date('January 10, 2022 03:24:00'), 
+                                    icon: "",
+                                    daysMember: 0,
+                                    memberType: 1,
+                                    extras: [{}]
                                  })
         .catch(() => {
             let err = new Error(`Cannot create a user with name \`${username}\`! It may have already been taken.`);

@@ -4,8 +4,6 @@ const botData = JSON.parse(fs.readFileSync('./Data/Bots/botData.json'));
 const cardData = JSON.parse(fs.readFileSync('./Data/Cards/cardData.json'));
 const Canvas = require('canvas');
 const { MessageAttachment } = require('discord.js');
-Canvas.registerFont('./Data/Cards/Assets/TravelingTypewriter.ttf', { family: 'Typewriter' });
-Canvas.registerFont('./Data/Cards/Assets/Code.ttf', { family: 'Code' });
 const assets = {}
 
 async function loadAssets(){
@@ -224,7 +222,7 @@ module.exports = class Card {
 
     async setFont(size){
         //Uses specific font
-        this.ctx.font = `${size}px "Code"`;
+        this.ctx.font = `${size}px Code`;
     }
 
     getCard(){

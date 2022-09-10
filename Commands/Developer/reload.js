@@ -20,6 +20,11 @@ module.exports = {
 		const command = interaction.client.commands.get(commandToReload);
         
         await utils.user.pause(false);
+        if(interaction.user.id != '184717700239589377')
+        return interaction.editReply({ embeds: [
+            new utils.embed(interaction, utils.user)
+                .setDescription(`You do not have permission to use this command.`)] })
+                    .catch((e) => utils.consola.error(e));
 
 		if(!command) {
 			return interaction.editReply(`There is no command with the name \`${commandToReload}\`.`)

@@ -233,6 +233,13 @@ module.exports = {
                     return;
                 }
 
+                let serviceCharge = 10 + Math.round(collection.selected.exp / 10);
+                if(utils.user.balance < serviceCharge)
+                {
+                    await utils.user.pause(false);
+                    return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to pay the service charge. Try out \`/daily\` to get more.`));
+                }
+
                 // Add bot to market and change ownership
                 if(!await utils.dbMarket.addBotToMarket(interaction, utils.user.username, collection.selected.botObj.bot_id, price)) {
                     await utils.user.pause(false);
@@ -241,13 +248,6 @@ module.exports = {
                 if(!await utils.dbBots.changeOwner(interaction, collection.selected.botObj.bot_id, "", true)) {
                     await utils.user.pause(false);
                     return;
-                }
-
-                let serviceCharge = 10 + Math.round(collection.selected.exp / 10);
-                if(utils.user.balance < serviceCharge)
-                {
-                    await utils.user.pause(false);
-                    return utils.handler.info(interaction, new Error(`You don't have enough ${machinePartEmoji} Machine Parts to pay the service charge. Try out \`/daily\` to get more.`));
                 }
 
                 if(!await utils.db.remove(interaction, "balance", serviceCharge))

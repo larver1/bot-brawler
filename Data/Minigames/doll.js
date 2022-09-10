@@ -231,7 +231,7 @@ module.exports = {
             let won = finalScore < 15 ? false : true;
                 
             finalScore *= 3;
-            let parts = (finalScore / 50) + (turns * 2);
+            let parts = (finalScore / 50) + (turns);
 
             switch(difficulty) {
                 case "Normal":
@@ -259,7 +259,7 @@ module.exports = {
                 await utils.dbAchievements.checkTask(interaction, utils.user.username, "Spoilt Brat");
             }
 
-            finishedEvent.emit('finished', { parts: parts, won: won });
+            finishedEvent.emit('finished', { parts: won ? parts : Math.ceil(parts / 5), won: won });
         });
 
     },

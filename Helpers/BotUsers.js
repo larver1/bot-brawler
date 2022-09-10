@@ -7,7 +7,7 @@ const consola = require("consola");
 const wagers = ["destroy", "collect", "damage"];
 
 module.exports = async(client) => {
-    schedule.scheduleJob('0 */1 * * * *', async() => {
+    schedule.scheduleJob('0 */5 * * * *', async() => {
         consola.info("BotUser requests being fired.")
         await Users.findAll().then(async function(DBUsers){
             for (let i = 0; i < DBUsers.length; i++) {

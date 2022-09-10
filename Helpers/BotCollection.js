@@ -381,7 +381,7 @@ module.exports = class BotCollection {
             if(filters.maxStats && collection[i].stats > filters.maxStats) continue;
             if(filters.goldPlated && collection[i].goldPlated != filters.goldPlated) continue;
             if(filters.isSelling && collection[i].isSelling != filters.isSelling) continue;
-            if(filters.isChallenge && !filters.isChallenge.includes(collection[i].BotObj.bot_id)) continue;
+            if(filters.isChallenge && !filters.isChallenge.includes(collection[i].botObj.bot_id)) continue;
 
             newCollection.push(collection[i]);
         }

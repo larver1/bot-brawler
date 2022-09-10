@@ -5,7 +5,14 @@ module.exports = class sampleEmbed extends MessageEmbed
 	constructor(interaction, user, otherAvatar, otherUser)
 	{	
 
-		let clientUser = otherUser ? otherUser : interaction.user;
+		let clientUser;
+
+		if(user)
+			clientUser = user;
+		if(otherUser)
+			clientUser = otherUser;
+		if(interaction)
+			clientUser = interaction.user;
 
 		super();
 		this.setTimestamp();

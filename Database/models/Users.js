@@ -71,7 +71,48 @@ module.exports = (sequelize, DataTypes) => {
 		tutorial: {
 			type: DataTypes.INTEGER,
 			allowNull: false
-		}
+		},
+		joinDate: {
+			type: DataTypes.DATE,
+			allowNull: false
+		},
+		playerLevel: {
+			type: DataTypes.INTEGER,
+			defaultValue: 1,
+			allowNull: false,
+		},
+		playerExp: {
+			type: DataTypes.INTEGER,
+			defaultValue: 0,
+			allowNull: false,
+		},
+		voteStreak: {
+			type: DataTypes.INTEGER,
+			defaultValue: 0,
+			allowNull: false,
+		},
+		voteTime: {
+			type: DataTypes.DATE,
+			allowNull: false
+		},
+		icon: {
+			type: DataTypes.STRING,
+			defaultValue: "",
+		},
+		daysMember: {
+			type: DataTypes.INTEGER,
+			defaultValue: 0,
+			allowNull: false,		
+		},
+		memberType: {
+			type: DataTypes.INTEGER,
+			defaultValue: 0,
+			allowNull: false,
+		},
+		extras: {
+			type: DataTypes.JSON,
+			allowNull: false
+		},
 	}, {
 		timestamps: false,
 	});

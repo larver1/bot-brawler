@@ -1,5 +1,4 @@
 const machinePartEmoji = "<:machine_parts:992728693799669801>";
-const energyEmoji = "<:energy_v1:993195219224903832>";
 
 module.exports = {
     name: "rebuild",
@@ -27,10 +26,7 @@ module.exports = {
         //When a card is selected, display it
         collection.selectedEvent.on(`selected`, async () => {
             
-            let energyCost = 25;
             let moneyCost = 10 + (Math.round(collection.selected.exp) * 2);
-
-            energyCost = 0;
 
             const deadCard = await new utils.card(interaction, collection.selected);
             if(!await deadCard.createCard()) {
@@ -38,15 +34,9 @@ module.exports = {
                 return;
             }
 
-            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts and \`x${energyCost}\` ${energyEmoji} Energy?`, deadCard.getCard());
+            await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts?`, deadCard.getCard());
             utils.messageHelper.replyEvent.on(`accepted`, async() => {
                 
-                // Not enough energy
-                if(utils.user.energy < energyCost) {
-                    await utils.user.pause(false); 
-                    return utils.handler.info(interaction, new Error(`You don't have enough ${energyEmoji} Energy to do this...`));
-                }
-
                 // Not enough parts
                 if(utils.user.balance < moneyCost) {
                     await utils.user.pause(false); 
@@ -55,12 +45,6 @@ module.exports = {
 
                 // Removes correct number of parts
                 if(!await utils.db.remove(interaction, "balance", moneyCost)) {
-                    await utils.user.pause(false); 
-                    return;
-                }
-
-                // Removes correct number of energy
-                if(!await utils.db.remove(interaction, "energy", energyCost)) {
                     await utils.user.pause(false); 
                     return;
                 }
@@ -76,13 +60,13 @@ module.exports = {
                     return;
                 }
                 
-                await utils.userFile.writeUserLog(utils.user.username, `rebuilt their destroyed ${collection.selected.bot_type.toUpperCase()} with ID ${collection.selected.botObj.bot_id} for ${moneyCost} parts and ${energyCost} energy.`);
+                await utils.userFile.writeUserLog(utils.user.username, `rebuilt their destroyed ${collection.selected.bot_type.toUpperCase()} with ID ${collection.selected.botObj.bot_id} for ${moneyCost} parts.`);
                 await utils.dbBots.addLogs(interaction, collection.selected.botObj.bot_id, `was rebuilt for x${moneyCost} Machine Parts.`);
 
                 await utils.user.pause(false); 
                 await interaction.editReply({ 
                     files: [card.getCard()], 
-                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts and \`x${energyCost}\` ${energyEmoji} Energy`,
+                    content: `\`${collection.selected.name}\` was rebuilt for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts.`,
                     embeds: [],
                     components: []
                  }).catch(e => utils.consola.error(e));

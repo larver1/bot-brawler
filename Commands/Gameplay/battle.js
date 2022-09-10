@@ -429,6 +429,11 @@ module.exports = {
                 return;
             }
 
+            if(!interaction.channel) {
+                await interaction.user.createDM();
+                await interaction.deferReply();
+            }
+
             let details = msg.message_content.split("|");
             let yourBot = await utils.dbBots.findBotObj(interaction, details[1]);
             let otherBot = await utils.dbBots.findBotObj(interaction, details[0]);
@@ -439,9 +444,6 @@ module.exports = {
                 await otherUser.pause(false);
                 return;        
             }
-
-            if(!interaction.channel)
-                await interaction.user.createDM();
 
             let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
             if(!results) {
@@ -615,17 +617,16 @@ module.exports = {
                                 }
                             }
                         } else {
-                            // Bot users will only accept if its a fair fight
-                            if(yourBot.findLevel() != otherBot.findLevel()) {
-                                await utils.user.pause(false);
-                                await otherUser.pause(false);
-                                await interaction.editReply({ 
-                                    content: `This battle is too unfair to accept...`,
-                                    embeds: [],
-                                    components: [],
-                                }).catch((e) => utils.consola.error(e));
-                                return;
-                            }
+                            // Bot users will never accept
+                            await utils.user.pause(false);
+                            await otherUser.pause(false);
+                            await interaction.editReply({ 
+                                content: `Bot Users cannot accept battle...`,
+                                embeds: [],
+                                components: [],
+                            }).catch((e) => utils.consola.error(e));
+                            return;
+                            
 
                         }
 

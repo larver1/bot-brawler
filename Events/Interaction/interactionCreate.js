@@ -36,11 +36,13 @@ module.exports = {
             await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
              
             // Dev only
+            /*
             if(interaction.user.id != "184717700239589377" && interaction.user.id != "717417993809690666") {
                 await interaction.editReply({ content: `The bot is not currently open for testing :(`})
                     .catch((e) => consola.error(e));
                 return;
             }
+            */
 
             let user, userFile;
 
@@ -50,8 +52,16 @@ module.exports = {
                 if(!user)
                     return;
 
-                if(command.name != "unpause" && !await dbAccess.pauseUser(interaction, interaction.user.id))
-                    return interaction.editReply({ content: `Please wait until your previous command is finished.` }).catch(e => {console.log(e)});
+                if(command.name != "unpause") {
+                    if(!await dbAccess.pauseUser(interaction, interaction.user.id)) {
+                        let minutesSinceLastCommand = (Date.now() - user.lastCommand) / 60000;
+                        if(minutesSinceLastCommand >= 5) {
+                            await user.pause(false);
+                        }
+
+                        return interaction.editReply({ content: `Please wait until your previous command is finished.` }).catch(e => {console.log(e)});
+                    }
+                } 
            
                 userFile = new FileReadWrite(`./UserLogs/${user.username}.txt`);
             }

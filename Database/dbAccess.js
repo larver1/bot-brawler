@@ -4,6 +4,9 @@ const dbAchievements = require("../Database/dbAchievements.js");
 const { sequelize } = require("../Database/dbInit.js"); 
 const fs = require('fs');
 const tutorialData = JSON.parse(fs.readFileSync('./Data/Misc/tutorialData.json'));
+const consola = require("consola");
+const sampleEmbed = require('../Helpers/sampleEmbed');
+const energyEmoji = "<:energy_v1:993195219224903832>";
 
 module.exports = class dbAccess
 {
@@ -26,6 +29,48 @@ module.exports = class dbAccess
 		}
 
 		return user;
+    }
+
+	static async voteLogic(ID, client) {	
+		// Find user who voted
+		let idToFind = ID;
+		const user = await Users.findOne({ where: { user_id: idToFind } });
+		if(!user) {
+			let err = new Error(`User with ID ${ID} tried to vote but does not have a Bot Brawler account.`);
+			consola.info(err);
+			return;
+		}
+
+		// Update vote streak
+		let timeSinceLastVote = Date.now() - user.voteTime;
+		let numDays = timeSinceLastVote / 8.64e7;
+		if(numDays > 1)
+			user.voteStreak = 0;
+		else
+			user.voteStreak++;
+
+		user.voteTime = Date.now();
+
+		// Give vote rewards
+		user.energy = 100;
+		await user.save();
+		await dbAchievements.checkTask(null, user.username, "Supporter");
+
+		// Send user vote message
+        let userToSend = await client.users.fetch(ID);
+		let avatar = userToSend.avatarURL({ dynamic: true, size: 512 })
+		const voteDM = new sampleEmbed(null, user, avatar)
+			.setTitle(`Thank you for voting!`)
+			.setDescription(`Your energy ${energyEmoji} has been restored to 100/100.`)
+
+		consola.info(`${user.username} (${ID}) just voted!`);
+		await userToSend.send({ embeds: [voteDM] })
+		.catch((err) => {
+			// Not an urgent error, so just log it
+			consola.warn(new Error(`Failed to send a message to user \`${user.username}\`.\n ${err}`)); 
+		});
+
+		return;
     }
 
 	// Return true if user was successfully paused
