@@ -28,6 +28,15 @@ async function createUser(username, maxExp) {
         tasks: [{}],
         paused: false,
         tutorial: 0,
+        joinDate: Date.now(),
+        playerLevel: 1,
+        playerExp: 0,
+        voteStreak: 0,
+        voteTime: Date.now(),
+        icon: "",
+        daysMember: 0,
+        memberType: 1,
+        extras: [{}]
     });
 
     // Build 100 random bots of different EXP

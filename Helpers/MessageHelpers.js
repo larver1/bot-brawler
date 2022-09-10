@@ -13,7 +13,7 @@ module.exports = class MessageHelpers {
         this.replyEvent = new EventEmitter();
     }
 
-    static async findUser(interaction, differentID) {
+    async findUser(interaction, differentID) {
 		let idToFind = interaction.user.id;
 		if(differentID) idToFind = differentID;
 		const user = await Users.findOne({ where: { user_id: idToFind } });
@@ -26,7 +26,7 @@ module.exports = class MessageHelpers {
     }
 
     // Gives user a yes/no option and emits event depending on choice
-    static async confirmChoice(interaction, user, msg, img) {
+    async confirmChoice(interaction, user, msg, img) {
 
         let acceptId = uuidv4();
         let rejectId = uuidv4();
@@ -111,7 +111,7 @@ module.exports = class MessageHelpers {
     }
 
     // Provides interactive next/prev page functionality for lists of items
-    static async listPages(interaction, user, list, config) {
+    async listPages(interaction, user, list, config) {
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
 

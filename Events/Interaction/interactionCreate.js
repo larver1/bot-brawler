@@ -10,8 +10,8 @@ const MessageHelpers = require("../../Helpers/MessageHelpers.js");
 const dbMarket = require("../../Database/dbMarket.js");
 const Card = require("../../Helpers/Card.js");
 const FileReadWrite = require("../../Helpers/FileReadWrite.js");
-
 const consola = require("consola");
+const messageHelper = new MessageHelpers();
 
 module.exports = {
     name: "interactionCreate",
@@ -80,7 +80,7 @@ module.exports = {
                     embed: sampleEmbed,
                     handler: ErrorHandler,
                     messenger: Messenger,
-                    messageHelper: MessageHelpers,
+                    messageHelper: messageHelper,
                     card: Card,
                     user: user,
                     userFile: userFile
