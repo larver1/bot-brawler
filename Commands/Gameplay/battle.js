@@ -546,7 +546,7 @@ module.exports = {
         }
 
         //Inspect the collection
-        if(!await collection.inspectCollection(interaction, utils.user, 1, `Choose ${utils.user.username}'s bot`))  {
+        if(!await collection.inspectCollection(interaction, utils.user, 1, `Choose ${utils.user.username}'s bot`, otherUser))  {
             await utils.user.pause(false);
             await otherUser.pause(false);
             await interaction.editReply({ content: `Your collection is empty... `} ).catch((e) => utils.consola.error(e));
@@ -564,7 +564,7 @@ module.exports = {
                 return;
             }
 
-            if(!await otherCollection.inspectCollection(interaction, utils.user, 1, `Choose ${otherUser.username}'s bot`)) {
+            if(!await otherCollection.inspectCollection(interaction, utils.user, 1, `Choose ${otherUser.username}'s bot`, otherUser)) {
                 await utils.user.pause(false);
                 await otherUser.pause(false);
                 await interaction.editReply({ content: `The opponent's collection is empty... `} ).catch((e) => utils.consola.error(e));
@@ -704,6 +704,8 @@ module.exports = {
                             return;
 
                         await utils.userFile.writeUserLog(utils.user.username, `server battle ignored by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
+                        
+                        await utils.user.pause(false);
                         await otherUser.pause(false);
                         return;
                     }); 
