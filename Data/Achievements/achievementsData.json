@@ -115,7 +115,7 @@
             [3, "Build 3 Gold Plated Bot Brawlers."], 
             [5, "Build 5 Gold Plated Bot Brawlers."]
         ],
-        "type": "object"
+        "type": "number"
     },
     {
         "name": "Antique Collector",
