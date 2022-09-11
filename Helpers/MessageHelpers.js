@@ -71,14 +71,16 @@ module.exports = class MessageHelpers {
             files: files
         }).catch((e) => consola.error(e));
 
-        const filter = i => (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
-        const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
+        const filter = i => {
+            i.deferUpdate().catch(e => consola.error(e));
+            return (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
+        }
+        
+       const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
         let found = false;
 
         // If user presses either button
         collector.on('collect', async i => {
-            await i.deferUpdate().catch(e => consola.error(e));
-
             switch(i.customId) {
                 case acceptId:
                     this.replyEvent.emit('accepted', interaction);
