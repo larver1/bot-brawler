@@ -43,6 +43,8 @@ module.exports = class BotBuilder
 		let numExists = await BotStats.addExists(interaction, name);
 		let modelString = numExists.toString();
 
+		console.log("num exists: " + numExists);
+
 		// Lead string with zeros
 		return "M-" + modelString.padStart(5, '0');
 	}

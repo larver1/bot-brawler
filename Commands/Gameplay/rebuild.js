@@ -35,9 +35,9 @@ module.exports = {
             }
 
             await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to rebuild your \`${collection.selected.name}\` for \`x${moneyCost}\` ${machinePartEmoji} Machine Parts?`, deadCard.getCard());
-            utils.messageHelper.replyEvent.on(`accepted`, async userId => {
+            utils.messageHelper.replyEvent.on(`accepted`, async i => {
                 
-                if(userId != interaction.user.id)
+                if(i.id != interaction.id)
                     return;
 
                 // Not enough parts
@@ -76,9 +76,9 @@ module.exports = {
 
             });
             
-            utils.messageHelper.replyEvent.on(`rejected`, async userId => {
+            utils.messageHelper.replyEvent.on(`rejected`, async i => {
                 
-                if(userId != interaction.user.id)
+                if(i.id != interaction.id)
                     return;
                 
                 await utils.user.pause(false);      

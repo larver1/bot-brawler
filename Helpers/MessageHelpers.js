@@ -81,12 +81,12 @@ module.exports = class MessageHelpers {
 
             switch(i.customId) {
                 case acceptId:
-                    this.replyEvent.emit('accepted', i.user.id);
+                    this.replyEvent.emit('accepted', interaction);
                     found = true;
                     collector.emit('end');
                     break;
                 case rejectId:
-                    this.replyEvent.emit('rejected', i.user.id);
+                    this.replyEvent.emit('rejected', interaction);
                     found = true;
                     collector.emit('end');                   
                     break;
@@ -97,9 +97,9 @@ module.exports = class MessageHelpers {
         });
 
         // If button was never pressed
-        collector.on('end', async i => {   
+        collector.on('end', async () => {   
             if(!found) {
-                this.replyEvent.emit('timeOut', i.user.id);
+                this.replyEvent.emit('timeOut', interaction);
                 await dbUser.pause(false);
                 await interaction.editReply({
                     content: `${user} did not select an option in time.`,
