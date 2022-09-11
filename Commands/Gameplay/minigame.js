@@ -114,11 +114,13 @@ module.exports = {
                 .catch((e) => utils.consola.error(e));
         
         // If the user chooses an option
-        const filter = i => (i.user.id === interaction.user.id && (i.customId == levelId || i.customId == difficultyId || i.customId == playId || i.customId == cancelId));
+        const filter = i => {
+            i.deferUpdate().catch(e => utils.consola.error(e));
+            return (i.user.id === interaction.user.id && (i.customId == levelId || i.customId == difficultyId || i.customId == playId || i.customId == cancelId));
+        }
+        
         const collector = interaction.channel.createMessageComponentCollector({ filter });
         collector.on('collect', async i => {
-            await i.deferUpdate()
-                .catch(e => utils.consola.error(e));
 
             switch(i.customId) {
                 case levelId:
