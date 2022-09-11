@@ -71,22 +71,24 @@ module.exports = class MessageHelpers {
             files: files
         }).catch((e) => consola.error(e));
 
-        const filter = i => (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
-        const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
+        const filter = i => {
+            i.deferUpdate().catch(e => consola.error(e));
+            return (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
+        }
+
+       const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
         let found = false;
 
         // If user presses either button
         collector.on('collect', async i => {
-            await i.deferUpdate().catch(e => consola.error(e));
-
             switch(i.customId) {
                 case acceptId:
-                    this.replyEvent.emit('accepted', interaction);
+                    this.replyEvent.emit(`accepted-${interaction.id}`);
                     found = true;
                     collector.emit('end');
                     break;
                 case rejectId:
-                    this.replyEvent.emit('rejected', interaction);
+                    this.replyEvent.emit(`rejected-${interaction.id}`);
                     found = true;
                     collector.emit('end');                   
                     break;
@@ -99,7 +101,7 @@ module.exports = class MessageHelpers {
         // If button was never pressed
         collector.on('end', async () => {   
             if(!found) {
-                this.replyEvent.emit('timeOut', interaction);
+                this.replyEvent.emit(`timeOut-${interaction.id}`);
                 await dbUser.pause(false);
                 await interaction.editReply({
                     content: `${user} did not select an option in time.`,

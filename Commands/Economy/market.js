@@ -330,10 +330,7 @@ module.exports = {
             collection.selectedEvent.on(`selected`, async () => {
                 
                 await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to buy ${collection.selected.name} for \`x${collection.selected.price}\` ${machinePartEmoji} Machine Parts?`);
-                utils.messageHelper.replyEvent.on(`accepted`, async i => {
-
-                    if(i.id != interaction.id)
-                        return;
+                utils.messageHelper.replyEvent.on(`accepted-${interaction.id}`, async () => {
 
                     if(utils.user.balance < collection.selected.price) {
                         await utils.user.pause(false);
@@ -416,7 +413,7 @@ module.exports = {
 
                 });
 
-                utils.messageHelper.replyEvent.on(`rejected`, async i => {
+                utils.messageHelper.replyEvent.on(`rejected-${interaction.id}`, async () => {
 
                     if(i.id != interaction.id)
                         return;

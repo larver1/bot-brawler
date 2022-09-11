@@ -54,10 +54,7 @@ module.exports = {
 
         await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost}\` ${machinePartEmoji} Machine Parts\n\`x${energyCost}\` ${energyEmoji} Energy?`);
 
-        utils.messageHelper.replyEvent.on(`accepted`, async i => {
-
-            if(i.id != interaction.id)
-                return;
+        utils.messageHelper.replyEvent.on(`accepted-${interaction.id}`, async () => {
 
             await utils.db.checkTutorial(interaction, "build");
 
@@ -116,10 +113,7 @@ module.exports = {
 
         });
 
-        utils.messageHelper.replyEvent.on(`rejected`, async i => {
-
-            if(i.id != interaction.id)
-                return;
+        utils.messageHelper.replyEvent.on(`rejected-${interaction.id}`, async () => {
 
             await utils.user.pause(false);
             await interaction.editReply({ 

@@ -376,10 +376,7 @@ module.exports = {
                 await utils.userFile.writeUserLog(utils.user.username, `has requested a trade to ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
 
                 // If other user accepts
-                utils.messageHelper.replyEvent.on(`accepted`, async i => {
-
-                    if(i.id != interaction.id)
-                        return;
+                utils.messageHelper.replyEvent.on(`accepted-${interaction.id}`, async () => {
 
                     if(!await trade(interaction, utils, buyingUser, sellingUser, yourBot, amount)) {
                         await utils.userFile.writeUserLog(utils.user.username, `server trade accepted by ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
@@ -391,10 +388,7 @@ module.exports = {
                 });
 
                 // If other user rejects
-                utils.messageHelper.replyEvent.on(`rejected`, async i => {
-                    
-                    if(i.id != interaction.id)
-                        return;
+                utils.messageHelper.replyEvent.on(`rejected-${interaction.id}`, async () => {
 
                     await utils.userFile.writeUserLog(utils.user.username, `server trade rejected by ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
 
@@ -409,10 +403,7 @@ module.exports = {
                     return;
                 });
 
-                utils.messageHelper.replyEvent.on(`timeOut`, async i => {
-
-                    if(i.id != interaction.id)
-                        return;
+                utils.messageHelper.replyEvent.on(`timeOut-${interaction.id}`, async () => {
 
                     await utils.userFile.writeUserLog(utils.user.username, `server trade ignored by ${otherUser.username}. ${sellingUser.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} was traded to ${buyingUser.username} for x${amount} Machine Parts.`);
                     await utils.user.pause(false);
