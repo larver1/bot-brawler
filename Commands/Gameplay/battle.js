@@ -402,7 +402,6 @@ module.exports = {
                 await utils.user.pause(false);
                 return utils.handler.info(interaction, new Error(`You do not have any challenges available... Try out \`/daily\` to get more.`)); 
             } 
-            console.log(utils.user.currentChallenge);
         }
 
         if(otherUser) {
@@ -725,33 +724,6 @@ module.exports = {
                     await utils.user.pause(false);
                     return;
                 }
-
-                /*
-
-                // BATTLE SIMULATION SCRIPT
-
-                let chips = ["power", "lifespan", "viral", "firewall", "balanced"];
-
-                let yourPercent = 0;
-                let otherPercent = 0;
-
-                for(let i = 0; i < chips.length; i++) {
-                    for(let j = 0; j < chips.length; j++) {
-                        await yourBot.investStats(chips[i]);
-                        await otherBot.investStats(chips[j]);    
-                        console.log(`${yourBot.name} (${chips[i]}) VS ${otherBot.name} (${chips[j]})`);
-                        let results = await yourBot.battle(otherBot);
-                        console.log(`\n\n`);
-
-                        yourPercent += results.yourPercent;
-                        otherPercent += results.otherPercent;
-                    }
-                }
-
-                console.log(`${yourPercent}% vs ${otherPercent}%`);
-
-                */
-
 
             });
 

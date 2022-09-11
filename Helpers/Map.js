@@ -130,8 +130,7 @@ module.exports = class Map {
             }
         }
 
-        if(!success
-            ) {
+        if(!success) {
             console.log('Map object failed to show.');
             return null;
         }
