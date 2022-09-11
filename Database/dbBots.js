@@ -89,6 +89,7 @@ module.exports = class dbBots
 	static async addExp(interaction, botID, toAdd) {
 		const bot = await this.findBot(interaction, botID);
         const oldObj = await this.findBotObj(interaction, botID);
+        const oldLevel = oldObj.findLevel();
 
         if(!bot) {
             let err = new Error(`Invalid botID '${botID}' passed to dbBots.addExp().`);
@@ -107,7 +108,7 @@ module.exports = class dbBots
  
         // Check if levelled up and delete requests
         const newObj = await this.findBotObj(interaction, botID);
-        if(newObj.findLevel() > oldObj.findLevel()) {
+        if(newObj.findLevel() > oldLevel) {
             await this.cancelRequests(interaction, botID);
         
             // Check for achievement progress
@@ -301,7 +302,7 @@ module.exports = class dbBots
         // Find all requests that involves the bot and delete them
         let inbox = await Messenger.readAllMessages(interaction, user, null, null, true, true);
         if(!inbox)
-            return
+            return;
         
         for(const message of inbox) {
             if(message.message_content.includes(botID)) {
