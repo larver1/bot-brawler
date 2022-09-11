@@ -431,7 +431,6 @@ module.exports = {
 
             if(!interaction.channel) {
                 await interaction.user.createDM();
-                await interaction.deferReply();
             }
 
             let details = msg.message_content.split("|");

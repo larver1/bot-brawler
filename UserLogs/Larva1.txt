@@ -1,2 +1,6 @@
- [2022/09/10 16:27:02] Larva1 collected their daily rewards.
-[2022/09/10 16:40:06] Larva1 built a GREEDISK with ID d88d10c7-25cf-4138-9128-988c1fa37831
+ [2022/09/11 12:08:23] Larva1 collected their daily rewards.
+[2022/09/11 12:08:29] Larva1 built a GREEDISK with ID e04eb579-2541-4c04-b3cc-e2dbde48a25d
+[2022/09/11 12:10:52] Larva1 battled their Greedisk M-00950 with ID e04eb579-2541-4c04-b3cc-e2dbde48a25d against olibot-85's Buddy & Lila M-00842 with ID 53993170-b4ec-4eb8-8553-41b9908276ba. Greedisk M-00950 is the winner!
+Loser bot gets collected by winner..
+[2022/09/11 12:10:52] Larva1 has accepted a battle request from olibot-85. Larva1's Greedisk M-00950 with ID e04eb579-2541-4c04-b3cc-e2dbde48a25d versus olibot-85's Buddy & Lila M-00842 with ID 53993170-b4ec-4eb8-8553-41b9908276ba. The wager is collect.
+[2022/09/11 12:11:35] Larva1 played minigame claw with difficulty Normal and level 5x5. The reward was x135 Machine Parts.
