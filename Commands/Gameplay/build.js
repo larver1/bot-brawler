@@ -52,17 +52,11 @@ module.exports = {
                 break;
         }
 
-        /*
-        exp = 25000;
-        energyCost = 0;
-        moneyCost = 0;
-        */
-
         await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost}\` ${machinePartEmoji} Machine Parts\n\`x${energyCost}\` ${energyEmoji} Energy?`);
 
-        utils.messageHelper.replyEvent.on(`accepted`, async userId => {
+        utils.messageHelper.replyEvent.on(`accepted`, async i => {
 
-            if(userId != interaction.user.id)
+            if(i.id != interaction.id)
                 return;
 
             await utils.db.checkTutorial(interaction, "build");
@@ -83,8 +77,7 @@ module.exports = {
             let bot = await BotBuilder.build(interaction, { item: "balanced", exp: exp }, utils.user);
             let botObj = await new BotObj(interaction, bot); 
 
-            if(bot.goldPlated)
-            {
+            if(bot.goldPlated) {
                 await utils.dbAchievements.editAchievement(interaction, utils.user.username, "Struck Gold", 1);    
             }
 
@@ -107,7 +100,6 @@ module.exports = {
             } 
 
             // Add bot to existence
-            await utils.dbBotStats.addExists(interaction, botObj.bot_type);
             await utils.user.createBot(bot);
             await utils.dbBots.changeOwner(interaction, bot.bot_id, utils.user.username);
 
@@ -124,9 +116,9 @@ module.exports = {
 
         });
 
-        utils.messageHelper.replyEvent.on(`rejected`, async userId => {
+        utils.messageHelper.replyEvent.on(`rejected`, async i => {
 
-            if(userId != interaction.user.id)
+            if(i.id != interaction.id)
                 return;
 
             await utils.user.pause(false);

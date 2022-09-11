@@ -33,7 +33,7 @@ module.exports = {
                 ]}) && client.commands.delete(interaction.commandName);
 
             // Bot respond with "loading" state
-            await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {console.log(e)});
+            await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {consola.error(e)});
              
             // Dev only
             /*
@@ -59,7 +59,7 @@ module.exports = {
                             await user.pause(false);
                         }
 
-                        return interaction.editReply({ content: `Please wait until your previous command is finished.` }).catch(e => {console.log(e)});
+                        return interaction.editReply({ content: `Please wait until your previous command is finished.` }).catch(e => {consola.error(e)});
                     }
                 } 
            

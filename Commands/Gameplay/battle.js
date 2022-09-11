@@ -402,7 +402,6 @@ module.exports = {
                 await utils.user.pause(false);
                 return utils.handler.info(interaction, new Error(`You do not have any challenges available... Try out \`/daily\` to get more.`)); 
             } 
-            console.log(utils.user.currentChallenge);
         }
 
         if(otherUser) {
@@ -431,7 +430,6 @@ module.exports = {
 
             if(!interaction.channel) {
                 await interaction.user.createDM();
-                await interaction.deferReply();
             }
 
             let details = msg.message_content.split("|");
@@ -547,7 +545,7 @@ module.exports = {
         }
 
         //Inspect the collection
-        if(!await collection.inspectCollection(interaction, utils.user, 1, `Choose ${utils.user.username}'s bot`))  {
+        if(!await collection.inspectCollection(interaction, utils.user, 1, `Choose ${utils.user.username}'s bot`, otherUser))  {
             await utils.user.pause(false);
             await otherUser.pause(false);
             await interaction.editReply({ content: `Your collection is empty... `} ).catch((e) => utils.consola.error(e));
@@ -565,7 +563,7 @@ module.exports = {
                 return;
             }
 
-            if(!await otherCollection.inspectCollection(interaction, utils.user, 1, `Choose ${otherUser.username}'s bot`)) {
+            if(!await otherCollection.inspectCollection(interaction, utils.user, 1, `Choose ${otherUser.username}'s bot`, otherUser)) {
                 await utils.user.pause(false);
                 await otherUser.pause(false);
                 await interaction.editReply({ content: `The opponent's collection is empty... `} ).catch((e) => utils.consola.error(e));
@@ -666,9 +664,9 @@ module.exports = {
                     await utils.messageHelper.confirmChoice(interaction, userSubCommand, `The wager is \`${wager}\`, this means that ${wagers[wager]}.\n\n${userSubCommand}, do you accept this Battle Request from ${interaction.user}?`, scene.getScene());
 
                     // If other user accepts
-                    utils.messageHelper.replyEvent.on(`accepted`, async userId => {
+                    utils.messageHelper.replyEvent.on(`accepted`, async i => {
 
-                        if(userId != otherUser.user_id)
+                        if(i.id != interaction.id)
                             return;
 
                         let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
@@ -681,9 +679,9 @@ module.exports = {
                     });
 
                     // If other user rejects
-                    utils.messageHelper.replyEvent.on(`rejected`, async userId => {
+                    utils.messageHelper.replyEvent.on(`rejected`, async i => {
 
-                        if(userId != otherUser.user_id)
+                        if(i.id != interaction.id)
                             return;
 
                         await utils.userFile.writeUserLog(utils.user.username, `server battle rejected by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
@@ -699,12 +697,14 @@ module.exports = {
                     }); 
 
                     // Time out
-                    utils.messageHelper.replyEvent.on(`timeOut`, async userId => {
+                    utils.messageHelper.replyEvent.on(`timeOut`, async i => {
 
-                        if(userId != interaction.user.id)
+                        if(i.id != interaction.id)
                             return;
 
                         await utils.userFile.writeUserLog(utils.user.username, `server battle ignored by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
+                        
+                        await utils.user.pause(false);
                         await otherUser.pause(false);
                         return;
                     }); 
@@ -724,33 +724,6 @@ module.exports = {
                     await utils.user.pause(false);
                     return;
                 }
-
-                /*
-
-                // BATTLE SIMULATION SCRIPT
-
-                let chips = ["power", "lifespan", "viral", "firewall", "balanced"];
-
-                let yourPercent = 0;
-                let otherPercent = 0;
-
-                for(let i = 0; i < chips.length; i++) {
-                    for(let j = 0; j < chips.length; j++) {
-                        await yourBot.investStats(chips[i]);
-                        await otherBot.investStats(chips[j]);    
-                        console.log(`${yourBot.name} (${chips[i]}) VS ${otherBot.name} (${chips[j]})`);
-                        let results = await yourBot.battle(otherBot);
-                        console.log(`\n\n`);
-
-                        yourPercent += results.yourPercent;
-                        otherPercent += results.otherPercent;
-                    }
-                }
-
-                console.log(`${yourPercent}% vs ${otherPercent}%`);
-
-                */
-
 
             });
 

@@ -110,7 +110,7 @@ module.exports = class BotCollection {
 
     }
 
-    async inspectCollection(interaction, user, maxSelected, selectMsg, noCancel){
+    async inspectCollection(interaction, user, maxSelected, selectMsg, noCancel, otherUser){
         let selectId = uuidv4();
         let prevPageId = uuidv4();
         let nextPageId = uuidv4();
@@ -166,13 +166,14 @@ module.exports = class BotCollection {
             content: 'Select a bot: ', 
             components: components }).catch((e) => consola.error(e));
 
-        const filter = i => (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId || i.customId == cancelId)); 
-		const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
+        const filter = i => {
+            i.deferUpdate().catch(e => consola.error(e));
+            return (i.user.id === interaction.user.id && (i.customId == selectId || i.customId == nextPageId || i.customId == prevPageId || i.customId == cancelId)); 
+        }
+            const collector = interaction.channel.createMessageComponentCollector({ filter, time: 600000, errors: ['time'] });
 		let cancelled = false;
 
         collector.on('collect', async i => { 
-
-            await i.deferUpdate().catch(e => consola.error(e));
 
             // If they cancelled the command
             if(i.customId == cancelId) {
@@ -219,6 +220,9 @@ module.exports = class BotCollection {
 
         collector.once('end', async() => {
             await user.pause(false);
+            if(otherUser)
+                await otherUser.pause(false);
+                
             if(cancelled) {      
                 await interaction.editReply({ 
                     embeds: [],
