@@ -5,6 +5,14 @@ const express = require("express");
 const { AutoPoster } = require('topgg-autoposter');
 const dbAccess = require("./Database/dbAccess");
 
+// Create discord client
+const client = new Client({ intents: [
+    Intents.FLAGS.GUILDS, 
+    Intents.FLAGS.GUILD_MESSAGES, 
+    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
+    Intents.FLAGS.DIRECT_MESSAGES
+]});
+
 // Only post to top.gg on live server
 if(!debug) { 
     const app = express();
@@ -22,14 +30,6 @@ if(!debug) {
         console.log('Posted stats to Top.gg!');
     });
 }
-
-// Create discord client
-const client = new Client({ intents: [
-    Intents.FLAGS.GUILDS, 
-    Intents.FLAGS.GUILD_MESSAGES, 
-    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
-    Intents.FLAGS.DIRECT_MESSAGES
-]});
 
 client.commands = new Collection();
 
