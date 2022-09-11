@@ -664,10 +664,7 @@ module.exports = {
                     await utils.messageHelper.confirmChoice(interaction, userSubCommand, `The wager is \`${wager}\`, this means that ${wagers[wager]}.\n\n${userSubCommand}, do you accept this Battle Request from ${interaction.user}?`, scene.getScene());
 
                     // If other user accepts
-                    utils.messageHelper.replyEvent.on(`accepted`, async i => {
-
-                        if(i.id != interaction.id)
-                            return;
+                    utils.messageHelper.replyEvent.on(`accepted-${interaction.id}`, async () => {
 
                         let results = await battle(interaction, utils, yourBot, otherBot, wager, otherUser);
                         await utils.userFile.writeUserLog(utils.user.username, `server battle accepted by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
@@ -679,10 +676,7 @@ module.exports = {
                     });
 
                     // If other user rejects
-                    utils.messageHelper.replyEvent.on(`rejected`, async i => {
-
-                        if(i.id != interaction.id)
-                            return;
+                    utils.messageHelper.replyEvent.on(`rejected-${interaction.id}`, async () => {
 
                         await utils.userFile.writeUserLog(utils.user.username, `server battle rejected by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
                         await interaction.editReply({ 
@@ -697,10 +691,7 @@ module.exports = {
                     }); 
 
                     // Time out
-                    utils.messageHelper.replyEvent.on(`timeOut`, async i => {
-
-                        if(i.id != interaction.id)
-                            return;
+                    utils.messageHelper.replyEvent.on(`timeOut-${interaction.id}`, async () => {
 
                         await utils.userFile.writeUserLog(utils.user.username, `server battle ignored by ${otherUser.username}. ${utils.user.username}'s ${yourBot.name} with ID ${yourBot.botObj.bot_id} versus ${otherUser.username}'s ${otherBot.name} with ID ${otherBot.botObj.bot_id}. The wager is ${wager}.`);
                         

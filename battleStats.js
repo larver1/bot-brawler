@@ -59,7 +59,6 @@ async function battleAllBots() {
             const secondBotObj = await new BotObj(null, secondBot);
 
             let results = await battleSim(firstBotObj, secondBotObj);
-            console.log(`${botData[i].name}: ${results[0]}% vs ${botData[j].name}: ${results[1]}%`);
             botData[i].percentage += results[0];
             botData[i][results[2]] += 1;
         }
