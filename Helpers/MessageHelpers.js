@@ -72,8 +72,11 @@ module.exports = class MessageHelpers {
         }).catch((e) => consola.error(e));
 
         const filter = i => {
+            if(i.user.id !== user.id)
+                return false;
+
             i.deferUpdate().catch(e => consola.error(e));
-            return (i.user.id === user.id && (i.customId == acceptId || i.customId == rejectId));
+            return (i.customId == acceptId || i.customId == rejectId);
         }
 
        const collector = interaction.channel.createMessageComponentCollector({ filter, time: 60000, errors: ['time'] });
