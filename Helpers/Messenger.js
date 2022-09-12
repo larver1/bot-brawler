@@ -331,7 +331,8 @@ module.exports = class Messenger
 
         for(let i = 0; i < messages.length; i++) {
             const msg = messages[i];
-            if(msg && msg.recipient_username == recipient.username) {
+            if(msg && (msg.recipient_username == recipient.username 
+                || (outgoing && msg.sender_username == recipient.username))) {
                 inbox.push(msg);
             }
         }
