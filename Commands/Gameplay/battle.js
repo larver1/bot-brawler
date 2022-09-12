@@ -206,7 +206,7 @@ async function battle(interaction, utils, yourBot, otherBot, wager, otherUser){
             } 
 
             msg += "\nThe winner is rewarded with some EXP.";
-            exp = Math.max(Math.ceil(loserBot.exp / 5), 10);
+            exp = Math.max(Math.ceil(loserBot.exp / 5), 1);
             if(winnerBot.ability == "Greedy AI") {
                 exp = Math.ceil(exp * 1.5);
                 msg += `\n${winnerBot.name} gets extra EXP due to their ability.`;
