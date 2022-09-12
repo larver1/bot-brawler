@@ -64,9 +64,6 @@ module.exports = class BotCollection {
         let cards = await new CardsView(interaction, sortedSelection);
         await cards.createCards();
 
-        if(!interaction.channel)
-            await interaction.user.createDM();
-
         await interaction.editReply({ 
             content: `${selectMsg}Bot Collection [Page ${page + 1}/${maxPages}]`, 
             components: [nextPage], 

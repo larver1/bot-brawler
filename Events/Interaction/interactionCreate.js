@@ -33,6 +33,10 @@ module.exports = {
                         .setDescription("❌ An error occured while running this command.\nThe command couldn't be found!")
                 ]}) && client.commands.delete(interaction.commandName);
 
+            // For DM commands
+            if(!interaction.channel)
+                await interaction.user.createDM();
+
             // Bot respond with "loading" state
             await interaction.deferReply({ ephemeral: command.hidden }).catch(e => {consola.error(e)});
              

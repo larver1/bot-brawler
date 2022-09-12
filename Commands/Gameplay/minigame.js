@@ -103,10 +103,7 @@ module.exports = {
             )
 
         const finishEmbed = new utils.embed(interaction, utils.user)
-                .setTitle(`Game Over!`)
-
-        if(!interaction.channel)
-            await interaction.user.createDM();     
+                .setTitle(`Game Over!`)     
         
         await interaction.editReply({ 
             content: `Do you want to play ${gameLevels[gameName]["name"]}?`,
