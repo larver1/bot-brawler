@@ -212,9 +212,6 @@ module.exports = {
                 return;
             }
 
-            if(!interaction.channel)
-                await interaction.user.createDM();
-
             let card = await trade(interaction, utils, buyingUser, sellingUser, sellingBot, amount);
             if(!card) {
                 await utils.user.pause(false);

@@ -61,9 +61,6 @@ module.exports = class MessageHelpers {
                 .setStyle('SECONDARY')
         )
 
-        if(!interaction.channel)
-            await interaction.user.createDM();
-
         await interaction.editReply({ 
             content: `${user}, please choose an option.`,
             embeds: [request],
