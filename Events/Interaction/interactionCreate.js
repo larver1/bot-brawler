@@ -12,6 +12,7 @@ const Card = require("../../Helpers/Card.js");
 const FileReadWrite = require("../../Helpers/FileReadWrite.js");
 const consola = require("consola");
 const messageHelper = new MessageHelpers();
+const { debug } = require("../../config.json");
 
 module.exports = {
     name: "interactionCreate",
@@ -83,7 +84,8 @@ module.exports = {
                     messageHelper: messageHelper,
                     card: Card,
                     user: user,
-                    userFile: userFile
+                    userFile: userFile,
+                    debug: debug
                 });
             } catch(e) {
                 await ErrorHandler.handle(interaction, e);  

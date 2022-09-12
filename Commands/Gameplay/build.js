@@ -52,6 +52,11 @@ module.exports = {
                 break;
         }
 
+        if(utils.debug) {
+            energyCost = 0;
+            moneyCost = 0;
+        }
+
         await utils.messageHelper.confirmChoice(interaction, interaction.user, `Do you wish to build a ${type} bot for \n\`x${moneyCost}\` ${machinePartEmoji} Machine Parts\n\`x${energyCost}\` ${energyEmoji} Energy?`);
 
         utils.messageHelper.replyEvent.on(`accepted-${interaction.id}`, async () => {
