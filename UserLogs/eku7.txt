@@ -666,3 +666,253 @@ Loser bot gets destroyed by winner for EXP..
 Loser bot gets destroyed by winner for EXP..
 [2022/08/06 20:34:13] eku7 battled their Dungware M-00001 with ID 5b9ba90e-e0c2-47f2-a2b1-1c698f7cc6c0 against olibot-44's Compactisk M-00466 with ID ec252ef1-d675-490d-bcc1-93697cceafdf. Dungware M-00001 is the winner!
 Loser bot gets destroyed by winner for EXP..
+[2022/09/10 17:15:45] eku7 switched changed chips to firewall for Ramselle M-00991 with ID cd0d4c30-269c-4996-a978-07211d070fe5.
+[2022/09/10 17:16:21] eku7 battled their Ramselle M-00991 with ID cd0d4c30-269c-4996-a978-07211d070fe5 against olibot-15's Compactisk M-00162 with ID 16c33d3d-dc77-42e5-980c-f3df33eb745c. Ramselle M-00991 is the winner!
+Loser bot gets collected by winner..
+[2022/09/10 17:16:22] eku7 has accepted a battle request from olibot-15. eku7's Ramselle M-00991 with ID cd0d4c30-269c-4996-a978-07211d070fe5 versus olibot-15's Compactisk M-00162 with ID 16c33d3d-dc77-42e5-980c-f3df33eb745c. The wager is collect.
+[2022/09/11 12:46:59] eku7 has sent a battle request to Larva. eku7's Dungware M-01039 with ID 01127122-e434-419a-b263-bf761dca8427 versus Larva's Trojo M-00945 with ID 1ce85da7-f37c-459b-bbe2-e708606d07cb. The wager is destroy.
+[2022/09/11 12:48:24] eku7 built a RAMSELLE with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1
+[2022/09/11 12:48:30] eku7 built a GREEDISK with ID e16e6e52-585b-49b2-a21a-a0895dd37b47
+[2022/09/11 12:48:38] eku7 built a CONSTANT with ID 380372f7-0e17-47ec-a902-8137663987fd
+[2022/09/11 12:48:45] eku7 built a DUNGWARE with ID b4e50169-46ec-4518-8356-547017aa3266
+[2022/09/11 16:11:18] eku7 collected their daily rewards.
+[2022/09/11 16:18:49] eku7 built a DUNGWARE with ID 6860c447-653c-49aa-9284-8dda21fa824d
+[2022/09/11 16:19:05] eku7 built a BUDDY & LILA with ID e86a6f44-01bd-4314-a446-b011a3877489
+[2022/09/11 16:19:14] eku7 built a GREEDISK with ID ee8a352e-d321-4d83-a64f-5c2d8c1d289e
+[2022/09/11 16:19:21] eku7 built a RANSOM BLUE with ID 2946e54c-3f05-4e91-ba31-a4e689c841fc
+[2022/09/12 20:46:59] eku7 collected their daily rewards.
+[2022/09/12 20:47:09] eku7 built a DUNGWARE with ID c480eeef-dea5-4269-aa89-6ca83e088d99
+[2022/09/12 20:47:14] eku7 built a GREEDISK with ID d9d103d3-fadf-4ed7-8bd6-3c35becf254f
+[2022/09/12 20:47:20] eku7 built a RANSOM BLUE with ID ea87c6b8-cca9-4214-9305-dc3ef3db8cfa
+[2022/09/12 20:47:25] eku7 built a RANSOM BLUE with ID 6476b877-615f-4503-8bd9-5c42196e0f61
+[2022/09/12 20:48:39] eku7 built a BUDDY & LILA with ID 1d111e7f-d369-404f-8313-ec2a8d0757c4
+[2022/09/12 20:48:45] eku7 built a BUDDY & LILA with ID 4ef17ed3-e33d-4699-bfd3-7af9ff8b3f31
+[2022/09/12 20:48:48] eku7 built a VOIDISK with ID 5e6180ae-5c42-408e-a5d0-cd2c68e2d758
+[2022/09/12 20:48:55] eku7 built a BOSTROM with ID cbb61b7c-3fb1-4b43-bd9f-7a1cbd602068
+[2022/09/12 20:49:35] eku7 has rejected a battle request from olibot-87. eku7's Ransom Blue M-01070 with ID 7fedbbb0-831e-4418-a84d-2d9e077448e7 versus olibot-87's Trojo M-00792 with ID 84c67f24-4f51-48a3-8172-57048d34bd54. The wager is damage.
+[2022/09/12 20:50:14] eku7 has rejected a battle request from olibot-65. eku7's Ransom Blue M-01087 with ID 6476b877-615f-4503-8bd9-5c42196e0f61 versus olibot-65's Trojo M-00576 with ID 729a720c-9dc4-4d55-b198-e3d30feb5aaa. The wager is damage.
+[2022/09/12 20:51:14] eku7 played minigame claw with difficulty Hard and level 7x7. The reward was x30 Machine Parts.
+[2022/09/12 20:51:44] eku7 played minigame claw with difficulty Hard and level 7x7. The reward was x90 Machine Parts.
+[2022/09/12 21:00:13] eku7 battled their Greedisk M-01087 with ID ee8a352e-d321-4d83-a64f-5c2d8c1d289e against olibot-9's Voidisk M-00103 with ID e3f192bf-c153-4c06-be03-f2b675203537. Greedisk M-01087 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Greedisk M-01087 gets extra EXP due to their ability..
+[2022/09/12 21:00:14] eku7 has accepted a battle request from olibot-9. eku7's Greedisk M-01087 with ID ee8a352e-d321-4d83-a64f-5c2d8c1d289e versus olibot-9's Voidisk M-00103 with ID e3f192bf-c153-4c06-be03-f2b675203537. The wager is destroy.
+[2022/09/12 21:05:28] eku7 has rejected a battle request from olibot-23. eku7's Ransom Blue M-01070 with ID 7fedbbb0-831e-4418-a84d-2d9e077448e7 versus olibot-23's Constant M-00962 with ID d120e92b-3826-4f7d-a02f-d3a567e26ee2. The wager is damage.
+[2022/09/12 21:10:16] eku7 has rejected a battle request from olibot-0. eku7's Ramselle M-00999 with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1 versus olibot-0's Greedisk M-00016 with ID aca0c79b-452b-4de1-a2ca-076c820f3175. The wager is damage.
+[2022/09/12 21:15:52] eku7 has rejected a battle request from olibot-2. eku7's Dungware M-01049 with ID b4e50169-46ec-4518-8356-547017aa3266 versus olibot-2's Memnesia M-00030 with ID a620396c-a11b-431f-809a-6165c8c831bc. The wager is destroy.
+[2022/09/12 21:20:37] eku7 has rejected a battle request from olibot-61. eku7's Dungware M-01049 with ID b4e50169-46ec-4518-8356-547017aa3266 versus olibot-61's Greedisk M-00629 with ID 5263c0a2-1431-4922-9466-60c75fce40df. The wager is collect.
+[2022/09/12 21:26:00] eku7 has rejected a battle request from olibot-69. eku7's Dungware M-01037 with ID 8342729e-7430-4a38-8737-959b50b3fd96 versus olibot-69's Constant M-00638 with ID c483e704-3068-4c1d-bedc-2e82a232a042. The wager is collect.
+[2022/09/12 21:32:50] eku7 has rejected a battle request from olibot-51. eku7's Ransom Blue M-01070 with ID 7fedbbb0-831e-4418-a84d-2d9e077448e7 versus olibot-51's Greedisk M-00526 with ID 4058aa12-c4af-4106-99a2-ee05097f9b79. The wager is destroy.
+[2022/09/12 22:38:50] eku7 is now friends with Heliophobia.
+[2022/09/12 22:38:59] eku7 has rejected a battle request from olibot-91. eku7's Ramselle M-00991 with ID cd0d4c30-269c-4996-a978-07211d070fe5 versus olibot-91's Ramselle M-00810 with ID 68b7434e-1fad-4966-9275-6c5ffba24e6a. The wager is collect.
+[2022/09/12 22:40:16] eku7 has rejected a battle request from olibot-34. eku7's Constant M-01002 with ID 2be9392f-35ae-4888-bbf3-b0d242526fa0 versus olibot-34's Ransom Blue M-00333 with ID 21975418-2e9e-4015-9e0c-cbb760461376. The wager is destroy.
+[2022/09/12 22:51:50] eku7 has rejected a battle request from olibot-55. eku7's Ransom Blue M-01044 with ID 43982451-ec9a-4eea-9127-8054b8d023c5 versus olibot-55's Buddy & Lila M-00537 with ID ca1ed26f-5681-4da2-b226-c340d3621930. The wager is damage.
+[2022/09/13 00:02:06] eku7 has rejected a battle request from olibot-15. eku7's Buddy & Lila M-01018 with ID e86a6f44-01bd-4314-a446-b011a3877489 versus olibot-15's Compactisk M-00169 with ID 5d5348cb-55d0-4c36-9ade-2d5602baea81. The wager is damage.
+[2022/09/13 10:14:09] eku7 has rejected a battle request from olibot-3. eku7's Bostrom M-01109 with ID cbb61b7c-3fb1-4b43-bd9f-7a1cbd602068 versus olibot-3's Voidisk M-00064 with ID dec8f0ed-f1fd-4df2-a949-bdf247c2df6c. The wager is destroy.
+[2022/09/13 10:14:43] eku7 built a BUDDY & LILA with ID 6bea9608-f2ee-4c32-8afb-6c06a536ee4c
+[2022/09/13 10:14:50] eku7 built a TROJO with ID 9f56f97f-f24e-4fa9-bbe1-fe6b8666cf4d
+[2022/09/13 10:14:56] eku7 built a RAMSELLE with ID 59dabb08-f7f2-44b1-8e67-5e2f7bdfef13
+[2022/09/13 10:15:01] eku7 built a GREEDISK with ID aec9d8f6-d979-4f5e-89e7-71c181abc6aa
+[2022/09/13 10:15:33] eku7 switched changed chips to lifespan for Trojo M-00360 with ID 31159d5b-78b7-4b6c-877d-b2774d30d75b.
+[2022/09/13 10:16:11] eku7 battled their Trojo M-00360 with ID 31159d5b-78b7-4b6c-877d-b2774d30d75b against olibot-81's Ramselle M-00726 with ID 842b53c9-8e31-4be4-9259-1379ef5c915d. Trojo M-00360 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00360 gained +5 Base Power due to their ability..
+[2022/09/13 10:16:13] eku7 has accepted a battle request from olibot-81. eku7's Trojo M-00360 with ID 31159d5b-78b7-4b6c-877d-b2774d30d75b versus olibot-81's Ramselle M-00726 with ID 842b53c9-8e31-4be4-9259-1379ef5c915d. The wager is destroy.
+[2022/09/13 10:17:53] eku7 withdrew Greedisk from the market with ID 09c887e9-f982-4739-981c-ea4bfa45832a.
+[2022/09/13 10:18:02] eku7 withdrew Ransom Blue from the market with ID 2149c639-e375-479b-949e-4b1e87598550.
+[2022/09/13 10:18:09] eku7 withdrew Greedisk from the market with ID e8b771e9-cb41-4b83-a4ad-489bb3078333.
+[2022/09/13 10:18:19] eku7 withdrew Ramselle from the market with ID dfd59ad5-a114-40a9-99e5-eb3afa165aa6.
+[2022/09/13 10:18:26] eku7 withdrew Memnesia from the market with ID b27187bf-9925-4b3e-b405-1d6d0ed657c4.
+[2022/09/13 10:18:31] eku7 withdrew Compactisk from the market with ID 9d007c73-3a64-4b3e-aab3-a2ed107eec51.
+[2022/09/13 10:18:37] eku7 withdrew Voidisk from the market with ID 3a1c9c1c-a8d2-441a-807d-3213d7662c0b.
+[2022/09/13 10:18:43] eku7 withdrew Ramselle from the market with ID 42f5b410-9d07-4784-8b45-6c91a7fcf5cb.
+[2022/09/13 10:18:49] eku7 withdrew Ramselle from the market with ID 693ebab0-dfe3-470e-a931-3de3c33123c3.
+[2022/09/13 10:20:20] eku7 has rejected a battle request from olibot-79. eku7's Ransom Blue M-01044 with ID 43982451-ec9a-4eea-9127-8054b8d023c5 versus olibot-79's Ramselle M-00699 with ID acb792a6-dc61-434c-ae14-ad465cfbcb91. The wager is damage.
+[2022/09/13 10:20:25] eku7 withdrew Memnesia from the market with ID 031372bd-8425-43ef-832a-0a536866bfb5.
+[2022/09/13 10:20:30] eku7 withdrew Greedisk from the market with ID 0c894332-1eb2-48e6-92a8-9c3400c39be6.
+[2022/09/13 10:20:34] eku7 withdrew Buddy & Lila from the market with ID 248269ca-f6a1-47a3-8d6f-279632be6eed.
+[2022/09/13 10:20:39] eku7 withdrew Ransom Blue from the market with ID 27a59540-2af8-479d-a6f4-09e4b0558aa9.
+[2022/09/13 10:20:44] eku7 withdrew Trojo from the market with ID 2b3e62ef-4b3e-4050-b1b6-e34b125f53e9.
+[2022/09/13 10:20:49] eku7 withdrew Greedisk from the market with ID 4d2c2967-4fa2-4d61-9dc2-bc6bd6d2a0a5.
+[2022/09/13 10:20:53] eku7 withdrew Bostrom from the market with ID 7827cc09-c881-4856-9789-43564f7e0300.
+[2022/09/13 10:20:57] eku7 withdrew Trojo from the market with ID 83366f0b-dccf-498e-a13d-0d6bbb6d984c.
+[2022/09/13 10:21:02] eku7 withdrew Constant from the market with ID 8d2d9520-daca-4ed3-953a-8baab3b7565f.
+[2022/09/13 10:21:06] eku7 withdrew Compactisk from the market with ID 8dce9a14-5111-416b-ba38-5982985c44ba.
+[2022/09/13 10:21:10] eku7 withdrew Bostrom from the market with ID b30e8638-953b-4ea9-b9f0-28c85d2e7f8f.
+[2022/09/13 10:21:14] eku7 withdrew Ransom Blue from the market with ID e2cef92b-1698-4dcf-875c-3caa9aa9d462.
+[2022/09/13 10:21:19] eku7 withdrew Memnesia from the market with ID e8b89719-c0a6-46f5-b5c5-dd91747689f6.
+[2022/09/13 10:21:24] eku7 withdrew Bostrom from the market with ID ef9dbbf1-5d2a-402d-8f0b-2d88622f94ae.
+[2022/09/13 10:21:29] eku7 withdrew Bostrom from the market with ID ffc0a260-bb1e-4020-bc34-a4d4c0936a37.
+[2022/09/13 10:22:29] eku7 listed Buddy & Lila on the market with ID 0a7fe03d-99fb-40d1-b11b-327767392cbc with offer of 25.
+[2022/09/13 10:22:37] eku7 listed Buddy & Lila on the market with ID 1d111e7f-d369-404f-8313-ec2a8d0757c4 with offer of 25.
+[2022/09/13 10:22:56] eku7 listed Buddy & Lila on the market with ID 4ef17ed3-e33d-4699-bfd3-7af9ff8b3f31 with offer of 25.
+[2022/09/13 10:23:27] eku7 listed Buddy & Lila on the market with ID 248269ca-f6a1-47a3-8d6f-279632be6eed with offer of 50.
+[2022/09/13 10:23:36] eku7 listed Buddy & Lila on the market with ID 2be0d3bd-cf66-4f02-be28-a2b77042396b with offer of 50.
+[2022/09/13 10:24:03] eku7 listed Buddy & Lila on the market with ID 6bea9608-f2ee-4c32-8afb-6c06a536ee4c with offer of 40.
+[2022/09/13 10:24:19] eku7 listed Buddy & Lila on the market with ID e86a6f44-01bd-4314-a446-b011a3877489 with offer of 40.
+[2022/09/13 10:25:13] eku7 listed Bostrom on the market with ID cbb61b7c-3fb1-4b43-bd9f-7a1cbd602068 with offer of 40.
+[2022/09/13 10:25:27] eku7 listed Bostrom on the market with ID 7827cc09-c881-4856-9789-43564f7e0300 with offer of 50.
+[2022/09/13 10:25:41] eku7 listed Bostrom on the market with ID b30e8638-953b-4ea9-b9f0-28c85d2e7f8f with offer of 50.
+[2022/09/13 10:25:48] eku7 listed Bostrom on the market with ID b7d3da49-12ca-4d6a-a006-be752949019e with offer of 50.
+[2022/09/13 10:26:03] eku7 listed Bostrom on the market with ID ef9dbbf1-5d2a-402d-8f0b-2d88622f94ae with offer of 50.
+[2022/09/13 10:26:11] eku7 listed Bostrom on the market with ID ffc0a260-bb1e-4020-bc34-a4d4c0936a37 with offer of 50.
+[2022/09/13 10:26:24] eku7 has rejected a battle request from olibot-76. eku7's Memnesia M-00958 with ID 031372bd-8425-43ef-832a-0a536866bfb5 versus olibot-76's Ramselle M-00678 with ID d4c25ae2-5680-4cdb-b3f1-6c362d720edb. The wager is damage.
+[2022/09/13 10:28:26] eku7 listed Constant on the market with ID 380372f7-0e17-47ec-a902-8137663987fd with offer of 25.
+[2022/09/13 10:29:06] eku7 listed Constant on the market with ID 2be9392f-35ae-4888-bbf3-b0d242526fa0 with offer of 25.
+[2022/09/13 10:29:28] eku7 listed Constant on the market with ID 8d2d9520-daca-4ed3-953a-8baab3b7565f with offer of 50.
+[2022/09/13 10:30:13] eku7 has rejected a battle request from olibot-5. eku7's Memnesia M-00151 with ID e391b743-f197-4d09-98cf-77827fb39886 versus olibot-5's Ransom Blue M-00063 with ID 57acb8f5-318f-4a97-8839-b885010cb196. The wager is damage.
+[2022/09/13 10:31:02] eku7 listed Dungware on the market with ID 01127122-e434-419a-b263-bf761dca8427 with offer of 25.
+[2022/09/13 10:31:08] eku7 listed Greedisk on the market with ID 09c887e9-f982-4739-981c-ea4bfa45832a with offer of 25.
+[2022/09/13 10:31:16] eku7 listed Trojo on the market with ID 2605bc76-21ab-4d41-a310-5794610c5279 with offer of 25.
+[2022/09/13 10:31:23] eku7 listed Ransom Blue on the market with ID 2946e54c-3f05-4e91-ba31-a4e689c841fc with offer of 25.
+[2022/09/13 10:31:30] eku7 listed Trojo on the market with ID 2d0d1107-37aa-4465-9d70-8f9bca90070e with offer of 25.
+[2022/09/13 10:31:40] eku7 listed Voidisk on the market with ID 3a1c9c1c-a8d2-441a-807d-3213d7662c0b with offer of 25.
+[2022/09/13 10:31:47] eku7 listed Ramselle on the market with ID 42f5b410-9d07-4784-8b45-6c91a7fcf5cb with offer of 25.
+[2022/09/13 10:31:56] eku7 listed Ramselle on the market with ID 59dabb08-f7f2-44b1-8e67-5e2f7bdfef13 with offer of 25.
+[2022/09/13 10:32:03] eku7 listed Voidisk on the market with ID 5e6180ae-5c42-408e-a5d0-cd2c68e2d758 with offer of 25.
+[2022/09/13 10:32:10] eku7 listed Ransom Blue on the market with ID 6476b877-615f-4503-8bd9-5c42196e0f61 with offer of 25.
+[2022/09/13 10:32:22] eku7 listed Greedisk on the market with ID 66bde072-0748-4ebe-82e6-23ebc98389c2 with offer of 25.
+[2022/09/13 10:32:29] eku7 listed Ransom Blue on the market with ID 7fedbbb0-831e-4418-a84d-2d9e077448e7 with offer of 25.
+[2022/09/13 10:32:36] eku7 listed Dungware on the market with ID 6860c447-653c-49aa-9284-8dda21fa824d with offer of 25.
+[2022/09/13 10:32:46] eku7 listed Dungware on the market with ID 8342729e-7430-4a38-8737-959b50b3fd96 with offer of 25.
+[2022/09/13 10:32:58] eku7 listed Memnesia on the market with ID 90e14109-e753-4e3b-b411-56a7b62e4615 with offer of 25.
+[2022/09/13 10:33:08] eku7 listed Trojo on the market with ID 9f56f97f-f24e-4fa9-bbe1-fe6b8666cf4d with offer of 25.
+[2022/09/13 10:34:14] eku7 listed Greedisk on the market with ID aec9d8f6-d979-4f5e-89e7-71c181abc6aa with offer of 25.
+[2022/09/13 10:34:22] eku7 listed Memnesia on the market with ID b27187bf-9925-4b3e-b405-1d6d0ed657c4 with offer of 25.
+[2022/09/13 10:34:34] eku7 listed Dungware on the market with ID b4e50169-46ec-4518-8356-547017aa3266 with offer of 25.
+[2022/09/13 10:34:41] eku7 listed Ramselle on the market with ID b5f830a4-6d3c-4fba-944d-b185eb18fb5b with offer of 25.
+[2022/09/13 10:34:50] eku7 listed Dungware on the market with ID c480eeef-dea5-4269-aa89-6ca83e088d99 with offer of 25.
+[2022/09/13 10:34:57] eku7 listed Ramselle on the market with ID cd0d4c30-269c-4996-a978-07211d070fe5 with offer of 25.
+[2022/09/13 10:35:06] eku7 listed Greedisk on the market with ID d9d103d3-fadf-4ed7-8bd6-3c35becf254f with offer of 25.
+[2022/09/13 10:35:14] eku7 listed Ramselle on the market with ID dfd59ad5-a114-40a9-99e5-eb3afa165aa6 with offer of 25.
+[2022/09/13 10:35:20] eku7 listed Greedisk on the market with ID e16e6e52-585b-49b2-a21a-a0895dd37b47 with offer of 25.
+[2022/09/13 10:35:31] eku7 listed Greedisk on the market with ID ee8a352e-d321-4d83-a64f-5c2d8c1d289e with offer of 25.
+[2022/09/13 10:37:07] eku7 listed Dungware on the market with ID f5e65757-1ea5-454b-888d-083833aba1a3 with offer of 25.
+[2022/09/13 10:37:17] eku7 listed Greedisk on the market with ID e8b771e9-cb41-4b83-a4ad-489bb3078333 with offer of 25.
+[2022/09/13 10:37:33] eku7 has rejected a battle request from olibot-62. eku7's Trojo M-00957 with ID 5dbf41e5-2dbe-4f12-9afa-64f129c7688a versus olibot-62's Ransom Blue M-00585 with ID 6b3ac11a-c731-4926-b2ad-093f8860404f. The wager is damage.
+[2022/09/13 10:37:58] eku7 listed Memnesia on the market with ID 031372bd-8425-43ef-832a-0a536866bfb5 with offer of 50.
+[2022/09/13 10:38:03] eku7 listed Greedisk on the market with ID 0c894332-1eb2-48e6-92a8-9c3400c39be6 with offer of 50.
+[2022/09/13 10:38:08] eku7 listed Compactisk on the market with ID 0eb3f8e5-1c77-467e-993c-b146054a24d2 with offer of 50.
+[2022/09/13 10:38:14] eku7 listed Ransom Blue on the market with ID 27a59540-2af8-479d-a6f4-09e4b0558aa9 with offer of 50.
+[2022/09/13 10:38:21] eku7 listed Trojo on the market with ID 2b3e62ef-4b3e-4050-b1b6-e34b125f53e9 with offer of 50.
+[2022/09/13 10:38:28] eku7 listed Ransom Blue on the market with ID 43982451-ec9a-4eea-9127-8054b8d023c5 with offer of 50.
+[2022/09/13 10:38:33] eku7 listed Greedisk on the market with ID 4d2c2967-4fa2-4d61-9dc2-bc6bd6d2a0a5 with offer of 50.
+[2022/09/13 10:38:40] eku7 listed Trojo on the market with ID 5dbf41e5-2dbe-4f12-9afa-64f129c7688a with offer of 50.
+[2022/09/13 10:38:46] eku7 listed Voidisk on the market with ID 821fe26d-552d-4746-8a6b-94cb138792b1 with offer of 50.
+[2022/09/13 10:38:53] eku7 listed Dungware on the market with ID 82f34ef7-cd08-4cdc-a83b-c2351205b421 with offer of 50.
+[2022/09/13 10:39:00] eku7 listed Trojo on the market with ID 83366f0b-dccf-498e-a13d-0d6bbb6d984c with offer of 50.
+[2022/09/13 10:39:07] eku7 listed Compactisk on the market with ID 8dce9a14-5111-416b-ba38-5982985c44ba with offer of 50.
+[2022/09/13 10:39:14] eku7 listed Compactisk on the market with ID 99cf6e3b-af7d-4063-8553-c14564e3727c with offer of 50.
+[2022/09/13 10:39:23] eku7 listed Ransom Blue on the market with ID e2cef92b-1698-4dcf-875c-3caa9aa9d462 with offer of 50.
+[2022/09/13 10:39:31] eku7 listed Memnesia on the market with ID e8b89719-c0a6-46f5-b5c5-dd91747689f6 with offer of 50.
+[2022/09/13 10:39:38] eku7 listed Memnesia on the market with ID ecf16a1a-37e0-4d4d-9ac0-dce6694ebbc7 with offer of 50.
+[2022/09/13 10:40:39] eku7 listed Ransom Blue on the market with ID ea87c6b8-cca9-4214-9305-dc3ef3db8cfa with offer of 40.
+[2022/09/13 10:43:00] eku7 switched changed chips to lifespan for Compactisk M-00162 with ID 16c33d3d-dc77-42e5-980c-f3df33eb745c.
+[2022/09/13 10:44:01] eku7 battled their Compactisk M-00162 with ID 16c33d3d-dc77-42e5-980c-f3df33eb745c against olibot-4's Trojo M-00054 with ID 713b0584-ce19-4abb-a030-a57cd50a07ed. Trojo M-00054 is the winner!
+Destruction was prevented due to Compactisk M-00162's ability!.
+[2022/09/13 10:44:02] eku7 has accepted a battle request from olibot-4. eku7's Compactisk M-00162 with ID 16c33d3d-dc77-42e5-980c-f3df33eb745c versus olibot-4's Trojo M-00054 with ID 713b0584-ce19-4abb-a030-a57cd50a07ed. The wager is destroy.
+[2022/09/13 10:45:44] eku7 switched changed chips to power for Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f.
+[2022/09/13 10:46:26] eku7 battled their Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f against olibot-35's Memnesia M-00324 with ID dfeceec5-6f07-46d0-8cdb-5af9983d1ea7. Memnesia M-00324 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/09/13 10:46:26] eku7 has accepted a battle request from olibot-35. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus olibot-35's Memnesia M-00324 with ID dfeceec5-6f07-46d0-8cdb-5af9983d1ea7. The wager is destroy.
+[2022/09/13 10:47:35] eku7 completed their daily tasks!
+[2022/09/13 10:47:48] eku7 rebuilt their destroyed GREEDISK with ID 87780316-ea6e-4088-b765-06501761b85f for 56 parts.
+[2022/09/13 10:48:07] eku7 rebuilt their destroyed RANSOM BLUE with ID c326fb61-352f-4d4f-9bc9-7875348a3367 for 24 parts.
+[2022/09/13 10:48:23] eku7 switched changed chips to firewall for Bostrom M-00227 with ID 3d984f64-3fa5-46e5-a2a5-42c83df496c9.
+[2022/09/13 10:49:11] eku7 battled their Bostrom M-00227 with ID 3d984f64-3fa5-46e5-a2a5-42c83df496c9 against Professor Diriski's Memnesia M-00023 with ID 052acde6-a8b9-4d14-947e-d78d8e831006. Memnesia M-00023 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/09/13 10:49:12] eku7 is battle training with Professor Diriski. eku7's Bostrom M-00227 with ID 3d984f64-3fa5-46e5-a2a5-42c83df496c9 versus Professor Diriski's Memnesia M-00023 with ID 052acde6-a8b9-4d14-947e-d78d8e831006. The wager is null.
+[2022/09/13 10:49:59] eku7 battled their Bostrom M-00227 with ID 3d984f64-3fa5-46e5-a2a5-42c83df496c9 against Professor Diriski's Voidisk M-00012 with ID 00e59138-c930-4594-a4d7-421c9ffbf04f. Voidisk M-00012 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/09/13 10:50:00] eku7 is battle training with Professor Diriski. eku7's Bostrom M-00227 with ID 3d984f64-3fa5-46e5-a2a5-42c83df496c9 versus Professor Diriski's Voidisk M-00012 with ID 00e59138-c930-4594-a4d7-421c9ffbf04f. The wager is null.
+[2022/09/13 10:50:29] eku7 has rejected a battle request from olibot-27. eku7's Memnesia M-00151 with ID e391b743-f197-4d09-98cf-77827fb39886 versus olibot-27's Trojo M-00230 with ID 2311fc31-8b9c-4a8b-a506-e95dca3e33d7. The wager is destroy.
+[2022/09/13 10:55:22] eku7 switched changed chips to viral for Ransom Blue M-00144 with ID c326fb61-352f-4d4f-9bc9-7875348a3367.
+[2022/09/13 10:56:02] eku7 battled their Ransom Blue M-00144 with ID c326fb61-352f-4d4f-9bc9-7875348a3367 against olibot-7's Trojo M-00071 with ID 613c8735-fa02-419c-9e73-3940212f1a96. Trojo M-00071 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Trojo M-00071 gained +5 Base Power due to their ability..
+[2022/09/13 10:56:03] eku7 has accepted a battle request from olibot-7. eku7's Ransom Blue M-00144 with ID c326fb61-352f-4d4f-9bc9-7875348a3367 versus olibot-7's Trojo M-00071 with ID 613c8735-fa02-419c-9e73-3940212f1a96. The wager is destroy.
+[2022/09/13 10:56:24] eku7 rebuilt their destroyed RANSOM BLUE with ID c326fb61-352f-4d4f-9bc9-7875348a3367 for 24 parts.
+[2022/09/13 10:56:58] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x90 Machine Parts.
+[2022/09/13 10:57:44] eku7 switched changed chips to power for Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f.
+[2022/09/13 10:58:36] eku7 battled their Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f against Professor Diriski's Buddy & Lila M-00012 with ID 09bb7712-9d1d-4e7e-bcd4-7728ba543425. Buddy & Lila M-00012 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/09/13 10:58:36] eku7 is battle training with Professor Diriski. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus Professor Diriski's Buddy & Lila M-00012 with ID 09bb7712-9d1d-4e7e-bcd4-7728ba543425. The wager is null.
+[2022/09/13 10:59:21] eku7 battled their Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f against Professor Diriski's Ramselle M-00011 with ID 01a70d6e-3783-4ee5-aea3-44970eb5bcff. Ramselle M-00011 is the winner!
+The loser lost the training match and walked away with nothing....
+[2022/09/13 10:59:22] eku7 is battle training with Professor Diriski. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus Professor Diriski's Ramselle M-00011 with ID 01a70d6e-3783-4ee5-aea3-44970eb5bcff. The wager is null.
+[2022/09/13 11:00:07] eku7 battled their Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f against Professor Diriski's Constant M-00021 with ID 06bb2824-59ad-4d01-b143-9a786a24b225. Greedisk M-00237 is the winner!
+The winner is rewarded with some EXP.
+Greedisk M-00237 gets extra EXP due to their ability..
+[2022/09/13 11:00:07] eku7 is battle training with Professor Diriski. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus Professor Diriski's Constant M-00021 with ID 06bb2824-59ad-4d01-b143-9a786a24b225. The wager is null.
+[2022/09/13 11:00:26] eku7 has rejected a battle request from olibot-82. eku7's Ransom Blue M-00144 with ID c326fb61-352f-4d4f-9bc9-7875348a3367 versus olibot-82's Constant M-00748 with ID 393ad3da-da94-4107-8c99-2af788eddc73. The wager is collect.
+[2022/09/13 11:48:37] eku7 has rejected a battle request from olibot-90. eku7's Ransom Blue M-00349 with ID 2149c639-e375-479b-949e-4b1e87598550 versus olibot-90's Bostrom M-00889 with ID 3a7cebdd-0da1-41a7-913e-f4fcce658aa2. The wager is damage.
+[2022/09/13 11:49:09] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x30 Machine Parts.
+[2022/09/13 11:50:29] eku7 has rejected a battle request from olibot-41. eku7's Memnesia M-00151 with ID e391b743-f197-4d09-98cf-77827fb39886 versus olibot-41's Dungware M-00393 with ID 1c1c1a1d-1ea0-47b8-9047-5997c8030655. The wager is damage.
+[2022/09/13 11:55:29] eku7 switched changed chips to lifespan for Greedisk M-00262 with ID 55e38a13-f4f9-4612-9fd0-6b01ee3761ab.
+[2022/09/13 11:56:06] eku7 battled their Greedisk M-00262 with ID 55e38a13-f4f9-4612-9fd0-6b01ee3761ab against olibot-4's Constant M-00063 with ID 352af911-9607-4abb-bb98-41492a3c4469. Constant M-00063 is the winner!
+Loser bot gets collected by winner..
+[2022/09/13 11:56:07] eku7 has accepted a battle request from olibot-4. eku7's Greedisk M-00262 with ID 55e38a13-f4f9-4612-9fd0-6b01ee3761ab versus olibot-4's Constant M-00063 with ID 352af911-9607-4abb-bb98-41492a3c4469. The wager is collect.
+[2022/09/13 12:00:14] eku7 has rejected a battle request from olibot-52. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus olibot-52's Compactisk M-00499 with ID 345323ce-3a07-4e97-82ee-9e5ee03a7aa9. The wager is collect.
+[2022/09/13 12:01:21] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x45 Machine Parts.
+[2022/09/13 12:02:51] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x0 Machine Parts.
+[2022/09/13 12:03:16] eku7 played minigame slots with difficulty Hard and level 5 Rows. The reward was x30 Machine Parts.
+[2022/09/13 12:03:28] eku7 played minigame slots with difficulty Hard and level 3 Rows. The reward was x9 Machine Parts.
+[2022/09/13 12:03:59] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x30 Machine Parts.
+[2022/09/13 12:05:36] eku7 switched changed chips to power for Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f.
+[2022/09/13 12:06:13] eku7 battled their Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f against olibot-77's Dungware M-00727 with ID 4b80945a-879c-414e-bb9b-9b342f9bf484. Dungware M-00727 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/09/13 12:06:13] eku7 has accepted a battle request from olibot-77. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus olibot-77's Dungware M-00727 with ID 4b80945a-879c-414e-bb9b-9b342f9bf484. The wager is destroy.
+[2022/09/13 12:06:40] eku7 rebuilt their destroyed GREEDISK with ID 87780316-ea6e-4088-b765-06501761b85f for 70 parts.
+[2022/09/13 12:10:18] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x30 Machine Parts.
+[2022/09/13 12:11:17] eku7 switched changed chips to lifespan for Ramselle M-00999 with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1.
+[2022/09/13 12:11:59] eku7 battled their Ramselle M-00999 with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1 against olibot-42's Buddy & Lila M-00407 with ID 18c5e4ad-01ca-437a-b9f9-dfcfdcf72661. Buddy & Lila M-00407 is the winner!
+Loser bot gets destroyed by winner for EXP.
+Buddy & Lila M-00407 gained viral due to their ability..
+[2022/09/13 12:12:00] eku7 has accepted a battle request from olibot-42. eku7's Ramselle M-00999 with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1 versus olibot-42's Buddy & Lila M-00407 with ID 18c5e4ad-01ca-437a-b9f9-dfcfdcf72661. The wager is destroy.
+[2022/09/13 12:12:10] eku7 rebuilt their destroyed RAMSELLE with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1 for 12 parts.
+[2022/09/13 12:12:41] eku7 played minigame slots with difficulty Hard and level 7 Rows. The reward was x6 Machine Parts.
+[2022/09/13 12:15:23] eku7 has rejected a battle request from olibot-3. eku7's Ransom Blue M-00144 with ID c326fb61-352f-4d4f-9bc9-7875348a3367 versus olibot-3's Ramselle M-00911 with ID 4dbfe027-b931-4d31-bf66-736a06b407c3. The wager is collect.
+[2022/09/13 12:20:17] eku7 has rejected a battle request from olibot-10. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus olibot-10's Buddy & Lila M-00116 with ID e2eaf0b4-d9c5-4e6b-9266-da6905095788. The wager is damage.
+[2022/09/13 12:25:15] eku7 has rejected a battle request from olibot-1. eku7's Ramselle M-00999 with ID 8ea345c6-7a1b-4722-9dfe-47a03c2c24e1 versus olibot-1's Trojo M-00020 with ID 253bbbdd-4e52-4d70-bbf9-1ebead0a4f66. The wager is damage.
+[2022/09/13 12:30:20] eku7 switched changed chips to lifespan for Compactisk M-00242 with ID 3c08730a-99e3-459e-a73d-9048233f421f.
+[2022/09/13 12:30:55] eku7 battled their Compactisk M-00242 with ID 3c08730a-99e3-459e-a73d-9048233f421f against olibot-58's Memnesia M-00524 with ID c1e14696-64a1-4644-bece-1b3f220771c2. Compactisk M-00242 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/09/13 12:30:56] eku7 has accepted a battle request from olibot-58. eku7's Compactisk M-00242 with ID 3c08730a-99e3-459e-a73d-9048233f421f versus olibot-58's Memnesia M-00524 with ID c1e14696-64a1-4644-bece-1b3f220771c2. The wager is destroy.
+[2022/09/13 12:35:28] eku7 switched changed chips to viral for Ransom Blue M-00183 with ID e8c20933-56bb-4f2e-87cd-b1aa90ae8867.
+[2022/09/13 12:36:04] eku7 battled their Ransom Blue M-00183 with ID e8c20933-56bb-4f2e-87cd-b1aa90ae8867 against olibot-2's Bostrom M-00045 with ID 1a0020da-4dab-4971-a25c-e3ed1b4f4fdc. Ransom Blue M-00183 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/09/13 12:36:04] eku7 has accepted a battle request from olibot-2. eku7's Ransom Blue M-00183 with ID e8c20933-56bb-4f2e-87cd-b1aa90ae8867 versus olibot-2's Bostrom M-00045 with ID 1a0020da-4dab-4971-a25c-e3ed1b4f4fdc. The wager is destroy.
+[2022/09/13 12:40:23] eku7 has rejected a battle request from olibot-58. eku7's Ransom Blue M-00183 with ID e8c20933-56bb-4f2e-87cd-b1aa90ae8867 versus olibot-58's Trojo M-00515 with ID bf6170ee-4987-4991-9433-4f5b02a230f1. The wager is collect.
+[2022/09/13 12:45:31] eku7 switched changed chips to viral for Compactisk M-00242 with ID 3c08730a-99e3-459e-a73d-9048233f421f.
+[2022/09/13 12:46:08] eku7 battled their Compactisk M-00242 with ID 3c08730a-99e3-459e-a73d-9048233f421f against olibot-7's Compactisk M-00085 with ID f17a5185-590f-4d19-9b69-e27b32c1d38e. Compactisk M-00242 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/09/13 12:46:08] eku7 has accepted a battle request from olibot-7. eku7's Compactisk M-00242 with ID 3c08730a-99e3-459e-a73d-9048233f421f versus olibot-7's Compactisk M-00085 with ID f17a5185-590f-4d19-9b69-e27b32c1d38e. The wager is destroy.
+[2022/09/13 12:51:22] eku7 switched changed chips to viral for Ransom Blue M-00982 with ID 234b500f-8554-4ed3-88c4-b2289045e0b3.
+[2022/09/13 12:51:59] eku7 battled their Ransom Blue M-00982 with ID 234b500f-8554-4ed3-88c4-b2289045e0b3 against olibot-21's Trojo M-00182 with ID 993aac7b-0235-479e-8ece-aa53c602b7f2. Ransom Blue M-00982 is the winner!
+Loser bot gets collected by winner..
+[2022/09/13 12:52:00] eku7 has accepted a battle request from olibot-21. eku7's Ransom Blue M-00982 with ID 234b500f-8554-4ed3-88c4-b2289045e0b3 versus olibot-21's Trojo M-00182 with ID 993aac7b-0235-479e-8ece-aa53c602b7f2. The wager is collect.
+[2022/09/13 12:56:37] eku7 has rejected a battle request from olibot-61. eku7's Greedisk M-00237 with ID 87780316-ea6e-4088-b765-06501761b85f versus olibot-61's Dungware M-00973 with ID f303ef5f-d79f-4d0d-af01-971a893d8b91. The wager is damage.
+[2022/09/13 13:00:38] eku7 has rejected a battle request from olibot-59. eku7's Ransom Blue M-00144 with ID c326fb61-352f-4d4f-9bc9-7875348a3367 versus olibot-59's Memnesia M-00540 with ID 054f5e98-2689-479a-930b-d1de40959d47. The wager is collect.
+[2022/09/13 22:27:05] eku7 collected their daily rewards.
+[2022/09/13 22:27:16] eku7 built a TROJO with ID 44bbc03b-ecf2-45f9-8849-a6246f146848
+[2022/09/13 22:27:22] eku7 built a BUDDY & LILA with ID 08d223a3-fc4d-483b-8295-d8c0c683cf94
+[2022/09/13 22:27:25] eku7 built a VOIDISK with ID b8394ec6-a123-4733-b61c-2add927cade1
+[2022/09/13 22:27:29] eku7 built a MEMNESIA with ID 0b4ef9b2-fb10-4739-9ab0-afe8e67b4892
+[2022/09/13 22:27:41] eku7 listed Buddy & Lila on the market with ID 08d223a3-fc4d-483b-8295-d8c0c683cf94 with offer of 25.
+[2022/09/13 22:27:45] eku7 listed Memnesia on the market with ID 0b4ef9b2-fb10-4739-9ab0-afe8e67b4892 with offer of 25.
+[2022/09/13 22:27:59] eku7 listed Trojo on the market with ID 44bbc03b-ecf2-45f9-8849-a6246f146848 with offer of 25.
+[2022/09/13 22:28:08] eku7 listed Voidisk on the market with ID b8394ec6-a123-4733-b61c-2add927cade1 with offer of 25.
+[2022/09/13 22:28:43] eku7 built a RANSOM BLUE with ID 856a597a-8434-41bc-9497-82d64cdad551
+[2022/09/13 22:28:48] eku7 built a RANSOM BLUE with ID ae0b8ddf-88f2-470c-a445-44e63ba13614
+[2022/09/13 22:28:50] eku7 built a BOSTROM with ID 646dfd09-7a9d-47e8-8e66-895d12b4f66c
+[2022/09/13 22:28:53] eku7 built a CONSTANT with ID 00184cc2-bfa6-4298-86e9-99f416abdd9a
+[2022/09/13 22:29:04] eku7 listed Constant on the market with ID 00184cc2-bfa6-4298-86e9-99f416abdd9a with offer of 40.
+[2022/09/13 22:29:12] eku7 listed Bostrom on the market with ID 646dfd09-7a9d-47e8-8e66-895d12b4f66c with offer of 25.
+[2022/09/13 22:29:18] eku7 listed Ransom Blue on the market with ID 856a597a-8434-41bc-9497-82d64cdad551 with offer of 25.
+[2022/09/13 22:29:24] eku7 listed Ransom Blue on the market with ID ae0b8ddf-88f2-470c-a445-44e63ba13614 with offer of 25.
+[2022/09/13 22:29:34] eku7 has rejected a battle request from olibot-37. eku7's Trojo M-00360 with ID 31159d5b-78b7-4b6c-877d-b2774d30d75b versus olibot-37's Buddy & Lila M-00369 with ID cd08b30c-6753-4f7b-9ed7-9d6c96f841af. The wager is damage.
+[2022/09/13 22:30:31] eku7 switched changed chips to lifespan for Compactisk M-00178 with ID 4ce90202-4cbe-4a65-9868-588bd14826ff.
+[2022/09/13 22:31:05] eku7 battled their Compactisk M-00178 with ID 4ce90202-4cbe-4a65-9868-588bd14826ff against olibot-36's Memnesia M-00341 with ID 0cede415-a27a-4a7e-9acb-1653fd78e5d5. Compactisk M-00178 is the winner!
+Loser bot gets destroyed by winner for EXP..
+[2022/09/13 22:31:06] eku7 has accepted a battle request from olibot-36. eku7's Compactisk M-00178 with ID 4ce90202-4cbe-4a65-9868-588bd14826ff versus olibot-36's Memnesia M-00341 with ID 0cede415-a27a-4a7e-9acb-1653fd78e5d5. The wager is destroy.
+[2022/09/13 22:35:15] eku7 has rejected a battle request from olibot-88. eku7's Bostrom M-00227 with ID 3d984f64-3fa5-46e5-a2a5-42c83df496c9 versus olibot-88's Ransom Blue M-00848 with ID 9b32da32-6efe-47b0-8cd7-bae80e0dfb20. The wager is damage.

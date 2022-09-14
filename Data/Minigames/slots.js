@@ -126,6 +126,7 @@ module.exports = {
         collector.on('collect', async i => {
 
             // Logic to permanently add icon
+            console.log(`slots interaction tag: ${interaction.user.tag}, i tag: ${i.user.tag}`);
             await i.deferUpdate();
 
             selectionIndex++;              

@@ -73,6 +73,7 @@ module.exports = {
         const filter = i => (i.user.id === interaction.user.id && (i.customId == confirmId || i.customId == selectXId || i.customId == selectYId));
         const collector = interaction.channel.createMessageComponentCollector({ filter, time: 120000 });
         collector.on('collect', async i => {
+            console.log(`xo interaction tag: ${interaction.user.tag}, i tag: ${i.user.tag}`);
             await i.deferUpdate()
                 .catch(e => utils.consola.error(e));
 

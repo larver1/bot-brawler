@@ -96,6 +96,7 @@ module.exports = {
         const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 120000, errors: ['time'] });
         
         collector.on('collect', async i => {
+            console.log(`claw interaction tag: ${interaction.user.tag}, i tag: ${i.user.tag}`);
             await i.deferUpdate().catch(e => utils.consola.error(e));
 
             let newPos = { ...clawPos };

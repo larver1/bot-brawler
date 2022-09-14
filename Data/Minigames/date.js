@@ -93,6 +93,7 @@ module.exports = {
         const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 120000, errors: ['time'] });
 
         collector.on('collect', async i => {
+            console.log(`date interaction tag: ${interaction.user.tag}, i tag: ${i.user.tag}`);
             await i.deferUpdate().catch(e => utils.consola.error(e));
 
             let actionBehaviour = "";

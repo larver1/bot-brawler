@@ -174,6 +174,7 @@ module.exports = {
         const collector = interaction.channel.createMessageComponentCollector({ filter,  time: 600000, errors: ['time'] });
         
         collector.on('collect', async i => {
+            console.log(`dolls interaction tag: ${interaction.user.tag}, i tag: ${i.user.tag}`);
             await i.deferUpdate().catch(e => utils.consola.error(e));
 
             if(turns <= 0) {

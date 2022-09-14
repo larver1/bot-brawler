@@ -538,9 +538,13 @@ module.exports = {
             if(otherUser.username == "Professor Diriski") {
                 let err = new Error(`You are out of \`/battle train\` challenges. Use \`/daily\` to refresh them.`);
                 await utils.handler.info(interaction, err);                
-            }
+            } else {
+                let err = new Error(`The other user doesn't have any bots to battle with!`);
+                await utils.handler.info(interaction, err);     
+            }  
             
             await utils.user.pause(false);  
+            await otherUser.pause(false);  
             return;
         }
 
