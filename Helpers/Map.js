@@ -113,13 +113,13 @@ module.exports = class Map {
                     passedAll = false;
                     i = 0;
                     innerAttempts++;
-                }
 
-                if(innerAttempts >= 100) {
-                    success = false;
-                    break;
-                }
+                    if(innerAttempts >= 100) {
+                        success = false;
+                        break;
+                    }
 
+                }
             }
 
             attempts++;
